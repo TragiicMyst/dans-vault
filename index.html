@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#111111">
+  <title>Dan's Vault — Authentic Nike & Streetwear</title>
+  <meta name="description" content="Dan's Vault — curated Nike trainers, streetwear and winter-ready branded clothing.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="#" aria-label="Dan's Vault home">DAN'S <span>VAULT</span></a>
+  <nav class="nav">
+    <a href="#shop">Shop</a><a href="#new">New arrivals</a><a href="#about">About</a>
+  </nav>
+  <button class="cart-btn" id="cartOpen" aria-label="Open basket">Basket <span id="cartCount">0</span></button>
+</header>
+
+<main>
+<section class="hero">
+  <div class="hero-copy">
+    <p class="eyebrow">CURATED • AUTHENTIC • READY TO SHIP</p>
+    <h1>YOUR NEXT<br><em>PAIR</em> IS HERE.</h1>
+    <p class="hero-text">Nike trainers and premium streetwear, hand-picked for the UK. New stock added regularly.</p>
+    <a class="button button-light" href="#shop">Shop the vault</a>
+  </div>
+  <div class="hero-card">
+    <img src="assets/nike-air-force-1.png" alt="Black Nike trainer on wooden floor">
+    <div class="hero-tag">NIKE • AIR FORCE 1</div>
+  </div>
+</section>
+
+<section class="ticker"><span>NIKE</span><span>THE NORTH FACE</span><span>RALPH LAUREN</span><span>CARHARTT</span><span>ADIDAS</span><span>LEVI'S</span></section>
+
+<section id="shop" class="shop-section">
+  <div class="section-head">
+    <div><p class="eyebrow">THE VAULT</p><h2>Latest stock</h2></div>
+    <div class="filters">
+      <button class="filter active" data-filter="all">All</button>
+      <button class="filter" data-filter="trainers">Trainers</button>
+      <button class="filter" data-filter="tops">Tops</button>
+      <button class="filter" data-filter="outerwear">Outerwear</button>
+      <button class="filter" data-filter="bottoms">Bottoms</button>
+    </div>
+  </div>
+  <div id="products" class="product-grid"></div>
+</section>
+
+<section id="new" class="feature">
+  <div>
+    <p class="eyebrow">WINTER READY</p>
+    <h2>Built for the colder months.</h2>
+    <p>Expect Nike puffers, jackets, fleeces, hoodies, track jackets and heavyweight branded pieces throughout the season.</p>
+    <a class="button" href="#shop">Shop winter stock</a>
+  </div>
+  <div class="feature-image"><img src="assets/nike-air-force-box.png" alt="Nike shoes in box"></div>
+</section>
+
+<section id="about" class="about">
+  <p class="eyebrow">ABOUT DAN'S VAULT</p>
+  <h2>Good stock. Clean photos. No nonsense.</h2>
+  <p>Dan's Vault is a UK-focused reseller specialising in Nike trainers and premium branded streetwear. Every piece is checked before listing and photographed cleanly for an honest look at what you're buying.</p>
+  <div class="trust-grid">
+    <div><strong>100%</strong><span>Item-focused listings</span></div>
+    <div><strong>UK</strong><span>Reseller focused</span></div>
+    <div><strong>NEW</strong><span>Stock added regularly</span></div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="brand">DAN'S <span>VAULT</span></div>
+  <p>© 2026 Dan's Vault. All rights reserved.</p>
+</footer>
+
+<aside id="cart" class="cart-drawer" aria-hidden="true">
+  <div class="cart-head"><h2>Your basket</h2><button id="cartClose">×</button></div>
+  <div id="cartItems" class="cart-items"></div>
+  <div class="cart-total"><span>Total</span><strong id="cartTotal">£0.00</strong></div>
+  <button class="button checkout" id="checkout">Checkout</button>
+  <p class="small">Demo checkout — connect Stripe/Shopify payments before launch.</p>
+</aside>
+<div id="overlay" class="overlay"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
