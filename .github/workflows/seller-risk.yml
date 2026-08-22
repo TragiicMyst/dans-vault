@@ -2,7 +2,7 @@ name: Dan's Vault Seller Risk
 
 on:
   schedule:
-    - cron: '*/15 * * * *'
+    - cron: '* * * * *'
   workflow_dispatch:
 
 permissions:
