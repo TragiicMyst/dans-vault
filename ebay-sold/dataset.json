@@ -1,0 +1,102 @@
+{
+  "source": "User-supplied eBay Product Research screenshots, UK, 90-day windows, captured 22 Aug 2026",
+  "models": {
+    "Nike P-6000": {
+      "confidence": "high",
+      "avgSold": 53.85,
+      "sellThrough": 30.49,
+      "totalSellers": 1876,
+      "avgPostage": 2.66,
+      "examples": [
+        {"label":"Cool Grey", "avgSold":61.58,"sales":116},
+        {"label":"Anthracite Black Chrome", "avgSold":66.92,"sales":74},
+        {"label":"Celestine Blue Cool Grey", "avgSold":65.28,"sales":69},
+        {"label":"Triple Platinum White", "avgSold":67.86,"sales":57},
+        {"label":"Black Anthracite Chrome", "avgSold":67.77,"sales":48},
+        {"label":"Light Army Cargo Khaki", "avgSold":67.89,"sales":47},
+        {"label":"White Black Metallic Silver", "avgSold":67.90,"sales":47},
+        {"label":"Summit White Wolf Grey", "avgSold":67.00,"sales":41},
+        {"label":"Diffused Blue", "avgSold":59.33,"sales":40}
+      ],
+      "sizeExamples": [
+        {"size":"UK 9","sold":50.83,"label":"Cool Grey"}
+      ]
+    },
+    "Nike Air Max Plus / TN": {
+      "confidence": "medium",
+      "overall": null,
+      "notes": "Overall dashboard metrics were not captured in the supplied screenshots; colourway/size examples below are used instead.",
+      "examples": [
+        {"label":"DM0032-108 Italy Green White Red UK 11", "avgSold":93.39,"sales":2},
+        {"label":"DM0032-030 Black University Gold Red UK 7.5", "avgSold":108.12,"sales":2},
+        {"label":"DM0032-030 Black University Gold Red UK 8", "avgSold":108.12,"sales":2},
+        {"label":"Black Orange UK 7.5", "avgSold":93.05,"sales":2},
+        {"label":"Italy Kelly Green UK 11", "avgSold":88.75,"sales":2},
+        {"label":"Black Sapphire Blue UK 10", "avgSold":93.78,"sales":2},
+        {"label":"Blue White", "avgSold":70.98,"sales":2},
+        {"label":"Black University Blue UK 10", "avgSold":47.63,"sales":2}
+      ],
+      "volumeExamples": [
+        {"label":"New Nike Air Max TN Men's", "avgSold":57.00,"sales":348},
+        {"label":"2025 Nike Air Max TN Men's", "avgSold":59.00,"sales":293},
+        {"label":"New Nike Air Max TN", "avgSold":58.89,"sales":196},
+        {"label":"2026 Nike Air Max TN", "avgSold":57.01,"sales":152},
+        {"label":"UK size Nike Air Max TN", "avgSold":57.27,"sales":52}
+      ]
+    },
+    "Nike Pegasus Premium": {
+      "confidence": "medium",
+      "avgSold": 85.38,
+      "sellThrough": 26.39,
+      "totalSellers": 379,
+      "avgPostage": 3.13,
+      "examples": [
+        {"label":"Year Of The Horse IQ1130-001 UK 7-12", "avgSold":141.91,"sales":7},
+        {"label":"White Metallic Silver", "avgSold":148.44,"sales":5},
+        {"label":"IQ1130-001", "avgSold":134.25,"sales":4},
+        {"label":"Year Of The Horse UK 9", "avgSold":127.50,"sales":3},
+        {"label":"White Silver HQ2593-102 UK 5.5", "avgSold":101.77,"sales":3},
+        {"label":"IF9630-001 Camo UK 10", "avgSold":99.12,"sales":2},
+        {"label":"IF9630-001 Camo UK 11", "avgSold":95.56,"sales":2},
+        {"label":"HQ2592-013 Wolf Grey Cool Grey Gym UK 8", "avgSold":108.77,"sales":2},
+        {"label":"HQ2592-005 Black Metallic Silver UK 9", "avgSold":67.22,"sales":2},
+        {"label":"Year Of The Horse UK 6", "avgSold":92.91,"sales":2},
+        {"label":"HQ2592-005 Pink Foam UK 10", "avgSold":107.47,"sales":2}
+      ]
+    },
+    "Nike Shox TL": {
+      "confidence": "high",
+      "avgSold": 62.97,
+      "sellThrough": 23.41,
+      "totalSellers": 338,
+      "avgPostage": 2.94,
+      "examples": [
+        {"label":"Standard men's Shox TL", "avgSold":58.85,"sales":186},
+        {"label":"Standard men's Shox TL", "avgSold":59.58,"sales":44},
+        {"label":"AV3595-007 Black Racer Blue UK 13", "avgSold":64.50,"sales":11},
+        {"label":"Metallic Silver Wolf Grey UK 8-12", "avgSold":73.69,"sales":6},
+        {"label":"IB1087-001 Black Black Metallic Silver", "avgSold":86.62,"sales":5},
+        {"label":"AV3595-301 Green Shock Black UK 10", "avgSold":78.85,"sales":2},
+        {"label":"AV3595-301 Green Shock Black UK 11", "avgSold":78.97,"sales":2},
+        {"label":"AV3595-013 Black University Gold UK 7", "avgSold":86.15,"sales":2},
+        {"label":"Black Magma Orange UK 10", "avgSold":201.43,"sales":1}
+      ]
+    },
+    "Nike Vomero 18 Plus": {
+      "confidence": "low",
+      "avgSold": 64.51,
+      "sellThrough": 28.57,
+      "totalSellers": 10,
+      "avgPostage": 2.83,
+      "examples": [
+        {"label":"UK 10", "avgSold":57.22,"sales":1},
+        {"label":"UK 9", "avgSold":59.26,"sales":1},
+        {"label":"UK 10", "avgSold":54.25,"sales":1},
+        {"label":"UK 11", "avgSold":46.53,"sales":1},
+        {"label":"UK 9", "avgSold":87.41,"sales":1},
+        {"label":"Black Cool Grey Metallic Dark Grey White USED ONCE", "avgSold":75.35,"sales":1}
+      ],
+      "notes": "Only 10 sellers observed in the supplied 90-day screenshot, so the bot should treat this model as low-confidence and avoid overfitting to single sales."
+    }
+  }
+}
