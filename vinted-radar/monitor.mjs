@@ -47,7 +47,8 @@ for (const search of config.searches) {
       const conditionMatch = config.goodConditionKeywords.some((word) => titleLower.includes(word));
       const resale = config.resaleEstimates[search.name] ?? 0;
       const profit = resale > 0 ? resale - item.price : null;
-      const score = dealScore({ item, priceLimit: search.maxPrice, resale, sizeMatch, conditionMatch });
+      const fakeRisk = fakeRiskLevel({ item, titleLower, resale });
+      const score = dealScore({ item, priceLimit: search.maxPrice, resale, sizeMatch, conditionMatch, fakeRisk });
 
       state.seen.push(item.id);
       if (score < search.minScore || !sizeMatch) continue;
@@ -61,7 +62,8 @@ for (const search of config.searches) {
         profit,
         score,
         sizeMatch,
-        conditionMatch
+        conditionMatch,
+        fakeRisk
       });
       alertsSent += 1;
     }
@@ -117,30 +119,51 @@ function stripTags(value) {
   return value.replace(/<script[\s\S]*?<\/script>/gi, ' ').replace(/<style[\s\S]*?<\/style>/gi, ' ').replace(/<[^>]+>/g, ' ');
 }
 
-function dealScore({ item, priceLimit, resale, sizeMatch, conditionMatch }) {
+function fakeRiskLevel({ item, titleLower, resale }) {
+  const redFlags = [
+    '1:1', 'ua ', 'rep ', 'replica', 'fake', 'counterfeit', 'not authentic',
+    'authentic quality', 'mirror', 'pk batch', 'top quality', 'china'
+  ];
+
+  const flagCount = redFlags.filter((word) => titleLower.includes(word)).length;
+  const unusuallyCheap = resale > 0 && item.price <= resale * 0.35;
+
+  if (flagCount >= 1 || unusuallyCheap) return '🔴 HIGH';
+  if (item.price <= 40 || titleLower.includes('brand new')) return '🟠 MEDIUM';
+  return '🟢 LOW';
+}
+
+function dealScore({ item, priceLimit, resale, sizeMatch, conditionMatch, fakeRisk }) {
   let score = 5;
   const ratio = priceLimit > 0 ? 1 - item.price / priceLimit : 0;
   score += ratio * 3;
   if (sizeMatch) score += 1;
   if (conditionMatch) score += 1;
   if (resale > item.price) score += Math.min(2, (resale - item.price) / Math.max(resale, 1) * 2);
-  return Math.min(10, Number(score.toFixed(1)));
+  if (fakeRisk === '🔴 HIGH') score -= 3;
+  if (fakeRisk === '🟠 MEDIUM') score -= 1;
+  return Math.min(10, Math.max(0, Number(score.toFixed(1))));
 }
 
 async function sendDiscord(webhookUrl, deal) {
   const profitText = deal.profit === null ? 'Unknown' : `£${deal.profit.toFixed(2)}`;
+  const riskNote = deal.fakeRisk === '🔴 HIGH'
+    ? '⚠️ **High fake-risk flags — check photos, labels and code before buying.**'
+    : '⚠️ **Check authenticity before buying.**';
+
   const body = {
     username: "Dan's Vault Radar",
     embeds: [{
-      title: `🔥 ${deal.searchName} bargain`,
-      description: `**${deal.title}**\n\n💷 **£${deal.price.toFixed(2)}**  •  📈 Resale **£${deal.resale.toFixed(2)}**  •  💰 Profit **${profitText}**`,
+      title: `🚨 NEW BARGAIN FOUND 🔥`,
+      description: `**⭐ ${deal.searchName.toUpperCase()}**\n${deal.title}\n\n🏷️ **Price:** £${deal.price.toFixed(2)}\n📏 **Size:** ${deal.sizeMatch ? 'UK 7–10' : 'Check listing'}\n📦 **Condition:** ${deal.conditionMatch ? 'Very good / new match' : 'Check listing'}\n\n📈 **RESELL ESTIMATE**\n**Estimated resale:** £${deal.resale.toFixed(2)}\n**Potential profit:** ${profitText}`,
       url: deal.url,
+      color: deal.fakeRisk === '🔴 HIGH' ? 15158332 : deal.fakeRisk === '🟠 MEDIUM' ? 16753920 : 5763719,
       fields: [
-        { name: '⭐ Deal score', value: `**${deal.score}/10**`, inline: true },
-        { name: '📏 Size', value: deal.sizeMatch ? 'UK 7–10 match' : 'Check size', inline: true },
-        { name: '🆕 Condition', value: deal.conditionMatch ? 'Good match' : 'Check listing', inline: true }
+        { name: '🎯 DEAL SCORE', value: `**${deal.score}/10**`, inline: true },
+        { name: '🛡️ FAKE RISK', value: `**${deal.fakeRisk}**`, inline: true },
+        { name: '🇬🇧 MARKET', value: 'UK listing', inline: true }
       ],
-      footer: { text: 'Manual purchase only • Tap the title to view' },
+      footer: { text: `Dan's Vault Radar • Manual purchase only • ${riskNote}` },
       timestamp: new Date().toISOString()
     }]
   };
