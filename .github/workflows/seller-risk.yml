@@ -4,6 +4,12 @@ on:
   schedule:
     - cron: '* * * * *'
   workflow_dispatch:
+    inputs:
+      test_mode:
+        description: 'Send a Discord diagnostic alert to verify the webhook'
+        required: false
+        default: false
+        type: boolean
 
 permissions:
   contents: write
@@ -19,11 +25,15 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+
       - name: Run seller risk monitor
         env:
           DISCORD_SELLER_RISK_WEBHOOK_URL: ${{ secrets.DISCORD_SELLER_RISK_WEBHOOK_URL }}
+          SELLER_RISK_TEST_MODE: ${{ github.event_name == 'workflow_dispatch' && inputs.test_mode == true && 'true' || 'false' }}
         run: node vinted-radar/seller-risk.mjs
+
       - name: Save seller risk state
+        if: ${{ !(github.event_name == 'workflow_dispatch' && inputs.test_mode == true) }}
         run: |
           git config user.name "Dan's Vault Seller Risk"
           git config user.email "actions@users.noreply.github.com"
