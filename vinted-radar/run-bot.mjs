@@ -1,5 +1,5 @@
 import fs from 'node:fs/promises';
-import { runRadar } from './radar-core.mjs';
+import { runRadar } from './radar-core-v4.mjs';
 
 const root = new URL('./', import.meta.url);
 const bot = process.env.BOT_TYPE ?? 'trainers';
