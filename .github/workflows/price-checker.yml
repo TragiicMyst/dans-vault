@@ -1,15 +1,12 @@
 name: Price Checker
 
+# Paused until the price-checker entrypoint is restored.
+# The previous workflow referenced price-checker/run-bot.mjs, but that path is not present.
 on:
-  schedule:
-    - cron: '*/30 * * * *'
+  workflow_dispatch:
 
 jobs:
-  price-checker:
+  paused:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out repository
-        uses: actions/checkout@v4
-
-      - name: Run price checker
-        run: node price-checker/run-bot.mjs
+      - run: echo "Price Checker is paused — checker entrypoint needs rebuilding before automatic runs are re-enabled."
