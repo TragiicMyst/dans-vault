@@ -1,15 +1,12 @@
 name: Seller Risk
 
+# Paused until the seller-risk entrypoint is restored.
+# The previous workflow referenced seller-risk/run-bot.mjs, but that path is not present.
 on:
-  schedule:
-    - cron: '*/30 * * * *'
+  workflow_dispatch:
 
 jobs:
-  seller-risk:
+  paused:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out repository
-        uses: actions/checkout@v4
-
-      - name: Run seller risk bot
-        run: node seller-risk/run-bot.mjs
+      - run: echo "Seller Risk is paused — seller-risk entrypoint needs rebuilding before automatic runs are re-enabled."
