@@ -166,7 +166,7 @@ await fs.copyFile(new URL('./inventory.json', root), path.join(tempDir, 'invento
 await fs.writeFile(path.join(tempDir, 'config.json'), JSON.stringify({
   ...config,
   searches,
-  sizes: ['XS','S','M','L','XL','XXL',7,7.5,8,8.5,9,9.5,10,10.5],
+  sizes: bot === 'clothing' ? ['XS','S','M','L','XL','XXL'] : [7,7.5,8,8.5,9,9.5,10,10.5],
   models: { ...(config.models ?? {}), ...models },
   costs: config.costs ?? { packaging: 0.8, cleaning: { new: 0, veryGood: 0.75, good: 2, unknown: 2.5 }, vintedSellingFee: 0 },
   strategy: config.strategy ?? {
