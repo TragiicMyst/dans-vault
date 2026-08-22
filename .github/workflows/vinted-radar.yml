@@ -67,15 +67,12 @@ jobs:
             if git rebase origin/main; then
               if git push origin HEAD:main; then exit 0; fi
             else
-              echo "State-file conflict detected; keeping this run's complete radar state."
+              echo "State-file conflict detected; resolving in favour of this radar run's state."
               git checkout --theirs vinted-radar/state.json
               git add vinted-radar/state.json
               GIT_EDITOR=true git rebase --continue
               if git push origin HEAD:main; then exit 0; fi
             fi
-            git rebase --abort 2>/dev/null || true
-            git reset --hard origin/main
-            git add vinted-radar/state.json
             sleep 3
           done
           exit 1
