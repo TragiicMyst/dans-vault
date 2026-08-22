@@ -1866,6 +1866,60 @@
       "size": 9.5,
       "lastPrice": 25,
       "lastSeenAt": "2026-08-22T19:03:14.842Z"
+    },
+    "9731507826": {
+      "size": null,
+      "bootstrapSeen": true,
+      "lastSeenAt": "2026-08-22T22:04:05.939Z",
+      "lastPrice": 120
+    },
+    "9743801366": {
+      "size": null,
+      "bootstrapSeen": true,
+      "lastSeenAt": "2026-08-22T22:03:58.507Z",
+      "lastPrice": 100
+    },
+    "9683153680": {
+      "size": "L",
+      "bootstrapSeen": true,
+      "lastSeenAt": "2026-08-22T22:04:00.888Z",
+      "lastPrice": 89
+    },
+    "9745134473": {
+      "size": 9.5,
+      "bootstrapSeen": true,
+      "lastSeenAt": "2026-08-22T22:04:05.939Z",
+      "lastPrice": 99
+    },
+    "9745296574": {
+      "size": "L",
+      "bootstrapSeen": true,
+      "lastSeenAt": "2026-08-22T22:04:08.552Z",
+      "lastPrice": 110
+    },
+    "9709592373": {
+      "size": "XL",
+      "bootstrapSeen": true,
+      "lastSeenAt": "2026-08-22T22:04:12.429Z",
+      "lastPrice": 20
+    },
+    "9731366025": {
+      "size": "S",
+      "bootstrapSeen": true,
+      "lastSeenAt": "2026-08-22T22:04:14.796Z",
+      "lastPrice": 35
+    },
+    "9745233432": {
+      "size": null,
+      "bootstrapSeen": true,
+      "lastSeenAt": "2026-08-22T22:04:22.825Z",
+      "lastPrice": 33
+    },
+    "9665186334": {
+      "size": "S",
+      "bootstrapSeen": true,
+      "lastSeenAt": "2026-08-22T22:04:19.667Z",
+      "lastPrice": 33
     }
   },
   "market": {
@@ -1930,21 +1984,116 @@
         "10.5": 100,
         "7.5": 75
       }
+    },
+    "Nike ACG Fleece": {
+      "updatedAt": "2026-08-22T22:03:52.392Z",
+      "medianBySize": {
+        "M": 109.99
+      }
+    },
+    "Nike Windrunner Jacket": {
+      "updatedAt": "2026-08-22T22:03:52.392Z",
+      "medianBySize": {
+        "9.5": 99
+      }
+    },
+    "Nike Sportswear Tracksuit": {
+      "updatedAt": "2026-08-22T22:03:52.392Z",
+      "medianBySize": {
+        "L": 110
+      }
+    },
+    "Nike Miler Shorts": {
+      "updatedAt": "2026-08-22T22:03:52.392Z",
+      "medianBySize": {}
+    },
+    "Nike Challenger Shorts": {
+      "updatedAt": "2026-08-22T22:03:52.392Z",
+      "medianBySize": {
+        "S": 35
+      }
+    },
+    "Nike Miler Running Top": {
+      "updatedAt": "2026-08-22T22:03:52.392Z",
+      "medianBySize": {}
+    },
+    "Nike Dri-FIT Running Top": {
+      "updatedAt": "2026-08-22T22:03:52.392Z",
+      "medianBySize": {}
     }
   },
   "sellers": {},
   "images": {},
   "cursor": 4,
-  "updatedAt": "2026-08-22T19:01:25.442Z",
+  "updatedAt": "2026-08-22T22:03:52.392Z",
   "lastRotation": {
     "bot": "clothing",
-    "start": 0,
     "selected": [
       "Nike Tech Fleece Hoodie",
       "Nike Tech Fleece Windrunner",
       "Nike Tech Fleece Joggers",
-      "Nike Tech Fleece Tracksuit"
+      "Nike Tech Fleece Tracksuit",
+      "Nike ACG Fleece",
+      "Nike ACG Jacket",
+      "Nike Puffer Jacket",
+      "Nike Windrunner Jacket",
+      "Nike Sportswear Tracksuit",
+      "Nike Miler Shorts",
+      "Nike Challenger Shorts",
+      "Nike Stride Shorts",
+      "Nike Pro Training Shorts",
+      "Nike Miler Running Top",
+      "Nike Dri-FIT Running Top",
+      "Nike Unlimited Shorts"
     ],
-    "at": "2026-08-22T19:03:15.895Z"
+    "at": "2026-08-22T22:04:24.240Z"
+  },
+  "freshness": {
+    "version": 2,
+    "bootstrapped": true,
+    "frontiers": {
+      "Nike Tech Fleece Windrunner": {
+        "maxId": "9731507826",
+        "updatedAt": "2026-08-22T22:03:52.392Z"
+      },
+      "Nike Tech Fleece Tracksuit": {
+        "maxId": "9743801366",
+        "updatedAt": "2026-08-22T22:03:52.392Z"
+      },
+      "Nike ACG Fleece": {
+        "maxId": "9683153680",
+        "updatedAt": "2026-08-22T22:03:52.392Z"
+      },
+      "Nike Windrunner Jacket": {
+        "maxId": "9745134473",
+        "updatedAt": "2026-08-22T22:03:52.392Z"
+      },
+      "Nike Sportswear Tracksuit": {
+        "maxId": "9745296574",
+        "updatedAt": "2026-08-22T22:03:52.392Z"
+      },
+      "Nike Miler Shorts": {
+        "maxId": "9709592373",
+        "updatedAt": "2026-08-22T22:03:52.392Z"
+      },
+      "Nike Challenger Shorts": {
+        "maxId": "9731366025",
+        "updatedAt": "2026-08-22T22:03:52.392Z"
+      },
+      "Nike Miler Running Top": {
+        "maxId": "9745233432",
+        "updatedAt": "2026-08-22T22:03:52.392Z"
+      },
+      "Nike Dri-FIT Running Top": {
+        "maxId": "9745233432",
+        "updatedAt": "2026-08-22T22:03:52.392Z"
+      }
+    },
+    "lastScanAt": "2026-08-22T22:03:52.392Z"
+  },
+  "diagnostics": {
+    "lastRunAt": "2026-08-22T22:03:52.392Z",
+    "searchGroups": 16,
+    "qualifyingAlerts": 0
   }
 }
