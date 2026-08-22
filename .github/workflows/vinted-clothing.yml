@@ -45,15 +45,24 @@ jobs:
             if [ $wait -gt 0 ] && [ $SECONDS -lt $deadline ]; then sleep $wait; fi
           done
 
-      - name: Save clothing radar state
+      - name: Save clothing radar state safely
         if: ${{ always() }}
         run: |
           git config user.name "Dan's Vault Clothing Radar"
           git config user.email "actions@users.noreply.github.com"
           cp vinted-radar/clothing-state.json /tmp/clothing-state.json
+
           for attempt in 1 2 3 4 5; do
             git fetch origin main
             git reset --hard origin/main
+
+            if [ -f vinted-radar/clothing-state.json ]; then
+              if node -e "const fs=require('fs'); const l=JSON.parse(fs.readFileSync('/tmp/clothing-state.json','utf8')); const r=JSON.parse(fs.readFileSync('vinted-radar/clothing-state.json','utf8')); const lt=Date.parse(l.updatedAt||l.freshness?.lastScanAt||0); const rt=Date.parse(r.updatedAt||r.freshness?.lastScanAt||0); process.exit(Number.isFinite(rt)&&Number.isFinite(lt)&&rt>lt?0:1)"; then
+                echo "Remote clothing state is newer; refusing to overwrite it with stale run state."
+                exit 0
+              fi
+            fi
+
             cp /tmp/clothing-state.json vinted-radar/clothing-state.json
             git add vinted-radar/clothing-state.json
             if git diff --cached --quiet; then exit 0; fi
