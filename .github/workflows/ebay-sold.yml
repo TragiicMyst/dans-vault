@@ -1,15 +1,12 @@
 name: eBay Sold
 
+# Paused until the eBay checker entrypoint is restored.
+# The previous scheduled workflow referenced ebay-sold/run-bot.mjs, which does not exist.
 on:
-  schedule:
-    - cron: '*/30 * * * *'
+  workflow_dispatch:
 
 jobs:
-  ebay-sold:
+  paused:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out repository
-        uses: actions/checkout@v4
-
-      - name: Run eBay sold checker
-        run: node ebay-sold/run-bot.mjs
+      - run: echo "eBay Sold radar is paused — checker entrypoint needs rebuilding before automatic runs are re-enabled."
