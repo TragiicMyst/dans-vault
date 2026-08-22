@@ -14,7 +14,6 @@ if (!webhook) {
 
 const userAgent = 'Mozilla/5.0 (compatible; DansVaultRadar/1.0; +https://github.com/TragiicMyst/dans-vault)';
 let alertsSent = 0;
-const newlySeen = [];
 
 for (const search of config.searches) {
   if (!config.enabled || alertsSent >= config.maxAlertsPerRun) break;
@@ -51,8 +50,6 @@ for (const search of config.searches) {
       const score = dealScore({ item, priceLimit: search.maxPrice, resale, sizeMatch, conditionMatch });
 
       state.seen.push(item.id);
-      newlySeen.push(item.id);
-
       if (score < search.minScore || !sizeMatch) continue;
 
       await sendDiscord(webhook, {
@@ -83,17 +80,19 @@ function extractItems(html) {
   let match;
 
   while ((match = itemRegex.exec(html)) !== null) {
-    const path = match[1];
+    const rawPath = match[1];
+    const path = rawPath.split('?')[0];
     const id = match[2];
+    const slug = path.replace(/^\/items\/[0-9]+-?/, '').replace(/-/g, ' ').trim();
     const start = match.index;
     const context = stripTags(html.slice(start, Math.min(html.length, start + 4500))).replace(/\s+/g, ' ').trim();
     const priceMatch = context.match(/£\s*([0-9]+(?:\.[0-9]{1,2})?)/);
     if (!priceMatch) continue;
 
-    const title = decodeHtml(context.slice(0, 500));
+    const title = cleanTitle(slug || 'Nike listing');
     found.set(id, {
       id,
-      title: title || 'Nike listing',
+      title,
       price: Number(priceMatch[1]),
       url: `https://www.vinted.co.uk${path}`
     });
@@ -102,19 +101,20 @@ function extractItems(html) {
   return [...found.values()].slice(0, 40);
 }
 
-function stripTags(value) {
-  return value.replace(/<script[\s\S]*?<\/script>/gi, ' ').replace(/<style[\s\S]*?<\/style>/gi, ' ').replace(/<[^>]+>/g, ' ');
+function cleanTitle(value) {
+  return value
+    .replace(/\bsize\s+uk\s*\d+(?:\.\d+)?\b.*$/i, '')
+    .replace(/\b(fast shipping|quick shipping|free shipping|preloved|very good condition|good condition|new without tags|new with tags)\b/gi, '')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .split(' ')
+    .map((word) => word ? word[0].toUpperCase() + word.slice(1).toLowerCase() : word)
+    .join(' ')
+    .slice(0, 120);
 }
 
-function decodeHtml(value) {
-  return value
-    .replace(/&amp;/g, '&')
-    .replace(/&quot;/g, '"')
-    .replace(/&#x27;/gi, "'")
-    .replace(/&#39;/g, "'")
-    .replace(/&nbsp;/g, ' ')
-    .replace(/\s+/g, ' ')
-    .trim();
+function stripTags(value) {
+  return value.replace(/<script[\s\S]*?<\/script>/gi, ' ').replace(/<style[\s\S]*?<\/style>/gi, ' ').replace(/<[^>]+>/g, ' ');
 }
 
 function dealScore({ item, priceLimit, resale, sizeMatch, conditionMatch }) {
@@ -133,17 +133,14 @@ async function sendDiscord(webhookUrl, deal) {
     username: "Dan's Vault Radar",
     embeds: [{
       title: `🔥 ${deal.searchName} bargain`,
-      description: `**${deal.title.slice(0, 180)}**`,
+      description: `**${deal.title}**\n\n💷 **£${deal.price.toFixed(2)}**  •  📈 Resale **£${deal.resale.toFixed(2)}**  •  💰 Profit **${profitText}**`,
       url: deal.url,
       fields: [
-        { name: '💷 Price', value: `£${deal.price.toFixed(2)}`, inline: true },
-        { name: '📈 Est. resale', value: deal.resale ? `£${deal.resale.toFixed(2)}` : '—', inline: true },
-        { name: '💰 Est. profit', value: profitText, inline: true },
-        { name: '⭐ Deal score', value: `${deal.score}/10`, inline: true },
-        { name: '📏 Size', value: deal.sizeMatch ? 'Likely target size' : 'Unknown', inline: true },
-        { name: '🆕 Condition', value: deal.conditionMatch ? 'Good condition match' : 'Unknown', inline: true }
+        { name: '⭐ Deal score', value: `**${deal.score}/10**`, inline: true },
+        { name: '📏 Size', value: deal.sizeMatch ? 'UK 7–10 match' : 'Check size', inline: true },
+        { name: '🆕 Condition', value: deal.conditionMatch ? 'Good match' : 'Check listing', inline: true }
       ],
-      footer: { text: 'Manual purchase only • Dan\'s Vault' },
+      footer: { text: 'Manual purchase only • Tap the title to view' },
       timestamp: new Date().toISOString()
     }]
   };
@@ -154,9 +151,7 @@ async function sendDiscord(webhookUrl, deal) {
     body: JSON.stringify(body)
   });
 
-  if (!response.ok) {
-    throw new Error(`Discord webhook returned HTTP ${response.status}`);
-  }
+  if (!response.ok) throw new Error(`Discord webhook returned HTTP ${response.status}`);
 }
 
 async function loadState() {
