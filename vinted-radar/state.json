@@ -1929,7 +1929,7 @@
     "9739113904": {
       "firstSeenAt": "2026-08-22T16:04:30.604Z",
       "blockedReason": "keyword",
-      "lastSeenAt": "2026-08-22T22:03:56.277Z",
+      "lastSeenAt": "2026-08-22T22:05:35.755Z",
       "lastPrice": 60,
       "title": "Rrp Ps60 Nike Vomero 5 Kids Trainers",
       "url": "https://www.vinted.co.uk/items/9739113904-rrp-ps60-nike-vomero-5-kids-trainers",
@@ -5002,7 +5002,7 @@
       "blockedReason": "condition",
       "size": 7,
       "lastPrice": 150,
-      "lastSeenAt": "2026-08-22T22:03:58.974Z"
+      "lastSeenAt": "2026-08-22T22:05:38.430Z"
     },
     "9716515753": {
       "size": 8,
@@ -6591,7 +6591,7 @@
       "blockedReason": "condition",
       "size": null,
       "lastPrice": 175,
-      "lastSeenAt": "2026-08-22T22:04:02.275Z",
+      "lastSeenAt": "2026-08-22T22:05:42.251Z",
       "bootstrapSeen": true
     },
     "9743543860": {
@@ -9867,7 +9867,7 @@
     "9744986453": {
       "size": 7,
       "bootstrapSeen": true,
-      "lastSeenAt": "2026-08-22T22:03:58.973Z",
+      "lastSeenAt": "2026-08-22T22:05:38.430Z",
       "lastPrice": 189
     },
     "9744740891": {
@@ -9885,7 +9885,7 @@
     "9743681913": {
       "size": 7,
       "bootstrapSeen": true,
-      "lastSeenAt": "2026-08-22T22:03:58.973Z",
+      "lastSeenAt": "2026-08-22T22:05:38.430Z",
       "lastPrice": 189.99
     },
     "9740058225": {
@@ -9903,13 +9903,13 @@
     "9738924987": {
       "size": 8,
       "bootstrapSeen": true,
-      "lastSeenAt": "2026-08-22T22:03:58.973Z",
+      "lastSeenAt": "2026-08-22T22:05:38.430Z",
       "lastPrice": 185
     },
     "9738879269": {
       "size": 9,
       "bootstrapSeen": true,
-      "lastSeenAt": "2026-08-22T22:03:58.973Z",
+      "lastSeenAt": "2026-08-22T22:05:38.430Z",
       "lastPrice": 185
     },
     "9736678429": {
@@ -9927,7 +9927,7 @@
     "9735223699": {
       "size": 9.5,
       "bootstrapSeen": true,
-      "lastSeenAt": "2026-08-22T22:03:58.974Z",
+      "lastSeenAt": "2026-08-22T22:05:38.430Z",
       "lastPrice": 189.99
     },
     "9733964265": {
@@ -11313,7 +11313,7 @@
     "9741047319": {
       "blockedReason": "stale-or-no-freshness-signal",
       "size": 8,
-      "lastSeenAt": "2026-08-22T22:03:56.277Z",
+      "lastSeenAt": "2026-08-22T22:05:35.755Z",
       "lastPrice": 175
     },
     "9740806801": {
@@ -11529,7 +11529,7 @@
     "9723678761": {
       "blockedReason": "stale-or-no-freshness-signal",
       "size": 9,
-      "lastSeenAt": "2026-08-22T22:04:03.480Z",
+      "lastSeenAt": "2026-08-22T22:05:43.683Z",
       "lastPrice": 80
     },
     "9745419864": {
@@ -12320,7 +12320,7 @@
     "9738801607": {
       "blockedReason": "stale-or-no-freshness-signal",
       "size": 9,
-      "lastSeenAt": "2026-08-22T22:04:02.275Z",
+      "lastSeenAt": "2026-08-22T22:05:42.251Z",
       "lastPrice": 570
     },
     "9738755606": {
@@ -13195,12 +13195,9 @@
       }
     },
     "Nike Vomero": {
-      "updatedAt": "2026-08-22T16:04:30.604Z",
+      "updatedAt": "2026-08-22T22:05:30.706Z",
       "medianBySize": {
-        "7": 30,
-        "8": 87,
-        "9": 70,
-        "10": 57.5
+        "8": 175
       }
     },
     "Nike TN": {
@@ -13497,7 +13494,7 @@
       ]
     }
   },
-  "updatedAt": "2026-08-22T22:03:52.209Z",
+  "updatedAt": "2026-08-22T22:05:30.706Z",
   "cursor": 0,
   "lastRotation": {
     "bot": "trainers",
@@ -13514,7 +13511,7 @@
       "Nike Air Force 1",
       "Nike Dunk Low"
     ],
-    "at": "2026-08-22T22:04:05.814Z"
+    "at": "2026-08-22T22:05:45.750Z"
   },
   "freshness": {
     "version": 2,
@@ -13526,7 +13523,7 @@
       },
       "Nike Vomero": {
         "maxId": "9745649346",
-        "updatedAt": "2026-08-22T22:03:52.209Z"
+        "updatedAt": "2026-08-22T22:05:30.706Z"
       },
       "Nike TN": {
         "maxId": "9745579544",
@@ -13534,7 +13531,7 @@
       },
       "Nike Pegasus Premium": {
         "maxId": "9745598232",
-        "updatedAt": "2026-08-22T22:03:52.209Z"
+        "updatedAt": "2026-08-22T22:05:30.706Z"
       },
       "Nike Shox TL": {
         "maxId": "9745579544",
@@ -13546,15 +13543,15 @@
       },
       "Nike Air Max 97": {
         "maxId": "9745579544",
-        "updatedAt": "2026-08-22T22:03:52.209Z"
+        "updatedAt": "2026-08-22T22:05:30.706Z"
       },
       "Nike Vomero 5": {
         "maxId": "9745512364",
-        "updatedAt": "2026-08-22T22:03:52.209Z"
+        "updatedAt": "2026-08-22T22:05:30.706Z"
       },
       "Nike V5 RNR": {
         "maxId": "9745327966",
-        "updatedAt": "2026-08-22T22:03:52.209Z"
+        "updatedAt": "2026-08-22T22:05:30.706Z"
       },
       "Nike Air Force 1": {
         "maxId": "9745673082",
@@ -13565,10 +13562,10 @@
         "updatedAt": "2026-08-22T22:02:45.556Z"
       }
     },
-    "lastScanAt": "2026-08-22T22:03:52.209Z"
+    "lastScanAt": "2026-08-22T22:05:30.706Z"
   },
   "diagnostics": {
-    "lastRunAt": "2026-08-22T22:03:52.209Z",
+    "lastRunAt": "2026-08-22T22:05:30.706Z",
     "searchGroups": 11,
     "qualifyingAlerts": 0
   }
