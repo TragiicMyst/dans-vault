@@ -53,6 +53,8 @@ for (const search of config.searches) {
       state.seen.push(item.id);
       if (score < search.minScore || !sizeMatch) continue;
 
+      const imageUrl = await getListingImage(item.url);
+
       await sendDiscord(webhook, {
         searchName: search.name,
         title: item.title,
@@ -63,7 +65,8 @@ for (const search of config.searches) {
         score,
         sizeMatch,
         conditionMatch,
-        fakeRisk
+        fakeRisk,
+        imageUrl
       });
       alertsSent += 1;
     }
@@ -101,6 +104,48 @@ function extractItems(html) {
   }
 
   return [...found.values()].slice(0, 40);
+}
+
+async function getListingImage(url) {
+  try {
+    const response = await fetch(url, {
+      headers: {
+        'User-Agent': userAgent,
+        'Accept-Language': 'en-GB,en;q=0.9'
+      },
+      redirect: 'follow'
+    });
+
+    if (!response.ok) return null;
+    const html = await response.text();
+
+    const metaPatterns = [
+      /<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)["'][^>]*>/i,
+      /<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:image["'][^>]*>/i,
+      /<meta[^>]+name=["']twitter:image["'][^>]+content=["']([^"']+)["'][^>]*>/i,
+      /<meta[^>]+content=["']([^"']+)["'][^>]+name=["']twitter:image["'][^>]*>/i
+    ];
+
+    for (const pattern of metaPatterns) {
+      const match = html.match(pattern);
+      if (match?.[1]) return decodeHtmlEntities(match[1]);
+    }
+
+    // Fallback: look for a likely Vinted image URL in the listing page.
+    const imageMatch = html.match(/https?:\\?\/\\?\/[^"'\\s<>]+\.(?:jpg|jpeg|png|webp)(?:\?[^"'\\s<>]*)?/i);
+    return imageMatch?.[0] ? decodeHtmlEntities(imageMatch[0]) : null;
+  } catch (error) {
+    console.warn(`Image lookup failed: ${error.message}`);
+    return null;
+  }
+}
+
+function decodeHtmlEntities(value) {
+  return value
+    .replace(/&amp;/g, '&')
+    .replace(/&quot;/g, '"')
+    .replace(/&#x2F;/gi, '/')
+    .replace(/&#47;/g, '/');
 }
 
 function cleanTitle(value) {
@@ -148,24 +193,30 @@ function dealScore({ item, priceLimit, resale, sizeMatch, conditionMatch, fakeRi
 async function sendDiscord(webhookUrl, deal) {
   const profitText = deal.profit === null ? 'Unknown' : `£${deal.profit.toFixed(2)}`;
   const riskNote = deal.fakeRisk === '🔴 HIGH'
-    ? '⚠️ **High fake-risk flags — check photos, labels and code before buying.**'
-    : '⚠️ **Check authenticity before buying.**';
+    ? '⚠️ High fake-risk flags — check photos, labels and code before buying.'
+    : '⚠️ Check authenticity before buying.';
+
+  const embed = {
+    title: `🚨 NEW BARGAIN FOUND 🔥`,
+    description: `**⭐ ${deal.searchName.toUpperCase()}**\n${deal.title}\n\n🏷️ **Price:** £${deal.price.toFixed(2)}\n📏 **Size:** ${deal.sizeMatch ? 'UK 7–10' : 'Check listing'}\n📦 **Condition:** ${deal.conditionMatch ? 'Very good / new match' : 'Check listing'}\n\n📈 **RESELL ESTIMATE**\n**Estimated resale:** £${deal.resale.toFixed(2)}\n**Potential profit:** ${profitText}`,
+    url: deal.url,
+    color: deal.fakeRisk === '🔴 HIGH' ? 15158332 : deal.fakeRisk === '🟠 MEDIUM' ? 16753920 : 5763719,
+    fields: [
+      { name: '🎯 DEAL SCORE', value: `**${deal.score}/10**`, inline: true },
+      { name: '🛡️ FAKE RISK', value: `**${deal.fakeRisk}**`, inline: true },
+      { name: '🇬🇧 MARKET', value: 'UK listing', inline: true }
+    ],
+    footer: { text: `Dan's Vault Radar • Manual purchase only • ${riskNote}` },
+    timestamp: new Date().toISOString()
+  };
+
+  if (deal.imageUrl) {
+    embed.image = { url: deal.imageUrl };
+  }
 
   const body = {
     username: "Dan's Vault Radar",
-    embeds: [{
-      title: `🚨 NEW BARGAIN FOUND 🔥`,
-      description: `**⭐ ${deal.searchName.toUpperCase()}**\n${deal.title}\n\n🏷️ **Price:** £${deal.price.toFixed(2)}\n📏 **Size:** ${deal.sizeMatch ? 'UK 7–10' : 'Check listing'}\n📦 **Condition:** ${deal.conditionMatch ? 'Very good / new match' : 'Check listing'}\n\n📈 **RESELL ESTIMATE**\n**Estimated resale:** £${deal.resale.toFixed(2)}\n**Potential profit:** ${profitText}`,
-      url: deal.url,
-      color: deal.fakeRisk === '🔴 HIGH' ? 15158332 : deal.fakeRisk === '🟠 MEDIUM' ? 16753920 : 5763719,
-      fields: [
-        { name: '🎯 DEAL SCORE', value: `**${deal.score}/10**`, inline: true },
-        { name: '🛡️ FAKE RISK', value: `**${deal.fakeRisk}**`, inline: true },
-        { name: '🇬🇧 MARKET', value: 'UK listing', inline: true }
-      ],
-      footer: { text: `Dan's Vault Radar • Manual purchase only • ${riskNote}` },
-      timestamp: new Date().toISOString()
-    }]
+    embeds: [embed]
   };
 
   const response = await fetch(webhookUrl, {
