@@ -4,6 +4,12 @@ on:
   schedule:
     - cron: '*/10 * * * *'
   workflow_dispatch:
+    inputs:
+      test_mode:
+        description: 'Send 3 sample Discord alerts instead of checking Vinted'
+        required: false
+        default: false
+        type: boolean
 
 permissions:
   contents: write
@@ -16,12 +22,51 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
+      - name: Send Discord test alerts
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.test_mode == true }}
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          node <<'NODE'
+          const webhook = process.env.DISCORD_WEBHOOK_URL;
+          if (!webhook) throw new Error('Missing DISCORD_WEBHOOK_URL secret');
+          const samples = [
+            ['Nike P-6000 bargain','Nike P-6000 Black / Grey • UK 8',29.99,65,35.01,'9.5/10','https://www.vinted.co.uk/catalog?search_text=nike%20p-6000'],
+            ['Nike Vomero bargain','Nike Vomero 18 Black / Grey • UK 9',34.99,65,30.01,'9.2/10','https://www.vinted.co.uk/catalog?search_text=nike%20vomero'],
+            ['Nike TN bargain','Nike Air Max Plus White / Grey / Black • UK 7',39.99,75,35.01,'9.0/10','https://www.vinted.co.uk/catalog?search_text=nike%20tn']
+          ];
+          for (const [title, desc, price, resale, profit, score, url] of samples) {
+            const body = {
+              username: "Dan's Vault Radar",
+              embeds: [{
+                title: `🧪 TEST • 🔥 ${title}`,
+                description: `**${desc}**`,
+                url,
+                fields: [
+                  { name: '💷 Buy price', value: `£${price.toFixed(2)}`, inline: true },
+                  { name: '📈 Est. resale', value: `£${resale.toFixed(2)}`, inline: true },
+                  { name: '💰 Est. gross profit', value: `£${profit.toFixed(2)}`, inline: true },
+                  { name: '⭐ Deal score', value: score, inline: true },
+                  { name: '📏 Size', value: 'UK 7–10 match', inline: true },
+                  { name: '🆕 Condition', value: 'Very good / new', inline: true }
+                ],
+                footer: { text: "TEST ALERT • Manual purchase only • Dan's Vault" }
+              }]
+            };
+            const response = await fetch(webhook, { method: 'POST', headers: {'Content-Type':'application/json'}, body: JSON.stringify(body) });
+            if (!response.ok) throw new Error(`Discord webhook returned HTTP ${response.status}`);
+          }
+          console.log('Sent 3 test alerts.');
+          NODE
+
       - name: Run Vinted Radar
+        if: ${{ !(github.event_name == 'workflow_dispatch' && inputs.test_mode == true) }}
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: node vinted-radar/monitor.mjs
 
       - name: Save seen listings
+        if: ${{ !(github.event_name == 'workflow_dispatch' && inputs.test_mode == true) }}
         run: |
           git config user.name "Dan's Vault Radar"
           git config user.email "actions@users.noreply.github.com"
