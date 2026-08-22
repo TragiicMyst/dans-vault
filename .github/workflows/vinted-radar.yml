@@ -42,6 +42,14 @@ jobs:
           BOT_TYPE: trainers
           STATE_NAME: state.json
         run: |
+          # Code/workflow pushes get a fast one-scan validation so broken changes are
+          # visible immediately instead of waiting for a full 4+ minute radar window.
+          if [ "$GITHUB_EVENT_NAME" = "push" ]; then
+            echo "=== Fast trainers validation scan ==="
+            node vinted-radar/run-bot.mjs
+            exit 0
+          fi
+
           deadline=$((SECONDS + 260))
           cycle=0
           while [ $SECONDS -lt $deadline ]; do
@@ -59,10 +67,6 @@ jobs:
         run: |
           git config user.name "Dan's Vault Trainers Radar"
           git config user.email "actions@users.noreply.github.com"
-
-          # Keep the state produced by this run outside the working tree. Then base
-          # each push attempt on the latest main branch. This avoids rebase conflicts
-          # entirely when the clothing radar or another workflow updates main.
           cp vinted-radar/state.json /tmp/trainers-state.json
 
           for attempt in 1 2 3 4 5; do
