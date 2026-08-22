@@ -22,6 +22,8 @@ jobs:
 
       - name: Validate radar code
         run: |
+          node --check vinted-radar/apply-v5-parser-fix.mjs
+          node vinted-radar/apply-v5-parser-fix.mjs
           node --check vinted-radar/radar-v5.mjs
           node --check vinted-radar/run-bot.mjs
           node --check vinted-radar/radar-selftest.mjs
