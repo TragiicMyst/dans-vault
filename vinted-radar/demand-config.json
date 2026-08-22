@@ -1,0 +1,49 @@
+{
+  "enabled": true,
+  "maxResults": 8,
+  "minScoreToHighlight": 62,
+  "seasonWeights": {
+    "8": {"trainers": 1.00, "fleece": 1.05, "hoodies": 1.05, "jackets": 1.02, "tracksuits": 1.04},
+    "9": {"trainers": 1.02, "fleece": 1.15, "hoodies": 1.12, "jackets": 1.10, "tracksuits": 1.12},
+    "10": {"trainers": 1.00, "fleece": 1.25, "hoodies": 1.20, "jackets": 1.25, "tracksuits": 1.18},
+    "11": {"trainers": 0.98, "fleece": 1.30, "hoodies": 1.25, "jackets": 1.30, "tracksuits": 1.22},
+    "12": {"trainers": 0.98, "fleece": 1.25, "hoodies": 1.22, "jackets": 1.28, "tracksuits": 1.20},
+    "1": {"trainers": 0.98, "fleece": 1.20, "hoodies": 1.18, "jackets": 1.22, "tracksuits": 1.16},
+    "2": {"trainers": 1.00, "fleece": 1.15, "hoodies": 1.12, "jackets": 1.15, "tracksuits": 1.12},
+    "3": {"trainers": 1.03, "fleece": 1.02, "hoodies": 1.04, "jackets": 1.02, "tracksuits": 1.05},
+    "4": {"trainers": 1.06, "fleece": 0.96, "hoodies": 0.98, "jackets": 0.95, "tracksuits": 1.02},
+    "5": {"trainers": 1.08, "fleece": 0.92, "hoodies": 0.95, "jackets": 0.92, "tracksuits": 1.02},
+    "6": {"trainers": 1.10, "fleece": 0.88, "hoodies": 0.92, "jackets": 0.88, "tracksuits": 1.00},
+    "7": {"trainers": 1.12, "fleece": 0.90, "hoodies": 0.94, "jackets": 0.90, "tracksuits": 1.02}
+  },
+  "nikeSources": [
+    "https://www.nike.com/gb/w/shoes-y7ok",
+    "https://www.nike.com/gb/w/tech-fleece-clothing-4an3xz6sipkz6ymx6z9dklk",
+    "https://www.nike.com/gb/w/jackets-vests-50r7y",
+    "https://www.nike.com/gb/w/hoodies-sweatshirts-6rive"
+  ],
+  "items": [
+    {"name":"Nike P-6000","query":"nike p-6000","category":"trainers","retailBaseline":110,"targetBuy":50},
+    {"name":"Nike Air Max 95","query":"nike air max 95","category":"trainers","retailBaseline":175,"targetBuy":75},
+    {"name":"Nike Air Max 97","query":"nike air max 97","category":"trainers","retailBaseline":175,"targetBuy":75},
+    {"name":"Nike Air Max Plus / TN","query":"nike air max plus tn","category":"trainers","retailBaseline":175,"targetBuy":75},
+    {"name":"Nike Shox TL","query":"nike shox tl","category":"trainers","retailBaseline":155,"targetBuy":70},
+    {"name":"Nike Vomero 5","query":"nike vomero 5","category":"trainers","retailBaseline":145,"targetBuy":65},
+    {"name":"Nike Vomero 18","query":"nike vomero 18","category":"trainers","retailBaseline":145,"targetBuy":60},
+    {"name":"Nike V5 RNR","query":"nike v5 rnr","category":"trainers","retailBaseline":95,"targetBuy":40},
+    {"name":"Nike Air Force 1","query":"nike air force 1","category":"trainers","retailBaseline":110,"targetBuy":50},
+    {"name":"Nike Dunk Low","query":"nike dunk low","category":"trainers","retailBaseline":115,"targetBuy":50},
+    {"name":"Nike Tech Fleece Windrunner Jacket","query":"nike tech fleece windrunner","category":"jackets","retailBaseline":110,"targetBuy":45},
+    {"name":"Nike Tech Fleece Joggers","query":"nike tech fleece joggers","category":"fleece","retailBaseline":90,"targetBuy":35},
+    {"name":"Nike Tech Fleece Full-Zip Hoodie","query":"nike tech fleece hoodie","category":"hoodies","retailBaseline":110,"targetBuy":40},
+    {"name":"Nike Tech Fleece Tracksuit Set","query":"nike tech fleece tracksuit","category":"tracksuits","retailBaseline":190,"targetBuy":75},
+    {"name":"Nike Club Fleece Hoodie","query":"nike club fleece hoodie","category":"hoodies","retailBaseline":65,"targetBuy":25},
+    {"name":"Nike Club Fleece Joggers","query":"nike club fleece joggers","category":"fleece","retailBaseline":60,"targetBuy":22},
+    {"name":"Nike ACG Fleece","query":"nike acg fleece","category":"fleece","retailBaseline":120,"targetBuy":45},
+    {"name":"Nike ACG Jacket","query":"nike acg jacket","category":"jackets","retailBaseline":180,"targetBuy":70},
+    {"name":"Nike Puffer Jacket","query":"nike puffer jacket","category":"jackets","retailBaseline":180,"targetBuy":70},
+    {"name":"Nike Windrunner Jacket","query":"nike windrunner jacket","category":"jackets","retailBaseline":100,"targetBuy":40},
+    {"name":"Nike Tech Tracksuit","query":"nike tech tracksuit","category":"tracksuits","retailBaseline":180,"targetBuy":70},
+    {"name":"Nike Sportswear Tracksuit","query":"nike sportswear tracksuit","category":"tracksuits","retailBaseline":130,"targetBuy":50}
+  ]
+}
