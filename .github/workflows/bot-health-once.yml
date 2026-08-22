@@ -1,0 +1,57 @@
+name: Dan's Vault Bot Health Check (one-time)
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  health:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Test Trainers webhook
+        continue-on-error: true
+        env:
+          WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          if [ -z "$WEBHOOK" ]; then echo "TRAINERS_WEBHOOK_MISSING"; exit 1; fi
+          curl -fsS -H 'Content-Type: application/json' -X POST "$WEBHOOK" \
+            -d '{"username":"Dan’s Vault Bot Health","content":"✅ **TRAINERS BOT HEALTH CHECK** — Discord webhook is connected and GitHub Actions can reach it."}'
+
+      - name: Test Clothing webhook
+        continue-on-error: true
+        env:
+          WEBHOOK: ${{ secrets.DISCORD_CLOTHING_WEBHOOK_URL }}
+        run: |
+          if [ -z "$WEBHOOK" ]; then echo "CLOTHING_WEBHOOK_MISSING"; exit 1; fi
+          curl -fsS -H 'Content-Type: application/json' -X POST "$WEBHOOK" \
+            -d '{"username":"Dan’s Vault Bot Health","content":"✅ **CLOTHING BOT HEALTH CHECK** — Discord webhook is connected and GitHub Actions can reach it."}'
+
+      - name: Test Seller Risk webhook
+        continue-on-error: true
+        env:
+          WEBHOOK: ${{ secrets.DISCORD_SELLER_RISK_WEBHOOK_URL }}
+        run: |
+          if [ -z "$WEBHOOK" ]; then echo "SELLER_RISK_WEBHOOK_MISSING"; exit 1; fi
+          curl -fsS -H 'Content-Type: application/json' -X POST "$WEBHOOK" \
+            -d '{"username":"Dan’s Vault Bot Health","content":"✅ **SELLER RISK HEALTH CHECK** — Discord webhook is connected and GitHub Actions can reach it."}'
+
+      - name: Remove one-time health workflow
+        if: always()
+        run: |
+          rm -f .github/workflows/bot-health-once.yml
+          git config user.name "Dan's Vault Bot Health"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A .github/workflows/bot-health-once.yml
+          if git diff --cached --quiet; then
+            echo "Health workflow already removed."
+          else
+            git commit -m "Remove one-time bot health check"
+            git push
+          fi
