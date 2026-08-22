@@ -1,103 +1,52 @@
 {
   "enabled": true,
-  "maxAlertsPerRun": 6,
-  "priceDropAlert": {
-    "enabled": true,
-    "minDropAmount": 5,
-    "minDropPercent": 0.12
-  },
+  "maxAlertsPerRun": 10,
+  "priceDropAlert": {"enabled": true,"minDropAmount": 5,"minDropPercent": 0.12},
   "searches": [
-    {
-      "name": "Nike P-6000",
-      "buyUrl": "https://www.vinted.co.uk/catalog?search_text=nike%20p-6000&order=newest_first&price_to=45",
-      "marketUrl": "https://www.vinted.co.uk/catalog?search_text=nike%20p-6000&order=newest_first",
-      "maxPrice": 45,
-      "minScore": 72
-    },
-    {
-      "name": "Nike Vomero",
-      "buyUrl": "https://www.vinted.co.uk/catalog?search_text=nike%20vomero&order=newest_first&price_to=45",
-      "marketUrl": "https://www.vinted.co.uk/catalog?search_text=nike%20vomero&order=newest_first",
-      "maxPrice": 45,
-      "minScore": 72
-    },
-    {
-      "name": "Nike TN",
-      "buyUrl": "https://www.vinted.co.uk/catalog?search_text=nike%20tn&order=newest_first&price_to=55",
-      "marketUrl": "https://www.vinted.co.uk/catalog?search_text=nike%20tn&order=newest_first",
-      "maxPrice": 55,
-      "minScore": 72
-    }
+    {"name":"Nike P-6000","buyUrl":"https://www.vinted.co.uk/catalog?search_text=nike%20p-6000&order=newest_first&price_to=45","marketUrl":"https://www.vinted.co.uk/catalog?search_text=nike%20p-6000&order=newest_first","maxPrice":45,"minScore":72},
+    {"name":"Nike Vomero","buyUrl":"https://www.vinted.co.uk/catalog?search_text=nike%20vomero&order=newest_first&price_to=45","marketUrl":"https://www.vinted.co.uk/catalog?search_text=nike%20vomero&order=newest_first","maxPrice":45,"minScore":72},
+    {"name":"Nike TN","buyUrl":"https://www.vinted.co.uk/catalog?search_text=nike%20tn&order=newest_first&price_to=55","marketUrl":"https://www.vinted.co.uk/catalog?search_text=nike%20tn&order=newest_first","maxPrice":55,"minScore":72},
+    {"name":"Nike Shox TL","buyUrl":"https://www.vinted.co.uk/catalog?search_text=nike%20shox%20tl&order=newest_first&price_to=65","marketUrl":"https://www.vinted.co.uk/catalog?search_text=nike%20shox%20tl&order=newest_first","maxPrice":65,"minScore":72},
+    {"name":"Nike Air Max 95","buyUrl":"https://www.vinted.co.uk/catalog?search_text=nike%20air%20max%2095&order=newest_first&price_to=70","marketUrl":"https://www.vinted.co.uk/catalog?search_text=nike%20air%20max%2095&order=newest_first","maxPrice":70,"minScore":72},
+    {"name":"Nike Air Max 97","buyUrl":"https://www.vinted.co.uk/catalog?search_text=nike%20air%20max%2097&order=newest_first&price_to=70","marketUrl":"https://www.vinted.co.uk/catalog?search_text=nike%20air%20max%2097&order=newest_first","maxPrice":70,"minScore":72},
+    {"name":"Nike Vomero 5","buyUrl":"https://www.vinted.co.uk/catalog?search_text=nike%20vomero%205&order=newest_first&price_to=65","marketUrl":"https://www.vinted.co.uk/catalog?search_text=nike%20vomero%205&order=newest_first","maxPrice":65,"minScore":72},
+    {"name":"Nike V5 RNR","buyUrl":"https://www.vinted.co.uk/catalog?search_text=nike%20v5%20rnr&order=newest_first&price_to=40","marketUrl":"https://www.vinted.co.uk/catalog?search_text=nike%20v5%20rnr&order=newest_first","maxPrice":40,"minScore":72},
+    {"name":"Nike Air Force 1","buyUrl":"https://www.vinted.co.uk/catalog?search_text=nike%20air%20force%201&order=newest_first&price_to=45","marketUrl":"https://www.vinted.co.uk/catalog?search_text=nike%20air%20force%201&order=newest_first","maxPrice":45,"minScore":72},
+    {"name":"Nike Dunk Low","buyUrl":"https://www.vinted.co.uk/catalog?search_text=nike%20dunk%20low&order=newest_first&price_to=50","marketUrl":"https://www.vinted.co.uk/catalog?search_text=nike%20dunk%20low&order=newest_first","maxPrice":50,"minScore":72},
+    {"name":"Nike Pegasus Premium","buyUrl":"https://www.vinted.co.uk/catalog?search_text=nike%20pegasus%20premium&order=newest_first&price_to=95","marketUrl":"https://www.vinted.co.uk/catalog?search_text=nike%20pegasus%20premium&order=newest_first","maxPrice":95,"minScore":72},
+    {"name":"Nike Tech Fleece","buyUrl":"https://www.vinted.co.uk/catalog?search_text=nike%20tech%20fleece&order=newest_first&price_to=45","marketUrl":"https://www.vinted.co.uk/catalog?search_text=nike%20tech%20fleece&order=newest_first","maxPrice":45,"minScore":72},
+    {"name":"Nike Tech Fleece Hoodie","buyUrl":"https://www.vinted.co.uk/catalog?search_text=nike%20tech%20fleece%20hoodie&order=newest_first&price_to=40","marketUrl":"https://www.vinted.co.uk/catalog?search_text=nike%20tech%20fleece%20hoodie&order=newest_first","maxPrice":40,"minScore":72},
+    {"name":"Nike Tech Fleece Joggers","buyUrl":"https://www.vinted.co.uk/catalog?search_text=nike%20tech%20fleece%20joggers&order=newest_first&price_to=35","marketUrl":"https://www.vinted.co.uk/catalog?search_text=nike%20tech%20fleece%20joggers&order=newest_first","maxPrice":35,"minScore":72},
+    {"name":"Nike Tech Fleece Tracksuit","buyUrl":"https://www.vinted.co.uk/catalog?search_text=nike%20tech%20fleece%20tracksuit&order=newest_first&price_to=75","marketUrl":"https://www.vinted.co.uk/catalog?search_text=nike%20tech%20fleece%20tracksuit&order=newest_first","maxPrice":75,"minScore":72},
+    {"name":"Nike ACG Fleece","buyUrl":"https://www.vinted.co.uk/catalog?search_text=nike%20acg%20fleece&order=newest_first&price_to=50","marketUrl":"https://www.vinted.co.uk/catalog?search_text=nike%20acg%20fleece&order=newest_first","maxPrice":50,"minScore":72},
+    {"name":"Nike ACG Jacket","buyUrl":"https://www.vinted.co.uk/catalog?search_text=nike%20acg%20jacket&order=newest_first&price_to=80","marketUrl":"https://www.vinted.co.uk/catalog?search_text=nike%20acg%20jacket&order=newest_first","maxPrice":80,"minScore":72},
+    {"name":"Nike Puffer Jacket","buyUrl":"https://www.vinted.co.uk/catalog?search_text=nike%20puffer%20jacket&order=newest_first&price_to=75","marketUrl":"https://www.vinted.co.uk/catalog?search_text=nike%20puffer%20jacket&order=newest_first","maxPrice":75,"minScore":72},
+    {"name":"Nike Windrunner Jacket","buyUrl":"https://www.vinted.co.uk/catalog?search_text=nike%20windrunner%20jacket&order=newest_first&price_to=45","marketUrl":"https://www.vinted.co.uk/catalog?search_text=nike%20windrunner%20jacket&order=newest_first","maxPrice":45,"minScore":72},
+    {"name":"Nike Sportswear Tracksuit","buyUrl":"https://www.vinted.co.uk/catalog?search_text=nike%20sportswear%20tracksuit&order=newest_first&price_to=55","marketUrl":"https://www.vinted.co.uk/catalog?search_text=nike%20sportswear%20tracksuit&order=newest_first","maxPrice":55,"minScore":72},
+    {"name":"Nike Miler Shorts","buyUrl":"https://www.vinted.co.uk/catalog?search_text=nike%20miler%20shorts&order=newest_first&price_to=25","marketUrl":"https://www.vinted.co.uk/catalog?search_text=nike%20miler%20shorts&order=newest_first","maxPrice":25,"minScore":70},
+    {"name":"Nike Challenger Shorts","buyUrl":"https://www.vinted.co.uk/catalog?search_text=nike%20challenger%20shorts&order=newest_first&price_to=25","marketUrl":"https://www.vinted.co.uk/catalog?search_text=nike%20challenger%20shorts&order=newest_first","maxPrice":25,"minScore":70},
+    {"name":"Nike Stride Shorts","buyUrl":"https://www.vinted.co.uk/catalog?search_text=nike%20stride%20shorts&order=newest_first&price_to=30","marketUrl":"https://www.vinted.co.uk/catalog?search_text=nike%20stride%20shorts&order=newest_first","maxPrice":30,"minScore":70},
+    {"name":"Nike Pro Training Shorts","buyUrl":"https://www.vinted.co.uk/catalog?search_text=nike%20pro%20training%20shorts&order=newest_first&price_to=25","marketUrl":"https://www.vinted.co.uk/catalog?search_text=nike%20pro%20training%20shorts&order=newest_first","maxPrice":25,"minScore":70},
+    {"name":"Nike Unlimited Shorts","buyUrl":"https://www.vinted.co.uk/catalog?search_text=nike%20unlimited%20shorts&order=newest_first&price_to=30","marketUrl":"https://www.vinted.co.uk/catalog?search_text=nike%20unlimited%20shorts&order=newest_first","maxPrice":30,"minScore":70},
+    {"name":"Nike Dri-FIT Running Top","buyUrl":"https://www.vinted.co.uk/catalog?search_text=nike%20dri-fit%20running%20top&order=newest_first&price_to=25","marketUrl":"https://www.vinted.co.uk/catalog?search_text=nike%20dri-fit%20running%20top&order=newest_first","maxPrice":25,"minScore":70},
+    {"name":"Nike Miler Running Top","buyUrl":"https://www.vinted.co.uk/catalog?search_text=nike%20miler%20running%20top&order=newest_first&price_to=25","marketUrl":"https://www.vinted.co.uk/catalog?search_text=nike%20miler%20running%20top&order=newest_first","maxPrice":25,"minScore":70},
+    {"name":"Nike Dri-FIT Activewear","buyUrl":"https://www.vinted.co.uk/catalog?search_text=nike%20dri-fit&order=newest_first&price_to=30","marketUrl":"https://www.vinted.co.uk/catalog?search_text=nike%20dri-fit&order=newest_first","maxPrice":30,"minScore":70}
   ],
-  "sizes": [7, 8, 9, 10],
-  "sizeKeywords": ["uk 7", "uk 8", "uk 9", "uk 10", "size 7", "size 8", "size 9", "size 10"],
+  "sizes": [7,8,9,10],
+  "sizeKeywords": ["uk 7","uk 8","uk 9","uk 10","size 7","size 8","size 9","size 10"],
   "condition": {
-    "good": ["good condition", "good", "worn once", "worn twice", "worn a few times", "preloved"],
-    "veryGood": ["very good", "excellent condition", "worn once", "worn twice"],
-    "new": ["brand new", "new with tags", "new without tags", "new"],
-    "avoid": ["damaged", "faulty", "broken", "sole separation", "air bubble punctured", "heavily worn", "poor condition"]
+    "veryGood": ["very good","excellent condition","worn once","worn twice","worn a few times","preloved"],
+    "new": ["brand new","new with tags","new without tags","new"],
+    "avoid": ["damaged","faulty","broken","sole separation","air bubble punctured","heavily worn","poor condition","good condition","good"]
   },
-  "avoidKeywords": [
-    "replica", "fake", "not authentic", "counterfeit", "1:1", "ua", "rep ", "mirror", "pk batch",
-    "kids", "child", "youth", "gs", "ps", "td"
-  ],
+  "allowedConditionKeywords": ["very good","excellent condition","worn once","worn twice","worn a few times","preloved","brand new","new with tags","new without tags","new"],
+  "avoidKeywords": ["replica","fake","not authentic","counterfeit","1:1","ua","rep ","mirror","pk batch","kids","child","youth","gs","ps","td"],
   "blacklistModels": [],
-  "seasonalDemand": {
-    "winter": { "months": [10, 11, 12, 1, 2], "Nike P-6000": 1.05, "Nike Vomero": 1.08, "Nike TN": 1.03 },
-    "spring": { "months": [3, 4, 5], "Nike P-6000": 1.03, "Nike Vomero": 1.04, "Nike TN": 1.02 },
-    "summer": { "months": [6, 7, 8], "Nike P-6000": 0.98, "Nike Vomero": 1.00, "Nike TN": 1.04 },
-    "autumn": { "months": [9], "Nike P-6000": 1.02, "Nike Vomero": 1.05, "Nike TN": 1.02 }
-  },
-  "models": {
-    "Nike P-6000": {
-      "baselineResale": 65,
-      "resaleBySize": { "7": 60, "8": 65, "9": 68, "10": 70 },
-      "strategy": "fastFlip",
-      "maxInventory": 3
-    },
-    "Nike Vomero": {
-      "baselineResale": 65,
-      "resaleBySize": { "7": 60, "8": 65, "9": 68, "10": 70 },
-      "strategy": "fastFlip",
-      "maxInventory": 3
-    },
-    "Nike TN": {
-      "baselineResale": 75,
-      "resaleBySize": { "7": 70, "8": 75, "9": 78, "10": 80 },
-      "strategy": "balanced",
-      "maxInventory": 3
-    }
-  },
-  "costs": {
-    "packaging": 0.8,
-    "cleaning": { "new": 0, "veryGood": 0.75, "good": 2.0, "unknown": 2.5 },
-    "vintedSellingFee": 0
-  },
-  "strategy": {
-    "default": "balanced",
-    "profiles": {
-      "fastFlip": { "marginWeight": 0.35, "roiWeight": 0.20, "demandWeight": 0.30, "conditionWeight": 0.10, "riskWeight": 0.05 },
-      "maxProfit": { "marginWeight": 0.50, "roiWeight": 0.25, "demandWeight": 0.10, "conditionWeight": 0.10, "riskWeight": 0.05 },
-      "balanced": { "marginWeight": 0.45, "roiWeight": 0.20, "demandWeight": 0.20, "conditionWeight": 0.10, "riskWeight": 0.05 }
-    }
-  },
-  "codeRegistry": {
-    "CD0609-015": {
-      "family": "Nike TN",
-      "model": "Nike Air Max Plus GS",
-      "colourway": "White/Grey-Volt",
-      "maxUk": 6
-    }
-  },
-  "sellerRisk": {
-    "suspiciousLowPriceShare": 0.70,
-    "suspiciousCandidateCount": 4,
-    "duplicatePhotoAcrossItems": 2
-  },
-  "marketCacheHours": 6,
-  "photoEvidence": {
-    "minImagesStrong": 4,
-    "minImagesGood": 2
-  },
-  "inventoryFile": "./inventory.json"
+  "seasonalDemand": {"winter":{"months":[10,11,12,1,2],"Nike P-6000":1.05,"Nike Vomero":1.08,"Nike TN":1.03},"spring":{"months":[3,4,5],"Nike P-6000":1.03,"Nike Vomero":1.04,"Nike TN":1.02},"summer":{"months":[6,7,8],"Nike P-6000":0.98,"Nike Vomero":1.00,"Nike TN":1.04},"autumn":{"months":[9],"Nike P-6000":1.02,"Nike Vomero":1.05,"Nike TN":1.02}},
+  "models": {"Nike P-6000":{"baselineResale":65,"resaleBySize":{"7":60,"8":65,"9":68,"10":70},"strategy":"fastFlip","maxInventory":3},"Nike Vomero":{"baselineResale":65,"resaleBySize":{"7":60,"8":65,"9":68,"10":70},"strategy":"fastFlip","maxInventory":3},"Nike TN":{"baselineResale":75,"resaleBySize":{"7":70,"8":75,"9":78,"10":80},"strategy":"balanced","maxInventory":3},"Nike Pegasus Premium":{"baselineResale":125,"resaleBySize":{"7":115,"8":125,"9":130,"10":135},"strategy":"balanced","maxInventory":3}},
+  "costs":{"packaging":0.8,"cleaning":{"new":0,"veryGood":0.75,"good":2.0,"unknown":2.5},"vintedSellingFee":0},
+  "strategy":{"default":"balanced","profiles":{"fastFlip":{"marginWeight":0.35,"roiWeight":0.20,"demandWeight":0.30,"conditionWeight":0.10,"riskWeight":0.05},"maxProfit":{"marginWeight":0.50,"roiWeight":0.25,"demandWeight":0.10,"conditionWeight":0.10,"riskWeight":0.05},"balanced":{"marginWeight":0.45,"roiWeight":0.20,"demandWeight":0.20,"conditionWeight":0.10,"riskWeight":0.05}}},
+  "codeRegistry":{"CD0609-015":{"family":"Nike TN","model":"Nike Air Max Plus GS","colourway":"White/Grey-Volt","maxUk":6}},
+  "sellerRisk":{"suspiciousLowPriceShare":0.70,"suspiciousCandidateCount":4,"duplicatePhotoAcrossItems":2},
+  "marketCacheHours":6,"photoEvidence":{"minImagesStrong":4,"minImagesGood":2},"inventoryFile":"./inventory.json"
 }
