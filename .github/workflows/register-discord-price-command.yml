@@ -1,25 +1,45 @@
-name: Register Discord Price Command
+name: Configure and Register Discord Price Command
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
 
 permissions:
   contents: read
 
 jobs:
-  register:
+  configure:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
+      - name: Check interactions endpoint
+        run: |
+          set -euo pipefail
+          code=$(curl -sS -o /dev/null -w '%{http_code}' 'https://dans-vault.vercel.app/api/discord-interactions' || true)
+          echo "Endpoint returned HTTP $code"
+          test "$code" = "405"
+
+      - name: Set Discord interactions endpoint
+        env:
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+        run: |
+          set -euo pipefail
+          curl -fsS -X PATCH \
+            -H "Authorization: Bot $DISCORD_BOT_TOKEN" \
+            -H "Content-Type: application/json" \
+            'https://discord.com/api/v10/applications/1540760564215586936' \
+            --data '{"interactions_endpoint_url":"https://dans-vault.vercel.app/api/discord-interactions"}'
+
       - name: Register /price globally
         env:
           DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
         run: |
           set -euo pipefail
-          test -n "$DISCORD_BOT_TOKEN"
           curl -fsS -X PUT \
             -H "Authorization: Bot $DISCORD_BOT_TOKEN" \
             -H "Content-Type: application/json" \
-            "https://discord.com/api/v10/applications/1540760564215586936/commands" \
+            'https://discord.com/api/v10/applications/1540760564215586936/commands' \
             --data-binary @- <<'JSON'
           [
             {
@@ -33,9 +53,9 @@ jobs:
                   "type": 3,
                   "required": true,
                   "choices": [
-                    {"name": "Nike P-6000", "value": "p6000"},
-                    {"name": "Nike Vomero", "value": "vomero"},
-                    {"name": "Nike TN", "value": "tn"}
+                    {"name":"Nike P-6000","value":"p6000"},
+                    {"name":"Nike Vomero","value":"vomero"},
+                    {"name":"Nike TN","value":"tn"}
                   ]
                 },
                 {
@@ -48,7 +68,7 @@ jobs:
                 },
                 {
                   "name": "buy_price",
-                  "description": "Your purchase price in GBP",
+                  "description": "Purchase price in GBP",
                   "type": 10,
                   "required": true,
                   "min_value": 0.01,
