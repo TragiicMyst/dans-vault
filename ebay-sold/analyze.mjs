@@ -74,9 +74,20 @@ function buildReport(models, source) {
     const buy = base ? Math.max(0, base * 0.55 - 3) : null;
     const strong = base ? Math.max(0, base * 0.48) : null;
     const trend = Number.isFinite(d.trend30d) ? `${d.trend30d >= 0 ? '+' : ''}${d.trend30d.toFixed(1)}%` : 'n/a';
-    const top = (d.examples ?? []).slice(0, 5).map((x) => `• ${x.label}: £${x.avgSold.toFixed(0)} avg (${x.sales})`).join('\n') || 'No colourway breakdown';
-    const sizes = (d.sizeExamples ?? []).slice(0, 5).map((x) => `• ${x.label}: £${x.avgSold.toFixed(0)} avg (${x.sales})`).join('\n') || 'No size breakdown';
-    return `**${name}** • ${String(d.confidence ?? 'unknown').toUpperCase()} CONFIDENCE\n💷 Avg £${(d.avgSold ?? 0).toFixed(2)}${d.medianSold ? ` • Median £${d.medianSold.toFixed(2)}` : ''}\n📈 30d trend: ${trend}${d.sellThrough ? ` • Sell-through ${(d.sellThrough * 100).toFixed(1)}%` : ''}\n📦 Sales observed: ${d.salesCount ?? d.totalSellers ?? 'n/a'}${d.totalSellers ? ` • Sellers ${d.totalSellers}` : ''}\n\n🎨 **Top colour/model signals**\n${top}\n\n📏 **Size signals**\n${sizes}\n\n🎯 **Indicative max buy:** £${(buy ?? 0).toFixed(0)}\n🔥 **Strong-buy buy price:** £${(strong ?? 0).toFixed(0)}`;
+    const top = (d.examples ?? []).slice(0, 5).map((x) => {
+      const label = x.label ?? x.name ?? 'Unknown';
+      const avg = Number.isFinite(Number(x.avgSold)) ? Number(x.avgSold) : Number(x.avg);
+      const sales = x.sales ?? x.count ?? '';
+      return `• ${label}: £${Number.isFinite(avg) ? avg.toFixed(0) : 'n/a'} avg${sales !== '' ? ` (${sales})` : ''}`;
+    }).join('\n') || 'No colourway breakdown';
+    const sizes = (d.sizeExamples ?? []).slice(0, 5).map((x) => {
+      const label = x.label ?? x.size ?? x.name ?? 'Unknown';
+      const avgValue = x.avgSold ?? x.avg ?? x.sold;
+      const avg = Number(avgValue);
+      const sales = x.sales ?? x.count ?? '';
+      return `• ${label}: £${Number.isFinite(avg) ? avg.toFixed(0) : 'n/a'} avg${sales !== '' ? ` (${sales})` : ''}`;
+    }).join('\n') || 'No size breakdown';
+    return `**${name}** • ${String(d.confidence ?? 'unknown').toUpperCase()} CONFIDENCE\n💷 Avg £${Number(d.avgSold ?? 0).toFixed(2)}${d.medianSold ? ` • Median £${Number(d.medianSold).toFixed(2)}` : ''}\n📈 30d trend: ${trend}${d.sellThrough ? ` • Sell-through ${(d.sellThrough * 100).toFixed(1)}%` : ''}\n📦 Sales observed: ${d.salesCount ?? d.totalSellers ?? 'n/a'}${d.totalSellers ? ` • Sellers ${d.totalSellers}` : ''}\n\n🎨 **Top colour/model signals**\n${top}\n\n📏 **Size signals**\n${sizes}\n\n🎯 **Indicative max buy:** £${(buy ?? 0).toFixed(0)}\n🔥 **Strong-buy buy price:** £${(strong ?? 0).toFixed(0)}`;
   }).join('\n\n━━━━━━━━━━━━━━━━━━\n\n');
 
   return {
