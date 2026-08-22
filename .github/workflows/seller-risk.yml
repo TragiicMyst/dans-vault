@@ -2,7 +2,7 @@ name: Dan's Vault Seller Risk
 
 on:
   schedule:
-    - cron: '* * * * *'
+    - cron: '*/5 * * * *'
   workflow_dispatch:
     inputs:
       test_mode:
@@ -42,5 +42,6 @@ jobs:
             echo "No state changes."
           else
             git commit -m "Update seller risk state"
+            git pull --rebase origin main
             git push
           fi
