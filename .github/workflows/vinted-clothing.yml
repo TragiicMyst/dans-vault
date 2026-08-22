@@ -38,10 +38,14 @@ jobs:
             exit 0
           fi
 
-          # GitHub Actions cron cannot fire every 30 seconds. Keep the 5-minute
-          # scheduled job alive and perform a fresh scan every 30 seconds.
-          deadline=$((SECONDS + 265))
+          # GitHub Actions schedules have a 5-minute minimum. Each scheduled
+          # run stays alive and scans repeatedly at ~30-second intervals for as
+          # long as the job window allows.
+          deadline=$((SECONDS + 275))
+          cycle=0
           while [ $SECONDS -lt $deadline ]; do
+            cycle=$((cycle + 1))
+            echo "=== Clothing radar cycle $cycle ==="
             cycle_start=$SECONDS
             node vinted-radar/run-bot.mjs || echo "Radar scan failed; continuing to next 30s cycle."
             elapsed=$((SECONDS - cycle_start))
@@ -59,8 +63,21 @@ jobs:
           git add vinted-radar/clothing-state.json
           if git diff --cached --quiet; then
             echo "No clothing state changes."
-          else
-            git commit -m "Update Nike clothing radar state"
-            git pull --rebase origin main
-            git push
+            exit 0
           fi
+
+          git commit -m "Update Nike clothing radar state"
+
+          # Clothing and trainers write different state files on the same
+          # branch, so their scheduled runs can overlap. Retry the rebase/push
+          # if the other radar wins the race to origin/main.
+          for attempt in 1 2 3 4 5; do
+            if git pull --rebase origin main && git push origin HEAD:main; then
+              echo "Clothing radar state pushed successfully."
+              exit 0
+            fi
+            echo "State push attempt $attempt failed; retrying..."
+            sleep 3
+          done
+          echo "Could not push clothing radar state after 5 attempts."
+          exit 1
