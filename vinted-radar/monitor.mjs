@@ -44,16 +44,15 @@ for (const search of searches) {
       if (size === null) { remember(item, prior, { blockedReason:'size' }); continue; }
       if (Number.isFinite(Number(search.maxPrice)) && item.price > Number(search.maxPrice)) continue;
 
-      let condition = classifyCondition(text, config.condition ?? {});
-      // Vinted often keeps the condition outside the search-card text. For promising candidates,
-      // verify the listing page before rejecting it as "unknown".
+      // STRICT CONDITION FILTER: only Vinted's New with tags / New without tags.
+      let condition = classifyCondition(text);
+      // Vinted often keeps the condition outside the search-card text. For promising
+      // candidates, verify the listing page before rejecting it as unknown.
       if (condition === 'unknown' && (item.price <= Number(search.maxPrice ?? item.price) * 0.75 || item.price <= 40)) {
         const detail = await fetchText(item.url).catch(() => '');
         if (detail) {
           const detailText = stripTags(detail).replace(/\s+/g, ' ').toLowerCase();
-          if (!hasBadCondition(detailText, config.condition?.avoid ?? [])) condition = classifyCondition(detailText, config.condition ?? {});
-          if (condition === 'unknown' && /new with tags|new without tags|brand new|new condition|condition\s*[:\-]?\s*new\b/.test(detailText)) condition = 'new';
-          if (condition === 'unknown' && /very good|excellent condition|worn once|worn twice|like new/.test(detailText)) condition = 'veryGood';
+          if (!hasBadCondition(detailText, config.condition?.avoid ?? [])) condition = classifyCondition(detailText);
         }
       }
       if (condition === 'unknown') { remember(item, prior, { blockedReason:'condition-not-confirmed', size }); continue; }
@@ -62,7 +61,7 @@ for (const search of searches) {
       const resale = resaleEstimate(search.name, size, market, config);
       if (!resale) continue;
       const costs = config.costs ?? {};
-      const fixedCosts = Number(costs.packaging ?? 0.8) + Number(costs.cleaning?.[condition] ?? costs.cleaning?.veryGood ?? 0.75) + Number(costs.vintedSellingFee ?? 0);
+      const fixedCosts = Number(costs.packaging ?? 0.8) + Number(costs.cleaning?.[condition] ?? costs.cleaning?.new ?? costs.cleaning?.veryGood ?? 0.75) + Number(costs.vintedSellingFee ?? 0);
       const profit = round2(resale - item.price - fixedCosts);
       const roi = item.price > 0 ? round2((profit / item.price) * 100) : 0;
       if (profit < 15 || roi < 35) { remember(item, prior, { size, condition, buyScore:0, resale, netProfit:profit, roi, blockedReason:'weak-margin' }); continue; }
@@ -73,7 +72,7 @@ for (const search of searches) {
       const stock = countInStock(inventory.items ?? [], search.name);
       const marginScore = clamp(((resale - item.price) / Math.max(resale,1)) * 100, 0, 100);
       const roiScore = clamp(roi,0,200) / 2;
-      const conditionScore = condition === 'new' ? 100 : 92;
+      const conditionScore = 100;
       const demandScore = clamp(demand,50,115);
       const riskScore = risk.level === 'HIGH' ? 20 : risk.level === 'MEDIUM' ? 75 : 100;
       const profile = config.strategy?.profiles?.[strategy] ?? { marginWeight:.45, roiWeight:.25, demandWeight:.15, conditionWeight:.10, riskWeight:.05 };
@@ -108,7 +107,7 @@ console.log(`Bargain Finder scanned ${searches.length} search groups and sent ${
 async function fetchText(url){const r=await fetch(url,{headers:{'User-Agent':UA,'Accept-Language':'en-GB,en;q=0.9'},redirect:'follow'});if(!r.ok)throw new Error(`HTTP ${r.status}`);return r.text();}
 function extractItems(html){const found=new Map();const re=/href=["'](\/items\/([0-9]+)(?:-[^"']*)?)[^"']*["'][^>]*>/gi;let m;while((m=re.exec(html))!==null){const id=m[2],path=m[1].split('?')[0];const context=stripTags(html.slice(m.index,Math.min(html.length,m.index+7000))).replace(/\s+/g,' ').trim();const pm=context.match(/£\s*([0-9]+(?:\.[0-9]{1,2})?)/);if(!pm)continue;const title=decodeHtml(path.replace(/^\/items\/[0-9]+-?/,'').replace(/-/g,' ').trim());found.set(id,{id,title,price:Number(pm[1]),fullText:`${title} ${context}`,url:`https://www.vinted.co.uk${path}`});}return [...found.values()].slice(0,80);}
 function inferSize(text,sizes){const lower=text.toLowerCase();const aliases={XS:['xs','extra small'],S:['size s',' small '],M:['size m',' medium '],L:['size l',' large '],XL:['xl','extra large'],XXL:['xxl','2xl','extra extra large']};for(const size of sizes){const raw=String(size);if(/^\d+(?:\.5)?$/.test(raw)&&new RegExp(`\\b(?:uk\\s*)?${raw.replace('.','\\.?')}\\b`,'i').test(lower))return Number(raw);if(aliases[raw.toUpperCase()]?.some(x=>lower.includes(x)))return raw.toUpperCase();}return null;}
-function classifyCondition(text,cfg){const newer=cfg.new??['brand new','new with tags','new without tags','nwt'];const very=cfg.veryGood??['very good','excellent condition','worn once','worn twice','worn a few times'];if(newer.some(x=>text.includes(x)))return'new';if(very.some(x=>text.includes(x)))return'veryGood';return'unknown';}
+function classifyCondition(text){if(/\bnew\s+with\s+tags\b/i.test(text))return'newWithTags';if(/\bnew\s+without\s+tags\b/i.test(text))return'newWithoutTags';return'unknown';}
 function containsBlockedKeyword(text,words){return words.some(word=>{const w=String(word).toLowerCase().trim();if(!w)return false;if(w.length<=3&&!w.includes(' '))return new RegExp(`(^|[^a-z0-9])${escapeRegExp(w)}($|[^a-z0-9])`,'i').test(text);return text.includes(w);});}
 function hasBadCondition(text,words){return words.some(word=>{const w=String(word).toLowerCase().trim();if(!w||w==='good')return false;if(w==='good condition')return /\bgood condition\b/i.test(text);return text.includes(w);})||/\bcondition\s*[:\-]?\s*good\b/i.test(text);}
 function resaleEstimate(name,size,market,cfg){const model=cfg.models?.[name]??{};const bySize=model.resaleBySize??{};let base=Number(bySize[String(size)]??model.baselineResale??0);if(!base&&Number.isFinite(Number(size))){const keys=Object.keys(bySize).map(Number).filter(Number.isFinite);if(keys.length){const nearest=keys.sort((a,b)=>Math.abs(a-Number(size))-Math.abs(b-Number(size)))[0];base=Number(bySize[String(nearest)]??0);}}if(!base)return 0;if(!market||market<=0)return round2(base);return round2(clamp(base*.60+market*.90*.40,base*.88,base*1.12));}
@@ -116,7 +115,7 @@ function buildMarketMedianBySize(items){const g={};for(const item of items){cons
 function seasonalDemand(name,cfg){const month=new Date().getMonth()+1;for(const season of Object.values(cfg.seasonalDemand??{}))if(season.months?.includes(month))return round2((season[name]??1)*100);return 100;}
 function fakeRiskLevel(item,text,resale){const explicit=['replica','fake','counterfeit','1:1','ua ','ua-','rep ','mirror','pk batch','not authentic'].filter(x=>text.includes(x));if(explicit.length)return{level:'HIGH',note:'Explicit suspicious-authenticity wording detected'};if(resale>0&&item.price<=resale*.30)return{level:'MEDIUM',note:'Extremely low price versus expected resale; inspect photos, code and seller history'};if(resale>0&&item.price<=resale*.45)return{level:'LOW',note:'Strong bargain price; manual authenticity check recommended'};return{level:'LOW',note:'No configured major authenticity red flags detected'};}
 function getPriceDrop(oldPrice,newPrice,s){if(!s?.enabled||!oldPrice||newPrice>=oldPrice)return null;const amount=oldPrice-newPrice,pct=amount/oldPrice;if(amount<Number(s.minDropAmount??5)||pct<Number(s.minDropPercent??.12))return null;return{from:round2(oldPrice),to:round2(newPrice),amount:round2(amount),percent:pct};}
-async function sendDiscord(url,d){const resaleRange=`£${Math.max(0,d.resale-5).toFixed(0)}–£${Math.round(d.resale+5)}`;const verdict=d.exceptionalDeal?'🔥 **EXCEPTIONAL BARGAIN**':d.buyScore>=85?'🟢 **STRONG BUY**':'🟡 **GOOD BUY**';const drop=d.priceDrop?`\n📉 **Price drop:** £${d.priceDrop.from.toFixed(2)} → £${d.priceDrop.to.toFixed(2)}`:'';const body={username:"Dan's Vault Bargain Finder",embeds:[{title:'🚨 NEW BARGAIN FOUND 🔥',description:`**⭐ ${d.searchName.toUpperCase()}**\n**${d.item.title}**\n\n🏷️ **Buy:** £${d.item.price.toFixed(2)}\n📏 **Size:** ${d.size}\n📦 **Condition:** ${d.condition==='new'?'🆕 New / NWT / NWOT':'✨ Very good'}\n📈 **Est. resale:** ${resaleRange}\n💰 **Est. profit:** £${d.netProfit.toFixed(2)}\n📊 **ROI:** ${d.roi.toFixed(0)}%\n🎯 **Score:** ${d.buyScore}/100\n\n${verdict}${drop}\n🛡️ **Authenticity screen:** ${d.fakeRisk.level}\n📈 **Demand:** ${d.demand.toFixed(0)}/100\n⚡ **Strategy:** ${d.strategy}\n\n${d.fakeRisk.note}\n\n*Buying signal only — check photos, code, condition and current sold prices before buying.*`,url:d.item.url,color:d.exceptionalDeal?3066993:d.buyScore>=85?3447003:16776960,footer:{text:"Dan's Vault • Bargain Finder"},timestamp:new Date().toISOString()}]};const r=await fetch(url,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)});if(!r.ok)throw new Error(`Discord webhook HTTP ${r.status}`);}
+async function sendDiscord(url,d){const resaleRange=`£${Math.max(0,d.resale-5).toFixed(0)}–£${Math.round(d.resale+5)}`;const verdict=d.exceptionalDeal?'🔥 **EXCEPTIONAL BARGAIN**':d.buyScore>=85?'🟢 **STRONG BUY**':'🟡 **GOOD BUY**';const drop=d.priceDrop?`\n📉 **Price drop:** £${d.priceDrop.from.toFixed(2)} → £${d.priceDrop.to.toFixed(2)}`:'';const conditionLabel=d.condition==='newWithTags'?'🆕 New with tags':'🆕 New without tags';const body={username:"Dan's Vault Bargain Finder",embeds:[{title:'🚨 NEW BARGAIN FOUND 🔥',description:`**⭐ ${d.searchName.toUpperCase()}**\n**${d.item.title}**\n\n🏷️ **Buy:** £${d.item.price.toFixed(2)}\n📏 **Size:** ${d.size}\n📦 **Condition:** ${conditionLabel}\n📈 **Est. resale:** ${resaleRange}\n💰 **Est. profit:** £${d.netProfit.toFixed(2)}\n📊 **ROI:** ${d.roi.toFixed(0)}%\n🎯 **Score:** ${d.buyScore}/100\n\n${verdict}${drop}\n🛡️ **Authenticity screen:** ${d.fakeRisk.level}\n📈 **Demand:** ${d.demand.toFixed(0)}/100\n⚡ **Strategy:** ${d.strategy}\n\n${d.fakeRisk.note}\n\n*Buying signal only — check photos, code, condition and current sold prices before buying.*`,url:d.item.url,color:d.exceptionalDeal?3066993:d.buyScore>=85?3447003:16776960,footer:{text:"Dan's Vault • Bargain Finder"},timestamp:new Date().toISOString()}]};const r=await fetch(url,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)});if(!r.ok)throw new Error(`Discord webhook HTTP ${r.status}`);}
 async function sendTest(url){const body={username:"Dan's Vault Bargain Finder",embeds:[{title:'🧪 BARGAIN FINDER TEST',description:'✅ **Webhook connected**\n\nThe radar is ready for Nike trainers, Tech Fleece, jackets, tracksuits and activewear.\n\n*Test message — not a real bargain.*',color:3447003,timestamp:new Date().toISOString(),footer:{text:"Dan's Vault • Bargain Finder"}}]};const r=await fetch(url,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)});if(!r.ok)throw new Error(`Discord webhook HTTP ${r.status}`);}
 function remember(item,prior,extra){const same=prior&&prior.lastPrice===item.price;state.items[item.id]={...prior,...extra,lastPrice:item.price,lastSeenAt:same&&prior.lastSeenAt?prior.lastSeenAt:new Date().toISOString()};}
 function countInStock(items,name){return items.filter(x=>x.model===name&&x.status!=='sold').length;}
