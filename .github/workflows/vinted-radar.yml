@@ -21,7 +21,7 @@ permissions:
 jobs:
   radar:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 7
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -59,20 +59,33 @@ jobs:
         run: |
           git config user.name "Dan's Vault Trainers Radar"
           git config user.email "actions@users.noreply.github.com"
-          git add vinted-radar/state.json
-          if git diff --cached --quiet; then exit 0; fi
-          git commit -m "Update Nike trainers radar state"
+
+          # Keep the state produced by this run outside the working tree. Then base
+          # each push attempt on the latest main branch. This avoids rebase conflicts
+          # entirely when the clothing radar or another workflow updates main.
+          cp vinted-radar/state.json /tmp/trainers-state.json
+
           for attempt in 1 2 3 4 5; do
+            echo "State save attempt $attempt"
             git fetch origin main
-            if git rebase origin/main; then
-              if git push origin HEAD:main; then exit 0; fi
-            else
-              echo "State-file conflict detected; resolving in favour of this radar run's state."
-              git checkout --theirs vinted-radar/state.json
-              git add vinted-radar/state.json
-              GIT_EDITOR=true git rebase --continue
-              if git push origin HEAD:main; then exit 0; fi
+            git reset --hard origin/main
+            cp /tmp/trainers-state.json vinted-radar/state.json
+            git add vinted-radar/state.json
+
+            if git diff --cached --quiet; then
+              echo "No trainer state changes to save."
+              exit 0
             fi
-            sleep 3
+
+            git commit -m "Update Nike trainers radar state"
+            if git push origin HEAD:main; then
+              echo "✅ Trainer radar state saved."
+              exit 0
+            fi
+
+            echo "Push raced another workflow; retrying from newest main."
+            sleep 2
           done
+
+          echo "❌ Could not save trainer radar state after 5 attempts."
           exit 1
