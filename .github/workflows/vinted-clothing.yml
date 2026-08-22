@@ -1,0 +1,49 @@
+name: Dan's Vault Nike Clothing Radar
+
+on:
+  schedule:
+    - cron: '2-59/5 * * * *'
+  workflow_dispatch:
+    inputs:
+      test_mode:
+        description: 'Send a test Discord alert instead of checking Vinted'
+        required: false
+        default: false
+        type: boolean
+
+concurrency:
+  group: dans-vault-clothing-radar
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  radar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Run Nike Clothing Radar
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_CLOTHING_WEBHOOK_URL }}
+          BOT_TYPE: clothing
+          STATE_NAME: clothing-state.json
+          TEST_MODE: ${{ github.event_name == 'workflow_dispatch' && inputs.test_mode == true && 'true' || 'false' }}
+        run: node vinted-radar/run-bot.mjs
+
+      - name: Save clothing radar state
+        if: ${{ !(github.event_name == 'workflow_dispatch' && inputs.test_mode == true) }}
+        run: |
+          git config user.name "Dan's Vault Clothing Radar"
+          git config user.email "actions@users.noreply.github.com"
+          git add vinted-radar/clothing-state.json
+          if git diff --cached --quiet; then
+            echo "No clothing state changes."
+          else
+            git commit -m "Update Nike clothing radar state"
+            git pull --rebase origin main
+            git push
+          fi
