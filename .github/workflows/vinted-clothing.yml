@@ -2,15 +2,8 @@ name: Dan's Vault Nike Clothing Radar
 
 on:
   schedule:
-    - cron: '3-59/5 * * * *'
-  push:
-    paths:
-      - 'vinted-radar/run-bot.mjs'
-      - 'vinted-radar/monitor.mjs'
-      - 'vinted-radar/enable-live-alerts.mjs'
-      - 'vinted-radar/config.json'
-      - '.github/workflows/vinted-clothing.yml'
-      - '.github/workflows/vinted-radar.yml'
+    - cron: '2-57/5 * * * *'
+  workflow_dispatch:
 
 concurrency:
   group: dans-vault-clothing-radar
@@ -22,50 +15,34 @@ permissions:
 jobs:
   radar:
     runs-on: ubuntu-latest
-    timeout-minutes: 7
+    timeout-minutes: 6
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: Validate clothing Discord webhook silently
+      - name: Validate clothing Discord webhook
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_CLOTHING_WEBHOOK_URL }}
         run: |
-          if [ -z "$DISCORD_WEBHOOK_URL" ]; then
-            echo "❌ Clothing Discord webhook secret is missing."
-            exit 1
-          fi
+          test -n "$DISCORD_WEBHOOK_URL"
           curl --fail --silent --show-error "$DISCORD_WEBHOOK_URL" >/dev/null
-          echo "✅ Clothing Discord webhook is valid."
 
-      - name: Configure live clothing alerts
-        if: ${{ github.event_name != 'push' }}
+      - name: Enable immediate clothing alerts
         run: node vinted-radar/enable-live-alerts.mjs clothing
 
-      - name: Run Nike Clothing Radar every 30 seconds
+      - name: Run clothing radar repeatedly
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_CLOTHING_WEBHOOK_URL }}
           BOT_TYPE: clothing
           STATE_NAME: clothing-state.json
         run: |
-          if [ "$GITHUB_EVENT_NAME" = "push" ]; then
-            echo "=== Code-push validation only: no Discord bargain alerts ==="
-            node --check vinted-radar/run-bot.mjs
-            node --check vinted-radar/monitor.mjs
-            node --check vinted-radar/enable-live-alerts.mjs
-            exit 0
-          fi
-
-          deadline=$((SECONDS + 260))
-          cycle=0
+          deadline=$((SECONDS + 250))
           while [ $SECONDS -lt $deadline ]; do
-            cycle=$((cycle + 1))
-            echo "=== Clothing radar cycle $cycle | $(date -u '+%Y-%m-%d %H:%M:%S UTC') ==="
             cycle_start=$SECONDS
-            node vinted-radar/run-bot.mjs || echo "Radar scan failed; continuing to next 30s cycle."
+            node vinted-radar/run-bot.mjs || echo "Clothing scan failed; retrying next cycle."
             elapsed=$((SECONDS - cycle_start))
-            remaining=$((30 - elapsed))
-            if [ $remaining -gt 0 ] && [ $SECONDS -lt $deadline ]; then sleep $remaining; fi
+            wait=$((30 - elapsed))
+            if [ $wait -gt 0 ] && [ $SECONDS -lt $deadline ]; then sleep $wait; fi
           done
 
       - name: Save clothing radar state
@@ -74,28 +51,14 @@ jobs:
           git config user.name "Dan's Vault Clothing Radar"
           git config user.email "actions@users.noreply.github.com"
           cp vinted-radar/clothing-state.json /tmp/clothing-state.json
-
           for attempt in 1 2 3 4 5; do
-            echo "State save attempt $attempt"
             git fetch origin main
             git reset --hard origin/main
             cp /tmp/clothing-state.json vinted-radar/clothing-state.json
             git add vinted-radar/clothing-state.json
-
-            if git diff --cached --quiet; then
-              echo "No clothing state changes to save."
-              exit 0
-            fi
-
+            if git diff --cached --quiet; then exit 0; fi
             git commit -m "Update Nike clothing radar state"
-            if git push origin HEAD:main; then
-              echo "✅ Clothing radar state saved."
-              exit 0
-            fi
-
-            echo "Push raced another workflow; retrying from newest main."
+            if git push origin HEAD:main; then exit 0; fi
             sleep 2
           done
-
-          echo "❌ Could not save clothing radar state after 5 attempts."
           exit 1
