@@ -26,13 +26,30 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: Run Nike Trainers Radar
+      - name: Run Nike Trainers Radar every 30 seconds
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           BOT_TYPE: trainers
           STATE_NAME: state.json
           TEST_MODE: ${{ github.event_name == 'workflow_dispatch' && inputs.test_mode == true && 'true' || 'false' }}
-        run: node vinted-radar/run-bot.mjs
+        run: |
+          if [ "$TEST_MODE" = "true" ]; then
+            node vinted-radar/run-bot.mjs
+            exit 0
+          fi
+
+          # GitHub Actions cron cannot fire every 30 seconds. Keep the 5-minute
+          # scheduled job alive and perform a fresh scan every 30 seconds.
+          deadline=$((SECONDS + 265))
+          while [ $SECONDS -lt $deadline ]; do
+            cycle_start=$SECONDS
+            node vinted-radar/run-bot.mjs || echo "Radar scan failed; continuing to next 30s cycle."
+            elapsed=$((SECONDS - cycle_start))
+            remaining=$((30 - elapsed))
+            if [ $remaining -gt 0 ] && [ $SECONDS -lt $deadline ]; then
+              sleep $remaining
+            fi
+          done
 
       - name: Save trainers radar state
         if: ${{ !(github.event_name == 'workflow_dispatch' && inputs.test_mode == true) }}
