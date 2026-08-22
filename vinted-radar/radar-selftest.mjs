@@ -4,16 +4,14 @@ import {
   CLOTHING_SIZES,
   buildSearches,
   classifyCondition,
-  discordWebhookUrl,
   extractItems,
   inferSize,
-  isRecoveryMode,
   matchesSearchCandidate,
-  migrateState,
   parseAgeMinutes
-} from './radar-core-v4.mjs';
+} from './radar-v5.mjs';
 
 const item = title => ({ title, fullText: title });
+
 assert.equal(matchesSearchCandidate(item('Nike TN mens trainers'), 'Nike TN'), true);
 assert.equal(matchesSearchCandidate(item('Nike TNs black'), 'Nike TN'), true);
 assert.equal(matchesSearchCandidate(item('Nike Tans red black'), 'Nike TN'), true);
@@ -46,15 +44,12 @@ assert.equal(parsed[1].price, 55);
 const config = {
   searches: [{ name: 'Nike TN', buyUrl: 'https://www.vinted.co.uk/catalog?search_text=nike%20tn&price_to=66', maxPrice: 66 }]
 };
-const searches = buildSearches('trainers', config);
-assert.equal(searches.length, 2);
-const legacyState = { freshness: { version: 2, bootstrapped: true, lastScanAt: new Date().toISOString(), frontiers: { 'Nike TN': { maxId: '100' } } }, items: {} };
-migrateState(legacyState, searches);
-assert.equal(legacyState.freshness.version, 4);
-assert.equal(legacyState.freshness.frontiers['Nike TN::primary'].maxId, '100');
-assert.equal(legacyState.freshness.frontiers['Nike TN::air-max-plus'].maxId, '100');
-assert.equal(isRecoveryMode(new Date().toISOString()), false);
-assert.equal(isRecoveryMode('2000-01-01T00:00:00Z'), true);
-assert.match(discordWebhookUrl('https://discord.com/api/webhooks/1/x'), /wait=true/);
+const trainerSearches = buildSearches('trainers', config);
+assert.equal(trainerSearches.length, 3);
+assert.equal(trainerSearches.some(s => s.key === 'Nike TN::air-max-plus'), true);
+assert.equal(trainerSearches.some(s => s.key === 'Nike TN::tans'), true);
 
-console.log('Radar v4 self-test passed.');
+const clothingSearches = buildSearches('clothing', config);
+assert.equal(clothingSearches.length, 16);
+
+console.log('Radar v5 self-test passed.');
