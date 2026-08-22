@@ -2,7 +2,7 @@ name: Dan's Vault Vinted Radar
 
 on:
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '* * * * *'
   workflow_dispatch:
     inputs:
       test_mode:
