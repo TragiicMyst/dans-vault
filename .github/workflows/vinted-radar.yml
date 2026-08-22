@@ -113,8 +113,9 @@ qualifying.sort((a, b) => Number(b.exceptionalDeal) - Number(a.exceptionalDeal) 
           STATE_NAME: state.json
         run: |
           if [ "$GITHUB_EVENT_NAME" = "push" ]; then
-            echo "=== Fast trainers validation scan ==="
-            node vinted-radar/run-bot.mjs
+            echo "=== Code-push validation only: no Discord bargain alerts ==="
+            node --check vinted-radar/run-bot.mjs
+            node --check vinted-radar/monitor.mjs
             exit 0
           fi
 
