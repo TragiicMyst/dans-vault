@@ -1,9 +1,9 @@
 name: Configure and Register Discord Price Command
 
+# Manual only. The previous push trigger caused every repository change to
+# attempt Discord/Vercel registration and generated repeated failed runs.
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
 
 permissions:
   contents: read
@@ -50,33 +50,9 @@ jobs:
               "description": "Check a Nike item's resale potential",
               "type": 1,
               "options": [
-                {
-                  "name": "model",
-                  "description": "Nike model",
-                  "type": 3,
-                  "required": true,
-                  "choices": [
-                    {"name":"Nike P-6000","value":"p6000"},
-                    {"name":"Nike Vomero","value":"vomero"},
-                    {"name":"Nike TN","value":"tn"}
-                  ]
-                },
-                {
-                  "name": "size",
-                  "description": "UK size",
-                  "type": 4,
-                  "required": true,
-                  "min_value": 7,
-                  "max_value": 10
-                },
-                {
-                  "name": "buy_price",
-                  "description": "Purchase price in GBP",
-                  "type": 10,
-                  "required": true,
-                  "min_value": 0.01,
-                  "max_value": 500
-                }
+                {"name":"model","description":"Nike model","type":3,"required":true,"choices":[{"name":"Nike P-6000","value":"p6000"},{"name":"Nike Vomero","value":"vomero"},{"name":"Nike TN","value":"tn"}]},
+                {"name":"size","description":"UK size","type":4,"required":true,"min_value":7,"max_value":10},
+                {"name":"buy_price","description":"Purchase price in GBP","type":10,"required":true,"min_value":0.01,"max_value":500}
               ]
             }
           ]
