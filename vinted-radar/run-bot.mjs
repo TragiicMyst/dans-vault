@@ -16,31 +16,39 @@ const trainerNames = new Set([
 
 if (!['trainers','clothing'].includes(bot)) throw new Error(`Invalid BOT_TYPE: ${bot}`);
 
-// Fresh-radar filters are intentionally stricter than the general config:
-// only Vinted's explicit "New with tags" / "New without tags" labels can alert.
-// Score floors are slightly more practical so profitable steals are not lost.
+// Fresh-radar filters: only explicit New with tags / New without tags can alert.
+// The capture range is deliberately a little wider than the underlying search config
+// so we can catch bargains where a seller has priced above the old ceiling but the
+// resale margin is still strong.
 const scoreFloors = {
   trainers: {
-    default: 72,
-    'Nike Pegasus Premium': 75,
-    'Nike Air Max 95': 73,
-    'Nike Air Max 97': 73,
-    'Nike Shox TL': 73,
-    'Nike Vomero 5': 73,
-    'Nike TN': 73
+    default: 70,
+    'Nike Pegasus Premium': 73,
+    'Nike Air Max 95': 71,
+    'Nike Air Max 97': 71,
+    'Nike Shox TL': 71,
+    'Nike Vomero 5': 71,
+    'Nike TN': 71
   },
   clothing: {
-    default: 74,
-    'Nike Tech Fleece Tracksuit': 76,
-    'Nike ACG Fleece': 76,
-    'Nike ACG Jacket': 76,
-    'Nike Puffer Jacket': 75
+    default: 72,
+    'Nike Tech Fleece Tracksuit': 74,
+    'Nike ACG Fleece': 74,
+    'Nike ACG Jacket': 74,
+    'Nike Puffer Jacket': 73
   }
 };
 
 const searches = (config.searches ?? [])
   .filter(s => bot === 'trainers' ? trainerNames.has(s.name) : !trainerNames.has(s.name))
-  .map(s => ({ ...s, minScore: scoreFloors[bot][s.name] ?? scoreFloors[bot].default }));
+  .map(s => ({
+    ...s,
+    // Raise the catalogue asking-price ceiling by 20%.
+    // The monitor's profit/ROI gates still have to pass, so this does not mean
+    // expensive listings automatically get alerted.
+    maxPrice: Number.isFinite(Number(s.maxPrice)) ? Math.round(Number(s.maxPrice) * 1.20 * 100) / 100 : s.maxPrice,
+    minScore: scoreFloors[bot][s.name] ?? scoreFloors[bot].default
+  }));
 if (!searches.length) throw new Error(`No searches configured for ${bot}`);
 
 const existingState = new URL(`./${stateName}`, root);
@@ -55,6 +63,7 @@ await fs.copyFile(new URL('./inventory.json', root), path.join(tempDir, 'invento
 await fs.writeFile(path.join(tempDir, 'config.json'), JSON.stringify({
   ...config,
   searches: selected,
+  freshness: { ...(config.freshness ?? {}), maxAgeMinutes: 18 },
   // Explicit runtime gate: no worn/used/Very Good items may alert.
   allowedConditionKeywords: ['new with tags', 'new without tags'],
   condition: { ...(config.condition ?? {}), new: ['new with tags', 'new without tags'], veryGood: [] }
@@ -63,6 +72,7 @@ await fs.writeFile(path.join(tempDir, 'state.json'), JSON.stringify(baseState, n
 
 console.log(`Starting Dan's Vault ${bot} fresh radar with ${selected.length} search groups.`);
 console.log('Condition gate: ONLY New with tags / New without tags.');
+console.log('Capture range: +20% max price, 18-minute freshness window.');
 await import(pathToFileURL(path.join(tempDir, 'monitor.mjs')).href);
 
 if (process.env.TEST_MODE !== 'true') {
