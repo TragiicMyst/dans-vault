@@ -1,15 +1,12 @@
 name: Nike Demand
 
+# Paused until the Nike demand entrypoint is restored.
+# The previous workflow referenced nike-demand/run-bot.mjs, but that path is not present.
 on:
-  schedule:
-    - cron: '*/30 * * * *'
+  workflow_dispatch:
 
 jobs:
-  demand:
+  paused:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out repository
-        uses: actions/checkout@v4
-
-      - name: Run Nike demand bot
-        run: node nike-demand/run-bot.mjs
+      - run: echo "Nike Demand is paused — demand entrypoint needs rebuilding before automatic runs are re-enabled."
