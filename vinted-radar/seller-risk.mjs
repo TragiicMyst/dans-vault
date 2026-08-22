@@ -6,12 +6,32 @@ const state = await loadState();
 const webhook = process.env.DISCORD_SELLER_RISK_WEBHOOK_URL;
 if (!webhook) throw new Error('Missing DISCORD_SELLER_RISK_WEBHOOK_URL secret');
 
-const UA = 'Mozilla/5.0 (compatible; DansVaultSellerRisk/1.0; +https://github.com/TragiicMyst/dans-vault)';
+const TEST_MODE = process.env.SELLER_RISK_TEST_MODE === 'true';
+const UA = 'Mozilla/5.0 (compatible; DansVaultSellerRisk/1.1; +https://github.com/TragiicMyst/dans-vault)';
 const now = new Date().toISOString();
+
+if (TEST_MODE) {
+  await send(webhook, {
+    level: '🧪 TEST',
+    seller: 'Webhook connection test',
+    model: 'Nike test listing',
+    price: 25,
+    url: 'https://www.vinted.co.uk/',
+    flags: ['Discord webhook is connected', 'Seller Risk workflow can send alerts'],
+    candidateCount: 1,
+    lowShare: 1
+  });
+  console.log('Seller Risk diagnostic alert sent successfully.');
+  process.exit(0);
+}
+
 let alerts = 0;
 
 for (const search of CONFIG.searches) {
-  const html = await fetchText(search.buyUrl);
+  let html = '';
+  try { html = await fetchText(search.buyUrl); }
+  catch (e) { console.warn(`${search.name}: search fetch failed: ${e.message}`); continue; }
+
   for (const item of extractItems(html)) {
     const prior = state.items[item.id];
     if (prior && Date.now() - Date.parse(prior.lastSeenAt) < 24 * 3600000) continue;
@@ -41,14 +61,8 @@ for (const search of CONFIG.searches) {
 
     record.lastAlertAt = now;
     await send(webhook, {
-      level: high ? '🔴 HIGH' : '🟠 MEDIUM',
-      seller,
-      model: search.name,
-      price: item.price,
-      url: item.url,
-      flags,
-      candidateCount: record.candidateCount,
-      lowShare
+      level: high ? '🔴 HIGH' : '🟠 MEDIUM', seller, model: search.name, price: item.price,
+      url: item.url, flags, candidateCount: record.candidateCount, lowShare
     });
     alerts += 1;
     if (alerts >= 5) break;
@@ -93,7 +107,7 @@ async function send(url, d) {
     title: '🛡️ SELLER RISK ALERT',
     description: `**${d.level}**\n\n👤 **Seller:** ${d.seller}\n👟 **Model:** ${d.model}\n💷 **Observed price:** £${d.price.toFixed(2)}\n\n${d.flags.length ? d.flags.map(x => `⚠️ ${x}`).join('\n') : '⚠️ Suspicious seller pattern detected'}\n\n📊 **Candidates observed:** ${d.candidateCount}\n📉 **Low-price share:** ${(d.lowShare * 100).toFixed(0)}%\n\n*This is a screening signal, not proof the seller is fraudulent.*`,
     url: d.url,
-    color: d.level.includes('HIGH') ? 15158332 : 16753920,
+    color: d.level.includes('HIGH') ? 15158332 : d.level.includes('TEST') ? 3447003 : 16753920,
     footer: { text: "Dan's Vault • Seller Risk" },
     timestamp: new Date().toISOString()
   }] };
