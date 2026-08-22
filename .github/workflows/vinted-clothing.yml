@@ -7,6 +7,7 @@ on:
     paths:
       - 'vinted-radar/run-bot.mjs'
       - 'vinted-radar/monitor.mjs'
+      - 'vinted-radar/enable-live-alerts.mjs'
       - 'vinted-radar/config.json'
       - '.github/workflows/vinted-clothing.yml'
       - '.github/workflows/vinted-radar.yml'
@@ -38,73 +39,8 @@ jobs:
           echo "✅ Clothing Discord webhook is valid."
 
       - name: Configure live clothing alerts
-        run: |
-          python3 - <<'PY'
-          from pathlib import Path
-
-          monitor = Path('vinted-radar/monitor.mjs')
-          s = monitor.read_text()
-
-          old_alert_block = """      if (shouldAlert) {
-        qualifying.push({
-          searchName: search.name,
-          item,
-          size,
-          condition,
-          resale,
-          netProfit: profit,
-          roi,
-          buyScore: score,
-          fakeRisk: risk,
-          demand,
-          strategy,
-          exceptionalDeal: exceptional
-        });
-      }
-"""
-          new_alert_block = """      if (shouldAlert) {
-        const alert = {
-          searchName: search.name,
-          item,
-          size,
-          condition,
-          resale,
-          netProfit: profit,
-          roi,
-          buyScore: score,
-          fakeRisk: risk,
-          demand,
-          strategy,
-          exceptionalDeal: exceptional
-        };
-        qualifying.push(alert);
-        await sendDiscord(webhook, alert);
-      }
-"""
-          if old_alert_block not in s:
-              raise SystemExit('Could not enable live clothing alert dispatch: alert block not found')
-          s = s.replace(old_alert_block, new_alert_block, 1)
-
-          old_batch = """qualifying.sort((a, b) => Number(b.exceptionalDeal) - Number(a.exceptionalDeal) || b.buyScore - a.buyScore || b.netProfit - a.netProfit);
-for (const d of qualifying.slice(0, Number(config.maxAlertsPerRun ?? 10))) await sendDiscord(webhook, d);
-"""
-          new_batch = """// Alerts are sent immediately when each fresh bargain is detected above.
-qualifying.sort((a, b) => Number(b.exceptionalDeal) - Number(a.exceptionalDeal) || b.buyScore - a.buyScore || b.netProfit - a.netProfit);
-"""
-          if old_batch not in s:
-              raise SystemExit('Could not disable end-of-scan clothing alert batch: batch block not found')
-          s = s.replace(old_batch, new_batch, 1)
-          monitor.write_text(s)
-
-          runner = Path('vinted-radar/run-bot.mjs')
-          r = runner.read_text()
-          old_fresh = "maxAgeMinutes: 60, itemsPerSearch: 80"
-          new_fresh = "maxAgeMinutes: bot === 'clothing' ? 10 : 60, itemsPerSearch: 80"
-          if old_fresh not in r:
-              raise SystemExit('Could not set clothing live freshness window')
-          runner.write_text(r.replace(old_fresh, new_fresh, 1))
-          print('✅ Live clothing alerts enabled: immediate Discord dispatch + 10-minute backlog guard.')
-          PY
+        if: ${{ github.event_name != 'push' }}
+        run: node vinted-radar/enable-live-alerts.mjs clothing
 
       - name: Run Nike Clothing Radar every 30 seconds
         env:
@@ -116,6 +52,7 @@ qualifying.sort((a, b) => Number(b.exceptionalDeal) - Number(a.exceptionalDeal) 
             echo "=== Code-push validation only: no Discord bargain alerts ==="
             node --check vinted-radar/run-bot.mjs
             node --check vinted-radar/monitor.mjs
+            node --check vinted-radar/enable-live-alerts.mjs
             exit 0
           fi
 
