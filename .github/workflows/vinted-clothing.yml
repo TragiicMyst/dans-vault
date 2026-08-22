@@ -15,10 +15,17 @@ permissions:
 jobs:
   radar:
     runs-on: ubuntu-latest
-    timeout-minutes: 6
+    timeout-minutes: 7
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+
+      - name: Validate radar code
+        run: |
+          node --check vinted-radar/radar-core-v4.mjs
+          node --check vinted-radar/run-bot.mjs
+          node --check vinted-radar/radar-selftest.mjs
+          node vinted-radar/radar-selftest.mjs
 
       - name: Validate clothing Discord webhook
         env:
@@ -26,9 +33,6 @@ jobs:
         run: |
           test -n "$DISCORD_WEBHOOK_URL"
           curl --fail --silent --show-error "$DISCORD_WEBHOOK_URL" >/dev/null
-
-      - name: Enable immediate clothing alerts
-        run: node vinted-radar/enable-live-alerts.mjs clothing
 
       - name: Run clothing radar repeatedly
         env:
@@ -46,7 +50,7 @@ jobs:
             echo "=== Clothing scan cycle $cycle ==="
             if node vinted-radar/run-bot.mjs; then
               successes=$((successes + 1))
-              node -e "const s=require('./vinted-radar/clothing-state.json'); console.log('Clothing scan OK:', s.freshness?.lastScanAt, 'qualifying:', s.diagnostics?.qualifyingAlerts ?? '?')"
+              node -e "const s=require('./vinted-radar/clothing-state.json'); const d=s.diagnostics||{}; console.log('Clothing scan OK:', s.freshness?.lastScanAt, 'searches:', d.successfulSearches ?? '?', '/', d.searchGroups ?? '?', 'cards:', d.catalogItems ?? '?', 'fresh:', d.freshItems ?? '?', 'delivered:', d.deliveredAlerts ?? '?', 'pending:', d.pendingDeliveries ?? '?')"
             else
               failures=$((failures + 1))
               echo "Clothing scan cycle $cycle FAILED."
@@ -56,8 +60,8 @@ jobs:
             if [ $wait -gt 0 ] && [ $SECONDS -lt $deadline ]; then sleep $wait; fi
           done
           echo "Clothing cycles complete: $successes successful, $failures failed."
-          if [ $successes -eq 0 ]; then
-            echo "All clothing scans failed. Marking workflow failed."
+          if [ $successes -eq 0 ] || [ $failures -gt $successes ]; then
+            echo "Clothing radar reliability threshold failed."
             exit 1
           fi
 
