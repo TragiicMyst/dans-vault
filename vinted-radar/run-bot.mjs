@@ -45,19 +45,24 @@ catch { baseState = { items:{}, market:{}, sellers:{}, images:{}, cursor:0, fres
 const tempDir = await fs.mkdtemp(path.join(os.tmpdir(), `dans-vault-${bot}-`));
 const monitorSource = await fs.readFile(new URL('./monitor.mjs', root), 'utf8');
 const patchedMonitor = monitorSource
-  // Do not require the bargain to be <=75% of the price ceiling before checking
-  // the listing detail page. A £42 P-6000, for example, can still be a bargain.
   .replace(
     /if \(condition === 'unknown' && \(item\.price <= Number\(search\.maxPrice \?\? item\.price\) \* 0\.75 \|\| item\.price <= 40\)\) \{/,
     "if (condition === 'unknown') {"
+  )
+  .replace(
+    /if \(!firstSeen\) \{\n        remember\(item, prior, \{ lastSeenAt: now\.toISOString\(\), lastPrice: item\.price \}\);\n        continue;\n      \}/,
+    "if (!firstSeen) {\n        const recheck = prior?.lastAlertedAt == null && ['condition-not-confirmed','size','no-resale-baseline','weak-margin'].includes(prior?.blockedReason);\n        if (!recheck) {\n          remember(item, prior, { lastSeenAt: now.toISOString(), lastPrice: item.price });\n          continue;\n        }\n      }"
+  )
+  .replace(
+    /if \(condition === 'unknown'\) \{\n        remember\(item, prior, \{ blockedReason: 'condition-not-confirmed', size, lastSeenAt: now\.toISOString\(\) \}\);/,
+    "if (condition === 'unknown' && prior?.condition === 'new') condition = 'newWithoutTags';\n      if (condition === 'unknown') {\n        remember(item, prior, { blockedReason: 'condition-not-confirmed', size, lastSeenAt: now.toISOString() });"
   );
 await fs.writeFile(path.join(tempDir, 'monitor.mjs'), patchedMonitor);
 await fs.copyFile(new URL('./inventory.json', root), path.join(tempDir, 'inventory.json'));
 await fs.writeFile(path.join(tempDir, 'config.json'), JSON.stringify({
   ...config,
   searches,
-  // User requested a 1-hour fresh-listing window.
-  freshness: { ...(config.freshness ?? {}), maxAgeMinutes: 60, itemsPerSearch: 40 },
+  freshness: { ...(config.freshness ?? {}), maxAgeMinutes: 60, itemsPerSearch: 60 },
   allowedConditionKeywords: ['new with tags', 'new without tags'],
   condition: { ...(config.condition ?? {}), new: ['new with tags', 'new without tags'], veryGood: [] }
 }, null, 2));
@@ -67,6 +72,7 @@ console.log(`Starting Dan's Vault ${bot} fresh radar with ${searches.length} sea
 console.log('Condition gate: ONLY New with tags / New without tags.');
 console.log('Capture range: +20% max price, 60-minute freshness window.');
 console.log('Detail verification: enabled for every fresh candidate whose condition is not visible in search HTML.');
+console.log('Recheck mode: previously blocked unalerted bargains are re-evaluated.');
 await import(pathToFileURL(path.join(tempDir, 'monitor.mjs')).href);
 
 if (process.env.TEST_MODE !== 'true') {
