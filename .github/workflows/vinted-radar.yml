@@ -2,11 +2,15 @@ name: Dan's Vault Nike Trainers Radar
 
 on:
   schedule:
-    - cron: '*/5 * * * *'
+    # GitHub's minimum schedule interval is 5 minutes. Each scheduled run
+    # performs the actual Vinted scan every 30 seconds while it is alive.
+    - cron: '1-59/5 * * * *'
 
+# Never kill a live 30-second scan loop just because the next scheduled run
+# appears. If GitHub queues the next run, let it wait for the current one.
 concurrency:
   group: dans-vault-trainers-radar
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -27,7 +31,7 @@ jobs:
             echo "❌ Trainers Discord webhook secret is missing."
             exit 1
           fi
-          echo "🟢 Trainers Discord webhook secret is configured. Health check is intentionally silent in Discord."
+          echo "🟢 Trainers Discord webhook configured. No Discord health message will be sent."
 
       - name: Run Nike Trainers Radar every 30 seconds
         env:
@@ -35,11 +39,13 @@ jobs:
           BOT_TYPE: trainers
           STATE_NAME: state.json
         run: |
-          deadline=$((SECONDS + 295))
+          # A GitHub schedule can only start every 5 minutes. Keep this job
+          # alive for ~4m20s and scan every 30 seconds inside that window.
+          deadline=$((SECONDS + 260))
           cycle=0
           while [ $SECONDS -lt $deadline ]; do
             cycle=$((cycle + 1))
-            echo "=== Trainers radar cycle $cycle ==="
+            echo "=== Trainers radar cycle $cycle | $(date -u '+%Y-%m-%d %H:%M:%S UTC') ==="
             cycle_start=$SECONDS
             node vinted-radar/run-bot.mjs || echo "Radar scan failed; continuing to next 30s cycle."
             elapsed=$((SECONDS - cycle_start))
@@ -48,8 +54,10 @@ jobs:
               sleep $remaining
             fi
           done
+          echo "=== Trainers radar 30-second loop finished; next scheduled run will continue automatically. ==="
 
       - name: Save trainers radar state
+        if: ${{ always() }}
         run: |
           git config user.name "Dan's Vault Trainers Radar"
           git config user.email "actions@users.noreply.github.com"
