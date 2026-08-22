@@ -73,7 +73,6 @@ let sourceSearches = bot === 'trainers'
   ? (config.searches ?? []).filter(s => trainerNames.has(s.name))
   : clothingSearches;
 
-// Specific model searches first so broad terms don't claim the same listing.
 sourceSearches = [...sourceSearches].sort((a,b) => Number(b.name === 'Nike Vomero 5') - Number(a.name === 'Nike Vomero 5'));
 
 const searches = sourceSearches.map(s => {
@@ -100,8 +99,6 @@ const tempDir = await fs.mkdtemp(path.join(os.tmpdir(), `dans-vault-${bot}-`));
 const monitorSource = await fs.readFile(new URL('./monitor.mjs', root), 'utf8');
 let patched = monitorSource;
 
-// Only inspect listings that actually match the requested model/category. Vinted's
-// catalogue HTML also contains recommendation links; those were poisoning frontiers.
 patched = mustReplace(
   patched,
   'const candidates = extractItems(html, MAX_ITEMS_PER_SEARCH);',
@@ -109,8 +106,6 @@ patched = mustReplace(
   'candidate model filter'
 );
 
-// Compare against the frontier from the previous scan, never a frontier that changes
-// while iterating the current page.
 patched = mustReplace(
   patched,
   'const idIsNewerThanFrontier = maxId ? compareNumericIds(item.id, maxId) > 0 : false;',
@@ -118,8 +113,15 @@ patched = mustReplace(
   'stable freshness frontier'
 );
 
-// Recover size from the actual listing page instead of throwing away bargains when
-// the catalogue card omits size.
+// Use only the sizes supplied by this bot's runtime config. This prevents the
+// clothing radar from inheriting UK trainer sizes 7-10.5 from monitor.mjs.
+patched = mustReplace(
+  patched,
+  'const targetSizes = [...new Set([...(config.sizes ?? []), 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5])];',
+  'const targetSizes = [...new Set(config.sizes ?? [])];',
+  'bot-specific target sizes'
+);
+
 patched = mustReplace(patched, 'const size = inferSize(item.fullText, targetSizes);', 'let size = inferSize(item.fullText, targetSizes);', 'mutable size');
 patched = mustReplace(
   patched,
@@ -128,8 +130,6 @@ patched = mustReplace(
   'size detail fallback'
 );
 
-// Always check the detail page if the catalogue card doesn't explicitly say New with
-// tags / New without tags. Unknown condition stays blocked rather than being guessed.
 patched = mustReplace(
   patched,
   "if (condition === 'unknown' && (item.price <= Number(search.maxPrice ?? item.price) * 0.75 || item.price <= 40)) {",
@@ -137,15 +137,12 @@ patched = mustReplace(
   'condition detail check'
 );
 
-// Relax bargain thresholds, not authenticity/condition requirements.
 patched = patched
   .replace(/if \(profit < 15 \|\| roi < 35\) \{/g, "if (profit < 10 || roi < 25) {")
   .replace(/const strong = profit >= 20 && roi >= 55 && risk\.level !== 'HIGH';/g, "const strong = profit >= 15 && roi >= 40 && risk.level !== 'HIGH';")
   .replace(/const exceptional = profit >= 30 && roi >= 80 && risk\.level !== 'HIGH';/g, "const exceptional = profit >= 25 && roi >= 65 && risk.level !== 'HIGH';")
-  // Smaller card window reduces cross-contamination from neighbouring Vinted cards.
   .replace(/m\.index \+ 7000/g, 'm.index + 2500');
 
-// Add model/category guard helper.
 patched = mustReplace(
   patched,
   'function parseAgeMinutes(text) {',
@@ -153,7 +150,6 @@ patched = mustReplace(
   'candidate matcher helper'
 );
 
-// Silent diagnostics let us prove a scan happened and whether anything qualified.
 patched = mustReplace(
   patched,
   'state.freshness.lastScanAt = now.toISOString();',
