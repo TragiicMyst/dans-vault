@@ -1,27 +1,44 @@
 # Dan's Vault Vinted Radar
 
-This monitor checks public Vinted catalogue/search pages and sends matching Nike bargains to Discord.
+A conservative Nike bargain monitor for Vinted that sends manual-buy alerts to Discord. It does not log into Vinted, message sellers, favourite listings, make offers, or purchase items.
 
-## Safety design
+## What the radar now scores
 
-- No Vinted username, password, cookies or account token.
-- No automatic purchases.
-- No automatic offers, messages, favourites or account actions.
-- Discord notification only; you open the listing and decide yourself.
+- Buy price, expected resale, estimated net profit before tax, and ROI.
+- Size-specific resale estimates.
+- Fast-flip, max-profit and balanced strategy scores.
+- Seasonal demand weighting.
+- Price-drop alerts when an existing listing becomes meaningfully cheaper.
+- Product-code checks when a Nike style code can be found and is in the local registry.
+- Fake-risk warnings based on explicit red-flag wording, suspicious pricing, code mismatches, seller/listing patterns, and duplicate photos. This is a risk flag, not authentication.
+- Photo-evidence strength and first-image capture for Discord.
+- Seller-pattern and duplicate-photo tracking across observations.
+- Personal model/keyword blacklists.
+- Optional inventory awareness through `inventory.json` so the radar can warn when too many pairs of the same model are already in stock.
 
-## Setup
+## Important limits
 
-1. In Discord, create a private channel for the alerts.
-2. Channel Settings → Integrations → Webhooks → New Webhook → Copy Webhook URL.
-3. In GitHub, open this repository → Settings → Secrets and variables → Actions → New repository secret.
-4. Name the secret `DISCORD_WEBHOOK_URL` and paste the webhook URL as the value.
-5. Open Actions → **Dan's Vault Vinted Radar** → Run workflow.
-6. After that, the workflow is scheduled every 10 minutes. GitHub scheduled jobs can be delayed.
+The bot intentionally does not bypass Vinted protections or use a Vinted login. It only checks pages available to the monitor and stops gracefully when Vinted blocks a request.
 
-## Filters
+The resale numbers are estimates, not guaranteed sale prices. They should be recalibrated against your actual completed sales over time.
 
-Edit `vinted-radar/config.json` to change search URLs, maximum prices, target size keywords, condition keywords and resale estimates.
+The fake-risk system is deliberately conservative. A low-risk result means that no configured red flags were detected; it does not mean the shoes are authenticated.
 
-## Important
+## Changing your filters
 
-Vinted can block automated requests with anti-bot protection. This project does not try to defeat those checks. If a request is blocked, the run logs the HTTP status and does not log into or manipulate your Vinted account.
+Edit `config.json` to change max prices, sizes, models, seasonal multipliers, resale estimates, blacklist terms, and scoring thresholds.
+
+Add your own stock to `inventory.json` using entries such as:
+
+```json
+{
+  "model": "Nike P-6000",
+  "size": 8,
+  "cost": 32,
+  "status": "in_stock"
+}
+```
+
+## Discord
+
+The workflow reads the `DISCORD_WEBHOOK_URL` repository secret. Keep that webhook private. The radar only sends alerts and never performs purchases.
