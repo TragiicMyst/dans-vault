@@ -1,7 +1,1950 @@
 {
-  "items": {},
-  "market": {},
+  "items": {
+    "9744379528": {
+      "blockedReason": "condition",
+      "size": "XL",
+      "lastPrice": 5,
+      "lastSeenAt": "2026-08-22T19:01:28.955Z"
+    },
+    "9744345556": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "XL",
+      "lastPrice": 5,
+      "lastSeenAt": "2026-08-22T19:01:29.934Z"
+    },
+    "9744326353": {
+      "blockedReason": "condition",
+      "size": null,
+      "lastPrice": 12,
+      "lastSeenAt": "2026-08-22T19:01:29.935Z"
+    },
+    "9744142413": {
+      "blockedReason": "size",
+      "lastPrice": 18,
+      "lastSeenAt": "2026-08-22T19:01:29.936Z"
+    },
+    "9744125406": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "L",
+      "lastPrice": 6.5,
+      "lastSeenAt": "2026-08-22T19:01:30.831Z"
+    },
+    "9744139809": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "XL",
+      "lastPrice": 12,
+      "lastSeenAt": "2026-08-22T19:01:32.824Z"
+    },
+    "9743700147": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "XL",
+      "lastPrice": 20,
+      "lastSeenAt": "2026-08-22T19:01:34.406Z"
+    },
+    "9743424280": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "XL",
+      "lastPrice": 20,
+      "lastSeenAt": "2026-08-22T19:01:35.612Z"
+    },
+    "9688258644": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "S",
+      "lastPrice": 16,
+      "lastSeenAt": "2026-08-22T19:01:36.504Z"
+    },
+    "9743355041": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "XL",
+      "lastPrice": 20,
+      "lastSeenAt": "2026-08-22T19:01:37.512Z"
+    },
+    "9743319924": {
+      "blockedReason": "condition-not-confirmed",
+      "size": 10,
+      "lastPrice": 10,
+      "lastSeenAt": "2026-08-22T19:01:38.840Z"
+    },
+    "9742875335": {
+      "blockedReason": "size",
+      "lastPrice": 13,
+      "lastSeenAt": "2026-08-22T19:01:38.841Z"
+    },
+    "9742766682": {
+      "blockedReason": "condition-not-confirmed",
+      "size": 7,
+      "lastPrice": 6,
+      "lastSeenAt": "2026-08-22T19:01:39.730Z"
+    },
+    "9742529714": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "XL",
+      "lastPrice": 17,
+      "lastSeenAt": "2026-08-22T19:01:40.654Z"
+    },
+    "9742409787": {
+      "blockedReason": "condition",
+      "size": "M",
+      "lastPrice": 9.99,
+      "lastSeenAt": "2026-08-22T19:01:40.655Z"
+    },
+    "9742311707": {
+      "blockedReason": "size",
+      "lastPrice": 17.5,
+      "lastSeenAt": "2026-08-22T19:01:40.655Z"
+    },
+    "9742179890": {
+      "blockedReason": "size",
+      "lastPrice": 18,
+      "lastSeenAt": "2026-08-22T19:01:40.655Z"
+    },
+    "9742058401": {
+      "blockedReason": "condition",
+      "size": 10,
+      "lastPrice": 5,
+      "lastSeenAt": "2026-08-22T19:01:40.655Z"
+    },
+    "9741980032": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "S",
+      "lastPrice": 20,
+      "lastSeenAt": "2026-08-22T19:01:41.482Z"
+    },
+    "9741710512": {
+      "blockedReason": "size",
+      "lastPrice": 14.99,
+      "lastSeenAt": "2026-08-22T19:01:41.482Z"
+    },
+    "9741773950": {
+      "blockedReason": "condition",
+      "size": 10,
+      "lastPrice": 5,
+      "lastSeenAt": "2026-08-22T19:01:41.483Z"
+    },
+    "9741738848": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "XL",
+      "lastPrice": 18,
+      "lastSeenAt": "2026-08-22T19:01:42.376Z"
+    },
+    "9741210770": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "L",
+      "lastPrice": 10,
+      "lastSeenAt": "2026-08-22T19:01:43.215Z"
+    },
+    "9740962573": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "XL",
+      "lastPrice": 8,
+      "lastSeenAt": "2026-08-22T19:01:44.026Z"
+    },
+    "9740668840": {
+      "blockedReason": "size",
+      "lastPrice": 15,
+      "lastSeenAt": "2026-08-22T19:01:44.026Z"
+    },
+    "9740633279": {
+      "blockedReason": "size",
+      "lastPrice": 15,
+      "lastSeenAt": "2026-08-22T19:01:44.026Z"
+    },
+    "9739895030": {
+      "blockedReason": "condition",
+      "size": "M",
+      "lastPrice": 7,
+      "lastSeenAt": "2026-08-22T19:01:44.026Z"
+    },
+    "9740506703": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "L",
+      "lastPrice": 5,
+      "lastSeenAt": "2026-08-22T19:01:44.971Z"
+    },
+    "9739922298": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "S",
+      "lastPrice": 15,
+      "lastSeenAt": "2026-08-22T19:01:45.771Z"
+    },
+    "9739742143": {
+      "blockedReason": "condition",
+      "size": 8,
+      "lastPrice": 8.5,
+      "lastSeenAt": "2026-08-22T19:01:45.771Z"
+    },
+    "9739791529": {
+      "blockedReason": "condition",
+      "size": null,
+      "lastPrice": 12,
+      "lastSeenAt": "2026-08-22T19:01:45.771Z"
+    },
+    "9739182397": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "S",
+      "lastPrice": 19.99,
+      "lastSeenAt": "2026-08-22T19:01:46.908Z"
+    },
+    "9739003292": {
+      "blockedReason": "condition-not-confirmed",
+      "size": 9.5,
+      "lastPrice": 5,
+      "lastSeenAt": "2026-08-22T19:01:47.818Z"
+    },
+    "9739442727": {
+      "blockedReason": "condition",
+      "size": "XS",
+      "lastPrice": 15,
+      "lastSeenAt": "2026-08-22T19:01:47.818Z"
+    },
+    "9739386874": {
+      "blockedReason": "condition",
+      "size": "S",
+      "lastPrice": 4,
+      "lastSeenAt": "2026-08-22T19:01:47.818Z"
+    },
+    "9739691790": {
+      "blockedReason": "size",
+      "lastPrice": 20,
+      "lastSeenAt": "2026-08-22T19:01:47.818Z"
+    },
+    "9739333417": {
+      "blockedReason": "condition",
+      "size": "XL",
+      "lastPrice": 4,
+      "lastSeenAt": "2026-08-22T19:01:47.818Z"
+    },
+    "9737963942": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "XL",
+      "lastPrice": 18,
+      "lastSeenAt": "2026-08-22T19:01:48.620Z"
+    },
+    "9739014554": {
+      "blockedReason": "condition-not-confirmed",
+      "size": 8,
+      "lastPrice": 8,
+      "lastSeenAt": "2026-08-22T19:01:49.506Z"
+    },
+    "9738642072": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "L",
+      "lastPrice": 20,
+      "lastSeenAt": "2026-08-22T19:01:50.388Z"
+    },
+    "9738762661": {
+      "blockedReason": "condition",
+      "size": "XL",
+      "lastPrice": 10,
+      "lastSeenAt": "2026-08-22T19:01:50.388Z"
+    },
+    "9737575940": {
+      "blockedReason": "condition",
+      "size": "XL",
+      "lastPrice": 14.99,
+      "lastSeenAt": "2026-08-22T19:01:50.388Z"
+    },
+    "9737524026": {
+      "blockedReason": "keyword",
+      "size": "XS",
+      "lastPrice": 10,
+      "lastSeenAt": "2026-08-22T19:01:50.388Z"
+    },
+    "9715718533": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "XS",
+      "lastPrice": 11.14,
+      "lastSeenAt": "2026-08-22T19:01:51.285Z"
+    },
+    "9715707837": {
+      "blockedReason": "condition",
+      "size": "XL",
+      "lastPrice": 18.57,
+      "lastSeenAt": "2026-08-22T19:01:51.286Z"
+    },
+    "9715619276": {
+      "blockedReason": "condition",
+      "size": "XS",
+      "lastPrice": 14.86,
+      "lastSeenAt": "2026-08-22T19:01:51.286Z"
+    },
+    "9737123423": {
+      "blockedReason": "size",
+      "lastPrice": 18,
+      "lastSeenAt": "2026-08-22T19:01:51.286Z"
+    },
+    "9737685693": {
+      "blockedReason": "keyword",
+      "size": "L",
+      "lastPrice": 8,
+      "lastSeenAt": "2026-08-22T19:01:51.286Z"
+    },
+    "9736883480": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "L",
+      "lastPrice": 20,
+      "lastSeenAt": "2026-08-22T19:01:52.323Z"
+    },
+    "9737289235": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "M",
+      "lastPrice": 19,
+      "lastSeenAt": "2026-08-22T19:01:53.250Z"
+    },
+    "9734230643": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "M",
+      "lastPrice": 5,
+      "lastSeenAt": "2026-08-22T19:01:54.125Z"
+    },
+    "9737292375": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "XS",
+      "lastPrice": 12,
+      "lastSeenAt": "2026-08-22T19:01:55.069Z"
+    },
+    "9736459471": {
+      "blockedReason": "condition",
+      "size": "S",
+      "lastPrice": 20,
+      "lastSeenAt": "2026-08-22T19:01:55.069Z"
+    },
+    "9736912469": {
+      "blockedReason": "condition-not-confirmed",
+      "size": 10,
+      "lastPrice": 10,
+      "lastSeenAt": "2026-08-22T19:01:56.033Z"
+    },
+    "9736932560": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "XS",
+      "lastPrice": 10,
+      "lastSeenAt": "2026-08-22T19:01:56.979Z"
+    },
+    "9715390256": {
+      "blockedReason": "keyword",
+      "size": null,
+      "lastPrice": 14.11,
+      "lastSeenAt": "2026-08-22T19:01:56.980Z"
+    },
+    "9567010753": {
+      "blockedReason": "condition",
+      "size": "L",
+      "lastPrice": 5,
+      "lastSeenAt": "2026-08-22T19:01:56.980Z"
+    },
+    "9715240177": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "XL",
+      "lastPrice": 18.57,
+      "lastSeenAt": "2026-08-22T19:01:58.228Z"
+    },
+    "9735831302": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "XL",
+      "lastPrice": 20,
+      "lastSeenAt": "2026-08-22T19:01:58.502Z"
+    },
+    "9738211801": {
+      "blockedReason": "condition",
+      "size": 9,
+      "lastPrice": 9,
+      "lastSeenAt": "2026-08-22T19:01:58.502Z"
+    },
+    "9714249385": {
+      "blockedReason": "size",
+      "lastPrice": 12.63,
+      "lastSeenAt": "2026-08-22T19:01:58.502Z"
+    },
+    "9734898287": {
+      "blockedReason": "condition-not-confirmed",
+      "size": 10,
+      "lastPrice": 10,
+      "lastSeenAt": "2026-08-22T19:01:58.846Z"
+    },
+    "9735081852": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "M",
+      "lastPrice": 10,
+      "lastSeenAt": "2026-08-22T19:01:59.179Z"
+    },
+    "9735545082": {
+      "blockedReason": "size",
+      "lastPrice": 20,
+      "lastSeenAt": "2026-08-22T19:01:59.179Z"
+    },
+    "9711457259": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "S",
+      "lastPrice": 13.37,
+      "lastSeenAt": "2026-08-22T19:01:59.606Z"
+    },
+    "9733847469": {
+      "blockedReason": "condition",
+      "size": "XS",
+      "lastPrice": 4,
+      "lastSeenAt": "2026-08-22T19:01:59.606Z"
+    },
+    "9734590669": {
+      "blockedReason": "keyword",
+      "size": "XL",
+      "lastPrice": 16,
+      "lastSeenAt": "2026-08-22T19:01:59.606Z"
+    },
+    "9734115739": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "XL",
+      "lastPrice": 4,
+      "lastSeenAt": "2026-08-22T19:02:00.147Z"
+    },
+    "9734953152": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "XS",
+      "lastPrice": 10,
+      "lastSeenAt": "2026-08-22T19:02:00.607Z"
+    },
+    "9734306862": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "XL",
+      "lastPrice": 10,
+      "lastSeenAt": "2026-08-22T19:02:01.071Z"
+    },
+    "9733396670": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "S",
+      "lastPrice": 5,
+      "lastSeenAt": "2026-08-22T19:02:01.449Z",
+      "condition": "newWithoutTags",
+      "buyScore": 100,
+      "resale": 33.44,
+      "netProfit": 27.64,
+      "roi": 552.8,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history"
+      },
+      "lastPriceDrop": null,
+      "lastAlertedAt": "2026-08-22T19:01:25.442Z"
+    },
+    "9734655385": {
+      "blockedReason": "condition-not-confirmed",
+      "size": 8,
+      "lastPrice": 8,
+      "lastSeenAt": "2026-08-22T19:02:01.921Z"
+    },
+    "9734246423": {
+      "blockedReason": "condition",
+      "size": "XL",
+      "lastPrice": 5,
+      "lastSeenAt": "2026-08-22T19:02:01.921Z"
+    },
+    "9733837195": {
+      "blockedReason": "condition",
+      "size": "M",
+      "lastPrice": 7,
+      "lastSeenAt": "2026-08-22T19:02:01.921Z"
+    },
+    "9733572019": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "M",
+      "lastPrice": 8,
+      "lastSeenAt": "2026-08-22T19:02:02.300Z"
+    },
+    "9734004206": {
+      "blockedReason": "condition",
+      "size": 8,
+      "lastPrice": 8,
+      "lastSeenAt": "2026-08-22T19:02:02.300Z"
+    },
+    "9734532741": {
+      "blockedReason": "condition-not-confirmed",
+      "size": 10,
+      "lastPrice": 10,
+      "lastSeenAt": "2026-08-22T19:02:02.738Z"
+    },
+    "9733842639": {
+      "blockedReason": "condition-not-confirmed",
+      "size": 9,
+      "lastPrice": 9.99,
+      "lastSeenAt": "2026-08-22T19:02:03.070Z"
+    },
+    "9733457834": {
+      "blockedReason": "size",
+      "lastPrice": 20,
+      "lastSeenAt": "2026-08-22T19:02:03.070Z"
+    },
+    "9733363498": {
+      "blockedReason": "size",
+      "lastPrice": 15,
+      "lastSeenAt": "2026-08-22T19:02:03.070Z"
+    },
+    "9739667813": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "S",
+      "lastPrice": 25,
+      "lastSeenAt": "2026-08-22T19:02:06.714Z"
+    },
+    "9734570566": {
+      "size": "L",
+      "condition": "newWithoutTags",
+      "buyScore": 73,
+      "resale": 37.8,
+      "netProfit": 17,
+      "roi": 85,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected"
+      },
+      "lastPrice": 20,
+      "lastSeenAt": "2026-08-22T19:02:07.103Z",
+      "lastPriceDrop": null
+    },
+    "9734362461": {
+      "blockedReason": "size",
+      "lastPrice": 20,
+      "lastSeenAt": "2026-08-22T19:02:07.103Z"
+    },
+    "9725108318": {
+      "blockedReason": "condition-not-confirmed",
+      "size": 8,
+      "lastPrice": 8.5,
+      "lastSeenAt": "2026-08-22T19:02:07.424Z"
+    },
+    "9732237584": {
+      "blockedReason": "condition-not-confirmed",
+      "size": 9.5,
+      "lastPrice": 25,
+      "lastSeenAt": "2026-08-22T19:02:07.748Z"
+    },
+    "9729540741": {
+      "blockedReason": "condition-not-confirmed",
+      "size": 10,
+      "lastPrice": 18.99,
+      "lastSeenAt": "2026-08-22T19:02:09.017Z"
+    },
+    "9728841154": {
+      "size": "S",
+      "condition": "newWithoutTags",
+      "buyScore": 0,
+      "resale": 33.44,
+      "netProfit": 7.64,
+      "roi": 30.56,
+      "blockedReason": "weak-margin",
+      "lastPrice": 25,
+      "lastSeenAt": "2026-08-22T19:02:09.017Z"
+    },
+    "9728044514": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "S",
+      "lastPrice": 22,
+      "lastSeenAt": "2026-08-22T19:02:09.386Z"
+    },
+    "9723249977": {
+      "blockedReason": "size",
+      "lastPrice": 21.99,
+      "lastSeenAt": "2026-08-22T19:02:09.386Z"
+    },
+    "9722987917": {
+      "blockedReason": "size",
+      "lastPrice": 16,
+      "lastSeenAt": "2026-08-22T19:02:09.386Z"
+    },
+    "9720875361": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "S",
+      "lastPrice": 20,
+      "lastSeenAt": "2026-08-22T19:02:09.739Z"
+    },
+    "9718863728": {
+      "blockedReason": "condition",
+      "size": "XS",
+      "lastPrice": 15.5,
+      "lastSeenAt": "2026-08-22T19:02:09.739Z"
+    },
+    "9719283037": {
+      "blockedReason": "condition",
+      "size": 10,
+      "lastPrice": 10,
+      "lastSeenAt": "2026-08-22T19:02:09.739Z"
+    },
+    "9719637682": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "XL",
+      "lastPrice": 17,
+      "lastSeenAt": "2026-08-22T19:02:10.161Z"
+    },
+    "9711420369": {
+      "blockedReason": "condition",
+      "size": null,
+      "lastPrice": 16,
+      "lastSeenAt": "2026-08-22T19:02:10.161Z"
+    },
+    "9711196529": {
+      "blockedReason": "condition",
+      "size": null,
+      "lastPrice": 16,
+      "lastSeenAt": "2026-08-22T19:02:10.161Z"
+    },
+    "9711498347": {
+      "blockedReason": "condition",
+      "size": null,
+      "lastPrice": 16,
+      "lastSeenAt": "2026-08-22T19:02:10.161Z"
+    },
+    "9711144233": {
+      "blockedReason": "condition",
+      "size": null,
+      "lastPrice": 16,
+      "lastSeenAt": "2026-08-22T19:02:10.161Z"
+    },
+    "9713105517": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "XL",
+      "lastPrice": 22,
+      "lastSeenAt": "2026-08-22T19:02:10.503Z"
+    },
+    "9682578569": {
+      "blockedReason": "size",
+      "lastPrice": 22.28,
+      "lastSeenAt": "2026-08-22T19:02:10.503Z"
+    },
+    "9707163951": {
+      "blockedReason": "condition",
+      "size": null,
+      "lastPrice": 15,
+      "lastSeenAt": "2026-08-22T19:02:10.503Z"
+    },
+    "9703581192": {
+      "blockedReason": "condition",
+      "size": "S",
+      "lastPrice": 16,
+      "lastSeenAt": "2026-08-22T19:02:10.503Z"
+    },
+    "9701772916": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "XL",
+      "lastPrice": 9,
+      "lastSeenAt": "2026-08-22T19:02:10.908Z"
+    },
+    "9697352047": {
+      "blockedReason": "condition",
+      "size": 10,
+      "lastPrice": 12,
+      "lastSeenAt": "2026-08-22T19:02:10.908Z"
+    },
+    "9698962097": {
+      "blockedReason": "condition-not-confirmed",
+      "size": 10,
+      "lastPrice": 24,
+      "lastSeenAt": "2026-08-22T19:02:11.349Z"
+    },
+    "9690103170": {
+      "blockedReason": "size",
+      "lastPrice": 18,
+      "lastSeenAt": "2026-08-22T19:02:11.349Z"
+    },
+    "9696347883": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "S",
+      "lastPrice": 15,
+      "lastSeenAt": "2026-08-22T19:02:11.699Z"
+    },
+    "9694458934": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "S",
+      "lastPrice": 13,
+      "lastSeenAt": "2026-08-22T19:02:12.090Z"
+    },
+    "9694643050": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "M",
+      "lastPrice": 20,
+      "lastSeenAt": "2026-08-22T19:02:12.530Z"
+    },
+    "9693998236": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "M",
+      "lastPrice": 8,
+      "lastSeenAt": "2026-08-22T19:02:12.985Z"
+    },
+    "9692489794": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "S",
+      "lastPrice": 10,
+      "lastSeenAt": "2026-08-22T19:02:13.324Z"
+    },
+    "9694276933": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "S",
+      "lastPrice": 18,
+      "lastSeenAt": "2026-08-22T19:02:13.649Z"
+    },
+    "9678872744": {
+      "blockedReason": "condition-not-confirmed",
+      "size": 8,
+      "lastPrice": 20,
+      "lastSeenAt": "2026-08-22T19:02:14.042Z"
+    },
+    "9684177650": {
+      "blockedReason": "keyword",
+      "size": "XL",
+      "lastPrice": 10,
+      "lastSeenAt": "2026-08-22T19:02:14.042Z"
+    },
+    "9676370937": {
+      "blockedReason": "keyword",
+      "size": "XL",
+      "lastPrice": 10,
+      "lastSeenAt": "2026-08-22T19:02:14.042Z"
+    },
+    "9680254106": {
+      "blockedReason": "condition",
+      "size": "L",
+      "lastPrice": 20,
+      "lastSeenAt": "2026-08-22T19:02:14.042Z"
+    },
+    "9678009854": {
+      "blockedReason": "size",
+      "lastPrice": 15,
+      "lastSeenAt": "2026-08-22T19:02:14.042Z"
+    },
+    "9679799229": {
+      "blockedReason": "keyword",
+      "size": "XL",
+      "lastPrice": 16,
+      "lastSeenAt": "2026-08-22T19:02:14.042Z"
+    },
+    "9682910644": {
+      "size": "XL",
+      "condition": "newWithTags",
+      "buyScore": 78,
+      "resale": 48.9,
+      "netProfit": 23.11,
+      "roi": 92.48,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected"
+      },
+      "lastPrice": 24.99,
+      "lastSeenAt": "2026-08-22T19:02:14.043Z",
+      "lastPriceDrop": null,
+      "lastAlertedAt": "2026-08-22T19:01:25.442Z"
+    },
+    "9680002560": {
+      "blockedReason": "condition",
+      "size": null,
+      "lastPrice": 15,
+      "lastSeenAt": "2026-08-22T19:02:14.043Z"
+    },
+    "9654231245": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "M",
+      "lastPrice": 15,
+      "lastSeenAt": "2026-08-22T19:02:14.377Z"
+    },
+    "9650400643": {
+      "blockedReason": "condition-not-confirmed",
+      "size": 8,
+      "lastPrice": 15,
+      "lastSeenAt": "2026-08-22T19:02:14.969Z"
+    },
+    "9676708572": {
+      "blockedReason": "condition",
+      "size": "L",
+      "lastPrice": 7,
+      "lastSeenAt": "2026-08-22T19:02:14.969Z"
+    },
+    "9658223628": {
+      "blockedReason": "keyword",
+      "size": "L",
+      "lastPrice": 21.24,
+      "lastSeenAt": "2026-08-22T19:02:14.969Z"
+    },
+    "9663285227": {
+      "blockedReason": "condition",
+      "size": null,
+      "lastPrice": 16,
+      "lastSeenAt": "2026-08-22T19:02:14.969Z"
+    },
+    "9655536088": {
+      "blockedReason": "condition",
+      "size": "XL",
+      "lastPrice": 16,
+      "lastSeenAt": "2026-08-22T19:02:14.969Z"
+    },
+    "9657797729": {
+      "blockedReason": "condition",
+      "size": null,
+      "lastPrice": 18,
+      "lastSeenAt": "2026-08-22T19:02:14.969Z"
+    },
+    "9652323571": {
+      "blockedReason": "condition",
+      "size": "L",
+      "lastPrice": 5,
+      "lastSeenAt": "2026-08-22T19:02:14.969Z"
+    },
+    "9653888398": {
+      "size": "L",
+      "condition": "newWithoutTags",
+      "buyScore": 73,
+      "resale": 37.8,
+      "netProfit": 17,
+      "roi": 85,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected"
+      },
+      "lastPrice": 20,
+      "lastSeenAt": "2026-08-22T19:02:14.969Z",
+      "lastPriceDrop": null
+    },
+    "9656802327": {
+      "blockedReason": "size",
+      "lastPrice": 14.86,
+      "lastSeenAt": "2026-08-22T19:02:14.969Z"
+    },
+    "9645563272": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "M",
+      "lastPrice": 20,
+      "lastSeenAt": "2026-08-22T19:02:15.406Z"
+    },
+    "9650324777": {
+      "blockedReason": "size",
+      "lastPrice": 19,
+      "lastSeenAt": "2026-08-22T19:02:15.406Z"
+    },
+    "9646372710": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "M",
+      "lastPrice": 15,
+      "lastSeenAt": "2026-08-22T19:02:15.749Z"
+    },
+    "9652397691": {
+      "size": "XL",
+      "condition": "newWithoutTags",
+      "buyScore": 87,
+      "resale": 48.9,
+      "netProfit": 28.1,
+      "roi": 140.5,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "Strong bargain price; manual authenticity check recommended"
+      },
+      "lastPrice": 20,
+      "lastSeenAt": "2026-08-22T19:02:15.750Z",
+      "lastPriceDrop": null,
+      "lastAlertedAt": "2026-08-22T19:01:25.442Z"
+    },
+    "9645414093": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "M",
+      "lastPrice": 20,
+      "lastSeenAt": "2026-08-22T19:02:16.162Z"
+    },
+    "9619577942": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "L",
+      "lastPrice": 12,
+      "lastSeenAt": "2026-08-22T19:02:16.613Z"
+    },
+    "9621776821": {
+      "blockedReason": "size",
+      "lastPrice": 18.57,
+      "lastSeenAt": "2026-08-22T19:02:16.614Z"
+    },
+    "9621110444": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "L",
+      "lastPrice": 10,
+      "lastSeenAt": "2026-08-22T19:02:16.949Z"
+    },
+    "9643409822": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "L",
+      "lastPrice": 8,
+      "lastSeenAt": "2026-08-22T19:02:17.271Z"
+    },
+    "9628054513": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "L",
+      "lastPrice": 19.99,
+      "lastSeenAt": "2026-08-22T19:02:17.989Z"
+    },
+    "9644377976": {
+      "blockedReason": "condition-not-confirmed",
+      "size": 8,
+      "lastPrice": 10.5,
+      "lastSeenAt": "2026-08-22T19:02:18.385Z"
+    },
+    "9638050115": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "M",
+      "lastPrice": 17,
+      "lastSeenAt": "2026-08-22T19:02:18.703Z"
+    },
+    "9645383648": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "M",
+      "lastPrice": 25,
+      "lastSeenAt": "2026-08-22T19:02:19.134Z"
+    },
+    "9638979027": {
+      "size": "S",
+      "condition": "newWithoutTags",
+      "buyScore": 0,
+      "resale": 33.44,
+      "netProfit": 12.64,
+      "roi": 63.2,
+      "blockedReason": "weak-margin",
+      "lastPrice": 20,
+      "lastSeenAt": "2026-08-22T19:02:19.134Z"
+    },
+    "9610877481": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "S",
+      "lastPrice": 20.05,
+      "lastSeenAt": "2026-08-22T19:02:20.391Z"
+    },
+    "9629630393": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "S",
+      "lastPrice": 21.24,
+      "lastSeenAt": "2026-08-22T19:02:20.734Z"
+    },
+    "9595479124": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "XL",
+      "lastPrice": 14.86,
+      "lastSeenAt": "2026-08-22T19:02:21.090Z"
+    },
+    "9625304964": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "XL",
+      "lastPrice": 15,
+      "lastSeenAt": "2026-08-22T19:02:21.557Z"
+    },
+    "9625491606": {
+      "blockedReason": "condition",
+      "size": 7,
+      "lastPrice": 7,
+      "lastSeenAt": "2026-08-22T19:02:21.557Z"
+    },
+    "9595474413": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "XL",
+      "lastPrice": 14.86,
+      "lastSeenAt": "2026-08-22T19:02:21.920Z"
+    },
+    "9603303421": {
+      "blockedReason": "condition",
+      "size": null,
+      "lastPrice": 22.28,
+      "lastSeenAt": "2026-08-22T19:02:21.920Z"
+    },
+    "9620640626": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "L",
+      "lastPrice": 25,
+      "lastSeenAt": "2026-08-22T19:02:22.302Z"
+    },
+    "9615442158": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "L",
+      "lastPrice": 25,
+      "lastSeenAt": "2026-08-22T19:02:22.647Z"
+    },
+    "9609906017": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "XL",
+      "lastPrice": 25,
+      "lastSeenAt": "2026-08-22T19:02:23.047Z"
+    },
+    "9744425313": {
+      "blockedReason": "keyword",
+      "size": null,
+      "lastPrice": 2.5,
+      "lastSeenAt": "2026-08-22T19:02:25.722Z"
+    },
+    "9744271856": {
+      "blockedReason": "condition",
+      "size": 9.5,
+      "lastPrice": 5,
+      "lastSeenAt": "2026-08-22T19:02:25.723Z"
+    },
+    "9744254627": {
+      "blockedReason": "condition-not-confirmed",
+      "size": 10,
+      "lastPrice": 2.5,
+      "lastSeenAt": "2026-08-22T19:02:26.067Z"
+    },
+    "9744240305": {
+      "blockedReason": "condition-not-confirmed",
+      "size": 10,
+      "lastPrice": 10,
+      "lastSeenAt": "2026-08-22T19:02:26.478Z"
+    },
+    "9743941567": {
+      "size": "XL",
+      "condition": "newWithoutTags",
+      "buyScore": 77,
+      "resale": 31.68,
+      "netProfit": 15.88,
+      "roi": 105.87,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected"
+      },
+      "lastPrice": 15,
+      "lastSeenAt": "2026-08-22T19:02:26.478Z",
+      "lastPriceDrop": null
+    },
+    "9743919690": {
+      "blockedReason": "size",
+      "lastPrice": 15,
+      "lastSeenAt": "2026-08-22T19:02:26.479Z"
+    },
+    "9743622150": {
+      "blockedReason": "condition-not-confirmed",
+      "size": 8,
+      "lastPrice": 6,
+      "lastSeenAt": "2026-08-22T19:02:26.824Z"
+    },
+    "9743496209": {
+      "blockedReason": "condition-not-confirmed",
+      "size": 8,
+      "lastPrice": 10,
+      "lastSeenAt": "2026-08-22T19:02:27.144Z"
+    },
+    "9743444930": {
+      "blockedReason": "keyword",
+      "size": "M",
+      "lastPrice": 4,
+      "lastSeenAt": "2026-08-22T19:02:27.144Z"
+    },
+    "9743282588": {
+      "blockedReason": "keyword",
+      "size": "M",
+      "lastPrice": 15,
+      "lastSeenAt": "2026-08-22T19:02:27.144Z"
+    },
+    "9743151421": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "M",
+      "lastPrice": 15,
+      "lastSeenAt": "2026-08-22T19:02:27.473Z"
+    },
+    "9743148825": {
+      "blockedReason": "condition-not-confirmed",
+      "size": 7,
+      "lastPrice": 6,
+      "lastSeenAt": "2026-08-22T19:02:27.818Z"
+    },
+    "9742547470": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "XL",
+      "lastPrice": 15,
+      "lastSeenAt": "2026-08-22T19:02:28.212Z"
+    },
+    "9742371913": {
+      "blockedReason": "condition",
+      "size": "L",
+      "lastPrice": 9.5,
+      "lastSeenAt": "2026-08-22T19:02:28.212Z"
+    },
+    "9742317082": {
+      "blockedReason": "size",
+      "lastPrice": 15,
+      "lastSeenAt": "2026-08-22T19:02:28.212Z"
+    },
+    "9742025592": {
+      "blockedReason": "condition",
+      "size": "XL",
+      "lastPrice": 6,
+      "lastSeenAt": "2026-08-22T19:02:28.212Z"
+    },
+    "9741671058": {
+      "blockedReason": "condition",
+      "size": 9,
+      "lastPrice": 9.99,
+      "lastSeenAt": "2026-08-22T19:02:28.212Z"
+    },
+    "9741456563": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "S",
+      "lastPrice": 12,
+      "lastSeenAt": "2026-08-22T19:02:28.884Z"
+    },
+    "9741305064": {
+      "blockedReason": "condition",
+      "size": 7,
+      "lastPrice": 6,
+      "lastSeenAt": "2026-08-22T19:02:28.884Z"
+    },
+    "9740935586": {
+      "blockedReason": "condition",
+      "size": 7,
+      "lastPrice": 10,
+      "lastSeenAt": "2026-08-22T19:02:29.256Z"
+    },
+    "9740603918": {
+      "blockedReason": "condition",
+      "size": null,
+      "lastPrice": 15,
+      "lastSeenAt": "2026-08-22T19:02:29.256Z"
+    },
+    "9740800508": {
+      "blockedReason": "condition",
+      "size": 10,
+      "lastPrice": 3,
+      "lastSeenAt": "2026-08-22T19:02:29.256Z"
+    },
+    "9740107869": {
+      "blockedReason": "condition",
+      "size": "XL",
+      "lastPrice": 10,
+      "lastSeenAt": "2026-08-22T19:02:29.256Z"
+    },
+    "9740144246": {
+      "blockedReason": "condition",
+      "size": "XL",
+      "lastPrice": 6,
+      "lastSeenAt": "2026-08-22T19:02:29.256Z"
+    },
+    "9740098414": {
+      "blockedReason": "condition",
+      "size": 9.5,
+      "lastPrice": 5,
+      "lastSeenAt": "2026-08-22T19:02:29.256Z"
+    },
+    "9739758445": {
+      "blockedReason": "condition",
+      "size": "M",
+      "lastPrice": 6.5,
+      "lastSeenAt": "2026-08-22T19:02:29.256Z"
+    },
+    "9739617661": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "L",
+      "lastPrice": 15,
+      "lastSeenAt": "2026-08-22T19:02:30.122Z"
+    },
+    "9739442860": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "S",
+      "lastPrice": 13,
+      "lastSeenAt": "2026-08-22T19:02:30.990Z"
+    },
+    "9739462118": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "XS",
+      "lastPrice": 12,
+      "lastSeenAt": "2026-08-22T19:02:32.726Z"
+    },
+    "9739571251": {
+      "blockedReason": "condition-not-confirmed",
+      "size": 8,
+      "lastPrice": 8,
+      "lastSeenAt": "2026-08-22T19:02:34.140Z"
+    },
+    "9739780117": {
+      "blockedReason": "condition",
+      "size": "L",
+      "lastPrice": 4,
+      "lastSeenAt": "2026-08-22T19:02:34.140Z"
+    },
+    "9739230379": {
+      "blockedReason": "condition",
+      "size": 7,
+      "lastPrice": 6,
+      "lastSeenAt": "2026-08-22T19:02:34.140Z"
+    },
+    "9739448849": {
+      "blockedReason": "size",
+      "lastPrice": 15,
+      "lastSeenAt": "2026-08-22T19:02:34.140Z"
+    },
+    "9739385660": {
+      "blockedReason": "size",
+      "lastPrice": 11,
+      "lastSeenAt": "2026-08-22T19:02:34.140Z"
+    },
+    "9738861036": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "M",
+      "lastPrice": 10,
+      "lastSeenAt": "2026-08-22T19:02:35.160Z"
+    },
+    "9738318721": {
+      "blockedReason": "condition",
+      "size": "XL",
+      "lastPrice": 2.5,
+      "lastSeenAt": "2026-08-22T19:02:35.160Z"
+    },
+    "9739025226": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "XS",
+      "lastPrice": 8,
+      "lastSeenAt": "2026-08-22T19:02:37.020Z"
+    },
+    "9738817867": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "M",
+      "lastPrice": 7,
+      "lastSeenAt": "2026-08-22T19:02:37.877Z"
+    },
+    "9738242599": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "XS",
+      "lastPrice": 8,
+      "lastSeenAt": "2026-08-22T19:02:39.174Z"
+    },
+    "9737666637": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "L",
+      "lastPrice": 6,
+      "lastSeenAt": "2026-08-22T19:02:40.754Z"
+    },
+    "9738660659": {
+      "blockedReason": "keyword",
+      "size": "S",
+      "lastPrice": 12.1,
+      "lastSeenAt": "2026-08-22T19:02:40.754Z"
+    },
+    "9736938679": {
+      "blockedReason": "keyword",
+      "size": "S",
+      "lastPrice": 7.5,
+      "lastSeenAt": "2026-08-22T19:02:40.754Z"
+    },
+    "9735940974": {
+      "blockedReason": "condition",
+      "size": 9.5,
+      "lastPrice": 5,
+      "lastSeenAt": "2026-08-22T19:02:40.754Z"
+    },
+    "9735509941": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "M",
+      "lastPrice": 15,
+      "lastSeenAt": "2026-08-22T19:02:41.640Z"
+    },
+    "9734925756": {
+      "blockedReason": "condition-not-confirmed",
+      "size": 8,
+      "lastPrice": 8,
+      "lastSeenAt": "2026-08-22T19:02:42.594Z"
+    },
+    "9734069241": {
+      "blockedReason": "keyword",
+      "size": 7,
+      "lastPrice": 12,
+      "lastSeenAt": "2026-08-22T19:02:42.594Z"
+    },
+    "9735514836": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "M",
+      "lastPrice": 15,
+      "lastSeenAt": "2026-08-22T19:02:43.442Z"
+    },
+    "9734530909": {
+      "blockedReason": "condition",
+      "size": "M",
+      "lastPrice": 8,
+      "lastSeenAt": "2026-08-22T19:02:43.442Z"
+    },
+    "9733062104": {
+      "blockedReason": "condition-not-confirmed",
+      "size": 10,
+      "lastPrice": 10,
+      "lastSeenAt": "2026-08-22T19:02:44.327Z"
+    },
+    "9735230380": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "S",
+      "lastPrice": 12.99,
+      "lastSeenAt": "2026-08-22T19:02:45.405Z"
+    },
+    "9734428293": {
+      "blockedReason": "size",
+      "lastPrice": 12,
+      "lastSeenAt": "2026-08-22T19:02:45.405Z"
+    },
+    "9732474920": {
+      "blockedReason": "condition",
+      "size": null,
+      "lastPrice": 4,
+      "lastSeenAt": "2026-08-22T19:02:45.405Z"
+    },
+    "9730519221": {
+      "blockedReason": "condition-not-confirmed",
+      "size": 10,
+      "lastPrice": 10,
+      "lastSeenAt": "2026-08-22T19:02:46.386Z"
+    },
+    "9733752594": {
+      "blockedReason": "condition",
+      "size": 7,
+      "lastPrice": 7,
+      "lastSeenAt": "2026-08-22T19:02:46.386Z"
+    },
+    "9734429431": {
+      "blockedReason": "condition-not-confirmed",
+      "size": 8,
+      "lastPrice": 8,
+      "lastSeenAt": "2026-08-22T19:02:47.313Z"
+    },
+    "9730372948": {
+      "blockedReason": "condition-not-confirmed",
+      "size": 8,
+      "lastPrice": 8,
+      "lastSeenAt": "2026-08-22T19:02:48.126Z"
+    },
+    "9732012705": {
+      "blockedReason": "size",
+      "lastPrice": 11,
+      "lastSeenAt": "2026-08-22T19:02:48.126Z"
+    },
+    "9730261194": {
+      "size": 8,
+      "condition": "newWithoutTags",
+      "buyScore": 100,
+      "resale": 28.16,
+      "netProfit": 22.36,
+      "roi": 447.2,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history"
+      },
+      "lastPrice": 5,
+      "lastSeenAt": "2026-08-22T19:02:48.126Z",
+      "lastPriceDrop": null,
+      "lastAlertedAt": "2026-08-22T19:01:25.442Z"
+    },
+    "9732110804": {
+      "blockedReason": "condition",
+      "size": 9.5,
+      "lastPrice": 5,
+      "lastSeenAt": "2026-08-22T19:02:48.127Z"
+    },
+    "9732858331": {
+      "blockedReason": "condition",
+      "size": null,
+      "lastPrice": 15,
+      "lastSeenAt": "2026-08-22T19:02:48.127Z"
+    },
+    "9733116073": {
+      "size": "XL",
+      "condition": "newWithoutTags",
+      "buyScore": 77,
+      "resale": 31.68,
+      "netProfit": 15.88,
+      "roi": 105.87,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected"
+      },
+      "lastPrice": 15,
+      "lastSeenAt": "2026-08-22T19:02:48.127Z",
+      "lastPriceDrop": null
+    },
+    "9731886084": {
+      "size": "XL",
+      "condition": "newWithoutTags",
+      "buyScore": 96,
+      "resale": 31.68,
+      "netProfit": 21.88,
+      "roi": 243.11,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history"
+      },
+      "lastPrice": 9,
+      "lastSeenAt": "2026-08-22T19:02:48.127Z",
+      "lastPriceDrop": null,
+      "lastAlertedAt": "2026-08-22T19:01:25.442Z"
+    },
+    "9730970096": {
+      "blockedReason": "size",
+      "lastPrice": 4,
+      "lastSeenAt": "2026-08-22T19:02:48.127Z"
+    },
+    "9726945452": {
+      "blockedReason": "keyword",
+      "size": "XL",
+      "lastPrice": 17.5,
+      "lastSeenAt": "2026-08-22T19:02:48.127Z"
+    },
+    "9729063893": {
+      "blockedReason": "condition",
+      "size": "XS",
+      "lastPrice": 4,
+      "lastSeenAt": "2026-08-22T19:02:48.127Z"
+    },
+    "9728110015": {
+      "blockedReason": "size",
+      "lastPrice": 4,
+      "lastSeenAt": "2026-08-22T19:02:48.127Z"
+    },
+    "9728075331": {
+      "blockedReason": "condition",
+      "size": 8,
+      "lastPrice": 8,
+      "lastSeenAt": "2026-08-22T19:02:48.127Z"
+    },
+    "9724628581": {
+      "blockedReason": "condition-not-confirmed",
+      "size": 8,
+      "lastPrice": 8,
+      "lastSeenAt": "2026-08-22T19:02:48.921Z"
+    },
+    "9729031969": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "XS",
+      "lastPrice": 11,
+      "lastSeenAt": "2026-08-22T19:02:49.942Z"
+    },
+    "9728293216": {
+      "blockedReason": "keyword",
+      "size": "XL",
+      "lastPrice": 12,
+      "lastSeenAt": "2026-08-22T19:02:49.942Z"
+    },
+    "9699499467": {
+      "blockedReason": "condition-not-confirmed",
+      "size": 8,
+      "lastPrice": 9.66,
+      "lastSeenAt": "2026-08-22T19:02:50.824Z"
+    },
+    "9702829638": {
+      "blockedReason": "size",
+      "lastPrice": 14.86,
+      "lastSeenAt": "2026-08-22T19:02:50.825Z"
+    },
+    "9724539583": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "S",
+      "lastPrice": 12.99,
+      "lastSeenAt": "2026-08-22T19:02:51.971Z"
+    },
+    "9724611129": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "M",
+      "lastPrice": 12,
+      "lastSeenAt": "2026-08-22T19:02:52.937Z"
+    },
+    "9724637385": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "XL",
+      "lastPrice": 8,
+      "lastSeenAt": "2026-08-22T19:02:53.765Z"
+    },
+    "9724968428": {
+      "blockedReason": "keyword",
+      "size": "XL",
+      "lastPrice": 6,
+      "lastSeenAt": "2026-08-22T19:02:53.765Z"
+    },
+    "9721354401": {
+      "blockedReason": "condition",
+      "size": "XS",
+      "lastPrice": 3,
+      "lastSeenAt": "2026-08-22T19:02:53.765Z"
+    },
+    "9724604164": {
+      "blockedReason": "condition",
+      "size": "S",
+      "lastPrice": 12,
+      "lastSeenAt": "2026-08-22T19:02:53.765Z"
+    },
+    "9744335649": {
+      "blockedReason": "condition-not-confirmed",
+      "size": 9.5,
+      "lastPrice": 25,
+      "lastSeenAt": "2026-08-22T19:02:57.748Z"
+    },
+    "9744267335": {
+      "blockedReason": "condition",
+      "size": null,
+      "lastPrice": 15,
+      "lastSeenAt": "2026-08-22T19:02:57.749Z"
+    },
+    "9744230445": {
+      "blockedReason": "size",
+      "lastPrice": 35,
+      "lastSeenAt": "2026-08-22T19:02:57.749Z"
+    },
+    "9744201235": {
+      "blockedReason": "condition",
+      "size": 9.5,
+      "lastPrice": 25,
+      "lastSeenAt": "2026-08-22T19:02:57.749Z"
+    },
+    "9744149666": {
+      "blockedReason": "size",
+      "lastPrice": 35,
+      "lastSeenAt": "2026-08-22T19:02:57.749Z"
+    },
+    "9744097212": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "M",
+      "lastPrice": 11.99,
+      "lastSeenAt": "2026-08-22T19:02:58.508Z"
+    },
+    "9743733389": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "XS",
+      "lastPrice": 30,
+      "lastSeenAt": "2026-08-22T19:02:59.402Z"
+    },
+    "9743652725": {
+      "blockedReason": "size",
+      "lastPrice": 35,
+      "lastSeenAt": "2026-08-22T19:02:59.402Z"
+    },
+    "9743558846": {
+      "blockedReason": "condition",
+      "size": null,
+      "lastPrice": 16,
+      "lastSeenAt": "2026-08-22T19:02:59.403Z"
+    },
+    "9743443287": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "XS",
+      "lastPrice": 25,
+      "lastSeenAt": "2026-08-22T19:03:00.455Z"
+    },
+    "9743411735": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "XS",
+      "lastPrice": 25,
+      "lastSeenAt": "2026-08-22T19:03:01.438Z"
+    },
+    "9743365229": {
+      "blockedReason": "keyword",
+      "size": "XS",
+      "lastPrice": 25,
+      "lastSeenAt": "2026-08-22T19:03:01.438Z"
+    },
+    "9743115573": {
+      "blockedReason": "size",
+      "lastPrice": 35,
+      "lastSeenAt": "2026-08-22T19:03:01.438Z"
+    },
+    "9743037087": {
+      "blockedReason": "condition",
+      "size": 9.5,
+      "lastPrice": 25,
+      "lastSeenAt": "2026-08-22T19:03:01.438Z"
+    },
+    "9743004604": {
+      "blockedReason": "condition",
+      "size": "XL",
+      "lastPrice": 20,
+      "lastSeenAt": "2026-08-22T19:03:01.438Z"
+    },
+    "9742813683": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "XL",
+      "lastPrice": 29.99,
+      "lastSeenAt": "2026-08-22T19:03:02.433Z"
+    },
+    "9742776308": {
+      "blockedReason": "condition-not-confirmed",
+      "size": 9.5,
+      "lastPrice": 25,
+      "lastSeenAt": "2026-08-22T19:03:03.290Z"
+    },
+    "9742673044": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "XS",
+      "lastPrice": 25,
+      "lastSeenAt": "2026-08-22T19:03:03.717Z"
+    },
+    "9742047697": {
+      "blockedReason": "size",
+      "lastPrice": 20,
+      "lastSeenAt": "2026-08-22T19:03:03.717Z"
+    },
+    "9741791606": {
+      "blockedReason": "size",
+      "lastPrice": 35,
+      "lastSeenAt": "2026-08-22T19:03:03.717Z"
+    },
+    "9741669215": {
+      "blockedReason": "size",
+      "lastPrice": 35,
+      "lastSeenAt": "2026-08-22T19:03:03.717Z"
+    },
+    "9741451274": {
+      "blockedReason": "condition-not-confirmed",
+      "size": 10,
+      "lastPrice": 25,
+      "lastSeenAt": "2026-08-22T19:03:04.467Z"
+    },
+    "9741481147": {
+      "blockedReason": "condition-not-confirmed",
+      "size": 10,
+      "lastPrice": 25,
+      "lastSeenAt": "2026-08-22T19:03:05.158Z"
+    },
+    "9741340471": {
+      "blockedReason": "condition",
+      "size": null,
+      "lastPrice": 15,
+      "lastSeenAt": "2026-08-22T19:03:05.158Z"
+    },
+    "9740280504": {
+      "blockedReason": "condition",
+      "size": "S",
+      "lastPrice": 35,
+      "lastSeenAt": "2026-08-22T19:03:05.521Z"
+    },
+    "9740294490": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "S",
+      "lastPrice": 15,
+      "lastSeenAt": "2026-08-22T19:03:05.867Z"
+    },
+    "9709873472": {
+      "blockedReason": "size",
+      "lastPrice": 22,
+      "lastSeenAt": "2026-08-22T19:03:05.868Z"
+    },
+    "9740185841": {
+      "blockedReason": "condition",
+      "size": 9.5,
+      "lastPrice": 5,
+      "lastSeenAt": "2026-08-22T19:03:05.868Z"
+    },
+    "9739741493": {
+      "blockedReason": "keyword",
+      "size": "M",
+      "lastPrice": 4,
+      "lastSeenAt": "2026-08-22T19:03:05.868Z"
+    },
+    "9739445654": {
+      "blockedReason": "condition",
+      "size": null,
+      "lastPrice": 30,
+      "lastSeenAt": "2026-08-22T19:03:05.868Z"
+    },
+    "9739621221": {
+      "blockedReason": "size",
+      "lastPrice": 30,
+      "lastSeenAt": "2026-08-22T19:03:05.868Z"
+    },
+    "9738525102": {
+      "blockedReason": "size",
+      "lastPrice": 21.99,
+      "lastSeenAt": "2026-08-22T19:03:06.734Z"
+    },
+    "9738736871": {
+      "blockedReason": "condition",
+      "size": "XL",
+      "lastPrice": 25.9,
+      "lastSeenAt": "2026-08-22T19:03:06.734Z"
+    },
+    "9738037262": {
+      "blockedReason": "size",
+      "lastPrice": 30,
+      "lastSeenAt": "2026-08-22T19:03:06.735Z"
+    },
+    "9738123717": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "XL",
+      "lastPrice": 30,
+      "lastSeenAt": "2026-08-22T19:03:07.102Z"
+    },
+    "9736655285": {
+      "blockedReason": "size",
+      "lastPrice": 20,
+      "lastSeenAt": "2026-08-22T19:03:07.102Z"
+    },
+    "9738555727": {
+      "blockedReason": "size",
+      "lastPrice": 30,
+      "lastSeenAt": "2026-08-22T19:03:07.102Z"
+    },
+    "9737154916": {
+      "blockedReason": "size",
+      "lastPrice": 20,
+      "lastSeenAt": "2026-08-22T19:03:07.102Z"
+    },
+    "9735455980": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "L",
+      "lastPrice": 30,
+      "lastSeenAt": "2026-08-22T19:03:08.238Z"
+    },
+    "9736343779": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "L",
+      "lastPrice": 20,
+      "lastSeenAt": "2026-08-22T19:03:08.714Z"
+    },
+    "9734426459": {
+      "blockedReason": "condition-not-confirmed",
+      "size": 9.5,
+      "lastPrice": 25,
+      "lastSeenAt": "2026-08-22T19:03:09.095Z"
+    },
+    "9734094217": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "XL",
+      "lastPrice": 35,
+      "lastSeenAt": "2026-08-22T19:03:09.553Z"
+    },
+    "9735397727": {
+      "blockedReason": "condition",
+      "size": "M",
+      "lastPrice": 35,
+      "lastSeenAt": "2026-08-22T19:03:09.554Z"
+    },
+    "9735392751": {
+      "blockedReason": "keyword",
+      "size": null,
+      "lastPrice": 35,
+      "lastSeenAt": "2026-08-22T19:03:09.554Z"
+    },
+    "9735250988": {
+      "blockedReason": "condition",
+      "size": null,
+      "lastPrice": 20,
+      "lastSeenAt": "2026-08-22T19:03:09.554Z"
+    },
+    "9733465847": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "L",
+      "lastPrice": 35,
+      "lastSeenAt": "2026-08-22T19:03:10.379Z"
+    },
+    "9734079026": {
+      "blockedReason": "condition",
+      "size": null,
+      "lastPrice": 20,
+      "lastSeenAt": "2026-08-22T19:03:10.380Z"
+    },
+    "9734067945": {
+      "blockedReason": "condition-not-confirmed",
+      "size": 9.5,
+      "lastPrice": 25,
+      "lastSeenAt": "2026-08-22T19:03:10.770Z"
+    },
+    "9725967677": {
+      "blockedReason": "condition",
+      "size": null,
+      "lastPrice": 18.62,
+      "lastSeenAt": "2026-08-22T19:03:10.770Z"
+    },
+    "9725965392": {
+      "blockedReason": "condition",
+      "size": 8,
+      "lastPrice": 15.96,
+      "lastSeenAt": "2026-08-22T19:03:10.770Z"
+    },
+    "9733812501": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "XS",
+      "lastPrice": 18,
+      "lastSeenAt": "2026-08-22T19:03:11.110Z"
+    },
+    "9733025507": {
+      "blockedReason": "condition",
+      "size": "XS",
+      "lastPrice": 16,
+      "lastSeenAt": "2026-08-22T19:03:11.110Z"
+    },
+    "9734330352": {
+      "blockedReason": "condition-not-confirmed",
+      "size": 9.5,
+      "lastPrice": 25,
+      "lastSeenAt": "2026-08-22T19:03:11.472Z"
+    },
+    "9731133987": {
+      "blockedReason": "condition",
+      "size": 8,
+      "lastPrice": 20,
+      "lastSeenAt": "2026-08-22T19:03:11.472Z"
+    },
+    "9733074488": {
+      "blockedReason": "condition",
+      "size": "M",
+      "lastPrice": 15,
+      "lastSeenAt": "2026-08-22T19:03:11.472Z"
+    },
+    "9734351085": {
+      "blockedReason": "condition",
+      "size": "M",
+      "lastPrice": 25,
+      "lastSeenAt": "2026-08-22T19:03:11.473Z"
+    },
+    "9734094493": {
+      "blockedReason": "keyword",
+      "size": 8,
+      "lastPrice": 12,
+      "lastSeenAt": "2026-08-22T19:03:11.473Z"
+    },
+    "9734010782": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "XL",
+      "lastPrice": 35,
+      "lastSeenAt": "2026-08-22T19:03:11.799Z"
+    },
+    "9731516955": {
+      "blockedReason": "size",
+      "lastPrice": 35,
+      "lastSeenAt": "2026-08-22T19:03:11.799Z"
+    },
+    "9733066781": {
+      "blockedReason": "size",
+      "lastPrice": 35,
+      "lastSeenAt": "2026-08-22T19:03:11.799Z"
+    },
+    "9732634794": {
+      "blockedReason": "condition",
+      "size": null,
+      "lastPrice": 30,
+      "lastSeenAt": "2026-08-22T19:03:11.799Z"
+    },
+    "9729350276": {
+      "blockedReason": "size",
+      "lastPrice": 14,
+      "lastSeenAt": "2026-08-22T19:03:11.799Z"
+    },
+    "9724769762": {
+      "blockedReason": "condition-not-confirmed",
+      "size": 9.5,
+      "lastPrice": 25,
+      "lastSeenAt": "2026-08-22T19:03:12.327Z"
+    },
+    "9731967811": {
+      "blockedReason": "condition",
+      "size": null,
+      "lastPrice": 35,
+      "lastSeenAt": "2026-08-22T19:03:12.327Z"
+    },
+    "9731319731": {
+      "blockedReason": "keyword",
+      "size": "M",
+      "lastPrice": 22,
+      "lastSeenAt": "2026-08-22T19:03:12.327Z"
+    },
+    "9731999267": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "M",
+      "lastPrice": 35,
+      "lastSeenAt": "2026-08-22T19:03:12.694Z"
+    },
+    "9731266026": {
+      "blockedReason": "condition",
+      "size": "M",
+      "lastPrice": 30,
+      "lastSeenAt": "2026-08-22T19:03:12.694Z"
+    },
+    "9729848408": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "S",
+      "lastPrice": 34.99,
+      "lastSeenAt": "2026-08-22T19:03:13.633Z"
+    },
+    "9729446510": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "XS",
+      "lastPrice": 20,
+      "lastSeenAt": "2026-08-22T19:03:14.016Z"
+    },
+    "9729076463": {
+      "blockedReason": "condition-not-confirmed",
+      "size": "XL",
+      "lastPrice": 25,
+      "lastSeenAt": "2026-08-22T19:03:14.409Z"
+    },
+    "9728570940": {
+      "blockedReason": "condition-not-confirmed",
+      "size": 9.5,
+      "lastPrice": 25,
+      "lastSeenAt": "2026-08-22T19:03:14.842Z"
+    }
+  },
+  "market": {
+    "Nike Tech Fleece Hoodie": {
+      "updatedAt": "2026-08-22T19:01:25.442Z",
+      "medianBySize": {
+        "7": 6,
+        "8": 8.25,
+        "9": 30,
+        "10": 5,
+        "XL": 19,
+        "9.5": 25,
+        "L": 10,
+        "M": 28.5,
+        "XS": 27.5,
+        "S": 19.99
+      }
+    },
+    "Nike Tech Fleece Windrunner": {
+      "updatedAt": "2026-08-22T19:01:25.442Z",
+      "medianBySize": {
+        "7": 55,
+        "8": 46.75,
+        "10": 46,
+        "XL": 62.5,
+        "9.5": 65,
+        "8.5": 85,
+        "XS": 52.5,
+        "M": 32.73,
+        "S": 18,
+        "L": 35,
+        "7.5": 75
+      }
+    },
+    "Nike Tech Fleece Joggers": {
+      "updatedAt": "2026-08-22T19:01:25.442Z",
+      "medianBySize": {
+        "7": 6,
+        "8": 8,
+        "9": 9.99,
+        "10": 6.5,
+        "9.5": 25,
+        "M": 15,
+        "XL": 26.49,
+        "L": 10,
+        "S": 15.79,
+        "XS": 35
+      }
+    },
+    "Nike Tech Fleece Tracksuit": {
+      "updatedAt": "2026-08-22T19:01:25.442Z",
+      "medianBySize": {
+        "7": 67.5,
+        "10": 25,
+        "9.5": 35,
+        "XL": 50,
+        "S": 55,
+        "M": 39.99,
+        "XS": 55,
+        "8.5": 85,
+        "L": 50,
+        "10.5": 100,
+        "7.5": 75
+      }
+    }
+  },
   "sellers": {},
   "images": {},
-  "cursor": 0
+  "cursor": 4,
+  "updatedAt": "2026-08-22T19:01:25.442Z",
+  "lastRotation": {
+    "bot": "clothing",
+    "start": 0,
+    "selected": [
+      "Nike Tech Fleece Hoodie",
+      "Nike Tech Fleece Windrunner",
+      "Nike Tech Fleece Joggers",
+      "Nike Tech Fleece Tracksuit"
+    ],
+    "at": "2026-08-22T19:03:15.895Z"
+  }
 }
