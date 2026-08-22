@@ -1870,55 +1870,55 @@
     "9731507826": {
       "size": null,
       "bootstrapSeen": true,
-      "lastSeenAt": "2026-08-22T22:21:06.207Z",
+      "lastSeenAt": "2026-08-22T23:06:01.983Z",
       "lastPrice": 120
     },
     "9743801366": {
       "size": null,
       "bootstrapSeen": true,
-      "lastSeenAt": "2026-08-22T22:21:00.879Z",
+      "lastSeenAt": "2026-08-22T23:05:57.516Z",
       "lastPrice": 100
     },
     "9683153680": {
       "size": "L",
       "bootstrapSeen": true,
-      "lastSeenAt": "2026-08-22T22:21:02.058Z",
+      "lastSeenAt": "2026-08-22T23:05:58.757Z",
       "lastPrice": 89
     },
     "9745134473": {
       "size": 9.5,
       "bootstrapSeen": true,
-      "lastSeenAt": "2026-08-22T22:21:06.207Z",
+      "lastSeenAt": "2026-08-22T23:06:01.983Z",
       "lastPrice": 99
     },
     "9745296574": {
       "size": "L",
       "bootstrapSeen": true,
-      "lastSeenAt": "2026-08-22T22:21:08.104Z",
+      "lastSeenAt": "2026-08-22T23:06:03.157Z",
       "lastPrice": 110
     },
     "9709592373": {
       "size": "XL",
       "bootstrapSeen": true,
-      "lastSeenAt": "2026-08-22T22:21:09.177Z",
+      "lastSeenAt": "2026-08-22T23:06:04.106Z",
       "lastPrice": 20
     },
     "9731366025": {
       "size": "S",
       "bootstrapSeen": true,
-      "lastSeenAt": "2026-08-22T22:21:10.561Z",
+      "lastSeenAt": "2026-08-22T23:06:05.007Z",
       "lastPrice": 35
     },
     "9745233432": {
       "size": null,
       "bootstrapSeen": true,
-      "lastSeenAt": "2026-08-22T22:21:15.401Z",
+      "lastSeenAt": "2026-08-22T23:06:09.938Z",
       "lastPrice": 33
     },
     "9665186334": {
       "size": "S",
       "bootstrapSeen": true,
-      "lastSeenAt": "2026-08-22T22:21:13.796Z",
+      "lastSeenAt": "2026-08-22T23:06:08.389Z",
       "lastPrice": 33
     },
     "9626011975": {
@@ -2031,7 +2031,7 @@
   "sellers": {},
   "images": {},
   "cursor": 4,
-  "updatedAt": "2026-08-22T22:20:56.274Z",
+  "updatedAt": "2026-08-22T23:05:52.870Z",
   "lastRotation": {
     "bot": "clothing",
     "selected": [
@@ -2052,7 +2052,7 @@
       "Nike Dri-FIT Running Top",
       "Nike Unlimited Shorts"
     ],
-    "at": "2026-08-22T22:21:16.658Z"
+    "at": "2026-08-22T23:06:10.865Z"
   },
   "freshness": {
     "version": 2,
@@ -2060,45 +2060,45 @@
     "frontiers": {
       "Nike Tech Fleece Windrunner": {
         "maxId": "9731507826",
-        "updatedAt": "2026-08-22T22:20:56.274Z"
+        "updatedAt": "2026-08-22T23:05:52.870Z"
       },
       "Nike Tech Fleece Tracksuit": {
         "maxId": "9743801366",
-        "updatedAt": "2026-08-22T22:20:56.274Z"
+        "updatedAt": "2026-08-22T23:05:52.870Z"
       },
       "Nike ACG Fleece": {
         "maxId": "9683153680",
-        "updatedAt": "2026-08-22T22:20:56.274Z"
+        "updatedAt": "2026-08-22T23:05:52.870Z"
       },
       "Nike Windrunner Jacket": {
         "maxId": "9745134473",
-        "updatedAt": "2026-08-22T22:20:56.274Z"
+        "updatedAt": "2026-08-22T23:05:52.870Z"
       },
       "Nike Sportswear Tracksuit": {
         "maxId": "9745296574",
-        "updatedAt": "2026-08-22T22:20:56.274Z"
+        "updatedAt": "2026-08-22T23:05:52.870Z"
       },
       "Nike Miler Shorts": {
         "maxId": "9709592373",
-        "updatedAt": "2026-08-22T22:20:56.274Z"
+        "updatedAt": "2026-08-22T23:05:52.870Z"
       },
       "Nike Challenger Shorts": {
         "maxId": "9731366025",
-        "updatedAt": "2026-08-22T22:20:56.274Z"
+        "updatedAt": "2026-08-22T23:05:52.870Z"
       },
       "Nike Miler Running Top": {
         "maxId": "9745233432",
-        "updatedAt": "2026-08-22T22:20:56.274Z"
+        "updatedAt": "2026-08-22T23:05:52.870Z"
       },
       "Nike Dri-FIT Running Top": {
         "maxId": "9745233432",
-        "updatedAt": "2026-08-22T22:20:56.274Z"
+        "updatedAt": "2026-08-22T23:05:52.870Z"
       }
     },
-    "lastScanAt": "2026-08-22T22:20:56.274Z"
+    "lastScanAt": "2026-08-22T23:05:52.870Z"
   },
   "diagnostics": {
-    "lastRunAt": "2026-08-22T22:20:56.274Z",
+    "lastRunAt": "2026-08-22T23:05:52.870Z",
     "searchGroups": 16,
     "qualifyingAlerts": 0
   }
