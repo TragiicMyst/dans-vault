@@ -22,7 +22,7 @@ jobs:
 
       - name: Validate radar code
         run: |
-          node --check vinted-radar/radar-core.mjs
+          node --check vinted-radar/radar-core-v4.mjs
           node --check vinted-radar/run-bot.mjs
           node --check vinted-radar/radar-selftest.mjs
           node vinted-radar/radar-selftest.mjs
@@ -50,7 +50,7 @@ jobs:
             echo "=== Trainer scan cycle $cycle ==="
             if node vinted-radar/run-bot.mjs; then
               successes=$((successes + 1))
-              node -e "const s=require('./vinted-radar/state.json'); console.log('Trainer scan OK:', s.freshness?.lastScanAt, 'searches:', s.diagnostics?.successfulSearches ?? '?', '/', s.diagnostics?.searchGroups ?? '?', 'fresh:', s.diagnostics?.freshItems ?? '?', 'alerts:', s.diagnostics?.qualifyingAlerts ?? '?')"
+              node -e "const s=require('./vinted-radar/state.json'); const d=s.diagnostics||{}; console.log('Trainer scan OK:', s.freshness?.lastScanAt, 'searches:', d.successfulSearches ?? '?', '/', d.searchGroups ?? '?', 'cards:', d.catalogItems ?? '?', 'fresh:', d.freshItems ?? '?', 'delivered:', d.deliveredAlerts ?? '?', 'pending:', d.pendingDeliveries ?? '?')"
             else
               failures=$((failures + 1))
               echo "Trainer scan cycle $cycle FAILED."
@@ -60,8 +60,8 @@ jobs:
             if [ $wait -gt 0 ] && [ $SECONDS -lt $deadline ]; then sleep $wait; fi
           done
           echo "Trainer cycles complete: $successes successful, $failures failed."
-          if [ $successes -eq 0 ]; then
-            echo "All trainer scans failed. Marking workflow failed."
+          if [ $successes -eq 0 ] || [ $failures -gt $successes ]; then
+            echo "Trainer radar reliability threshold failed."
             exit 1
           fi
 
