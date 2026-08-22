@@ -21,7 +21,7 @@ permissions:
 jobs:
   radar:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 7
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -30,8 +30,11 @@ jobs:
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_CLOTHING_WEBHOOK_URL }}
         run: |
-          if [ -z "$DISCORD_WEBHOOK_URL" ]; then exit 1; fi
-          echo "🟢 Clothing Discord webhook configured."
+          if [ -z "$DISCORD_WEBHOOK_URL" ]; then
+            echo "❌ Clothing Discord webhook secret is missing."
+            exit 1
+          fi
+          echo "🟢 Clothing Discord webhook configured. No Discord health message will be sent."
 
       - name: Run Nike Clothing Radar every 30 seconds
         env:
@@ -56,20 +59,30 @@ jobs:
         run: |
           git config user.name "Dan's Vault Clothing Radar"
           git config user.email "actions@users.noreply.github.com"
-          git add vinted-radar/clothing-state.json
-          if git diff --cached --quiet; then exit 0; fi
-          git commit -m "Update Nike clothing radar state"
+
+          cp vinted-radar/clothing-state.json /tmp/clothing-state.json
+
           for attempt in 1 2 3 4 5; do
+            echo "State save attempt $attempt"
             git fetch origin main
-            if git rebase origin/main; then
-              if git push origin HEAD:main; then exit 0; fi
-            else
-              echo "State-file conflict detected; resolving in favour of this clothing radar run's state."
-              git checkout --theirs vinted-radar/clothing-state.json
-              git add vinted-radar/clothing-state.json
-              GIT_EDITOR=true git rebase --continue
-              if git push origin HEAD:main; then exit 0; fi
+            git reset --hard origin/main
+            cp /tmp/clothing-state.json vinted-radar/clothing-state.json
+            git add vinted-radar/clothing-state.json
+
+            if git diff --cached --quiet; then
+              echo "No clothing state changes to save."
+              exit 0
             fi
-            sleep 3
+
+            git commit -m "Update Nike clothing radar state"
+            if git push origin HEAD:main; then
+              echo "✅ Clothing radar state saved."
+              exit 0
+            fi
+
+            echo "Push raced another workflow; retrying from newest main."
+            sleep 2
           done
+
+          echo "❌ Could not save clothing radar state after 5 attempts."
           exit 1
