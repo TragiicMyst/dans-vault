@@ -17,12 +17,8 @@ module.exports = async function handler(req, res) {
 
     const interaction = JSON.parse(raw.toString('utf8'));
 
-    // Discord PING verification.
-    if (interaction.type === 1) {
-      return res.status(200).json({ type: 1 });
-    }
+    if (interaction.type === 1) return res.status(200).json({ type: 1 });
 
-    // APPLICATION_COMMAND = 2
     if (interaction.type !== 2 || interaction.data?.name !== 'price') {
       return res.status(200).json({ type: 4, data: { content: 'Dan\'s Vault command received, but I don\'t know that command yet.', flags: 64 } });
     }
@@ -37,7 +33,9 @@ module.exports = async function handler(req, res) {
       return res.status(200).json({ type: 4, data: { content: '⚠️ Use `/price` with a valid model, UK size and buy price.', flags: 64 } });
     }
 
-    const config = await fetch(CONFIG_URL).then(r => r.json());
+    const configResponse = await fetch(CONFIG_URL);
+    if (!configResponse.ok) throw new Error(`Config fetch HTTP ${configResponse.status}`);
+    const config = await configResponse.json();
     const modelConfig = config.models?.[model];
     if (!modelConfig) throw new Error(`Model not configured: ${model}`);
 
@@ -47,9 +45,15 @@ module.exports = async function handler(req, res) {
     let median = null;
     if (marketUrl) {
       try {
-        const html = await fetch(marketUrl, { headers: { 'User-Agent': 'DansVaultDiscordPriceChecker/1.0', 'Accept-Language': 'en-GB,en;q=0.9' } }).then(r => r.text());
-        const prices = [...html.matchAll(/£\s*([0-9]+(?:\.[0-9]{1,2})?)/g)].map(m => Number(m[1])).filter(p => p > 0 && p < 500);
-        if (prices.length >= 5) median = prices.sort((a,b) => a-b)[Math.floor(prices.length / 2)];
+        const marketResponse = await fetch(marketUrl, {
+          headers: { 'User-Agent': 'DansVaultDiscordPriceChecker/1.0', 'Accept-Language': 'en-GB,en;q=0.9' }
+        });
+        const html = await marketResponse.text();
+        const prices = [...html.matchAll(/£\s*([0-9]+(?:\.[0-9]{1,2})?)/g)]
+          .map(m => Number(m[1]))
+          .filter(p => p > 0 && p < 500)
+          .sort((a, b) => a - b);
+        if (prices.length >= 5) median = prices[Math.floor(prices.length / 2)];
       } catch {}
     }
 
@@ -61,7 +65,7 @@ module.exports = async function handler(req, res) {
     const roi = round2((netProfit / buyPrice) * 100);
     const marginScore = clamp((netProfit / Math.max(resale, 1)) * 150, 0, 100);
     const roiScore = clamp(roi * 1.15, 0, 100);
-    const buyScore = Math.round(clamp(marginScore * 0.45 + roiScore * 0.25 + 100 * 0.2 + 75 * 0.1, 0, 100));
+    const buyScore = Math.round(clamp(marginScore * 0.45 + roiScore * 0.25 + 100 * 0.20 + 75 * 0.10, 0, 100));
     const verdict = buyScore >= 80 ? '🟢 **BUY**' : buyScore >= 65 ? '🟡 **CONSIDER**' : '🔴 **PASS**';
     const maxBuy = round2(resale - cleaning - packaging - 20);
 
@@ -89,14 +93,15 @@ module.exports = async function handler(req, res) {
   }
 };
 
+module.exports.config = { api: { bodyParser: false } };
+
 function verifyDiscordSignature(signature, timestamp, rawBody) {
   const signatureBuffer = Buffer.from(signature, 'hex');
-  const publicKey = Buffer.from(PUBLIC_KEY, 'hex');
-  return crypto.verify(null, Buffer.concat([Buffer.from(timestamp), rawBody]), { key: buildEd25519Key(publicKey), dsaEncoding: 'ieee-p1363' }, signatureBuffer);
+  const publicKey = buildEd25519Key(Buffer.from(PUBLIC_KEY, 'hex'));
+  return crypto.verify(null, Buffer.concat([Buffer.from(timestamp), rawBody]), publicKey, signatureBuffer);
 }
 
 function buildEd25519Key(rawPublicKey) {
-  // SPKI DER wrapper for an Ed25519 public key.
   const prefix = Buffer.from('302a300506032b6570032100', 'hex');
   return crypto.createPublicKey({ key: Buffer.concat([prefix, rawPublicKey]), format: 'der', type: 'spki' });
 }
