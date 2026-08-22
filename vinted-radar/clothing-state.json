@@ -1870,56 +1870,62 @@
     "9731507826": {
       "size": null,
       "bootstrapSeen": true,
-      "lastSeenAt": "2026-08-22T22:05:44.436Z",
+      "lastSeenAt": "2026-08-22T22:14:02.788Z",
       "lastPrice": 120
     },
     "9743801366": {
       "size": null,
       "bootstrapSeen": true,
-      "lastSeenAt": "2026-08-22T22:05:37.900Z",
+      "lastSeenAt": "2026-08-22T22:13:57.709Z",
       "lastPrice": 100
     },
     "9683153680": {
       "size": "L",
       "bootstrapSeen": true,
-      "lastSeenAt": "2026-08-22T22:05:39.544Z",
+      "lastSeenAt": "2026-08-22T22:13:59.255Z",
       "lastPrice": 89
     },
     "9745134473": {
       "size": 9.5,
       "bootstrapSeen": true,
-      "lastSeenAt": "2026-08-22T22:05:44.435Z",
+      "lastSeenAt": "2026-08-22T22:14:02.787Z",
       "lastPrice": 99
     },
     "9745296574": {
       "size": "L",
       "bootstrapSeen": true,
-      "lastSeenAt": "2026-08-22T22:05:46.022Z",
+      "lastSeenAt": "2026-08-22T22:14:03.968Z",
       "lastPrice": 110
     },
     "9709592373": {
       "size": "XL",
       "bootstrapSeen": true,
-      "lastSeenAt": "2026-08-22T22:05:47.334Z",
+      "lastSeenAt": "2026-08-22T22:14:05.068Z",
       "lastPrice": 20
     },
     "9731366025": {
       "size": "S",
       "bootstrapSeen": true,
-      "lastSeenAt": "2026-08-22T22:05:48.527Z",
+      "lastSeenAt": "2026-08-22T22:14:06.726Z",
       "lastPrice": 35
     },
     "9745233432": {
       "size": null,
       "bootstrapSeen": true,
-      "lastSeenAt": "2026-08-22T22:05:54.589Z",
+      "lastSeenAt": "2026-08-22T22:14:11.264Z",
       "lastPrice": 33
     },
     "9665186334": {
       "size": "S",
       "bootstrapSeen": true,
-      "lastSeenAt": "2026-08-22T22:05:52.911Z",
+      "lastSeenAt": "2026-08-22T22:14:10.200Z",
       "lastPrice": 33
+    },
+    "9626011975": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "size": "XL",
+      "lastSeenAt": "2026-08-22T22:13:59.255Z",
+      "lastPrice": 80
     }
   },
   "market": {
@@ -2025,7 +2031,7 @@
   "sellers": {},
   "images": {},
   "cursor": 4,
-  "updatedAt": "2026-08-22T22:05:32.289Z",
+  "updatedAt": "2026-08-22T22:13:51.613Z",
   "lastRotation": {
     "bot": "clothing",
     "selected": [
@@ -2046,7 +2052,7 @@
       "Nike Dri-FIT Running Top",
       "Nike Unlimited Shorts"
     ],
-    "at": "2026-08-22T22:05:55.710Z"
+    "at": "2026-08-22T22:14:12.421Z"
   },
   "freshness": {
     "version": 2,
@@ -2054,45 +2060,45 @@
     "frontiers": {
       "Nike Tech Fleece Windrunner": {
         "maxId": "9731507826",
-        "updatedAt": "2026-08-22T22:05:32.289Z"
+        "updatedAt": "2026-08-22T22:13:51.613Z"
       },
       "Nike Tech Fleece Tracksuit": {
         "maxId": "9743801366",
-        "updatedAt": "2026-08-22T22:05:32.289Z"
+        "updatedAt": "2026-08-22T22:13:51.613Z"
       },
       "Nike ACG Fleece": {
         "maxId": "9683153680",
-        "updatedAt": "2026-08-22T22:05:32.289Z"
+        "updatedAt": "2026-08-22T22:13:51.613Z"
       },
       "Nike Windrunner Jacket": {
         "maxId": "9745134473",
-        "updatedAt": "2026-08-22T22:05:32.289Z"
+        "updatedAt": "2026-08-22T22:13:51.613Z"
       },
       "Nike Sportswear Tracksuit": {
         "maxId": "9745296574",
-        "updatedAt": "2026-08-22T22:05:32.289Z"
+        "updatedAt": "2026-08-22T22:13:51.613Z"
       },
       "Nike Miler Shorts": {
         "maxId": "9709592373",
-        "updatedAt": "2026-08-22T22:05:32.289Z"
+        "updatedAt": "2026-08-22T22:13:51.613Z"
       },
       "Nike Challenger Shorts": {
         "maxId": "9731366025",
-        "updatedAt": "2026-08-22T22:05:32.289Z"
+        "updatedAt": "2026-08-22T22:13:51.613Z"
       },
       "Nike Miler Running Top": {
         "maxId": "9745233432",
-        "updatedAt": "2026-08-22T22:05:32.289Z"
+        "updatedAt": "2026-08-22T22:13:51.613Z"
       },
       "Nike Dri-FIT Running Top": {
         "maxId": "9745233432",
-        "updatedAt": "2026-08-22T22:05:32.289Z"
+        "updatedAt": "2026-08-22T22:13:51.613Z"
       }
     },
-    "lastScanAt": "2026-08-22T22:05:32.289Z"
+    "lastScanAt": "2026-08-22T22:13:51.613Z"
   },
   "diagnostics": {
-    "lastRunAt": "2026-08-22T22:05:32.289Z",
+    "lastRunAt": "2026-08-22T22:13:51.613Z",
     "searchGroups": 16,
     "qualifyingAlerts": 0
   }
