@@ -3,26 +3,18 @@ import fs from 'node:fs/promises';
 const BASE = new URL('./', import.meta.url);
 const dataDir = new URL('./data/', BASE);
 const datasetPath = new URL('./dataset.json', BASE);
-
 const configured = JSON.parse(await fs.readFile(datasetPath, 'utf8'));
 const files = await fs.readdir(dataDir).catch(() => []);
 const csv = files.find((f) => f.toLowerCase().endsWith('.csv'));
-
 let data = configured.models;
 let sourceLabel = configured.source;
-
 if (csv) {
   const text = await fs.readFile(new URL(csv, dataDir), 'utf8');
   const rows = parseCsv(text);
   const analysed = analyseCsv(rows);
-  if (Object.keys(analysed).length) {
-    data = analysed;
-    sourceLabel = `Fresh eBay Product Research CSV: ${csv}`;
-  }
+  if (Object.keys(analysed).length) { data = analysed; sourceLabel = `Fresh eBay Product Research CSV: ${csv}`; }
 }
-
-const report = buildReport(data, sourceLabel);
-console.log(JSON.stringify(report, null, 2));
+console.log(JSON.stringify(buildReport(data, sourceLabel), null, 2));
 
 function analyseCsv(rows) {
   if (!rows.length) return {};
@@ -39,13 +31,8 @@ function analyseCsv(rows) {
   const conditionKey = pick('condition','item condition');
   const dateKey = pick('sold date','sale date','date','end date');
   if (!priceKey || !titleKey) return {};
-
-  const sales = rows.map((r) => ({
-    price: money(r[priceKey]), size: clean(r[sizeKey]), colour: clean(r[colourKey]), title: clean(r[titleKey]),
-    condition: clean(r[conditionKey]), date: parseDate(r[dateKey])
-  })).filter((x) => Number.isFinite(x.price) && x.price > 0 && x.price < 1000);
+  const sales = rows.map((r) => ({ price: money(r[priceKey]), size: clean(r[sizeKey]), colour: clean(r[colourKey]), title: clean(r[titleKey]), condition: clean(r[conditionKey]), date: parseDate(r[dateKey]) })).filter((x) => Number.isFinite(x.price) && x.price > 0 && x.price < 1000);
   if (!sales.length) return {};
-
   const modelNames = ['Nike P-6000','Nike Air Max Plus / TN','Nike Pegasus Premium','Nike Shox TL','Nike Vomero 18 Plus'];
   const out = {};
   for (const model of modelNames) {
@@ -56,15 +43,7 @@ function analyseCsv(rows) {
     const recent = subset.filter((x)=>x.date && Date.now()-x.date.getTime()<=30*86400000);
     const older = subset.filter((x)=>x.date && Date.now()-x.date.getTime()>30*86400000 && Date.now()-x.date.getTime()<=90*86400000);
     const trend = recent.length && older.length ? ((average(recent.map(x=>x.price))-average(older.map(x=>x.price)))/average(older.map(x=>x.price)))*100 : null;
-    const colours = groups(subset,'colour').slice(0,10);
-    const sizes = groups(subset,'size').slice(0,10);
-    out[model] = {
-      confidence: subset.length >= 50 ? 'high' : subset.length >= 15 ? 'medium' : 'low',
-      avgSold: average(prices), medianSold: median(prices), p10: percentile(sorted,0.10), p90: percentile(sorted,0.90),
-      salesCount: subset.length, trend30d: trend,
-      examples: colours.map(x=>({label:x.name,avgSold:x.avg,sales:x.count})),
-      sizeExamples: sizes.map(x=>({label:x.name,avgSold:x.avg,sales:x.count}))
-    };
+    out[model] = { confidence: subset.length >= 50 ? 'high' : subset.length >= 15 ? 'medium' : 'low', avgSold: average(prices), medianSold: median(prices), p10: percentile(sorted,0.10), p90: percentile(sorted,0.90), salesCount: subset.length, trend30d: trend, examples: groups(subset,'colour').slice(0,10).map(x=>({label:x.name,avgSold:x.avg,sales:x.count})), sizeExamples: groups(subset,'size').slice(0,10).map(x=>({label:x.name,avgSold:x.avg,sales:x.count})) };
   }
   return out;
 }
@@ -79,37 +58,18 @@ function buildReport(models, source) {
     const strongBuy = typical ? typical * (confidence === 'LOW' ? 0.40 : 0.45) : 0;
     const steal = typical ? typical * 0.35 : 0;
     const trend = Number.isFinite(d.trend30d) ? `${d.trend30d >= 0 ? '+' : ''}${d.trend30d.toFixed(1)}%` : 'n/a';
-    const top = (d.examples ?? []).slice(0,6).map(x=>{
-      const label=x.label??x.name??'Unknown'; const avg=Number(x.avgSold??x.avg); const sales=x.sales??x.count??'';
-      const lowConfidence = Number(sales) < 3 && Number.isFinite(avg) && typical > 0 && avg > typical * 1.55 ? ' ⚠️' : '';
-      return `• ${label}${lowConfidence}: £${Number.isFinite(avg)?avg.toFixed(0):'n/a'} avg${sales!==''?` (${sales})`:''}`;
-    }).join('\n') || 'No colourway breakdown';
-    const sizes = (d.sizeExamples ?? []).slice(0,6).map(x=>{
-      const label=x.label??x.size??x.name??'Unknown'; const avg=Number(x.avgSold??x.avg); const sales=x.sales??x.count??'';
-      return `• ${label}: £${Number.isFinite(avg)?avg.toFixed(0):'n/a'} avg${sales!==''?` (${sales})`:''}`;
-    }).join('\n') || 'No size breakdown';
+    const sellThroughValue = normalisedSellThrough(d.sellThrough);
+    const top = (d.examples ?? []).slice(0,6).map(x=>{ const label=x.label??x.name??'Unknown'; const avg=Number(x.avgSold??x.avg); const sales=x.sales??x.count??''; const lowConfidence=Number(sales)<3&&Number.isFinite(avg)&&typical>0&&avg>typical*1.55?' ⚠️':''; return `• ${label}${lowConfidence}: £${Number.isFinite(avg)?avg.toFixed(0):'n/a'} avg${sales!==''?` (${sales})`:''}`; }).join('\n') || 'No colourway breakdown';
+    const sizes = (d.sizeExamples ?? []).slice(0,6).map(x=>{ const label=x.label??x.size??x.name??'Unknown'; const avg=Number(x.avgSold??x.avg); const sales=x.sales??x.count??''; return `• ${label}: £${Number.isFinite(avg)?avg.toFixed(0):'n/a'} avg${sales!==''?` (${sales})`:''}`; }).join('\n') || 'No size breakdown';
     const warning = confidence === 'LOW' ? '\n⚠️ **LOW CONFIDENCE:** use this only as a rough guide until more sold data is collected.' : '';
-    return `**${name}** • **${confidence} CONFIDENCE**${warning}\n💷 Avg £${Number(d.avgSold??0).toFixed(2)} • **Typical £${typical.toFixed(2)}**\n📉 Typical sold range proxy: £${p10.toFixed(0)}–£${p90.toFixed(0)}\n📈 30d trend: ${trend}\n📦 Sales observed: ${d.salesCount ?? 'n/a'}${d.totalSellers ? ` • Sellers ${d.totalSellers}` : ''}${d.sellThrough ? ` • Sell-through ${(d.sellThrough*100).toFixed(1)}%` : ''}\n\n🎨 **Top colour/model signals**\n${top}\n\n📏 **Size signals**\n${sizes}\n\n🎯 **Indicative max buy:** £${maxBuy.toFixed(0)}\n🟢 **Strong-buy:** £${strongBuy.toFixed(0)}\n🔥 **Steal:** £${steal.toFixed(0)}`;
+    return `**${name}** • **${confidence} CONFIDENCE**${warning}\n💷 Avg £${Number(d.avgSold??0).toFixed(2)} • **Typical £${typical.toFixed(2)}**\n📉 Typical sold range proxy: £${p10.toFixed(0)}–£${p90.toFixed(0)}\n📈 30d trend: ${trend}\n📦 Sales observed: ${d.salesCount ?? 'n/a'}${d.totalSellers ? ` • Sellers ${d.totalSellers}` : ''}${sellThroughValue !== null ? ` • Sell-through ${sellThroughValue.toFixed(1)}%` : ''}\n\n🎨 **Top colour/model signals**\n${top}\n\n📏 **Size signals**\n${sizes}\n\n🎯 **Indicative max buy:** £${maxBuy.toFixed(0)}\n🟢 **Strong-buy:** £${strongBuy.toFixed(0)}\n🔥 **Steal:** £${steal.toFixed(0)}`;
   }).join('\n\n━━━━━━━━━━━━━━━━━━\n\n');
-  return {
-    title: "📊 DAN'S VAULT • eBAY SOLD TRAINERS",
-    description: `${sections}\n\n*Source: ${source}. Buy prices are conservative sourcing thresholds based on observed sold prices. Low-volume colourways and single-sale outliers are deliberately discounted rather than treated as normal resale values.*`
-  };
+  return { title:"📊 DAN'S VAULT • eBAY SOLD TRAINERS", description:`${sections}\n\n*Source: ${source}. Buy prices are conservative sourcing thresholds based on observed sold prices. Low-volume colourways and single-sale outliers are deliberately discounted rather than treated as normal resale values.*` };
 }
-
-function modelMatch(title, model) {
-  const t=title.toLowerCase();
-  const map={
-    'Nike P-6000':['p-6000','p6000'],
-    'Nike Air Max Plus / TN':['air max plus','air max tn','tn ','tn-'],
-    'Nike Pegasus Premium':['pegasus premium'],
-    'Nike Shox TL':['shox tl'],
-    'Nike Vomero 18 Plus':['vomero 18 plus']
-  };
-  return (map[model]??[]).some(n=>t.includes(n));
-}
+function modelMatch(title, model){ const t=title.toLowerCase(); const map={'Nike P-6000':['p-6000','p6000'],'Nike Air Max Plus / TN':['air max plus','air max tn','tn ','tn-'],'Nike Pegasus Premium':['pegasus premium'],'Nike Shox TL':['shox tl'],'Nike Vomero 18 Plus':['vomero 18 plus']}; return (map[model]??[]).some(n=>t.includes(n)); }
 function groups(arr,key){const map={}; for(const x of arr){const value=x[key]; if(!value)continue; (map[value]??=[]).push(x);} return Object.entries(map).map(([name,rows])=>({name,count:rows.length,avg:average(rows.map(x=>x.price)),median:median(rows.map(x=>x.price))})).sort((a,b)=>b.count-a.count);}
 function normal(v){return String(v??'').toLowerCase().replace(/[^a-z0-9]+/g,'');}
+function normalisedSellThrough(v){if(!Number.isFinite(Number(v)))return null; const n=Number(v); return n<=1?n*100:n;}
 function clean(v){return String(v??'').trim();}
 function money(v){if(v==null)return NaN;return Number(String(v).replace(/[^0-9.\-]/g,''));}
 function parseDate(v){const d=new Date(v);return Number.isNaN(d.getTime())?null:d;}
