@@ -1,0 +1,36 @@
+name: Dan's Vault Seller Risk
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: dans-vault-seller-risk
+  cancel-in-progress: true
+
+jobs:
+  seller-risk:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Run seller risk monitor
+        env:
+          DISCORD_SELLER_RISK_WEBHOOK_URL: ${{ secrets.DISCORD_SELLER_RISK_WEBHOOK_URL }}
+        run: node vinted-radar/seller-risk.mjs
+      - name: Save seller risk state
+        run: |
+          git config user.name "Dan's Vault Seller Risk"
+          git config user.email "actions@users.noreply.github.com"
+          git add vinted-radar/seller-risk-state.json
+          if git diff --cached --quiet; then
+            echo "No state changes."
+          else
+            git commit -m "Update seller risk state"
+            git push
+          fi
