@@ -19,19 +19,15 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: One-time Discord health check
+      - name: Clothing Discord health check (silent)
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_CLOTHING_WEBHOOK_URL }}
         run: |
-          if [ ! -f .github/clothing-discord-healthcheck.sent ]; then
-            curl -fsS -H 'Content-Type: application/json' \
-              -d '{"username":"Dan\u0027s Vault Clothing Radar","content":"🟢 **CLOTHING RADAR HEALTH CHECK** — GitHub Actions → Vinted radar → Discord webhook is working."}' \
-              "$DISCORD_WEBHOOK_URL"
-            mkdir -p .github
-            touch .github/clothing-discord-healthcheck.sent
-          else
-            echo "Clothing Discord health check already sent."
+          if [ -z "$DISCORD_WEBHOOK_URL" ]; then
+            echo "❌ Clothing Discord webhook secret is missing."
+            exit 1
           fi
+          echo "🟢 Clothing Discord webhook secret is configured. Health check is intentionally silent in Discord."
 
       - name: Run Nike Clothing Radar every 30 seconds
         env:
@@ -57,7 +53,7 @@ jobs:
         run: |
           git config user.name "Dan's Vault Clothing Radar"
           git config user.email "actions@users.noreply.github.com"
-          git add vinted-radar/clothing-state.json .github/clothing-discord-healthcheck.sent
+          git add vinted-radar/clothing-state.json
           if git diff --cached --quiet; then
             echo "No clothing state changes."
             exit 0
@@ -73,5 +69,5 @@ jobs:
             echo "State push attempt $attempt failed; retrying..."
             sleep 3
           done
-          echo "Could not push clothing radar state after 5 attempts."
+          echo "Could not push clothing state after 5 attempts."
           exit 1
