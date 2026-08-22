@@ -3,13 +3,6 @@ name: Dan's Vault Nike Trainers Radar
 on:
   schedule:
     - cron: '*/5 * * * *'
-  workflow_dispatch:
-    inputs:
-      test_mode:
-        description: 'Send a test Discord alert instead of checking Vinted'
-        required: false
-        default: false
-        type: boolean
 
 concurrency:
   group: dans-vault-trainers-radar
@@ -31,17 +24,10 @@ jobs:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           BOT_TYPE: trainers
           STATE_NAME: state.json
-          TEST_MODE: ${{ github.event_name == 'workflow_dispatch' && inputs.test_mode == true && 'true' || 'false' }}
         run: |
-          if [ "$TEST_MODE" = "true" ]; then
-            node vinted-radar/run-bot.mjs
-            exit 0
-          fi
-
-          # GitHub Actions schedules have a 5-minute minimum. Each scheduled
-          # run therefore stays alive and scans repeatedly at ~30-second
-          # intervals for as long as the job window allows.
-          deadline=$((SECONDS + 275))
+          # GitHub Actions schedules have a 5-minute minimum. The workflow
+          # itself stays alive and scans every 30 seconds for continuous radar coverage.
+          deadline=$((SECONDS + 295))
           cycle=0
           while [ $SECONDS -lt $deadline ]; do
             cycle=$((cycle + 1))
@@ -56,7 +42,6 @@ jobs:
           done
 
       - name: Save trainers radar state
-        if: ${{ !(github.event_name == 'workflow_dispatch' && inputs.test_mode == true) }}
         run: |
           git config user.name "Dan's Vault Trainers Radar"
           git config user.email "actions@users.noreply.github.com"
@@ -68,9 +53,6 @@ jobs:
 
           git commit -m "Update Nike trainers radar state"
 
-          # Clothing and trainers write different state files on the same
-          # branch, so their scheduled runs can overlap. Retry the rebase/push
-          # if the other radar wins the race to origin/main.
           for attempt in 1 2 3 4 5; do
             if git pull --rebase origin main && git push origin HEAD:main; then
               echo "Trainer radar state pushed successfully."
