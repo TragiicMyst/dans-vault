@@ -19,14 +19,26 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
+      - name: One-time Discord health check
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_CLOTHING_WEBHOOK_URL }}
+        run: |
+          if [ ! -f .github/clothing-discord-healthcheck.sent ]; then
+            curl -fsS -H 'Content-Type: application/json' \
+              -d '{"username":"Dan\u0027s Vault Clothing Radar","content":"🟢 **CLOTHING RADAR HEALTH CHECK** — GitHub Actions → Vinted radar → Discord webhook is working."}' \
+              "$DISCORD_WEBHOOK_URL"
+            mkdir -p .github
+            touch .github/clothing-discord-healthcheck.sent
+          else
+            echo "Clothing Discord health check already sent."
+          fi
+
       - name: Run Nike Clothing Radar every 30 seconds
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_CLOTHING_WEBHOOK_URL }}
           BOT_TYPE: clothing
           STATE_NAME: clothing-state.json
         run: |
-          # GitHub Actions schedules have a 5-minute minimum. The workflow
-          # itself stays alive and scans every 30 seconds for continuous radar coverage.
           deadline=$((SECONDS + 295))
           cycle=0
           while [ $SECONDS -lt $deadline ]; do
@@ -45,7 +57,7 @@ jobs:
         run: |
           git config user.name "Dan's Vault Clothing Radar"
           git config user.email "actions@users.noreply.github.com"
-          git add vinted-radar/clothing-state.json
+          git add vinted-radar/clothing-state.json .github/clothing-discord-healthcheck.sent
           if git diff --cached --quiet; then
             echo "No clothing state changes."
             exit 0
