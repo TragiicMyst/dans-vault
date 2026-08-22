@@ -1,18 +1,18 @@
-name: Dan's Vault Vinted Radar
+name: Dan's Vault Nike Trainers Radar
 
 on:
   schedule:
-    - cron: '* * * * *'
+    - cron: '*/5 * * * *'
   workflow_dispatch:
     inputs:
       test_mode:
-        description: 'Send 3 sample Discord alerts instead of checking Vinted'
+        description: 'Send a test Discord alert instead of checking Vinted'
         required: false
         default: false
         type: boolean
 
 concurrency:
-  group: dans-vault-vinted-radar
+  group: dans-vault-trainers-radar
   cancel-in-progress: true
 
 permissions:
@@ -26,21 +26,24 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: Run Vinted Radar
+      - name: Run Nike Trainers Radar
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          BOT_TYPE: trainers
+          STATE_NAME: state.json
           TEST_MODE: ${{ github.event_name == 'workflow_dispatch' && inputs.test_mode == true && 'true' || 'false' }}
-        run: node vinted-radar/monitor.mjs
+        run: node vinted-radar/run-bot.mjs
 
-      - name: Save radar state
+      - name: Save trainers radar state
         if: ${{ !(github.event_name == 'workflow_dispatch' && inputs.test_mode == true) }}
         run: |
-          git config user.name "Dan's Vault Radar"
+          git config user.name "Dan's Vault Trainers Radar"
           git config user.email "actions@users.noreply.github.com"
           git add vinted-radar/state.json
           if git diff --cached --quiet; then
-            echo "No state changes."
+            echo "No trainer state changes."
           else
-            git commit -m "Update Vinted Radar state"
+            git commit -m "Update Nike trainers radar state"
+            git pull --rebase origin main
             git push
           fi
