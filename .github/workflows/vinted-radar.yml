@@ -37,13 +37,29 @@ jobs:
           STATE_NAME: state.json
         run: |
           deadline=$((SECONDS + 250))
+          successes=0
+          failures=0
+          cycle=0
           while [ $SECONDS -lt $deadline ]; do
+            cycle=$((cycle + 1))
             cycle_start=$SECONDS
-            node vinted-radar/run-bot.mjs || echo "Trainer scan failed; retrying next cycle."
+            echo "=== Trainer scan cycle $cycle ==="
+            if node vinted-radar/run-bot.mjs; then
+              successes=$((successes + 1))
+              node -e "const s=require('./vinted-radar/state.json'); console.log('Trainer scan OK:', s.freshness?.lastScanAt, 'qualifying:', s.diagnostics?.qualifyingAlerts ?? '?')"
+            else
+              failures=$((failures + 1))
+              echo "Trainer scan cycle $cycle FAILED."
+            fi
             elapsed=$((SECONDS - cycle_start))
             wait=$((30 - elapsed))
             if [ $wait -gt 0 ] && [ $SECONDS -lt $deadline ]; then sleep $wait; fi
           done
+          echo "Trainer cycles complete: $successes successful, $failures failed."
+          if [ $successes -eq 0 ]; then
+            echo "All trainer scans failed. Marking workflow failed."
+            exit 1
+          fi
 
       - name: Save trainers radar state safely
         if: ${{ always() }}
