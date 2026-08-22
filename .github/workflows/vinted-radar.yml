@@ -1,0 +1,34 @@
+name: Dan's Vault Vinted Radar
+
+on:
+  schedule:
+    - cron: '*/10 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  radar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Run Vinted Radar
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: node vinted-radar/monitor.mjs
+
+      - name: Save seen listings
+        run: |
+          git config user.name "Dan's Vault Radar"
+          git config user.email "actions@users.noreply.github.com"
+          git add vinted-radar/state.json
+          if git diff --cached --quiet; then
+            echo "No state changes."
+          else
+            git commit -m "Update Vinted Radar state"
+            git push
+          fi
