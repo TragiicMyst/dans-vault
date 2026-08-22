@@ -1,0 +1,81 @@
+name: Configure Dan's Vault Discord Bot
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  configure:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Wait briefly for Vercel deployment
+        run: sleep 20
+
+      - name: Check interactions endpoint
+        run: |
+          set -euo pipefail
+          code=$(curl -sS -o /dev/null -w '%{http_code}' 'https://dans-vault.vercel.app/api/discord-interactions' || true)
+          echo "Endpoint returned HTTP $code"
+          test "$code" = "405"
+
+      - name: Set Discord interactions endpoint
+        env:
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+        run: |
+          set -euo pipefail
+          curl -fsS -X PATCH \
+            -H "Authorization: Bot $DISCORD_BOT_TOKEN" \
+            -H "Content-Type: application/json" \
+            'https://discord.com/api/v10/applications/1540760564215586936' \
+            --data '{"interactions_endpoint_url":"https://dans-vault.vercel.app/api/discord-interactions"}'
+
+      - name: Register /price command globally
+        env:
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+        run: |
+          set -euo pipefail
+          curl -fsS -X PUT \
+            -H "Authorization: Bot $DISCORD_BOT_TOKEN" \
+            -H "Content-Type: application/json" \
+            'https://discord.com/api/v10/applications/1540760564215586936/commands' \
+            --data-binary @- <<'JSON'
+          [
+            {
+              "name": "price",
+              "description": "Check a Nike item's resale potential",
+              "type": 1,
+              "options": [
+                {
+                  "name": "model",
+                  "description": "Nike model",
+                  "type": 3,
+                  "required": true,
+                  "choices": [
+                    {"name":"Nike P-6000","value":"p6000"},
+                    {"name":"Nike Vomero","value":"vomero"},
+                    {"name":"Nike TN","value":"tn"}
+                  ]
+                },
+                {
+                  "name": "size",
+                  "description": "UK size",
+                  "type": 4,
+                  "required": true,
+                  "min_value": 7,
+                  "max_value": 10
+                },
+                {
+                  "name": "buy_price",
+                  "description": "Purchase price in GBP",
+                  "type": 10,
+                  "required": true,
+                  "min_value": 0.01,
+                  "max_value": 500
+                }
+              ]
+            }
+          ]
+          JSON
