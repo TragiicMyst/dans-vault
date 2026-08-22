@@ -1,32 +1,15 @@
-name: Dan's Vault Price Checker
+name: Price Checker
 
 on:
-  workflow_dispatch:
-    inputs:
-      model:
-        description: 'Nike model, e.g. Nike P-6000'
-        required: true
-        default: 'Nike P-6000'
-      size:
-        description: 'UK size'
-        required: true
-        default: '8'
-      buy_price:
-        description: 'Buy price in GBP'
-        required: true
-        default: '35'
-
-permissions:
-  contents: read
+  schedule:
+    - cron: '*/30 * * * *'
 
 jobs:
-  price-check:
+  price-checker:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+
       - name: Run price checker
-        env:
-          DISCORD_PRICE_CHECKER_WEBHOOK_URL: ${{ secrets.DISCORD_PRICE_CHECKER_WEBHOOK_URL }}
-        run: node vinted-radar/price-checker.mjs "${{ inputs.model }}" "${{ inputs.size }}" "${{ inputs.buy_price }}"
+        run: node price-checker/run-bot.mjs
