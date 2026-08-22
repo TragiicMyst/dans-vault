@@ -77,6 +77,18 @@ if (runner.includes(oldFreshness)) {
 } else if (!runner.includes(newFreshness)) {
   throw new Error('Could not set 10-minute live freshness guard');
 }
+
+// Vinted sellers frequently write TN listings as "TNs", "Tans" or "Tan".
+// Keep the model guard, but recognise those common seller spellings so genuine
+// Air Max Plus bargains are not discarded before scoring.
+const oldTnMatcher = "case 'Nike TN': return /(^|\\s)tn(\\s|$)/.test(t) || t.includes('air max plus') || t.includes('tuned');";
+const newTnMatcher = "case 'Nike TN': return /(^|\\s)tns?(\\s|$)/.test(t) || /(^|\\s)tans?(\\s|$)/.test(t) || t.includes('air max plus') || t.includes('tuned');";
+if (runner.includes(oldTnMatcher)) {
+  runner = runner.replace(oldTnMatcher, newTnMatcher);
+} else if (!runner.includes("tans?(\\s|$)")) {
+  throw new Error('Could not enable TN/TNs/Tans alias matching');
+}
+
 await fs.writeFile(runnerPath, runner);
 
-console.log(`✅ ${bot} live alerts configured: immediate Discord dispatch and 10-minute freshness guard.`);
+console.log(`${bot} live alerts configured: immediate Discord dispatch, 10-minute freshness guard and TN alias matching.`);
