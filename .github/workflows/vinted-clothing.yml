@@ -49,12 +49,15 @@ jobs:
           node vinted-radar/clothing-discovery-selftest.mjs
           node vinted-radar/condition-channel-selftest.mjs
 
-      - name: Validate clothing Discord webhook
+      - name: Validate clothing Discord webhooks
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_CLOTHING_WEBHOOK_URL }}
+          DISCORD_NEW_WITHOUT_TAGS_WEBHOOK_URL: ${{ secrets.DISCORD_NEW_WITHOUT_TAGS_WEBHOOK_URL }}
         run: |
           test -n "$DISCORD_WEBHOOK_URL"
+          test -n "$DISCORD_NEW_WITHOUT_TAGS_WEBHOOK_URL"
           curl --fail --silent --show-error "$DISCORD_WEBHOOK_URL" >/dev/null
+          curl --fail --silent --show-error "$DISCORD_NEW_WITHOUT_TAGS_WEBHOOK_URL" >/dev/null
 
       - name: Run clothing radar repeatedly
         env:
