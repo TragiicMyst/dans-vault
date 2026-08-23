@@ -1,7 +1,7 @@
 import fs from 'node:fs/promises';
 
 const radarUrl = new URL('./radar-v6.mjs', import.meta.url);
-const MARKER = '// DAN_CONDITION_CHANNEL_ROUTING_V2';
+const MARKER = '// DAN_CONDITION_CHANNEL_ROUTING_V3';
 
 export async function applyConditionChannelRouting() {
   let src = await fs.readFile(radarUrl, 'utf8');
@@ -46,7 +46,7 @@ export async function applyConditionChannelRouting() {
   if (!src.includes(insertBefore)) throw new Error('Discord sender target not found');
   src = src.replace(
     insertBefore,
-    `function selectDiscordWebhook(alert, primaryWebhook, newWithoutTagsWebhook, newWithTagsWebhook, veryGoodWebhook) {\n  if (alert?.condition === 'newWithoutTags' && newWithoutTagsWebhook) return newWithoutTagsWebhook;\n  if (alert?.condition === 'newWithTags' && newWithTagsWebhook) return newWithTagsWebhook;\n  if (alert?.condition === 'veryGood' && veryGoodWebhook) return veryGoodWebhook;\n  return primaryWebhook;\n}\n\n${insertBefore}`
+    `function selectDiscordWebhook(alert, primaryWebhook, newWithoutTagsWebhook, newWithTagsWebhook, veryGoodWebhook) {\n  if (alert?.condition === 'newWithoutTags') {\n    if (!newWithoutTagsWebhook) throw new Error('Missing DISCORD_NEW_WITHOUT_TAGS_WEBHOOK_URL');\n    return newWithoutTagsWebhook;\n  }\n  if (alert?.condition === 'newWithTags') {\n    if (!newWithTagsWebhook) throw new Error('Missing DISCORD_NEW_WITH_TAGS_WEBHOOK_URL');\n    return newWithTagsWebhook;\n  }\n  if (alert?.condition === 'veryGood') {\n    if (!veryGoodWebhook) throw new Error('Missing DISCORD_VERY_GOOD_WEBHOOK_URL');\n    return veryGoodWebhook;\n  }\n  throw new Error('Unsupported alert condition for Discord routing: '+String(alert?.condition ?? 'unknown'));\n}\n\n${insertBefore}`
   );
 
   await fs.writeFile(radarUrl, src);
