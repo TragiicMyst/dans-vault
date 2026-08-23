@@ -44,9 +44,15 @@ globalThis.fetch = async function guardedFetch(input, init) {
 
   const persistedCooldown = await readCooldown();
   if (persistedCooldown > Date.now()) {
-    const wait = persistedCooldown - Date.now();
-    console.log(`Vinted guard: cooling down for ${Math.ceil(wait / 1000)}s.`);
-    await sleep(wait);
+    const remainingMs = persistedCooldown - Date.now();
+    // Do not sleep inside fetch while a scanner/process timeout is ticking. A previous
+    // 403/429 used to make the retry wait 45-120s here, which could kill the whole
+    // GitHub Actions cycle before radar-v6 had a chance to persist its heartbeat/state.
+    // Fail fast instead; radar-v6 recognises blocked errors and records a cooldown.
+    const error = new Error(`Vinted guard cooldown active for ${Math.ceil(remainingMs / 1000)}s`);
+    error.blocked = true;
+    error.retryable = true;
+    throw error;
   }
 
   const minGap = randomBetween(1800, 3200);
@@ -69,4 +75,4 @@ globalThis.fetch = async function guardedFetch(input, init) {
   return response;
 };
 
-console.log('Vinted fetch guard active: paced requests + automatic 403/429 cooldown.');
+console.log('Vinted fetch guard active: paced requests + fail-fast 403/429 cooldown.');
