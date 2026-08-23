@@ -1,6 +1,11 @@
 name: Dan's Vault Nike Trainers Radar
 
 on:
+  push:
+    paths:
+      - 'vinted-radar/*.mjs'
+      - 'vinted-radar/config.json'
+      - '.github/workflows/vinted-radar.yml'
   schedule:
     - cron: '*/5 * * * *'
   workflow_dispatch:
