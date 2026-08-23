@@ -10,9 +10,12 @@ const [tier, fallback, routing, runner] = await Promise.all([
 ]);
 
 assert.match(tier, /return'veryGood'/);
+assert.match(fallback, /DAN_DEFERRED_CONDITION_CONFIRMATION_V5/);
+assert.match(fallback, /if \(size === null\) \{/);
+assert.match(fallback, /Condition confirmation is intentionally deferred/);
+assert.match(fallback, /condition-not-confirmed/);
 assert.match(fallback, /a\.condition==='veryGood'\?'✅ Very good'/);
 assert.doesNotMatch(fallback, /unconfirmedConditionPassed/);
-assert.doesNotMatch(fallback, /if \(size === null\) \{/);
 assert.match(routing, /newWithoutTagsWebhook/);
 assert.match(routing, /newWithTagsWebhook/);
 assert.match(routing, /veryGoodWebhook/);
