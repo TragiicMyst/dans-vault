@@ -1,0 +1,25 @@
+name: Force Radar Recovery
+
+on:
+  push:
+    paths:
+      - '.github/workflows/force-radar-recovery.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: write
+
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 1
+    steps:
+      - name: Dispatch both production radars
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -e
+          gh workflow run vinted-radar.yml --repo "${{ github.repository }}" --ref main
+          gh workflow run vinted-clothing.yml --repo "${{ github.repository }}" --ref main
+          echo "Trainer and clothing recovery runs dispatched."
