@@ -1,6 +1,36 @@
 {
-  "checkedAt": "2026-08-23T14:18:45Z",
-  "newWithoutTags": {"configured": true, "postStatus": "204"},
-  "newWithTags": {"configured": true, "postStatus": "204"},
-  "veryGood": {"configured": true, "postStatus": "204"}
+  "checkedAt": "2026-08-23T14:20:35Z",
+  "newWithoutTags": {
+    "configured": true,
+    "postStatus": "204",
+    "getStatus": "200",
+    "target": {
+      "webhookId": "1541037387969462303",
+      "guildId": "1540743210488430592",
+      "channelId": "1541036356384329819",
+      "name": "Dan's NWOT Bot"
+    }
+  },
+  "newWithTags": {
+    "configured": true,
+    "postStatus": "204",
+    "getStatus": "200",
+    "target": {
+      "webhookId": "1541040362997547048",
+      "guildId": "1540743210488430592",
+      "channelId": "1541040152372183140",
+      "name": "Dan's New With Tags Bot"
+    }
+  },
+  "veryGood": {
+    "configured": true,
+    "postStatus": "204",
+    "getStatus": "200",
+    "target": {
+      "webhookId": "1541040545483198516",
+      "guildId": "1540743210488430592",
+      "channelId": "1541040213780992171",
+      "name": "Dan's Very Good Condition Bot"
+    }
+  }
 }
