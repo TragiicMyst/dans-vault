@@ -1,41 +1,43 @@
 {
-  "generatedAt": "2026-08-23T20:38:12.143Z",
-  "stateUpdatedAt": "2026-08-23T20:37:18.539Z",
-  "lastAttemptAt": "2026-08-23T20:37:18.539Z",
-  "lastScanAt": "2026-08-23T20:37:18.539Z",
+  "generatedAt": "2026-08-23T20:43:25.711Z",
+  "stateUpdatedAt": "2026-08-23T20:43:25.711Z",
+  "lastAttemptAt": "2026-08-23T20:43:25.711Z",
+  "lastScanAt": "2026-08-23T20:43:25.711Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
-    "Nike Air Max 90 Drift::primary",
-    "Nike Air Max 97::primary",
-    "Nike Air Max 270::primary",
-    "Nike Air Max Dn::primary"
+    "Nike Air Max 1::primary",
+    "Nike Shox TL::primary",
+    "Nike Shox R4::primary",
+    "Nike Shox Ride 2::primary"
   ],
   "successfulSearches": 4,
   "failedSearches": 0,
   "catalogMarkers": 768,
-  "catalogItems": 524,
-  "candidateItems": 306,
-  "freshItems": 24,
-  "qualifyingAlerts": 5,
+  "catalogItems": 480,
+  "candidateItems": 245,
+  "freshItems": 12,
+  "qualifyingAlerts": 6,
   "qualifyingByCondition": {
-    "veryGood": 5
+    "veryGood": 5,
+    "newWithTags": 1
   },
-  "deliveredAlerts": 5,
+  "deliveredAlerts": 6,
   "deliveredByCondition": {
-    "veryGood": 5
+    "veryGood": 5,
+    "newWithTags": 1
   },
+  "duplicateSuppressed": 7,
   "discordFailures": 0,
   "pendingDeliveries": 0,
   "detailFetches": 8,
   "rejects": {
-    "condition": 7,
-    "stale": 273,
-    "size": 3,
-    "keyword": 5,
-    "seller-check-budget-exhausted": 3,
-    "detail-budget-exhausted": 1
+    "seller-risk": 1,
+    "condition": 3,
+    "stale": 226,
+    "size": 1,
+    "seller-check-budget-exhausted": 1
   },
   "failures": {}
 }
