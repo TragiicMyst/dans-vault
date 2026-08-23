@@ -13,26 +13,45 @@ export async function resolveDiscordRoutes({ newWithoutTagsWebhook, newWithTagsW
 
   const entries = await Promise.all(CONDITION_KEYS.map(async configuredAs => {
     const url = configured[configuredAs];
-    const meta = await inspectWebhook(url);
-    return {
-      configuredAs,
-      url,
-      webhookId: meta.id ?? null,
-      channelId: meta.channel_id ?? null,
-      guildId: meta.guild_id ?? null,
-      webhookName: meta.name ?? null,
-      detectedCondition: detectCondition(meta.name)
-    };
+    try {
+      const meta = await inspectWebhook(url);
+      return {
+        configuredAs,
+        url,
+        webhookId: meta.id ?? null,
+        channelId: meta.channel_id ?? null,
+        guildId: meta.guild_id ?? null,
+        webhookName: meta.name ?? null,
+        detectedCondition: detectCondition(meta.name),
+        inspectionError: null
+      };
+    } catch (error) {
+      return {
+        configuredAs,
+        url,
+        webhookId: null,
+        channelId: null,
+        guildId: null,
+        webhookName: null,
+        detectedCondition: null,
+        inspectionError: error.message
+      };
+    }
   }));
 
+  const warnings = [];
   const webhookIds = entries.map(x => x.webhookId).filter(Boolean);
-  if (new Set(webhookIds).size !== webhookIds.length) {
-    throw new Error('Discord condition routing error: two condition secrets point to the same webhook');
+  if (webhookIds.length === 3 && new Set(webhookIds).size !== webhookIds.length) {
+    warnings.push('two condition secrets point to the same webhook');
   }
 
   const channelIds = entries.map(x => x.channelId).filter(Boolean);
-  if (new Set(channelIds).size !== channelIds.length) {
-    throw new Error('Discord condition routing error: two condition secrets point to the same Discord channel');
+  if (channelIds.length === 3 && new Set(channelIds).size !== channelIds.length) {
+    warnings.push('two condition secrets point to the same Discord channel');
+  }
+
+  for (const entry of entries) {
+    if (entry.inspectionError) warnings.push(`${entry.configuredAs}: ${entry.inspectionError}`);
   }
 
   const detected = entries.filter(x => x.detectedCondition);
@@ -54,16 +73,18 @@ export async function resolveDiscordRoutes({ newWithoutTagsWebhook, newWithTagsW
     channelId: entry.channelId,
     guildId: entry.guildId,
     webhookName: entry.webhookName,
-    detectedCondition: entry.detectedCondition
+    detectedCondition: entry.detectedCondition,
+    inspectionError: entry.inspectionError
   }));
 
-  console.log('DISCORD ROUTE CHECK', JSON.stringify({ autoCorrected, routes: summary }));
+  console.log('DISCORD ROUTE CHECK', JSON.stringify({ autoCorrected, warnings, routes: summary }));
 
   return {
     newWithoutTagsWebhook: resolved.newWithoutTags,
     newWithTagsWebhook: resolved.newWithTags,
     veryGoodWebhook: resolved.veryGood,
     autoCorrected,
+    warnings,
     summary
   };
 }
@@ -71,16 +92,20 @@ export async function resolveDiscordRoutes({ newWithoutTagsWebhook, newWithTagsW
 async function inspectWebhook(url) {
   let response;
   try {
-    response = await fetch(url, { method: 'GET', signal: AbortSignal.timeout(8000) });
+    response = await fetch(url, {
+      method: 'GET',
+      headers: { 'User-Agent': "Dan's Vault Discord Route Checker/1.0" },
+      signal: AbortSignal.timeout(8000)
+    });
   } catch (error) {
-    throw new Error(`Could not inspect Discord webhook destination: ${error.message}`);
+    throw new Error(`could not inspect webhook destination: ${error.message}`);
   }
   const text = await response.text();
-  if (!response.ok) throw new Error(`Discord webhook inspection failed with HTTP ${response.status}`);
+  if (!response.ok) throw new Error(`webhook inspection HTTP ${response.status}`);
   let parsed;
   try { parsed = JSON.parse(text); }
-  catch { throw new Error('Discord webhook inspection returned invalid JSON'); }
-  if (!parsed?.id || !parsed?.channel_id) throw new Error('Discord webhook inspection did not return webhook/channel identifiers');
+  catch { throw new Error('webhook inspection returned invalid JSON'); }
+  if (!parsed?.id || !parsed?.channel_id) throw new Error('webhook inspection returned no webhook/channel id');
   return parsed;
 }
 
