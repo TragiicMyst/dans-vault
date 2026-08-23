@@ -1,11 +1,6 @@
 name: Dan's Vault Nike Trainers Radar
 
 on:
-  push:
-    paths:
-      - 'vinted-radar/*.mjs'
-      - 'vinted-radar/config.json'
-      - '.github/workflows/vinted-radar.yml'
   schedule:
     - cron: '*/5 * * * *'
   workflow_dispatch:
@@ -20,7 +15,7 @@ permissions:
 jobs:
   radar:
     runs-on: ubuntu-latest
-    timeout-minutes: 3
+    timeout-minutes: 4
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -64,18 +59,13 @@ jobs:
           STATE_NAME: state.json
         run: |
           set -e
-          timeout 110s node vinted-radar/run-bot.mjs
-          node -e "const s=require('./vinted-radar/state.json'); const d=s.diagnostics||{}; console.log('Trainer scan:', s.freshness?.lastScanAt, 'selected:', d.successfulSearches ?? 0, '/', d.selectedSearches?.length ?? 0, 'parsed:', d.catalogItems ?? 0, 'fresh:', d.freshItems ?? 0, 'qualifying:', d.qualifyingAlerts ?? 0, 'delivered:', d.deliveredAlerts ?? 0, 'byCondition:', JSON.stringify(d.deliveredByCondition||{}), 'discordFailures:', d.discordFailures ?? 0, 'healthy:', d.healthyScan ?? false); if(!d.healthyScan) process.exit(1);"
-          touch /tmp/trainer-scan-ok
+          timeout 150s node vinted-radar/run-bot.mjs
+          node -e "const s=require('./vinted-radar/state.json'); const d=s.diagnostics||{}; console.log('Trainer scan:', s.freshness?.lastScanAt, 'selected:', d.successfulSearches ?? 0, '/', d.selectedSearches?.length ?? 0, 'parsed:', d.catalogItems ?? 0, 'fresh:', d.freshItems ?? 0, 'qualifying:', d.qualifyingAlerts ?? 0, 'delivered:', d.deliveredAlerts ?? 0, 'duplicatesSuppressed:', d.duplicateSuppressed ?? 0, 'byCondition:', JSON.stringify(d.deliveredByCondition||{}), 'discordFailures:', d.discordFailures ?? 0, 'healthy:', d.healthyScan ?? false); if(!d.healthyScan) process.exit(1);"
 
       - name: Save trainer state and compact health
         if: ${{ always() }}
         run: |
           set -e
-          if [ ! -f /tmp/trainer-scan-ok ]; then
-            echo "Trainer scan did not complete successfully; refusing false heartbeat."
-            exit 0
-          fi
           git config user.name "Dan's Vault Trainers Radar"
           git config user.email "actions@users.noreply.github.com"
           node -e "const fs=require('fs'); const p='vinted-radar/state.json'; const raw=fs.readFileSync(p,'utf8'); if(!raw.trim()) throw new Error('Refusing empty trainer state'); JSON.parse(raw);"
@@ -85,7 +75,7 @@ jobs:
           const s = JSON.parse(fs.readFileSync('/tmp/trainers-state.json', 'utf8'));
           const d = s.diagnostics || {};
           const health = {
-            generatedAt: new Date().toISOString(),
+            generatedAt: s.updatedAt ?? s.freshness?.lastAttemptAt ?? s.freshness?.lastScanAt ?? null,
             stateUpdatedAt: s.updatedAt ?? null,
             lastAttemptAt: s.freshness?.lastAttemptAt ?? null,
             lastScanAt: s.freshness?.lastScanAt ?? null,
@@ -103,6 +93,7 @@ jobs:
             qualifyingByCondition: d.qualifyingByCondition ?? {},
             deliveredAlerts: d.deliveredAlerts ?? 0,
             deliveredByCondition: d.deliveredByCondition ?? {},
+            duplicateSuppressed: d.duplicateSuppressed ?? 0,
             discordFailures: d.discordFailures ?? 0,
             pendingDeliveries: d.pendingDeliveries ?? 0,
             detailFetches: d.detailFetches ?? 0,
