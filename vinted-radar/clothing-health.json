@@ -1,36 +1,34 @@
 {
-  "generatedAt": "2026-08-23T23:02:23.692Z",
-  "stateUpdatedAt": "2026-08-23T23:02:23.692Z",
-  "lastAttemptAt": "2026-08-23T23:02:23.692Z",
-  "lastScanAt": "2026-08-23T23:02:23.692Z",
+  "generatedAt": "2026-08-23T23:29:39.221Z",
+  "stateUpdatedAt": "2026-08-23T23:29:39.221Z",
+  "lastAttemptAt": "2026-08-23T23:29:39.221Z",
+  "lastScanAt": "2026-08-23T23:29:39.221Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
-    "Nike Strike Top Shorts Set::nike strike top shorts set",
-    "Nike Tech Fleece Windrunner::nike tech fleece windrunner",
-    "Nike Tech Fleece Full-Zip Hoodie::nike tech fleece full zip hoodie",
-    "Nike Tech Fleece Joggers::nike tech fleece joggers"
+    "Nike Tech Fleece Open-Hem Trousers::nike tech fleece open hem trousers",
+    "Nike Tech Fleece Shorts::nike tech fleece shorts",
+    "Nike Tech Fleece Tracksuit::nike tech fleece tracksuit",
+    "Nike Tech Fleece Colour-Block Windrunner::nike tech fleece colour block windrunner"
   ],
   "successfulSearches": 4,
   "failedSearches": 0,
-  "catalogMarkers": 1056,
-  "catalogItems": 429,
-  "candidateItems": 198,
-  "freshItems": 16,
-  "qualifyingAlerts": 11,
+  "catalogMarkers": 1152,
+  "catalogItems": 474,
+  "candidateItems": 184,
+  "freshItems": 5,
+  "qualifyingAlerts": 4,
   "qualifyingByCondition": {
-    "newWithoutTags": 1,
-    "veryGood": 9,
-    "newWithTags": 1
+    "newWithoutTags": 2,
+    "veryGood": 2
   },
-  "deliveredAlerts": 11,
+  "deliveredAlerts": 4,
   "deliveredByCondition": {
-    "newWithoutTags": 1,
-    "veryGood": 9,
-    "newWithTags": 1
+    "newWithoutTags": 2,
+    "veryGood": 2
   },
-  "duplicateSuppressed": 59,
+  "duplicateSuppressed": 44,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -64,11 +62,10 @@
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 1,
+  "detailFetches": 0,
   "rejects": {
-    "stale": 123,
-    "condition": 4,
-    "size": 1
+    "recovery-no-fresh-signal": 135,
+    "condition": 1
   },
   "failures": {}
 }
