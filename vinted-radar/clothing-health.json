@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-08-23T21:49:50.018Z",
-  "stateUpdatedAt": "2026-08-23T21:49:50.018Z",
-  "lastAttemptAt": "2026-08-23T21:49:50.018Z",
-  "lastScanAt": "2026-08-23T21:49:50.018Z",
+  "generatedAt": "2026-08-23T21:51:06.930Z",
+  "stateUpdatedAt": "2026-08-23T21:51:06.930Z",
+  "lastAttemptAt": "2026-08-23T21:51:06.930Z",
+  "lastScanAt": "2026-08-23T21:51:06.930Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
-    "Nike Solo Swoosh Joggers::nike solo swoosh joggers",
-    "Nike ACG Fleece::nike acg fleece",
-    "Nike ACG Wolf Tree::nike acg wolf tree",
-    "Nike ACG Tuff Fleece::nike acg tuff fleece"
+    "Nike ACG Canwell Glacier Jacket::nike acg canwell glacier",
+    "Nike ACG Lunar Lake Puffer::nike acg lunar lake",
+    "Nike ACG Skull Peak Jacket::nike acg skull peak",
+    "Nike ACG GORE-TEX Jacket::nike acg gore tex jacket"
   ],
   "successfulSearches": 4,
   "failedSearches": 0,
-  "catalogMarkers": 768,
-  "catalogItems": 371,
-  "candidateItems": 164,
+  "catalogMarkers": 1086,
+  "catalogItems": 599,
+  "candidateItems": 83,
   "freshItems": 0,
   "qualifyingAlerts": 0,
   "qualifyingByCondition": {},
   "deliveredAlerts": 0,
   "deliveredByCondition": {},
-  "duplicateSuppressed": 10,
+  "duplicateSuppressed": 1,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -58,7 +58,7 @@
   "pendingDeliveries": 0,
   "detailFetches": 0,
   "rejects": {
-    "stale": 154
+    "stale": 82
   },
   "failures": {}
 }
