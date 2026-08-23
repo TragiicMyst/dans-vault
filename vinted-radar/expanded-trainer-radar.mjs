@@ -7,6 +7,11 @@ export async function applyExpandedTrainerRadar() {
   let src = await fs.readFile(radarUrl, 'utf8');
   if (src.includes(MARKER)) return;
 
+  // With ~30 high-demand trainer groups, a 4-search batch only revisits each model
+  // roughly every 35-40 minutes. Eight keeps the five-minute workflow cadence but
+  // reduces a full rotation to roughly 20 minutes without removing any models.
+  src = src.replace('const BATCH_SIZE = 4;', 'const BATCH_SIZE = 8;');
+
   src = src.replace(
     "export const TRAINER_SIZES = [7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5];",
     `${MARKER}\nexport const TRAINER_SIZES = [6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11];`
