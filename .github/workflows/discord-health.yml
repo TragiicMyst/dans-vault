@@ -1,0 +1,78 @@
+name: Dan's Vault Discord Health Check
+
+on:
+  push:
+    paths:
+      - '.github/workflows/discord-health.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  health:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Test Discord condition webhooks
+        env:
+          DISCORD_NEW_WITHOUT_TAGS_WEBHOOK_URL: ${{ secrets.DISCORD_NEW_WITHOUT_TAGS_WEBHOOK_URL }}
+          DISCORD_NEW_WITH_TAGS_WEBHOOK_URL: ${{ secrets.DISCORD_NEW_WITH_TAGS_WEBHOOK_URL }}
+          DISCORD_VERY_GOOD_WEBHOOK_URL: ${{ secrets.DISCORD_VERY_GOOD_WEBHOOK_URL }}
+        run: |
+          set +e
+          mkdir -p vinted-radar
+          checked_at=$(date -u +%Y-%m-%dT%H:%M:%SZ)
+
+          test_webhook() {
+            key="$1"
+            url="$2"
+            label="$3"
+            if [ -z "$url" ]; then
+              eval "${key}_configured=false"
+              eval "${key}_status=MISSING"
+              return
+            fi
+            eval "${key}_configured=true"
+            code=$(curl --silent --show-error --output "/tmp/${key}.txt" --write-out '%{http_code}' \
+              -H 'Content-Type: application/json' \
+              --data "{\"content\":\"✅ Dan's Vault Discord health test — ${label}\"}" \
+              "$url")
+            rc=$?
+            if [ $rc -ne 0 ]; then code="CURL_ERROR_${rc}"; fi
+            eval "${key}_status=${code}"
+          }
+
+          test_webhook nwt "$DISCORD_NEW_WITHOUT_TAGS_WEBHOOK_URL" "NEW WITHOUT TAGS"
+          test_webhook ntag "$DISCORD_NEW_WITH_TAGS_WEBHOOK_URL" "NEW WITH TAGS"
+          test_webhook vg "$DISCORD_VERY_GOOD_WEBHOOK_URL" "VERY GOOD"
+
+          cat > vinted-radar/discord-health.json <<EOF
+          {
+            "checkedAt": "$checked_at",
+            "newWithoutTags": {"configured": $nwt_configured, "postStatus": "$nwt_status"},
+            "newWithTags": {"configured": $ntag_configured, "postStatus": "$ntag_status"},
+            "veryGood": {"configured": $vg_configured, "postStatus": "$vg_status"}
+          }
+          EOF
+
+      - name: Save Discord health result
+        run: |
+          git config user.name "Dan's Vault Discord Health"
+          git config user.email "actions@users.noreply.github.com"
+          cp vinted-radar/discord-health.json /tmp/discord-health.json
+
+          for attempt in 1 2 3 4 5; do
+            git fetch origin main
+            git reset --hard origin/main
+            cp /tmp/discord-health.json vinted-radar/discord-health.json
+            git add vinted-radar/discord-health.json
+            if git diff --cached --quiet; then exit 0; fi
+            git commit -m "Record Discord health check"
+            if git push origin HEAD:main; then exit 0; fi
+            sleep 2
+          done
+          exit 1
