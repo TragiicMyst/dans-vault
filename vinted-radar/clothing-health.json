@@ -1,32 +1,36 @@
 {
-  "generatedAt": "2026-08-23T23:01:17.633Z",
-  "stateUpdatedAt": "2026-08-23T23:01:17.633Z",
-  "lastAttemptAt": "2026-08-23T23:01:17.633Z",
-  "lastScanAt": "2026-08-23T23:01:17.633Z",
+  "generatedAt": "2026-08-23T23:02:23.692Z",
+  "stateUpdatedAt": "2026-08-23T23:02:23.692Z",
+  "lastAttemptAt": "2026-08-23T23:02:23.692Z",
+  "lastScanAt": "2026-08-23T23:02:23.692Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
-    "Nike Unlimited Shorts::nike unlimited shorts",
-    "Nike Miler Running Top::nike miler running top",
-    "Nike Dri-FIT Running Top::nike dri-fit running top",
-    "Nike Miler Challenger Running Set::nike miler challenger set"
+    "Nike Strike Top Shorts Set::nike strike top shorts set",
+    "Nike Tech Fleece Windrunner::nike tech fleece windrunner",
+    "Nike Tech Fleece Full-Zip Hoodie::nike tech fleece full zip hoodie",
+    "Nike Tech Fleece Joggers::nike tech fleece joggers"
   ],
   "successfulSearches": 4,
   "failedSearches": 0,
-  "catalogMarkers": 864,
-  "catalogItems": 458,
-  "candidateItems": 202,
-  "freshItems": 9,
-  "qualifyingAlerts": 2,
+  "catalogMarkers": 1056,
+  "catalogItems": 429,
+  "candidateItems": 198,
+  "freshItems": 16,
+  "qualifyingAlerts": 11,
   "qualifyingByCondition": {
-    "veryGood": 2
+    "newWithoutTags": 1,
+    "veryGood": 9,
+    "newWithTags": 1
   },
-  "deliveredAlerts": 2,
+  "deliveredAlerts": 11,
   "deliveredByCondition": {
-    "veryGood": 2
+    "newWithoutTags": 1,
+    "veryGood": 9,
+    "newWithTags": 1
   },
-  "duplicateSuppressed": 16,
+  "duplicateSuppressed": 59,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -60,11 +64,11 @@
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 0,
+  "detailFetches": 1,
   "rejects": {
-    "stale": 177,
-    "price": 5,
-    "condition": 2
+    "stale": 123,
+    "condition": 4,
+    "size": 1
   },
   "failures": {}
 }
