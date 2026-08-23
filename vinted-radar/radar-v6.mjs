@@ -13,7 +13,7 @@ export const RADAR_PROFILE = Object.freeze({
   defaultScore: 55
 });
 
-const BATCH_SIZE = 3;
+const BATCH_SIZE = 4;
 const FETCH_TIMEOUT_MS = 12000;
 const FETCH_ATTEMPTS = 2;
 const BLOCK_COOLDOWN_MS = 75000;
@@ -115,6 +115,8 @@ export async function runRadarV6({ bot, baseConfig, statePath, inventoryPath, we
     catalogItems: 0,
     candidateItems: 0,
     freshItems: 0,
+    freshByAge: 0,
+    freshByNewId: 0,
     qualifyingAlerts: 0,
     deliveredAlerts: 0,
     discordFailures: 0,
@@ -206,26 +208,29 @@ async function processSearch({ bot, search, candidates, sizes, state, inventory,
   for (const item of candidates) {
     if (maxRelevant === null || compareIds(item.id, maxRelevant) > 0) maxRelevant = String(item.id);
     const prior = state.items[item.id];
-    const ageFresh = item.ageMinutes !== null && item.ageMinutes <= RADAR_PROFILE.freshnessMinutes;
-    const idNewer = frontierMax ? compareIds(item.id, frontierMax) > 0 : false;
+    const freshnessSource = classifyFreshness(item, frontierMax);
+    const ageFresh = freshnessSource === 'age';
+    const idNewer = freshnessSource === 'new-id';
     if (prior?.lastAlertedAt || state.pendingDeliveries[item.id]) continue;
 
+    // The first ever pass for a search must establish a frontier unless Vinted explicitly gives us a fresh age.
     if (firstRunForSearch && !ageFresh) {
       remember(state, item, prior, { bootstrapSeen: true });
       continue;
     }
-    if (recoveryMode && !ageFresh) {
-      remember(state, item, prior, { blockedReason: 'recovery-bootstrap' });
-      reject(diagnostics, 'recovery-bootstrap');
-      continue;
-    }
-    if (!(ageFresh || idNewer || Boolean(prior && ageFresh))) {
-      remember(state, item, prior, { blockedReason: 'stale-or-no-freshness-signal' });
-      reject(diagnostics, 'stale');
+
+    // Public Vinted catalogue pages often omit listing age. A Vinted item id newer than our saved
+    // frontier is therefore a valid freshness signal, including after recovery/downtime.
+    if (!freshnessSource) {
+      const reason = recoveryMode ? 'recovery-no-fresh-signal' : 'stale-or-no-freshness-signal';
+      remember(state, item, prior, { blockedReason: reason });
+      reject(diagnostics, recoveryMode ? 'recovery-no-fresh-signal' : 'stale');
       continue;
     }
 
     diagnostics.freshItems += 1;
+    if (ageFresh) diagnostics.freshByAge += 1;
+    if (idNewer) diagnostics.freshByNewId += 1;
     const summaryText = normalize(`${item.title} ${item.fullText}`);
     if (containsBlocked(summaryText, baseConfig.avoidKeywords ?? [])) {
       remember(state, item, prior, { blockedReason: 'keyword' }); reject(diagnostics, 'keyword'); continue;
@@ -413,7 +418,8 @@ export function inferSize(text,sizes,bot){
   const plain=n.match(/\b(7(?:\.5)?|8(?:\.5)?|9(?:\.5)?|10(?:\.5)?)\s*(?:·|\||(?:new with tags|new without tags|very good|good|satisfactory)\b)/i);if(plain){const v=Number(plain[1]);if(sizes.includes(v))return v;}return null;
 }
 export function classifyCondition(text){const n=normalize(text);if(/\bnew without tags\b/.test(n))return'newWithoutTags';if(/\bnew with tags\b/.test(n))return'newWithTags';return'unknown';}
-export function parseAgeMinutes(text){const n=normalize(text);if(/\bjust now\b|\bnow\b/.test(n))return 0;let m=n.match(/\b(?:uploaded\s*)?(\d+)\s*(?:minute|minutes|min)\s+ago\b/);if(m)return Number(m[1]);m=n.match(/\b(?:uploaded\s*)?(\d+)\s*(?:hour|hours|hr|hrs)\s+ago\b/);if(m)return Number(m[1])*60;m=n.match(/\b(?:uploaded\s*)?(\d+)\s*(?:day|days)\s+ago\b/);return m?Number(m[1])*1440:null;}
+export function classifyFreshness(item, frontierMax){const rawAge=item?.ageMinutes;const age=rawAge===null||rawAge===undefined?NaN:Number(rawAge);if(Number.isFinite(age)&&age>=0&&age<=RADAR_PROFILE.freshnessMinutes)return'age';if(frontierMax&&item?.id&&compareIds(item.id,frontierMax)>0)return'new-id';return null;}
+export function parseAgeMinutes(text){const n=normalize(text);if(/\bjust now\b|\bless than (?:a|1) minute ago\b/.test(n))return 0;if(/\b(?:a|one) minute ago\b/.test(n))return 1;if(/\b(?:an|one) hour ago\b/.test(n))return 60;let m=n.match(/\b(?:uploaded\s*)?(\d+)\s*(?:second|seconds|sec|secs)\s+ago\b/);if(m)return 0;m=n.match(/\b(?:uploaded\s*)?(\d+)\s*(?:minute|minutes|min|mins)\s+ago\b/);if(m)return Number(m[1]);m=n.match(/\b(?:uploaded\s*)?(\d+)\s*(?:hour|hours|hr|hrs)\s+ago\b/);if(m)return Number(m[1])*60;m=n.match(/\b(?:uploaded\s*)?(\d+)\s*(?:day|days)\s+ago\b/);return m?Number(m[1])*1440:null;}
 
 async function fetchText(url,{catalog=false}={}){let last;for(let a=1;a<=FETCH_ATTEMPTS;a++){try{const r=await fetch(url,{headers:{'User-Agent':USER_AGENT,'Accept':'text/html,application/xhtml+xml','Accept-Language':'en-GB,en;q=0.9','Cache-Control':'no-cache'},redirect:'follow',signal:AbortSignal.timeout(FETCH_TIMEOUT_MS)});const body=await r.text();if(!r.ok){const e=new Error(`HTTP ${r.status}`);e.blocked=r.status===403||r.status===429;e.retryable=e.blocked||r.status>=500;throw e;}const low=body.toLowerCase();if(low.includes('captcha')||low.includes('access denied')||low.includes('cf-chl-')){const e=new Error('Vinted returned a challenge/block page');e.blocked=true;e.retryable=true;throw e;}if(catalog&&body.length<10000){const e=new Error('Vinted catalogue response unexpectedly short');e.retryable=true;throw e;}return body;}catch(e){last=e;if(a===FETCH_ATTEMPTS||e.retryable===false)break;await sleep(1500*a+Math.floor(Math.random()*800));}}throw last??new Error('Vinted request failed');}
 
