@@ -9,6 +9,9 @@ on:
       - 'vinted-radar/expanded-clothing-radar.mjs'
       - 'vinted-radar/clothing-discovery-hardening.mjs'
       - 'vinted-radar/clothing-discovery-selftest.mjs'
+      - 'vinted-radar/condition-fallback.mjs'
+      - 'vinted-radar/condition-channel-routing.mjs'
+      - 'vinted-radar/condition-channel-selftest.mjs'
       - '.github/workflows/vinted-clothing.yml'
   schedule:
     - cron: '2-57/5 * * * *'
@@ -36,11 +39,15 @@ jobs:
           node --check vinted-radar/radar-v6.mjs
           node --check vinted-radar/expanded-clothing-radar.mjs
           node --check vinted-radar/clothing-discovery-hardening.mjs
+          node --check vinted-radar/condition-fallback.mjs
+          node --check vinted-radar/condition-channel-routing.mjs
           node --check vinted-radar/run-bot.mjs
           node --check vinted-radar/radar-selftest.mjs
           node --check vinted-radar/clothing-discovery-selftest.mjs
+          node --check vinted-radar/condition-channel-selftest.mjs
           node vinted-radar/radar-selftest.mjs
           node vinted-radar/clothing-discovery-selftest.mjs
+          node vinted-radar/condition-channel-selftest.mjs
 
       - name: Validate clothing Discord webhook
         env:
@@ -52,6 +59,7 @@ jobs:
       - name: Run clothing radar repeatedly
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_CLOTHING_WEBHOOK_URL }}
+          DISCORD_NEW_WITHOUT_TAGS_WEBHOOK_URL: ${{ secrets.DISCORD_NEW_WITHOUT_TAGS_WEBHOOK_URL }}
           BOT_TYPE: clothing
           STATE_NAME: clothing-state.json
         run: |
