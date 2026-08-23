@@ -2,13 +2,15 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
 
 const read = name => fs.readFile(new URL(`./${name}`, import.meta.url), 'utf8');
-const [tier, routing, runner] = await Promise.all([
+const [tier, fallback, routing, runner] = await Promise.all([
   read('condition-tier-expansion.mjs'),
+  read('condition-fallback.mjs'),
   read('condition-channel-routing.mjs'),
   read('run-bot.mjs')
 ]);
 
 assert.match(tier, /return'veryGood'/);
+assert.match(fallback, /a\.condition==='veryGood'\?'✅ Very good'/);
 assert.match(routing, /newWithoutTagsWebhook/);
 assert.match(routing, /newWithTagsWebhook/);
 assert.match(routing, /veryGoodWebhook/);
