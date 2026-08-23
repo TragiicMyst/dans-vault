@@ -3,6 +3,7 @@ import fs from 'node:fs/promises';
 const radarUrl = new URL('./radar-v6.mjs', import.meta.url);
 const MARKER = '// DAN_DEFERRED_CONDITION_CONFIRMATION_V5';
 const BUDGET_MARKER = '// DAN_TRAINER_DETAIL_FETCH_BUDGET_V1';
+const RETRY_MARKER = '// DAN_TRANSIENT_DETAIL_RETRY_V1';
 
 export async function applyConditionFallback() {
   let src = await fs.readFile(radarUrl, 'utf8');
@@ -22,9 +23,13 @@ export async function applyConditionFallback() {
   if (!src.includes(earlyConditionReject)) throw new Error('Early condition reject target not found');
   src = src.replace(earlyConditionReject, `${MARKER}\n    // Condition confirmation is intentionally deferred until after cheap margin checks.`);
 
+  const freshnessAnchor = "    const freshnessSource = classifyFreshness(item, frontierMax);";
+  if (!src.includes(freshnessAnchor)) throw new Error('Transient detail retry freshness anchor not found');
+  src = src.replace(freshnessAnchor, `${RETRY_MARKER}\n    // A candidate that was skipped only because the cycle ran out of detail-fetch\n    // budget (or hit a transient detail failure) must remain eligible next cycle even\n    // after the normal max-id frontier advances. Otherwise good deals get lost forever.\n    const retryTransientDetail = ['detail-budget-exhausted','seller-check-budget-exhausted','detail-fetch-failed','seller-check-failed'].includes(prior?.blockedReason);\n    const freshnessSource = retryTransientDetail ? 'new-id' : classifyFreshness(item, frontierMax);`);
+
   const budgetAnchor = "  const firstRunForSearch = !frontierMax;";
   if (!src.includes(budgetAnchor)) throw new Error('Trainer detail budget anchor not found');
-  src = src.replace(budgetAnchor, `${budgetAnchor}\n  ${BUDGET_MARKER}\n  diagnostics.detailFetches ??= 0;\n  const canFetchDetail = () => bot !== 'trainers' || diagnostics.detailFetches < 4;\n  const claimDetailFetch = () => { diagnostics.detailFetches += 1; };`);
+  src = src.replace(budgetAnchor, `${budgetAnchor}\n  ${BUDGET_MARKER}\n  diagnostics.detailFetches ??= 0;\n  // Eight detail checks still fits the 70s guarded cycle in normal operation, while\n  // substantially reducing false silence on busy Vinted periods. Global pacing remains\n  // enforced by fetch-guard.mjs, so this does not disable anti-rate-limit protection.\n  const canFetchDetail = () => bot !== 'trainers' || diagnostics.detailFetches < 8;\n  const claimDetailFetch = () => { diagnostics.detailFetches += 1; };`);
 
   const sizeDetailStart = "    if (size === null) {\n      try {\n        await sleep(350 + Math.floor(Math.random() * 300));\n        detailText = normalize(visibleText(await fetchText(item.url)));";
   const budgetedSizeDetailStart = "    if (size === null) {\n      if (!canFetchDetail()) { remember(state, item, prior, { blockedReason: 'detail-budget-exhausted', size }); reject(diagnostics, 'detail-budget-exhausted'); continue; }\n      claimDetailFetch();\n      try {\n        detailText = normalize(visibleText(await fetchText(item.url)));";
