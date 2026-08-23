@@ -1,10 +1,10 @@
 {
-  "at": "2026-08-23T01:44:54.959Z",
-  "validationExitCode": 1,
-  "validationLogTail": "node:internal/modules/run_main:123\n    triggerUncaughtException(\n    ^\n\nAssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\nnull !== 7.5\n\n    at file:///home/runner/work/dans-vault/dans-vault/vinted-radar/radar-selftest.mjs:33:8\n    at ModuleJob.run (node:internal/modules/esm/module_job:343:25)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:681:26)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5) {\n  generatedMessage: true,\n  code: 'ERR_ASSERTION',\n  actual: null,\n  expected: 7.5,\n  operator: 'strictEqual',\n  diff: 'simple'\n}\n\nNode.js v22.23.2\n",
+  "at": "2026-08-23T01:50:31.462Z",
+  "validationExitCode": 0,
+  "validationLogTail": "Radar v6 self-test passed.\n",
   "probeExitCode": 0,
   "probe": {
-    "at": "2026-08-23T01:44:40.890Z",
+    "at": "2026-08-23T01:50:18.326Z",
     "results": [
       {
         "name": "p6000",
@@ -12,7 +12,7 @@
         "status": 200,
         "ok": true,
         "finalUrl": "https://www.vinted.co.uk/catalog?search_text=nike%20p-6000&order=newest_first",
-        "bodyLength": 7392231,
+        "bodyLength": 7392274,
         "title": "Items | Vinted",
         "counts": {
           "itemHref": 192,
@@ -39,7 +39,7 @@
         "status": 200,
         "ok": true,
         "finalUrl": "https://www.vinted.co.uk/catalog?search_text=nike%20air%20force%201&order=newest_first",
-        "bodyLength": 7387353,
+        "bodyLength": 7387377,
         "title": "Items | Vinted",
         "counts": {
           "itemHref": 192,
@@ -58,7 +58,7 @@
           "cf-chl-": false,
           "please verify": true
         },
-        "textHead": "Items | Vinted Skip to content Catalogue Sign up | Log in Sell now Women Men Designer Kids Home Electronics Books &amp; Media Hobbies &amp; collectables Sports Catalogue Ad ‌ Items Category Size Brand Condition Colour Price Material Sort by nike air force 1 Clear filters Women Men Kids Home Hobbies &amp; collectables Books &amp; Media Electronics Sports 500+ results. Search results Nike 9 child | EU 27 · Satisfactory £8.91 £9.92 incl. 1 Nike Air 8.5 · Satisfactory £14.86 £16.30 incl. Nike Air 9 · Very good £43.82 £46.71 incl. Nike Air 5.5 · Good £18.57 £20.20 incl. Nike 9 · Good £37.13 £39.69 incl. 1 Nike 9 · Good £29.70 £31.89 incl. 4 Nike 10 · Very good £26.00 £28.00 incl. 2 Nike 8.5 child | EU 26 · New with tags £29.71 £32.39 incl. 7 Nike Air 9.5 · Good £18.57 £20.20 incl. 1 Cute and classic Nike Air Force 1 6 baby | EU 23 · Very good £18.57 £20.36 incl. 1 Nike 6 · Very good £20.80 £22.54 incl. 1 Nike 7.5 · Very good £18.57 £20.20 incl. 6 Nike Air 10.5 · Very good £48.28 £51.39 incl. Nike 10 · Good £20.80 £22.54 incl. Nike Air 9 · Good £12.63 £13.96 incl. 2 Nike 6 · Very good £31.20 £33.46 incl. 2 Nike 4.5 · Very good £16.34 £17.86 incl. Nike Air 5.5 · Very good £79.82 £84.51 incl. Nike 4 · Very good £18.62 £20.25 incl. Nike 6 · Good £29.71 £31.90 incl. Nike L · New without tags £26.61 £28.64 incl. 14 Nike 6 · Very good £13.30 £14.67 incl. 1 Nike 9 · Good £14.86 £16.30 incl. Nike 11 child | EU 29 · Good £11.88 £13.13 incl. 5 Nike Air 4 · Very good £29.71 £31.90 incl. 1 Nik"
+        "textHead": "Items | Vinted Skip to content Catalogue Sign up | Log in Sell now Women Men Designer Kids Home Electronics Books &amp; Media Hobbies &amp; collectables Sports Catalogue Ad ‌ Items Category Size Brand Condition Colour Price Material Sort by nike air force 1 Clear filters Women Men Kids Home Hobbies &amp; collectables Books &amp; Media Electronics Sports 500+ results. Search results 3 Nike 5 · New with tags £36.18 £38.69 incl. Nike 7.5 · New with tags £89.13 £94.29 incl. Nike 9 child | EU 27 · Satisfactory £8.91 £9.92 incl. 1 Nike Air 8.5 · Satisfactory £14.86 £16.30 incl. Nike Air 9 · Very good £43.82 £46.71 incl. Nike Air 5.5 · Good £18.57 £20.20 incl. Nike 9 · Good £37.13 £39.69 incl. 1 Nike 9 · Good £29.70 £31.89 incl. 4 Nike 10 · Very good £26.00 £28.00 incl. 2 Nike 8.5 child | EU 26 · New with tags £29.71 £32.39 incl. 7 Nike Air 9.5 · Good £18.57 £20.20 incl. 1 Cute and classic Nike Air Force 1 6 baby | EU 23 · Very good £18.57 £20.36 incl. 1 Nike 6 · Very good £20.80 £22.54 incl. 1 Nike 7.5 · Very good £18.57 £20.20 incl. 6 Nike Air 10.5 · Very good £48.28 £51.39 incl. Nike 10 · Good £20.80 £22.54 incl. Nike Air 9 · Good £12.63 £13.96 incl. 2 Nike 6 · Very good £31.20 £33.46 incl. 2 Nike 4.5 · Very good £16.34 £17.86 incl. Nike Air 5.5 · Very good £79.82 £84.51 incl. Nike 4 · Very good £18.62 £20.25 incl. Nike 6 · Good £29.71 £31.90 incl. 14 Nike 6 · Very good £13.30 £14.67 incl. Nike L · New without tags £26.61 £28.64 incl. 1 Nike 9 · Good £14.86 £16.30 incl. Nike 11 c"
       },
       {
         "name": "tech-fleece",
@@ -66,7 +66,7 @@
         "status": 200,
         "ok": true,
         "finalUrl": "https://www.vinted.co.uk/catalog?search_text=nike%20tech%20fleece&order=newest_first",
-        "bodyLength": 7385652,
+        "bodyLength": 7385694,
         "title": "Items | Vinted",
         "counts": {
           "itemHref": 192,
@@ -85,7 +85,7 @@
           "cf-chl-": false,
           "please verify": true
         },
-        "textHead": "Items | Vinted Skip to content Catalogue Sign up | Log in Sell now Women Men Designer Kids Home Electronics Books &amp; Media Hobbies &amp; collectables Sports Catalogue Ad ‌ Items Category Size Brand Condition Colour Price Material Sort by nike tech fleece Clear filters Men Kids Women Home Hobbies &amp; collectables Sports Electronics Books &amp; Media 500+ results. Search results 2 Nike M · Very good £155.00 £163.45 incl. Nike L · Good £29.70 £31.89 incl. Nike XS / UK 4-6 · Very good £22.28 £24.09 incl. 1 Nike XXL · Very good £33.42 £35.79 incl. Nike XS / UK 4-6 · Good £22.28 £24.09 incl. Nike S / UK 8-10 · Very good £22.28 £24.09 incl. 1 Nike M · Very good £49.99 £53.19 incl. Nike XL · Very good £25.00 £26.95 incl. 2 Nike M · New with tags £15.43 £16.90 incl. Nike S · New without tags £43.99 £46.89 incl. Nike 11 years / 146 cm · New without tags £3.00 £3.54 incl. Nike L · New with tags £20.00 £21.70 incl. Nike S · Very good £15.00 £16.45 incl. Nike M / UK 12-14 · Very good £15.00 £16.45 incl. Nike S · Very good £140.00 £147.70 incl. 3 Nike L · Very good £10.00 £11.10 incl. Nike Bumped XL · Very good £30.00 £32.20 incl. Nike XS · New with tags £70.00 £74.20 incl. Nike L · New without tags £35.00 £37.45 incl. Nike S / UK 8-10 · Very good £10.40 £11.62 incl. 2 Nike L · New without tags £35.00 £37.45 incl. 5 Nike M · Good £30.00 £32.20 incl. 26 Nike S · New without tags £30.00 £32.20 incl. Nike S / UK 8-10 · New with tags £28.97 £31.12 incl. 10 Nike S · New without tags £13.37"
+        "textHead": "Items | Vinted Skip to content Catalogue Sign up | Log in Sell now Women Men Designer Kids Home Electronics Books &amp; Media Hobbies &amp; collectables Sports Catalogue Ad ‌ Items Category Size Brand Condition Colour Price Material Sort by nike tech fleece Clear filters Men Kids Women Home Hobbies &amp; collectables Sports Electronics Books &amp; Media 500+ results. Search results 2 Nike M · Very good £155.00 £163.45 incl. Nike L · Good £29.70 £31.89 incl. Nike XS / UK 4-6 · Very good £22.28 £24.09 incl. 1 Nike XXL · Very good £33.42 £35.79 incl. Nike XS / UK 4-6 · Good £22.28 £24.09 incl. Nike S / UK 8-10 · Very good £22.28 £24.09 incl. 1 Nike M · Very good £49.99 £53.19 incl. Nike XL · Very good £25.00 £26.95 incl. 2 Nike M · New with tags £15.43 £16.90 incl. Nike S · New without tags £43.99 £46.89 incl. Nike 11 years / 146 cm · New without tags £3.00 £3.54 incl. Nike L · New with tags £20.00 £21.70 incl. Nike S · Very good £15.00 £16.45 incl. Nike M / UK 12-14 · Very good £15.00 £16.45 incl. Nike S · Very good £140.00 £147.70 incl. 3 Nike L · Very good £10.00 £11.10 incl. Nike Bumped XL · Very good £30.00 £32.20 incl. Nike XS · New with tags £70.00 £74.20 incl. Nike L · New without tags £35.00 £37.45 incl. Nike S / UK 8-10 · Very good £10.40 £11.62 incl. 5 Nike M · Good £30.00 £32.20 incl. 2 Nike L · New without tags £35.00 £37.45 incl. 26 Nike S · New without tags £30.00 £32.20 incl. Nike S / UK 8-10 · New with tags £28.97 £31.12 incl. Nike XL · Very good £9.00 £10.15 in"
       }
     ]
   },
@@ -95,14 +95,14 @@
   "clothingDiscordGetHttp": "200",
   "trainerDiscordPostHttp": "200",
   "clothingDiscordPostHttp": "200",
-  "trainerDiscordMessageId": "1540899501601194087",
-  "clothingDiscordMessageId": "1540899504226836530",
+  "trainerDiscordMessageId": "1540900916281086014",
+  "clothingDiscordMessageId": "1540900918743269417",
   "trainerExitCode": 0,
   "clothingExitCode": 0,
   "trainerDiagnostics": {
     "bot": "trainers",
     "radarVersion": 6,
-    "lastRunAt": "2026-08-23T01:44:41.038Z",
+    "lastRunAt": "2026-08-23T01:50:18.403Z",
     "recoveryMode": true,
     "filterProfile": {
       "freshnessMinutes": 15,
@@ -126,14 +126,14 @@
     "confirmedEmptySearches": 0,
     "catalogMarkers": 288,
     "catalogItems": 240,
-    "candidateItems": 190,
+    "candidateItems": 188,
     "freshItems": 0,
     "qualifyingAlerts": 0,
     "deliveredAlerts": 0,
     "discordFailures": 0,
     "pendingDeliveries": 0,
     "rejects": {
-      "recovery-bootstrap": 185
+      "recovery-bootstrap": 183
     },
     "failures": {},
     "healthyScan": true,
@@ -142,7 +142,7 @@
   "clothingDiagnostics": {
     "bot": "clothing",
     "radarVersion": 6,
-    "lastRunAt": "2026-08-23T01:44:48.246Z",
+    "lastRunAt": "2026-08-23T01:50:24.466Z",
     "recoveryMode": true,
     "filterProfile": {
       "freshnessMinutes": 15,
@@ -179,8 +179,8 @@
     "healthyScan": true,
     "healthReason": "all-selected-searches-completed"
   },
-  "trainerLastAttemptAt": "2026-08-23T01:44:41.038Z",
-  "clothingLastAttemptAt": "2026-08-23T01:44:48.246Z",
+  "trainerLastAttemptAt": "2026-08-23T01:50:18.403Z",
+  "clothingLastAttemptAt": "2026-08-23T01:50:24.466Z",
   "trainerScanLogTail": "Vinted fetch guard active: paced requests + automatic 403/429 cooldown.\nRADAR V6 trainers: 3/3 searches OK; 240 parsed; 0 fresh; 0 delivered; 0 pending; healthy=true.\n",
   "clothingScanLogTail": "Vinted fetch guard active: paced requests + automatic 403/429 cooldown.\nRADAR V6 clothing: 3/3 searches OK; 240 parsed; 0 fresh; 0 delivered; 0 pending; healthy=true.\n"
 }
