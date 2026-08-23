@@ -1,6 +1,15 @@
 name: Dan's Vault Nike Clothing Radar
 
 on:
+  push:
+    paths:
+      - 'vinted-radar/radar-v6.mjs'
+      - 'vinted-radar/run-bot.mjs'
+      - 'vinted-radar/fetch-guard.mjs'
+      - 'vinted-radar/expanded-clothing-radar.mjs'
+      - 'vinted-radar/clothing-discovery-hardening.mjs'
+      - 'vinted-radar/clothing-discovery-selftest.mjs'
+      - '.github/workflows/vinted-clothing.yml'
   schedule:
     - cron: '2-57/5 * * * *'
   workflow_dispatch:
@@ -20,15 +29,18 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: Validate radar v6
+      - name: Validate radar v6 and clothing discovery hardening
         run: |
           set -e
           node --check vinted-radar/fetch-guard.mjs
           node --check vinted-radar/radar-v6.mjs
           node --check vinted-radar/expanded-clothing-radar.mjs
+          node --check vinted-radar/clothing-discovery-hardening.mjs
           node --check vinted-radar/run-bot.mjs
           node --check vinted-radar/radar-selftest.mjs
+          node --check vinted-radar/clothing-discovery-selftest.mjs
           node vinted-radar/radar-selftest.mjs
+          node vinted-radar/clothing-discovery-selftest.mjs
 
       - name: Validate clothing Discord webhook
         env:
