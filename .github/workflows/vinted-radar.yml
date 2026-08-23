@@ -32,11 +32,15 @@ jobs:
           node --check vinted-radar/radar-v6.mjs
           node --check vinted-radar/expanded-trainer-radar.mjs
           node --check vinted-radar/trainer-discovery-hardening.mjs
+          node --check vinted-radar/condition-fallback.mjs
+          node --check vinted-radar/condition-channel-routing.mjs
           node --check vinted-radar/run-bot.mjs
           node --check vinted-radar/radar-selftest.mjs
           node --check vinted-radar/trainer-discovery-selftest.mjs
+          node --check vinted-radar/condition-channel-selftest.mjs
           node vinted-radar/radar-selftest.mjs
           node vinted-radar/trainer-discovery-selftest.mjs
+          node vinted-radar/condition-channel-selftest.mjs
 
       - name: Validate trainers Discord webhook
         env:
@@ -48,6 +52,7 @@ jobs:
       - name: Run trainers radar repeatedly
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          DISCORD_NEW_WITHOUT_TAGS_WEBHOOK_URL: ${{ secrets.DISCORD_NEW_WITHOUT_TAGS_WEBHOOK_URL }}
           BOT_TYPE: trainers
           STATE_NAME: state.json
         run: |
