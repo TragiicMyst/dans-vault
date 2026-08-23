@@ -405,12 +405,12 @@ export function inferSize(text,sizes,bot){
   if(bot==='clothing'){
     const patterns=[[/\b(?:size\s*[:\-]?\s*)?(xxl|2xl)\b/i,'XXL'],[/\b(?:size\s*[:\-]?\s*)?xl\b/i,'XL'],[/\b(?:size\s*[:\-]?\s*)?xs\b/i,'XS'],[/\bsize\s*[:\-]?\s*s\b/i,'S'],[/\bsize\s*[:\-]?\s*m\b/i,'M'],[/\bsize\s*[:\-]?\s*l\b/i,'L'],[/\bextra small\b/i,'XS'],[/\bsmall\b/i,'S'],[/\bmedium\b/i,'M'],[/\blarge\b/i,'L'],[/\bextra large\b/i,'XL']];
     for(const [r,v] of patterns)if(r.test(n)&&sizes.includes(v))return v;
-    const plain=n.match(/\b(xxl|2xl|xl|xs|s|m|l)\s*(?:·|\||new with tags|new without tags|very good|good|satisfactory)\b/i);
+    const plain=n.match(/\b(xxl|2xl|xl|xs|s|m|l)\s*(?:·|\||(?:new with tags|new without tags|very good|good|satisfactory)\b)/i);
     if(plain){const v=plain[1].toUpperCase()==='2XL'?'XXL':plain[1].toUpperCase();if(sizes.includes(v))return v;}
     return null;
   }
   for(const size of [...sizes].sort((a,b)=>String(b).length-String(a).length)){const e=String(size).replace('.','\\.');const ps=[new RegExp(`\\b(?:uk|size)\\s*[:\\-]?\\s*${e}(?!\\.\\d)\\b`,'i'),new RegExp(`\\b${e}(?!\\.\\d)\\s*uk\\b`,'i')];if(ps.some(r=>r.test(n)))return Number(size);}
-  const plain=n.match(/\b(7(?:\.5)?|8(?:\.5)?|9(?:\.5)?|10(?:\.5)?)\s*(?:·|\||new with tags|new without tags|very good|good|satisfactory)\b/i);if(plain){const v=Number(plain[1]);if(sizes.includes(v))return v;}return null;
+  const plain=n.match(/\b(7(?:\.5)?|8(?:\.5)?|9(?:\.5)?|10(?:\.5)?)\s*(?:·|\||(?:new with tags|new without tags|very good|good|satisfactory)\b)/i);if(plain){const v=Number(plain[1]);if(sizes.includes(v))return v;}return null;
 }
 export function classifyCondition(text){const n=normalize(text);if(/\bnew without tags\b/.test(n))return'newWithoutTags';if(/\bnew with tags\b/.test(n))return'newWithTags';return'unknown';}
 export function parseAgeMinutes(text){const n=normalize(text);if(/\bjust now\b|\bnow\b/.test(n))return 0;let m=n.match(/\b(?:uploaded\s*)?(\d+)\s*(?:minute|minutes|min)\s+ago\b/);if(m)return Number(m[1]);m=n.match(/\b(?:uploaded\s*)?(\d+)\s*(?:hour|hours|hr|hrs)\s+ago\b/);if(m)return Number(m[1])*60;m=n.match(/\b(?:uploaded\s*)?(\d+)\s*(?:day|days)\s+ago\b/);return m?Number(m[1])*1440:null;}
