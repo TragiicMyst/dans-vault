@@ -12,7 +12,7 @@ on:
 
 concurrency:
   group: dans-vault-trainers-radar
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -20,7 +20,7 @@ permissions:
 jobs:
   radar:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 3
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -40,34 +40,28 @@ jobs:
           node --check vinted-radar/listing-image-embed.mjs
           node --check vinted-radar/run-bot.mjs
 
-      - name: Validate trainers Discord webhooks
+      - name: Validate Discord condition webhooks
         env:
-          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           DISCORD_NEW_WITHOUT_TAGS_WEBHOOK_URL: ${{ secrets.DISCORD_NEW_WITHOUT_TAGS_WEBHOOK_URL }}
           DISCORD_NEW_WITH_TAGS_WEBHOOK_URL: ${{ secrets.DISCORD_NEW_WITH_TAGS_WEBHOOK_URL }}
           DISCORD_VERY_GOOD_WEBHOOK_URL: ${{ secrets.DISCORD_VERY_GOOD_WEBHOOK_URL }}
         run: |
-          test -n "$DISCORD_WEBHOOK_URL"
+          set -e
           test -n "$DISCORD_NEW_WITHOUT_TAGS_WEBHOOK_URL"
           test -n "$DISCORD_NEW_WITH_TAGS_WEBHOOK_URL"
           test -n "$DISCORD_VERY_GOOD_WEBHOOK_URL"
-          curl --fail --silent --show-error "$DISCORD_WEBHOOK_URL" >/dev/null
           curl --fail --silent --show-error "$DISCORD_NEW_WITHOUT_TAGS_WEBHOOK_URL" >/dev/null
           curl --fail --silent --show-error "$DISCORD_NEW_WITH_TAGS_WEBHOOK_URL" >/dev/null
           curl --fail --silent --show-error "$DISCORD_VERY_GOOD_WEBHOOK_URL" >/dev/null
 
-      - name: One-time Discord channel health check
-        if: ${{ github.event_name == 'push' && github.event.head_commit.message == 'Verify Discord condition channels' }}
+      - name: Verify New With Tags route after reliability reset
+        if: ${{ github.event_name == 'push' && github.event.head_commit.message == 'Stabilize trainer live scanning' }}
         env:
-          DISCORD_NEW_WITHOUT_TAGS_WEBHOOK_URL: ${{ secrets.DISCORD_NEW_WITHOUT_TAGS_WEBHOOK_URL }}
           DISCORD_NEW_WITH_TAGS_WEBHOOK_URL: ${{ secrets.DISCORD_NEW_WITH_TAGS_WEBHOOK_URL }}
-          DISCORD_VERY_GOOD_WEBHOOK_URL: ${{ secrets.DISCORD_VERY_GOOD_WEBHOOK_URL }}
         run: |
-          curl --fail --silent --show-error -H 'Content-Type: application/json' --data '{"content":"✅ Dan’s Vault trainer radar health check — NEW WITHOUT TAGS channel connected."}' "$DISCORD_NEW_WITHOUT_TAGS_WEBHOOK_URL" >/dev/null
-          curl --fail --silent --show-error -H 'Content-Type: application/json' --data '{"content":"✅ Dan’s Vault trainer radar health check — NEW WITH TAGS channel connected."}' "$DISCORD_NEW_WITH_TAGS_WEBHOOK_URL" >/dev/null
-          curl --fail --silent --show-error -H 'Content-Type: application/json' --data '{"content":"✅ Dan’s Vault trainer radar health check — VERY GOOD channel connected."}' "$DISCORD_VERY_GOOD_WEBHOOK_URL" >/dev/null
+          curl --fail --silent --show-error -H 'Content-Type: application/json' --data '{"content":"✅ Dan’s Vault New With Tags channel is connected — reliability reset active."}' "$DISCORD_NEW_WITH_TAGS_WEBHOOK_URL" >/dev/null
 
-      - name: Run trainers radar repeatedly
+      - name: Run one bounded trainer scan
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           DISCORD_NEW_WITHOUT_TAGS_WEBHOOK_URL: ${{ secrets.DISCORD_NEW_WITHOUT_TAGS_WEBHOOK_URL }}
@@ -76,41 +70,17 @@ jobs:
           BOT_TYPE: trainers
           STATE_NAME: state.json
         run: |
-          deadline=$((SECONDS + 145))
-          successes=0
-          failures=0
-          cycle=0
-          while [ $SECONDS -lt $deadline ]; do
-            cycle=$((cycle + 1))
-            cycle_start=$SECONDS
-            echo "=== Trainer scan cycle $cycle ==="
-            if timeout 70s node vinted-radar/run-bot.mjs; then
-              successes=$((successes + 1))
-              node -e "const s=require('./vinted-radar/state.json'); const d=s.diagnostics||{}; console.log('Trainer v6 OK:', s.freshness?.lastScanAt, 'attempt:', s.freshness?.lastAttemptAt, 'selected:', d.successfulSearches ?? '?', '/', d.selectedSearches?.length ?? '?', 'markers:', d.catalogMarkers ?? '?', 'parsed:', d.catalogItems ?? '?', 'fresh:', d.freshItems ?? '?', 'detailFetches:', d.detailFetches ?? 0, 'sellerRiskRejects:', d.rejects?.['seller-risk'] ?? 0, 'af1NwtBalanced:', d.rejects?.['model-cooldown'] ?? 0, 'delivered:', d.deliveredAlerts ?? '?', 'pending:', d.pendingDeliveries ?? '?', 'healthy:', d.healthyScan ?? '?')"
-            else
-              rc=$?
-              failures=$((failures + 1))
-              if [ $rc -eq 124 ]; then
-                echo "Trainer scan cycle $cycle TIMED OUT after 70s; continuing to next cycle."
-              else
-                echo "Trainer scan cycle $cycle FAILED with exit code $rc."
-              fi
-            fi
-            elapsed=$((SECONDS - cycle_start))
-            wait=$((30 - elapsed))
-            if [ $wait -gt 0 ] && [ $SECONDS -lt $deadline ]; then sleep $wait; fi
-          done
-          echo "Trainer cycles complete: $successes successful, $failures failed."
-          if [ $successes -eq 0 ] || [ $failures -gt $successes ]; then
-            echo "Trainer radar reliability threshold failed."
-            exit 1
-          fi
+          set -e
+          timeout 110s node vinted-radar/run-bot.mjs
+          node -e "const s=require('./vinted-radar/state.json'); const d=s.diagnostics||{}; console.log('Trainer scan:', s.freshness?.lastScanAt, 'selected:', d.successfulSearches ?? 0, '/', d.selectedSearches?.length ?? 0, 'parsed:', d.catalogItems ?? 0, 'fresh:', d.freshItems ?? 0, 'qualifying:', d.qualifyingAlerts ?? 0, 'delivered:', d.deliveredAlerts ?? 0, 'byCondition:', JSON.stringify(d.deliveredByCondition||{}), 'discordFailures:', d.discordFailures ?? 0, 'healthy:', d.healthyScan ?? false); if(!d.healthyScan) process.exit(1);"
 
-      - name: Save trainers radar state safely
+      - name: Save trainer state and compact health
         if: ${{ always() }}
         run: |
+          set -e
           git config user.name "Dan's Vault Trainers Radar"
           git config user.email "actions@users.noreply.github.com"
+          node -e "const fs=require('fs'); const p='vinted-radar/state.json'; const raw=fs.readFileSync(p,'utf8'); if(!raw.trim()) throw new Error('Refusing empty trainer state'); JSON.parse(raw);"
           cp vinted-radar/state.json /tmp/trainers-state.json
           node <<'NODE'
           const fs = require('fs');
@@ -132,7 +102,9 @@ jobs:
             candidateItems: d.candidateItems ?? 0,
             freshItems: d.freshItems ?? 0,
             qualifyingAlerts: d.qualifyingAlerts ?? 0,
+            qualifyingByCondition: d.qualifyingByCondition ?? {},
             deliveredAlerts: d.deliveredAlerts ?? 0,
+            deliveredByCondition: d.deliveredByCondition ?? {},
             discordFailures: d.discordFailures ?? 0,
             pendingDeliveries: d.pendingDeliveries ?? 0,
             detailFetches: d.detailFetches ?? 0,
@@ -145,14 +117,12 @@ jobs:
           for attempt in 1 2 3 4 5; do
             git fetch origin main
             git reset --hard origin/main
-
             if [ -f vinted-radar/state.json ]; then
               if node -e "const fs=require('fs'); const l=JSON.parse(fs.readFileSync('/tmp/trainers-state.json','utf8')); const r=JSON.parse(fs.readFileSync('vinted-radar/state.json','utf8')); const lt=Date.parse(l.updatedAt||l.freshness?.lastAttemptAt||l.freshness?.lastScanAt||0); const rt=Date.parse(r.updatedAt||r.freshness?.lastAttemptAt||r.freshness?.lastScanAt||0); process.exit(Number.isFinite(rt)&&Number.isFinite(lt)&&rt>lt?0:1)"; then
                 echo "Remote trainer state is newer; refusing stale overwrite."
                 exit 0
               fi
             fi
-
             cp /tmp/trainers-state.json vinted-radar/state.json
             cp /tmp/trainers-health.json vinted-radar/trainer-health.json
             git add vinted-radar/state.json vinted-radar/trainer-health.json
