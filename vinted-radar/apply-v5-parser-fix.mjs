@@ -68,13 +68,15 @@ const oldStateBlock = `  state.freshness.lastScanAt = now.toISOString();
   state.radarVersion = 5;
   state.diagnostics = diagnostics;
   diagnostics.pendingDeliveries = Object.keys(state.pendingDeliveries).length;
-  await fs.writeFile(statePath, JSON.stringify(state, null, 2) + '\\n');
+  await fs.writeFile(statePath, JSON.stringify(state, null, 2) + '\n');
 
   console.log(\`RADAR V5 \${bot}: \${diagnostics.successfulSearches}/\${selected.length} selected searches OK; \${diagnostics.freshItems} fresh; \${diagnostics.deliveredAlerts} delivered; \${diagnostics.pendingDeliveries} pending.\`);
 
   const minimumHealthy = Math.ceil(selected.length * 0.6);`;
 const fixedStateBlock = `  const minimumHealthy = Math.ceil(selected.length * 0.6);
-  const healthyScan = !blocked && diagnostics.successfulSearches >= minimumHealthy;
+  const zeroCatalogAnomaly = diagnostics.successfulSearches === selected.length && selected.length > 0 && diagnostics.catalogItems === 0;
+  if (zeroCatalogAnomaly) diagnostics.failures.catalog = 'All selected searches returned zero catalogue cards';
+  const healthyScan = !blocked && !zeroCatalogAnomaly && diagnostics.successfulSearches >= minimumHealthy;
   diagnostics.healthyScan = healthyScan;
 
   // Only advance past searches actually completed. A blocked search is retried after cooldown.
@@ -85,10 +87,33 @@ const fixedStateBlock = `  const minimumHealthy = Math.ceil(selected.length * 0.
   state.radarVersion = 5;
   state.diagnostics = diagnostics;
   diagnostics.pendingDeliveries = Object.keys(state.pendingDeliveries).length;
-  await fs.writeFile(statePath, JSON.stringify(state, null, 2) + '\\n');
+  await fs.writeFile(statePath, JSON.stringify(state, null, 2) + '\n');
 
   console.log(\`RADAR V5 \${bot}: \${diagnostics.successfulSearches}/\${selected.length} selected searches OK; \${diagnostics.freshItems} fresh; \${diagnostics.deliveredAlerts} delivered; \${diagnostics.pendingDeliveries} pending; healthy=\${healthyScan}.\`);`;
 replaceExact('truthful scan health and rotation persistence', oldStateBlock, fixedStateBlock);
+
+const oldCatalogFetch = `      const html = await fetchText(search.buyUrl, { catalog: true });
+      const raw = extractItems(html, 80);
+      if (raw.length === 0 && !looksLikeEmptyCatalog(html)) {
+        throw new Error('No Vinted item cards could be parsed from catalogue');
+      }`;
+const fixedCatalogFetch = `      let html = await fetchText(search.buyUrl, { catalog: true });
+      let raw = extractItems(html, 80);
+      if (raw.length === 0) {
+        const fallback = new URL(search.buyUrl);
+        const hadPriceFilter = fallback.searchParams.has('price_to');
+        fallback.searchParams.delete('price_to');
+        if (hadPriceFilter) {
+          await sleep(900 + Math.floor(Math.random() * 500));
+          html = await fetchText(fallback.toString(), { catalog: true });
+          raw = extractItems(html, 80);
+          diagnostics.fallbackCatalogSearches = Number(diagnostics.fallbackCatalogSearches || 0) + 1;
+        }
+      }
+      if (raw.length === 0 && !looksLikeEmptyCatalog(html)) {
+        throw new Error('No Vinted item cards could be parsed from catalogue');
+      }`;
+replaceExact('zero-result catalogue fallback', oldCatalogFetch, fixedCatalogFetch);
 
 // Active-reseller filter profile: noticeably more alerts while keeping a sensible profit floor.
 replaceExact(
@@ -139,9 +164,13 @@ replaceExact(
   '    const maxPrice = round2(Number(s.maxPrice) * 1.4);'
 );
 
+const oldFailuresField = "    rejects: {},\n    failures: {}\n  };";
+const profileFailuresField = "    rejects: {},\n    failures: {},\n    filterProfile: { freshnessMinutes:15, minProfit:8, minROI:20, strongProfit:12, strongROI:30, exceptionalProfit:20, exceptionalROI:50, priceMultiplier:1.4 }\n  };";
+replaceExact('active filter diagnostics', oldFailuresField, profileFailuresField);
+
 if (changed) {
   await fs.writeFile(file, source);
-  console.log('Applied Vinted v5 reliability fixes and active-reseller alert filters.');
+  console.log('Applied Vinted v5 reliability fixes, zero-result recovery and active-reseller alert filters.');
 } else {
-  console.log('Vinted v5 reliability fixes and active-reseller alert filters already active.');
+  console.log('Vinted v5 reliability fixes, zero-result recovery and active-reseller alert filters already active.');
 }
