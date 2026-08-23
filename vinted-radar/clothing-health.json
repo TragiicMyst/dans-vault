@@ -1,44 +1,39 @@
 {
-  "generatedAt": "2026-08-23T21:29:32.860Z",
-  "stateUpdatedAt": "2026-08-23T21:29:32.860Z",
-  "lastAttemptAt": "2026-08-23T21:29:32.860Z",
-  "lastScanAt": "2026-08-23T21:29:32.860Z",
+  "generatedAt": "2026-08-23T21:47:51.845Z",
+  "stateUpdatedAt": "2026-08-23T21:47:51.845Z",
+  "lastAttemptAt": "2026-08-23T21:47:51.845Z",
+  "lastScanAt": "2026-08-23T21:47:51.845Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
-    "Nike Tech Fleece Open-Hem Trousers::nike tech fleece open hem trousers",
-    "Nike Tech Fleece Shorts::nike tech fleece shorts",
-    "Nike Tech Fleece Tracksuit::nike tech fleece tracksuit",
-    "Nike Tech Fleece Colour-Block Windrunner::nike tech fleece colour block windrunner"
+    "Nike Football Tech Fleece::nike football tech fleece",
+    "Nike Club Fleece Pullover Hoodie::nike club fleece hoodie",
+    "Nike Club Fleece Full-Zip Hoodie::nike club fleece full zip hoodie",
+    "Nike Club Fleece Joggers::nike club fleece joggers"
   ],
   "successfulSearches": 4,
   "failedSearches": 0,
   "catalogMarkers": 1152,
-  "catalogItems": 480,
-  "candidateItems": 183,
-  "freshItems": 16,
-  "qualifyingAlerts": 10,
+  "catalogItems": 549,
+  "candidateItems": 274,
+  "freshItems": 5,
+  "qualifyingAlerts": 4,
   "qualifyingByCondition": {
-    "veryGood": 7,
-    "newWithoutTags": 2,
-    "newWithTags": 1
+    "newWithoutTags": 1,
+    "veryGood": 3
   },
-  "deliveredAlerts": 10,
+  "deliveredAlerts": 4,
   "deliveredByCondition": {
-    "veryGood": 7,
-    "newWithoutTags": 2,
-    "newWithTags": 1
+    "newWithoutTags": 1,
+    "veryGood": 3
   },
-  "duplicateSuppressed": 40,
+  "duplicateSuppressed": 24,
   "discordFailures": 0,
   "pendingDeliveries": 0,
-  "detailFetches": 2,
+  "detailFetches": 0,
   "rejects": {
-    "recovery-no-fresh-signal": 127,
-    "size": 2,
-    "condition": 2,
-    "keyword": 1,
+    "recovery-no-fresh-signal": 245,
     "price": 1
   },
   "failures": {}
