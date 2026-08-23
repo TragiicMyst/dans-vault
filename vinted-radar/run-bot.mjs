@@ -10,14 +10,26 @@ import { applySellerSafety } from './seller-safety.mjs';
 import { applyTrainerAlertBalance } from './trainer-alert-balance.mjs';
 import { applyConditionChannelRouting } from './condition-channel-routing.mjs';
 import { applyListingImageEmbed } from './listing-image-embed.mjs';
+import { resolveDiscordRoutes } from './discord-route-resolver.mjs';
 
 const root = new URL('./', import.meta.url);
 const bot = process.env.BOT_TYPE ?? 'trainers';
 const stateName = process.env.STATE_NAME ?? (bot === 'clothing' ? 'clothing-state.json' : 'state.json');
+const statePath = new URL(`./${stateName}`, root);
 const webhook = process.env.DISCORD_WEBHOOK_URL;
-const newWithoutTagsWebhook = process.env.DISCORD_NEW_WITHOUT_TAGS_WEBHOOK_URL;
-const newWithTagsWebhook = process.env.DISCORD_NEW_WITH_TAGS_WEBHOOK_URL;
-const veryGoodWebhook = process.env.DISCORD_VERY_GOOD_WEBHOOK_URL;
+
+let newWithoutTagsWebhook = process.env.DISCORD_NEW_WITHOUT_TAGS_WEBHOOK_URL;
+let newWithTagsWebhook = process.env.DISCORD_NEW_WITH_TAGS_WEBHOOK_URL;
+let veryGoodWebhook = process.env.DISCORD_VERY_GOOD_WEBHOOK_URL;
+
+const routeResolution = await resolveDiscordRoutes({
+  newWithoutTagsWebhook,
+  newWithTagsWebhook,
+  veryGoodWebhook
+});
+newWithoutTagsWebhook = routeResolution.newWithoutTagsWebhook;
+newWithTagsWebhook = routeResolution.newWithTagsWebhook;
+veryGoodWebhook = routeResolution.veryGoodWebhook;
 
 if (bot === 'trainers') {
   await applyExpandedTrainerRadar();
@@ -43,13 +55,25 @@ baseConfig.condition.veryGood = [...new Set([...(baseConfig.condition.veryGood ?
 baseConfig.condition.avoid = (baseConfig.condition.avoid ?? []).filter(x => String(x).trim().toLowerCase() !== 'good');
 baseConfig.allowedConditionKeywords = [...new Set([...(baseConfig.allowedConditionKeywords ?? []), 'very good'])];
 
-await runRadarV6({
+const diagnostics = await runRadarV6({
   bot,
   baseConfig,
-  statePath: new URL(`./${stateName}`, root),
+  statePath,
   inventoryPath: new URL('./inventory.json', root),
   webhook,
   newWithoutTagsWebhook,
   newWithTagsWebhook,
   veryGoodWebhook
 });
+
+// Persist only safe Discord destination metadata (IDs/names, never webhook URLs or tokens)
+// so routing problems can be diagnosed from trainer-health.json without exposing secrets.
+try {
+  const state = JSON.parse(await fs.readFile(statePath, 'utf8'));
+  state.diagnostics ??= diagnostics ?? {};
+  state.diagnostics.discordRoutes = routeResolution.summary;
+  state.diagnostics.discordRouteAutoCorrected = routeResolution.autoCorrected;
+  await fs.writeFile(statePath, JSON.stringify(state, null, 2) + '\n');
+} catch (error) {
+  console.error(`Could not persist Discord route diagnostics: ${error.message}`);
+}
