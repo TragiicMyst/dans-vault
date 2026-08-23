@@ -11,12 +11,15 @@ const [tier, fallback, routing, runner] = await Promise.all([
 
 assert.match(tier, /return'veryGood'/);
 assert.match(fallback, /a\.condition==='veryGood'\?'✅ Very good'/);
+assert.doesNotMatch(fallback, /unconfirmedConditionPassed/);
+assert.doesNotMatch(fallback, /if \(size === null\) \{/);
 assert.match(routing, /newWithoutTagsWebhook/);
 assert.match(routing, /newWithTagsWebhook/);
 assert.match(routing, /veryGoodWebhook/);
 assert.match(routing, /alert\?\.condition === 'newWithoutTags'/);
 assert.match(routing, /alert\?\.condition === 'newWithTags'/);
 assert.match(routing, /alert\?\.condition === 'veryGood'/);
+assert.match(routing, /Unsupported alert condition for Discord routing/);
 assert.match(routing, /selectDiscordWebhook\(alert, webhook, newWithoutTagsWebhook, newWithTagsWebhook, veryGoodWebhook\)/);
 assert.match(routing, /selectDiscordWebhook\(pending\.alert, webhook, newWithoutTagsWebhook, newWithTagsWebhook, veryGoodWebhook\)/);
 assert.match(runner, /DISCORD_NEW_WITHOUT_TAGS_WEBHOOK_URL/);
