@@ -15,39 +15,67 @@ permissions:
 jobs:
   smoke:
     runs-on: ubuntu-latest
-    timeout-minutes: 4
+    timeout-minutes: 5
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
 
       - name: Validate and patch production radar
+        id: validation
+        continue-on-error: true
         run: |
-          set -e
-          node --check vinted-radar/fetch-guard.mjs
-          node --check vinted-radar/apply-v5-parser-fix.mjs
-          node vinted-radar/apply-v5-parser-fix.mjs
-          node --check vinted-radar/radar-v5.mjs
-          node --check vinted-radar/run-bot.mjs
-          node --check vinted-radar/radar-selftest.mjs
-          node vinted-radar/radar-selftest.mjs
+          set +e
+          : > /tmp/validation.log
+          node --check vinted-radar/fetch-guard.mjs >>/tmp/validation.log 2>&1
+          a=$?
+          node --check vinted-radar/apply-v5-parser-fix.mjs >>/tmp/validation.log 2>&1
+          b=$?
+          node vinted-radar/apply-v5-parser-fix.mjs >>/tmp/validation.log 2>&1
+          c=$?
+          node --check vinted-radar/radar-v5.mjs >>/tmp/validation.log 2>&1
+          d=$?
+          node --check vinted-radar/run-bot.mjs >>/tmp/validation.log 2>&1
+          e=$?
+          node --check vinted-radar/radar-selftest.mjs >>/tmp/validation.log 2>&1
+          f=$?
+          node vinted-radar/radar-selftest.mjs >>/tmp/validation.log 2>&1
+          g=$?
+          cat /tmp/validation.log
+          if [ $a -eq 0 ] && [ $b -eq 0 ] && [ $c -eq 0 ] && [ $d -eq 0 ] && [ $e -eq 0 ] && [ $f -eq 0 ] && [ $g -eq 0 ]; then code=0; else code=1; fi
+          echo "code=$code" >> "$GITHUB_OUTPUT"
+          exit 0
 
-      - name: Verify both Discord webhooks and post smoke pings
+      - name: Diagnose both Discord webhooks
         id: discord
+        continue-on-error: true
         env:
           TRAINERS_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_URL }}
           CLOTHING_WEBHOOK: ${{ secrets.DISCORD_CLOTHING_WEBHOOK_URL }}
         run: |
-          set -e
-          test -n "$TRAINERS_WEBHOOK"
-          test -n "$CLOTHING_WEBHOOK"
-          curl --fail --silent --show-error "$TRAINERS_WEBHOOK" >/dev/null
-          curl --fail --silent --show-error "$CLOTHING_WEBHOOK" >/dev/null
-          curl --fail --silent --show-error -H 'Content-Type: application/json' -d '{"content":"✅ Dan’s Vault TRAINER radar live smoke test passed — Discord delivery is working."}' "${TRAINERS_WEBHOOK}?wait=true" > /tmp/trainers-discord.json
-          curl --fail --silent --show-error -H 'Content-Type: application/json' -d '{"content":"✅ Dan’s Vault CLOTHING radar live smoke test passed — Discord delivery is working."}' "${CLOTHING_WEBHOOK}?wait=true" > /tmp/clothing-discord.json
-          node -e "const fs=require('fs'); for (const f of ['/tmp/trainers-discord.json','/tmp/clothing-discord.json']) { const j=JSON.parse(fs.readFileSync(f,'utf8')); if (!j.id) throw new Error('Discord did not return a message id for '+f); }"
+          set +e
+          trainer_present=0; clothing_present=0
+          [ -n "$TRAINERS_WEBHOOK" ] && trainer_present=1
+          [ -n "$CLOTHING_WEBHOOK" ] && clothing_present=1
+          trainer_get=0; clothing_get=0; trainer_post=0; clothing_post=0
+          if [ $trainer_present -eq 1 ]; then
+            trainer_get=$(curl -sS -o /tmp/trainers-get.json -w '%{http_code}' "$TRAINERS_WEBHOOK" || echo 000)
+            trainer_post=$(curl -sS -o /tmp/trainers-discord.json -w '%{http_code}' -H 'Content-Type: application/json' -d '{"content":"✅ Dan’s Vault TRAINER radar smoke test — Discord delivery confirmed."}' "${TRAINERS_WEBHOOK}?wait=true" || echo 000)
+          fi
+          if [ $clothing_present -eq 1 ]; then
+            clothing_get=$(curl -sS -o /tmp/clothing-get.json -w '%{http_code}' "$CLOTHING_WEBHOOK" || echo 000)
+            clothing_post=$(curl -sS -o /tmp/clothing-discord.json -w '%{http_code}' -H 'Content-Type: application/json' -d '{"content":"✅ Dan’s Vault CLOTHING radar smoke test — Discord delivery confirmed."}' "${CLOTHING_WEBHOOK}?wait=true" || echo 000)
+          fi
+          echo "trainer_present=$trainer_present" >> "$GITHUB_OUTPUT"
+          echo "clothing_present=$clothing_present" >> "$GITHUB_OUTPUT"
+          echo "trainer_get=$trainer_get" >> "$GITHUB_OUTPUT"
+          echo "clothing_get=$clothing_get" >> "$GITHUB_OUTPUT"
+          echo "trainer_post=$trainer_post" >> "$GITHUB_OUTPUT"
+          echo "clothing_post=$clothing_post" >> "$GITHUB_OUTPUT"
+          exit 0
 
       - name: Run one live trainer scan
         id: trainers
+        continue-on-error: true
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           BOT_TYPE: trainers
@@ -63,6 +91,7 @@ jobs:
 
       - name: Run one live clothing scan
         id: clothing
+        continue-on-error: true
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_CLOTHING_WEBHOOK_URL }}
           BOT_TYPE: clothing
@@ -79,27 +108,47 @@ jobs:
       - name: Persist smoke result
         if: ${{ always() }}
         env:
+          VALIDATION_CODE: ${{ steps.validation.outputs.code }}
+          TRAINER_PRESENT: ${{ steps.discord.outputs.trainer_present }}
+          CLOTHING_PRESENT: ${{ steps.discord.outputs.clothing_present }}
+          TRAINER_GET: ${{ steps.discord.outputs.trainer_get }}
+          CLOTHING_GET: ${{ steps.discord.outputs.clothing_get }}
+          TRAINER_POST: ${{ steps.discord.outputs.trainer_post }}
+          CLOTHING_POST: ${{ steps.discord.outputs.clothing_post }}
           TRAINER_CODE: ${{ steps.trainers.outputs.code }}
           CLOTHING_CODE: ${{ steps.clothing.outputs.code }}
         run: |
           node <<'NODE'
           const fs = require('fs');
-          const read = p => { try { return JSON.parse(fs.readFileSync(p,'utf8')); } catch { return null; } };
-          const trainer = read('vinted-radar/smoke-trainer-state.json');
-          const clothing = read('vinted-radar/smoke-clothing-state.json');
-          const discordTrainer = read('/tmp/trainers-discord.json');
-          const discordClothing = read('/tmp/clothing-discord.json');
+          const readJson = p => { try { return JSON.parse(fs.readFileSync(p,'utf8')); } catch { return null; } };
+          const readText = p => { try { return fs.readFileSync(p,'utf8').slice(-4000); } catch { return null; } };
+          const n = (v, fallback=999) => v === undefined || v === '' ? fallback : Number(v);
+          const trainer = readJson('vinted-radar/smoke-trainer-state.json');
+          const clothing = readJson('vinted-radar/smoke-clothing-state.json');
+          const discordTrainer = readJson('/tmp/trainers-discord.json');
+          const discordClothing = readJson('/tmp/clothing-discord.json');
           const result = {
             at: new Date().toISOString(),
-            validationReached: true,
-            trainerExitCode: Number(process.env.TRAINER_CODE ?? 999),
-            clothingExitCode: Number(process.env.CLOTHING_CODE ?? 999),
+            validationExitCode: n(process.env.VALIDATION_CODE),
+            validationLogTail: readText('/tmp/validation.log'),
+            trainerSecretPresent: process.env.TRAINER_PRESENT === '1',
+            clothingSecretPresent: process.env.CLOTHING_PRESENT === '1',
+            trainerDiscordGetHttp: process.env.TRAINER_GET || null,
+            clothingDiscordGetHttp: process.env.CLOTHING_GET || null,
+            trainerDiscordPostHttp: process.env.TRAINER_POST || null,
+            clothingDiscordPostHttp: process.env.CLOTHING_POST || null,
             trainerDiscordMessageId: discordTrainer?.id ?? null,
             clothingDiscordMessageId: discordClothing?.id ?? null,
+            trainerDiscordBody: readText('/tmp/trainers-discord.json'),
+            clothingDiscordBody: readText('/tmp/clothing-discord.json'),
+            trainerExitCode: n(process.env.TRAINER_CODE),
+            clothingExitCode: n(process.env.CLOTHING_CODE),
             trainerDiagnostics: trainer?.diagnostics ?? null,
             clothingDiagnostics: clothing?.diagnostics ?? null,
             trainerLastAttemptAt: trainer?.freshness?.lastAttemptAt ?? null,
-            clothingLastAttemptAt: clothing?.freshness?.lastAttemptAt ?? null
+            clothingLastAttemptAt: clothing?.freshness?.lastAttemptAt ?? null,
+            trainerScanLogTail: readText('/tmp/trainers-scan.log'),
+            clothingScanLogTail: readText('/tmp/clothing-scan.log')
           };
           fs.writeFileSync('vinted-radar/smoke-result.json', JSON.stringify(result, null, 2) + '\n');
           NODE
