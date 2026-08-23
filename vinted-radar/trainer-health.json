@@ -1,38 +1,40 @@
 {
-  "generatedAt": "2026-08-23T22:10:22.398Z",
-  "stateUpdatedAt": "2026-08-23T22:10:22.398Z",
-  "lastAttemptAt": "2026-08-23T22:10:22.398Z",
-  "lastScanAt": "2026-08-23T22:10:22.398Z",
+  "generatedAt": "2026-08-23T22:16:31.413Z",
+  "stateUpdatedAt": "2026-08-23T22:16:31.413Z",
+  "lastAttemptAt": "2026-08-23T22:16:31.413Z",
+  "lastScanAt": "2026-08-23T22:16:31.413Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
-    "Nike Vomero Premium::primary",
-    "Nike Pegasus Premium::primary",
-    "Nike Pegasus Trail 5 GORE-TEX::primary",
-    "Nike TN::primary",
-    "Nike Air Max Plus 3::primary",
-    "Nike Air Max Plus VII::primary",
-    "Nike Air Max 95::primary",
-    "Nike Air Max 90::primary"
+    "Nike Air Max 90 Drift::primary",
+    "Nike Air Max 97::primary",
+    "Nike Air Max 270::primary",
+    "Nike Air Max Dn::primary",
+    "Nike Air Max 1::primary",
+    "Nike Shox TL::primary",
+    "Nike Shox R4::primary",
+    "Nike Shox Ride 2::primary"
   ],
   "successfulSearches": 8,
   "failedSearches": 0,
   "catalogMarkers": 1536,
-  "catalogItems": 1112,
-  "candidateItems": 572,
-  "freshItems": 30,
-  "qualifyingAlerts": 8,
+  "catalogItems": 1005,
+  "candidateItems": 550,
+  "freshItems": 22,
+  "qualifyingAlerts": 9,
   "qualifyingByCondition": {
-    "veryGood": 5,
-    "newWithoutTags": 3
+    "veryGood": 7,
+    "newWithoutTags": 1,
+    "newWithTags": 1
   },
-  "deliveredAlerts": 8,
+  "deliveredAlerts": 9,
   "deliveredByCondition": {
-    "veryGood": 5,
-    "newWithoutTags": 3
+    "veryGood": 7,
+    "newWithoutTags": 1,
+    "newWithTags": 1
   },
-  "duplicateSuppressed": 53,
+  "duplicateSuppressed": 27,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -68,12 +70,10 @@
   "pendingDeliveries": 0,
   "detailFetches": 21,
   "rejects": {
-    "stale": 489,
+    "stale": 501,
     "size": 9,
-    "score": 3,
-    "keyword": 5,
-    "condition": 3,
-    "seller-risk": 1,
+    "score": 1,
+    "seller-risk": 2,
     "price": 1
   },
   "failures": {}
