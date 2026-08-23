@@ -121,6 +121,35 @@ jobs:
           git config user.name "Dan's Vault Trainers Radar"
           git config user.email "actions@users.noreply.github.com"
           cp vinted-radar/state.json /tmp/trainers-state.json
+          node <<'NODE'
+          const fs = require('fs');
+          const s = JSON.parse(fs.readFileSync('/tmp/trainers-state.json', 'utf8'));
+          const d = s.diagnostics || {};
+          const health = {
+            generatedAt: new Date().toISOString(),
+            stateUpdatedAt: s.updatedAt ?? null,
+            lastAttemptAt: s.freshness?.lastAttemptAt ?? null,
+            lastScanAt: s.freshness?.lastScanAt ?? null,
+            cooldownUntil: s.cooldownUntil ?? null,
+            healthyScan: d.healthyScan ?? false,
+            healthReason: d.healthReason ?? null,
+            selectedSearches: d.selectedSearches ?? [],
+            successfulSearches: d.successfulSearches ?? 0,
+            failedSearches: d.failedSearches ?? 0,
+            catalogMarkers: d.catalogMarkers ?? 0,
+            catalogItems: d.catalogItems ?? 0,
+            candidateItems: d.candidateItems ?? 0,
+            freshItems: d.freshItems ?? 0,
+            qualifyingAlerts: d.qualifyingAlerts ?? 0,
+            deliveredAlerts: d.deliveredAlerts ?? 0,
+            discordFailures: d.discordFailures ?? 0,
+            pendingDeliveries: d.pendingDeliveries ?? 0,
+            detailFetches: d.detailFetches ?? 0,
+            rejects: d.rejects ?? {},
+            failures: d.failures ?? {}
+          };
+          fs.writeFileSync('/tmp/trainers-health.json', JSON.stringify(health, null, 2) + '\n');
+          NODE
 
           for attempt in 1 2 3 4 5; do
             git fetch origin main
@@ -134,7 +163,8 @@ jobs:
             fi
 
             cp /tmp/trainers-state.json vinted-radar/state.json
-            git add vinted-radar/state.json
+            cp /tmp/trainers-health.json vinted-radar/trainer-health.json
+            git add vinted-radar/state.json vinted-radar/trainer-health.json
             if git diff --cached --quiet; then exit 0; fi
             git commit -m "Update Nike trainers radar state"
             if git push origin HEAD:main; then exit 0; fi
