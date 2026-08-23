@@ -1,0 +1,61 @@
+name: Apply Vinted Fresh Listing Fix
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'vinted-radar/apply-fresh-id-fix-once.mjs'
+      - '.github/workflows/apply-vinted-fresh-id-fix.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: apply-vinted-fresh-id-fix
+  cancel-in-progress: true
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Apply source fix
+        run: |
+          set -e
+          node --check vinted-radar/apply-fresh-id-fix-once.mjs
+          node vinted-radar/apply-fresh-id-fix-once.mjs
+          node --check vinted-radar/radar-v6.mjs
+
+      - name: Test freshness policy
+        run: |
+          node --input-type=module <<'NODE'
+          import assert from 'node:assert/strict';
+          import { classifyFreshness, parseAgeMinutes } from './vinted-radar/radar-v6.mjs';
+          assert.equal(classifyFreshness({ id: '101', ageMinutes: null }, '100'), 'new-id');
+          assert.equal(classifyFreshness({ id: '99', ageMinutes: 2 }, '100'), 'age');
+          assert.equal(classifyFreshness({ id: '99', ageMinutes: null }, '100'), null);
+          assert.equal(parseAgeMinutes('2 minutes ago'), 2);
+          assert.equal(parseAgeMinutes('a minute ago'), 1);
+          assert.equal(parseAgeMinutes('less than a minute ago'), 0);
+          console.log('Freshness regression tests passed.');
+          NODE
+
+      - name: Run existing radar self-test
+        run: node vinted-radar/radar-selftest.mjs
+
+      - name: Commit permanent source change
+        run: |
+          git config user.name "Dan's Vault Radar Fix"
+          git config user.email "actions@users.noreply.github.com"
+          git add vinted-radar/radar-v6.mjs
+          if git diff --cached --quiet; then
+            echo "Fresh listing fix already committed."
+            exit 0
+          fi
+          git commit -m "Fix fresh Vinted listing detection by item frontier"
+          git push origin HEAD:main
