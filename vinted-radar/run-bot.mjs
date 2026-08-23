@@ -7,6 +7,7 @@ import { applyClothingDiscoveryHardening } from './clothing-discovery-hardening.
 import { applyConditionTierExpansion } from './condition-tier-expansion.mjs';
 import { applyConditionFallback } from './condition-fallback.mjs';
 import { applyConditionChannelRouting } from './condition-channel-routing.mjs';
+import { applyListingImageEmbed } from './listing-image-embed.mjs';
 
 const root = new URL('./', import.meta.url);
 const bot = process.env.BOT_TYPE ?? 'trainers';
@@ -27,7 +28,8 @@ if (bot === 'clothing') {
 await applyConditionTierExpansion();
 await applyConditionFallback();
 await applyConditionChannelRouting();
-const { runRadarV6 } = await import(`./radar-v6.mjs?expanded-${bot}-v5`);
+await applyListingImageEmbed();
+const { runRadarV6 } = await import(`./radar-v6.mjs?expanded-${bot}-v6`);
 const baseConfig = JSON.parse(await fs.readFile(new URL('./config.json', root), 'utf8'));
 
 // "Very good" is a valid alert tier. Keep explicit Good/Fair/Satisfactory filtering,
