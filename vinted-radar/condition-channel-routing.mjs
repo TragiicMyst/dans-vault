@@ -1,7 +1,7 @@
 import fs from 'node:fs/promises';
 
 const radarUrl = new URL('./radar-v6.mjs', import.meta.url);
-const MARKER = '// DAN_CONDITION_CHANNEL_ROUTING_V6';
+const MARKER = '// DAN_CONDITION_CHANNEL_ROUTING_V7';
 
 export async function applyConditionChannelRouting() {
   let src = await fs.readFile(radarUrl, 'utf8');
@@ -14,7 +14,7 @@ export async function applyConditionChannelRouting() {
 
   src = src.replace(
     "function normalizeState(s){s.items??={};s.freshness??={frontiers:{},lastScanAt:null,lastAttemptAt:null};s.freshness.frontiers??={};s.pendingDeliveries??={};if(!Number.isFinite(Number(s.rotationCursor)))s.rotationCursor=0;}",
-    "function normalizeState(s){s.items??={};s.freshness??={frontiers:{},lastScanAt:null,lastAttemptAt:null};s.freshness.frontiers??={};s.pendingDeliveries??={};s.alertedItemIds??={};if(!Number.isFinite(Number(s.rotationCursor)))s.rotationCursor=0;}"
+    "function normalizeState(s){s.items??={};s.freshness??={frontiers:{},lastScanAt:null,lastAttemptAt:null};s.freshness.frontiers??={};s.pendingDeliveries??={};s.alertedItemIds??={};for(const [id,item] of Object.entries(s.items)){if(item?.lastAlertedAt&&!s.alertedItemIds[id])s.alertedItemIds[id]=item.lastAlertedAt;}if(!Number.isFinite(Number(s.rotationCursor)))s.rotationCursor=0;}"
   );
   src = src.replace(
     "function defaultState(){return{items:{},freshness:{frontiers:{},lastScanAt:null,lastAttemptAt:null},pendingDeliveries:{},rotationCursor:0,radarVersion:RADAR_VERSION};}",
