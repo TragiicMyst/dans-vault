@@ -1,40 +1,36 @@
 {
-  "generatedAt": "2026-08-23T22:16:31.413Z",
-  "stateUpdatedAt": "2026-08-23T22:16:31.413Z",
-  "lastAttemptAt": "2026-08-23T22:16:31.413Z",
-  "lastScanAt": "2026-08-23T22:16:31.413Z",
+  "generatedAt": "2026-08-23T22:40:52.854Z",
+  "stateUpdatedAt": "2026-08-23T22:40:52.854Z",
+  "lastAttemptAt": "2026-08-23T22:40:52.854Z",
+  "lastScanAt": "2026-08-23T22:40:52.854Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
-    "Nike Air Max 90 Drift::primary",
-    "Nike Air Max 97::primary",
-    "Nike Air Max 270::primary",
-    "Nike Air Max Dn::primary",
-    "Nike Air Max 1::primary",
-    "Nike Shox TL::primary",
-    "Nike Shox R4::primary",
-    "Nike Shox Ride 2::primary"
+    "Nike Air Force 1::primary",
+    "Nike Dunk Low::primary",
+    "Air Jordan 1 Low::primary",
+    "Air Jordan 1 Mid::primary",
+    "Air Jordan 4::primary",
+    "Nike Initiator::primary",
+    "Nike Air Max Moto 2K::primary",
+    "Nike Metcon 10::primary"
   ],
   "successfulSearches": 8,
   "failedSearches": 0,
   "catalogMarkers": 1536,
-  "catalogItems": 1005,
-  "candidateItems": 550,
-  "freshItems": 22,
+  "catalogItems": 998,
+  "candidateItems": 714,
+  "freshItems": 117,
   "qualifyingAlerts": 9,
   "qualifyingByCondition": {
-    "veryGood": 7,
-    "newWithoutTags": 1,
-    "newWithTags": 1
+    "veryGood": 9
   },
   "deliveredAlerts": 9,
   "deliveredByCondition": {
-    "veryGood": 7,
-    "newWithoutTags": 1,
-    "newWithTags": 1
+    "veryGood": 9
   },
-  "duplicateSuppressed": 27,
+  "duplicateSuppressed": 19,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -68,13 +64,15 @@
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 21,
+  "detailFetches": 24,
   "rejects": {
-    "stale": 501,
-    "size": 9,
-    "score": 1,
-    "seller-risk": 2,
-    "price": 1
+    "price": 4,
+    "recovery-no-fresh-signal": 578,
+    "condition": 8,
+    "seller-risk": 9,
+    "size": 6,
+    "detail-budget-exhausted": 29,
+    "seller-check-budget-exhausted": 52
   },
   "failures": {}
 }
