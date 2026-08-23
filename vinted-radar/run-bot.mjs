@@ -6,6 +6,7 @@ import { applyExpandedClothingRadar } from './expanded-clothing-radar.mjs';
 import { applyClothingDiscoveryHardening } from './clothing-discovery-hardening.mjs';
 import { applyConditionTierExpansion } from './condition-tier-expansion.mjs';
 import { applyConditionFallback } from './condition-fallback.mjs';
+import { applyTrainerThroughput } from './trainer-throughput.mjs';
 import { applySellerSafety } from './seller-safety.mjs';
 import { applyTrainerAlertBalance } from './trainer-alert-balance.mjs';
 import { applyConditionChannelRouting } from './condition-channel-routing.mjs';
@@ -41,6 +42,7 @@ if (bot === 'clothing') {
 }
 await applyConditionTierExpansion();
 await applyConditionFallback();
+if (bot === 'trainers') await applyTrainerThroughput();
 await applySellerSafety();
 if (bot === 'trainers') await applyTrainerAlertBalance();
 await applyConditionChannelRouting();
@@ -73,6 +75,7 @@ try {
   state.diagnostics ??= diagnostics ?? {};
   state.diagnostics.discordRoutes = routeResolution.summary;
   state.diagnostics.discordRouteAutoCorrected = routeResolution.autoCorrected;
+  state.diagnostics.discordRouteWarnings = routeResolution.warnings ?? [];
   await fs.writeFile(statePath, JSON.stringify(state, null, 2) + '\n');
 } catch (error) {
   console.error(`Could not persist Discord route diagnostics: ${error.message}`);
