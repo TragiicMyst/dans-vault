@@ -6,6 +6,7 @@ import { applyExpandedClothingRadar } from './expanded-clothing-radar.mjs';
 import { applyClothingDiscoveryHardening } from './clothing-discovery-hardening.mjs';
 import { applyConditionTierExpansion } from './condition-tier-expansion.mjs';
 import { applyConditionFallback } from './condition-fallback.mjs';
+import { applySellerSafety } from './seller-safety.mjs';
 import { applyConditionChannelRouting } from './condition-channel-routing.mjs';
 import { applyListingImageEmbed } from './listing-image-embed.mjs';
 
@@ -27,6 +28,7 @@ if (bot === 'clothing') {
 }
 await applyConditionTierExpansion();
 await applyConditionFallback();
+await applySellerSafety();
 await applyConditionChannelRouting();
 await applyListingImageEmbed();
 const { runRadarV6 } = await import(`./radar-v6.mjs?expanded-${bot}-v6`);
