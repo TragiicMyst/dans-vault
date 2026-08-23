@@ -1,0 +1,68 @@
+{
+  "startedAt": "2026-08-23T21:50:01Z",
+  "finishedAt": "2026-08-23T21:52:07Z",
+  "exitCode": 0,
+  "lastScanAt": "2026-08-23T21:50:02.517Z",
+  "lastAttemptAt": "2026-08-23T21:50:02.517Z",
+  "healthyScan": true,
+  "healthReason": "all-selected-searches-completed",
+  "successfulSearches": 8,
+  "failedSearches": 0,
+  "freshItems": 168,
+  "qualifyingAlerts": 10,
+  "qualifyingByCondition": {
+    "newWithoutTags": 1,
+    "veryGood": 9
+  },
+  "deliveredAlerts": 10,
+  "deliveredByCondition": {
+    "newWithoutTags": 1,
+    "veryGood": 9
+  },
+  "discordFailures": 0,
+  "discordRoutes": [
+    {
+      "configuredAs": "newWithoutTags",
+      "webhookId": "1541037387969462303",
+      "channelId": "1541036356384329819",
+      "guildId": "1540743210488430592",
+      "webhookName": "Dan's NWOT Bot",
+      "detectedCondition": "newWithoutTags",
+      "inspectionError": null
+    },
+    {
+      "configuredAs": "newWithTags",
+      "webhookId": "1541040362997547048",
+      "channelId": "1541040152372183140",
+      "guildId": "1540743210488430592",
+      "webhookName": "Dan's New With Tags Bot",
+      "detectedCondition": "newWithTags",
+      "inspectionError": null
+    },
+    {
+      "configuredAs": "veryGood",
+      "webhookId": "1541040545483198516",
+      "channelId": "1541040213780992171",
+      "guildId": "1540743210488430592",
+      "webhookName": "Dan's Very Good Condition Bot",
+      "detectedCondition": "veryGood",
+      "inspectionError": null
+    }
+  ],
+  "discordRouteWarnings": [],
+  "detailFetches": 24,
+  "pendingDeliveries": 0,
+  "failures": {},
+  "rejects": {
+    "stale": 513,
+    "seller-risk": 9,
+    "price": 6,
+    "size": 5,
+    "keyword": 9,
+    "condition": 18,
+    "weak-margin": 1,
+    "detail-budget-exhausted": 40,
+    "seller-check-budget-exhausted": 70
+  },
+  "logTail": "Vinted fetch guard active: paced requests + fail-fast 403/429 cooldown.\nDISCORD ROUTE CHECK {\"autoCorrected\":false,\"warnings\":[],\"routes\":[{\"configuredAs\":\"newWithoutTags\",\"webhookId\":\"1541037387969462303\",\"channelId\":\"1541036356384329819\",\"guildId\":\"1540743210488430592\",\"webhookName\":\"Dan's NWOT Bot\",\"detectedCondition\":\"newWithoutTags\",\"inspectionError\":null},{\"configuredAs\":\"newWithTags\",\"webhookId\":\"1541040362997547048\",\"channelId\":\"1541040152372183140\",\"guildId\":\"1540743210488430592\",\"webhookName\":\"Dan's New With Tags Bot\",\"detectedCondition\":\"newWithTags\",\"inspectionError\":null},{\"configuredAs\":\"veryGood\",\"webhookId\":\"1541040545483198516\",\"channelId\":\"1541040213780992171\",\"guildId\":\"1540743210488430592\",\"webhookName\":\"Dan's Very Good Condition Bot\",\"detectedCondition\":\"veryGood\",\"inspectionError\":null}]}\nALERT DELIVERED 1541202927052394588: Nike Shox R4 | nike shox r4 | £55\nALERT DELIVERED 1541203017049579584: Nike Air Force 1 | nike mens black air force 1 type gum size 10 | £50\nALERT DELIVERED 1541203033252430018: Nike Air Force 1 | nike af1 | £40\nALERT DELIVERED 1541203055515668595: Nike Air Force 1 | air force 1 | £60\nALERT DELIVERED 1541203077317664859: Nike Air Force 1 | nike air force 1 low 07 lv8 40th anniversary sail malachite size 11 | £50\nALERT DELIVERED 1541203104668717058: Nike Air Force 1 | air force 1 huarache edition uk 11 used | £50\nALERT DELIVERED 1541203185820242011: Nike Air Force 1 | suede black af1 | £40\nALERT DELIVERED 1541203206523322430: Nike Air Force 1 | nike air force 1 low top mens trainers uk 8 blackyellow lace up sneakers | £40\nALERT DELIVERED 1541203255298752513: Nike Air Force 1 | nike air force 1 | £25\nALERT DELIVERED 1541203276698226699: Nike Air Force 1 | white af1 nike | £40\nRADAR V6 trainers: 8/8 searches OK; 981 parsed; 168 fresh; 10 delivered; 0 pending; healthy=true.\n"
+}
