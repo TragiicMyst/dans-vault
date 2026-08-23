@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - 'vinted-radar/smoke-trigger.txt'
+      - 'vinted-radar/probe-vinted.mjs'
       - '.github/workflows/vinted-radar-smoke.yml'
   workflow_dispatch:
 
@@ -15,7 +16,7 @@ permissions:
 jobs:
   smoke:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 6
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -26,20 +27,13 @@ jobs:
         run: |
           set +e
           : > /tmp/validation.log
-          node --check vinted-radar/fetch-guard.mjs >>/tmp/validation.log 2>&1
-          a=$?
-          node --check vinted-radar/apply-v5-parser-fix.mjs >>/tmp/validation.log 2>&1
-          b=$?
-          node vinted-radar/apply-v5-parser-fix.mjs >>/tmp/validation.log 2>&1
-          c=$?
-          node --check vinted-radar/radar-v5.mjs >>/tmp/validation.log 2>&1
-          d=$?
-          node --check vinted-radar/run-bot.mjs >>/tmp/validation.log 2>&1
-          e=$?
-          node --check vinted-radar/radar-selftest.mjs >>/tmp/validation.log 2>&1
-          f=$?
-          node vinted-radar/radar-selftest.mjs >>/tmp/validation.log 2>&1
-          g=$?
+          node --check vinted-radar/fetch-guard.mjs >>/tmp/validation.log 2>&1; a=$?
+          node --check vinted-radar/apply-v5-parser-fix.mjs >>/tmp/validation.log 2>&1; b=$?
+          node vinted-radar/apply-v5-parser-fix.mjs >>/tmp/validation.log 2>&1; c=$?
+          node --check vinted-radar/radar-v5.mjs >>/tmp/validation.log 2>&1; d=$?
+          node --check vinted-radar/run-bot.mjs >>/tmp/validation.log 2>&1; e=$?
+          node --check vinted-radar/radar-selftest.mjs >>/tmp/validation.log 2>&1; f=$?
+          node vinted-radar/radar-selftest.mjs >>/tmp/validation.log 2>&1; g=$?
           cat /tmp/validation.log
           if [ $a -eq 0 ] && [ $b -eq 0 ] && [ $c -eq 0 ] && [ $d -eq 0 ] && [ $e -eq 0 ] && [ $f -eq 0 ] && [ $g -eq 0 ]; then code=0; else code=1; fi
           echo "code=$code" >> "$GITHUB_OUTPUT"
@@ -71,6 +65,17 @@ jobs:
           echo "clothing_get=$clothing_get" >> "$GITHUB_OUTPUT"
           echo "trainer_post=$trainer_post" >> "$GITHUB_OUTPUT"
           echo "clothing_post=$clothing_post" >> "$GITHUB_OUTPUT"
+          exit 0
+
+      - name: Probe live Vinted catalogue responses
+        id: probe
+        continue-on-error: true
+        run: |
+          set +e
+          node vinted-radar/probe-vinted.mjs > /tmp/probe.log 2>&1
+          code=$?
+          cat /tmp/probe.log
+          echo "code=$code" >> "$GITHUB_OUTPUT"
           exit 0
 
       - name: Run one live trainer scan
@@ -109,6 +114,7 @@ jobs:
         if: ${{ always() }}
         env:
           VALIDATION_CODE: ${{ steps.validation.outputs.code }}
+          PROBE_CODE: ${{ steps.probe.outputs.code }}
           TRAINER_PRESENT: ${{ steps.discord.outputs.trainer_present }}
           CLOTHING_PRESENT: ${{ steps.discord.outputs.clothing_present }}
           TRAINER_GET: ${{ steps.discord.outputs.trainer_get }}
@@ -121,7 +127,7 @@ jobs:
           node <<'NODE'
           const fs = require('fs');
           const readJson = p => { try { return JSON.parse(fs.readFileSync(p,'utf8')); } catch { return null; } };
-          const readText = p => { try { return fs.readFileSync(p,'utf8').slice(-4000); } catch { return null; } };
+          const readText = p => { try { return fs.readFileSync(p,'utf8').slice(-5000); } catch { return null; } };
           const n = (v, fallback=999) => v === undefined || v === '' ? fallback : Number(v);
           const trainer = readJson('vinted-radar/smoke-trainer-state.json');
           const clothing = readJson('vinted-radar/smoke-clothing-state.json');
@@ -131,6 +137,8 @@ jobs:
             at: new Date().toISOString(),
             validationExitCode: n(process.env.VALIDATION_CODE),
             validationLogTail: readText('/tmp/validation.log'),
+            probeExitCode: n(process.env.PROBE_CODE),
+            probe: readJson('vinted-radar/probe-result.json'),
             trainerSecretPresent: process.env.TRAINER_PRESENT === '1',
             clothingSecretPresent: process.env.CLOTHING_PRESENT === '1',
             trainerDiscordGetHttp: process.env.TRAINER_GET || null,
@@ -139,8 +147,6 @@ jobs:
             clothingDiscordPostHttp: process.env.CLOTHING_POST || null,
             trainerDiscordMessageId: discordTrainer?.id ?? null,
             clothingDiscordMessageId: discordClothing?.id ?? null,
-            trainerDiscordBody: readText('/tmp/trainers-discord.json'),
-            clothingDiscordBody: readText('/tmp/clothing-discord.json'),
             trainerExitCode: n(process.env.TRAINER_CODE),
             clothingExitCode: n(process.env.CLOTHING_CODE),
             trainerDiagnostics: trainer?.diagnostics ?? null,
@@ -154,7 +160,7 @@ jobs:
           NODE
           git config user.name "Dan's Vault Radar Smoke"
           git config user.email "actions@users.noreply.github.com"
-          git add vinted-radar/smoke-result.json
+          git add vinted-radar/smoke-result.json vinted-radar/probe-result.json
           git commit -m "Record live Vinted radar smoke result" || exit 0
           git pull --rebase origin main
           git push origin HEAD:main
