@@ -1,0 +1,57 @@
+{
+  "checkedAt": "2026-08-23T18:43:15.135Z",
+  "lastScanAt": "2026-08-23T18:42:41.330Z",
+  "lastAttemptAt": "2026-08-23T18:42:41.330Z",
+  "diagnostics": {
+    "bot": "trainers",
+    "radarVersion": 6,
+    "lastRunAt": "2026-08-23T18:42:41.330Z",
+    "recoveryMode": true,
+    "filterProfile": {
+      "freshnessMinutes": 15,
+      "priceMultiplier": 1.4,
+      "minProfit": 8,
+      "minRoi": 20,
+      "strongProfit": 12,
+      "strongRoi": 30,
+      "exceptionalProfit": 20,
+      "exceptionalRoi": 50,
+      "defaultScore": 55
+    },
+    "totalSearchGroups": 30,
+    "selectedSearches": [
+      "Nike Air Force 1::primary",
+      "Nike Dunk Low::primary",
+      "Air Jordan 1 Low::primary",
+      "Air Jordan 1 Mid::primary"
+    ],
+    "successfulSearches": 4,
+    "failedSearches": 0,
+    "confirmedEmptySearches": 0,
+    "catalogMarkers": 768,
+    "catalogItems": 559,
+    "candidateItems": 435,
+    "freshItems": 301,
+    "freshByAge": 0,
+    "freshByNewId": 301,
+    "qualifyingAlerts": 1,
+    "deliveredAlerts": 1,
+    "discordFailures": 0,
+    "pendingDeliveries": 0,
+    "rejects": {
+      "size": 3,
+      "seller-check-budget-exhausted": 108,
+      "detail-budget-exhausted": 83,
+      "condition": 48,
+      "keyword": 34,
+      "weak-margin": 6,
+      "price": 18,
+      "recovery-no-fresh-signal": 134
+    },
+    "failures": {},
+    "healthyScan": true,
+    "detailFetches": 4,
+    "healthReason": "all-selected-searches-completed"
+  },
+  "log": "===== check-fetch-guard =====\nEXIT=0\n===== check-condition-fallback =====\nEXIT=0\n===== check-seller-safety =====\nEXIT=0\n===== check-runner =====\nEXIT=0\n===== radar-selftest =====\nRadar v6 self-test passed.\nEXIT=0\n===== trainer-discovery-selftest =====\nTrainer discovery hardening self-test passed.\nEXIT=0\n===== seller-safety-selftest =====\nIntegrated trainer seller safety self-test passed.\nEXIT=0\n===== condition-channel-selftest =====\nCondition channel routing self-test passed.\nEXIT=0\n===== live-cycle =====\nVinted fetch guard active: paced requests + automatic 403/429 cooldown.\nALERT DELIVERED 1541155799068442735: Nike Air Force 1 | nike air force 1 low 07 uk 10 | £42\nRADAR V6 trainers: 4/4 searches OK; 559 parsed; 301 fresh; 1 delivered; 0 pending; healthy=true.\nEXIT=0\n"
+}
