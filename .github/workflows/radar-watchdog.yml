@@ -1,0 +1,53 @@
+name: Dan's Vault Radar Watchdog
+
+on:
+  schedule:
+    - cron: '2-57/5 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: write
+
+jobs:
+  watchdog:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Recover stale radar workflows
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -e
+
+          restart_if_stale() {
+            health_file="$1"
+            workflow_file="$2"
+            label="$3"
+            max_age_seconds=540
+            now_epoch=$(date -u +%s)
+
+            last_ts=""
+            if [ -f "$health_file" ]; then
+              last_ts=$(jq -r '.lastAttemptAt // .lastScanAt // .generatedAt // empty' "$health_file" 2>/dev/null || true)
+            fi
+
+            last_epoch=0
+            if [ -n "$last_ts" ]; then
+              last_epoch=$(date -u -d "$last_ts" +%s 2>/dev/null || echo 0)
+            fi
+
+            age=$((now_epoch - last_epoch))
+            if [ "$last_epoch" -le 0 ] || [ "$age" -gt "$max_age_seconds" ]; then
+              echo "$label radar is stale (${age}s); dispatching recovery run."
+              gh workflow run "$workflow_file" --ref main
+            else
+              echo "$label radar healthy enough (${age}s since last attempt)."
+            fi
+          }
+
+          restart_if_stale "vinted-radar/trainer-health.json" "vinted-radar.yml" "Trainer"
+          restart_if_stale "vinted-radar/clothing-health.json" "vinted-clothing.yml" "Clothing"
