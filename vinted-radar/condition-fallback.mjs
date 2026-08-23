@@ -1,16 +1,24 @@
 import fs from 'node:fs/promises';
 
 const radarUrl = new URL('./radar-v6.mjs', import.meta.url);
-const MARKER = '// DAN_CONDITION_FALLBACK_V1';
+const MARKER = '// DAN_CONDITION_FALLBACK_V2';
 
 export async function applyConditionFallback() {
   let src = await fs.readFile(radarUrl, 'utf8');
   if (src.includes(MARKER)) return;
 
-  const oldLine = "    if (condition === 'unknown') { remember(state, item, prior, { blockedReason: 'condition-not-confirmed', size }); reject(diagnostics, 'condition-not-confirmed'); continue; }";
-  const replacement = `${MARKER}\n    if (condition === 'unknown') {\n      condition = 'unconfirmed';\n      diagnostics.unconfirmedConditionPassed = Number(diagnostics.unconfirmedConditionPassed || 0) + 1;\n    }`;
-  if (!src.includes(oldLine)) throw new Error('Condition fallback patch target not found');
-  src = src.replace(oldLine, replacement);
+  // If the size is already known, do not make a detail-page request just to prove
+  // the condition. Unknown condition is allowed to continue through the normal
+  // price, margin, authenticity and score checks.
+  const oldDetailGate = "    if (size === null || condition === 'unknown') {";
+  const newDetailGate = "    if (size === null) {";
+  if (!src.includes(oldDetailGate)) throw new Error('Condition detail gate patch target not found');
+  src = src.replace(oldDetailGate, newDetailGate);
+
+  const oldReject = "    if (condition === 'unknown') { remember(state, item, prior, { blockedReason: 'condition-not-confirmed', size }); reject(diagnostics, 'condition-not-confirmed'); continue; }";
+  const newFallback = `${MARKER}\n    if (condition === 'unknown') {\n      condition = 'unconfirmed';\n      diagnostics.unconfirmedConditionPassed = Number(diagnostics.unconfirmedConditionPassed || 0) + 1;\n    }`;
+  if (!src.includes(oldReject)) throw new Error('Condition fallback patch target not found');
+  src = src.replace(oldReject, newFallback);
 
   const oldLabel = "a.condition==='newWithTags'?'🆕 New with tags':'🆕 New without tags'";
   const newLabel = "a.condition==='newWithTags'?'🆕 New with tags':a.condition==='newWithoutTags'?'🆕 New without tags':'⚠️ Condition unconfirmed'";
