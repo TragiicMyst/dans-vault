@@ -1,0 +1,33 @@
+{
+  "generatedAt": "2026-08-23T19:48:50.432Z",
+  "stateUpdatedAt": "2026-08-23T19:47:04.866Z",
+  "lastAttemptAt": "2026-08-23T19:47:04.866Z",
+  "lastScanAt": "2026-08-23T19:47:04.866Z",
+  "cooldownUntil": null,
+  "healthyScan": true,
+  "healthReason": "all-selected-searches-completed",
+  "selectedSearches": [
+    "Nike Air Max 270::primary",
+    "Nike Air Max Dn::primary",
+    "Nike Air Max 1::primary",
+    "Nike Shox TL::primary"
+  ],
+  "successfulSearches": 4,
+  "failedSearches": 0,
+  "catalogMarkers": 768,
+  "catalogItems": 588,
+  "candidateItems": 268,
+  "freshItems": 10,
+  "qualifyingAlerts": 5,
+  "deliveredAlerts": 5,
+  "discordFailures": 0,
+  "pendingDeliveries": 0,
+  "detailFetches": 8,
+  "rejects": {
+    "keyword": 1,
+    "size": 3,
+    "stale": 249,
+    "detail-budget-exhausted": 1
+  },
+  "failures": {}
+}
