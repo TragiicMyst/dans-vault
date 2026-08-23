@@ -90,9 +90,58 @@ const fixedStateBlock = `  const minimumHealthy = Math.ceil(selected.length * 0.
   console.log(\`RADAR V5 \${bot}: \${diagnostics.successfulSearches}/\${selected.length} selected searches OK; \${diagnostics.freshItems} fresh; \${diagnostics.deliveredAlerts} delivered; \${diagnostics.pendingDeliveries} pending; healthy=\${healthyScan}.\`);`;
 replaceExact('truthful scan health and rotation persistence', oldStateBlock, fixedStateBlock);
 
+// Active-reseller filter profile: noticeably more alerts while keeping a sensible profit floor.
+replaceExact(
+  '15-minute freshness window',
+  'const LIVE_FRESHNESS_MINUTES = 10;',
+  'const LIVE_FRESHNESS_MINUTES = 15;'
+);
+
+replaceExact(
+  'more lenient trainer score floors',
+  "  trainers: { default:60,'Nike Pegasus Premium':63,'Nike Air Max 95':62,'Nike Air Max 97':62,'Nike Shox TL':62,'Nike Vomero 5':62,'Nike TN':62 },",
+  "  trainers: { default:55,'Nike Pegasus Premium':58,'Nike Air Max 95':57,'Nike Air Max 97':57,'Nike Shox TL':57,'Nike Vomero 5':57,'Nike TN':57 },"
+);
+
+replaceExact(
+  'more lenient clothing score floors',
+  "  clothing: { default:60,'Nike Tech Fleece Tracksuit':63,'Nike ACG Fleece':63,'Nike ACG Jacket':63,'Nike Puffer Jacket':62 }",
+  "  clothing: { default:55,'Nike Tech Fleece Tracksuit':58,'Nike ACG Fleece':58,'Nike ACG Jacket':58,'Nike Puffer Jacket':57 }"
+);
+
+replaceExact(
+  'reasonable minimum margin',
+  '    if (profit < 10 || roi < 25) {',
+  '    if (profit < 8 || roi < 20) {'
+);
+
+replaceExact(
+  'strong deal shortcut',
+  "    const strong = profit >= 15 && roi >= 40 && risk.level !== 'HIGH';",
+  "    const strong = profit >= 12 && roi >= 30 && risk.level !== 'HIGH';"
+);
+
+replaceExact(
+  'exceptional deal shortcut',
+  "    const exceptional = profit >= 25 && roi >= 65 && risk.level !== 'HIGH';",
+  "    const exceptional = profit >= 20 && roi >= 50 && risk.level !== 'HIGH';"
+);
+
+replaceExact(
+  'higher clothing search price ceiling',
+  "if (bot === 'clothing') return clothingSpecs.map(([name,q,base]) => ({ name, key:`${name}::${q}`, buyUrl:catalogUrl(q,round2(base*1.3)), maxPrice:round2(base*1.3), minScore:floors.clothing[name] ?? floors.clothing.default }));",
+  "if (bot === 'clothing') return clothingSpecs.map(([name,q,base]) => ({ name, key:`${name}::${q}`, buyUrl:catalogUrl(q,round2(base*1.4)), maxPrice:round2(base*1.4), minScore:floors.clothing[name] ?? floors.clothing.default }));"
+);
+
+replaceExact(
+  'higher trainer search price ceiling',
+  '    const maxPrice = round2(Number(s.maxPrice) * 1.3);',
+  '    const maxPrice = round2(Number(s.maxPrice) * 1.4);'
+);
+
 if (changed) {
   await fs.writeFile(file, source);
-  console.log('Applied Vinted v5 reliability fixes.');
+  console.log('Applied Vinted v5 reliability fixes and active-reseller alert filters.');
 } else {
-  console.log('Vinted v5 reliability fixes already active.');
+  console.log('Vinted v5 reliability fixes and active-reseller alert filters already active.');
 }
