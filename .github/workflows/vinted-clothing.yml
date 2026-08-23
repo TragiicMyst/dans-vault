@@ -7,7 +7,7 @@ on:
 
 concurrency:
   group: dans-vault-clothing-radar
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -53,7 +53,7 @@ jobs:
             echo "=== Clothing scan cycle $cycle ==="
             if node vinted-radar/run-bot.mjs; then
               successes=$((successes + 1))
-              node -e "const s=require('./vinted-radar/clothing-state.json'); const d=s.diagnostics||{}; console.log('Clothing scan OK:', s.freshness?.lastScanAt, 'selected:', d.successfulSearches ?? '?', '/', d.selectedSearches?.length ?? '?', 'total groups:', d.totalSearchGroups ?? '?', 'cards:', d.catalogItems ?? '?', 'fresh:', d.freshItems ?? '?', 'delivered:', d.deliveredAlerts ?? '?', 'pending:', d.pendingDeliveries ?? '?')"
+              node -e "const s=require('./vinted-radar/clothing-state.json'); const d=s.diagnostics||{}; console.log('Clothing scan OK:', s.freshness?.lastScanAt, 'attempt:', s.freshness?.lastAttemptAt, 'selected:', d.successfulSearches ?? '?', '/', d.selectedSearches?.length ?? '?', 'total groups:', d.totalSearchGroups ?? '?', 'cards:', d.catalogItems ?? '?', 'fresh:', d.freshItems ?? '?', 'delivered:', d.deliveredAlerts ?? '?', 'pending:', d.pendingDeliveries ?? '?', 'healthy:', d.healthyScan ?? '?')"
             else
               failures=$((failures+1))
               echo "Clothing scan cycle $cycle FAILED."
