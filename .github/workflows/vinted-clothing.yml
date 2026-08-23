@@ -4,12 +4,6 @@ on:
   schedule:
     - cron: '2-57/5 * * * *'
   workflow_dispatch:
-  push:
-    branches:
-      - main
-    paths:
-      - 'vinted-radar/*.mjs'
-      - '.github/workflows/vinted-clothing.yml'
 
 concurrency:
   group: dans-vault-clothing-radar
@@ -49,20 +43,16 @@ jobs:
           BOT_TYPE: clothing
           STATE_NAME: clothing-state.json
         run: |
-          if [ "${{ github.event_name }}" = "push" ]; then
-            deadline=$((SECONDS + 35))
-          else
-            deadline=$((SECONDS + 170))
-          fi
+          deadline=$((SECONDS + 145))
           successes=0
           failures=0
           cycle=0
           while [ $SECONDS -lt $deadline ]; do
-            cycle=$((cycle + 1))
+            cycle=$((cycle+1))
             cycle_start=$SECONDS
             echo "=== Clothing scan cycle $cycle ==="
             if node vinted-radar/run-bot.mjs; then
-              successes=$((successes + 1))
+              successes=$((successes+1))
               node -e "const s=require('./vinted-radar/clothing-state.json'); const d=s.diagnostics||{}; console.log('Clothing scan OK:', s.freshness?.lastScanAt, 'attempt:', s.freshness?.lastAttemptAt, 'selected:', d.successfulSearches ?? '?', '/', d.selectedSearches?.length ?? '?', 'total groups:', d.totalSearchGroups ?? '?', 'cards:', d.catalogItems ?? '?', 'fresh:', d.freshItems ?? '?', 'delivered:', d.deliveredAlerts ?? '?', 'pending:', d.pendingDeliveries ?? '?', 'healthy:', d.healthyScan ?? '?')"
             else
               failures=$((failures+1))
