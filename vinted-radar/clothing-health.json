@@ -1,33 +1,31 @@
 {
-  "generatedAt": "2026-08-23T20:02:17.202Z",
-  "stateUpdatedAt": "2026-08-23T20:01:42.813Z",
-  "lastAttemptAt": "2026-08-23T20:01:42.813Z",
+  "generatedAt": "2026-08-23T20:20:08.310Z",
+  "stateUpdatedAt": "2026-08-23T20:19:33.867Z",
+  "lastAttemptAt": "2026-08-23T20:19:33.867Z",
   "lastScanAt": "2026-08-23T20:01:42.813Z",
   "cooldownUntil": null,
-  "healthyScan": true,
-  "healthReason": "all-selected-searches-completed",
+  "healthyScan": false,
+  "healthReason": "discord-delivery-failure",
   "selectedSearches": [
-    "Nike Puffer Jacket::nike puffer jacket",
-    "Nike Storm-FIT Puffer::nike storm fit puffer",
-    "Nike Therma-FIT Jacket::nike therma fit jacket",
-    "Nike Windrunner Jacket::nike windrunner jacket"
+    "Nike Unlimited Shorts::nike unlimited shorts",
+    "Nike Miler Running Top::nike miler running top",
+    "Nike Dri-FIT Running Top::nike dri-fit running top",
+    "Nike Miler Challenger Running Set::nike miler challenger set"
   ],
   "successfulSearches": 4,
   "failedSearches": 0,
-  "catalogMarkers": 768,
-  "catalogItems": 469,
-  "candidateItems": 204,
-  "freshItems": 13,
-  "qualifyingAlerts": 6,
-  "deliveredAlerts": 6,
-  "discordFailures": 0,
-  "pendingDeliveries": 0,
+  "catalogMarkers": 864,
+  "catalogItems": 452,
+  "candidateItems": 200,
+  "freshItems": 2,
+  "qualifyingAlerts": 1,
+  "deliveredAlerts": 0,
+  "discordFailures": 5,
+  "pendingDeliveries": 7,
   "detailFetches": 0,
   "rejects": {
-    "keyword": 1,
-    "stale": 149,
-    "price": 5,
-    "weak-margin": 1
+    "recovery-no-fresh-signal": 181,
+    "price": 1
   },
   "failures": {}
 }
