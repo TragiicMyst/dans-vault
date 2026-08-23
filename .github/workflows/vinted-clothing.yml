@@ -20,12 +20,11 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: Validate radar code
+      - name: Validate radar v6
         run: |
+          set -e
           node --check vinted-radar/fetch-guard.mjs
-          node --check vinted-radar/apply-v5-parser-fix.mjs
-          node vinted-radar/apply-v5-parser-fix.mjs
-          node --check vinted-radar/radar-v5.mjs
+          node --check vinted-radar/radar-v6.mjs
           node --check vinted-radar/run-bot.mjs
           node --check vinted-radar/radar-selftest.mjs
           node vinted-radar/radar-selftest.mjs
@@ -53,7 +52,7 @@ jobs:
             echo "=== Clothing scan cycle $cycle ==="
             if node vinted-radar/run-bot.mjs; then
               successes=$((successes+1))
-              node -e "const s=require('./vinted-radar/clothing-state.json'); const d=s.diagnostics||{}; console.log('Clothing scan OK:', s.freshness?.lastScanAt, 'attempt:', s.freshness?.lastAttemptAt, 'selected:', d.successfulSearches ?? '?', '/', d.selectedSearches?.length ?? '?', 'total groups:', d.totalSearchGroups ?? '?', 'cards:', d.catalogItems ?? '?', 'fresh:', d.freshItems ?? '?', 'delivered:', d.deliveredAlerts ?? '?', 'pending:', d.pendingDeliveries ?? '?', 'healthy:', d.healthyScan ?? '?')"
+              node -e "const s=require('./vinted-radar/clothing-state.json'); const d=s.diagnostics||{}; console.log('Clothing v6 OK:', s.freshness?.lastScanAt, 'attempt:', s.freshness?.lastAttemptAt, 'selected:', d.successfulSearches ?? '?', '/', d.selectedSearches?.length ?? '?', 'markers:', d.catalogMarkers ?? '?', 'parsed:', d.catalogItems ?? '?', 'fresh:', d.freshItems ?? '?', 'delivered:', d.deliveredAlerts ?? '?', 'pending:', d.pendingDeliveries ?? '?', 'healthy:', d.healthyScan ?? '?')"
             else
               failures=$((failures+1))
               echo "Clothing scan cycle $cycle FAILED."
@@ -80,8 +79,8 @@ jobs:
             git reset --hard origin/main
 
             if [ -f vinted-radar/clothing-state.json ]; then
-              if node -e "const fs=require('fs'); const l=JSON.parse(fs.readFileSync('/tmp/clothing-state.json','utf8')); const r=JSON.parse(fs.readFileSync('vinted-radar/clothing-state.json','utf8')); const lt=Date.parse(l.updatedAt||l.freshness?.lastScanAt||0); const rt=Date.parse(r.updatedAt||r.freshness?.lastScanAt||0); process.exit(Number.isFinite(rt)&&Number.isFinite(lt)&&rt>lt?0:1)"; then
-                echo "Remote clothing state is newer; refusing to overwrite it with stale run state."
+              if node -e "const fs=require('fs'); const l=JSON.parse(fs.readFileSync('/tmp/clothing-state.json','utf8')); const r=JSON.parse(fs.readFileSync('vinted-radar/clothing-state.json','utf8')); const lt=Date.parse(l.updatedAt||l.freshness?.lastAttemptAt||l.freshness?.lastScanAt||0); const rt=Date.parse(r.updatedAt||r.freshness?.lastAttemptAt||r.freshness?.lastScanAt||0); process.exit(Number.isFinite(rt)&&Number.isFinite(lt)&&rt>lt?0:1)"; then
+                echo "Remote clothing state is newer; refusing stale overwrite."
                 exit 0
               fi
             fi
