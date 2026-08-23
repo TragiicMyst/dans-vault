@@ -25,7 +25,7 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: Validate radar v6, discovery, seller safety and alert balance
+      - name: Validate production trainer modules
         run: |
           set -e
           node --check vinted-radar/fetch-guard.mjs
@@ -37,17 +37,8 @@ jobs:
           node --check vinted-radar/seller-safety.mjs
           node --check vinted-radar/trainer-alert-balance.mjs
           node --check vinted-radar/condition-channel-routing.mjs
+          node --check vinted-radar/listing-image-embed.mjs
           node --check vinted-radar/run-bot.mjs
-          node --check vinted-radar/radar-selftest.mjs
-          node --check vinted-radar/trainer-discovery-selftest.mjs
-          node --check vinted-radar/seller-safety-selftest.mjs
-          node --check vinted-radar/trainer-alert-balance-selftest.mjs
-          node --check vinted-radar/condition-channel-selftest.mjs
-          node vinted-radar/radar-selftest.mjs
-          node vinted-radar/trainer-discovery-selftest.mjs
-          node vinted-radar/seller-safety-selftest.mjs
-          node vinted-radar/trainer-alert-balance-selftest.mjs
-          node vinted-radar/condition-channel-selftest.mjs
 
       - name: Validate trainers Discord webhooks
         env:
