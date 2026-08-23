@@ -1,7 +1,7 @@
 import fs from 'node:fs/promises';
 
 const radarUrl = new URL('./radar-v6.mjs', import.meta.url);
-const MARKER = '// DAN_CONDITION_FALLBACK_V2';
+const MARKER = '// DAN_CONDITION_FALLBACK_V3';
 
 export async function applyConditionFallback() {
   let src = await fs.readFile(radarUrl, 'utf8');
@@ -21,7 +21,7 @@ export async function applyConditionFallback() {
   src = src.replace(oldReject, newFallback);
 
   const oldLabel = "a.condition==='newWithTags'?'🆕 New with tags':'🆕 New without tags'";
-  const newLabel = "a.condition==='newWithTags'?'🆕 New with tags':a.condition==='newWithoutTags'?'🆕 New without tags':'⚠️ Condition unconfirmed'";
+  const newLabel = "a.condition==='newWithTags'?'🆕 New with tags':a.condition==='newWithoutTags'?'🆕 New without tags':a.condition==='veryGood'?'✅ Very good':'⚠️ Condition unconfirmed'";
   if (!src.includes(oldLabel)) throw new Error('Condition label patch target not found');
   src = src.replace(oldLabel, newLabel);
 
