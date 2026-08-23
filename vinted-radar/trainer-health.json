@@ -1,38 +1,38 @@
 {
-  "generatedAt": "2026-08-23T21:41:18.105Z",
-  "stateUpdatedAt": "2026-08-23T21:41:18.105Z",
-  "lastAttemptAt": "2026-08-23T21:41:18.105Z",
-  "lastScanAt": "2026-08-23T21:41:18.105Z",
+  "generatedAt": "2026-08-23T21:50:46.454Z",
+  "stateUpdatedAt": "2026-08-23T21:50:46.454Z",
+  "lastAttemptAt": "2026-08-23T21:50:46.454Z",
+  "lastScanAt": "2026-08-23T21:50:46.454Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
-    "Nike Air Max 95::primary",
-    "Nike Air Max 90::primary",
-    "Nike Air Max 90 Drift::primary",
-    "Nike Air Max 97::primary",
-    "Nike Air Max 270::primary",
-    "Nike Air Max Dn::primary",
-    "Nike Air Max 1::primary",
-    "Nike Shox TL::primary"
+    "Nike Shox R4::primary",
+    "Nike Shox Ride 2::primary",
+    "Nike Air Force 1::primary",
+    "Nike Dunk Low::primary",
+    "Air Jordan 1 Low::primary",
+    "Air Jordan 1 Mid::primary",
+    "Air Jordan 4::primary",
+    "Nike Initiator::primary"
   ],
   "successfulSearches": 8,
   "failedSearches": 0,
-  "catalogMarkers": 1536,
-  "catalogItems": 1159,
-  "candidateItems": 704,
-  "freshItems": 83,
-  "qualifyingAlerts": 12,
+  "catalogMarkers": 1535,
+  "catalogItems": 981,
+  "candidateItems": 685,
+  "freshItems": 167,
+  "qualifyingAlerts": 10,
   "qualifyingByCondition": {
-    "veryGood": 8,
-    "newWithTags": 4
+    "newWithoutTags": 1,
+    "veryGood": 9
   },
-  "deliveredAlerts": 12,
+  "deliveredAlerts": 10,
   "deliveredByCondition": {
-    "veryGood": 8,
-    "newWithTags": 4
+    "newWithoutTags": 1,
+    "veryGood": 9
   },
-  "duplicateSuppressed": 31,
+  "duplicateSuppressed": 9,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -66,17 +66,17 @@
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 16,
+  "detailFetches": 24,
   "rejects": {
-    "size": 2,
-    "keyword": 5,
-    "condition": 25,
-    "seller-risk": 2,
+    "stale": 509,
+    "seller-risk": 9,
+    "price": 5,
+    "size": 5,
+    "keyword": 10,
+    "condition": 18,
     "weak-margin": 1,
-    "price": 1,
-    "detail-budget-exhausted": 16,
-    "seller-check-budget-exhausted": 19,
-    "recovery-no-fresh-signal": 590
+    "detail-budget-exhausted": 39,
+    "seller-check-budget-exhausted": 70
   },
   "failures": {}
 }
