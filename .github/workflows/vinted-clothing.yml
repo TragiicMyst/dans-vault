@@ -8,11 +8,11 @@ on:
       - 'vinted-radar/fetch-guard.mjs'
       - 'vinted-radar/expanded-clothing-radar.mjs'
       - 'vinted-radar/clothing-discovery-hardening.mjs'
-      - 'vinted-radar/clothing-discovery-selftest.mjs'
       - 'vinted-radar/condition-tier-expansion.mjs'
       - 'vinted-radar/condition-fallback.mjs'
+      - 'vinted-radar/seller-safety.mjs'
       - 'vinted-radar/condition-channel-routing.mjs'
-      - 'vinted-radar/condition-channel-selftest.mjs'
+      - 'vinted-radar/listing-image-embed.mjs'
       - '.github/workflows/vinted-clothing.yml'
   schedule:
     - cron: '2-57/5 * * * *'
@@ -33,7 +33,7 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: Validate radar v6 and clothing discovery hardening
+      - name: Validate production clothing modules
         run: |
           set -e
           node --check vinted-radar/fetch-guard.mjs
@@ -42,35 +42,21 @@ jobs:
           node --check vinted-radar/clothing-discovery-hardening.mjs
           node --check vinted-radar/condition-tier-expansion.mjs
           node --check vinted-radar/condition-fallback.mjs
+          node --check vinted-radar/seller-safety.mjs
           node --check vinted-radar/condition-channel-routing.mjs
+          node --check vinted-radar/listing-image-embed.mjs
           node --check vinted-radar/run-bot.mjs
-          node --check vinted-radar/radar-selftest.mjs
-          node --check vinted-radar/clothing-discovery-selftest.mjs
-          node --check vinted-radar/condition-channel-selftest.mjs
-          node vinted-radar/radar-selftest.mjs
-          node vinted-radar/clothing-discovery-selftest.mjs
-          node vinted-radar/condition-channel-selftest.mjs
 
-      - name: Validate clothing Discord webhooks
+      - name: Validate clothing Discord webhook
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_CLOTHING_WEBHOOK_URL }}
-          DISCORD_NEW_WITHOUT_TAGS_WEBHOOK_URL: ${{ secrets.DISCORD_NEW_WITHOUT_TAGS_WEBHOOK_URL }}
-          DISCORD_NEW_WITH_TAGS_WEBHOOK_URL: ${{ secrets.DISCORD_NEW_WITH_TAGS_WEBHOOK_URL }}
-          DISCORD_VERY_GOOD_WEBHOOK_URL: ${{ secrets.DISCORD_VERY_GOOD_WEBHOOK_URL }}
         run: |
           test -n "$DISCORD_WEBHOOK_URL"
-          test -n "$DISCORD_NEW_WITHOUT_TAGS_WEBHOOK_URL"
           curl --fail --silent --show-error "$DISCORD_WEBHOOK_URL" >/dev/null
-          curl --fail --silent --show-error "$DISCORD_NEW_WITHOUT_TAGS_WEBHOOK_URL" >/dev/null
-          if [ -n "$DISCORD_NEW_WITH_TAGS_WEBHOOK_URL" ]; then curl --fail --silent --show-error "$DISCORD_NEW_WITH_TAGS_WEBHOOK_URL" >/dev/null; fi
-          if [ -n "$DISCORD_VERY_GOOD_WEBHOOK_URL" ]; then curl --fail --silent --show-error "$DISCORD_VERY_GOOD_WEBHOOK_URL" >/dev/null; fi
 
       - name: Run clothing radar repeatedly
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_CLOTHING_WEBHOOK_URL }}
-          DISCORD_NEW_WITHOUT_TAGS_WEBHOOK_URL: ${{ secrets.DISCORD_NEW_WITHOUT_TAGS_WEBHOOK_URL }}
-          DISCORD_NEW_WITH_TAGS_WEBHOOK_URL: ${{ secrets.DISCORD_NEW_WITH_TAGS_WEBHOOK_URL }}
-          DISCORD_VERY_GOOD_WEBHOOK_URL: ${{ secrets.DISCORD_VERY_GOOD_WEBHOOK_URL }}
           BOT_TYPE: clothing
           STATE_NAME: clothing-state.json
         run: |
@@ -84,7 +70,7 @@ jobs:
             echo "=== Clothing scan cycle $cycle ==="
             if timeout 70s node vinted-radar/run-bot.mjs; then
               successes=$((successes+1))
-              node -e "const s=require('./vinted-radar/clothing-state.json'); const d=s.diagnostics||{}; console.log('Clothing v6 OK:', s.freshness?.lastScanAt, 'attempt:', s.freshness?.lastAttemptAt, 'selected:', d.successfulSearches ?? '?', '/', d.selectedSearches?.length ?? '?', 'markers:', d.catalogMarkers ?? '?', 'parsed:', d.catalogItems ?? '?', 'fresh:', d.freshItems ?? '?', 'delivered:', d.deliveredAlerts ?? '?', 'pending:', d.pendingDeliveries ?? '?', 'healthy:', d.healthyScan ?? '?')"
+              node -e "const s=require('./vinted-radar/clothing-state.json'); const d=s.diagnostics||{}; console.log('Clothing v6 OK:', s.freshness?.lastScanAt, 'attempt:', s.freshness?.lastAttemptAt, 'selected:', d.successfulSearches ?? '?', '/', d.selectedSearches?.length ?? '?', 'markers:', d.catalogMarkers ?? '?', 'parsed:', d.catalogItems ?? '?', 'fresh:', d.freshItems ?? '?', 'qualifying:', d.qualifyingAlerts ?? '?', 'delivered:', d.deliveredAlerts ?? '?', 'pending:', d.pendingDeliveries ?? '?', 'healthy:', d.healthyScan ?? '?')"
             else
               rc=$?
               failures=$((failures+1))
@@ -111,6 +97,35 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           node -e "const fs=require('fs'); const p='vinted-radar/clothing-state.json'; const raw=fs.readFileSync(p,'utf8'); if(!raw.trim()) throw new Error('Refusing to save empty clothing state'); JSON.parse(raw);"
           cp vinted-radar/clothing-state.json /tmp/clothing-state.json
+          node <<'NODE'
+          const fs = require('fs');
+          const s = JSON.parse(fs.readFileSync('/tmp/clothing-state.json', 'utf8'));
+          const d = s.diagnostics || {};
+          const health = {
+            generatedAt: new Date().toISOString(),
+            stateUpdatedAt: s.updatedAt ?? null,
+            lastAttemptAt: s.freshness?.lastAttemptAt ?? null,
+            lastScanAt: s.freshness?.lastScanAt ?? null,
+            cooldownUntil: s.cooldownUntil ?? null,
+            healthyScan: d.healthyScan ?? false,
+            healthReason: d.healthReason ?? null,
+            selectedSearches: d.selectedSearches ?? [],
+            successfulSearches: d.successfulSearches ?? 0,
+            failedSearches: d.failedSearches ?? 0,
+            catalogMarkers: d.catalogMarkers ?? 0,
+            catalogItems: d.catalogItems ?? 0,
+            candidateItems: d.candidateItems ?? 0,
+            freshItems: d.freshItems ?? 0,
+            qualifyingAlerts: d.qualifyingAlerts ?? 0,
+            deliveredAlerts: d.deliveredAlerts ?? 0,
+            discordFailures: d.discordFailures ?? 0,
+            pendingDeliveries: d.pendingDeliveries ?? 0,
+            detailFetches: d.detailFetches ?? 0,
+            rejects: d.rejects ?? {},
+            failures: d.failures ?? {}
+          };
+          fs.writeFileSync('/tmp/clothing-health.json', JSON.stringify(health, null, 2) + '\n');
+          NODE
 
           for attempt in 1 2 3 4 5; do
             git fetch origin main
@@ -124,7 +139,8 @@ jobs:
             fi
 
             cp /tmp/clothing-state.json vinted-radar/clothing-state.json
-            git add vinted-radar/clothing-state.json
+            cp /tmp/clothing-health.json vinted-radar/clothing-health.json
+            git add vinted-radar/clothing-state.json vinted-radar/clothing-health.json
             if git diff --cached --quiet; then exit 0; fi
             git commit -m "Update Nike clothing radar state"
             if git push origin HEAD:main; then exit 0; fi
