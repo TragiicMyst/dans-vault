@@ -52,10 +52,23 @@ jobs:
         run: |
           test -n "$DISCORD_WEBHOOK_URL"
           test -n "$DISCORD_NEW_WITHOUT_TAGS_WEBHOOK_URL"
+          test -n "$DISCORD_NEW_WITH_TAGS_WEBHOOK_URL"
+          test -n "$DISCORD_VERY_GOOD_WEBHOOK_URL"
           curl --fail --silent --show-error "$DISCORD_WEBHOOK_URL" >/dev/null
           curl --fail --silent --show-error "$DISCORD_NEW_WITHOUT_TAGS_WEBHOOK_URL" >/dev/null
-          if [ -n "$DISCORD_NEW_WITH_TAGS_WEBHOOK_URL" ]; then curl --fail --silent --show-error "$DISCORD_NEW_WITH_TAGS_WEBHOOK_URL" >/dev/null; fi
-          if [ -n "$DISCORD_VERY_GOOD_WEBHOOK_URL" ]; then curl --fail --silent --show-error "$DISCORD_VERY_GOOD_WEBHOOK_URL" >/dev/null; fi
+          curl --fail --silent --show-error "$DISCORD_NEW_WITH_TAGS_WEBHOOK_URL" >/dev/null
+          curl --fail --silent --show-error "$DISCORD_VERY_GOOD_WEBHOOK_URL" >/dev/null
+
+      - name: One-time Discord channel health check
+        if: ${{ github.event_name == 'push' && github.event.head_commit.message == 'Verify Discord condition channels' }}
+        env:
+          DISCORD_NEW_WITHOUT_TAGS_WEBHOOK_URL: ${{ secrets.DISCORD_NEW_WITHOUT_TAGS_WEBHOOK_URL }}
+          DISCORD_NEW_WITH_TAGS_WEBHOOK_URL: ${{ secrets.DISCORD_NEW_WITH_TAGS_WEBHOOK_URL }}
+          DISCORD_VERY_GOOD_WEBHOOK_URL: ${{ secrets.DISCORD_VERY_GOOD_WEBHOOK_URL }}
+        run: |
+          curl --fail --silent --show-error -H 'Content-Type: application/json' --data '{"content":"✅ Dan’s Vault trainer radar health check — NEW WITHOUT TAGS channel connected."}' "$DISCORD_NEW_WITHOUT_TAGS_WEBHOOK_URL" >/dev/null
+          curl --fail --silent --show-error -H 'Content-Type: application/json' --data '{"content":"✅ Dan’s Vault trainer radar health check — NEW WITH TAGS channel connected."}' "$DISCORD_NEW_WITH_TAGS_WEBHOOK_URL" >/dev/null
+          curl --fail --silent --show-error -H 'Content-Type: application/json' --data '{"content":"✅ Dan’s Vault trainer radar health check — VERY GOOD channel connected."}' "$DISCORD_VERY_GOOD_WEBHOOK_URL" >/dev/null
 
       - name: Run trainers radar repeatedly
         env:
