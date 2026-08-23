@@ -20,7 +20,7 @@ on:
 
 concurrency:
   group: dans-vault-clothing-radar
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 permissions:
   contents: write
@@ -61,13 +61,6 @@ jobs:
           curl --fail --silent --show-error "$DISCORD_NEW_WITH_TAGS_WEBHOOK_URL" >/dev/null
           curl --fail --silent --show-error "$DISCORD_VERY_GOOD_WEBHOOK_URL" >/dev/null
 
-      - name: Verify New With Tags route after reliability reset
-        if: ${{ github.event_name == 'push' && github.event.head_commit.message == 'Stabilize clothing live scanning' }}
-        env:
-          DISCORD_NEW_WITH_TAGS_WEBHOOK_URL: ${{ secrets.DISCORD_NEW_WITH_TAGS_WEBHOOK_URL }}
-        run: |
-          curl --fail --silent --show-error -H 'Content-Type: application/json' --data '{"content":"✅ Dan’s Vault clothing is connected to the New With Tags channel again."}' "$DISCORD_NEW_WITH_TAGS_WEBHOOK_URL" >/dev/null
-
       - name: Run one bounded clothing scan
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_CLOTHING_WEBHOOK_URL }}
@@ -80,11 +73,16 @@ jobs:
           set -e
           timeout 110s node vinted-radar/run-bot.mjs
           node -e "const s=require('./vinted-radar/clothing-state.json'); const d=s.diagnostics||{}; console.log('Clothing scan:', s.freshness?.lastScanAt, 'selected:', d.successfulSearches ?? 0, '/', d.selectedSearches?.length ?? 0, 'parsed:', d.catalogItems ?? 0, 'fresh:', d.freshItems ?? 0, 'qualifying:', d.qualifyingAlerts ?? 0, 'delivered:', d.deliveredAlerts ?? 0, 'byCondition:', JSON.stringify(d.deliveredByCondition||{}), 'discordFailures:', d.discordFailures ?? 0, 'healthy:', d.healthyScan ?? false); if(!d.healthyScan) process.exit(1);"
+          touch /tmp/clothing-scan-ok
 
       - name: Save clothing state and compact health
         if: ${{ always() }}
         run: |
           set -e
+          if [ ! -f /tmp/clothing-scan-ok ]; then
+            echo "Clothing scan did not complete successfully; refusing false heartbeat."
+            exit 0
+          fi
           git config user.name "Dan's Vault Clothing Radar"
           git config user.email "actions@users.noreply.github.com"
           node -e "const fs=require('fs'); const p='vinted-radar/clothing-state.json'; const raw=fs.readFileSync(p,'utf8'); if(!raw.trim()) throw new Error('Refusing empty clothing state'); JSON.parse(raw);"
