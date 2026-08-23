@@ -49,7 +49,11 @@ jobs:
           BOT_TYPE: trainers
           STATE_NAME: state.json
         run: |
-          deadline=$((SECONDS + 170))
+          if [ "${{ github.event_name }}" = "push" ]; then
+            deadline=$((SECONDS + 35))
+          else
+            deadline=$((SECONDS + 170))
+          fi
           successes=0
           failures=0
           cycle=0
