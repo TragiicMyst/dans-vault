@@ -1,0 +1,79 @@
+name: Dan's Vault Trainer Diagnostic
+
+on:
+  push:
+    paths:
+      - '.github/workflows/trainer-diagnostic.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Run one trainer radar cycle
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          DISCORD_NEW_WITHOUT_TAGS_WEBHOOK_URL: ${{ secrets.DISCORD_NEW_WITHOUT_TAGS_WEBHOOK_URL }}
+          DISCORD_NEW_WITH_TAGS_WEBHOOK_URL: ${{ secrets.DISCORD_NEW_WITH_TAGS_WEBHOOK_URL }}
+          DISCORD_VERY_GOOD_WEBHOOK_URL: ${{ secrets.DISCORD_VERY_GOOD_WEBHOOK_URL }}
+          BOT_TYPE: trainers
+          STATE_NAME: state.json
+        run: |
+          set +e
+          started=$(date -u +%Y-%m-%dT%H:%M:%SZ)
+          node vinted-radar/run-bot.mjs > /tmp/trainer-diagnostic.log 2>&1
+          rc=$?
+          finished=$(date -u +%Y-%m-%dT%H:%M:%SZ)
+
+          node - "$started" "$finished" "$rc" <<'NODE'
+          const fs=require('fs');
+          const [started,finished,rc]=process.argv.slice(2);
+          let state={};
+          try { state=JSON.parse(fs.readFileSync('vinted-radar/state.json','utf8')); } catch {}
+          let log='';
+          try { log=fs.readFileSync('/tmp/trainer-diagnostic.log','utf8'); } catch {}
+          const d=state.diagnostics||{};
+          const result={
+            startedAt:started,
+            finishedAt:finished,
+            exitCode:Number(rc),
+            lastScanAt:state.freshness?.lastScanAt||null,
+            lastAttemptAt:state.freshness?.lastAttemptAt||null,
+            healthyScan:d.healthyScan??null,
+            healthReason:d.healthReason??null,
+            successfulSearches:d.successfulSearches??null,
+            failedSearches:d.failedSearches??null,
+            freshItems:d.freshItems??null,
+            qualifyingAlerts:d.qualifyingAlerts??null,
+            deliveredAlerts:d.deliveredAlerts??null,
+            discordFailures:d.discordFailures??null,
+            pendingDeliveries:d.pendingDeliveries??null,
+            failures:d.failures??{},
+            logTail:log.split('\n').slice(-30).join('\n')
+          };
+          fs.writeFileSync('vinted-radar/trainer-diagnostic.json',JSON.stringify(result,null,2)+'\n');
+          NODE
+
+      - name: Save trainer diagnostic
+        run: |
+          git config user.name "Dan's Vault Trainer Diagnostic"
+          git config user.email "actions@users.noreply.github.com"
+          cp vinted-radar/trainer-diagnostic.json /tmp/trainer-diagnostic.json
+          for attempt in 1 2 3 4 5; do
+            git fetch origin main
+            git reset --hard origin/main
+            cp /tmp/trainer-diagnostic.json vinted-radar/trainer-diagnostic.json
+            git add vinted-radar/trainer-diagnostic.json
+            if git diff --cached --quiet; then exit 0; fi
+            git commit -m "Record trainer radar diagnostic"
+            if git push origin HEAD:main; then exit 0; fi
+            sleep 2
+          done
+          exit 1
