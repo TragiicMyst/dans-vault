@@ -1870,7 +1870,7 @@
     "9731507826": {
       "size": null,
       "bootstrapSeen": true,
-      "lastSeenAt": "2026-08-23T00:03:51.068Z",
+      "lastSeenAt": "2026-08-23T00:49:52.418Z",
       "lastPrice": 120,
       "firstSeenAt": "2026-08-22T23:38:21.778Z",
       "title": "nike tech fleece windrunner blue hooded jacket mens m new without tags rrp ps120",
@@ -1880,7 +1880,7 @@
     "9743801366": {
       "size": null,
       "bootstrapSeen": true,
-      "lastSeenAt": "2026-08-23T00:03:18.557Z",
+      "lastSeenAt": "2026-08-23T00:49:57.207Z",
       "lastPrice": 100,
       "firstSeenAt": "2026-08-22T23:38:21.778Z",
       "title": "lovely womens purple colour nike tech fleece tracksuit worth over ps100",
@@ -1890,7 +1890,7 @@
     "9683153680": {
       "size": "L",
       "bootstrapSeen": true,
-      "lastSeenAt": "2026-08-23T00:03:20.508Z",
+      "lastSeenAt": "2026-08-23T00:50:22.018Z",
       "lastPrice": 89,
       "firstSeenAt": "2026-08-22T23:38:21.778Z",
       "title": "nike acg polartec fleece body warmer size large mens rrp ps89",
@@ -2071,7 +2071,7 @@
   "sellers": {},
   "images": {},
   "cursor": 4,
-  "updatedAt": "2026-08-23T00:43:52.774Z",
+  "updatedAt": "2026-08-23T00:50:20.292Z",
   "lastRotation": {
     "bot": "clothing",
     "selected": [
@@ -2136,15 +2136,15 @@
       },
       "Nike Tech Fleece Windrunner::nike tech fleece windrunner": {
         "maxId": "9731507826",
-        "updatedAt": "2026-08-23T00:02:45.809Z"
+        "updatedAt": "2026-08-23T00:49:50.922Z"
       },
       "Nike Tech Fleece Tracksuit::nike tech fleece tracksuit": {
         "maxId": "9743801366",
-        "updatedAt": "2026-08-23T00:03:15.180Z"
+        "updatedAt": "2026-08-23T00:49:50.922Z"
       },
       "Nike ACG Fleece::nike acg fleece": {
         "maxId": "9683153680",
-        "updatedAt": "2026-08-23T00:03:15.180Z"
+        "updatedAt": "2026-08-23T00:50:20.292Z"
       },
       "Nike Windrunner Jacket::nike windrunner jacket": {
         "maxId": "9745134473",
@@ -2171,19 +2171,19 @@
         "updatedAt": "2026-08-23T00:43:52.774Z"
       }
     },
-    "lastScanAt": "2026-08-23T00:43:52.774Z",
-    "lastAttemptAt": "2026-08-23T00:43:52.774Z"
+    "lastScanAt": "2026-08-23T00:50:20.292Z",
+    "lastAttemptAt": "2026-08-23T00:50:20.292Z"
   },
   "diagnostics": {
     "bot": "clothing",
     "radarVersion": 5,
-    "lastRunAt": "2026-08-23T00:43:52.774Z",
+    "lastRunAt": "2026-08-23T00:50:20.292Z",
     "recoveryMode": false,
     "totalSearchGroups": 16,
     "selectedSearches": [
-      "Nike Dri-FIT Running Top::nike dri-fit running top",
-      "Nike Unlimited Shorts::nike unlimited shorts",
-      "Nike Tech Fleece Hoodie::nike tech fleece hoodie"
+      "Nike ACG Fleece::nike acg fleece",
+      "Nike ACG Jacket::nike acg jacket",
+      "Nike Puffer Jacket::nike puffer jacket"
     ],
     "successfulSearches": 3,
     "failedSearches": 0,
@@ -2202,5 +2202,5 @@
   },
   "radarVersion": 5,
   "pendingDeliveries": {},
-  "rotationCursor": 1
+  "rotationCursor": 7
 }
