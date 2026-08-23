@@ -1,0 +1,111 @@
+name: Dan's Vault Vinted Radar Live Smoke
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'vinted-radar/smoke-trigger.txt'
+      - '.github/workflows/vinted-radar-smoke.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Validate and patch production radar
+        run: |
+          set -e
+          node --check vinted-radar/fetch-guard.mjs
+          node --check vinted-radar/apply-v5-parser-fix.mjs
+          node vinted-radar/apply-v5-parser-fix.mjs
+          node --check vinted-radar/radar-v5.mjs
+          node --check vinted-radar/run-bot.mjs
+          node --check vinted-radar/radar-selftest.mjs
+          node vinted-radar/radar-selftest.mjs
+
+      - name: Verify both Discord webhooks and post smoke pings
+        id: discord
+        env:
+          TRAINERS_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          CLOTHING_WEBHOOK: ${{ secrets.DISCORD_CLOTHING_WEBHOOK_URL }}
+        run: |
+          set -e
+          test -n "$TRAINERS_WEBHOOK"
+          test -n "$CLOTHING_WEBHOOK"
+          curl --fail --silent --show-error "$TRAINERS_WEBHOOK" >/dev/null
+          curl --fail --silent --show-error "$CLOTHING_WEBHOOK" >/dev/null
+          curl --fail --silent --show-error -H 'Content-Type: application/json' -d '{"content":"✅ Dan’s Vault TRAINER radar live smoke test passed — Discord delivery is working."}' "${TRAINERS_WEBHOOK}?wait=true" > /tmp/trainers-discord.json
+          curl --fail --silent --show-error -H 'Content-Type: application/json' -d '{"content":"✅ Dan’s Vault CLOTHING radar live smoke test passed — Discord delivery is working."}' "${CLOTHING_WEBHOOK}?wait=true" > /tmp/clothing-discord.json
+          node -e "const fs=require('fs'); for (const f of ['/tmp/trainers-discord.json','/tmp/clothing-discord.json']) { const j=JSON.parse(fs.readFileSync(f,'utf8')); if (!j.id) throw new Error('Discord did not return a message id for '+f); }"
+
+      - name: Run one live trainer scan
+        id: trainers
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          BOT_TYPE: trainers
+          STATE_NAME: smoke-trainer-state.json
+        run: |
+          set +e
+          cp vinted-radar/state.json vinted-radar/smoke-trainer-state.json
+          node vinted-radar/run-bot.mjs > /tmp/trainers-scan.log 2>&1
+          code=$?
+          cat /tmp/trainers-scan.log
+          echo "code=$code" >> "$GITHUB_OUTPUT"
+          exit 0
+
+      - name: Run one live clothing scan
+        id: clothing
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_CLOTHING_WEBHOOK_URL }}
+          BOT_TYPE: clothing
+          STATE_NAME: smoke-clothing-state.json
+        run: |
+          set +e
+          cp vinted-radar/clothing-state.json vinted-radar/smoke-clothing-state.json
+          node vinted-radar/run-bot.mjs > /tmp/clothing-scan.log 2>&1
+          code=$?
+          cat /tmp/clothing-scan.log
+          echo "code=$code" >> "$GITHUB_OUTPUT"
+          exit 0
+
+      - name: Persist smoke result
+        if: ${{ always() }}
+        env:
+          TRAINER_CODE: ${{ steps.trainers.outputs.code }}
+          CLOTHING_CODE: ${{ steps.clothing.outputs.code }}
+        run: |
+          node <<'NODE'
+          const fs = require('fs');
+          const read = p => { try { return JSON.parse(fs.readFileSync(p,'utf8')); } catch { return null; } };
+          const trainer = read('vinted-radar/smoke-trainer-state.json');
+          const clothing = read('vinted-radar/smoke-clothing-state.json');
+          const discordTrainer = read('/tmp/trainers-discord.json');
+          const discordClothing = read('/tmp/clothing-discord.json');
+          const result = {
+            at: new Date().toISOString(),
+            validationReached: true,
+            trainerExitCode: Number(process.env.TRAINER_CODE ?? 999),
+            clothingExitCode: Number(process.env.CLOTHING_CODE ?? 999),
+            trainerDiscordMessageId: discordTrainer?.id ?? null,
+            clothingDiscordMessageId: discordClothing?.id ?? null,
+            trainerDiagnostics: trainer?.diagnostics ?? null,
+            clothingDiagnostics: clothing?.diagnostics ?? null,
+            trainerLastAttemptAt: trainer?.freshness?.lastAttemptAt ?? null,
+            clothingLastAttemptAt: clothing?.freshness?.lastAttemptAt ?? null
+          };
+          fs.writeFileSync('vinted-radar/smoke-result.json', JSON.stringify(result, null, 2) + '\n');
+          NODE
+          git config user.name "Dan's Vault Radar Smoke"
+          git config user.email "actions@users.noreply.github.com"
+          git add vinted-radar/smoke-result.json
+          git commit -m "Record live Vinted radar smoke result" || exit 0
+          git pull --rebase origin main
+          git push origin HEAD:main
