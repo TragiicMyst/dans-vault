@@ -11,7 +11,8 @@ export async function applyTrainerDiscoveryHardening() {
   src = src.replace('// DAN_EXPANDED_TRAINERS_V1', `// DAN_EXPANDED_TRAINERS_V1\n${MARKER}`);
 
   // Keep one scoring/frontier group per model, but let that group query several common
-  // seller spellings. This avoids multiplying the rotation queue while widening discovery.
+  // seller spellings. The query list can retain up to three useful aliases, while each
+  // live scan fetches only the first two so one model cannot monopolise a workflow run.
   const buildStart = src.indexOf('export function buildSearches(bot, config) {');
   const catalogFnStart = src.indexOf('function catalogUrl(query)', buildStart);
   if (buildStart < 0 || catalogFnStart < 0) throw new Error('Could not patch buildSearches');
@@ -28,7 +29,7 @@ export async function applyTrainerDiscoveryHardening() {
     'Nike Vomero Premium': ['vomero premium'],
     'Nike Pegasus Premium': ['pegasus premium'],
     'Nike Pegasus Trail 5 GORE-TEX': ['pegasus trail 5','pegasus trail 5 gtx'],
-    'Nike TN': ['tn','tns','air max plus'],
+    'Nike TN': ['tn','air max plus','tns'],
     'Nike Air Max Plus 3': ['tn3','air max plus 3'],
     'Nike Air Max Plus VII': ['tn7','air max plus 7','air max plus vii'],
     'Nike Air Max 95': ['air max 95','am95'],
@@ -67,21 +68,21 @@ export async function applyTrainerDiscoveryHardening() {
 `;
   src = src.slice(0, buildStart) + buildSearches + src.slice(catalogFnStart);
 
-  // Merge multiple alias catalogue pages into one model scan. Each page is validated on its own,
-  // then listing IDs are deduplicated before freshness/scoring logic runs. A single non-blocking
-  // alias failure no longer discards successful results from the other title spellings.
+  // Merge alias catalogue pages into one model scan. Each page is validated on its own,
+  // listing IDs are deduplicated, and a single non-blocking alias failure no longer
+  // discards successful results. Cap live alias fetches at two per model for runtime safety.
   const fetchStart = src.indexOf('async function fetchCatalogue(search) {');
   const processStart = src.indexOf('async function processSearch(', fetchStart);
   if (fetchStart < 0 || processStart < 0) throw new Error('Could not patch fetchCatalogue');
   const fetchCatalogue = `async function fetchCatalogue(search) {
-  const urls = [...new Set((search.buyUrls?.length ? search.buyUrls : [search.buyUrl]).filter(Boolean))].slice(0, 3);
+  const urls = [...new Set((search.buyUrls?.length ? search.buyUrls : [search.buyUrl]).filter(Boolean))].slice(0, 2);
   const merged = new Map();
   let markerCount = 0;
   let successfulPages = 0;
   let allEmpty = true;
   let lastError = null;
   for (let i = 0; i < urls.length; i += 1) {
-    if (i > 0) await sleep(220 + Math.floor(Math.random() * 220));
+    if (i > 0) await sleep(120 + Math.floor(Math.random() * 120));
     try {
       const page = await fetchCataloguePage(urls[i]);
       successfulPages += 1;
