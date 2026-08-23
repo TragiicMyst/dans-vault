@@ -66,11 +66,16 @@ jobs:
           set -e
           timeout 110s node vinted-radar/run-bot.mjs
           node -e "const s=require('./vinted-radar/state.json'); const d=s.diagnostics||{}; console.log('Trainer scan:', s.freshness?.lastScanAt, 'selected:', d.successfulSearches ?? 0, '/', d.selectedSearches?.length ?? 0, 'parsed:', d.catalogItems ?? 0, 'fresh:', d.freshItems ?? 0, 'qualifying:', d.qualifyingAlerts ?? 0, 'delivered:', d.deliveredAlerts ?? 0, 'byCondition:', JSON.stringify(d.deliveredByCondition||{}), 'discordFailures:', d.discordFailures ?? 0, 'healthy:', d.healthyScan ?? false); if(!d.healthyScan) process.exit(1);"
+          touch /tmp/trainer-scan-ok
 
       - name: Save trainer state and compact health
         if: ${{ always() }}
         run: |
           set -e
+          if [ ! -f /tmp/trainer-scan-ok ]; then
+            echo "Trainer scan did not complete successfully; refusing false heartbeat."
+            exit 0
+          fi
           git config user.name "Dan's Vault Trainers Radar"
           git config user.email "actions@users.noreply.github.com"
           node -e "const fs=require('fs'); const p='vinted-radar/state.json'; const raw=fs.readFileSync(p,'utf8'); if(!raw.trim()) throw new Error('Refusing empty trainer state'); JSON.parse(raw);"
