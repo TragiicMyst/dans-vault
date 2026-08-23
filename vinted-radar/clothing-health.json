@@ -1,42 +1,45 @@
 {
-  "generatedAt": "2026-08-23T20:48:14.038Z",
-  "stateUpdatedAt": "2026-08-23T20:48:14.038Z",
-  "lastAttemptAt": "2026-08-23T20:48:14.038Z",
-  "lastScanAt": "2026-08-23T20:48:14.038Z",
+  "generatedAt": "2026-08-23T21:02:14.997Z",
+  "stateUpdatedAt": "2026-08-23T21:02:14.997Z",
+  "lastAttemptAt": "2026-08-23T21:02:14.997Z",
+  "lastScanAt": "2026-08-23T21:02:14.997Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
-    "Nike Unlimited Shorts::nike unlimited shorts",
-    "Nike Miler Running Top::nike miler running top",
-    "Nike Dri-FIT Running Top::nike dri-fit running top",
-    "Nike Miler Challenger Running Set::nike miler challenger set"
+    "Nike Strike Top Shorts Set::nike strike top shorts set",
+    "Nike Tech Fleece Windrunner::nike tech fleece windrunner",
+    "Nike Tech Fleece Full-Zip Hoodie::nike tech fleece full zip hoodie",
+    "Nike Tech Fleece Joggers::nike tech fleece joggers"
   ],
   "successfulSearches": 4,
   "failedSearches": 0,
-  "catalogMarkers": 864,
-  "catalogItems": 452,
-  "candidateItems": 204,
-  "freshItems": 12,
-  "qualifyingAlerts": 6,
+  "catalogMarkers": 1056,
+  "catalogItems": 423,
+  "candidateItems": 198,
+  "freshItems": 24,
+  "qualifyingAlerts": 12,
   "qualifyingByCondition": {
-    "newWithTags": 1,
-    "veryGood": 5
+    "veryGood": 8,
+    "newWithTags": 2,
+    "newWithoutTags": 2
   },
-  "deliveredAlerts": 6,
+  "deliveredAlerts": 12,
   "deliveredByCondition": {
-    "newWithTags": 1,
-    "veryGood": 5
+    "veryGood": 8,
+    "newWithTags": 2,
+    "newWithoutTags": 2
   },
-  "duplicateSuppressed": 13,
+  "duplicateSuppressed": 56,
   "discordFailures": 0,
   "pendingDeliveries": 0,
-  "detailFetches": 0,
+  "detailFetches": 1,
   "rejects": {
-    "stale": 179,
-    "condition": 2,
-    "price": 3,
-    "weak-margin": 1
+    "stale": 118,
+    "keyword": 2,
+    "condition": 7,
+    "price": 2,
+    "size": 1
   },
   "failures": {}
 }
