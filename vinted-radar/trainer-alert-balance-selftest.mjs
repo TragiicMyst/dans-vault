@@ -15,11 +15,11 @@ await applySellerSafety();
 await applyTrainerAlertBalance();
 
 const src = await fs.readFile(new URL('./radar-v6.mjs', import.meta.url), 'utf8');
-assert.match(src, /DAN_AF1_NEW_WITH_TAGS_BALANCE_V1/);
+assert.match(src, /DAN_AF1_NEW_WITH_TAGS_BALANCE_V2/);
 assert.match(src, /search\.name === 'Nike Air Force 1'/);
 assert.match(src, /condition === 'newWithTags'/);
 assert.match(src, /!exceptional/);
-assert.match(src, /15 \* 60_000/);
+assert.match(src, /5 \* 60_000/);
 assert.match(src, /blockedReason:'model-cooldown'/);
 assert.match(src, /modelConditionLastSent/);
 
