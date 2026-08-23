@@ -11,7 +11,7 @@ export async function applyTrainerDiscoveryHardening() {
   src = src.replace('// DAN_EXPANDED_TRAINERS_V1', `// DAN_EXPANDED_TRAINERS_V1\n${MARKER}`);
 
   // Keep one scoring/frontier group per model, but let that group query several common
-  // seller spellings. This avoids multiplying the rotation queue while still widening discovery.
+  // seller spellings. This avoids multiplying the rotation queue while widening discovery.
   const buildStart = src.indexOf('export function buildSearches(bot, config) {');
   const catalogFnStart = src.indexOf('function catalogUrl(query)', buildStart);
   if (buildStart < 0 || catalogFnStart < 0) throw new Error('Could not patch buildSearches');
@@ -20,7 +20,7 @@ export async function applyTrainerDiscoveryHardening() {
   if (bot === 'clothing') return clothingSpecs.map(([name, query, base]) => ({ name, key:\`${'${name}'}::${'${query}'}\`, buyUrl:catalogUrl(query), maxPrice:round2(base * RADAR_PROFILE.priceMultiplier), minScore:floors.clothing[name] ?? floors.clothing.default }));
 
   const discoveryQueries = {
-    'Nike P-6000': ['p6000','p 6000'],
+    'Nike P-6000': ['p6000','p 6000','p6'],
     'Nike V5 RNR': ['v5 rnr','v5rnr'],
     'Nike Vomero 5': ['vomero 5'],
     'Nike Vomero 18': ['vomero 18'],
@@ -55,9 +55,12 @@ export async function applyTrainerDiscoveryHardening() {
   return (config.searches ?? []).filter(s => trainerNames.has(s.name)).map(s => {
     const maxPrice = round2(Number(s.maxPrice) * RADAR_PROFILE.priceMultiplier);
     const configured = new URL(s.buyUrl).searchParams.get('search_text');
-    const queries = [...new Set([...(discoveryQueries[s.name] ?? []), configured, s.name].filter(Boolean))].slice(0, 3);
-    const buyUrls = queries.map(catalogUrl);
-    return { ...s, key:\`${'${s.name}'}::primary\`, buyUrl:buyUrls[0], buyUrls, discoveryQueries:queries, maxPrice, minScore:floors.trainers[s.name] ?? floors.trainers.default };
+    const rawQueries = [...(discoveryQueries[s.name] ?? []), configured, s.name].filter(Boolean);
+    const queries = [];
+    for (const q of rawQueries) if (!queries.some(existing => normalize(existing) === normalize(q))) queries.push(q);
+    const limited = queries.slice(0, 3);
+    const buyUrls = limited.map(catalogUrl);
+    return { ...s, key:\`${'${s.name}'}::primary\`, buyUrl:buyUrls[0], buyUrls, discoveryQueries:limited, maxPrice, minScore:floors.trainers[s.name] ?? floors.trainers.default };
   });
 }
 
@@ -65,7 +68,8 @@ export async function applyTrainerDiscoveryHardening() {
   src = src.slice(0, buildStart) + buildSearches + src.slice(catalogFnStart);
 
   // Merge multiple alias catalogue pages into one model scan. Each page is validated on its own,
-  // then listing IDs are deduplicated before freshness/scoring logic runs.
+  // then listing IDs are deduplicated before freshness/scoring logic runs. A single non-blocking
+  // alias failure no longer discards successful results from the other title spellings.
   const fetchStart = src.indexOf('async function fetchCatalogue(search) {');
   const processStart = src.indexOf('async function processSearch(', fetchStart);
   if (fetchStart < 0 || processStart < 0) throw new Error('Could not patch fetchCatalogue');
@@ -73,17 +77,27 @@ export async function applyTrainerDiscoveryHardening() {
   const urls = [...new Set((search.buyUrls?.length ? search.buyUrls : [search.buyUrl]).filter(Boolean))].slice(0, 3);
   const merged = new Map();
   let markerCount = 0;
+  let successfulPages = 0;
   let allEmpty = true;
+  let lastError = null;
   for (let i = 0; i < urls.length; i += 1) {
     if (i > 0) await sleep(220 + Math.floor(Math.random() * 220));
-    const page = await fetchCataloguePage(urls[i]);
-    markerCount += page.markerCount;
-    if (!page.confirmedEmpty) allEmpty = false;
-    for (const item of page.items) {
-      const existing = merged.get(item.id);
-      if (!existing || (item.ageMinutes ?? Infinity) < (existing.ageMinutes ?? Infinity)) merged.set(item.id, item);
+    try {
+      const page = await fetchCataloguePage(urls[i]);
+      successfulPages += 1;
+      markerCount += page.markerCount;
+      if (!page.confirmedEmpty) allEmpty = false;
+      for (const item of page.items) {
+        const existing = merged.get(item.id);
+        if (!existing || (item.ageMinutes ?? Infinity) < (existing.ageMinutes ?? Infinity)) merged.set(item.id, item);
+      }
+    } catch (error) {
+      lastError = error;
+      if (error.blocked) throw error;
+      console.warn(\`${'${search.name}'} alias discovery failed: ${'${error.message}'}\`);
     }
   }
+  if (successfulPages === 0) throw lastError ?? new Error('All discovery aliases failed');
   return { items:[...merged.values()].sort((a,b)=>compareIds(b.id,a.id)), markerCount, confirmedEmpty:allEmpty };
 }
 
@@ -104,7 +118,7 @@ async function fetchCataloguePage(url) {
   src = src.slice(0, fetchStart) + fetchCatalogue + src.slice(processStart);
 
   const replacements = [
-    ["    case 'Nike P-6000': return /\\bp\\s?6000\\b/.test(t)||/\\bp\\s?6000\\b/.test(f);", "    case 'Nike P-6000': return /\\bp\\s*6000\\b/.test(t)||/\\bp\\s*6000\\b/.test(f)||/\\bp6k\\b/.test(t);"],
+    ["    case 'Nike P-6000': return /\\bp\\s?6000\\b/.test(t)||/\\bp\\s?6000\\b/.test(f);", "    case 'Nike P-6000': return /\\bp\\s*6000\\b/.test(t)||/\\bp\\s*6000\\b/.test(f)||/\\bp6k\\b/.test(t)||(f.includes('nike')&&/\\bp6(?:s)?\\b/.test(t));"],
     ["    case 'Nike TN': { const plusVariant=f.includes('air max plus 3')||f.includes('air max plus vii')||f.includes('air max plus 7'); return !plusVariant&&(/(^|\\s)tns?(\\s|$)/.test(t)||/(^|\\s)tans?(\\s|$)/.test(t)||t.includes('air max plus')||t.includes('tuned')||f.includes('air max plus')); }", "    case 'Nike TN': { const plusVariant=/\\btn\\s?(?:3|7)\\b/.test(f)||f.includes('air max plus 3')||f.includes('air max plus vii')||f.includes('air max plus 7'); return !plusVariant&&(/(^|\\s)tns?(\\s|$)/.test(t)||/(^|\\s)tans?(\\s|$)/.test(t)||t.includes('air max plus')||t.includes('tuned')||f.includes('air max plus')); }"],
     ["    case 'Nike Air Max Plus 3': return f.includes('air max plus')&&/\\b3\\b/.test(f);", "    case 'Nike Air Max Plus 3': return /\\btn\\s?3\\b/.test(f)||(f.includes('air max plus')&&(/\\b3\\b/.test(f)||f.includes('iii')));"],
     ["    case 'Nike Air Max Plus VII': return f.includes('air max plus')&&(f.includes('vii')||/\\b7\\b/.test(f));", "    case 'Nike Air Max Plus VII': return /\\btn\\s?7\\b/.test(f)||/\\btn\\s?vii\\b/.test(f)||(f.includes('air max plus')&&(f.includes('vii')||/\\b7\\b/.test(f)));"],
