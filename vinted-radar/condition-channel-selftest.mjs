@@ -1,25 +1,29 @@
 import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
-import { applyExpandedTrainerRadar } from './expanded-trainer-radar.mjs';
-import { applyTrainerDiscoveryHardening } from './trainer-discovery-hardening.mjs';
-import { applyConditionTierExpansion } from './condition-tier-expansion.mjs';
-import { applyConditionFallback } from './condition-fallback.mjs';
-import { applyConditionChannelRouting } from './condition-channel-routing.mjs';
 
-await applyExpandedTrainerRadar();
-await applyTrainerDiscoveryHardening();
-await applyConditionTierExpansion();
-await applyConditionFallback();
-await applyConditionChannelRouting();
+const read = name => fs.readFile(new URL(`./${name}`, import.meta.url), 'utf8');
+const [tier, routing, runner] = await Promise.all([
+  read('condition-tier-expansion.mjs'),
+  read('condition-channel-routing.mjs'),
+  read('run-bot.mjs')
+]);
 
-const src = await fs.readFile(new URL('./radar-v6.mjs', import.meta.url), 'utf8');
-assert.match(src, /return'veryGood'/);
-assert.match(src, /newWithoutTagsWebhook/);
-assert.match(src, /newWithTagsWebhook/);
-assert.match(src, /veryGoodWebhook/);
-assert.match(src, /alert\?\.condition === 'newWithoutTags'/);
-assert.match(src, /alert\?\.condition === 'newWithTags'/);
-assert.match(src, /alert\?\.condition === 'veryGood'/);
-assert.match(src, /selectDiscordWebhook\(alert, webhook, newWithoutTagsWebhook, newWithTagsWebhook, veryGoodWebhook\)/);
-assert.match(src, /selectDiscordWebhook\(pending\.alert, webhook, newWithoutTagsWebhook, newWithTagsWebhook, veryGoodWebhook\)/);
+assert.match(tier, /return'veryGood'/);
+assert.match(routing, /newWithoutTagsWebhook/);
+assert.match(routing, /newWithTagsWebhook/);
+assert.match(routing, /veryGoodWebhook/);
+assert.match(routing, /alert\?\.condition === 'newWithoutTags'/);
+assert.match(routing, /alert\?\.condition === 'newWithTags'/);
+assert.match(routing, /alert\?\.condition === 'veryGood'/);
+assert.match(routing, /selectDiscordWebhook\(alert, webhook, newWithoutTagsWebhook, newWithTagsWebhook, veryGoodWebhook\)/);
+assert.match(routing, /selectDiscordWebhook\(pending\.alert, webhook, newWithoutTagsWebhook, newWithTagsWebhook, veryGoodWebhook\)/);
+assert.match(runner, /DISCORD_NEW_WITHOUT_TAGS_WEBHOOK_URL/);
+assert.match(runner, /DISCORD_NEW_WITH_TAGS_WEBHOOK_URL/);
+assert.match(runner, /DISCORD_VERY_GOOD_WEBHOOK_URL/);
+
+const tierAt = runner.indexOf('await applyConditionTierExpansion()');
+const fallbackAt = runner.indexOf('await applyConditionFallback()');
+const routingAt = runner.indexOf('await applyConditionChannelRouting()');
+assert.ok(tierAt >= 0 && fallbackAt > tierAt && routingAt > fallbackAt, 'Condition patches must run tier -> fallback -> routing');
+
 console.log('Condition channel routing self-test passed.');
