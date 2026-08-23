@@ -1,40 +1,47 @@
 {
-  "generatedAt": "2026-08-23T20:22:06.471Z",
-  "stateUpdatedAt": "2026-08-23T19:59:34.842Z",
-  "lastAttemptAt": "2026-08-23T19:59:34.842Z",
-  "lastScanAt": "2026-08-23T19:59:34.842Z",
+  "generatedAt": "2026-08-23T20:23:26.115Z",
+  "stateUpdatedAt": "2026-08-23T20:22:19.606Z",
+  "lastAttemptAt": "2026-08-23T20:22:19.606Z",
+  "lastScanAt": "2026-08-23T20:22:19.606Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
-    "Nike Vomero Premium::primary",
-    "Nike Pegasus Premium::primary",
-    "Nike Pegasus Trail 5 GORE-TEX::primary",
-    "Nike TN::primary"
+    "Nike Air Max Plus 3::primary",
+    "Nike Air Max Plus VII::primary",
+    "Nike Air Max 95::primary",
+    "Nike Air Max 90::primary"
   ],
   "successfulSearches": 4,
   "failedSearches": 0,
   "catalogMarkers": 768,
-  "catalogItems": 470,
-  "candidateItems": 230,
-  "freshItems": 23,
-  "qualifyingAlerts": 5,
-  "qualifyingByCondition": {},
-  "deliveredAlerts": 5,
-  "deliveredByCondition": {},
+  "catalogItems": 638,
+  "candidateItems": 335,
+  "freshItems": 46,
+  "qualifyingAlerts": 7,
+  "qualifyingByCondition": {
+    "newWithTags": 3,
+    "veryGood": 2,
+    "newWithoutTags": 2
+  },
+  "deliveredAlerts": 7,
+  "deliveredByCondition": {
+    "newWithTags": 3,
+    "veryGood": 2,
+    "newWithoutTags": 2
+  },
   "discordFailures": 0,
   "pendingDeliveries": 0,
   "detailFetches": 8,
   "rejects": {
-    "stale": 193,
-    "condition": 3,
-    "size": 2,
-    "price": 2,
-    "weak-margin": 1,
-    "seller-risk": 1,
-    "seller-check-budget-exhausted": 7,
-    "keyword": 1,
-    "detail-budget-exhausted": 1
+    "recovery-no-fresh-signal": 276,
+    "condition": 7,
+    "price": 8,
+    "weak-margin": 2,
+    "size": 1,
+    "keyword": 7,
+    "seller-check-budget-exhausted": 9,
+    "detail-budget-exhausted": 5
   },
   "failures": {}
 }
