@@ -1,36 +1,38 @@
 {
-  "generatedAt": "2026-08-23T21:22:36.927Z",
-  "stateUpdatedAt": "2026-08-23T21:22:36.927Z",
-  "lastAttemptAt": "2026-08-23T21:22:36.927Z",
-  "lastScanAt": "2026-08-23T21:22:36.927Z",
+  "generatedAt": "2026-08-23T21:41:18.105Z",
+  "stateUpdatedAt": "2026-08-23T21:41:18.105Z",
+  "lastAttemptAt": "2026-08-23T21:41:18.105Z",
+  "lastScanAt": "2026-08-23T21:41:18.105Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
-    "Nike Vomero 18::primary",
-    "Nike Vomero Plus::primary",
-    "Nike Vomero Premium::primary",
-    "Nike Pegasus Premium::primary",
-    "Nike Pegasus Trail 5 GORE-TEX::primary",
-    "Nike TN::primary",
-    "Nike Air Max Plus 3::primary",
-    "Nike Air Max Plus VII::primary"
+    "Nike Air Max 95::primary",
+    "Nike Air Max 90::primary",
+    "Nike Air Max 90 Drift::primary",
+    "Nike Air Max 97::primary",
+    "Nike Air Max 270::primary",
+    "Nike Air Max Dn::primary",
+    "Nike Air Max 1::primary",
+    "Nike Shox TL::primary"
   ],
   "successfulSearches": 8,
   "failedSearches": 0,
   "catalogMarkers": 1536,
-  "catalogItems": 967,
-  "candidateItems": 478,
-  "freshItems": 29,
-  "qualifyingAlerts": 8,
+  "catalogItems": 1159,
+  "candidateItems": 704,
+  "freshItems": 83,
+  "qualifyingAlerts": 12,
   "qualifyingByCondition": {
-    "veryGood": 8
+    "veryGood": 8,
+    "newWithTags": 4
   },
-  "deliveredAlerts": 8,
+  "deliveredAlerts": 12,
   "deliveredByCondition": {
-    "veryGood": 8
+    "veryGood": 8,
+    "newWithTags": 4
   },
-  "duplicateSuppressed": 32,
+  "duplicateSuppressed": 31,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -66,14 +68,15 @@
   "pendingDeliveries": 0,
   "detailFetches": 16,
   "rejects": {
-    "recovery-no-fresh-signal": 417,
-    "price": 3,
-    "condition": 7,
-    "weak-margin": 2,
-    "size": 4,
-    "seller-risk": 3,
-    "score": 1,
-    "seller-check-budget-exhausted": 1
+    "size": 2,
+    "keyword": 5,
+    "condition": 25,
+    "seller-risk": 2,
+    "weak-margin": 1,
+    "price": 1,
+    "detail-budget-exhausted": 16,
+    "seller-check-budget-exhausted": 19,
+    "recovery-no-fresh-signal": 590
   },
   "failures": {}
 }
