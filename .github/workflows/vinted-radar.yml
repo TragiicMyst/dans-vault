@@ -15,7 +15,7 @@ permissions:
 jobs:
   radar:
     runs-on: ubuntu-latest
-    timeout-minutes: 7
+    timeout-minutes: 5
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -43,7 +43,7 @@ jobs:
           BOT_TYPE: trainers
           STATE_NAME: state.json
         run: |
-          deadline=$((SECONDS + 250))
+          deadline=$((SECONDS + 170))
           successes=0
           failures=0
           cycle=0
