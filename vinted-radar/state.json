@@ -1928,12 +1928,13 @@
     },
     "9739113904": {
       "firstSeenAt": "2026-08-22T16:04:30.604Z",
-      "lastSeenAt": "2026-08-22T23:50:54.362Z",
+      "lastSeenAt": "2026-08-23T00:49:54.415Z",
       "lastPrice": 60,
       "title": "rrp ps60 nike vomero 5 kids trainers",
       "url": "https://www.vinted.co.uk/items/9739113904-rrp-ps60-nike-vomero-5-kids-trainers",
       "size": 9,
-      "bootstrapSeen": true
+      "bootstrapSeen": true,
+      "blockedReason": "stale-or-no-freshness-signal"
     },
     "9736845091": {
       "firstSeenAt": "2026-08-22T16:04:30.604Z",
@@ -6592,12 +6593,12 @@
     "9743299882": {
       "size": null,
       "lastPrice": 175,
-      "lastSeenAt": "2026-08-22T23:51:01.188Z",
+      "lastSeenAt": "2026-08-23T00:49:52.505Z",
       "bootstrapSeen": true,
       "title": "nike air max 97 v good condition size 11 grey cost ps175",
       "url": "https://www.vinted.co.uk/items/9743299882-nike-air-max-97-v-good-condition-size-11-grey-cost-ps175",
       "firstSeenAt": "2026-08-22T23:37:40.534Z",
-      "blockedReason": "price"
+      "blockedReason": "stale-or-no-freshness-signal"
     },
     "9743543860": {
       "blockedReason": "size",
@@ -11556,12 +11557,12 @@
     },
     "9723678761": {
       "size": 9,
-      "lastSeenAt": "2026-08-22T23:51:02.304Z",
+      "lastSeenAt": "2026-08-23T00:49:57.064Z",
       "lastPrice": 80,
       "title": "brand new nike v5 rnr ps80",
       "url": "https://www.vinted.co.uk/items/9723678761-brand-new-nike-v5-rnr-ps80",
       "firstSeenAt": "2026-08-22T23:37:40.534Z",
-      "blockedReason": "price"
+      "blockedReason": "stale-or-no-freshness-signal"
     },
     "9745419864": {
       "blockedReason": "condition",
@@ -13528,7 +13529,7 @@
       ]
     }
   },
-  "updatedAt": "2026-08-23T00:43:33.029Z",
+  "updatedAt": "2026-08-23T00:50:21.157Z",
   "cursor": 0,
   "lastRotation": {
     "bot": "trainers",
@@ -13597,7 +13598,7 @@
       },
       "Nike Vomero 5::primary": {
         "maxId": "9739113904",
-        "updatedAt": "2026-08-22T23:50:49.996Z"
+        "updatedAt": "2026-08-23T00:49:51.170Z"
       },
       "Nike Vomero::primary": {
         "maxId": "9741047319",
@@ -13609,11 +13610,11 @@
       },
       "Nike Air Max 97::primary": {
         "maxId": "9743299882",
-        "updatedAt": "2026-08-22T23:50:49.996Z"
+        "updatedAt": "2026-08-23T00:49:51.170Z"
       },
       "Nike V5 RNR::primary": {
         "maxId": "9723678761",
-        "updatedAt": "2026-08-22T23:50:49.996Z"
+        "updatedAt": "2026-08-23T00:49:51.170Z"
       },
       "Nike P-6000::primary": {
         "maxId": "9745663639",
@@ -13633,18 +13634,15 @@
       },
       "Nike Air Force 1::primary": {
         "maxId": "9745673082",
-        "updatedAt": "2026-08-22T22:02:45.556Z",
-        "migratedFromLegacy": true
+        "updatedAt": "2026-08-23T00:50:21.157Z"
       },
       "Nike Dunk Low::primary": {
         "maxId": "9745602047",
-        "updatedAt": "2026-08-22T22:02:45.556Z",
-        "migratedFromLegacy": true
+        "updatedAt": "2026-08-23T00:50:21.157Z"
       },
       "Nike TN::air-max-plus": {
         "maxId": "9745579544",
-        "updatedAt": "2026-08-22T22:02:45.556Z",
-        "migratedFromLegacy": true
+        "updatedAt": "2026-08-23T00:50:21.157Z"
       },
       "Nike TN::tans": {
         "maxId": "9745579544",
@@ -13652,36 +13650,34 @@
         "migratedFromLegacy": true
       }
     },
-    "lastScanAt": "2026-08-23T00:43:33.029Z",
-    "lastAttemptAt": "2026-08-23T00:43:33.029Z"
+    "lastScanAt": "2026-08-23T00:50:21.157Z",
+    "lastAttemptAt": "2026-08-23T00:50:21.157Z"
   },
   "diagnostics": {
     "bot": "trainers",
     "radarVersion": 5,
-    "lastRunAt": "2026-08-23T00:43:33.029Z",
+    "lastRunAt": "2026-08-23T00:50:21.157Z",
     "recoveryMode": false,
     "totalSearchGroups": 13,
     "selectedSearches": [
-      "Nike Pegasus Premium::primary",
-      "Nike Shox TL::primary",
-      "Nike Air Max 95::primary"
+      "Nike Air Force 1::primary",
+      "Nike Dunk Low::primary",
+      "Nike TN::air-max-plus"
     ],
     "successfulSearches": 3,
     "failedSearches": 0,
-    "catalogItems": 6,
-    "candidateItems": 6,
+    "catalogItems": 0,
+    "candidateItems": 0,
     "freshItems": 0,
     "qualifyingAlerts": 0,
     "deliveredAlerts": 0,
     "discordFailures": 0,
     "pendingDeliveries": 0,
-    "rejects": {
-      "stale": 6
-    },
+    "rejects": {},
     "failures": {},
     "healthyScan": true
   },
   "radarVersion": 5,
   "pendingDeliveries": {},
-  "rotationCursor": 6
+  "rotationCursor": 12
 }
