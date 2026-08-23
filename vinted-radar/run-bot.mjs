@@ -3,6 +3,7 @@ import './fetch-guard.mjs';
 import { applyExpandedTrainerRadar } from './expanded-trainer-radar.mjs';
 import { applyTrainerDiscoveryHardening } from './trainer-discovery-hardening.mjs';
 import { applyExpandedClothingRadar } from './expanded-clothing-radar.mjs';
+import { applyClothingDiscoveryHardening } from './clothing-discovery-hardening.mjs';
 
 const root = new URL('./', import.meta.url);
 const bot = process.env.BOT_TYPE ?? 'trainers';
@@ -13,7 +14,10 @@ if (bot === 'trainers') {
   await applyExpandedTrainerRadar();
   await applyTrainerDiscoveryHardening();
 }
-if (bot === 'clothing') await applyExpandedClothingRadar();
+if (bot === 'clothing') {
+  await applyExpandedClothingRadar();
+  await applyClothingDiscoveryHardening();
+}
 const { runRadarV6 } = await import(`./radar-v6.mjs?expanded-${bot}-v2`);
 const baseConfig = JSON.parse(await fs.readFile(new URL('./config.json', root), 'utf8'));
 
