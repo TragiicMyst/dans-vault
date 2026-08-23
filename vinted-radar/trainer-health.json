@@ -1,32 +1,40 @@
 {
-  "generatedAt": "2026-08-23T21:00:24.264Z",
-  "stateUpdatedAt": "2026-08-23T21:00:24.264Z",
-  "lastAttemptAt": "2026-08-23T21:00:24.264Z",
-  "lastScanAt": "2026-08-23T21:00:24.264Z",
+  "generatedAt": "2026-08-23T21:03:59.891Z",
+  "stateUpdatedAt": "2026-08-23T21:03:59.891Z",
+  "lastAttemptAt": "2026-08-23T21:03:59.891Z",
+  "lastScanAt": "2026-08-23T21:03:59.891Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
-    "Nike Air Force 1::primary",
-    "Nike Dunk Low::primary",
-    "Air Jordan 1 Low::primary",
-    "Air Jordan 1 Mid::primary"
+    "Air Jordan 4::primary",
+    "Nike Initiator::primary",
+    "Nike Air Max Moto 2K::primary",
+    "Nike Metcon 10::primary",
+    "Nike Zoom Fly 6::primary",
+    "Nike P-6000::primary",
+    "Nike V5 RNR::primary",
+    "Nike Vomero 5::primary"
   ],
-  "successfulSearches": 4,
+  "successfulSearches": 8,
   "failedSearches": 0,
-  "catalogMarkers": 768,
-  "catalogItems": 550,
-  "candidateItems": 433,
-  "freshItems": 182,
-  "qualifyingAlerts": 4,
+  "catalogMarkers": 1455,
+  "catalogItems": 791,
+  "candidateItems": 504,
+  "freshItems": 24,
+  "qualifyingAlerts": 5,
   "qualifyingByCondition": {
-    "veryGood": 4
+    "veryGood": 3,
+    "newWithTags": 1,
+    "newWithoutTags": 1
   },
-  "deliveredAlerts": 4,
+  "deliveredAlerts": 5,
   "deliveredByCondition": {
-    "veryGood": 4
+    "veryGood": 3,
+    "newWithTags": 1,
+    "newWithoutTags": 1
   },
-  "duplicateSuppressed": 3,
+  "duplicateSuppressed": 17,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -58,17 +66,14 @@
     }
   ],
   "discordRouteAutoCorrected": false,
+  "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 8,
+  "detailFetches": 14,
   "rejects": {
-    "condition": 29,
-    "size": 4,
-    "keyword": 28,
-    "detail-budget-exhausted": 43,
-    "seller-check-budget-exhausted": 67,
-    "weak-margin": 2,
-    "recovery-no-fresh-signal": 248,
-    "price": 5
+    "condition": 6,
+    "size": 9,
+    "stale": 463,
+    "keyword": 4
   },
   "failures": {}
 }
