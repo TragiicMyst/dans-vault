@@ -4,12 +4,6 @@ on:
   schedule:
     - cron: '*/5 * * * *'
   workflow_dispatch:
-  push:
-    branches:
-      - main
-    paths:
-      - 'vinted-radar/*.mjs'
-      - '.github/workflows/vinted-radar.yml'
 
 concurrency:
   group: dans-vault-trainers-radar
@@ -49,11 +43,7 @@ jobs:
           BOT_TYPE: trainers
           STATE_NAME: state.json
         run: |
-          if [ "${{ github.event_name }}" = "push" ]; then
-            deadline=$((SECONDS + 35))
-          else
-            deadline=$((SECONDS + 170))
-          fi
+          deadline=$((SECONDS + 145))
           successes=0
           failures=0
           cycle=0
