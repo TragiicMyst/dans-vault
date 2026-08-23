@@ -1,0 +1,81 @@
+name: Trainer Recovery Diagnostic
+
+on:
+  push:
+    paths:
+      - '.github/workflows/trainer-recovery-diagnostic.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Diagnose trainer validation and one live cycle
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          DISCORD_NEW_WITHOUT_TAGS_WEBHOOK_URL: ${{ secrets.DISCORD_NEW_WITHOUT_TAGS_WEBHOOK_URL }}
+          DISCORD_NEW_WITH_TAGS_WEBHOOK_URL: ${{ secrets.DISCORD_NEW_WITH_TAGS_WEBHOOK_URL }}
+          DISCORD_VERY_GOOD_WEBHOOK_URL: ${{ secrets.DISCORD_VERY_GOOD_WEBHOOK_URL }}
+          BOT_TYPE: trainers
+          STATE_NAME: state.json
+        run: |
+          set +e
+          : > /tmp/diag.log
+          runcheck() {
+            label="$1"
+            shift
+            echo "===== $label =====" | tee -a /tmp/diag.log
+            "$@" >> /tmp/diag.log 2>&1
+            rc=$?
+            echo "EXIT=$rc" | tee -a /tmp/diag.log
+            return 0
+          }
+
+          runcheck check-fetch-guard node --check vinted-radar/fetch-guard.mjs
+          runcheck check-condition-fallback node --check vinted-radar/condition-fallback.mjs
+          runcheck check-seller-safety node --check vinted-radar/seller-safety.mjs
+          runcheck check-runner node --check vinted-radar/run-bot.mjs
+          runcheck radar-selftest node vinted-radar/radar-selftest.mjs
+          runcheck trainer-discovery-selftest node vinted-radar/trainer-discovery-selftest.mjs
+          runcheck seller-safety-selftest node vinted-radar/seller-safety-selftest.mjs
+          runcheck condition-channel-selftest node vinted-radar/condition-channel-selftest.mjs
+          runcheck live-cycle timeout 75s node vinted-radar/run-bot.mjs
+
+          node - <<'NODE'
+          const fs=require('fs');
+          let state={};
+          try { state=JSON.parse(fs.readFileSync('vinted-radar/state.json','utf8')); } catch {}
+          const log=fs.readFileSync('/tmp/diag.log','utf8');
+          const result={
+            checkedAt:new Date().toISOString(),
+            lastScanAt:state.freshness?.lastScanAt??null,
+            lastAttemptAt:state.freshness?.lastAttemptAt??null,
+            diagnostics:state.diagnostics??null,
+            log
+          };
+          fs.writeFileSync('vinted-radar/trainer-recovery-diagnostic.json',JSON.stringify(result,null,2)+'\n');
+          NODE
+
+      - name: Save diagnostic result
+        if: ${{ always() }}
+        run: |
+          git config user.name "Dan's Vault Trainer Recovery"
+          git config user.email "actions@users.noreply.github.com"
+          cp vinted-radar/trainer-recovery-diagnostic.json /tmp/trainer-recovery-diagnostic.json 2>/dev/null || echo '{"error":"diagnostic result was not created"}' > /tmp/trainer-recovery-diagnostic.json
+          for attempt in 1 2 3 4 5; do
+            git fetch origin main
+            git reset --hard origin/main
+            cp /tmp/trainer-recovery-diagnostic.json vinted-radar/trainer-recovery-diagnostic.json
+            git add vinted-radar/trainer-recovery-diagnostic.json
+            if git diff --cached --quiet; then exit 0; fi
+            git commit -m "Record trainer recovery diagnostic"
+            if git push origin HEAD:main; then exit 0; fi
+            sleep 2
+          done
+          exit 1
