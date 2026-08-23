@@ -2,6 +2,7 @@ import fs from 'node:fs/promises';
 
 const radarUrl = new URL('./radar-v6.mjs', import.meta.url);
 const MARKER = '// DAN_INTEGRATED_SELLER_SAFETY_V1';
+const RAW_CONDITION_MARKER = '// DAN_RAW_VINTED_CONDITION_METADATA_V1';
 
 export async function applySellerSafety() {
   let src = await fs.readFile(radarUrl, 'utf8');
@@ -18,9 +19,18 @@ export async function applySellerSafety() {
   if (occurrences < 1) throw new Error('Seller safety could not find listing detail fetches');
   src = src.split(detailFetch).join("detailRaw = await fetchText(item.url);\n        detailText = normalize(visibleText(detailRaw));");
 
+  // Vinted frequently keeps condition/status metadata inside embedded JSON/script data.
+  // visibleText() intentionally strips scripts, so use the raw response as a second
+  // condition source after a detail fetch. This prevents valid listings being rejected
+  // as condition-not-confirmed solely because the visible HTML omitted the status.
+  const conditionClassify = 'condition = classifyCondition(detailText);';
+  const conditionOccurrences = src.split(conditionClassify).length - 1;
+  if (conditionOccurrences < 1) throw new Error('Raw condition metadata target not found');
+  src = src.split(conditionClassify).join(`${RAW_CONDITION_MARKER}\n        condition = classifyCondition(\`${'${detailText}'} ${'${normalizeSellerSource(detailRaw)}'}\`);`);
+
   const riskAnchor = "    const risk = fakeRisk(item, `${summaryText} ${detailText}`, resale);";
   if (!src.includes(riskAnchor)) throw new Error('Seller safety risk anchor not found');
-  const gate = `${MARKER}\n    // Every trainer alert must have a seller sanity check. Reuse an existing detail-page\n    // response when size/condition already needed one; otherwise spend one cycle-budgeted\n    // detail fetch. This prevents seller checks from doubling Vinted traffic.\n    if (bot === 'trainers' && !detailRaw) {\n      if (!canFetchDetail()) {\n        remember(state, item, prior, { blockedReason: 'seller-check-budget-exhausted', size, condition, resale, netProfit: profit, roi });\n        reject(diagnostics, 'seller-check-budget-exhausted');\n        continue;\n      }\n      claimDetailFetch();\n      try {\n        detailRaw = await fetchText(item.url);\n        detailText = normalize(visibleText(detailRaw));\n      } catch (error) {\n        remember(state, item, prior, { blockedReason: 'seller-check-failed', detailError: error.message, size, condition, resale, netProfit: profit, roi });\n        reject(diagnostics, 'seller-check-failed');\n        if (error.blocked) throw error;\n        continue;\n      }\n    }\n\n    const sellerRisk = bot === 'trainers' ? assessSellerRisk(detailRaw, item, resale) : { level:'LOW', note:'Seller screening not required for this bot', score:0 };\n    const sellerBlocked = sellerRisk.level === 'HIGH' || (sellerRisk.level === 'MEDIUM' && item.price <= resale * 0.45);\n    if (sellerBlocked) {\n      remember(state, item, prior, { blockedReason: 'seller-risk', size, condition, resale, netProfit: profit, roi, sellerRisk });\n      reject(diagnostics, 'seller-risk');\n      continue;\n    }\n\n    const risk = mergeRisk(fakeRisk(item, \`${'${summaryText}'} ${'${detailText}'}\`, resale), sellerRisk);`;
+  const gate = `${MARKER}\n    // Every trainer alert must have a seller sanity check. Reuse an existing detail-page\n    // response when size/condition already needed one; otherwise spend one cycle-budgeted\n    // detail fetch. This prevents seller checks from doubling Vinted traffic.\n    if (bot === 'trainers' && !detailRaw) {\n      if (!canFetchDetail()) {\n        remember(state, item, prior, { blockedReason: 'seller-check-budget-exhausted', size, condition, resale, netProfit: profit, roi });\n        reject(diagnostics, 'seller-check-budget-exhausted');\n        continue;\n      }\n      claimDetailFetch();\n      try {\n        detailRaw = await fetchText(item.url);\n        detailText = normalize(visibleText(detailRaw));\n        if (condition === 'unknown') condition = classifyCondition(\`${'${detailText}'} ${'${normalizeSellerSource(detailRaw)}'}\`);\n      } catch (error) {\n        remember(state, item, prior, { blockedReason: 'seller-check-failed', detailError: error.message, size, condition, resale, netProfit: profit, roi });\n        reject(diagnostics, 'seller-check-failed');\n        if (error.blocked) throw error;\n        continue;\n      }\n    }\n\n    const sellerRisk = bot === 'trainers' ? assessSellerRisk(detailRaw, item, resale) : { level:'LOW', note:'Seller screening not required for this bot', score:0 };\n    const sellerBlocked = sellerRisk.level === 'HIGH' || (sellerRisk.level === 'MEDIUM' && item.price <= resale * 0.45);\n    if (sellerBlocked) {\n      remember(state, item, prior, { blockedReason: 'seller-risk', size, condition, resale, netProfit: profit, roi, sellerRisk });\n      reject(diagnostics, 'seller-risk');\n      continue;\n    }\n\n    const risk = mergeRisk(fakeRisk(item, \`${'${summaryText}'} ${'${detailText}'}\`, resale), sellerRisk);`;
   src = src.replace(riskAnchor, gate);
 
   const helperAnchor = 'function fakeRisk(item,text,resale){';
@@ -29,8 +39,12 @@ export async function applySellerSafety() {
 
   const helpers = String.raw`function normalizeSellerSource(raw){
   return decodeHtml(String(raw??''))
+    .replace(/\\u0020/gi,' ')
     .replace(/\\u0022/gi,'"')
     .replace(/\\u0026/gi,'&')
+    .replace(/\\u0027/gi,"'")
+    .replace(/\\u002f/gi,'/')
+    .replace(/\\u003a/gi,':')
     .replace(/\\u003c/gi,'<')
     .replace(/\\u003e/gi,'>')
     .replace(/\\"/g,'"');
@@ -82,5 +96,6 @@ function mergeRisk(itemRisk,sellerRisk){
   src = src.slice(0, helperIndex) + helpers + src.slice(helperIndex);
 
   if (!src.includes(MARKER)) throw new Error('Seller safety marker missing after patch');
+  if (!src.includes(RAW_CONDITION_MARKER)) throw new Error('Raw Vinted condition metadata marker missing after patch');
   await fs.writeFile(radarUrl, src);
 }
