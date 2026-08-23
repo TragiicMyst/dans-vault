@@ -1,47 +1,41 @@
 {
-  "generatedAt": "2026-08-23T20:24:38.817Z",
-  "stateUpdatedAt": "2026-08-23T20:23:37.545Z",
-  "lastAttemptAt": "2026-08-23T20:23:37.545Z",
-  "lastScanAt": "2026-08-23T20:23:37.545Z",
+  "generatedAt": "2026-08-23T20:38:12.143Z",
+  "stateUpdatedAt": "2026-08-23T20:37:18.539Z",
+  "lastAttemptAt": "2026-08-23T20:37:18.539Z",
+  "lastScanAt": "2026-08-23T20:37:18.539Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
-    "Nike Air Max Plus 3::primary",
-    "Nike Air Max Plus VII::primary",
-    "Nike Air Max 95::primary",
-    "Nike Air Max 90::primary"
+    "Nike Air Max 90 Drift::primary",
+    "Nike Air Max 97::primary",
+    "Nike Air Max 270::primary",
+    "Nike Air Max Dn::primary"
   ],
   "successfulSearches": 4,
   "failedSearches": 0,
   "catalogMarkers": 768,
-  "catalogItems": 636,
-  "candidateItems": 343,
-  "freshItems": 49,
-  "qualifyingAlerts": 7,
+  "catalogItems": 524,
+  "candidateItems": 306,
+  "freshItems": 24,
+  "qualifyingAlerts": 5,
   "qualifyingByCondition": {
-    "veryGood": 5,
-    "newWithTags": 1,
-    "newWithoutTags": 1
+    "veryGood": 5
   },
-  "deliveredAlerts": 7,
+  "deliveredAlerts": 5,
   "deliveredByCondition": {
-    "veryGood": 5,
-    "newWithTags": 1,
-    "newWithoutTags": 1
+    "veryGood": 5
   },
   "discordFailures": 0,
   "pendingDeliveries": 0,
   "detailFetches": 8,
   "rejects": {
-    "recovery-no-fresh-signal": 280,
     "condition": 7,
-    "price": 8,
-    "weak-margin": 2,
-    "size": 1,
-    "seller-check-budget-exhausted": 12,
-    "keyword": 7,
-    "detail-budget-exhausted": 5
+    "stale": 273,
+    "size": 3,
+    "keyword": 5,
+    "seller-check-budget-exhausted": 3,
+    "detail-budget-exhausted": 1
   },
   "failures": {}
 }
