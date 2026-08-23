@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T20:21:08.805Z",
+  "generatedAt": "2026-08-23T20:22:06.471Z",
   "stateUpdatedAt": "2026-08-23T19:59:34.842Z",
   "lastAttemptAt": "2026-08-23T19:59:34.842Z",
   "lastScanAt": "2026-08-23T19:59:34.842Z",
@@ -19,7 +19,9 @@
   "candidateItems": 230,
   "freshItems": 23,
   "qualifyingAlerts": 5,
+  "qualifyingByCondition": {},
   "deliveredAlerts": 5,
+  "deliveredByCondition": {},
   "discordFailures": 0,
   "pendingDeliveries": 0,
   "detailFetches": 8,
