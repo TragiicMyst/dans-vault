@@ -17,7 +17,7 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: Test Discord condition webhooks
+      - name: Test and identify Discord condition webhooks
         env:
           DISCORD_NEW_WITHOUT_TAGS_WEBHOOK_URL: ${{ secrets.DISCORD_NEW_WITHOUT_TAGS_WEBHOOK_URL }}
           DISCORD_NEW_WITH_TAGS_WEBHOOK_URL: ${{ secrets.DISCORD_NEW_WITH_TAGS_WEBHOOK_URL }}
@@ -32,32 +32,46 @@ jobs:
             url="$2"
             label="$3"
             if [ -z "$url" ]; then
-              eval "${key}_configured=false"
-              eval "${key}_status=MISSING"
+              printf '{"configured":false,"postStatus":"MISSING","getStatus":"MISSING","target":{}}' > "/tmp/${key}-result.json"
               return
             fi
-            eval "${key}_configured=true"
-            code=$(curl --silent --show-error --output "/tmp/${key}.txt" --write-out '%{http_code}' \
+
+            post_code=$(curl --silent --show-error --output "/tmp/${key}-post.txt" --write-out '%{http_code}' \
               -H 'Content-Type: application/json' \
               --data "{\"content\":\"✅ Dan's Vault Discord health test — ${label}\"}" \
               "$url")
-            rc=$?
-            if [ $rc -ne 0 ]; then code="CURL_ERROR_${rc}"; fi
-            eval "${key}_status=${code}"
+            post_rc=$?
+            if [ $post_rc -ne 0 ]; then post_code="CURL_ERROR_${post_rc}"; fi
+
+            get_code=$(curl --silent --show-error --output "/tmp/${key}-meta.json" --write-out '%{http_code}' "$url")
+            get_rc=$?
+            if [ $get_rc -ne 0 ]; then get_code="CURL_ERROR_${get_rc}"; fi
+
+            if [ "$get_code" = "200" ]; then
+              jq -n \
+                --arg post "$post_code" \
+                --arg get "$get_code" \
+                --arg id "$(jq -r '.id // ""' "/tmp/${key}-meta.json")" \
+                --arg guild "$(jq -r '.guild_id // ""' "/tmp/${key}-meta.json")" \
+                --arg channel "$(jq -r '.channel_id // ""' "/tmp/${key}-meta.json")" \
+                --arg name "$(jq -r '.name // ""' "/tmp/${key}-meta.json")" \
+                '{configured:true,postStatus:$post,getStatus:$get,target:{webhookId:$id,guildId:$guild,channelId:$channel,name:$name}}' > "/tmp/${key}-result.json"
+            else
+              jq -n --arg post "$post_code" --arg get "$get_code" '{configured:true,postStatus:$post,getStatus:$get,target:{}}' > "/tmp/${key}-result.json"
+            fi
           }
 
           test_webhook nwt "$DISCORD_NEW_WITHOUT_TAGS_WEBHOOK_URL" "NEW WITHOUT TAGS"
           test_webhook ntag "$DISCORD_NEW_WITH_TAGS_WEBHOOK_URL" "NEW WITH TAGS"
           test_webhook vg "$DISCORD_VERY_GOOD_WEBHOOK_URL" "VERY GOOD"
 
-          cat > vinted-radar/discord-health.json <<EOF
-          {
-            "checkedAt": "$checked_at",
-            "newWithoutTags": {"configured": $nwt_configured, "postStatus": "$nwt_status"},
-            "newWithTags": {"configured": $ntag_configured, "postStatus": "$ntag_status"},
-            "veryGood": {"configured": $vg_configured, "postStatus": "$vg_status"}
-          }
-          EOF
+          jq -n \
+            --arg checkedAt "$checked_at" \
+            --slurpfile nwt /tmp/nwt-result.json \
+            --slurpfile ntag /tmp/ntag-result.json \
+            --slurpfile vg /tmp/vg-result.json \
+            '{checkedAt:$checkedAt,newWithoutTags:$nwt[0],newWithTags:$ntag[0],veryGood:$vg[0]}' \
+            > vinted-radar/discord-health.json
 
       - name: Save Discord health result
         run: |
@@ -71,7 +85,7 @@ jobs:
             cp /tmp/discord-health.json vinted-radar/discord-health.json
             git add vinted-radar/discord-health.json
             if git diff --cached --quiet; then exit 0; fi
-            git commit -m "Record Discord health check"
+            git commit -m "Record Discord target channels"
             if git push origin HEAD:main; then exit 0; fi
             sleep 2
           done
