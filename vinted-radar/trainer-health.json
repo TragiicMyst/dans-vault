@@ -1,36 +1,36 @@
 {
-  "generatedAt": "2026-08-23T22:43:07.416Z",
-  "stateUpdatedAt": "2026-08-23T22:43:07.416Z",
-  "lastAttemptAt": "2026-08-23T22:43:07.416Z",
-  "lastScanAt": "2026-08-23T22:43:07.416Z",
+  "generatedAt": "2026-08-23T22:57:05.901Z",
+  "stateUpdatedAt": "2026-08-23T22:57:05.901Z",
+  "lastAttemptAt": "2026-08-23T22:57:05.901Z",
+  "lastScanAt": "2026-08-23T22:57:05.901Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
-    "Nike Air Force 1::primary",
-    "Nike Dunk Low::primary",
-    "Air Jordan 1 Low::primary",
-    "Air Jordan 1 Mid::primary",
-    "Air Jordan 4::primary",
-    "Nike Initiator::primary",
-    "Nike Air Max Moto 2K::primary",
-    "Nike Metcon 10::primary"
+    "Nike Zoom Fly 6::primary",
+    "Nike P-6000::primary",
+    "Nike V5 RNR::primary",
+    "Nike Vomero 5::primary",
+    "Nike Vomero 18::primary",
+    "Nike Vomero Plus::primary",
+    "Nike Vomero Premium::primary",
+    "Nike Pegasus Premium::primary"
   ],
   "successfulSearches": 8,
   "failedSearches": 0,
-  "catalogMarkers": 1536,
-  "catalogItems": 996,
-  "candidateItems": 709,
-  "freshItems": 116,
-  "qualifyingAlerts": 9,
+  "catalogMarkers": 1456,
+  "catalogItems": 688,
+  "candidateItems": 508,
+  "freshItems": 8,
+  "qualifyingAlerts": 1,
   "qualifyingByCondition": {
-    "veryGood": 9
+    "veryGood": 1
   },
-  "deliveredAlerts": 9,
+  "deliveredAlerts": 1,
   "deliveredByCondition": {
-    "veryGood": 9
+    "veryGood": 1
   },
-  "duplicateSuppressed": 18,
+  "duplicateSuppressed": 34,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -64,15 +64,13 @@
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 24,
+  "detailFetches": 4,
   "rejects": {
-    "price": 4,
-    "recovery-no-fresh-signal": 575,
-    "condition": 8,
-    "seller-risk": 9,
-    "size": 6,
-    "detail-budget-exhausted": 29,
-    "seller-check-budget-exhausted": 51
+    "stale": 466,
+    "condition": 1,
+    "keyword": 1,
+    "size": 3,
+    "price": 2
   },
   "failures": {}
 }
