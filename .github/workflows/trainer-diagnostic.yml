@@ -28,7 +28,7 @@ jobs:
         run: |
           set +e
           started=$(date -u +%Y-%m-%dT%H:%M:%SZ)
-          node vinted-radar/run-bot.mjs > /tmp/trainer-diagnostic.log 2>&1
+          timeout 160s node vinted-radar/run-bot.mjs > /tmp/trainer-diagnostic.log 2>&1
           rc=$?
           finished=$(date -u +%Y-%m-%dT%H:%M:%SZ)
 
@@ -52,11 +52,17 @@ jobs:
             failedSearches:d.failedSearches??null,
             freshItems:d.freshItems??null,
             qualifyingAlerts:d.qualifyingAlerts??null,
+            qualifyingByCondition:d.qualifyingByCondition??{},
             deliveredAlerts:d.deliveredAlerts??null,
+            deliveredByCondition:d.deliveredByCondition??{},
             discordFailures:d.discordFailures??null,
+            discordRoutes:d.discordRoutes??[],
+            discordRouteWarnings:d.discordRouteWarnings??[],
+            detailFetches:d.detailFetches??null,
             pendingDeliveries:d.pendingDeliveries??null,
             failures:d.failures??{},
-            logTail:log.split('\n').slice(-30).join('\n')
+            rejects:d.rejects??{},
+            logTail:log.split('\n').slice(-40).join('\n')
           };
           fs.writeFileSync('vinted-radar/trainer-diagnostic.json',JSON.stringify(result,null,2)+'\n');
           NODE
