@@ -21,21 +21,19 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: Validate and patch production radar
+      - name: Validate permanent radar v6
         id: validation
         continue-on-error: true
         run: |
           set +e
           : > /tmp/validation.log
           node --check vinted-radar/fetch-guard.mjs >>/tmp/validation.log 2>&1; a=$?
-          node --check vinted-radar/apply-v5-parser-fix.mjs >>/tmp/validation.log 2>&1; b=$?
-          node vinted-radar/apply-v5-parser-fix.mjs >>/tmp/validation.log 2>&1; c=$?
-          node --check vinted-radar/radar-v5.mjs >>/tmp/validation.log 2>&1; d=$?
-          node --check vinted-radar/run-bot.mjs >>/tmp/validation.log 2>&1; e=$?
-          node --check vinted-radar/radar-selftest.mjs >>/tmp/validation.log 2>&1; f=$?
-          node vinted-radar/radar-selftest.mjs >>/tmp/validation.log 2>&1; g=$?
+          node --check vinted-radar/radar-v6.mjs >>/tmp/validation.log 2>&1; b=$?
+          node --check vinted-radar/run-bot.mjs >>/tmp/validation.log 2>&1; c=$?
+          node --check vinted-radar/radar-selftest.mjs >>/tmp/validation.log 2>&1; d=$?
+          node vinted-radar/radar-selftest.mjs >>/tmp/validation.log 2>&1; e=$?
           cat /tmp/validation.log
-          if [ $a -eq 0 ] && [ $b -eq 0 ] && [ $c -eq 0 ] && [ $d -eq 0 ] && [ $e -eq 0 ] && [ $f -eq 0 ] && [ $g -eq 0 ]; then code=0; else code=1; fi
+          if [ $a -eq 0 ] && [ $b -eq 0 ] && [ $c -eq 0 ] && [ $d -eq 0 ] && [ $e -eq 0 ]; then code=0; else code=1; fi
           echo "code=$code" >> "$GITHUB_OUTPUT"
           exit 0
 
@@ -53,11 +51,11 @@ jobs:
           trainer_get=0; clothing_get=0; trainer_post=0; clothing_post=0
           if [ $trainer_present -eq 1 ]; then
             trainer_get=$(curl -sS -o /tmp/trainers-get.json -w '%{http_code}' "$TRAINERS_WEBHOOK" || echo 000)
-            trainer_post=$(curl -sS -o /tmp/trainers-discord.json -w '%{http_code}' -H 'Content-Type: application/json' -d '{"content":"✅ Dan’s Vault TRAINER radar smoke test — Discord delivery confirmed."}' "${TRAINERS_WEBHOOK}?wait=true" || echo 000)
+            trainer_post=$(curl -sS -o /tmp/trainers-discord.json -w '%{http_code}' -H 'Content-Type: application/json' -d '{"content":"✅ Dan’s Vault TRAINER radar v6 smoke test — Discord delivery confirmed."}' "${TRAINERS_WEBHOOK}?wait=true" || echo 000)
           fi
           if [ $clothing_present -eq 1 ]; then
             clothing_get=$(curl -sS -o /tmp/clothing-get.json -w '%{http_code}' "$CLOTHING_WEBHOOK" || echo 000)
-            clothing_post=$(curl -sS -o /tmp/clothing-discord.json -w '%{http_code}' -H 'Content-Type: application/json' -d '{"content":"✅ Dan’s Vault CLOTHING radar smoke test — Discord delivery confirmed."}' "${CLOTHING_WEBHOOK}?wait=true" || echo 000)
+            clothing_post=$(curl -sS -o /tmp/clothing-discord.json -w '%{http_code}' -H 'Content-Type: application/json' -d '{"content":"✅ Dan’s Vault CLOTHING radar v6 smoke test — Discord delivery confirmed."}' "${CLOTHING_WEBHOOK}?wait=true" || echo 000)
           fi
           echo "trainer_present=$trainer_present" >> "$GITHUB_OUTPUT"
           echo "clothing_present=$clothing_present" >> "$GITHUB_OUTPUT"
@@ -78,7 +76,7 @@ jobs:
           echo "code=$code" >> "$GITHUB_OUTPUT"
           exit 0
 
-      - name: Run one live trainer scan
+      - name: Run one live trainer v6 scan
         id: trainers
         continue-on-error: true
         env:
@@ -94,7 +92,7 @@ jobs:
           echo "code=$code" >> "$GITHUB_OUTPUT"
           exit 0
 
-      - name: Run one live clothing scan
+      - name: Run one live clothing v6 scan
         id: clothing
         continue-on-error: true
         env:
@@ -161,6 +159,6 @@ jobs:
           git config user.name "Dan's Vault Radar Smoke"
           git config user.email "actions@users.noreply.github.com"
           git add vinted-radar/smoke-result.json vinted-radar/probe-result.json
-          git commit -m "Record live Vinted radar smoke result" || exit 0
+          git commit -m "Record live Vinted radar v6 smoke result" || exit 0
           git pull --rebase origin main
           git push origin HEAD:main
