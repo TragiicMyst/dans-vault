@@ -1,4 +1,5 @@
 import fs from 'node:fs/promises';
+import './fetch-guard.mjs';
 import { runRadarV5 } from './radar-v5.mjs';
 
 const root = new URL('./', import.meta.url);
