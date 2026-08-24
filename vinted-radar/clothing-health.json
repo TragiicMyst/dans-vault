@@ -1,28 +1,32 @@
 {
-  "generatedAt": "2026-08-24T08:40:46.938Z",
-  "stateUpdatedAt": "2026-08-24T08:40:46.938Z",
-  "lastAttemptAt": "2026-08-24T08:40:46.938Z",
-  "lastScanAt": "2026-08-24T08:40:46.938Z",
+  "generatedAt": "2026-08-24T08:45:47.299Z",
+  "stateUpdatedAt": "2026-08-24T08:45:47.299Z",
+  "lastAttemptAt": "2026-08-24T08:45:47.299Z",
+  "lastScanAt": "2026-08-24T08:45:47.299Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
-    "Nike NOCTA Track Jacket::nike nocta track jacket",
-    "Nike NOCTA Tracksuit::nike nocta tracksuit",
-    "Nike NOCTA Joggers::nike nocta joggers",
-    "Jordan Flight Fleece Hoodie::jordan flight fleece hoodie"
+    "Jordan Flight Fleece Joggers::jordan flight fleece joggers",
+    "Nike Miler Shorts::nike miler shorts",
+    "Nike Challenger Shorts::nike challenger shorts",
+    "Nike Stride Shorts::nike stride shorts"
   ],
   "successfulSearches": 4,
   "failedSearches": 0,
-  "catalogMarkers": 596,
-  "catalogItems": 315,
-  "candidateItems": 173,
-  "freshItems": 0,
-  "qualifyingAlerts": 0,
-  "qualifyingByCondition": {},
-  "deliveredAlerts": 0,
-  "deliveredByCondition": {},
-  "duplicateSuppressed": 7,
+  "catalogMarkers": 672,
+  "catalogItems": 366,
+  "candidateItems": 190,
+  "freshItems": 7,
+  "qualifyingAlerts": 1,
+  "qualifyingByCondition": {
+    "veryGood": 1
+  },
+  "deliveredAlerts": 1,
+  "deliveredByCondition": {
+    "veryGood": 1
+  },
+  "duplicateSuppressed": 18,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -58,7 +62,10 @@
   "pendingDeliveries": 0,
   "detailFetches": 0,
   "rejects": {
-    "stale": 166
+    "stale": 165,
+    "keyword": 1,
+    "weak-margin": 3,
+    "condition": 2
   },
   "failures": {}
 }
