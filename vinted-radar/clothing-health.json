@@ -1,28 +1,34 @@
 {
-  "generatedAt": "2026-08-24T09:41:08.801Z",
-  "stateUpdatedAt": "2026-08-24T09:41:08.801Z",
-  "lastAttemptAt": "2026-08-24T09:41:08.801Z",
-  "lastScanAt": "2026-08-24T09:41:08.801Z",
+  "generatedAt": "2026-08-24T09:45:15.481Z",
+  "stateUpdatedAt": "2026-08-24T09:45:15.481Z",
+  "lastAttemptAt": "2026-08-24T09:45:15.481Z",
+  "lastScanAt": "2026-08-24T09:45:15.481Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
-    "Nike NOCTA Hoodie::nike nocta hoodie",
-    "Nike Stride Shorts::nike stride shorts",
-    "Nike Tech Fleece Tracksuit::nike tech fleece tracksuit",
-    "Nike ACG Skull Peak Jacket::nike acg skull peak"
+    "Nike Sportswear Hoodie::nike sportswear hoodie",
+    "Nike Sportswear Jacket::nike sportswear jacket",
+    "Nike Tech Fleece Windrunner::nike tech fleece windrunner",
+    "Nike Puffer Jacket::nike puffer jacket",
+    "Nike NOCTA Track Jacket::nike nocta track jacket",
+    "Nike Miler Shorts::nike miler shorts"
   ],
-  "successfulSearches": 4,
+  "successfulSearches": 6,
   "failedSearches": 0,
-  "catalogMarkers": 960,
-  "catalogItems": 485,
+  "catalogMarkers": 1172,
+  "catalogItems": 709,
   "candidateItems": 200,
-  "freshItems": 1,
-  "qualifyingAlerts": 0,
-  "qualifyingByCondition": {},
-  "deliveredAlerts": 0,
-  "deliveredByCondition": {},
-  "duplicateSuppressed": 40,
+  "freshItems": 11,
+  "qualifyingAlerts": 3,
+  "qualifyingByCondition": {
+    "veryGood": 3
+  },
+  "deliveredAlerts": 3,
+  "deliveredByCondition": {
+    "veryGood": 3
+  },
+  "duplicateSuppressed": 34,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -56,10 +62,13 @@
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 0,
+  "detailFetches": 4,
   "rejects": {
-    "stale": 159,
-    "condition": 1
+    "stale": 105,
+    "size": 3,
+    "condition": 2,
+    "keyword": 2,
+    "score": 1
   },
   "failures": {}
 }
