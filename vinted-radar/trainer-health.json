@@ -1,35 +1,37 @@
 {
-  "generatedAt": "2026-08-24T14:14:13.880Z",
-  "stateUpdatedAt": "2026-08-24T14:14:13.880Z",
-  "lastAttemptAt": "2026-08-24T14:14:13.880Z",
-  "lastScanAt": "2026-08-24T14:14:13.880Z",
+  "generatedAt": "2026-08-24T14:43:38.679Z",
+  "stateUpdatedAt": "2026-08-24T14:43:38.679Z",
+  "lastAttemptAt": "2026-08-24T14:43:38.679Z",
+  "lastScanAt": "2026-08-24T14:43:38.679Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Lifestyle Trainer Bargain::generic",
-    "Nike Football Boot Bargain::generic",
-    "Nike Basketball Shoe Bargain::generic",
-    "Nike SB Shoe Bargain::generic",
-    "Nike P-6000::primary",
-    "Nike V5 RNR::primary"
+    "Nike Vomero 5::primary",
+    "Nike Vomero 18::primary",
+    "Nike Vomero Plus::primary",
+    "Nike Vomero Premium::primary",
+    "Nike Pegasus Premium::primary",
+    "Nike Pegasus Trail 5 GORE-TEX::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1264,
-  "catalogItems": 887,
-  "candidateItems": 444,
-  "freshItems": 188,
-  "qualifyingAlerts": 6,
+  "catalogMarkers": 1344,
+  "catalogItems": 734,
+  "candidateItems": 479,
+  "freshItems": 22,
+  "qualifyingAlerts": 7,
   "qualifyingByCondition": {
-    "veryGood": 6
+    "veryGood": 5,
+    "newWithoutTags": 2
   },
-  "deliveredAlerts": 6,
+  "deliveredAlerts": 7,
   "deliveredByCondition": {
-    "veryGood": 6
+    "veryGood": 5,
+    "newWithoutTags": 2
   },
-  "duplicateSuppressed": 5,
+  "duplicateSuppressed": 45,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -65,15 +67,12 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
+    "recovery-no-fresh-signal": 412,
     "size": 5,
-    "stale": 251,
-    "price": 17,
-    "keyword": 21,
-    "condition": 46,
-    "seller-risk": 1,
-    "seller-check-budget-exhausted": 42,
-    "detail-budget-exhausted": 48,
-    "weak-margin": 2
+    "keyword": 3,
+    "condition": 1,
+    "price": 3,
+    "weak-margin": 3
   },
   "failures": {}
 }
