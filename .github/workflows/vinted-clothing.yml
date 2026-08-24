@@ -38,6 +38,7 @@ jobs:
           node --check vinted-radar/clothing-variety.mjs
           node --check vinted-radar/broad-clothing-opportunities.mjs
           node --check vinted-radar/all-nike-opportunities.mjs
+          node --check vinted-radar/nike-accessory-opportunities.mjs
           node --check vinted-radar/condition-channel-routing.mjs
           node --check vinted-radar/discord-route-resolver.mjs
           node --check vinted-radar/listing-image-embed.mjs
