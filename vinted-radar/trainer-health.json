@@ -1,32 +1,36 @@
 {
-  "generatedAt": "2026-08-24T04:06:47.387Z",
-  "stateUpdatedAt": "2026-08-24T04:06:47.387Z",
-  "lastAttemptAt": "2026-08-24T04:06:47.387Z",
-  "lastScanAt": "2026-08-24T04:06:47.387Z",
+  "generatedAt": "2026-08-24T04:32:01.234Z",
+  "stateUpdatedAt": "2026-08-24T04:32:01.234Z",
+  "lastAttemptAt": "2026-08-24T04:32:01.234Z",
+  "lastScanAt": "2026-08-24T04:32:01.234Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
-    "Nike Air Max Moto 2K::primary",
-    "Nike Metcon 10::primary",
-    "Nike Zoom Fly 6::primary",
-    "Nike P-6000::primary",
-    "Nike V5 RNR::primary",
-    "Nike Vomero 5::primary",
-    "Nike Vomero 18::primary",
-    "Nike Vomero Plus::primary"
+    "Nike Vomero Premium::primary",
+    "Nike Pegasus Premium::primary",
+    "Nike Pegasus Trail 5 GORE-TEX::primary",
+    "Nike TN::primary",
+    "Nike Air Max Plus 3::primary",
+    "Nike Air Max Plus VII::primary",
+    "Nike Air Max 95::primary",
+    "Nike Air Max 90::primary"
   ],
   "successfulSearches": 8,
   "failedSearches": 0,
-  "catalogMarkers": 1456,
-  "catalogItems": 694,
-  "candidateItems": 514,
-  "freshItems": 0,
-  "qualifyingAlerts": 0,
-  "qualifyingByCondition": {},
-  "deliveredAlerts": 0,
-  "deliveredByCondition": {},
-  "duplicateSuppressed": 29,
+  "catalogMarkers": 1536,
+  "catalogItems": 1117,
+  "candidateItems": 603,
+  "freshItems": 3,
+  "qualifyingAlerts": 1,
+  "qualifyingByCondition": {
+    "veryGood": 1
+  },
+  "deliveredAlerts": 1,
+  "deliveredByCondition": {
+    "veryGood": 1
+  },
+  "duplicateSuppressed": 68,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -60,9 +64,10 @@
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 0,
+  "detailFetches": 3,
   "rejects": {
-    "recovery-no-fresh-signal": 485
+    "recovery-no-fresh-signal": 532,
+    "seller-risk": 2
   },
   "failures": {}
 }
