@@ -1,35 +1,37 @@
 {
-  "generatedAt": "2026-08-24T17:55:11.328Z",
-  "stateUpdatedAt": "2026-08-24T17:55:11.328Z",
-  "lastAttemptAt": "2026-08-24T17:55:11.328Z",
-  "lastScanAt": "2026-08-24T17:55:11.328Z",
+  "generatedAt": "2026-08-24T18:00:11.938Z",
+  "stateUpdatedAt": "2026-08-24T18:00:11.938Z",
+  "lastAttemptAt": "2026-08-24T18:00:11.938Z",
+  "lastScanAt": "2026-08-24T18:00:11.938Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike TN::primary",
-    "Nike Air Max Plus 3::primary",
-    "Nike Air Max Plus VII::primary",
-    "Nike Air Max 95::primary",
-    "Nike Air Max 90::primary",
-    "Nike Air Max 90 Drift::primary"
+    "Nike Air Max 97::primary",
+    "Nike Air Max 270::primary",
+    "Nike Air Max Dn::primary",
+    "Nike Air Max 1::primary",
+    "Nike Shox TL::primary",
+    "Nike Shox R4::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 945,
-  "candidateItems": 497,
-  "freshItems": 91,
-  "qualifyingAlerts": 7,
+  "catalogItems": 972,
+  "candidateItems": 502,
+  "freshItems": 57,
+  "qualifyingAlerts": 3,
   "qualifyingByCondition": {
-    "veryGood": 7
+    "newWithTags": 1,
+    "veryGood": 2
   },
-  "deliveredAlerts": 7,
+  "deliveredAlerts": 3,
   "deliveredByCondition": {
-    "veryGood": 7
+    "newWithTags": 1,
+    "veryGood": 2
   },
-  "duplicateSuppressed": 23,
+  "duplicateSuppressed": 41,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -65,15 +67,14 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 383,
-    "size": 4,
-    "condition": 9,
+    "stale": 404,
+    "condition": 7,
+    "size": 9,
     "weak-margin": 1,
-    "seller-risk": 1,
-    "detail-budget-exhausted": 14,
-    "seller-check-budget-exhausted": 48,
-    "price": 4,
-    "keyword": 3
+    "keyword": 6,
+    "detail-budget-exhausted": 12,
+    "seller-check-budget-exhausted": 17,
+    "price": 2
   },
   "failures": {}
 }
