@@ -1,32 +1,38 @@
 {
-  "generatedAt": "2026-08-24T08:05:35.544Z",
-  "stateUpdatedAt": "2026-08-24T08:05:35.544Z",
-  "lastAttemptAt": "2026-08-24T08:05:35.544Z",
-  "lastScanAt": "2026-08-24T08:05:35.544Z",
+  "generatedAt": "2026-08-24T08:21:31.797Z",
+  "stateUpdatedAt": "2026-08-24T08:21:31.797Z",
+  "lastAttemptAt": "2026-08-24T08:21:31.797Z",
+  "lastScanAt": "2026-08-24T08:21:31.797Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
-    "Nike V5 RNR::primary",
-    "Nike Vomero 5::primary",
-    "Nike Vomero 18::primary",
-    "Nike Vomero Plus::primary",
-    "Nike Vomero Premium::primary",
-    "Nike Pegasus Premium::primary",
-    "Nike Pegasus Trail 5 GORE-TEX::primary",
-    "Nike TN::primary"
+    "Nike Air Max Plus 3::primary",
+    "Nike Air Max Plus VII::primary",
+    "Nike Air Max 95::primary",
+    "Nike Air Max 90::primary",
+    "Nike Air Max 90 Drift::primary",
+    "Nike Air Max 97::primary"
   ],
-  "successfulSearches": 8,
+  "successfulSearches": 6,
   "failedSearches": 0,
-  "catalogMarkers": 1456,
-  "catalogItems": 829,
-  "candidateItems": 557,
-  "freshItems": 22,
-  "qualifyingAlerts": 0,
-  "qualifyingByCondition": {},
-  "deliveredAlerts": 0,
-  "deliveredByCondition": {},
-  "duplicateSuppressed": 44,
+  "catalogMarkers": 1152,
+  "catalogItems": 885,
+  "candidateItems": 526,
+  "freshItems": 36,
+  "qualifyingAlerts": 7,
+  "qualifyingByCondition": {
+    "newWithTags": 1,
+    "veryGood": 5,
+    "newWithoutTags": 1
+  },
+  "deliveredAlerts": 7,
+  "deliveredByCondition": {
+    "newWithTags": 1,
+    "veryGood": 5,
+    "newWithoutTags": 1
+  },
+  "duplicateSuppressed": 21,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -60,16 +66,15 @@
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 11,
+  "detailFetches": 12,
   "rejects": {
-    "recovery-no-fresh-signal": 491,
-    "size": 9,
-    "keyword": 5,
-    "condition": 4,
-    "price": 1,
-    "weak-margin": 1,
-    "score": 1,
-    "seller-risk": 1
+    "recovery-no-fresh-signal": 469,
+    "keyword": 4,
+    "price": 3,
+    "condition": 9,
+    "size": 5,
+    "detail-budget-exhausted": 2,
+    "seller-check-budget-exhausted": 6
   },
   "failures": {}
 }
