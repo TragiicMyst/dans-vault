@@ -1,28 +1,32 @@
 {
-  "generatedAt": "2026-08-24T09:25:18.896Z",
-  "stateUpdatedAt": "2026-08-24T09:25:18.896Z",
-  "lastAttemptAt": "2026-08-24T09:25:18.896Z",
-  "lastScanAt": "2026-08-24T09:25:18.896Z",
+  "generatedAt": "2026-08-24T09:30:19.186Z",
+  "stateUpdatedAt": "2026-08-24T09:30:19.186Z",
+  "lastAttemptAt": "2026-08-24T09:30:19.186Z",
+  "lastScanAt": "2026-08-24T09:30:19.186Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
-    "Nike Miler Running Top::nike miler running top",
-    "Nike Tech Fleece Open-Hem Trousers::nike tech fleece open hem trousers",
-    "Nike ACG Lunar Lake Puffer::nike acg lunar lake",
-    "Nike Academy Tracksuit::nike academy tracksuit"
+    "Nike Dri-FIT Running Top::nike dri-fit running top",
+    "Nike Tech Fleece Shorts::nike tech fleece shorts",
+    "Nike Therma-FIT Jacket::nike therma fit jacket",
+    "Nike NOCTA Hoodie::nike nocta hoodie"
   ],
   "successfulSearches": 4,
   "failedSearches": 0,
-  "catalogMarkers": 895,
-  "catalogItems": 436,
-  "candidateItems": 156,
-  "freshItems": 1,
-  "qualifyingAlerts": 0,
-  "qualifyingByCondition": {},
-  "deliveredAlerts": 0,
-  "deliveredByCondition": {},
-  "duplicateSuppressed": 15,
+  "catalogMarkers": 864,
+  "catalogItems": 391,
+  "candidateItems": 237,
+  "freshItems": 4,
+  "qualifyingAlerts": 4,
+  "qualifyingByCondition": {
+    "veryGood": 4
+  },
+  "deliveredAlerts": 4,
+  "deliveredByCondition": {
+    "veryGood": 4
+  },
+  "duplicateSuppressed": 30,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -58,8 +62,7 @@
   "pendingDeliveries": 0,
   "detailFetches": 0,
   "rejects": {
-    "stale": 140,
-    "keyword": 1
+    "stale": 203
   },
   "failures": {}
 }
