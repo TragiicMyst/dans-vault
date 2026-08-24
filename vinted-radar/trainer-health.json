@@ -1,38 +1,34 @@
 {
-  "generatedAt": "2026-08-24T08:21:31.797Z",
-  "stateUpdatedAt": "2026-08-24T08:21:31.797Z",
-  "lastAttemptAt": "2026-08-24T08:21:31.797Z",
-  "lastScanAt": "2026-08-24T08:21:31.797Z",
+  "generatedAt": "2026-08-24T08:29:55.225Z",
+  "stateUpdatedAt": "2026-08-24T08:29:55.225Z",
+  "lastAttemptAt": "2026-08-24T08:29:55.225Z",
+  "lastScanAt": "2026-08-24T08:29:55.225Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
-    "Nike Air Max Plus 3::primary",
-    "Nike Air Max Plus VII::primary",
-    "Nike Air Max 95::primary",
-    "Nike Air Max 90::primary",
-    "Nike Air Max 90 Drift::primary",
-    "Nike Air Max 97::primary"
+    "Nike Air Max 270::primary",
+    "Nike Air Max Dn::primary",
+    "Nike Air Max 1::primary",
+    "Nike Shox TL::primary",
+    "Nike Shox R4::primary",
+    "Nike Shox Ride 2::primary"
   ],
   "successfulSearches": 6,
   "failedSearches": 0,
   "catalogMarkers": 1152,
-  "catalogItems": 885,
-  "candidateItems": 526,
-  "freshItems": 36,
-  "qualifyingAlerts": 7,
+  "catalogItems": 741,
+  "candidateItems": 357,
+  "freshItems": 14,
+  "qualifyingAlerts": 2,
   "qualifyingByCondition": {
-    "newWithTags": 1,
-    "veryGood": 5,
-    "newWithoutTags": 1
+    "veryGood": 2
   },
-  "deliveredAlerts": 7,
+  "deliveredAlerts": 2,
   "deliveredByCondition": {
-    "newWithTags": 1,
-    "veryGood": 5,
-    "newWithoutTags": 1
+    "veryGood": 2
   },
-  "duplicateSuppressed": 21,
+  "duplicateSuppressed": 23,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -66,15 +62,14 @@
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 12,
+  "detailFetches": 5,
   "rejects": {
-    "recovery-no-fresh-signal": 469,
-    "keyword": 4,
+    "size": 3,
+    "stale": 320,
     "price": 3,
-    "condition": 9,
-    "size": 5,
-    "detail-budget-exhausted": 2,
-    "seller-check-budget-exhausted": 6
+    "keyword": 3,
+    "weak-margin": 1,
+    "condition": 2
   },
   "failures": {}
 }
