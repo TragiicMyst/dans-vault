@@ -1,34 +1,38 @@
 {
-  "generatedAt": "2026-08-24T09:57:05.934Z",
-  "stateUpdatedAt": "2026-08-24T09:57:05.934Z",
-  "lastAttemptAt": "2026-08-24T09:57:05.934Z",
-  "lastScanAt": "2026-08-24T09:57:05.934Z",
+  "generatedAt": "2026-08-24T10:07:51.362Z",
+  "stateUpdatedAt": "2026-08-24T10:07:51.362Z",
+  "lastAttemptAt": "2026-08-24T10:07:51.362Z",
+  "lastScanAt": "2026-08-24T10:07:51.362Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
-    "Nike Challenger Shorts::nike challenger shorts",
-    "Nike Tech Fleece Joggers::nike tech fleece joggers",
-    "Nike Storm-FIT Puffer::nike storm fit puffer",
-    "Nike Solo Swoosh Hoodie::nike solo swoosh hoodie",
-    "Nike Miler Running Top::nike miler running top",
-    "Nike Tech Fleece Open-Hem Trousers::nike tech fleece open hem trousers"
+    "Nike Any Clothing Bargain::nike",
+    "Nike Accessories Bargain::nike accessories",
+    "Nike Dri-FIT Running Top::nike dri-fit running top",
+    "Nike Tech Fleece Shorts::nike tech fleece shorts",
+    "Nike Therma-FIT Jacket::nike therma fit jacket",
+    "Nike NOCTA Hoodie::nike nocta hoodie",
+    "Nike Stride Shorts::nike stride shorts",
+    "Nike Tech Fleece Tracksuit::nike tech fleece tracksuit"
   ],
-  "successfulSearches": 6,
+  "successfulSearches": 8,
   "failedSearches": 0,
-  "catalogMarkers": 1344,
-  "catalogItems": 645,
-  "candidateItems": 298,
-  "freshItems": 5,
-  "qualifyingAlerts": 2,
+  "catalogMarkers": 1824,
+  "catalogItems": 1018,
+  "candidateItems": 466,
+  "freshItems": 4,
+  "qualifyingAlerts": 3,
   "qualifyingByCondition": {
+    "newWithoutTags": 1,
     "veryGood": 2
   },
-  "deliveredAlerts": 2,
+  "deliveredAlerts": 3,
   "deliveredByCondition": {
+    "newWithoutTags": 1,
     "veryGood": 2
   },
-  "duplicateSuppressed": 64,
+  "duplicateSuppressed": 74,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -62,12 +66,10 @@
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 0,
+  "detailFetches": 1,
   "rejects": {
-    "weak-margin": 1,
-    "stale": 229,
-    "condition": 1,
-    "price": 1
+    "stale": 294,
+    "condition": 1
   },
   "failures": {}
 }
