@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-08-24T22:48:55.907Z",
-  "stateUpdatedAt": "2026-08-24T22:48:55.907Z",
-  "lastAttemptAt": "2026-08-24T22:48:55.907Z",
-  "lastScanAt": "2026-08-24T22:48:55.907Z",
+  "generatedAt": "2026-08-24T22:53:55.887Z",
+  "stateUpdatedAt": "2026-08-24T22:53:55.887Z",
+  "lastAttemptAt": "2026-08-24T22:53:55.887Z",
+  "lastScanAt": "2026-08-24T22:53:55.887Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Air Force 1::primary",
-    "Nike Dunk Low::primary",
-    "Air Jordan 1 Low::primary",
-    "Air Jordan 1 Mid::primary",
-    "Air Jordan 4::primary",
-    "Nike Initiator::primary"
+    "Nike Air Max Moto 2K::primary",
+    "Nike Metcon 10::primary",
+    "Nike Zoom Fly 6::primary",
+    "Nike Air Max Bargain::generic",
+    "Nike Running Trainer Bargain::generic",
+    "Nike Lifestyle Trainer Bargain::generic"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 899,
-  "candidateItems": 612,
-  "freshItems": 153,
-  "qualifyingAlerts": 3,
+  "catalogItems": 856,
+  "candidateItems": 418,
+  "freshItems": 55,
+  "qualifyingAlerts": 6,
   "qualifyingByCondition": {
-    "veryGood": 3
+    "veryGood": 6
   },
-  "deliveredAlerts": 3,
+  "deliveredAlerts": 6,
   "deliveredByCondition": {
-    "veryGood": 3
+    "veryGood": 6
   },
-  "duplicateSuppressed": 10,
+  "duplicateSuppressed": 26,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -65,15 +65,14 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 449,
-    "size": 4,
-    "keyword": 10,
-    "condition": 30,
-    "seller-risk": 5,
-    "price": 6,
-    "detail-budget-exhausted": 35,
-    "seller-check-budget-exhausted": 59,
-    "weak-margin": 1
+    "stale": 337,
+    "seller-risk": 1,
+    "keyword": 6,
+    "price": 14,
+    "size": 5,
+    "condition": 10,
+    "detail-budget-exhausted": 5,
+    "seller-check-budget-exhausted": 8
   },
   "failures": {}
 }
