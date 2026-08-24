@@ -1,36 +1,36 @@
 {
-  "generatedAt": "2026-08-24T06:06:33.596Z",
-  "stateUpdatedAt": "2026-08-24T06:06:33.596Z",
-  "lastAttemptAt": "2026-08-24T06:06:33.596Z",
-  "lastScanAt": "2026-08-24T06:06:33.596Z",
+  "generatedAt": "2026-08-24T07:15:58.409Z",
+  "stateUpdatedAt": "2026-08-24T07:15:58.409Z",
+  "lastAttemptAt": "2026-08-24T07:15:58.409Z",
+  "lastScanAt": "2026-08-24T07:15:58.409Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
-    "Nike Air Max 270::primary",
-    "Nike Air Max Dn::primary",
-    "Nike Air Max 1::primary",
-    "Nike Shox TL::primary",
-    "Nike Shox R4::primary",
-    "Nike Shox Ride 2::primary",
-    "Nike Air Force 1::primary",
-    "Nike Dunk Low::primary"
+    "Air Jordan 1 Low::primary",
+    "Air Jordan 1 Mid::primary",
+    "Air Jordan 4::primary",
+    "Nike Initiator::primary",
+    "Nike Air Max Moto 2K::primary",
+    "Nike Metcon 10::primary",
+    "Nike Zoom Fly 6::primary",
+    "Nike P-6000::primary"
   ],
   "successfulSearches": 8,
   "failedSearches": 0,
-  "catalogMarkers": 1536,
-  "catalogItems": 978,
-  "candidateItems": 575,
-  "freshItems": 10,
-  "qualifyingAlerts": 2,
+  "catalogMarkers": 1535,
+  "catalogItems": 954,
+  "candidateItems": 582,
+  "freshItems": 20,
+  "qualifyingAlerts": 3,
   "qualifyingByCondition": {
-    "veryGood": 2
+    "veryGood": 3
   },
-  "deliveredAlerts": 2,
+  "deliveredAlerts": 3,
   "deliveredByCondition": {
-    "veryGood": 2
+    "veryGood": 3
   },
-  "duplicateSuppressed": 43,
+  "duplicateSuppressed": 19,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -64,12 +64,13 @@
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 7,
+  "detailFetches": 10,
   "rejects": {
-    "stale": 522,
-    "size": 4,
-    "condition": 3,
-    "seller-risk": 1
+    "recovery-no-fresh-signal": 543,
+    "condition": 9,
+    "seller-risk": 2,
+    "size": 5,
+    "price": 1
   },
   "failures": {}
 }
