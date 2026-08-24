@@ -1,28 +1,36 @@
 {
-  "generatedAt": "2026-08-24T08:30:01.507Z",
-  "stateUpdatedAt": "2026-08-24T08:30:01.507Z",
-  "lastAttemptAt": "2026-08-24T08:30:01.507Z",
-  "lastScanAt": "2026-08-24T08:30:01.507Z",
+  "generatedAt": "2026-08-24T08:35:47.015Z",
+  "stateUpdatedAt": "2026-08-24T08:35:47.015Z",
+  "lastAttemptAt": "2026-08-24T08:35:47.015Z",
+  "lastScanAt": "2026-08-24T08:35:47.015Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
-    "Nike Sportswear Winterised Jacket::nike sportswear winterised jacket",
-    "Nike Trail Repel Jacket::nike trail repel jacket",
-    "Nike Running Division Jacket::nike running division jacket",
-    "Nike Miler Repel Jacket::nike miler repel jacket"
+    "Nike Stride Running Jacket::nike stride running jacket",
+    "Nike Strike Tracksuit::nike strike tracksuit",
+    "Nike Academy Tracksuit::nike academy tracksuit",
+    "Nike NOCTA Hoodie::nike nocta hoodie"
   ],
   "successfulSearches": 4,
   "failedSearches": 0,
   "catalogMarkers": 768,
-  "catalogItems": 447,
-  "candidateItems": 76,
-  "freshItems": 0,
-  "qualifyingAlerts": 0,
-  "qualifyingByCondition": {},
-  "deliveredAlerts": 0,
-  "deliveredByCondition": {},
-  "duplicateSuppressed": 6,
+  "catalogItems": 362,
+  "candidateItems": 212,
+  "freshItems": 6,
+  "qualifyingAlerts": 4,
+  "qualifyingByCondition": {
+    "newWithTags": 1,
+    "veryGood": 2,
+    "newWithoutTags": 1
+  },
+  "deliveredAlerts": 4,
+  "deliveredByCondition": {
+    "newWithTags": 1,
+    "veryGood": 2,
+    "newWithoutTags": 1
+  },
+  "duplicateSuppressed": 16,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -58,7 +66,9 @@
   "pendingDeliveries": 0,
   "detailFetches": 0,
   "rejects": {
-    "stale": 70
+    "stale": 190,
+    "keyword": 1,
+    "condition": 1
   },
   "failures": {}
 }
