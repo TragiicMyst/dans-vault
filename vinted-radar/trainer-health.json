@@ -1,37 +1,37 @@
 {
-  "generatedAt": "2026-08-24T17:16:07.479Z",
-  "stateUpdatedAt": "2026-08-24T17:16:07.479Z",
-  "lastAttemptAt": "2026-08-24T17:16:07.479Z",
-  "lastScanAt": "2026-08-24T17:16:07.479Z",
+  "generatedAt": "2026-08-24T17:21:08.448Z",
+  "stateUpdatedAt": "2026-08-24T17:21:08.448Z",
+  "lastAttemptAt": "2026-08-24T17:21:08.448Z",
+  "lastScanAt": "2026-08-24T17:21:08.448Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Vomero 5::primary",
-    "Nike Vomero 18::primary",
-    "Nike Vomero Plus::primary",
-    "Nike Vomero Premium::primary",
-    "Nike Pegasus Premium::primary",
-    "Nike Pegasus Trail 5 GORE-TEX::primary"
+    "Nike TN::primary",
+    "Nike Air Max Plus 3::primary",
+    "Nike Air Max Plus VII::primary",
+    "Nike Air Max 95::primary",
+    "Nike Air Max 90::primary",
+    "Nike Air Max 90 Drift::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 734,
-  "candidateItems": 477,
-  "freshItems": 17,
-  "qualifyingAlerts": 6,
+  "catalogItems": 1013,
+  "candidateItems": 519,
+  "freshItems": 90,
+  "qualifyingAlerts": 5,
   "qualifyingByCondition": {
-    "veryGood": 5,
-    "newWithTags": 1
+    "newWithTags": 1,
+    "veryGood": 4
   },
-  "deliveredAlerts": 6,
+  "deliveredAlerts": 5,
   "deliveredByCondition": {
-    "veryGood": 5,
-    "newWithTags": 1
+    "newWithTags": 1,
+    "veryGood": 4
   },
-  "duplicateSuppressed": 54,
+  "duplicateSuppressed": 23,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -68,11 +68,14 @@
   "detailFetches": 12,
   "rejects": {
     "stale": 406,
-    "keyword": 2,
-    "condition": 1,
-    "price": 1,
     "size": 6,
-    "seller-check-budget-exhausted": 1
+    "weak-margin": 1,
+    "condition": 9,
+    "keyword": 5,
+    "score": 1,
+    "seller-check-budget-exhausted": 43,
+    "detail-budget-exhausted": 16,
+    "price": 4
   },
   "failures": {}
 }
