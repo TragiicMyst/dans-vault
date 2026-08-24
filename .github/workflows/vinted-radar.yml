@@ -4,6 +4,9 @@ on:
   schedule:
     - cron: '1-56/5 * * * *'
   workflow_dispatch:
+  push:
+    paths:
+      - 'vinted-radar/trainer-trigger.txt'
 
 concurrency:
   group: dans-vault-trainers-radar
