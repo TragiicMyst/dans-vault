@@ -1,28 +1,34 @@
 {
-  "generatedAt": "2026-08-24T08:09:17.639Z",
-  "stateUpdatedAt": "2026-08-24T08:09:17.639Z",
-  "lastAttemptAt": "2026-08-24T08:09:17.639Z",
-  "lastScanAt": "2026-08-24T08:09:17.639Z",
+  "generatedAt": "2026-08-24T08:21:32.326Z",
+  "stateUpdatedAt": "2026-08-24T08:21:32.326Z",
+  "lastAttemptAt": "2026-08-24T08:21:32.326Z",
+  "lastScanAt": "2026-08-24T08:21:32.326Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
-    "Nike ACG Canwell Glacier Jacket::nike acg canwell glacier",
-    "Nike ACG Lunar Lake Puffer::nike acg lunar lake",
-    "Nike ACG Skull Peak Jacket::nike acg skull peak",
-    "Nike ACG GORE-TEX Jacket::nike acg gore tex jacket"
+    "Nike Puffer Jacket::nike puffer jacket",
+    "Nike Storm-FIT Puffer::nike storm fit puffer",
+    "Nike Therma-FIT Jacket::nike therma fit jacket",
+    "Nike Windrunner Jacket::nike windrunner jacket"
   ],
   "successfulSearches": 4,
   "failedSearches": 0,
-  "catalogMarkers": 1083,
-  "catalogItems": 608,
-  "candidateItems": 86,
-  "freshItems": 0,
-  "qualifyingAlerts": 0,
-  "qualifyingByCondition": {},
-  "deliveredAlerts": 0,
-  "deliveredByCondition": {},
-  "duplicateSuppressed": 1,
+  "catalogMarkers": 767,
+  "catalogItems": 462,
+  "candidateItems": 206,
+  "freshItems": 14,
+  "qualifyingAlerts": 8,
+  "qualifyingByCondition": {
+    "veryGood": 7,
+    "newWithoutTags": 1
+  },
+  "deliveredAlerts": 8,
+  "deliveredByCondition": {
+    "veryGood": 7,
+    "newWithoutTags": 1
+  },
+  "duplicateSuppressed": 54,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -56,9 +62,13 @@
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 0,
+  "detailFetches": 2,
   "rejects": {
-    "recovery-no-fresh-signal": 85
+    "size": 1,
+    "price": 1,
+    "keyword": 3,
+    "condition": 1,
+    "stale": 138
   },
   "failures": {}
 }
