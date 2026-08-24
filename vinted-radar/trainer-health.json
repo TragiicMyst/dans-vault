@@ -1,36 +1,34 @@
 {
-  "generatedAt": "2026-08-24T09:45:08.644Z",
-  "stateUpdatedAt": "2026-08-24T09:45:08.644Z",
-  "lastAttemptAt": "2026-08-24T09:45:08.644Z",
-  "lastScanAt": "2026-08-24T09:45:08.644Z",
+  "generatedAt": "2026-08-24T09:50:08.703Z",
+  "stateUpdatedAt": "2026-08-24T09:50:08.703Z",
+  "lastAttemptAt": "2026-08-24T09:50:08.703Z",
+  "lastScanAt": "2026-08-24T09:50:08.703Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
-    "Nike Air Max 270::primary",
-    "Nike Air Max Dn::primary",
-    "Nike Air Max 1::primary",
-    "Nike Shox TL::primary",
-    "Nike Shox R4::primary",
-    "Nike Shox Ride 2::primary"
+    "Nike Air Force 1::primary",
+    "Nike Dunk Low::primary",
+    "Air Jordan 1 Low::primary",
+    "Air Jordan 1 Mid::primary",
+    "Air Jordan 4::primary",
+    "Nike Initiator::primary"
   ],
   "successfulSearches": 6,
   "failedSearches": 0,
   "catalogMarkers": 1152,
-  "catalogItems": 746,
-  "candidateItems": 339,
-  "freshItems": 5,
-  "qualifyingAlerts": 2,
+  "catalogItems": 798,
+  "candidateItems": 565,
+  "freshItems": 116,
+  "qualifyingAlerts": 1,
   "qualifyingByCondition": {
-    "veryGood": 1,
-    "newWithTags": 1
+    "veryGood": 1
   },
-  "deliveredAlerts": 2,
+  "deliveredAlerts": 1,
   "deliveredByCondition": {
-    "veryGood": 1,
-    "newWithTags": 1
+    "veryGood": 1
   },
-  "duplicateSuppressed": 22,
+  "duplicateSuppressed": 12,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -64,11 +62,17 @@
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 3,
+  "detailFetches": 12,
   "rejects": {
-    "stale": 312,
-    "condition": 2,
-    "seller-risk": 1
+    "price": 2,
+    "stale": 437,
+    "condition": 12,
+    "keyword": 9,
+    "size": 3,
+    "seller-risk": 8,
+    "seller-check-budget-exhausted": 32,
+    "detail-budget-exhausted": 48,
+    "weak-margin": 1
   },
   "failures": {}
 }
