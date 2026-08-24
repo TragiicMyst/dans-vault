@@ -1,37 +1,35 @@
 {
-  "generatedAt": "2026-08-24T10:50:47.305Z",
-  "stateUpdatedAt": "2026-08-24T10:50:47.305Z",
-  "lastAttemptAt": "2026-08-24T10:50:47.305Z",
-  "lastScanAt": "2026-08-24T10:50:47.305Z",
+  "generatedAt": "2026-08-24T10:55:46.799Z",
+  "stateUpdatedAt": "2026-08-24T10:55:46.799Z",
+  "lastAttemptAt": "2026-08-24T10:55:46.799Z",
+  "lastScanAt": "2026-08-24T10:55:46.799Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Lifestyle Trainer Bargain::generic",
-    "Nike Football Boot Bargain::generic",
-    "Nike Basketball Shoe Bargain::generic",
-    "Nike SB Shoe Bargain::generic",
-    "Nike P-6000::primary",
-    "Nike V5 RNR::primary"
+    "Nike Vomero 5::primary",
+    "Nike Vomero 18::primary",
+    "Nike Vomero Plus::primary",
+    "Nike Vomero Premium::primary",
+    "Nike Pegasus Premium::primary",
+    "Nike Pegasus Trail 5 GORE-TEX::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1263,
-  "catalogItems": 872,
-  "candidateItems": 434,
-  "freshItems": 138,
-  "qualifyingAlerts": 6,
+  "catalogMarkers": 1344,
+  "catalogItems": 732,
+  "candidateItems": 485,
+  "freshItems": 9,
+  "qualifyingAlerts": 5,
   "qualifyingByCondition": {
-    "newWithoutTags": 1,
     "veryGood": 5
   },
-  "deliveredAlerts": 6,
+  "deliveredAlerts": 5,
   "deliveredByCondition": {
-    "newWithoutTags": 1,
     "veryGood": 5
   },
-  "duplicateSuppressed": 3,
+  "duplicateSuppressed": 35,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -65,16 +63,12 @@
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 12,
+  "detailFetches": 6,
   "rejects": {
-    "size": 6,
-    "recovery-no-fresh-signal": 293,
-    "price": 9,
-    "keyword": 24,
-    "condition": 37,
-    "detail-budget-exhausted": 29,
-    "seller-check-budget-exhausted": 26,
-    "weak-margin": 1
+    "stale": 441,
+    "keyword": 2,
+    "price": 1,
+    "score": 1
   },
   "failures": {}
 }
