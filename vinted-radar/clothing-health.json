@@ -1,32 +1,28 @@
 {
-  "generatedAt": "2026-08-24T06:29:51.209Z",
-  "stateUpdatedAt": "2026-08-24T06:29:51.209Z",
-  "lastAttemptAt": "2026-08-24T06:29:51.209Z",
-  "lastScanAt": "2026-08-24T06:29:51.209Z",
+  "generatedAt": "2026-08-24T07:18:02.475Z",
+  "stateUpdatedAt": "2026-08-24T07:18:02.475Z",
+  "lastAttemptAt": "2026-08-24T07:18:02.475Z",
+  "lastScanAt": "2026-08-24T07:18:02.475Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
-    "Nike Football Tech Fleece::nike football tech fleece",
-    "Nike Club Fleece Pullover Hoodie::nike club fleece hoodie",
-    "Nike Club Fleece Full-Zip Hoodie::nike club fleece full zip hoodie",
-    "Nike Club Fleece Joggers::nike club fleece joggers"
+    "Nike Club Fleece Open-Hem Trousers::nike club fleece open hem trousers",
+    "Nike Club Fleece Crew::nike club fleece crew",
+    "Nike Solo Swoosh Hoodie::nike solo swoosh hoodie",
+    "Nike Solo Swoosh Crew::nike solo swoosh sweatshirt"
   ],
   "successfulSearches": 4,
   "failedSearches": 0,
-  "catalogMarkers": 1152,
-  "catalogItems": 534,
-  "candidateItems": 267,
-  "freshItems": 1,
-  "qualifyingAlerts": 1,
-  "qualifyingByCondition": {
-    "veryGood": 1
-  },
-  "deliveredAlerts": 1,
-  "deliveredByCondition": {
-    "veryGood": 1
-  },
-  "duplicateSuppressed": 29,
+  "catalogMarkers": 1056,
+  "catalogItems": 576,
+  "candidateItems": 163,
+  "freshItems": 0,
+  "qualifyingAlerts": 0,
+  "qualifyingByCondition": {},
+  "deliveredAlerts": 0,
+  "deliveredByCondition": {},
+  "duplicateSuppressed": 11,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -62,7 +58,7 @@
   "pendingDeliveries": 0,
   "detailFetches": 0,
   "rejects": {
-    "recovery-no-fresh-signal": 237
+    "recovery-no-fresh-signal": 152
   },
   "failures": {}
 }
