@@ -1,32 +1,34 @@
 {
-  "generatedAt": "2026-08-24T08:45:47.299Z",
-  "stateUpdatedAt": "2026-08-24T08:45:47.299Z",
-  "lastAttemptAt": "2026-08-24T08:45:47.299Z",
-  "lastScanAt": "2026-08-24T08:45:47.299Z",
+  "generatedAt": "2026-08-24T09:05:57.278Z",
+  "stateUpdatedAt": "2026-08-24T09:05:57.278Z",
+  "lastAttemptAt": "2026-08-24T09:05:57.278Z",
+  "lastScanAt": "2026-08-24T09:05:57.278Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
-    "Jordan Flight Fleece Joggers::jordan flight fleece joggers",
-    "Nike Miler Shorts::nike miler shorts",
-    "Nike Challenger Shorts::nike challenger shorts",
-    "Nike Stride Shorts::nike stride shorts"
+    "Nike Unlimited Shorts::nike unlimited shorts",
+    "Nike Miler Running Top::nike miler running top",
+    "Nike Dri-FIT Running Top::nike dri-fit running top",
+    "Nike Miler Challenger Running Set::nike miler challenger set"
   ],
   "successfulSearches": 4,
   "failedSearches": 0,
-  "catalogMarkers": 672,
-  "catalogItems": 366,
-  "candidateItems": 190,
-  "freshItems": 7,
-  "qualifyingAlerts": 1,
+  "catalogMarkers": 864,
+  "catalogItems": 453,
+  "candidateItems": 208,
+  "freshItems": 8,
+  "qualifyingAlerts": 3,
   "qualifyingByCondition": {
-    "veryGood": 1
+    "veryGood": 2,
+    "newWithoutTags": 1
   },
-  "deliveredAlerts": 1,
+  "deliveredAlerts": 3,
   "deliveredByCondition": {
-    "veryGood": 1
+    "veryGood": 2,
+    "newWithoutTags": 1
   },
-  "duplicateSuppressed": 18,
+  "duplicateSuppressed": 8,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -62,10 +64,9 @@
   "pendingDeliveries": 0,
   "detailFetches": 0,
   "rejects": {
-    "stale": 165,
-    "keyword": 1,
-    "weak-margin": 3,
-    "condition": 2
+    "recovery-no-fresh-signal": 192,
+    "price": 4,
+    "weak-margin": 1
   },
   "failures": {}
 }
