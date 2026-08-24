@@ -1,52 +1,39 @@
 {
-  "generatedAt": "2026-08-24T21:42:03.718Z",
-  "stateUpdatedAt": "2026-08-24T21:42:03.718Z",
-  "lastAttemptAt": "2026-08-24T21:42:03.718Z",
+  "generatedAt": "2026-08-24T21:47:03.638Z",
+  "stateUpdatedAt": "2026-08-24T21:47:03.638Z",
+  "lastAttemptAt": "2026-08-24T21:47:03.638Z",
   "lastScanAt": "2026-08-24T21:37:03.942Z",
-  "cooldownUntil": "2026-08-24T21:44:03.272Z",
+  "cooldownUntil": "2026-08-24T21:48:21.160Z",
   "healthyScan": false,
   "healthReason": "vinted-block-or-challenge",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike TN::primary",
     "Nike Air Max Plus 3::primary",
     "Nike Air Max Plus VII::primary",
     "Nike Air Max 95::primary",
     "Nike Air Max 90::primary",
-    "Nike Air Max 90 Drift::primary"
+    "Nike Air Max 90 Drift::primary",
+    "Nike Air Max 97::primary"
   ],
-  "successfulSearches": 2,
+  "successfulSearches": 0,
   "failedSearches": 1,
-  "catalogMarkers": 384,
-  "catalogItems": 315,
-  "candidateItems": 110,
-  "freshItems": 19,
-  "qualifyingAlerts": 5,
-  "qualifyingByCondition": {
-    "newWithTags": 1,
-    "veryGood": 4
-  },
-  "deliveredAlerts": 5,
-  "deliveredByCondition": {
-    "newWithTags": 1,
-    "veryGood": 4
-  },
-  "duplicateSuppressed": 10,
+  "catalogMarkers": 0,
+  "catalogItems": 0,
+  "candidateItems": 0,
+  "freshItems": 0,
+  "qualifyingAlerts": 0,
+  "qualifyingByCondition": {},
+  "deliveredAlerts": 0,
+  "deliveredByCondition": {},
+  "duplicateSuppressed": 0,
   "discordFailures": 0,
   "discordRoutes": [],
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 9,
-  "rejects": {
-    "stale": 81,
-    "keyword": 4,
-    "seller-risk": 2,
-    "condition": 5,
-    "price": 1,
-    "size": 2
-  },
+  "detailFetches": 0,
+  "rejects": {},
   "failures": {
-    "Nike Air Max Plus 3::primary": "Vinted guard cooldown active for 44s"
+    "Nike Any Shoe Bargain::generic": "Vinted guard cooldown active for 43s"
   }
 }

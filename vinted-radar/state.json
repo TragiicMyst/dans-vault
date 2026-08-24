@@ -163906,7 +163906,7 @@
       ]
     }
   },
-  "updatedAt": "2026-08-24T21:42:03.718Z",
+  "updatedAt": "2026-08-24T21:47:03.638Z",
   "cursor": 0,
   "lastRotation": {
     "bot": "trainers",
@@ -164135,12 +164135,12 @@
       }
     },
     "lastScanAt": "2026-08-24T21:37:03.942Z",
-    "lastAttemptAt": "2026-08-24T21:42:03.718Z"
+    "lastAttemptAt": "2026-08-24T21:47:03.638Z"
   },
   "diagnostics": {
     "bot": "trainers",
     "radarVersion": 6,
-    "lastRunAt": "2026-08-24T21:42:03.718Z",
+    "lastRunAt": "2026-08-24T21:47:03.638Z",
     "recoveryMode": false,
     "filterProfile": {
       "freshnessMinutes": 15,
@@ -164156,48 +164156,31 @@
     "totalSearchGroups": 37,
     "selectedSearches": [
       "Nike Any Shoe Bargain::generic",
-      "Nike TN::primary",
       "Nike Air Max Plus 3::primary",
       "Nike Air Max Plus VII::primary",
       "Nike Air Max 95::primary",
       "Nike Air Max 90::primary",
-      "Nike Air Max 90 Drift::primary"
+      "Nike Air Max 90 Drift::primary",
+      "Nike Air Max 97::primary"
     ],
-    "successfulSearches": 2,
+    "successfulSearches": 0,
     "failedSearches": 1,
     "confirmedEmptySearches": 0,
-    "catalogMarkers": 384,
-    "catalogItems": 315,
-    "candidateItems": 110,
-    "freshItems": 19,
+    "catalogMarkers": 0,
+    "catalogItems": 0,
+    "candidateItems": 0,
+    "freshItems": 0,
     "freshByAge": 0,
-    "freshByNewId": 19,
-    "qualifyingAlerts": 5,
-    "deliveredAlerts": 5,
+    "freshByNewId": 0,
+    "qualifyingAlerts": 0,
+    "deliveredAlerts": 0,
     "discordFailures": 0,
     "pendingDeliveries": 0,
-    "rejects": {
-      "stale": 81,
-      "keyword": 4,
-      "seller-risk": 2,
-      "condition": 5,
-      "price": 1,
-      "size": 2
-    },
+    "rejects": {},
     "failures": {
-      "Nike Air Max Plus 3::primary": "Vinted guard cooldown active for 44s"
+      "Nike Any Shoe Bargain::generic": "Vinted guard cooldown active for 43s"
     },
     "healthyScan": false,
-    "detailFetches": 9,
-    "qualifyingByCondition": {
-      "newWithTags": 1,
-      "veryGood": 4
-    },
-    "deliveredByCondition": {
-      "newWithTags": 1,
-      "veryGood": 4
-    },
-    "duplicateSuppressed": 10,
     "healthReason": "vinted-block-or-challenge"
   },
   "radarVersion": 6,
@@ -165343,5 +165326,5 @@
     "9769244937": "2026-08-24T21:42:34.885Z",
     "9769244705": "2026-08-24T21:42:40.118Z"
   },
-  "cooldownUntil": "2026-08-24T21:44:03.272Z"
+  "cooldownUntil": "2026-08-24T21:48:21.160Z"
 }
