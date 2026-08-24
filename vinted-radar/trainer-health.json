@@ -1,38 +1,36 @@
 {
-  "generatedAt": "2026-08-24T09:39:43.179Z",
-  "stateUpdatedAt": "2026-08-24T09:39:43.179Z",
-  "lastAttemptAt": "2026-08-24T09:39:43.179Z",
-  "lastScanAt": "2026-08-24T09:39:43.179Z",
+  "generatedAt": "2026-08-24T09:45:08.644Z",
+  "stateUpdatedAt": "2026-08-24T09:45:08.644Z",
+  "lastAttemptAt": "2026-08-24T09:45:08.644Z",
+  "lastScanAt": "2026-08-24T09:45:08.644Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
-    "Nike Air Max Plus 3::primary",
-    "Nike Air Max Plus VII::primary",
-    "Nike Air Max 95::primary",
-    "Nike Air Max 90::primary",
-    "Nike Air Max 90 Drift::primary",
-    "Nike Air Max 97::primary"
+    "Nike Air Max 270::primary",
+    "Nike Air Max Dn::primary",
+    "Nike Air Max 1::primary",
+    "Nike Shox TL::primary",
+    "Nike Shox R4::primary",
+    "Nike Shox Ride 2::primary"
   ],
   "successfulSearches": 6,
   "failedSearches": 0,
   "catalogMarkers": 1152,
-  "catalogItems": 886,
-  "candidateItems": 534,
-  "freshItems": 31,
-  "qualifyingAlerts": 8,
+  "catalogItems": 746,
+  "candidateItems": 339,
+  "freshItems": 5,
+  "qualifyingAlerts": 2,
   "qualifyingByCondition": {
-    "veryGood": 6,
-    "newWithoutTags": 1,
+    "veryGood": 1,
     "newWithTags": 1
   },
-  "deliveredAlerts": 8,
+  "deliveredAlerts": 2,
   "deliveredByCondition": {
-    "veryGood": 6,
-    "newWithoutTags": 1,
+    "veryGood": 1,
     "newWithTags": 1
   },
-  "duplicateSuppressed": 32,
+  "duplicateSuppressed": 22,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -66,16 +64,11 @@
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 12,
+  "detailFetches": 3,
   "rejects": {
-    "stale": 471,
-    "seller-risk": 2,
-    "condition": 3,
-    "keyword": 1,
-    "size": 2,
-    "price": 4,
-    "detail-budget-exhausted": 4,
-    "seller-check-budget-exhausted": 7
+    "stale": 312,
+    "condition": 2,
+    "seller-risk": 1
   },
   "failures": {}
 }
