@@ -1,27 +1,27 @@
 {
-  "generatedAt": "2026-08-24T06:03:53.293Z",
-  "stateUpdatedAt": "2026-08-24T06:03:53.293Z",
-  "lastAttemptAt": "2026-08-24T06:03:53.293Z",
-  "lastScanAt": "2026-08-24T06:03:53.293Z",
+  "generatedAt": "2026-08-24T06:06:33.596Z",
+  "stateUpdatedAt": "2026-08-24T06:06:33.596Z",
+  "lastAttemptAt": "2026-08-24T06:06:33.596Z",
+  "lastScanAt": "2026-08-24T06:06:33.596Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
-    "Nike Pegasus Trail 5 GORE-TEX::primary",
-    "Nike TN::primary",
-    "Nike Air Max Plus 3::primary",
-    "Nike Air Max Plus VII::primary",
-    "Nike Air Max 95::primary",
-    "Nike Air Max 90::primary",
-    "Nike Air Max 90 Drift::primary",
-    "Nike Air Max 97::primary"
+    "Nike Air Max 270::primary",
+    "Nike Air Max Dn::primary",
+    "Nike Air Max 1::primary",
+    "Nike Shox TL::primary",
+    "Nike Shox R4::primary",
+    "Nike Shox Ride 2::primary",
+    "Nike Air Force 1::primary",
+    "Nike Dunk Low::primary"
   ],
   "successfulSearches": 8,
   "failedSearches": 0,
   "catalogMarkers": 1536,
-  "catalogItems": 1192,
-  "candidateItems": 665,
-  "freshItems": 6,
+  "catalogItems": 978,
+  "candidateItems": 575,
+  "freshItems": 10,
   "qualifyingAlerts": 2,
   "qualifyingByCondition": {
     "veryGood": 2
@@ -30,7 +30,7 @@
   "deliveredByCondition": {
     "veryGood": 2
   },
-  "duplicateSuppressed": 54,
+  "duplicateSuppressed": 43,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -64,12 +64,12 @@
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 3,
+  "detailFetches": 7,
   "rejects": {
-    "recovery-no-fresh-signal": 605,
-    "keyword": 2,
-    "condition": 1,
-    "size": 1
+    "stale": 522,
+    "size": 4,
+    "condition": 3,
+    "seller-risk": 1
   },
   "failures": {}
 }
