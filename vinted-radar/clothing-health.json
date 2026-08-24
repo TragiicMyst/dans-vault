@@ -1,36 +1,38 @@
 {
-  "generatedAt": "2026-08-24T10:25:56.854Z",
-  "stateUpdatedAt": "2026-08-24T10:25:56.854Z",
-  "lastAttemptAt": "2026-08-24T10:25:56.854Z",
-  "lastScanAt": "2026-08-24T10:25:56.854Z",
+  "generatedAt": "2026-08-24T10:30:57.211Z",
+  "stateUpdatedAt": "2026-08-24T10:30:57.211Z",
+  "lastAttemptAt": "2026-08-24T10:30:57.211Z",
+  "lastScanAt": "2026-08-24T10:30:57.211Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
     "Nike Accessories Bargain::nike accessories",
-    "Nike ACG Wolf Tree::nike acg wolf tree",
-    "Nike Club Fleece Crew::nike club fleece crew",
-    "Nike Running Division Jacket::nike running division jacket",
-    "Jordan Flight Fleece Joggers::jordan flight fleece joggers",
-    "Nike ACG Tuff Fleece::nike acg tuff fleece",
-    "Nike Solo Swoosh Crew::nike solo swoosh sweatshirt"
+    "Nike Miler Repel Jacket::nike miler repel jacket",
+    "Nike Solo Swoosh Joggers::nike solo swoosh joggers",
+    "Nike Stride Running Jacket::nike stride running jacket",
+    "Nike Cap::nike cap",
+    "Nike Beanie::nike beanie",
+    "Nike Bag::nike bag"
   ],
   "successfulSearches": 8,
   "failedSearches": 0,
-  "catalogMarkers": 1728,
-  "catalogItems": 1089,
-  "candidateItems": 340,
+  "catalogMarkers": 1632,
+  "catalogItems": 1141,
+  "candidateItems": 396,
   "freshItems": 7,
-  "qualifyingAlerts": 2,
+  "qualifyingAlerts": 5,
   "qualifyingByCondition": {
-    "veryGood": 2
+    "veryGood": 4,
+    "newWithoutTags": 1
   },
-  "deliveredAlerts": 2,
+  "deliveredAlerts": 5,
   "deliveredByCondition": {
-    "veryGood": 2
+    "veryGood": 4,
+    "newWithoutTags": 1
   },
-  "duplicateSuppressed": 14,
+  "duplicateSuppressed": 17,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -66,9 +68,8 @@
   "pendingDeliveries": 0,
   "detailFetches": 0,
   "rejects": {
-    "stale": 319,
-    "condition": 1,
-    "price": 4
+    "price": 2,
+    "stale": 196
   },
   "failures": {}
 }
