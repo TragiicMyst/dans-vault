@@ -1,39 +1,35 @@
 {
-  "generatedAt": "2026-08-24T11:26:38.758Z",
-  "stateUpdatedAt": "2026-08-24T11:26:38.758Z",
-  "lastAttemptAt": "2026-08-24T11:26:38.758Z",
-  "lastScanAt": "2026-08-24T11:26:38.758Z",
+  "generatedAt": "2026-08-24T11:31:38.604Z",
+  "stateUpdatedAt": "2026-08-24T11:31:38.604Z",
+  "lastAttemptAt": "2026-08-24T11:31:38.604Z",
+  "lastScanAt": "2026-08-24T11:31:38.604Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Lifestyle Trainer Bargain::generic",
-    "Nike Football Boot Bargain::generic",
-    "Nike Basketball Shoe Bargain::generic",
-    "Nike SB Shoe Bargain::generic",
-    "Nike P-6000::primary",
-    "Nike V5 RNR::primary"
+    "Nike Vomero 5::primary",
+    "Nike Vomero 18::primary",
+    "Nike Vomero Plus::primary",
+    "Nike Vomero Premium::primary",
+    "Nike Pegasus Premium::primary",
+    "Nike Pegasus Trail 5 GORE-TEX::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1264,
-  "catalogItems": 875,
-  "candidateItems": 419,
-  "freshItems": 144,
-  "qualifyingAlerts": 5,
+  "catalogMarkers": 1344,
+  "catalogItems": 728,
+  "candidateItems": 467,
+  "freshItems": 13,
+  "qualifyingAlerts": 3,
   "qualifyingByCondition": {
-    "newWithTags": 1,
-    "newWithoutTags": 1,
     "veryGood": 3
   },
-  "deliveredAlerts": 5,
+  "deliveredAlerts": 3,
   "deliveredByCondition": {
-    "newWithTags": 1,
-    "newWithoutTags": 1,
     "veryGood": 3
   },
-  "duplicateSuppressed": 6,
+  "duplicateSuppressed": 38,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,15 +63,14 @@
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 12,
+  "detailFetches": 9,
   "rejects": {
-    "stale": 269,
-    "keyword": 23,
-    "price": 13,
-    "size": 7,
-    "condition": 35,
-    "seller-check-budget-exhausted": 31,
-    "detail-budget-exhausted": 30
+    "stale": 416,
+    "condition": 1,
+    "size": 5,
+    "weak-margin": 2,
+    "price": 1,
+    "score": 1
   },
   "failures": {}
 }
