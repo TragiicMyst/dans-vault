@@ -2,20 +2,12 @@ name: Dan's Vault Nike Clothing Radar
 
 on:
   schedule:
-    - cron: '2-57/5 * * * *'
+    - cron: '3-58/5 * * * *'
   workflow_dispatch:
-  push:
-    paths:
-      - 'vinted-radar/run-bot.mjs'
-      - 'vinted-radar/discord-route-resolver.mjs'
-      - 'vinted-radar/condition-channel-routing.mjs'
-      - 'vinted-radar/expanded-clothing-radar.mjs'
-      - 'vinted-radar/clothing-discovery-hardening.mjs'
-      - '.github/workflows/vinted-clothing.yml'
 
 concurrency:
   group: dans-vault-clothing-radar
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 permissions:
   contents: write
@@ -23,7 +15,7 @@ permissions:
 jobs:
   radar:
     runs-on: ubuntu-latest
-    timeout-minutes: 4
+    timeout-minutes: 3
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -37,13 +29,14 @@ jobs:
           node --check vinted-radar/clothing-discovery-hardening.mjs
           node --check vinted-radar/condition-tier-expansion.mjs
           node --check vinted-radar/condition-fallback.mjs
+          node --check vinted-radar/reliability-budget.mjs
           node --check vinted-radar/seller-safety.mjs
           node --check vinted-radar/condition-channel-routing.mjs
           node --check vinted-radar/discord-route-resolver.mjs
           node --check vinted-radar/listing-image-embed.mjs
           node --check vinted-radar/run-bot.mjs
 
-      - name: Validate and identify Discord condition webhooks
+      - name: Validate Discord condition webhooks
         env:
           DISCORD_NEW_WITHOUT_TAGS_WEBHOOK_URL: ${{ secrets.DISCORD_NEW_WITHOUT_TAGS_WEBHOOK_URL }}
           DISCORD_NEW_WITH_TAGS_WEBHOOK_URL: ${{ secrets.DISCORD_NEW_WITH_TAGS_WEBHOOK_URL }}
@@ -62,7 +55,7 @@ jobs:
           });
           NODE
 
-      - name: Run one bounded clothing scan
+      - name: Run bounded clothing scan
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_CLOTHING_WEBHOOK_URL }}
           DISCORD_NEW_WITHOUT_TAGS_WEBHOOK_URL: ${{ secrets.DISCORD_NEW_WITHOUT_TAGS_WEBHOOK_URL }}
@@ -72,8 +65,8 @@ jobs:
           STATE_NAME: clothing-state.json
         run: |
           set -e
-          timeout 150s node vinted-radar/run-bot.mjs
-          node -e "const s=require('./vinted-radar/clothing-state.json'); const d=s.diagnostics||{}; console.log('Clothing scan:', s.freshness?.lastScanAt, 'selected:', d.successfulSearches ?? 0, '/', d.selectedSearches?.length ?? 0, 'parsed:', d.catalogItems ?? 0, 'fresh:', d.freshItems ?? 0, 'qualifying:', d.qualifyingAlerts ?? 0, 'delivered:', d.deliveredAlerts ?? 0, 'duplicatesSuppressed:', d.duplicateSuppressed ?? 0, 'byCondition:', JSON.stringify(d.deliveredByCondition||{}), 'routes:', JSON.stringify(d.discordRoutes||[]), 'routeWarnings:', JSON.stringify(d.discordRouteWarnings||[]), 'discordFailures:', d.discordFailures ?? 0, 'healthy:', d.healthyScan ?? false); if(!d.healthyScan) process.exit(1);"
+          timeout 115s node vinted-radar/run-bot.mjs
+          node -e "const s=require('./vinted-radar/clothing-state.json'); const d=s.diagnostics||{}; console.log('Clothing scan:', s.freshness?.lastScanAt, 'selected:', d.successfulSearches ?? 0, '/', d.selectedSearches?.length ?? 0, 'parsed:', d.catalogItems ?? 0, 'fresh:', d.freshItems ?? 0, 'qualifying:', d.qualifyingAlerts ?? 0, 'delivered:', d.deliveredAlerts ?? 0, 'duplicatesSuppressed:', d.duplicateSuppressed ?? 0, 'byCondition:', JSON.stringify(d.deliveredByCondition||{}), 'discordFailures:', d.discordFailures ?? 0, 'healthy:', d.healthyScan ?? false); if(!d.healthyScan) process.exit(1);"
 
       - name: Save clothing state and compact health
         if: ${{ always() }}
