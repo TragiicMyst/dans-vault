@@ -1,34 +1,30 @@
 {
-  "generatedAt": "2026-08-24T09:45:15.481Z",
-  "stateUpdatedAt": "2026-08-24T09:45:15.481Z",
-  "lastAttemptAt": "2026-08-24T09:45:15.481Z",
-  "lastScanAt": "2026-08-24T09:45:15.481Z",
+  "generatedAt": "2026-08-24T09:47:04.604Z",
+  "stateUpdatedAt": "2026-08-24T09:47:04.604Z",
+  "lastAttemptAt": "2026-08-24T09:47:04.604Z",
+  "lastScanAt": "2026-08-24T09:47:04.604Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
+    "Nike Track Jacket::nike track jacket",
+    "Nike Joggers::nike joggers",
+    "Nike Trousers::nike trousers",
     "Nike Sportswear Hoodie::nike sportswear hoodie",
     "Nike Sportswear Jacket::nike sportswear jacket",
-    "Nike Tech Fleece Windrunner::nike tech fleece windrunner",
-    "Nike Puffer Jacket::nike puffer jacket",
-    "Nike NOCTA Track Jacket::nike nocta track jacket",
-    "Nike Miler Shorts::nike miler shorts"
+    "Nike Tech Fleece Windrunner::nike tech fleece windrunner"
   ],
   "successfulSearches": 6,
   "failedSearches": 0,
-  "catalogMarkers": 1172,
-  "catalogItems": 709,
-  "candidateItems": 200,
-  "freshItems": 11,
-  "qualifyingAlerts": 3,
-  "qualifyingByCondition": {
-    "veryGood": 3
-  },
-  "deliveredAlerts": 3,
-  "deliveredByCondition": {
-    "veryGood": 3
-  },
-  "duplicateSuppressed": 34,
+  "catalogMarkers": 1247,
+  "catalogItems": 861,
+  "candidateItems": 218,
+  "freshItems": 0,
+  "qualifyingAlerts": 0,
+  "qualifyingByCondition": {},
+  "deliveredAlerts": 0,
+  "deliveredByCondition": {},
+  "duplicateSuppressed": 16,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -62,13 +58,9 @@
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 4,
+  "detailFetches": 0,
   "rejects": {
-    "stale": 105,
-    "size": 3,
-    "condition": 2,
-    "keyword": 2,
-    "score": 1
+    "stale": 85
   },
   "failures": {}
 }
