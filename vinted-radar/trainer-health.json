@@ -1,35 +1,37 @@
 {
-  "generatedAt": "2026-08-24T10:08:09.385Z",
-  "stateUpdatedAt": "2026-08-24T10:08:09.385Z",
-  "lastAttemptAt": "2026-08-24T10:08:09.385Z",
-  "lastScanAt": "2026-08-24T10:08:09.385Z",
+  "generatedAt": "2026-08-24T10:13:09.035Z",
+  "stateUpdatedAt": "2026-08-24T10:13:09.035Z",
+  "lastAttemptAt": "2026-08-24T10:13:09.035Z",
+  "lastScanAt": "2026-08-24T10:13:09.035Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Vomero 5::primary",
-    "Nike Vomero 18::primary",
-    "Nike Vomero Plus::primary",
-    "Nike Vomero Premium::primary",
-    "Nike Pegasus Premium::primary",
-    "Nike Pegasus Trail 5 GORE-TEX::primary"
+    "Nike TN::primary",
+    "Nike Air Max Plus 3::primary",
+    "Nike Air Max Plus VII::primary",
+    "Nike Air Max 95::primary",
+    "Nike Air Max 90::primary",
+    "Nike Air Max 90 Drift::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 661,
-  "candidateItems": 446,
-  "freshItems": 4,
-  "qualifyingAlerts": 2,
+  "catalogItems": 1041,
+  "candidateItems": 538,
+  "freshItems": 25,
+  "qualifyingAlerts": 6,
   "qualifyingByCondition": {
-    "veryGood": 2
+    "veryGood": 5,
+    "newWithoutTags": 1
   },
-  "deliveredAlerts": 2,
+  "deliveredAlerts": 6,
   "deliveredByCondition": {
-    "veryGood": 2
+    "veryGood": 5,
+    "newWithoutTags": 1
   },
-  "duplicateSuppressed": 33,
+  "duplicateSuppressed": 39,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -63,10 +65,13 @@
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 2,
+  "detailFetches": 10,
   "rejects": {
-    "stale": 409,
-    "price": 2
+    "stale": 474,
+    "condition": 11,
+    "keyword": 3,
+    "size": 4,
+    "weak-margin": 1
   },
   "failures": {}
 }
