@@ -1,32 +1,32 @@
 {
-  "generatedAt": "2026-08-24T09:15:56.683Z",
-  "stateUpdatedAt": "2026-08-24T09:15:56.683Z",
-  "lastAttemptAt": "2026-08-24T09:15:56.683Z",
-  "lastScanAt": "2026-08-24T09:15:56.683Z",
+  "generatedAt": "2026-08-24T09:20:18.682Z",
+  "stateUpdatedAt": "2026-08-24T09:20:18.682Z",
+  "lastAttemptAt": "2026-08-24T09:20:18.682Z",
+  "lastScanAt": "2026-08-24T09:20:18.682Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
-    "Nike Tech Fleece Open-Hem Trousers::nike tech fleece open hem trousers",
-    "Nike Tech Fleece Shorts::nike tech fleece shorts",
-    "Nike Tech Fleece Tracksuit::nike tech fleece tracksuit",
-    "Nike Tech Fleece Colour-Block Windrunner::nike tech fleece colour block windrunner"
+    "Nike Challenger Shorts::nike challenger shorts",
+    "Nike Tech Fleece Joggers::nike tech fleece joggers",
+    "Nike Storm-FIT Puffer::nike storm fit puffer",
+    "Nike Solo Swoosh Hoodie::nike solo swoosh hoodie"
   ],
   "successfulSearches": 4,
   "failedSearches": 0,
-  "catalogMarkers": 1152,
-  "catalogItems": 482,
-  "candidateItems": 184,
-  "freshItems": 11,
-  "qualifyingAlerts": 4,
+  "catalogMarkers": 864,
+  "catalogItems": 428,
+  "candidateItems": 231,
+  "freshItems": 1,
+  "qualifyingAlerts": 1,
   "qualifyingByCondition": {
-    "veryGood": 4
+    "veryGood": 1
   },
-  "deliveredAlerts": 4,
+  "deliveredAlerts": 1,
   "deliveredByCondition": {
-    "veryGood": 4
+    "veryGood": 1
   },
-  "duplicateSuppressed": 42,
+  "duplicateSuppressed": 63,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -62,9 +62,7 @@
   "pendingDeliveries": 0,
   "detailFetches": 0,
   "rejects": {
-    "stale": 131,
-    "condition": 4,
-    "keyword": 3
+    "stale": 167
   },
   "failures": {}
 }
