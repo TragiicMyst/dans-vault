@@ -1,38 +1,38 @@
 {
-  "generatedAt": "2026-08-24T10:30:57.211Z",
-  "stateUpdatedAt": "2026-08-24T10:30:57.211Z",
-  "lastAttemptAt": "2026-08-24T10:30:57.211Z",
-  "lastScanAt": "2026-08-24T10:30:57.211Z",
+  "generatedAt": "2026-08-24T10:50:46.255Z",
+  "stateUpdatedAt": "2026-08-24T10:50:46.255Z",
+  "lastAttemptAt": "2026-08-24T10:50:46.255Z",
+  "lastScanAt": "2026-08-24T10:50:46.255Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
     "Nike Accessories Bargain::nike accessories",
-    "Nike Miler Repel Jacket::nike miler repel jacket",
-    "Nike Solo Swoosh Joggers::nike solo swoosh joggers",
-    "Nike Stride Running Jacket::nike stride running jacket",
-    "Nike Cap::nike cap",
-    "Nike Beanie::nike beanie",
-    "Nike Bag::nike bag"
+    "Nike Backpack::nike backpack",
+    "Nike Crossbody Bag::nike crossbody bag",
+    "Nike Socks::nike socks",
+    "Nike Gloves::nike gloves",
+    "Nike Belt::nike belt",
+    "Nike T-Shirt::nike t shirt"
   ],
   "successfulSearches": 8,
   "failedSearches": 0,
   "catalogMarkers": 1632,
-  "catalogItems": 1141,
-  "candidateItems": 396,
-  "freshItems": 7,
-  "qualifyingAlerts": 5,
+  "catalogItems": 1345,
+  "candidateItems": 420,
+  "freshItems": 17,
+  "qualifyingAlerts": 7,
   "qualifyingByCondition": {
-    "veryGood": 4,
-    "newWithoutTags": 1
+    "veryGood": 6,
+    "newWithTags": 1
   },
-  "deliveredAlerts": 5,
+  "deliveredAlerts": 7,
   "deliveredByCondition": {
-    "veryGood": 4,
-    "newWithoutTags": 1
+    "veryGood": 6,
+    "newWithTags": 1
   },
-  "duplicateSuppressed": 17,
+  "duplicateSuppressed": 9,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -68,8 +68,9 @@
   "pendingDeliveries": 0,
   "detailFetches": 0,
   "rejects": {
-    "price": 2,
-    "stale": 196
+    "recovery-no-fresh-signal": 84,
+    "price": 5,
+    "condition": 5
   },
   "failures": {}
 }
