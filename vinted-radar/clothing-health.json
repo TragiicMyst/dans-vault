@@ -1,31 +1,27 @@
 {
-  "generatedAt": "2026-08-24T09:36:09.014Z",
-  "stateUpdatedAt": "2026-08-24T09:36:09.014Z",
-  "lastAttemptAt": "2026-08-24T09:36:09.014Z",
-  "lastScanAt": "2026-08-24T09:36:09.014Z",
+  "generatedAt": "2026-08-24T09:41:08.801Z",
+  "stateUpdatedAt": "2026-08-24T09:41:08.801Z",
+  "lastAttemptAt": "2026-08-24T09:41:08.801Z",
+  "lastScanAt": "2026-08-24T09:41:08.801Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
-    "Nike Academy Tracksuit::nike academy tracksuit",
-    "Nike Dri-FIT Running Top::nike dri-fit running top",
-    "Nike Tech Fleece Shorts::nike tech fleece shorts",
-    "Nike Therma-FIT Jacket::nike therma fit jacket"
+    "Nike NOCTA Hoodie::nike nocta hoodie",
+    "Nike Stride Shorts::nike stride shorts",
+    "Nike Tech Fleece Tracksuit::nike tech fleece tracksuit",
+    "Nike ACG Skull Peak Jacket::nike acg skull peak"
   ],
   "successfulSearches": 4,
   "failedSearches": 0,
-  "catalogMarkers": 864,
-  "catalogItems": 390,
-  "candidateItems": 223,
+  "catalogMarkers": 960,
+  "catalogItems": 485,
+  "candidateItems": 200,
   "freshItems": 1,
-  "qualifyingAlerts": 1,
-  "qualifyingByCondition": {
-    "veryGood": 1
-  },
-  "deliveredAlerts": 1,
-  "deliveredByCondition": {
-    "veryGood": 1
-  },
+  "qualifyingAlerts": 0,
+  "qualifyingByCondition": {},
+  "deliveredAlerts": 0,
+  "deliveredByCondition": {},
   "duplicateSuppressed": 40,
   "discordFailures": 0,
   "discordRoutes": [
@@ -62,7 +58,8 @@
   "pendingDeliveries": 0,
   "detailFetches": 0,
   "rejects": {
-    "stale": 182
+    "stale": 159,
+    "condition": 1
   },
   "failures": {}
 }
