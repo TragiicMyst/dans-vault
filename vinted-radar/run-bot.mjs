@@ -13,6 +13,7 @@ import { applyTrainerAlertBalance } from './trainer-alert-balance.mjs';
 import { applyClothingVariety } from './clothing-variety.mjs';
 import { applyBroadClothingOpportunities } from './broad-clothing-opportunities.mjs';
 import { applyAllNikeOpportunities } from './all-nike-opportunities.mjs';
+import { applyNikeAccessoryOpportunities } from './nike-accessory-opportunities.mjs';
 import { applyConditionChannelRouting } from './condition-channel-routing.mjs';
 import { applyListingImageEmbed } from './listing-image-embed.mjs';
 import { resolveDiscordRoutes } from './discord-route-resolver.mjs';
@@ -55,6 +56,7 @@ if (bot === 'clothing') {
   await applyBroadClothingOpportunities();
 }
 await applyAllNikeOpportunities(bot);
+if (bot === 'clothing') await applyNikeAccessoryOpportunities();
 await applyConditionChannelRouting();
 await applyListingImageEmbed();
 const { runRadarV6 } = await import(`./radar-v6.mjs?expanded-${bot}-v6`);
