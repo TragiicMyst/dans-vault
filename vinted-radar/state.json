@@ -164673,7 +164673,7 @@
       ]
     }
   },
-  "updatedAt": "2026-08-24T22:06:29.988Z",
+  "updatedAt": "2026-08-24T22:11:29.922Z",
   "cursor": 0,
   "lastRotation": {
     "bot": "trainers",
@@ -164902,12 +164902,12 @@
       }
     },
     "lastScanAt": "2026-08-24T22:01:29.907Z",
-    "lastAttemptAt": "2026-08-24T22:06:29.988Z"
+    "lastAttemptAt": "2026-08-24T22:11:29.922Z"
   },
   "diagnostics": {
     "bot": "trainers",
     "radarVersion": 6,
-    "lastRunAt": "2026-08-24T22:06:29.988Z",
+    "lastRunAt": "2026-08-24T22:11:29.922Z",
     "recoveryMode": false,
     "filterProfile": {
       "freshnessMinutes": 15,
@@ -164930,12 +164930,12 @@
       "Nike Shox R4::primary",
       "Nike Shox Ride 2::primary"
     ],
-    "successfulSearches": 1,
+    "successfulSearches": 0,
     "failedSearches": 1,
     "confirmedEmptySearches": 0,
-    "catalogMarkers": 192,
-    "catalogItems": 160,
-    "candidateItems": 68,
+    "catalogMarkers": 0,
+    "catalogItems": 0,
+    "candidateItems": 0,
     "freshItems": 0,
     "freshByAge": 0,
     "freshByNewId": 0,
@@ -164943,15 +164943,11 @@
     "deliveredAlerts": 0,
     "discordFailures": 0,
     "pendingDeliveries": 0,
-    "rejects": {
-      "stale": 65
-    },
+    "rejects": {},
     "failures": {
-      "Nike Air Max 270::primary": "Vinted guard cooldown active for 44s"
+      "Nike Any Shoe Bargain::generic": "Vinted guard cooldown active for 44s"
     },
     "healthyScan": false,
-    "detailFetches": 0,
-    "duplicateSuppressed": 3,
     "healthReason": "vinted-block-or-challenge"
   },
   "radarVersion": 6,
@@ -166106,5 +166102,5 @@
     "9769211819": "2026-08-24T22:02:37.484Z",
     "9769181021": "2026-08-24T22:02:41.509Z"
   },
-  "cooldownUntil": "2026-08-24T22:07:54.147Z"
+  "cooldownUntil": "2026-08-24T22:12:46.506Z"
 }
