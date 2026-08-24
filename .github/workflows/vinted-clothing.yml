@@ -4,6 +4,9 @@ on:
   schedule:
     - cron: '3-58/5 * * * *'
   workflow_dispatch:
+  push:
+    paths:
+      - 'vinted-radar/clothing-trigger.txt'
 
 concurrency:
   group: dans-vault-clothing-radar
