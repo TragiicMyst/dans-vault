@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-08-24T12:08:38.181Z",
-  "stateUpdatedAt": "2026-08-24T12:08:38.181Z",
-  "lastAttemptAt": "2026-08-24T12:08:38.181Z",
-  "lastScanAt": "2026-08-24T12:08:38.181Z",
+  "generatedAt": "2026-08-24T12:13:37.887Z",
+  "stateUpdatedAt": "2026-08-24T12:13:37.887Z",
+  "lastAttemptAt": "2026-08-24T12:13:37.887Z",
+  "lastScanAt": "2026-08-24T12:13:37.887Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Lifestyle Trainer Bargain::generic",
-    "Nike Football Boot Bargain::generic",
-    "Nike Basketball Shoe Bargain::generic",
-    "Nike SB Shoe Bargain::generic",
-    "Nike P-6000::primary",
-    "Nike V5 RNR::primary"
+    "Nike Vomero 5::primary",
+    "Nike Vomero 18::primary",
+    "Nike Vomero Plus::primary",
+    "Nike Vomero Premium::primary",
+    "Nike Pegasus Premium::primary",
+    "Nike Pegasus Trail 5 GORE-TEX::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1263,
-  "catalogItems": 877,
-  "candidateItems": 441,
-  "freshItems": 164,
-  "qualifyingAlerts": 3,
+  "catalogMarkers": 1344,
+  "catalogItems": 664,
+  "candidateItems": 448,
+  "freshItems": 9,
+  "qualifyingAlerts": 1,
   "qualifyingByCondition": {
-    "veryGood": 3
+    "veryGood": 1
   },
-  "deliveredAlerts": 3,
+  "deliveredAlerts": 1,
   "deliveredByCondition": {
-    "veryGood": 3
+    "veryGood": 1
   },
-  "duplicateSuppressed": 6,
+  "duplicateSuppressed": 39,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -63,15 +63,12 @@
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 12,
+  "detailFetches": 6,
   "rejects": {
-    "stale": 271,
-    "keyword": 32,
-    "size": 9,
-    "price": 19,
-    "condition": 42,
-    "detail-budget-exhausted": 30,
-    "seller-check-budget-exhausted": 29
+    "stale": 400,
+    "size": 5,
+    "weak-margin": 2,
+    "condition": 1
   },
   "failures": {}
 }
