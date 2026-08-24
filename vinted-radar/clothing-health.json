@@ -1,36 +1,28 @@
 {
-  "generatedAt": "2026-08-24T08:35:47.015Z",
-  "stateUpdatedAt": "2026-08-24T08:35:47.015Z",
-  "lastAttemptAt": "2026-08-24T08:35:47.015Z",
-  "lastScanAt": "2026-08-24T08:35:47.015Z",
+  "generatedAt": "2026-08-24T08:40:46.938Z",
+  "stateUpdatedAt": "2026-08-24T08:40:46.938Z",
+  "lastAttemptAt": "2026-08-24T08:40:46.938Z",
+  "lastScanAt": "2026-08-24T08:40:46.938Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
-    "Nike Stride Running Jacket::nike stride running jacket",
-    "Nike Strike Tracksuit::nike strike tracksuit",
-    "Nike Academy Tracksuit::nike academy tracksuit",
-    "Nike NOCTA Hoodie::nike nocta hoodie"
+    "Nike NOCTA Track Jacket::nike nocta track jacket",
+    "Nike NOCTA Tracksuit::nike nocta tracksuit",
+    "Nike NOCTA Joggers::nike nocta joggers",
+    "Jordan Flight Fleece Hoodie::jordan flight fleece hoodie"
   ],
   "successfulSearches": 4,
   "failedSearches": 0,
-  "catalogMarkers": 768,
-  "catalogItems": 362,
-  "candidateItems": 212,
-  "freshItems": 6,
-  "qualifyingAlerts": 4,
-  "qualifyingByCondition": {
-    "newWithTags": 1,
-    "veryGood": 2,
-    "newWithoutTags": 1
-  },
-  "deliveredAlerts": 4,
-  "deliveredByCondition": {
-    "newWithTags": 1,
-    "veryGood": 2,
-    "newWithoutTags": 1
-  },
-  "duplicateSuppressed": 16,
+  "catalogMarkers": 596,
+  "catalogItems": 315,
+  "candidateItems": 173,
+  "freshItems": 0,
+  "qualifyingAlerts": 0,
+  "qualifyingByCondition": {},
+  "deliveredAlerts": 0,
+  "deliveredByCondition": {},
+  "duplicateSuppressed": 7,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -66,9 +58,7 @@
   "pendingDeliveries": 0,
   "detailFetches": 0,
   "rejects": {
-    "stale": 190,
-    "keyword": 1,
-    "condition": 1
+    "stale": 166
   },
   "failures": {}
 }
