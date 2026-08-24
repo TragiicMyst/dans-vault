@@ -1,39 +1,31 @@
 {
-  "generatedAt": "2026-08-24T11:07:26.842Z",
-  "stateUpdatedAt": "2026-08-24T11:07:26.842Z",
-  "lastAttemptAt": "2026-08-24T11:07:26.842Z",
-  "lastScanAt": "2026-08-24T11:07:26.842Z",
+  "generatedAt": "2026-08-24T11:12:26.753Z",
+  "stateUpdatedAt": "2026-08-24T11:12:26.753Z",
+  "lastAttemptAt": "2026-08-24T11:12:26.753Z",
+  "lastScanAt": "2026-08-24T11:12:26.753Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Air Max 97::primary",
-    "Nike Air Max 270::primary",
-    "Nike Air Max Dn::primary",
-    "Nike Air Max 1::primary",
-    "Nike Shox TL::primary",
-    "Nike Shox R4::primary"
+    "Nike Shox Ride 2::primary",
+    "Nike Air Force 1::primary",
+    "Nike Dunk Low::primary",
+    "Air Jordan 1 Low::primary",
+    "Air Jordan 1 Mid::primary",
+    "Air Jordan 4::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1344,
-  "catalogItems": 974,
-  "candidateItems": 514,
-  "freshItems": 23,
-  "qualifyingAlerts": 7,
-  "qualifyingByCondition": {
-    "newWithoutTags": 1,
-    "veryGood": 4,
-    "newWithTags": 2
-  },
-  "deliveredAlerts": 7,
-  "deliveredByCondition": {
-    "newWithoutTags": 1,
-    "veryGood": 4,
-    "newWithTags": 2
-  },
-  "duplicateSuppressed": 30,
+  "catalogMarkers": 1332,
+  "catalogItems": 944,
+  "candidateItems": 571,
+  "freshItems": 185,
+  "qualifyingAlerts": 0,
+  "qualifyingByCondition": {},
+  "deliveredAlerts": 0,
+  "deliveredByCondition": {},
+  "duplicateSuppressed": 10,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,14 +61,15 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 461,
-    "size": 4,
-    "price": 4,
-    "keyword": 3,
-    "seller-risk": 1,
+    "stale": 376,
     "weak-margin": 1,
-    "detail-budget-exhausted": 2,
-    "seller-check-budget-exhausted": 1
+    "price": 4,
+    "condition": 17,
+    "size": 4,
+    "seller-risk": 8,
+    "detail-budget-exhausted": 66,
+    "seller-check-budget-exhausted": 76,
+    "keyword": 9
   },
   "failures": {}
 }
