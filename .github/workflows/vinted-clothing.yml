@@ -2,7 +2,7 @@ name: Dan's Vault Nike Clothing Radar
 
 on:
   schedule:
-    - cron: '3-58/5 * * * *'
+    - cron: '3,18,33,48 * * * *'
   workflow_dispatch:
   push:
     paths:
@@ -18,7 +18,7 @@ permissions:
 jobs:
   radar:
     runs-on: ubuntu-latest
-    timeout-minutes: 3
+    timeout-minutes: 14
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -26,6 +26,7 @@ jobs:
       - name: Validate production clothing modules
         run: |
           set -e
+          bash -n vinted-radar/cycle-runner.sh
           node --check vinted-radar/fetch-guard.mjs
           node --check vinted-radar/radar-v6.mjs
           node --check vinted-radar/expanded-clothing-radar.mjs
@@ -58,7 +59,7 @@ jobs:
           });
           NODE
 
-      - name: Run bounded clothing scan
+      - name: Run resilient clothing worker
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_CLOTHING_WEBHOOK_URL }}
           DISCORD_NEW_WITHOUT_TAGS_WEBHOOK_URL: ${{ secrets.DISCORD_NEW_WITHOUT_TAGS_WEBHOOK_URL }}
@@ -66,70 +67,4 @@ jobs:
           DISCORD_VERY_GOOD_WEBHOOK_URL: ${{ secrets.DISCORD_VERY_GOOD_WEBHOOK_URL }}
           BOT_TYPE: clothing
           STATE_NAME: clothing-state.json
-        run: |
-          set -e
-          timeout 115s node vinted-radar/run-bot.mjs
-          node -e "const s=require('./vinted-radar/clothing-state.json'); const d=s.diagnostics||{}; console.log('Clothing scan:', s.freshness?.lastScanAt, 'selected:', d.successfulSearches ?? 0, '/', d.selectedSearches?.length ?? 0, 'parsed:', d.catalogItems ?? 0, 'fresh:', d.freshItems ?? 0, 'qualifying:', d.qualifyingAlerts ?? 0, 'delivered:', d.deliveredAlerts ?? 0, 'duplicatesSuppressed:', d.duplicateSuppressed ?? 0, 'byCondition:', JSON.stringify(d.deliveredByCondition||{}), 'discordFailures:', d.discordFailures ?? 0, 'healthy:', d.healthyScan ?? false); if(!d.healthyScan) process.exit(1);"
-
-      - name: Save clothing state and compact health
-        if: ${{ always() }}
-        run: |
-          set -e
-          git config user.name "Dan's Vault Clothing Radar"
-          git config user.email "actions@users.noreply.github.com"
-          node -e "const fs=require('fs'); const p='vinted-radar/clothing-state.json'; const raw=fs.readFileSync(p,'utf8'); if(!raw.trim()) throw new Error('Refusing empty clothing state'); JSON.parse(raw);"
-          cp vinted-radar/clothing-state.json /tmp/clothing-state.json
-          node <<'NODE'
-          const fs = require('fs');
-          const s = JSON.parse(fs.readFileSync('/tmp/clothing-state.json', 'utf8'));
-          const d = s.diagnostics || {};
-          const health = {
-            generatedAt: s.updatedAt ?? s.freshness?.lastAttemptAt ?? s.freshness?.lastScanAt ?? null,
-            stateUpdatedAt: s.updatedAt ?? null,
-            lastAttemptAt: s.freshness?.lastAttemptAt ?? null,
-            lastScanAt: s.freshness?.lastScanAt ?? null,
-            cooldownUntil: s.cooldownUntil ?? null,
-            healthyScan: d.healthyScan ?? false,
-            healthReason: d.healthReason ?? null,
-            selectedSearches: d.selectedSearches ?? [],
-            successfulSearches: d.successfulSearches ?? 0,
-            failedSearches: d.failedSearches ?? 0,
-            catalogMarkers: d.catalogMarkers ?? 0,
-            catalogItems: d.catalogItems ?? 0,
-            candidateItems: d.candidateItems ?? 0,
-            freshItems: d.freshItems ?? 0,
-            qualifyingAlerts: d.qualifyingAlerts ?? 0,
-            qualifyingByCondition: d.qualifyingByCondition ?? {},
-            deliveredAlerts: d.deliveredAlerts ?? 0,
-            deliveredByCondition: d.deliveredByCondition ?? {},
-            duplicateSuppressed: d.duplicateSuppressed ?? 0,
-            discordFailures: d.discordFailures ?? 0,
-            discordRoutes: d.discordRoutes ?? [],
-            discordRouteAutoCorrected: d.discordRouteAutoCorrected ?? false,
-            discordRouteWarnings: d.discordRouteWarnings ?? [],
-            pendingDeliveries: d.pendingDeliveries ?? 0,
-            detailFetches: d.detailFetches ?? 0,
-            rejects: d.rejects ?? {},
-            failures: d.failures ?? {}
-          };
-          fs.writeFileSync('/tmp/clothing-health.json', JSON.stringify(health, null, 2) + '\n');
-          NODE
-
-          for attempt in 1 2 3 4 5; do
-            git fetch origin main
-            git reset --hard origin/main
-            if [ -f vinted-radar/clothing-state.json ]; then
-              if node -e "const fs=require('fs'); const l=JSON.parse(fs.readFileSync('/tmp/clothing-state.json','utf8')); const r=JSON.parse(fs.readFileSync('vinted-radar/clothing-state.json','utf8')); const lt=Date.parse(l.updatedAt||l.freshness?.lastAttemptAt||l.freshness?.lastScanAt||0); const rt=Date.parse(r.updatedAt||r.freshness?.lastAttemptAt||r.freshness?.lastScanAt||0); process.exit(Number.isFinite(rt)&&Number.isFinite(lt)&&rt>lt?0:1)"; then
-                echo "Remote clothing state is newer; refusing stale overwrite."
-                exit 0
-              fi
-            fi
-            cp /tmp/clothing-state.json vinted-radar/clothing-state.json
-            cp /tmp/clothing-health.json vinted-radar/clothing-health.json
-            git add vinted-radar/clothing-state.json vinted-radar/clothing-health.json
-            if git diff --cached --quiet; then exit 0; fi
-            git commit -m "Update Nike clothing radar state"
-            if git push origin HEAD:main; then exit 0; fi
-            sleep 2
-          done
-          exit 1
+        run: bash vinted-radar/cycle-runner.sh clothing clothing-state.json clothing-health.json "Dan's Vault Clothing Radar" 3 300
