@@ -1,36 +1,36 @@
 {
-  "generatedAt": "2026-08-23T23:54:58.446Z",
-  "stateUpdatedAt": "2026-08-23T23:54:58.446Z",
-  "lastAttemptAt": "2026-08-23T23:54:58.446Z",
-  "lastScanAt": "2026-08-23T23:54:58.446Z",
+  "generatedAt": "2026-08-24T00:32:31.770Z",
+  "stateUpdatedAt": "2026-08-24T00:32:31.770Z",
+  "lastAttemptAt": "2026-08-24T00:32:31.770Z",
+  "lastScanAt": "2026-08-24T00:32:31.770Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
-    "Nike V5 RNR::primary",
-    "Nike Vomero 5::primary",
-    "Nike Vomero 18::primary",
-    "Nike Vomero Plus::primary",
-    "Nike Vomero Premium::primary",
-    "Nike Pegasus Premium::primary",
-    "Nike Pegasus Trail 5 GORE-TEX::primary",
-    "Nike TN::primary"
+    "Nike Air Max Plus 3::primary",
+    "Nike Air Max Plus VII::primary",
+    "Nike Air Max 95::primary",
+    "Nike Air Max 90::primary",
+    "Nike Air Max 90 Drift::primary",
+    "Nike Air Max 97::primary",
+    "Nike Air Max 270::primary",
+    "Nike Air Max Dn::primary"
   ],
   "successfulSearches": 8,
   "failedSearches": 0,
-  "catalogMarkers": 1456,
-  "catalogItems": 820,
-  "candidateItems": 539,
-  "freshItems": 4,
-  "qualifyingAlerts": 1,
+  "catalogMarkers": 1536,
+  "catalogItems": 1152,
+  "candidateItems": 660,
+  "freshItems": 15,
+  "qualifyingAlerts": 4,
   "qualifyingByCondition": {
-    "newWithoutTags": 1
+    "veryGood": 4
   },
-  "deliveredAlerts": 1,
+  "deliveredAlerts": 4,
   "deliveredByCondition": {
-    "newWithoutTags": 1
+    "veryGood": 4
   },
-  "duplicateSuppressed": 46,
+  "duplicateSuppressed": 58,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -64,12 +64,15 @@
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 1,
+  "detailFetches": 8,
   "rejects": {
-    "recovery-no-fresh-signal": 489,
-    "condition": 1,
-    "weak-margin": 1,
-    "price": 1
+    "recovery-no-fresh-signal": 587,
+    "seller-risk": 1,
+    "score": 2,
+    "condition": 2,
+    "keyword": 4,
+    "price": 1,
+    "size": 1
   },
   "failures": {}
 }
