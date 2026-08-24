@@ -11,6 +11,7 @@ import { applyReliabilityBudget } from './reliability-budget.mjs';
 import { applySellerSafety } from './seller-safety.mjs';
 import { applyTrainerAlertBalance } from './trainer-alert-balance.mjs';
 import { applyClothingVariety } from './clothing-variety.mjs';
+import { applyBroadClothingOpportunities } from './broad-clothing-opportunities.mjs';
 import { applyConditionChannelRouting } from './condition-channel-routing.mjs';
 import { applyListingImageEmbed } from './listing-image-embed.mjs';
 import { resolveDiscordRoutes } from './discord-route-resolver.mjs';
@@ -48,7 +49,10 @@ if (bot === 'trainers') await applyTrainerThroughput();
 await applyReliabilityBudget(bot);
 await applySellerSafety();
 if (bot === 'trainers') await applyTrainerAlertBalance();
-if (bot === 'clothing') await applyClothingVariety();
+if (bot === 'clothing') {
+  await applyClothingVariety();
+  await applyBroadClothingOpportunities();
+}
 await applyConditionChannelRouting();
 await applyListingImageEmbed();
 const { runRadarV6 } = await import(`./radar-v6.mjs?expanded-${bot}-v6`);
