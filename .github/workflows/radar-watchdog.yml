@@ -45,7 +45,13 @@ jobs:
 
             age=$((now_epoch - last_epoch))
             if [ "$last_epoch" -le 0 ] || [ "$age" -gt "$max_age_seconds" ]; then
-              echo "$label radar is stale (${age}s); dispatching recovery run."
+              active_runs=$(gh run list --workflow "$workflow_file" --branch main --limit 20 --json status --jq '[.[] | select(.status == "queued" or .status == "in_progress" or .status == "waiting" or .status == "pending")] | length')
+              if [ "${active_runs:-0}" -gt 0 ]; then
+                echo "$label radar is stale (${age}s), but a run is already active/queued; not dispatching another one."
+                return 0
+              fi
+
+              echo "$label radar is stale (${age}s); dispatching one recovery run."
               gh workflow run "$workflow_file" --ref main
             else
               echo "$label radar healthy enough (${age}s since last attempt)."
