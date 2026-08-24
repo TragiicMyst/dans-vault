@@ -1,32 +1,32 @@
 {
-  "generatedAt": "2026-08-24T05:53:03.842Z",
-  "stateUpdatedAt": "2026-08-24T05:53:03.842Z",
-  "lastAttemptAt": "2026-08-24T05:53:03.842Z",
-  "lastScanAt": "2026-08-24T05:53:03.842Z",
+  "generatedAt": "2026-08-24T06:03:54.935Z",
+  "stateUpdatedAt": "2026-08-24T06:03:54.935Z",
+  "lastAttemptAt": "2026-08-24T06:03:54.935Z",
+  "lastScanAt": "2026-08-24T06:03:54.935Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
-    "Nike Strike Top Shorts Set::nike strike top shorts set",
-    "Nike Tech Fleece Windrunner::nike tech fleece windrunner",
-    "Nike Tech Fleece Full-Zip Hoodie::nike tech fleece full zip hoodie",
-    "Nike Tech Fleece Joggers::nike tech fleece joggers"
+    "Nike Tech Fleece Open-Hem Trousers::nike tech fleece open hem trousers",
+    "Nike Tech Fleece Shorts::nike tech fleece shorts",
+    "Nike Tech Fleece Tracksuit::nike tech fleece tracksuit",
+    "Nike Tech Fleece Colour-Block Windrunner::nike tech fleece colour block windrunner"
   ],
   "successfulSearches": 4,
   "failedSearches": 0,
-  "catalogMarkers": 1056,
-  "catalogItems": 425,
-  "candidateItems": 195,
-  "freshItems": 13,
-  "qualifyingAlerts": 8,
+  "catalogMarkers": 1152,
+  "catalogItems": 476,
+  "candidateItems": 185,
+  "freshItems": 4,
+  "qualifyingAlerts": 1,
   "qualifyingByCondition": {
-    "veryGood": 8
+    "newWithTags": 1
   },
-  "deliveredAlerts": 8,
+  "deliveredAlerts": 1,
   "deliveredByCondition": {
-    "veryGood": 8
+    "newWithTags": 1
   },
-  "duplicateSuppressed": 65,
+  "duplicateSuppressed": 48,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -62,9 +62,9 @@
   "pendingDeliveries": 0,
   "detailFetches": 0,
   "rejects": {
-    "recovery-no-fresh-signal": 117,
-    "price": 1,
-    "condition": 4
+    "stale": 133,
+    "keyword": 1,
+    "condition": 2
   },
   "failures": {}
 }
