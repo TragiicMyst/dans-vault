@@ -1,78 +1,52 @@
 {
-  "generatedAt": "2026-08-24T21:37:03.942Z",
-  "stateUpdatedAt": "2026-08-24T21:37:03.942Z",
-  "lastAttemptAt": "2026-08-24T21:37:03.942Z",
+  "generatedAt": "2026-08-24T21:42:03.718Z",
+  "stateUpdatedAt": "2026-08-24T21:42:03.718Z",
+  "lastAttemptAt": "2026-08-24T21:42:03.718Z",
   "lastScanAt": "2026-08-24T21:37:03.942Z",
-  "cooldownUntil": null,
-  "healthyScan": true,
-  "healthReason": "all-selected-searches-completed",
+  "cooldownUntil": "2026-08-24T21:44:03.272Z",
+  "healthyScan": false,
+  "healthReason": "vinted-block-or-challenge",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Vomero 5::primary",
-    "Nike Vomero 18::primary",
-    "Nike Vomero Plus::primary",
-    "Nike Vomero Premium::primary",
-    "Nike Pegasus Premium::primary",
-    "Nike Pegasus Trail 5 GORE-TEX::primary"
+    "Nike TN::primary",
+    "Nike Air Max Plus 3::primary",
+    "Nike Air Max Plus VII::primary",
+    "Nike Air Max 95::primary",
+    "Nike Air Max 90::primary",
+    "Nike Air Max 90 Drift::primary"
   ],
-  "successfulSearches": 7,
-  "failedSearches": 0,
-  "catalogMarkers": 1344,
-  "catalogItems": 727,
-  "candidateItems": 485,
-  "freshItems": 13,
-  "qualifyingAlerts": 3,
+  "successfulSearches": 2,
+  "failedSearches": 1,
+  "catalogMarkers": 384,
+  "catalogItems": 315,
+  "candidateItems": 110,
+  "freshItems": 19,
+  "qualifyingAlerts": 5,
   "qualifyingByCondition": {
-    "newWithTags": 2,
-    "veryGood": 1
+    "newWithTags": 1,
+    "veryGood": 4
   },
-  "deliveredAlerts": 3,
+  "deliveredAlerts": 5,
   "deliveredByCondition": {
-    "newWithTags": 2,
-    "veryGood": 1
+    "newWithTags": 1,
+    "veryGood": 4
   },
-  "duplicateSuppressed": 70,
+  "duplicateSuppressed": 10,
   "discordFailures": 0,
-  "discordRoutes": [
-    {
-      "configuredAs": "newWithoutTags",
-      "webhookId": "1541037387969462303",
-      "channelId": "1541036356384329819",
-      "guildId": "1540743210488430592",
-      "webhookName": "Dan's NWOT Bot",
-      "detectedCondition": "newWithoutTags",
-      "inspectionError": null
-    },
-    {
-      "configuredAs": "newWithTags",
-      "webhookId": "1541040362997547048",
-      "channelId": "1541040152372183140",
-      "guildId": "1540743210488430592",
-      "webhookName": "Dan's New With Tags Bot",
-      "detectedCondition": "newWithTags",
-      "inspectionError": null
-    },
-    {
-      "configuredAs": "veryGood",
-      "webhookId": "1541040545483198516",
-      "channelId": "1541040213780992171",
-      "guildId": "1540743210488430592",
-      "webhookName": "Dan's Very Good Condition Bot",
-      "detectedCondition": "veryGood",
-      "inspectionError": null
-    }
-  ],
+  "discordRoutes": [],
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
   "detailFetches": 9,
   "rejects": {
-    "recovery-no-fresh-signal": 402,
-    "size": 5,
-    "condition": 1,
-    "keyword": 2,
-    "score": 1,
-    "price": 1
+    "stale": 81,
+    "keyword": 4,
+    "seller-risk": 2,
+    "condition": 5,
+    "price": 1,
+    "size": 2
   },
-  "failures": {}
+  "failures": {
+    "Nike Air Max Plus 3::primary": "Vinted guard cooldown active for 44s"
+  }
 }
