@@ -1,35 +1,31 @@
 {
-  "generatedAt": "2026-08-24T11:04:16.445Z",
-  "stateUpdatedAt": "2026-08-24T11:04:16.445Z",
-  "lastAttemptAt": "2026-08-24T11:04:16.445Z",
-  "lastScanAt": "2026-08-24T11:04:16.445Z",
+  "generatedAt": "2026-08-24T11:09:16.385Z",
+  "stateUpdatedAt": "2026-08-24T11:09:16.385Z",
+  "lastAttemptAt": "2026-08-24T11:09:16.385Z",
+  "lastScanAt": "2026-08-24T11:09:16.385Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
     "Nike Accessories Bargain::nike accessories",
-    "Nike Bomber Jacket::nike bomber jacket",
-    "Nike Coat::nike coat",
-    "Nike Shorts::nike shorts",
-    "Nike Cargo Trousers::nike cargo trousers",
-    "Nike Track Pants::nike track pants",
-    "Nike Woven Trousers::nike woven trousers"
+    "Nike Tracksuit::nike tracksuit",
+    "Nike Vintage Clothing::vintage nike",
+    "Nike SB Clothing::nike sb clothing",
+    "Nike Vest::nike vest",
+    "Nike Air Max Hoodie::nike air max hoodie",
+    "Nike Zip Hoodie::nike zip hoodie"
   ],
   "successfulSearches": 8,
   "failedSearches": 0,
   "catalogMarkers": 1632,
-  "catalogItems": 1339,
-  "candidateItems": 370,
-  "freshItems": 4,
-  "qualifyingAlerts": 2,
-  "qualifyingByCondition": {
-    "veryGood": 2
-  },
-  "deliveredAlerts": 2,
-  "deliveredByCondition": {
-    "veryGood": 2
-  },
+  "catalogItems": 1279,
+  "candidateItems": 368,
+  "freshItems": 3,
+  "qualifyingAlerts": 0,
+  "qualifyingByCondition": {},
+  "deliveredAlerts": 0,
+  "deliveredByCondition": {},
   "duplicateSuppressed": 14,
   "discordFailures": 0,
   "discordRoutes": [
@@ -66,9 +62,9 @@
   "pendingDeliveries": 0,
   "detailFetches": 0,
   "rejects": {
-    "price": 1,
+    "stale": 87,
     "condition": 1,
-    "stale": 91
+    "price": 2
   },
   "failures": {}
 }
