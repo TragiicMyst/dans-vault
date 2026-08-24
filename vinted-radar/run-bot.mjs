@@ -7,6 +7,7 @@ import { applyClothingDiscoveryHardening } from './clothing-discovery-hardening.
 import { applyConditionTierExpansion } from './condition-tier-expansion.mjs';
 import { applyConditionFallback } from './condition-fallback.mjs';
 import { applyTrainerThroughput } from './trainer-throughput.mjs';
+import { applyReliabilityBudget } from './reliability-budget.mjs';
 import { applySellerSafety } from './seller-safety.mjs';
 import { applyTrainerAlertBalance } from './trainer-alert-balance.mjs';
 import { applyConditionChannelRouting } from './condition-channel-routing.mjs';
@@ -43,6 +44,7 @@ if (bot === 'clothing') {
 await applyConditionTierExpansion();
 await applyConditionFallback();
 if (bot === 'trainers') await applyTrainerThroughput();
+await applyReliabilityBudget(bot);
 await applySellerSafety();
 if (bot === 'trainers') await applyTrainerAlertBalance();
 await applyConditionChannelRouting();
@@ -69,7 +71,7 @@ const diagnostics = await runRadarV6({
 });
 
 // Persist only safe Discord destination metadata (IDs/names, never webhook URLs or tokens)
-// so routing problems can be diagnosed from trainer-health.json without exposing secrets.
+// so routing problems can be diagnosed from health JSON without exposing secrets.
 try {
   const state = JSON.parse(await fs.readFile(statePath, 'utf8'));
   state.diagnostics ??= diagnostics ?? {};
