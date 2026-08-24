@@ -1,39 +1,37 @@
 {
-  "generatedAt": "2026-08-24T17:44:10.607Z",
-  "stateUpdatedAt": "2026-08-24T17:44:10.607Z",
-  "lastAttemptAt": "2026-08-24T17:44:10.607Z",
-  "lastScanAt": "2026-08-24T17:44:10.607Z",
+  "generatedAt": "2026-08-24T17:50:11.642Z",
+  "stateUpdatedAt": "2026-08-24T17:50:11.642Z",
+  "lastAttemptAt": "2026-08-24T17:50:11.642Z",
+  "lastScanAt": "2026-08-24T17:50:11.642Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Lifestyle Trainer Bargain::generic",
-    "Nike Football Boot Bargain::generic",
-    "Nike Basketball Shoe Bargain::generic",
-    "Nike SB Shoe Bargain::generic",
-    "Nike P-6000::primary",
-    "Nike V5 RNR::primary"
+    "Nike Vomero 5::primary",
+    "Nike Vomero 18::primary",
+    "Nike Vomero Plus::primary",
+    "Nike Vomero Premium::primary",
+    "Nike Pegasus Premium::primary",
+    "Nike Pegasus Trail 5 GORE-TEX::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1264,
-  "catalogItems": 874,
-  "candidateItems": 450,
-  "freshItems": 137,
-  "qualifyingAlerts": 7,
+  "catalogMarkers": 1344,
+  "catalogItems": 731,
+  "candidateItems": 477,
+  "freshItems": 22,
+  "qualifyingAlerts": 6,
   "qualifyingByCondition": {
-    "veryGood": 4,
-    "newWithoutTags": 1,
-    "newWithTags": 2
+    "veryGood": 5,
+    "newWithoutTags": 1
   },
-  "deliveredAlerts": 7,
+  "deliveredAlerts": 6,
   "deliveredByCondition": {
-    "veryGood": 4,
-    "newWithoutTags": 1,
-    "newWithTags": 2
+    "veryGood": 5,
+    "newWithoutTags": 1
   },
-  "duplicateSuppressed": 10,
+  "duplicateSuppressed": 56,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,14 +67,12 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 303,
-    "condition": 25,
-    "keyword": 8,
-    "size": 4,
-    "price": 18,
-    "seller-risk": 1,
-    "detail-budget-exhausted": 37,
-    "seller-check-budget-exhausted": 37
+    "stale": 399,
+    "condition": 2,
+    "size": 2,
+    "score": 4,
+    "price": 4,
+    "seller-check-budget-exhausted": 4
   },
   "failures": {}
 }
