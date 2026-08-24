@@ -1,38 +1,32 @@
 {
-  "generatedAt": "2026-08-24T10:50:46.255Z",
-  "stateUpdatedAt": "2026-08-24T10:50:46.255Z",
-  "lastAttemptAt": "2026-08-24T10:50:46.255Z",
-  "lastScanAt": "2026-08-24T10:50:46.255Z",
+  "generatedAt": "2026-08-24T10:55:46.052Z",
+  "stateUpdatedAt": "2026-08-24T10:55:46.052Z",
+  "lastAttemptAt": "2026-08-24T10:55:46.052Z",
+  "lastScanAt": "2026-08-24T10:55:46.052Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
     "Nike Accessories Bargain::nike accessories",
-    "Nike Backpack::nike backpack",
-    "Nike Crossbody Bag::nike crossbody bag",
-    "Nike Socks::nike socks",
-    "Nike Gloves::nike gloves",
-    "Nike Belt::nike belt",
-    "Nike T-Shirt::nike t shirt"
+    "Nike Long Sleeve Top::nike long sleeve top",
+    "Nike Polo::nike polo",
+    "Nike Football Shirt::nike football shirt",
+    "Nike Training Top::nike training top",
+    "Nike Dri-FIT Top::nike dri fit top",
+    "Nike Quarter Zip::nike quarter zip"
   ],
   "successfulSearches": 8,
   "failedSearches": 0,
   "catalogMarkers": 1632,
-  "catalogItems": 1345,
-  "candidateItems": 420,
-  "freshItems": 17,
-  "qualifyingAlerts": 7,
-  "qualifyingByCondition": {
-    "veryGood": 6,
-    "newWithTags": 1
-  },
-  "deliveredAlerts": 7,
-  "deliveredByCondition": {
-    "veryGood": 6,
-    "newWithTags": 1
-  },
-  "duplicateSuppressed": 9,
+  "catalogItems": 1250,
+  "candidateItems": 372,
+  "freshItems": 3,
+  "qualifyingAlerts": 0,
+  "qualifyingByCondition": {},
+  "deliveredAlerts": 0,
+  "deliveredByCondition": {},
+  "duplicateSuppressed": 10,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -68,9 +62,9 @@
   "pendingDeliveries": 0,
   "detailFetches": 0,
   "rejects": {
-    "recovery-no-fresh-signal": 84,
-    "price": 5,
-    "condition": 5
+    "stale": 83,
+    "price": 2,
+    "condition": 1
   },
   "failures": {}
 }
