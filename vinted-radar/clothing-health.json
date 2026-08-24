@@ -1,36 +1,36 @@
 {
-  "generatedAt": "2026-08-24T10:12:50.417Z",
-  "stateUpdatedAt": "2026-08-24T10:12:50.417Z",
-  "lastAttemptAt": "2026-08-24T10:12:50.417Z",
-  "lastScanAt": "2026-08-24T10:12:50.417Z",
+  "generatedAt": "2026-08-24T10:17:50.360Z",
+  "stateUpdatedAt": "2026-08-24T10:17:50.360Z",
+  "lastAttemptAt": "2026-08-24T10:17:50.360Z",
+  "lastScanAt": "2026-08-24T10:17:50.360Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
     "Nike Accessories Bargain::nike accessories",
-    "Nike ACG Skull Peak Jacket::nike acg skull peak",
-    "Nike Club Fleece Pullover Hoodie::nike club fleece hoodie",
-    "Nike Unlimited Shorts::nike unlimited shorts",
-    "Nike Tech Fleece Colour-Block Windrunner::nike tech fleece colour block windrunner",
-    "Nike Windrunner Jacket::nike windrunner jacket",
-    "Nike NOCTA Tracksuit::nike nocta tracksuit"
+    "Nike Miler Challenger Running Set::nike miler challenger set",
+    "Nike Football Tech Fleece::nike football tech fleece",
+    "Nike ACG GORE-TEX Jacket::nike acg gore tex jacket",
+    "Nike Club Fleece Full-Zip Hoodie::nike club fleece full zip hoodie",
+    "Nike Strike Top Shorts Set::nike strike top shorts set",
+    "Nike Club Fleece Joggers::nike club fleece joggers"
   ],
   "successfulSearches": 8,
   "failedSearches": 0,
-  "catalogMarkers": 1920,
-  "catalogItems": 1144,
-  "candidateItems": 351,
-  "freshItems": 10,
-  "qualifyingAlerts": 5,
+  "catalogMarkers": 2112,
+  "catalogItems": 1162,
+  "candidateItems": 414,
+  "freshItems": 7,
+  "qualifyingAlerts": 4,
   "qualifyingByCondition": {
-    "veryGood": 5
+    "veryGood": 4
   },
-  "deliveredAlerts": 5,
+  "deliveredAlerts": 4,
   "deliveredByCondition": {
-    "veryGood": 5
+    "veryGood": 4
   },
-  "duplicateSuppressed": 42,
+  "duplicateSuppressed": 17,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -66,10 +66,8 @@
   "pendingDeliveries": 0,
   "detailFetches": 0,
   "rejects": {
-    "stale": 299,
-    "price": 3,
-    "condition": 1,
-    "keyword": 1
+    "stale": 390,
+    "condition": 3
   },
   "failures": {}
 }
