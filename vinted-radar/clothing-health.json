@@ -1,34 +1,28 @@
 {
-  "generatedAt": "2026-08-24T08:21:32.326Z",
-  "stateUpdatedAt": "2026-08-24T08:21:32.326Z",
-  "lastAttemptAt": "2026-08-24T08:21:32.326Z",
-  "lastScanAt": "2026-08-24T08:21:32.326Z",
+  "generatedAt": "2026-08-24T08:30:01.507Z",
+  "stateUpdatedAt": "2026-08-24T08:30:01.507Z",
+  "lastAttemptAt": "2026-08-24T08:30:01.507Z",
+  "lastScanAt": "2026-08-24T08:30:01.507Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
-    "Nike Puffer Jacket::nike puffer jacket",
-    "Nike Storm-FIT Puffer::nike storm fit puffer",
-    "Nike Therma-FIT Jacket::nike therma fit jacket",
-    "Nike Windrunner Jacket::nike windrunner jacket"
+    "Nike Sportswear Winterised Jacket::nike sportswear winterised jacket",
+    "Nike Trail Repel Jacket::nike trail repel jacket",
+    "Nike Running Division Jacket::nike running division jacket",
+    "Nike Miler Repel Jacket::nike miler repel jacket"
   ],
   "successfulSearches": 4,
   "failedSearches": 0,
-  "catalogMarkers": 767,
-  "catalogItems": 462,
-  "candidateItems": 206,
-  "freshItems": 14,
-  "qualifyingAlerts": 8,
-  "qualifyingByCondition": {
-    "veryGood": 7,
-    "newWithoutTags": 1
-  },
-  "deliveredAlerts": 8,
-  "deliveredByCondition": {
-    "veryGood": 7,
-    "newWithoutTags": 1
-  },
-  "duplicateSuppressed": 54,
+  "catalogMarkers": 768,
+  "catalogItems": 447,
+  "candidateItems": 76,
+  "freshItems": 0,
+  "qualifyingAlerts": 0,
+  "qualifyingByCondition": {},
+  "deliveredAlerts": 0,
+  "deliveredByCondition": {},
+  "duplicateSuppressed": 6,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -62,13 +56,9 @@
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 2,
+  "detailFetches": 0,
   "rejects": {
-    "size": 1,
-    "price": 1,
-    "keyword": 3,
-    "condition": 1,
-    "stale": 138
+    "stale": 70
   },
   "failures": {}
 }
