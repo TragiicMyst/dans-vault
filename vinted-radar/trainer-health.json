@@ -1,36 +1,38 @@
 {
-  "generatedAt": "2026-08-24T00:32:31.770Z",
-  "stateUpdatedAt": "2026-08-24T00:32:31.770Z",
-  "lastAttemptAt": "2026-08-24T00:32:31.770Z",
-  "lastScanAt": "2026-08-24T00:32:31.770Z",
+  "generatedAt": "2026-08-24T01:27:33.661Z",
+  "stateUpdatedAt": "2026-08-24T01:27:33.661Z",
+  "lastAttemptAt": "2026-08-24T01:27:33.661Z",
+  "lastScanAt": "2026-08-24T01:27:33.661Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
-    "Nike Air Max Plus 3::primary",
-    "Nike Air Max Plus VII::primary",
-    "Nike Air Max 95::primary",
-    "Nike Air Max 90::primary",
-    "Nike Air Max 90 Drift::primary",
-    "Nike Air Max 97::primary",
-    "Nike Air Max 270::primary",
-    "Nike Air Max Dn::primary"
+    "Nike Air Max 1::primary",
+    "Nike Shox TL::primary",
+    "Nike Shox R4::primary",
+    "Nike Shox Ride 2::primary",
+    "Nike Air Force 1::primary",
+    "Nike Dunk Low::primary",
+    "Air Jordan 1 Low::primary",
+    "Air Jordan 1 Mid::primary"
   ],
   "successfulSearches": 8,
   "failedSearches": 0,
   "catalogMarkers": 1536,
-  "catalogItems": 1152,
-  "candidateItems": 660,
-  "freshItems": 15,
-  "qualifyingAlerts": 4,
+  "catalogItems": 1037,
+  "candidateItems": 685,
+  "freshItems": 43,
+  "qualifyingAlerts": 14,
   "qualifyingByCondition": {
-    "veryGood": 4
+    "veryGood": 13,
+    "newWithTags": 1
   },
-  "deliveredAlerts": 4,
+  "deliveredAlerts": 14,
   "deliveredByCondition": {
-    "veryGood": 4
+    "veryGood": 13,
+    "newWithTags": 1
   },
-  "duplicateSuppressed": 58,
+  "duplicateSuppressed": 39,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -64,15 +66,15 @@
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 8,
+  "detailFetches": 24,
   "rejects": {
-    "recovery-no-fresh-signal": 587,
-    "seller-risk": 1,
-    "score": 2,
-    "condition": 2,
-    "keyword": 4,
-    "price": 1,
-    "size": 1
+    "recovery-no-fresh-signal": 603,
+    "price": 8,
+    "condition": 5,
+    "size": 8,
+    "seller-risk": 2,
+    "detail-budget-exhausted": 2,
+    "seller-check-budget-exhausted": 4
   },
   "failures": {}
 }
