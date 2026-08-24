@@ -1,30 +1,30 @@
 {
-  "generatedAt": "2026-08-24T09:55:09.123Z",
-  "stateUpdatedAt": "2026-08-24T09:55:09.123Z",
-  "lastAttemptAt": "2026-08-24T09:55:09.123Z",
-  "lastScanAt": "2026-08-24T09:55:09.123Z",
+  "generatedAt": "2026-08-24T10:02:46.964Z",
+  "stateUpdatedAt": "2026-08-24T10:02:46.964Z",
+  "lastAttemptAt": "2026-08-24T10:02:46.964Z",
+  "lastScanAt": "2026-08-24T10:02:46.964Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
-    "Nike Air Max Moto 2K::primary",
-    "Nike Metcon 10::primary",
-    "Nike Zoom Fly 6::primary",
-    "Nike Air Max Bargain::generic",
-    "Nike Running Trainer Bargain::generic",
-    "Nike Lifestyle Trainer Bargain::generic"
+    "Nike Football Boot Bargain::generic",
+    "Nike Basketball Shoe Bargain::generic",
+    "Nike SB Shoe Bargain::generic",
+    "Nike Any Shoe Bargain::generic",
+    "Nike P-6000::primary",
+    "Nike V5 RNR::primary"
   ],
   "successfulSearches": 6,
   "failedSearches": 0,
-  "catalogMarkers": 1152,
-  "catalogItems": 681,
-  "candidateItems": 336,
-  "freshItems": 1,
+  "catalogMarkers": 1072,
+  "catalogItems": 712,
+  "candidateItems": 357,
+  "freshItems": 4,
   "qualifyingAlerts": 0,
   "qualifyingByCondition": {},
   "deliveredAlerts": 0,
   "deliveredByCondition": {},
-  "duplicateSuppressed": 14,
+  "duplicateSuppressed": 4,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -58,10 +58,11 @@
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 1,
+  "detailFetches": 2,
   "rejects": {
-    "stale": 185,
-    "score": 1
+    "keyword": 2,
+    "size": 2,
+    "stale": 76
   },
   "failures": {}
 }

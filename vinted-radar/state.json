@@ -3022,7 +3022,7 @@
     "9741388355": {
       "blockedReason": "stale-or-no-freshness-signal",
       "lastPrice": 35,
-      "lastSeenAt": "2026-08-24T09:30:16.622Z",
+      "lastSeenAt": "2026-08-24T10:03:21.741Z",
       "size": null,
       "bootstrapSeen": true,
       "title": "nike v5 rnr size 5",
@@ -3049,7 +3049,7 @@
     "9740121031": {
       "blockedReason": "stale-or-no-freshness-signal",
       "lastPrice": 12.5,
-      "lastSeenAt": "2026-08-24T09:30:16.621Z",
+      "lastSeenAt": "2026-08-24T10:03:21.740Z",
       "size": 8,
       "bootstrapSeen": true,
       "title": "nike v5 rnr infant",
@@ -3077,7 +3077,7 @@
     "9739410509": {
       "blockedReason": "stale-or-no-freshness-signal",
       "lastPrice": 39,
-      "lastSeenAt": "2026-08-24T09:30:16.622Z",
+      "lastSeenAt": "2026-08-24T10:03:21.741Z",
       "size": null,
       "bootstrapSeen": true,
       "title": "nike air v5 rnr childrens trainers white green silver size uk child 12",
@@ -7652,7 +7652,7 @@
         "note": "No configured major authenticity red flags detected"
       },
       "lastPrice": 40,
-      "lastSeenAt": "2026-08-24T09:30:16.622Z",
+      "lastSeenAt": "2026-08-24T10:03:21.741Z",
       "lastPriceDrop": null,
       "blockedReason": "stale-or-no-freshness-signal",
       "bootstrapSeen": true,
@@ -7661,10 +7661,10 @@
       "firstSeenAt": "2026-08-23T03:32:56.459Z"
     },
     "9735660067": {
-      "blockedReason": "recovery-no-fresh-signal",
+      "blockedReason": "stale-or-no-freshness-signal",
       "size": null,
       "lastPrice": 18,
-      "lastSeenAt": "2026-08-23T23:55:07.934Z",
+      "lastSeenAt": "2026-08-24T10:03:21.740Z",
       "bootstrapSeen": true,
       "title": "nike v5 rnr toddler size 45",
       "url": "https://www.vinted.co.uk/items/9735660067-nike-v5-rnr-toddler-size-45",
@@ -7735,9 +7735,9 @@
         "note": "No configured major authenticity red flags detected"
       },
       "lastPrice": 40,
-      "lastSeenAt": "2026-08-23T23:55:07.934Z",
+      "lastSeenAt": "2026-08-24T10:03:21.740Z",
       "lastPriceDrop": null,
-      "blockedReason": "recovery-no-fresh-signal",
+      "blockedReason": "stale-or-no-freshness-signal",
       "title": "nike v5 rnr",
       "url": "https://www.vinted.co.uk/items/9731090562-nike-v5-rnr",
       "firstSeenAt": "2026-08-23T03:32:56.459Z"
@@ -10915,8 +10915,11 @@
     "9744806150": {
       "size": 10,
       "bootstrapSeen": true,
-      "lastSeenAt": "2026-08-22T22:02:55.650Z",
-      "lastPrice": 48
+      "lastSeenAt": "2026-08-24T10:03:06.957Z",
+      "lastPrice": 48,
+      "title": "nike airmax 95 trainers",
+      "url": "https://www.vinted.co.uk/items/9744806150-nike-airmax-95-trainers",
+      "firstSeenAt": "2026-08-24T10:03:06.957Z"
     },
     "9744768516": {
       "size": 10,
@@ -11255,7 +11258,7 @@
     "9745327966": {
       "size": 8,
       "bootstrapSeen": true,
-      "lastSeenAt": "2026-08-24T09:30:16.621Z",
+      "lastSeenAt": "2026-08-24T10:03:21.740Z",
       "lastPrice": 38.99,
       "blockedReason": "stale-or-no-freshness-signal",
       "title": "nike v5 rnr e toddler trainers 85uk size",
@@ -11277,7 +11280,7 @@
     "9745214209": {
       "size": 7,
       "bootstrapSeen": true,
-      "lastSeenAt": "2026-08-24T09:30:16.622Z",
+      "lastSeenAt": "2026-08-24T10:03:21.741Z",
       "lastPrice": 35,
       "blockedReason": "stale-or-no-freshness-signal",
       "title": "nike v5 rnr",
@@ -11313,7 +11316,7 @@
     "9743382325": {
       "size": 9.5,
       "bootstrapSeen": true,
-      "lastSeenAt": "2026-08-24T09:30:16.621Z",
+      "lastSeenAt": "2026-08-24T10:03:21.740Z",
       "lastPrice": 45,
       "blockedReason": "stale-or-no-freshness-signal",
       "title": "nike v5 rnr suede",
@@ -11323,7 +11326,7 @@
     "9742885660": {
       "size": 8,
       "bootstrapSeen": true,
-      "lastSeenAt": "2026-08-24T09:30:16.621Z",
+      "lastSeenAt": "2026-08-24T10:03:21.740Z",
       "lastPrice": 53.99,
       "blockedReason": "stale-or-no-freshness-signal",
       "title": "nike v5 rnr white with midnight navy uk8 brand new",
@@ -11333,7 +11336,7 @@
     "9741683722": {
       "size": 8,
       "bootstrapSeen": true,
-      "lastSeenAt": "2026-08-24T09:30:16.622Z",
+      "lastSeenAt": "2026-08-24T10:03:21.741Z",
       "lastPrice": 45,
       "blockedReason": "stale-or-no-freshness-signal",
       "title": "nike w v5 rnr trainer",
@@ -11353,7 +11356,7 @@
     "9740546090": {
       "size": 7,
       "bootstrapSeen": true,
-      "lastSeenAt": "2026-08-24T09:30:16.622Z",
+      "lastSeenAt": "2026-08-24T10:03:21.741Z",
       "lastPrice": 55,
       "blockedReason": "stale-or-no-freshness-signal",
       "title": "nike v5 rnr trainers mens size 8",
@@ -11363,7 +11366,7 @@
     "9739704803": {
       "size": 10,
       "bootstrapSeen": true,
-      "lastSeenAt": "2026-08-24T09:30:16.621Z",
+      "lastSeenAt": "2026-08-24T10:03:21.740Z",
       "lastPrice": 55,
       "blockedReason": "stale-or-no-freshness-signal",
       "title": "nike v5 rnr",
@@ -11373,7 +11376,7 @@
     "9739035488": {
       "size": 8,
       "bootstrapSeen": true,
-      "lastSeenAt": "2026-08-24T08:41:19.825Z",
+      "lastSeenAt": "2026-08-24T10:03:21.740Z",
       "lastPrice": 55,
       "blockedReason": "stale-or-no-freshness-signal",
       "title": "nike v5 rnr",
@@ -11383,9 +11386,9 @@
     "9738584157": {
       "size": null,
       "bootstrapSeen": true,
-      "lastSeenAt": "2026-08-24T04:07:11.980Z",
+      "lastSeenAt": "2026-08-24T10:03:21.741Z",
       "lastPrice": 54.99,
-      "blockedReason": "recovery-no-fresh-signal",
+      "blockedReason": "stale-or-no-freshness-signal",
       "title": "nike v5 rnr white malachite hj5228 100 trainers uk 11 eu 46",
       "url": "https://www.vinted.co.uk/items/9738584157-nike-v5-rnr-white-malachite-hj5228-100-trainers-uk-11-eu-46",
       "firstSeenAt": "2026-08-23T03:32:56.459Z"
@@ -11413,7 +11416,7 @@
     "9737894372": {
       "size": 8,
       "bootstrapSeen": true,
-      "lastSeenAt": "2026-08-24T05:34:54.274Z",
+      "lastSeenAt": "2026-08-24T10:03:21.740Z",
       "lastPrice": 50,
       "blockedReason": "stale-or-no-freshness-signal",
       "title": "nike v5 rnr moon particle uk8",
@@ -11439,7 +11442,7 @@
     "9733831830": {
       "size": 8,
       "bootstrapSeen": true,
-      "lastSeenAt": "2026-08-24T09:30:16.621Z",
+      "lastSeenAt": "2026-08-24T10:03:21.740Z",
       "lastPrice": 50,
       "blockedReason": "stale-or-no-freshness-signal",
       "title": "nike v5 rnr",
@@ -11469,9 +11472,9 @@
     "9731574581": {
       "size": 8,
       "bootstrapSeen": true,
-      "lastSeenAt": "2026-08-23T23:55:07.935Z",
+      "lastSeenAt": "2026-08-24T10:03:21.741Z",
       "lastPrice": 49,
-      "blockedReason": "recovery-no-fresh-signal",
+      "blockedReason": "stale-or-no-freshness-signal",
       "title": "nike v5 rnr trainers bluewhite uk 8 brand new",
       "url": "https://www.vinted.co.uk/items/9731574581-nike-v5-rnr-trainers-bluewhite-uk-8-brand-new",
       "firstSeenAt": "2026-08-23T03:32:56.459Z"
@@ -12088,7 +12091,7 @@
     "9733848209": {
       "blockedReason": "stale-or-no-freshness-signal",
       "size": 8,
-      "lastSeenAt": "2026-08-23T12:13:11.281Z",
+      "lastSeenAt": "2026-08-24T10:03:21.741Z",
       "lastPrice": 55,
       "title": "nike v5 rnr trainers size uk8",
       "url": "https://www.vinted.co.uk/items/9733848209-nike-v5-rnr-trainers-size-uk8",
@@ -13777,7 +13780,7 @@
     "9745063134": {
       "blockedReason": "stale-or-no-freshness-signal",
       "size": 8,
-      "lastSeenAt": "2026-08-24T09:30:16.622Z",
+      "lastSeenAt": "2026-08-24T10:03:21.741Z",
       "lastPrice": 60,
       "title": "nike v5 rnr sail brown trainers uk 85 eu 43",
       "url": "https://www.vinted.co.uk/items/9745063134-nike-v5-rnr-sail-brown-trainers-uk-85-eu-43",
@@ -13790,27 +13793,27 @@
       "lastPrice": 60
     },
     "9734968329": {
-      "blockedReason": "recovery-no-fresh-signal",
+      "blockedReason": "stale-or-no-freshness-signal",
       "size": 7,
-      "lastSeenAt": "2026-08-23T23:55:07.934Z",
+      "lastSeenAt": "2026-08-24T10:03:21.740Z",
       "lastPrice": 60,
       "title": "nike v5 rnr",
       "url": "https://www.vinted.co.uk/items/9734968329-nike-v5-rnr",
       "firstSeenAt": "2026-08-23T03:32:56.459Z"
     },
     "9732752207": {
-      "blockedReason": "recovery-no-fresh-signal",
+      "blockedReason": "stale-or-no-freshness-signal",
       "size": 7,
-      "lastSeenAt": "2026-08-23T23:55:07.934Z",
+      "lastSeenAt": "2026-08-24T10:03:21.740Z",
       "lastPrice": 58.49,
       "title": "nike v5 rnr mens trainer blue white navy uk size 8 brand new boxed",
       "url": "https://www.vinted.co.uk/items/9732752207-nike-v5-rnr-mens-trainer-blue-white-navy-uk-size-8-brand-new-boxed",
       "firstSeenAt": "2026-08-23T03:32:56.459Z"
     },
     "9731419084": {
-      "blockedReason": "recovery-no-fresh-signal",
+      "blockedReason": "stale-or-no-freshness-signal",
       "size": 9,
-      "lastSeenAt": "2026-08-23T23:55:07.934Z",
+      "lastSeenAt": "2026-08-24T10:03:21.740Z",
       "lastPrice": 60,
       "title": "nike v5 rnr",
       "url": "https://www.vinted.co.uk/items/9731419084-nike-v5-rnr",
@@ -16091,7 +16094,7 @@
       "url": "https://www.vinted.co.uk/items/9745835851-nike-v5-rnr-mens-trainers",
       "lastPrice": 22,
       "firstSeenAt": "2026-08-23T03:32:56.459Z",
-      "lastSeenAt": "2026-08-24T09:30:16.621Z"
+      "lastSeenAt": "2026-08-24T10:03:21.740Z"
     },
     "9744757303": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -16099,7 +16102,7 @@
       "url": "https://www.vinted.co.uk/items/9744757303-nike-v5-rnr-trainers-size-11-grey-brand-new-with-tags",
       "lastPrice": 75,
       "firstSeenAt": "2026-08-23T03:32:56.459Z",
-      "lastSeenAt": "2026-08-24T09:30:16.621Z"
+      "lastSeenAt": "2026-08-24T10:03:21.740Z"
     },
     "9742215239": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -16107,7 +16110,7 @@
       "url": "https://www.vinted.co.uk/items/9742215239-nike-v5-rnr-off-noir-black-gridiron-uk85us95eu43-brand-new-with-box",
       "lastPrice": 64.95,
       "firstSeenAt": "2026-08-23T03:32:56.459Z",
-      "lastSeenAt": "2026-08-24T09:30:16.622Z"
+      "lastSeenAt": "2026-08-24T10:03:21.741Z"
     },
     "9734899804": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -16115,7 +16118,7 @@
       "url": "https://www.vinted.co.uk/items/9734899804-nike-v5-rnr-navy-white-trainers-size-uk11",
       "lastPrice": 59.99,
       "firstSeenAt": "2026-08-23T03:32:56.459Z",
-      "lastSeenAt": "2026-08-24T09:30:16.621Z"
+      "lastSeenAt": "2026-08-24T10:03:21.740Z"
     },
     "9731063072": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -19001,7 +19004,7 @@
       "url": "https://www.vinted.co.uk/items/9743575378-nike-v5-rnr-trainers-gs-phantom-black-pencil-point-uk-5-eur-38",
       "lastPrice": 40,
       "firstSeenAt": "2026-08-23T07:02:48.381Z",
-      "lastSeenAt": "2026-08-23T08:35:01.649Z"
+      "lastSeenAt": "2026-08-24T10:03:21.740Z"
     },
     "9746723211": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -21541,7 +21544,7 @@
       "url": "https://www.vinted.co.uk/items/9747514349-nike-v5-rnr-grey-x-silver-trainers-uk-8",
       "lastPrice": 20,
       "firstSeenAt": "2026-08-23T09:01:46.914Z",
-      "lastSeenAt": "2026-08-24T09:30:16.622Z"
+      "lastSeenAt": "2026-08-24T10:03:21.741Z"
     },
     "9747809138": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -22439,7 +22442,7 @@
       "url": "https://www.vinted.co.uk/items/9748164743-nike-v5-rnr-trainers",
       "lastPrice": 30,
       "firstSeenAt": "2026-08-23T09:33:33.819Z",
-      "lastSeenAt": "2026-08-24T09:30:16.622Z"
+      "lastSeenAt": "2026-08-24T10:03:21.741Z"
     },
     "9747909354": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -22447,7 +22450,7 @@
       "url": "https://www.vinted.co.uk/items/9747909354-nike-v5-rnr-womens-shoes-45",
       "lastPrice": 50,
       "firstSeenAt": "2026-08-23T09:33:36.471Z",
-      "lastSeenAt": "2026-08-24T09:30:16.622Z"
+      "lastSeenAt": "2026-08-24T10:03:21.741Z"
     },
     "9748210852": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -23883,7 +23886,7 @@
       "url": "https://www.vinted.co.uk/items/9748549861-nike-v5-rnr-uk5-eu-38gs",
       "lastPrice": 43.99,
       "firstSeenAt": "2026-08-23T10:11:07.323Z",
-      "lastSeenAt": "2026-08-24T09:30:16.621Z"
+      "lastSeenAt": "2026-08-24T10:03:21.740Z"
     },
     "9748721463": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -35070,7 +35073,7 @@
       "url": "https://www.vinted.co.uk/items/9748966504-nike-v5-rnr-trainers",
       "lastPrice": 65,
       "firstSeenAt": "2026-08-23T10:32:43.208Z",
-      "lastSeenAt": "2026-08-24T09:30:16.621Z"
+      "lastSeenAt": "2026-08-24T10:03:21.740Z"
     },
     "9683019468": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -35078,7 +35081,7 @@
       "url": "https://www.vinted.co.uk/items/9683019468-v5rnr-boys-and-girls-nike-shoes",
       "lastPrice": 30,
       "firstSeenAt": "2026-08-23T10:32:43.209Z",
-      "lastSeenAt": "2026-08-24T09:30:16.622Z"
+      "lastSeenAt": "2026-08-24T10:03:21.741Z"
     },
     "9672703624": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -35086,7 +35089,7 @@
       "url": "https://www.vinted.co.uk/items/9672703624-nike-v5rnr-blue",
       "lastPrice": 18.53,
       "firstSeenAt": "2026-08-23T10:32:43.209Z",
-      "lastSeenAt": "2026-08-24T08:41:19.826Z"
+      "lastSeenAt": "2026-08-24T10:03:21.740Z"
     },
     "9588251250": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -35094,7 +35097,7 @@
       "url": "https://www.vinted.co.uk/items/9588251250-nike-trainers-v5rnr",
       "lastPrice": 20,
       "firstSeenAt": "2026-08-23T10:32:43.209Z",
-      "lastSeenAt": "2026-08-24T09:30:16.622Z"
+      "lastSeenAt": "2026-08-24T10:03:21.741Z"
     },
     "9586469881": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -35102,7 +35105,7 @@
       "url": "https://www.vinted.co.uk/items/9586469881-nike-v5-rnr",
       "lastPrice": 37.05,
       "firstSeenAt": "2026-08-23T10:32:43.209Z",
-      "lastSeenAt": "2026-08-24T08:41:19.826Z"
+      "lastSeenAt": "2026-08-24T10:03:21.740Z"
     },
     "9441175074": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -35110,7 +35113,7 @@
       "url": "https://www.vinted.co.uk/items/9441175074-mens-nike-v5rnr-trainers",
       "lastPrice": 17,
       "firstSeenAt": "2026-08-23T10:32:43.209Z",
-      "lastSeenAt": "2026-08-24T09:30:16.622Z"
+      "lastSeenAt": "2026-08-24T10:03:21.741Z"
     },
     "9232679607": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -35118,7 +35121,7 @@
       "url": "https://www.vinted.co.uk/items/9232679607-uk-size-8-nike-v5rnr-retro-design-running-trainers-washed-coral-new-with-box",
       "lastPrice": 52.69,
       "firstSeenAt": "2026-08-23T10:32:43.209Z",
-      "lastSeenAt": "2026-08-24T09:30:16.622Z"
+      "lastSeenAt": "2026-08-24T10:03:21.740Z"
     },
     "8888964817": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -35126,7 +35129,7 @@
       "url": "https://www.vinted.co.uk/items/8888964817-nike-v5rnr-silver-white-and-black-trainers",
       "lastPrice": 45,
       "firstSeenAt": "2026-08-23T10:32:43.209Z",
-      "lastSeenAt": "2026-08-24T09:30:16.622Z"
+      "lastSeenAt": "2026-08-24T10:03:21.741Z"
     },
     "8374701691": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -35134,7 +35137,7 @@
       "url": "https://www.vinted.co.uk/items/8374701691-nike-v5rnr-white-women-trainers",
       "lastPrice": 65,
       "firstSeenAt": "2026-08-23T10:32:43.209Z",
-      "lastSeenAt": "2026-08-24T09:30:16.621Z"
+      "lastSeenAt": "2026-08-24T10:03:21.740Z"
     },
     "8056223253": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -35142,7 +35145,7 @@
       "url": "https://www.vinted.co.uk/items/8056223253-nike-v5-rnr-uk-7-trainers-sail-light-bone-gym-red-new",
       "lastPrice": 64,
       "firstSeenAt": "2026-08-23T10:32:43.209Z",
-      "lastSeenAt": "2026-08-24T09:30:16.621Z"
+      "lastSeenAt": "2026-08-24T10:03:21.740Z"
     },
     "9748932284": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -41293,7 +41296,7 @@
       "url": "https://www.vinted.co.uk/items/9749143541-nike-v5-rnr-size-45",
       "lastPrice": 17,
       "firstSeenAt": "2026-08-23T10:42:10.423Z",
-      "lastSeenAt": "2026-08-24T09:30:16.622Z"
+      "lastSeenAt": "2026-08-24T10:03:21.741Z"
     },
     "9749049060": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -41301,7 +41304,7 @@
       "url": "https://www.vinted.co.uk/items/9749049060-nike-v5-rnr",
       "lastPrice": 4.5,
       "firstSeenAt": "2026-08-23T10:42:10.423Z",
-      "lastSeenAt": "2026-08-24T09:30:16.621Z"
+      "lastSeenAt": "2026-08-24T10:03:21.740Z"
     },
     "9724991430": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -44615,12 +44618,12 @@
       "lastSeenAt": "2026-08-23T11:02:45.940Z"
     },
     "9749458117": {
-      "blockedReason": "stale-or-no-freshness-signal",
       "title": "baby nike trainers low dunks blue and white",
       "url": "https://www.vinted.co.uk/items/9749458117-baby-nike-trainers-low-dunks-blue-and-white",
       "lastPrice": 12,
       "firstSeenAt": "2026-08-23T11:02:45.940Z",
-      "lastSeenAt": "2026-08-23T11:56:02.066Z"
+      "lastSeenAt": "2026-08-24T10:03:06.957Z",
+      "bootstrapSeen": true
     },
     "9749456787": {
       "blockedReason": "keyword",
@@ -54334,7 +54337,6 @@
       "lastSeenAt": "2026-08-23T19:29:39.534Z"
     },
     "9756521894": {
-      "blockedReason": "stale-or-no-freshness-signal",
       "size": 10,
       "condition": "veryGood",
       "resale": 86,
@@ -54344,7 +54346,8 @@
       "url": "https://www.vinted.co.uk/items/9756521894-nike-sb-dunk-low-premier-fish-ladder",
       "lastPrice": 50,
       "firstSeenAt": "2026-08-23T18:40:29.949Z",
-      "lastSeenAt": "2026-08-23T19:50:47.504Z"
+      "lastSeenAt": "2026-08-24T10:03:01.262Z",
+      "bootstrapSeen": true
     },
     "9756513450": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -54713,12 +54716,12 @@
       "lastSeenAt": "2026-08-23T18:40:29.952Z"
     },
     "9756068069": {
-      "blockedReason": "price",
       "title": "nike sb dunk low pro blue fury",
       "url": "https://www.vinted.co.uk/items/9756068069-nike-sb-dunk-low-pro-blue-fury",
       "lastPrice": 75,
       "firstSeenAt": "2026-08-23T18:40:29.952Z",
-      "lastSeenAt": "2026-08-23T18:40:29.952Z"
+      "lastSeenAt": "2026-08-24T10:03:01.262Z",
+      "bootstrapSeen": true
     },
     "9756056061": {
       "blockedReason": "seller-check-budget-exhausted",
@@ -56526,7 +56529,7 @@
       "url": "https://www.vinted.co.uk/items/9756661550-bluegreywhite-nike-v5-rnr-size-uk-95-rrp-ps7999",
       "lastPrice": 79.99,
       "firstSeenAt": "2026-08-23T18:41:56.168Z",
-      "lastSeenAt": "2026-08-24T09:30:16.621Z"
+      "lastSeenAt": "2026-08-24T10:03:21.740Z"
     },
     "9756400186": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -56534,7 +56537,7 @@
       "url": "https://www.vinted.co.uk/items/9756400186-nike-childs-uk13-v5rnr",
       "lastPrice": 25,
       "firstSeenAt": "2026-08-23T18:41:56.168Z",
-      "lastSeenAt": "2026-08-24T09:30:16.622Z"
+      "lastSeenAt": "2026-08-24T10:03:21.740Z"
     },
     "9755432720": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -56547,7 +56550,7 @@
       "url": "https://www.vinted.co.uk/items/9755432720-nike-v5-rnr",
       "lastPrice": 50,
       "firstSeenAt": "2026-08-23T18:41:56.169Z",
-      "lastSeenAt": "2026-08-24T09:30:16.621Z"
+      "lastSeenAt": "2026-08-24T10:03:21.740Z"
     },
     "9755362682": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -56564,7 +56567,7 @@
       "url": "https://www.vinted.co.uk/items/9755186519-nike-v5-rnr-runner-triple-black-size-uk-5-preloved-fast-shipping",
       "lastPrice": 19.99,
       "firstSeenAt": "2026-08-23T18:41:56.169Z",
-      "lastSeenAt": "2026-08-24T09:30:16.622Z"
+      "lastSeenAt": "2026-08-24T10:03:21.740Z"
     },
     "9755185305": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -56572,7 +56575,7 @@
       "url": "https://www.vinted.co.uk/items/9755185305-kids-nike-trainers-size-13-beige-moon-v5-rnr",
       "lastPrice": 20,
       "firstSeenAt": "2026-08-23T18:41:56.170Z",
-      "lastSeenAt": "2026-08-24T09:30:16.622Z"
+      "lastSeenAt": "2026-08-24T10:03:21.740Z"
     },
     "9754768699": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -56585,7 +56588,7 @@
       "url": "https://www.vinted.co.uk/items/9754768699-nike-shoesnike-v5-rnr",
       "lastPrice": 37,
       "firstSeenAt": "2026-08-23T18:41:56.170Z",
-      "lastSeenAt": "2026-08-24T09:30:16.622Z"
+      "lastSeenAt": "2026-08-24T10:03:21.740Z"
     },
     "9754547368": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -56593,7 +56596,7 @@
       "url": "https://www.vinted.co.uk/items/9754547368-nike-v5-rnr-whitemalachite-green",
       "lastPrice": 30,
       "firstSeenAt": "2026-08-23T18:41:56.170Z",
-      "lastSeenAt": "2026-08-24T09:30:16.621Z"
+      "lastSeenAt": "2026-08-24T10:03:21.740Z"
     },
     "9754461687": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -56601,7 +56604,7 @@
       "url": "https://www.vinted.co.uk/items/9754461687-nike-v5-rnr-uk-4-gs",
       "lastPrice": 39.99,
       "firstSeenAt": "2026-08-23T18:41:56.170Z",
-      "lastSeenAt": "2026-08-24T09:30:16.622Z"
+      "lastSeenAt": "2026-08-24T10:03:21.740Z"
     },
     "9754442420": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -56622,7 +56625,7 @@
       "url": "https://www.vinted.co.uk/items/9754294737-nike-v5-rnr-suede-toddlers-trainers-uk-size-75c",
       "lastPrice": 33.92,
       "firstSeenAt": "2026-08-23T18:41:56.170Z",
-      "lastSeenAt": "2026-08-24T09:30:16.622Z"
+      "lastSeenAt": "2026-08-24T10:03:21.740Z"
     },
     "9754234838": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -56630,7 +56633,7 @@
       "url": "https://www.vinted.co.uk/items/9754234838-nike-v5-rnr-triple-white-trainer",
       "lastPrice": 65,
       "firstSeenAt": "2026-08-23T18:41:56.170Z",
-      "lastSeenAt": "2026-08-24T09:30:16.622Z"
+      "lastSeenAt": "2026-08-24T10:03:21.740Z"
     },
     "9753839695": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -56656,7 +56659,7 @@
       "url": "https://www.vinted.co.uk/items/9753827937-nike-v5-rnr-mens-trainer-white-blue-navy-uk-size-10-brand-new-boxed",
       "lastPrice": 57,
       "firstSeenAt": "2026-08-23T18:41:56.170Z",
-      "lastSeenAt": "2026-08-24T09:30:16.621Z"
+      "lastSeenAt": "2026-08-24T10:03:21.740Z"
     },
     "9753395508": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -56665,7 +56668,7 @@
       "url": "https://www.vinted.co.uk/items/9753395508-nike-v5-rnr",
       "lastPrice": 49,
       "firstSeenAt": "2026-08-23T18:41:56.170Z",
-      "lastSeenAt": "2026-08-24T09:30:16.621Z"
+      "lastSeenAt": "2026-08-24T10:03:21.740Z"
     },
     "9753114335": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -56686,7 +56689,7 @@
       "url": "https://www.vinted.co.uk/items/9752981949-nike-v5-rnr-size-10",
       "lastPrice": 50,
       "firstSeenAt": "2026-08-23T18:41:56.171Z",
-      "lastSeenAt": "2026-08-24T09:30:16.621Z"
+      "lastSeenAt": "2026-08-24T10:03:21.740Z"
     },
     "9752823535": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -56699,7 +56702,7 @@
       "url": "https://www.vinted.co.uk/items/9752823535-nike-v5-rnr",
       "lastPrice": 25,
       "firstSeenAt": "2026-08-23T18:41:56.171Z",
-      "lastSeenAt": "2026-08-24T09:30:16.622Z"
+      "lastSeenAt": "2026-08-24T10:03:21.740Z"
     },
     "9752232555": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -56712,7 +56715,7 @@
       "url": "https://www.vinted.co.uk/items/9752232555-nike-v5-rnr",
       "lastPrice": 45,
       "firstSeenAt": "2026-08-23T18:41:56.171Z",
-      "lastSeenAt": "2026-08-24T09:30:16.622Z"
+      "lastSeenAt": "2026-08-24T10:03:21.741Z"
     },
     "9752216225": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -56725,7 +56728,7 @@
       "url": "https://www.vinted.co.uk/items/9752216225-nike-v5-rnr",
       "lastPrice": 50,
       "firstSeenAt": "2026-08-23T18:41:56.171Z",
-      "lastSeenAt": "2026-08-24T09:30:16.622Z"
+      "lastSeenAt": "2026-08-24T10:03:21.741Z"
     },
     "9751950473": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -56743,7 +56746,7 @@
       "url": "https://www.vinted.co.uk/items/9751905789-v5-rnr-blue-black-and-white",
       "lastPrice": 35,
       "firstSeenAt": "2026-08-23T18:41:56.171Z",
-      "lastSeenAt": "2026-08-24T09:30:16.622Z"
+      "lastSeenAt": "2026-08-24T10:03:21.741Z"
     },
     "9751636743": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -56751,7 +56754,7 @@
       "url": "https://www.vinted.co.uk/items/9751636743-nike-v5-rnr-trainers-grey-and-gold-kids-uk115",
       "lastPrice": 22,
       "firstSeenAt": "2026-08-23T18:41:56.171Z",
-      "lastSeenAt": "2026-08-24T09:30:16.622Z"
+      "lastSeenAt": "2026-08-24T10:03:21.741Z"
     },
     "9751496742": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -56760,7 +56763,7 @@
       "url": "https://www.vinted.co.uk/items/9751496742-nike-v5-rnr-white-gold-trainers-size-55",
       "lastPrice": 15,
       "firstSeenAt": "2026-08-23T18:41:56.171Z",
-      "lastSeenAt": "2026-08-24T09:30:16.622Z"
+      "lastSeenAt": "2026-08-24T10:03:21.741Z"
     },
     "9751423128": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -56782,7 +56785,7 @@
       "url": "https://www.vinted.co.uk/items/9751169061-nike-v5-rnr",
       "lastPrice": 55,
       "firstSeenAt": "2026-08-23T18:41:56.172Z",
-      "lastSeenAt": "2026-08-24T09:30:16.622Z"
+      "lastSeenAt": "2026-08-24T10:03:21.741Z"
     },
     "9751033911": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -56791,7 +56794,7 @@
       "url": "https://www.vinted.co.uk/items/9751033911-nike-v5-rnr-trainers-uk25",
       "lastPrice": 18,
       "firstSeenAt": "2026-08-23T18:41:56.172Z",
-      "lastSeenAt": "2026-08-24T09:30:16.622Z"
+      "lastSeenAt": "2026-08-24T10:03:21.741Z"
     },
     "9750999429": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -56804,7 +56807,7 @@
       "url": "https://www.vinted.co.uk/items/9750999429-nike-v5-rnr",
       "lastPrice": 60,
       "firstSeenAt": "2026-08-23T18:41:56.172Z",
-      "lastSeenAt": "2026-08-24T09:30:16.622Z"
+      "lastSeenAt": "2026-08-24T10:03:21.741Z"
     },
     "9750515437": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -56813,7 +56816,7 @@
       "url": "https://www.vinted.co.uk/items/9750515437-nine-v5-rnr",
       "lastPrice": 15,
       "firstSeenAt": "2026-08-23T18:41:56.172Z",
-      "lastSeenAt": "2026-08-24T09:30:16.622Z"
+      "lastSeenAt": "2026-08-24T10:03:21.741Z"
     },
     "9741476857": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -63559,7 +63562,7 @@
       "url": "https://www.vinted.co.uk/items/9756856942-bluegreywhite-nike-v5-rnr-size-uk-85-rrp-ps7999",
       "lastPrice": 79.99,
       "firstSeenAt": "2026-08-23T19:02:26.413Z",
-      "lastSeenAt": "2026-08-24T09:30:16.621Z"
+      "lastSeenAt": "2026-08-24T10:03:21.740Z"
     },
     "9756758243": {
       "size": 7,
@@ -63586,7 +63589,7 @@
       "url": "https://www.vinted.co.uk/items/9752269476-nike-v5-rnr-black-silver-older-kids-trainers-size-uk-4-us-45y",
       "lastPrice": 25,
       "firstSeenAt": "2026-08-23T19:02:31.457Z",
-      "lastSeenAt": "2026-08-24T09:30:16.622Z"
+      "lastSeenAt": "2026-08-24T10:03:21.740Z"
     },
     "9756879678": {
       "size": 7.5,
@@ -65509,7 +65512,6 @@
       "lastSeenAt": "2026-08-23T19:29:39.533Z"
     },
     "9757085205": {
-      "blockedReason": "recovery-no-fresh-signal",
       "size": 9,
       "condition": "veryGood",
       "resale": 84,
@@ -65519,15 +65521,16 @@
       "url": "https://www.vinted.co.uk/items/9757085205-nike-sb-dunk-low-chlorophyll-uk-mens-size-9",
       "lastPrice": 70,
       "firstSeenAt": "2026-08-23T19:29:39.533Z",
-      "lastSeenAt": "2026-08-23T21:01:06.016Z"
+      "lastSeenAt": "2026-08-24T10:03:01.262Z",
+      "bootstrapSeen": true
     },
     "9757078122": {
-      "blockedReason": "recovery-no-fresh-signal",
       "title": "nike sb dunk low pro polaroid shoes uk9",
       "url": "https://www.vinted.co.uk/items/9757078122-nike-sb-dunk-low-pro-polaroid-shoes-uk9",
       "lastPrice": 138,
       "firstSeenAt": "2026-08-23T19:29:39.533Z",
-      "lastSeenAt": "2026-08-23T21:01:06.016Z"
+      "lastSeenAt": "2026-08-24T10:03:01.261Z",
+      "bootstrapSeen": true
     },
     "9757071787": {
       "blockedReason": "detail-budget-exhausted",
@@ -66080,7 +66083,7 @@
       "url": "https://www.vinted.co.uk/items/9757012132-nike-v5-rnr",
       "lastPrice": 53,
       "firstSeenAt": "2026-08-23T19:31:59.364Z",
-      "lastSeenAt": "2026-08-24T09:30:16.621Z"
+      "lastSeenAt": "2026-08-24T10:03:21.740Z"
     },
     "9756986235": {
       "blockedReason": "seller-check-budget-exhausted",
@@ -67717,7 +67720,7 @@
       "url": "https://www.vinted.co.uk/items/9750370774-nike-v5-rnr-trainers-junior-size-45",
       "lastPrice": 36,
       "firstSeenAt": "2026-08-23T19:58:49.993Z",
-      "lastSeenAt": "2026-08-24T09:30:16.621Z"
+      "lastSeenAt": "2026-08-24T10:03:21.740Z"
     },
     "9757468828": {
       "size": 6.5,
@@ -67860,12 +67863,12 @@
       "lastSeenAt": "2026-08-24T09:35:06.463Z"
     },
     "9754462849": {
-      "blockedReason": "recovery-no-fresh-signal",
       "title": "nike react pegasus trail 4 gtx gore tex running shoes trainers uk35",
       "url": "https://www.vinted.co.uk/items/9754462849-nike-react-pegasus-trail-4-gtx-gore-tex-running-shoes-trainers-uk35",
       "lastPrice": 45,
       "firstSeenAt": "2026-08-23T20:00:11.068Z",
-      "lastSeenAt": "2026-08-24T06:03:56.954Z"
+      "lastSeenAt": "2026-08-24T10:03:06.957Z",
+      "bootstrapSeen": true
     },
     "9620158566": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -70305,12 +70308,12 @@
       "lastSeenAt": "2026-08-24T01:28:12.970Z"
     },
     "9757955686": {
-      "blockedReason": "recovery-no-fresh-signal",
       "title": "nike sb dunk low pro",
       "url": "https://www.vinted.co.uk/items/9757955686-nike-sb-dunk-low-pro",
       "lastPrice": 20,
       "firstSeenAt": "2026-08-23T21:01:06.010Z",
-      "lastSeenAt": "2026-08-24T01:28:12.970Z"
+      "lastSeenAt": "2026-08-24T10:03:01.261Z",
+      "bootstrapSeen": true
     },
     "9757919922": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -70385,12 +70388,12 @@
       "lastSeenAt": "2026-08-23T23:34:16.402Z"
     },
     "9757782136": {
-      "blockedReason": "recovery-no-fresh-signal",
       "title": "nike sb dunk low pro skate shoes",
       "url": "https://www.vinted.co.uk/items/9757782136-nike-sb-dunk-low-pro-skate-shoes",
       "lastPrice": 100,
       "firstSeenAt": "2026-08-23T21:01:06.010Z",
-      "lastSeenAt": "2026-08-23T23:34:01.794Z"
+      "lastSeenAt": "2026-08-24T10:03:01.261Z",
+      "bootstrapSeen": true
     },
     "9757779850": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -71162,7 +71165,7 @@
       "url": "https://www.vinted.co.uk/items/9757775301-nike-v5-rnr-trainers-size-25-juniour",
       "lastPrice": 5,
       "firstSeenAt": "2026-08-23T21:05:03.407Z",
-      "lastSeenAt": "2026-08-24T09:30:16.621Z"
+      "lastSeenAt": "2026-08-24T10:03:21.740Z"
     },
     "9758176395": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -80386,12 +80389,12 @@
       "lastSeenAt": "2026-08-24T09:16:33.244Z"
     },
     "9735239835": {
-      "blockedReason": "stale-or-no-freshness-signal",
       "title": "nike sb dunk low sneaker",
       "url": "https://www.vinted.co.uk/items/9735239835-nike-sb-dunk-low-sneaker",
       "lastPrice": 29.64,
       "firstSeenAt": "2026-08-24T06:07:32.801Z",
-      "lastSeenAt": "2026-08-24T09:16:33.244Z"
+      "lastSeenAt": "2026-08-24T10:03:01.262Z",
+      "bootstrapSeen": true
     },
     "9758627294": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -80934,7 +80937,7 @@
       "url": "https://www.vinted.co.uk/items/9760056753-nike-v5-rnr-trainers-size-uk-5-in-particle-pink-ivory",
       "lastPrice": 20,
       "firstSeenAt": "2026-08-24T08:05:41.634Z",
-      "lastSeenAt": "2026-08-24T09:30:16.622Z"
+      "lastSeenAt": "2026-08-24T10:03:21.740Z"
     },
     "9759570681": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -80942,7 +80945,7 @@
       "url": "https://www.vinted.co.uk/items/9759570681-nike-v5-rnr",
       "lastPrice": 25,
       "firstSeenAt": "2026-08-24T08:05:43.905Z",
-      "lastSeenAt": "2026-08-24T09:30:16.622Z"
+      "lastSeenAt": "2026-08-24T10:03:21.740Z"
     },
     "9746562292": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -81049,7 +81052,6 @@
       "lastSeenAt": "2026-08-24T09:34:54.318Z"
     },
     "9759594702": {
-      "blockedReason": "stale-or-no-freshness-signal",
       "size": 6.5,
       "condition": "veryGood",
       "resale": 105,
@@ -81059,7 +81061,8 @@
       "url": "https://www.vinted.co.uk/items/9759594702-nike-vomero-plus-womens-running-trainers",
       "lastPrice": 90,
       "firstSeenAt": "2026-08-24T08:06:07.528Z",
-      "lastSeenAt": "2026-08-24T09:34:54.318Z"
+      "lastSeenAt": "2026-08-24T10:03:06.957Z",
+      "bootstrapSeen": true
     },
     "9735408517": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -82980,12 +82983,12 @@
       "lastSeenAt": "2026-08-24T09:16:33.243Z"
     },
     "9747184822": {
-      "blockedReason": "stale-or-no-freshness-signal",
       "title": "2021 nike sb court purple dunk lows",
       "url": "https://www.vinted.co.uk/items/9747184822-2021-nike-sb-court-purple-dunk-lows",
       "lastPrice": 53.18,
       "firstSeenAt": "2026-08-24T08:36:24.185Z",
-      "lastSeenAt": "2026-08-24T09:50:51.545Z"
+      "lastSeenAt": "2026-08-24T10:03:01.262Z",
+      "bootstrapSeen": true
     },
     "9746866763": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -83060,12 +83063,12 @@
       "lastSeenAt": "2026-08-24T09:50:51.545Z"
     },
     "9735337385": {
-      "blockedReason": "stale-or-no-freshness-signal",
       "title": "nike dunk low sb powerepuff girls buttercup toddlers",
       "url": "https://www.vinted.co.uk/items/9735337385-nike-dunk-low-sb-powerepuff-girls-buttercup-toddlers",
       "lastPrice": 74.11,
       "firstSeenAt": "2026-08-24T08:36:24.185Z",
-      "lastSeenAt": "2026-08-24T09:16:33.244Z"
+      "lastSeenAt": "2026-08-24T10:03:01.262Z",
+      "bootstrapSeen": true
     },
     "9721753039": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -85560,20 +85563,20 @@
       "lastSeenAt": "2026-08-24T09:30:12.026Z"
     },
     "9760739406": {
-      "blockedReason": "price",
+      "blockedReason": "stale-or-no-freshness-signal",
       "title": "nike size 9 v5 rnr",
       "url": "https://www.vinted.co.uk/items/9760739406-nike-size-9-v5-rnr",
       "lastPrice": 65,
       "firstSeenAt": "2026-08-24T09:30:16.621Z",
-      "lastSeenAt": "2026-08-24T09:30:16.621Z"
+      "lastSeenAt": "2026-08-24T10:03:21.740Z"
     },
     "9760593515": {
-      "blockedReason": "condition",
+      "blockedReason": "stale-or-no-freshness-signal",
       "title": "nike v5 rnr",
       "url": "https://www.vinted.co.uk/items/9760593515-nike-v5-rnr",
       "lastPrice": 20,
       "firstSeenAt": "2026-08-24T09:30:16.621Z",
-      "lastSeenAt": "2026-08-24T09:30:16.621Z"
+      "lastSeenAt": "2026-08-24T10:03:21.740Z"
     },
     "9760683202": {
       "blockedReason": "keyword",
@@ -86236,12 +86239,12 @@
       "lastSeenAt": "2026-08-24T09:50:12.922Z"
     },
     "9760878929": {
-      "blockedReason": "condition",
       "title": "nike air force 1 shoetrainer",
       "url": "https://www.vinted.co.uk/items/9760878929-nike-air-force-1-shoetrainer",
       "lastPrice": 9,
       "firstSeenAt": "2026-08-24T09:50:12.922Z",
-      "lastSeenAt": "2026-08-24T09:50:12.922Z"
+      "lastSeenAt": "2026-08-24T10:03:06.957Z",
+      "bootstrapSeen": true
     },
     "9760864697": {
       "blockedReason": "condition",
@@ -86858,7 +86861,6 @@
       "lastSeenAt": "2026-08-24T09:50:46.243Z"
     },
     "9760760470": {
-      "blockedReason": "seller-check-budget-exhausted",
       "size": 6.5,
       "condition": "veryGood",
       "resale": 75,
@@ -86868,7 +86870,8 @@
       "url": "https://www.vinted.co.uk/items/9760760470-limited-edition-rare-size-65-nike-women-love-for-all-air-force-1-07-se-basketball-shoe-sunset",
       "lastPrice": 45,
       "firstSeenAt": "2026-08-24T09:50:46.243Z",
-      "lastSeenAt": "2026-08-24T09:50:46.243Z"
+      "lastSeenAt": "2026-08-24T10:02:56.738Z",
+      "bootstrapSeen": true
     },
     "9760755265": {
       "blockedReason": "seller-check-budget-exhausted",
@@ -87039,12 +87042,12 @@
       "lastSeenAt": "2026-08-24T09:50:51.544Z"
     },
     "9760779089": {
-      "blockedReason": "price",
       "title": "nike sb dunk low pro qs skate like a girl size uk8",
       "url": "https://www.vinted.co.uk/items/9760779089-nike-sb-dunk-low-pro-qs-skate-like-a-girl-size-uk8",
       "lastPrice": 75,
       "firstSeenAt": "2026-08-24T09:50:51.544Z",
-      "lastSeenAt": "2026-08-24T09:50:51.544Z"
+      "lastSeenAt": "2026-08-24T10:03:01.262Z",
+      "bootstrapSeen": true
     },
     "9760693855": {
       "blockedReason": "detail-budget-exhausted",
@@ -88213,6 +88216,2094 @@
       "lastPrice": 11.12,
       "firstSeenAt": "2026-08-24T09:55:38.180Z",
       "lastSeenAt": "2026-08-24T09:55:38.180Z"
+    },
+    "9761136127": {
+      "bootstrapSeen": true,
+      "title": "football boots",
+      "url": "https://www.vinted.co.uk/items/9761136127-football-boots",
+      "lastPrice": 50,
+      "firstSeenAt": "2026-08-24T10:02:51.123Z",
+      "lastSeenAt": "2026-08-24T10:02:51.123Z"
+    },
+    "9761100033": {
+      "bootstrapSeen": true,
+      "title": "football boots",
+      "url": "https://www.vinted.co.uk/items/9761100033-football-boots",
+      "lastPrice": 65,
+      "firstSeenAt": "2026-08-24T10:02:51.123Z",
+      "lastSeenAt": "2026-08-24T10:02:51.123Z"
+    },
+    "9761058368": {
+      "bootstrapSeen": true,
+      "title": "nike phantom luna ii club tf football boots",
+      "url": "https://www.vinted.co.uk/items/9761058368-nike-phantom-luna-ii-club-tf-football-boots",
+      "lastPrice": 50,
+      "firstSeenAt": "2026-08-24T10:02:51.123Z",
+      "lastSeenAt": "2026-08-24T10:02:51.123Z"
+    },
+    "9761017293": {
+      "bootstrapSeen": true,
+      "title": "mens nike athletic boots nike mercurial vapour elite fg",
+      "url": "https://www.vinted.co.uk/items/9761017293-mens-nike-athletic-boots-nike-mercurial-vapour-elite-fg",
+      "lastPrice": 89.99,
+      "firstSeenAt": "2026-08-24T10:02:51.123Z",
+      "lastSeenAt": "2026-08-24T10:02:51.123Z"
+    },
+    "9760992080": {
+      "bootstrapSeen": true,
+      "title": "bnwt nike mercurial dri fit top",
+      "url": "https://www.vinted.co.uk/items/9760992080-bnwt-nike-mercurial-dri-fit-top",
+      "lastPrice": 8,
+      "firstSeenAt": "2026-08-24T10:02:51.123Z",
+      "lastSeenAt": "2026-08-24T10:02:51.123Z"
+    },
+    "9760946695": {
+      "bootstrapSeen": true,
+      "title": "nike mecurial vapor elite 16 football boots size uk10",
+      "url": "https://www.vinted.co.uk/items/9760946695-nike-mecurial-vapor-elite-16-football-boots-size-uk10",
+      "lastPrice": 90,
+      "firstSeenAt": "2026-08-24T10:02:51.123Z",
+      "lastSeenAt": "2026-08-24T10:02:51.123Z"
+    },
+    "9760801600": {
+      "bootstrapSeen": true,
+      "title": "boys nike football boots size 15 brand new with tags",
+      "url": "https://www.vinted.co.uk/items/9760801600-boys-nike-football-boots-size-15-brand-new-with-tags",
+      "lastPrice": 22,
+      "firstSeenAt": "2026-08-24T10:02:51.123Z",
+      "lastSeenAt": "2026-08-24T10:02:51.123Z"
+    },
+    "9760751551": {
+      "bootstrapSeen": true,
+      "title": "pink white nike mercurial vapour fg boots",
+      "url": "https://www.vinted.co.uk/items/9760751551-pink-white-nike-mercurial-vapour-fg-boots",
+      "lastPrice": 130,
+      "firstSeenAt": "2026-08-24T10:02:51.123Z",
+      "lastSeenAt": "2026-08-24T10:02:51.123Z"
+    },
+    "9760738549": {
+      "bootstrapSeen": true,
+      "title": "brand new nike kids football boots jr superfly uk 5 eu 35",
+      "url": "https://www.vinted.co.uk/items/9760738549-brand-new-nike-kids-football-boots-jr-superfly-uk-5-eu-35",
+      "lastPrice": 29,
+      "firstSeenAt": "2026-08-24T10:02:51.123Z",
+      "lastSeenAt": "2026-08-24T10:02:51.123Z"
+    },
+    "9760700086": {
+      "bootstrapSeen": true,
+      "title": "nike astroturf football boots size 5",
+      "url": "https://www.vinted.co.uk/items/9760700086-nike-astroturf-football-boots-size-5",
+      "lastPrice": 25,
+      "firstSeenAt": "2026-08-24T10:02:51.123Z",
+      "lastSeenAt": "2026-08-24T10:02:51.123Z"
+    },
+    "9760688791": {
+      "bootstrapSeen": true,
+      "title": "nike football boots",
+      "url": "https://www.vinted.co.uk/items/9760688791-nike-football-boots",
+      "lastPrice": 15,
+      "firstSeenAt": "2026-08-24T10:02:51.123Z",
+      "lastSeenAt": "2026-08-24T10:02:51.123Z"
+    },
+    "9759826467": {
+      "bootstrapSeen": true,
+      "title": "nike jr mercurial superfly 9 club tf uk size 3 bnwt",
+      "url": "https://www.vinted.co.uk/items/9759826467-nike-jr-mercurial-superfly-9-club-tf-uk-size-3-bnwt",
+      "lastPrice": 40,
+      "firstSeenAt": "2026-08-24T10:02:51.123Z",
+      "lastSeenAt": "2026-08-24T10:02:51.123Z"
+    },
+    "9758922737": {
+      "bootstrapSeen": true,
+      "title": "boys nike mercurial air zoom ag plated football boots size 4uk black",
+      "url": "https://www.vinted.co.uk/items/9758922737-boys-nike-mercurial-air-zoom-ag-plated-football-boots-size-4uk-black",
+      "lastPrice": 25,
+      "firstSeenAt": "2026-08-24T10:02:51.123Z",
+      "lastSeenAt": "2026-08-24T10:02:51.123Z"
+    },
+    "9758918405": {
+      "bootstrapSeen": true,
+      "title": "boys nike mercurial air zoom football boots size 5uk purpleorangeblack",
+      "url": "https://www.vinted.co.uk/items/9758918405-boys-nike-mercurial-air-zoom-football-boots-size-5uk-purpleorangeblack",
+      "lastPrice": 25,
+      "firstSeenAt": "2026-08-24T10:02:51.123Z",
+      "lastSeenAt": "2026-08-24T10:02:51.123Z"
+    },
+    "9735733425": {
+      "bootstrapSeen": true,
+      "title": "nike phantom elite scary good pack",
+      "url": "https://www.vinted.co.uk/items/9735733425-nike-phantom-elite-scary-good-pack",
+      "lastPrice": 85.23,
+      "firstSeenAt": "2026-08-24T10:02:51.123Z",
+      "lastSeenAt": "2026-08-24T10:02:51.123Z"
+    },
+    "9723168754": {
+      "bootstrapSeen": true,
+      "title": "bwot nike air zoom mercurial vapor 16 academy firm ground fg football boots uk 8",
+      "url": "https://www.vinted.co.uk/items/9723168754-bwot-nike-air-zoom-mercurial-vapor-16-academy-firm-ground-fg-football-boots-uk-8",
+      "lastPrice": 29,
+      "firstSeenAt": "2026-08-24T10:02:51.123Z",
+      "lastSeenAt": "2026-08-24T10:02:51.123Z"
+    },
+    "9722968095": {
+      "bootstrapSeen": true,
+      "title": "nike mercurial vapor",
+      "url": "https://www.vinted.co.uk/items/9722968095-nike-mercurial-vapor",
+      "lastPrice": 25,
+      "firstSeenAt": "2026-08-24T10:02:51.123Z",
+      "lastSeenAt": "2026-08-24T10:02:51.123Z"
+    },
+    "9722923871": {
+      "bootstrapSeen": true,
+      "title": "nike mercurial vapor 16 academy",
+      "url": "https://www.vinted.co.uk/items/9722923871-nike-mercurial-vapor-16-academy",
+      "lastPrice": 25,
+      "firstSeenAt": "2026-08-24T10:02:51.123Z",
+      "lastSeenAt": "2026-08-24T10:02:51.123Z"
+    },
+    "9761167222": {
+      "bootstrapSeen": true,
+      "title": "nike air zoom mercurial",
+      "url": "https://www.vinted.co.uk/items/9761167222-nike-air-zoom-mercurial",
+      "lastPrice": 15,
+      "firstSeenAt": "2026-08-24T10:02:51.123Z",
+      "lastSeenAt": "2026-08-24T10:02:51.123Z"
+    },
+    "9761165748": {
+      "bootstrapSeen": true,
+      "title": "boys football boots",
+      "url": "https://www.vinted.co.uk/items/9761165748-boys-football-boots",
+      "lastPrice": 3,
+      "firstSeenAt": "2026-08-24T10:02:51.123Z",
+      "lastSeenAt": "2026-08-24T10:02:51.123Z"
+    },
+    "9761163893": {
+      "bootstrapSeen": true,
+      "title": "studded nike football boots",
+      "url": "https://www.vinted.co.uk/items/9761163893-studded-nike-football-boots",
+      "lastPrice": 6,
+      "firstSeenAt": "2026-08-24T10:02:51.123Z",
+      "lastSeenAt": "2026-08-24T10:02:51.123Z"
+    },
+    "9761159818": {
+      "bootstrapSeen": true,
+      "title": "nike tiempo indoor",
+      "url": "https://www.vinted.co.uk/items/9761159818-nike-tiempo-indoor",
+      "lastPrice": 17,
+      "firstSeenAt": "2026-08-24T10:02:51.123Z",
+      "lastSeenAt": "2026-08-24T10:02:51.123Z"
+    },
+    "9761158141": {
+      "bootstrapSeen": true,
+      "title": "nike football boots size uk5 38 3g pitch boots",
+      "url": "https://www.vinted.co.uk/items/9761158141-nike-football-boots-size-uk5-38-3g-pitch-boots",
+      "lastPrice": 4.5,
+      "firstSeenAt": "2026-08-24T10:02:51.123Z",
+      "lastSeenAt": "2026-08-24T10:02:51.123Z"
+    },
+    "9761141502": {
+      "bootstrapSeen": true,
+      "title": "2 pairs of football boots size 4 30 bundle discounts on",
+      "url": "https://www.vinted.co.uk/items/9761141502-2-pairs-of-football-boots-size-4-30-bundle-discounts-on",
+      "lastPrice": 6,
+      "firstSeenAt": "2026-08-24T10:02:51.123Z",
+      "lastSeenAt": "2026-08-24T10:02:51.123Z"
+    },
+    "9761112345": {
+      "bootstrapSeen": true,
+      "title": "nike mercurial superfly 5 acc elite fg cr7 white uk 8",
+      "url": "https://www.vinted.co.uk/items/9761112345-nike-mercurial-superfly-5-acc-elite-fg-cr7-white-uk-8",
+      "lastPrice": 45,
+      "firstSeenAt": "2026-08-24T10:02:51.123Z",
+      "lastSeenAt": "2026-08-24T10:02:51.123Z"
+    },
+    "9761094248": {
+      "bootstrapSeen": true,
+      "title": "football boots",
+      "url": "https://www.vinted.co.uk/items/9761094248-football-boots",
+      "lastPrice": 3,
+      "firstSeenAt": "2026-08-24T10:02:51.123Z",
+      "lastSeenAt": "2026-08-24T10:02:51.123Z"
+    },
+    "9761078676": {
+      "bootstrapSeen": true,
+      "title": "mens nike football boots",
+      "url": "https://www.vinted.co.uk/items/9761078676-mens-nike-football-boots",
+      "lastPrice": 15,
+      "firstSeenAt": "2026-08-24T10:02:51.123Z",
+      "lastSeenAt": "2026-08-24T10:02:51.123Z"
+    },
+    "9761063379": {
+      "bootstrapSeen": true,
+      "title": "nike football boots size 1 junior",
+      "url": "https://www.vinted.co.uk/items/9761063379-nike-football-boots-size-1-junior",
+      "lastPrice": 3,
+      "firstSeenAt": "2026-08-24T10:02:51.123Z",
+      "lastSeenAt": "2026-08-24T10:02:51.123Z"
+    },
+    "9761004038": {
+      "bootstrapSeen": true,
+      "title": "nike mercurial football boots",
+      "url": "https://www.vinted.co.uk/items/9761004038-nike-mercurial-football-boots",
+      "lastPrice": 3,
+      "firstSeenAt": "2026-08-24T10:02:51.123Z",
+      "lastSeenAt": "2026-08-24T10:02:51.123Z"
+    },
+    "9760992450": {
+      "bootstrapSeen": true,
+      "title": "football boots",
+      "url": "https://www.vinted.co.uk/items/9760992450-football-boots",
+      "lastPrice": 5,
+      "firstSeenAt": "2026-08-24T10:02:51.123Z",
+      "lastSeenAt": "2026-08-24T10:02:51.123Z"
+    },
+    "9760946219": {
+      "bootstrapSeen": true,
+      "title": "nike football boots",
+      "url": "https://www.vinted.co.uk/items/9760946219-nike-football-boots",
+      "lastPrice": 3,
+      "firstSeenAt": "2026-08-24T10:02:51.123Z",
+      "lastSeenAt": "2026-08-24T10:02:51.123Z"
+    },
+    "9760942642": {
+      "bootstrapSeen": true,
+      "title": "nike mercurial",
+      "url": "https://www.vinted.co.uk/items/9760942642-nike-mercurial",
+      "lastPrice": 5,
+      "firstSeenAt": "2026-08-24T10:02:51.123Z",
+      "lastSeenAt": "2026-08-24T10:02:51.123Z"
+    },
+    "9760941426": {
+      "bootstrapSeen": true,
+      "title": "nike phantom 6 low uk 75",
+      "url": "https://www.vinted.co.uk/items/9760941426-nike-phantom-6-low-uk-75",
+      "lastPrice": 6,
+      "firstSeenAt": "2026-08-24T10:02:51.123Z",
+      "lastSeenAt": "2026-08-24T10:02:51.123Z"
+    },
+    "9760916481": {
+      "bootstrapSeen": true,
+      "title": "nike football boots",
+      "url": "https://www.vinted.co.uk/items/9760916481-nike-football-boots",
+      "lastPrice": 1,
+      "firstSeenAt": "2026-08-24T10:02:51.123Z",
+      "lastSeenAt": "2026-08-24T10:02:51.123Z"
+    },
+    "9760897447": {
+      "bootstrapSeen": true,
+      "title": "nike phantom gx",
+      "url": "https://www.vinted.co.uk/items/9760897447-nike-phantom-gx",
+      "lastPrice": 7,
+      "firstSeenAt": "2026-08-24T10:02:51.123Z",
+      "lastSeenAt": "2026-08-24T10:02:51.123Z"
+    },
+    "9760865836": {
+      "bootstrapSeen": true,
+      "title": "nike phantom football boots",
+      "url": "https://www.vinted.co.uk/items/9760865836-nike-phantom-football-boots",
+      "lastPrice": 3,
+      "firstSeenAt": "2026-08-24T10:02:51.123Z",
+      "lastSeenAt": "2026-08-24T10:02:51.123Z"
+    },
+    "9760865037": {
+      "bootstrapSeen": true,
+      "title": "nike mercurial victory football boots",
+      "url": "https://www.vinted.co.uk/items/9760865037-nike-mercurial-victory-football-boots",
+      "lastPrice": 15,
+      "firstSeenAt": "2026-08-24T10:02:51.123Z",
+      "lastSeenAt": "2026-08-24T10:02:51.123Z"
+    },
+    "9760863636": {
+      "bootstrapSeen": true,
+      "title": "football boots",
+      "url": "https://www.vinted.co.uk/items/9760863636-football-boots",
+      "lastPrice": 10,
+      "firstSeenAt": "2026-08-24T10:02:51.123Z",
+      "lastSeenAt": "2026-08-24T10:02:51.123Z"
+    },
+    "9760821273": {
+      "bootstrapSeen": true,
+      "title": "nike air zoom football boots size 7",
+      "url": "https://www.vinted.co.uk/items/9760821273-nike-air-zoom-football-boots-size-7",
+      "lastPrice": 6,
+      "firstSeenAt": "2026-08-24T10:02:51.123Z",
+      "lastSeenAt": "2026-08-24T10:02:51.123Z"
+    },
+    "9760798198": {
+      "bootstrapSeen": true,
+      "title": "kids football boots",
+      "url": "https://www.vinted.co.uk/items/9760798198-kids-football-boots",
+      "lastPrice": 5,
+      "firstSeenAt": "2026-08-24T10:02:51.123Z",
+      "lastSeenAt": "2026-08-24T10:02:51.123Z"
+    },
+    "9760796890": {
+      "bootstrapSeen": true,
+      "title": "nike tiempo elite uk95",
+      "url": "https://www.vinted.co.uk/items/9760796890-nike-tiempo-elite-uk95",
+      "lastPrice": 30,
+      "firstSeenAt": "2026-08-24T10:02:51.123Z",
+      "lastSeenAt": "2026-08-24T10:02:51.123Z"
+    },
+    "9760761786": {
+      "bootstrapSeen": true,
+      "title": "girls nike air zoom football boots",
+      "url": "https://www.vinted.co.uk/items/9760761786-girls-nike-air-zoom-football-boots",
+      "lastPrice": 8,
+      "firstSeenAt": "2026-08-24T10:02:51.123Z",
+      "lastSeenAt": "2026-08-24T10:02:51.123Z"
+    },
+    "9760738502": {
+      "bootstrapSeen": true,
+      "title": "nike football boots",
+      "url": "https://www.vinted.co.uk/items/9760738502-nike-football-boots",
+      "lastPrice": 3,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9760716618": {
+      "bootstrapSeen": true,
+      "title": "nike phantom football boots",
+      "url": "https://www.vinted.co.uk/items/9760716618-nike-phantom-football-boots",
+      "lastPrice": 5,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9760707245": {
+      "bootstrapSeen": true,
+      "title": "nike pantom football boots size 5",
+      "url": "https://www.vinted.co.uk/items/9760707245-nike-pantom-football-boots-size-5",
+      "lastPrice": 4,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9760705742": {
+      "bootstrapSeen": true,
+      "title": "nike football boots junior 55",
+      "url": "https://www.vinted.co.uk/items/9760705742-nike-football-boots-junior-55",
+      "lastPrice": 3,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9760645569": {
+      "bootstrapSeen": true,
+      "title": "pink nike mercurials air zoom dirty size 5",
+      "url": "https://www.vinted.co.uk/items/9760645569-pink-nike-mercurials-air-zoom-dirty-size-5",
+      "lastPrice": 5,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9760475351": {
+      "bootstrapSeen": true,
+      "title": "nike mercurial hand standing football boots and indoor football trainers",
+      "url": "https://www.vinted.co.uk/items/9760475351-nike-mercurial-hand-standing-football-boots-and-indoor-football-trainers",
+      "lastPrice": 20,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9760241719": {
+      "bootstrapSeen": true,
+      "title": "nike mercurial black stud football boots",
+      "url": "https://www.vinted.co.uk/items/9760241719-nike-mercurial-black-stud-football-boots",
+      "lastPrice": 9,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9760145934": {
+      "bootstrapSeen": true,
+      "title": "nike mercurial football boots size 6 uk 40 eur",
+      "url": "https://www.vinted.co.uk/items/9760145934-nike-mercurial-football-boots-size-6-uk-40-eur",
+      "lastPrice": 6,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9760127116": {
+      "bootstrapSeen": true,
+      "title": "nike mercurial superfly 8 elite fg football boots uk 55 white pink black",
+      "url": "https://www.vinted.co.uk/items/9760127116-nike-mercurial-superfly-8-elite-fg-football-boots-uk-55-white-pink-black",
+      "lastPrice": 12,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9760047529": {
+      "bootstrapSeen": true,
+      "title": "nike mens football boots",
+      "url": "https://www.vinted.co.uk/items/9760047529-nike-mens-football-boots",
+      "lastPrice": 15,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9760017197": {
+      "bootstrapSeen": true,
+      "title": "kids nike air mercurial football boots size 2",
+      "url": "https://www.vinted.co.uk/items/9760017197-kids-nike-air-mercurial-football-boots-size-2",
+      "lastPrice": 10,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9759546353": {
+      "bootstrapSeen": true,
+      "title": "nike air zoom mercurial vapor 15 football boots trousers size 35",
+      "url": "https://www.vinted.co.uk/items/9759546353-nike-air-zoom-mercurial-vapor-15-football-boots-trousers-size-35",
+      "lastPrice": 2,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9758267242": {
+      "bootstrapSeen": true,
+      "title": "nike mercurial uk 7",
+      "url": "https://www.vinted.co.uk/items/9758267242-nike-mercurial-uk-7",
+      "lastPrice": 10,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9757898089": {
+      "bootstrapSeen": true,
+      "title": "nike mercurial football boots",
+      "url": "https://www.vinted.co.uk/items/9757898089-nike-mercurial-football-boots",
+      "lastPrice": 13.3,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9735670964": {
+      "bootstrapSeen": true,
+      "title": "boys mercurial nike soccer cleats",
+      "url": "https://www.vinted.co.uk/items/9735670964-boys-mercurial-nike-soccer-cleats",
+      "lastPrice": 3.7,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9733561698": {
+      "bootstrapSeen": true,
+      "title": "nike mercurial vapor 15 club soccer cleats black",
+      "url": "https://www.vinted.co.uk/items/9733561698-nike-mercurial-vapor-15-club-soccer-cleats-black",
+      "lastPrice": 8.89,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9761162920": {
+      "bootstrapSeen": true,
+      "title": "nike football boots",
+      "url": "https://www.vinted.co.uk/items/9761162920-nike-football-boots",
+      "lastPrice": 6,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9761138313": {
+      "bootstrapSeen": true,
+      "title": "nike phantom football boots",
+      "url": "https://www.vinted.co.uk/items/9761138313-nike-phantom-football-boots",
+      "lastPrice": 10,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9761124281": {
+      "bootstrapSeen": true,
+      "title": "nike tiempo football boots",
+      "url": "https://www.vinted.co.uk/items/9761124281-nike-tiempo-football-boots",
+      "lastPrice": 15,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9761108865": {
+      "bootstrapSeen": true,
+      "title": "football boots tiempo legend 10 academy sg pro ac",
+      "url": "https://www.vinted.co.uk/items/9761108865-football-boots-tiempo-legend-10-academy-sg-pro-ac",
+      "lastPrice": 23,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9761089921": {
+      "bootstrapSeen": true,
+      "title": "nike mercurial elite",
+      "url": "https://www.vinted.co.uk/items/9761089921-nike-mercurial-elite",
+      "lastPrice": 40,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9761088803": {
+      "bootstrapSeen": true,
+      "title": "nike mercurial vapor football boots",
+      "url": "https://www.vinted.co.uk/items/9761088803-nike-mercurial-vapor-football-boots",
+      "lastPrice": 40,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9761063968": {
+      "bootstrapSeen": true,
+      "title": "nike mercurial vapor 16 pro",
+      "url": "https://www.vinted.co.uk/items/9761063968-nike-mercurial-vapor-16-pro",
+      "lastPrice": 28,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9761045156": {
+      "bootstrapSeen": true,
+      "title": "size 7 black nike phantom football boots",
+      "url": "https://www.vinted.co.uk/items/9761045156-size-7-black-nike-phantom-football-boots",
+      "lastPrice": 20,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9761042520": {
+      "bootstrapSeen": true,
+      "title": "nike tiempo pro football boots uk 95",
+      "url": "https://www.vinted.co.uk/items/9761042520-nike-tiempo-pro-football-boots-uk-95",
+      "lastPrice": 29,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9761020319": {
+      "bootstrapSeen": true,
+      "title": "nike phantom football boots",
+      "url": "https://www.vinted.co.uk/items/9761020319-nike-phantom-football-boots",
+      "lastPrice": 14,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9761018154": {
+      "bootstrapSeen": true,
+      "title": "nike mercurial cr7",
+      "url": "https://www.vinted.co.uk/items/9761018154-nike-mercurial-cr7",
+      "lastPrice": 9,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9760997343": {
+      "bootstrapSeen": true,
+      "title": "nike football boots",
+      "url": "https://www.vinted.co.uk/items/9760997343-nike-football-boots",
+      "lastPrice": 23,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9760980223": {
+      "bootstrapSeen": true,
+      "title": "nike mercurial victory vi sg black pink blast football boots",
+      "url": "https://www.vinted.co.uk/items/9760980223-nike-mercurial-victory-vi-sg-black-pink-blast-football-boots",
+      "lastPrice": 34,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9760964801": {
+      "bootstrapSeen": true,
+      "title": "very good vapor 16 pro football boots size 7",
+      "url": "https://www.vinted.co.uk/items/9760964801-very-good-vapor-16-pro-football-boots-size-7",
+      "lastPrice": 40,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9760920876": {
+      "bootstrapSeen": true,
+      "title": "nike tiempox football boots",
+      "url": "https://www.vinted.co.uk/items/9760920876-nike-tiempox-football-boots",
+      "lastPrice": 15,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9760906115": {
+      "bootstrapSeen": true,
+      "title": "size 8 football boots",
+      "url": "https://www.vinted.co.uk/items/9760906115-size-8-football-boots",
+      "lastPrice": 23,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9760876754": {
+      "bootstrapSeen": true,
+      "title": "nike f50 football boots",
+      "url": "https://www.vinted.co.uk/items/9760876754-nike-f50-football-boots",
+      "lastPrice": 23,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9760835225": {
+      "bootstrapSeen": true,
+      "title": "nike air zoom mercurial super fly 10 pros",
+      "url": "https://www.vinted.co.uk/items/9760835225-nike-air-zoom-mercurial-super-fly-10-pros",
+      "lastPrice": 30,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9760819447": {
+      "bootstrapSeen": true,
+      "title": "black nike size 1 football boots",
+      "url": "https://www.vinted.co.uk/items/9760819447-black-nike-size-1-football-boots",
+      "lastPrice": 10,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9760801262": {
+      "bootstrapSeen": true,
+      "title": "nike mercurial astro boots size 10 uk",
+      "url": "https://www.vinted.co.uk/items/9760801262-nike-mercurial-astro-boots-size-10-uk",
+      "lastPrice": 23,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9760776677": {
+      "bootstrapSeen": true,
+      "title": "football boots",
+      "url": "https://www.vinted.co.uk/items/9760776677-football-boots",
+      "lastPrice": 5,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9760769531": {
+      "bootstrapSeen": true,
+      "title": "nike mercurial vapor elite flynit 95",
+      "url": "https://www.vinted.co.uk/items/9760769531-nike-mercurial-vapor-elite-flynit-95",
+      "lastPrice": 40,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9760764243": {
+      "bootstrapSeen": true,
+      "title": "nike tiempo boys football boots uk11",
+      "url": "https://www.vinted.co.uk/items/9760764243-nike-tiempo-boys-football-boots-uk11",
+      "lastPrice": 4,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9760696737": {
+      "bootstrapSeen": true,
+      "title": "nike swift football boots size 11 eu 46 in very good condition",
+      "url": "https://www.vinted.co.uk/items/9760696737-nike-swift-football-boots-size-11-eu-46-in-very-good-condition",
+      "lastPrice": 24.99,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9760676715": {
+      "bootstrapSeen": true,
+      "title": "scarpe da ginnastica nike da uomo nike mercurial vapor elite fg",
+      "url": "https://www.vinted.co.uk/items/9760676715-scarpe-da-ginnastica-nike-da-uomo-nike-mercurial-vapor-elite-fg",
+      "lastPrice": 98,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9760584596": {
+      "bootstrapSeen": true,
+      "title": "nike mercurial size 65 astro boot",
+      "url": "https://www.vinted.co.uk/items/9760584596-nike-mercurial-size-65-astro-boot",
+      "lastPrice": 10,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9760583125": {
+      "bootstrapSeen": true,
+      "title": "nike mercurial boys boots size 55",
+      "url": "https://www.vinted.co.uk/items/9760583125-nike-mercurial-boys-boots-size-55",
+      "lastPrice": 10,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9760521270": {
+      "bootstrapSeen": true,
+      "title": "nike mercurial air zoom football boots size 6",
+      "url": "https://www.vinted.co.uk/items/9760521270-nike-mercurial-air-zoom-football-boots-size-6",
+      "lastPrice": 6,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9760472980": {
+      "bootstrapSeen": true,
+      "title": "nike air zoom black flyknit football boots size 6",
+      "url": "https://www.vinted.co.uk/items/9760472980-nike-air-zoom-black-flyknit-football-boots-size-6",
+      "lastPrice": 9.5,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9760438430": {
+      "bootstrapSeen": true,
+      "title": "nike air zoom mercurial vapor 15 elite se fg size uk 6",
+      "url": "https://www.vinted.co.uk/items/9760438430-nike-air-zoom-mercurial-vapor-15-elite-se-fg-size-uk-6",
+      "lastPrice": 130,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9760382132": {
+      "bootstrapSeen": true,
+      "title": "nike vapor 16 club football boots",
+      "url": "https://www.vinted.co.uk/items/9760382132-nike-vapor-16-club-football-boots",
+      "lastPrice": 20,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9760302646": {
+      "bootstrapSeen": true,
+      "title": "nike mercurial football boots size uk 3",
+      "url": "https://www.vinted.co.uk/items/9760302646-nike-mercurial-football-boots-size-uk-3",
+      "lastPrice": 12,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9760297538": {
+      "bootstrapSeen": true,
+      "title": "elite mercurial boots",
+      "url": "https://www.vinted.co.uk/items/9760297538-elite-mercurial-boots",
+      "lastPrice": 20,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9760185678": {
+      "bootstrapSeen": true,
+      "title": "boy nike mercurial football boots",
+      "url": "https://www.vinted.co.uk/items/9760185678-boy-nike-mercurial-football-boots",
+      "lastPrice": 15,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9760165554": {
+      "bootstrapSeen": true,
+      "title": "nike mercurial football boots black",
+      "url": "https://www.vinted.co.uk/items/9760165554-nike-mercurial-football-boots-black",
+      "lastPrice": 10,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9760083409": {
+      "bootstrapSeen": true,
+      "title": "nike mercurial football boots",
+      "url": "https://www.vinted.co.uk/items/9760083409-nike-mercurial-football-boots",
+      "lastPrice": 5,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9760080196": {
+      "bootstrapSeen": true,
+      "title": "nike mercurial astro boots",
+      "url": "https://www.vinted.co.uk/items/9760080196-nike-mercurial-astro-boots",
+      "lastPrice": 5,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9760070786": {
+      "bootstrapSeen": true,
+      "title": "nike mercurial astroturf trainers",
+      "url": "https://www.vinted.co.uk/items/9760070786-nike-mercurial-astroturf-trainers",
+      "lastPrice": 3,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9760069520": {
+      "bootstrapSeen": true,
+      "title": "nike scarpe sportive maschili nike mercurial superfly elite fg uk8",
+      "url": "https://www.vinted.co.uk/items/9760069520-nike-scarpe-sportive-maschili-nike-mercurial-superfly-elite-fg-uk8",
+      "lastPrice": 89.9,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9760068428": {
+      "bootstrapSeen": true,
+      "title": "nike mercurial football boots",
+      "url": "https://www.vinted.co.uk/items/9760068428-nike-mercurial-football-boots",
+      "lastPrice": 5,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9760058322": {
+      "bootstrapSeen": true,
+      "title": "nike scarpe sportive maschili nike mercurial superfly elite fg uk7",
+      "url": "https://www.vinted.co.uk/items/9760058322-nike-scarpe-sportive-maschili-nike-mercurial-superfly-elite-fg-uk7",
+      "lastPrice": 89.5,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9760054698": {
+      "bootstrapSeen": true,
+      "title": "nike air zoom mercurial junior",
+      "url": "https://www.vinted.co.uk/items/9760054698-nike-air-zoom-mercurial-junior",
+      "lastPrice": 20,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9760010413": {
+      "bootstrapSeen": true,
+      "title": "mensboys nike mercurial superfly 10 academy football boots size uk 85",
+      "url": "https://www.vinted.co.uk/items/9760010413-mensboys-nike-mercurial-superfly-10-academy-football-boots-size-uk-85",
+      "lastPrice": 32,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9759965324": {
+      "bootstrapSeen": true,
+      "title": "scarpe sportive maschili nike nike mercurial phantom elite fg",
+      "url": "https://www.vinted.co.uk/items/9759965324-scarpe-sportive-maschili-nike-nike-mercurial-phantom-elite-fg",
+      "lastPrice": 89.6,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9759954764": {
+      "bootstrapSeen": true,
+      "title": "scarpe sportive maschili nike nike mercurial phantom elite fg",
+      "url": "https://www.vinted.co.uk/items/9759954764-scarpe-sportive-maschili-nike-nike-mercurial-phantom-elite-fg",
+      "lastPrice": 88.7,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9759867909": {
+      "bootstrapSeen": true,
+      "title": "nike mercurial football boots size 7",
+      "url": "https://www.vinted.co.uk/items/9759867909-nike-mercurial-football-boots-size-7",
+      "lastPrice": 22,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9759777978": {
+      "bootstrapSeen": true,
+      "title": "nike mercurial super fly mens size 10",
+      "url": "https://www.vinted.co.uk/items/9759777978-nike-mercurial-super-fly-mens-size-10",
+      "lastPrice": 15,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9759755075": {
+      "bootstrapSeen": true,
+      "title": "nike mercurial vapor 14 club kids boys indoor football boots blue trainers shoes uk 13",
+      "url": "https://www.vinted.co.uk/items/9759755075-nike-mercurial-vapor-14-club-kids-boys-indoor-football-boots-blue-trainers-shoes-uk-13",
+      "lastPrice": 14,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9759713486": {
+      "bootstrapSeen": true,
+      "title": "nike mercurial football boots size 5 astro studs",
+      "url": "https://www.vinted.co.uk/items/9759713486-nike-mercurial-football-boots-size-5-astro-studs",
+      "lastPrice": 15,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9759708040": {
+      "bootstrapSeen": true,
+      "title": "nike mercurial",
+      "url": "https://www.vinted.co.uk/items/9759708040-nike-mercurial",
+      "lastPrice": 40,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9759679358": {
+      "bootstrapSeen": true,
+      "title": "nike cr7 mercurial",
+      "url": "https://www.vinted.co.uk/items/9759679358-nike-cr7-mercurial",
+      "lastPrice": 20,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9759621506": {
+      "bootstrapSeen": true,
+      "title": "athletic boots masculinas nike nike mercurial phantom elite fg",
+      "url": "https://www.vinted.co.uk/items/9759621506-athletic-boots-masculinas-nike-nike-mercurial-phantom-elite-fg",
+      "lastPrice": 89.1,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9759614103": {
+      "bootstrapSeen": true,
+      "title": "athletic boots masculinas nike nike mercurial phantom elite fg",
+      "url": "https://www.vinted.co.uk/items/9759614103-athletic-boots-masculinas-nike-nike-mercurial-phantom-elite-fg",
+      "lastPrice": 89.2,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9759552755": {
+      "bootstrapSeen": true,
+      "title": "nike mens athletic boots nike mercurial vapoxr elite fg",
+      "url": "https://www.vinted.co.uk/items/9759552755-nike-mens-athletic-boots-nike-mercurial-vapoxr-elite-fg",
+      "lastPrice": 87.6,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9759545351": {
+      "bootstrapSeen": true,
+      "title": "nike mens athletic boots nike mercurial vapoxr elite fg",
+      "url": "https://www.vinted.co.uk/items/9759545351-nike-mens-athletic-boots-nike-mercurial-vapoxr-elite-fg",
+      "lastPrice": 86.5,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9759522129": {
+      "bootstrapSeen": true,
+      "title": "nike zoom mercurial vapor 15 academy tf astro turf football boots uk 65",
+      "url": "https://www.vinted.co.uk/items/9759522129-nike-zoom-mercurial-vapor-15-academy-tf-astro-turf-football-boots-uk-65",
+      "lastPrice": 7,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9759479382": {
+      "bootstrapSeen": true,
+      "title": "nike mercurial superfly 8 club ic indoor football shoes black uk 10",
+      "url": "https://www.vinted.co.uk/items/9759479382-nike-mercurial-superfly-8-club-ic-indoor-football-shoes-black-uk-10",
+      "lastPrice": 12,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9757886735": {
+      "bootstrapSeen": true,
+      "title": "nike mercurial foot ball boots",
+      "url": "https://www.vinted.co.uk/items/9757886735-nike-mercurial-foot-ball-boots",
+      "lastPrice": 14,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9757071192": {
+      "bootstrapSeen": true,
+      "title": "nike mercurial football boots",
+      "url": "https://www.vinted.co.uk/items/9757071192-nike-mercurial-football-boots",
+      "lastPrice": 12,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9757064793": {
+      "bootstrapSeen": true,
+      "title": "boys nike mercurial football boots vgc size 4",
+      "url": "https://www.vinted.co.uk/items/9757064793-boys-nike-mercurial-football-boots-vgc-size-4",
+      "lastPrice": 9,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9745311467": {
+      "bootstrapSeen": true,
+      "title": "nike mercurial air zoom football boots uk 3 school unisex birthday christmas present gift",
+      "url": "https://www.vinted.co.uk/items/9745311467-nike-mercurial-air-zoom-football-boots-uk-3-school-unisex-birthday-christmas-present-gift",
+      "lastPrice": 15,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9735575017": {
+      "bootstrapSeen": true,
+      "title": "under armour baseball cleats",
+      "url": "https://www.vinted.co.uk/items/9735575017-under-armour-baseball-cleats",
+      "lastPrice": 11.12,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9723364570": {
+      "bootstrapSeen": true,
+      "title": "mbappe pro football boots",
+      "url": "https://www.vinted.co.uk/items/9723364570-mbappe-pro-football-boots",
+      "lastPrice": 30,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9723192117": {
+      "bootstrapSeen": true,
+      "title": "nike mercurial fgmg superfly academy 7 uk",
+      "url": "https://www.vinted.co.uk/items/9723192117-nike-mercurial-fgmg-superfly-academy-7-uk",
+      "lastPrice": 29.99,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9722527179": {
+      "bootstrapSeen": true,
+      "title": "nike mercurial vapor 15 elite fg lucent pack size 7",
+      "url": "https://www.vinted.co.uk/items/9722527179-nike-mercurial-vapor-15-elite-fg-lucent-pack-size-7",
+      "lastPrice": 30,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9722462935": {
+      "bootstrapSeen": true,
+      "title": "nike mercurial vapor 16 elite fg football boots blackblue",
+      "url": "https://www.vinted.co.uk/items/9722462935-nike-mercurial-vapor-16-elite-fg-football-boots-blackblue",
+      "lastPrice": 30,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9698026749": {
+      "bootstrapSeen": true,
+      "title": "nike zoom mercurial vapor 15 in lemon uk5",
+      "url": "https://www.vinted.co.uk/items/9698026749-nike-zoom-mercurial-vapor-15-in-lemon-uk5",
+      "lastPrice": 13,
+      "firstSeenAt": "2026-08-24T10:02:51.124Z",
+      "lastSeenAt": "2026-08-24T10:02:51.124Z"
+    },
+    "9760848601": {
+      "bootstrapSeen": true,
+      "title": "nike lebron james basketball shoes",
+      "url": "https://www.vinted.co.uk/items/9760848601-nike-lebron-james-basketball-shoes",
+      "lastPrice": 175,
+      "firstSeenAt": "2026-08-24T10:02:56.738Z",
+      "lastSeenAt": "2026-08-24T10:02:56.738Z"
+    },
+    "9760776684": {
+      "bootstrapSeen": true,
+      "title": "nike lebron witness ix basketball trainers whitestadium green uk 9 new with box",
+      "url": "https://www.vinted.co.uk/items/9760776684-nike-lebron-witness-ix-basketball-trainers-whitestadium-green-uk-9-new-with-box",
+      "lastPrice": 84.99,
+      "firstSeenAt": "2026-08-24T10:02:56.738Z",
+      "lastSeenAt": "2026-08-24T10:02:56.738Z"
+    },
+    "9759335849": {
+      "bootstrapSeen": true,
+      "title": "nike lebron nxxt genisus sneakers barely volt mens us 10",
+      "url": "https://www.vinted.co.uk/items/9759335849-nike-lebron-nxxt-genisus-sneakers-barely-volt-mens-us-10",
+      "lastPrice": 73.92,
+      "firstSeenAt": "2026-08-24T10:02:56.738Z",
+      "lastSeenAt": "2026-08-24T10:02:56.738Z"
+    },
+    "9735699291": {
+      "bootstrapSeen": true,
+      "title": "nike giannis immortality 4 basketball shoes gray",
+      "url": "https://www.vinted.co.uk/items/9735699291-nike-giannis-immortality-4-basketball-shoes-gray",
+      "lastPrice": 28.16,
+      "firstSeenAt": "2026-08-24T10:02:56.738Z",
+      "lastSeenAt": "2026-08-24T10:02:56.738Z"
+    },
+    "9735696326": {
+      "bootstrapSeen": true,
+      "title": "lebron james nike lakers 23 basketball jersey size xl",
+      "url": "https://www.vinted.co.uk/items/9735696326-lebron-james-nike-lakers-23-basketball-jersey-size-xl",
+      "lastPrice": 37.05,
+      "firstSeenAt": "2026-08-24T10:02:56.738Z",
+      "lastSeenAt": "2026-08-24T10:02:56.738Z"
+    },
+    "9735478360": {
+      "bootstrapSeen": true,
+      "title": "nike lebron witness 8 basketball shoes mens size 8",
+      "url": "https://www.vinted.co.uk/items/9735478360-nike-lebron-witness-8-basketball-shoes-mens-size-8",
+      "lastPrice": 37.05,
+      "firstSeenAt": "2026-08-24T10:02:56.738Z",
+      "lastSeenAt": "2026-08-24T10:02:56.738Z"
+    },
+    "9733963248": {
+      "bootstrapSeen": true,
+      "title": "nike lebron witness 8 i promise school basketball shoes mens 95 hj2962 900",
+      "url": "https://www.vinted.co.uk/items/9733963248-nike-lebron-witness-8-i-promise-school-basketball-shoes-mens-95-hj2962-900",
+      "lastPrice": 54.84,
+      "firstSeenAt": "2026-08-24T10:02:56.738Z",
+      "lastSeenAt": "2026-08-24T10:02:56.738Z"
+    },
+    "9732571336": {
+      "bootstrapSeen": true,
+      "title": "nike lebron witness vii boys basketball shoes size 2y",
+      "url": "https://www.vinted.co.uk/items/9732571336-nike-lebron-witness-vii-boys-basketball-shoes-size-2y",
+      "lastPrice": 51.88,
+      "firstSeenAt": "2026-08-24T10:02:56.738Z",
+      "lastSeenAt": "2026-08-24T10:02:56.738Z"
+    },
+    "9760846288": {
+      "bootstrapSeen": true,
+      "title": "nike lebron x monopoly basketball trainers uk size 7",
+      "url": "https://www.vinted.co.uk/items/9760846288-nike-lebron-x-monopoly-basketball-trainers-uk-size-7",
+      "lastPrice": 7,
+      "firstSeenAt": "2026-08-24T10:02:56.738Z",
+      "lastSeenAt": "2026-08-24T10:02:56.738Z"
+    },
+    "9758235669": {
+      "bootstrapSeen": true,
+      "title": "nike lebron basketball trainers uk adult size 13",
+      "url": "https://www.vinted.co.uk/items/9758235669-nike-lebron-basketball-trainers-uk-adult-size-13",
+      "lastPrice": 28,
+      "firstSeenAt": "2026-08-24T10:02:56.738Z",
+      "lastSeenAt": "2026-08-24T10:02:56.738Z"
+    },
+    "9735677906": {
+      "bootstrapSeen": true,
+      "title": "back to school nike kd 15 basketball shoes",
+      "url": "https://www.vinted.co.uk/items/9735677906-back-to-school-nike-kd-15-basketball-shoes",
+      "lastPrice": 51.88,
+      "firstSeenAt": "2026-08-24T10:02:56.738Z",
+      "lastSeenAt": "2026-08-24T10:02:56.738Z"
+    },
+    "9735645285": {
+      "bootstrapSeen": true,
+      "title": "girls basketball shoes ja morant",
+      "url": "https://www.vinted.co.uk/items/9735645285-girls-basketball-shoes-ja-morant",
+      "lastPrice": 8.89,
+      "firstSeenAt": "2026-08-24T10:02:56.738Z",
+      "lastSeenAt": "2026-08-24T10:02:56.738Z"
+    },
+    "9735505068": {
+      "bootstrapSeen": true,
+      "title": "nike lebron 18 xviii low lakers shoes cv7562 003 basketball mens 13 black purple",
+      "url": "https://www.vinted.co.uk/items/9735505068-nike-lebron-18-xviii-low-lakers-shoes-cv7562-003-basketball-mens-13-black-purple",
+      "lastPrice": 14.82,
+      "firstSeenAt": "2026-08-24T10:02:56.738Z",
+      "lastSeenAt": "2026-08-24T10:02:56.738Z"
+    },
+    "9735474122": {
+      "bootstrapSeen": true,
+      "title": "missing a lace 7y nike lebron 12 court vision basketball shoes",
+      "url": "https://www.vinted.co.uk/items/9735474122-missing-a-lace-7y-nike-lebron-12-court-vision-basketball-shoes",
+      "lastPrice": 37.05,
+      "firstSeenAt": "2026-08-24T10:02:56.738Z",
+      "lastSeenAt": "2026-08-24T10:02:56.738Z"
+    },
+    "9735433979": {
+      "bootstrapSeen": true,
+      "title": "7y nike lebron 11 elite basketball shoes",
+      "url": "https://www.vinted.co.uk/items/9735433979-7y-nike-lebron-11-elite-basketball-shoes",
+      "lastPrice": 44.47,
+      "firstSeenAt": "2026-08-24T10:02:56.738Z",
+      "lastSeenAt": "2026-08-24T10:02:56.738Z"
+    },
+    "9735265361": {
+      "bootstrapSeen": true,
+      "title": "nike lebron xxi freshwater basketball shoes big kids size 7",
+      "url": "https://www.vinted.co.uk/items/9735265361-nike-lebron-xxi-freshwater-basketball-shoes-big-kids-size-7",
+      "lastPrice": 33.35,
+      "firstSeenAt": "2026-08-24T10:02:56.738Z",
+      "lastSeenAt": "2026-08-24T10:02:56.738Z"
+    },
+    "9735205832": {
+      "bootstrapSeen": true,
+      "title": "used lebron shoes",
+      "url": "https://www.vinted.co.uk/items/9735205832-used-lebron-shoes",
+      "lastPrice": 25.94,
+      "firstSeenAt": "2026-08-24T10:02:56.738Z",
+      "lastSeenAt": "2026-08-24T10:02:56.738Z"
+    },
+    "9735007038": {
+      "bootstrapSeen": true,
+      "title": "nike lebron 19 size 7 mens basketball mid to breathablecomfortable",
+      "url": "https://www.vinted.co.uk/items/9735007038-nike-lebron-19-size-7-mens-basketball-mid-to-breathablecomfortable",
+      "lastPrice": 77.81,
+      "firstSeenAt": "2026-08-24T10:02:56.738Z",
+      "lastSeenAt": "2026-08-24T10:02:56.738Z"
+    },
+    "9733638211": {
+      "bootstrapSeen": true,
+      "title": "nike lebron xx basketball shoes",
+      "url": "https://www.vinted.co.uk/items/9733638211-nike-lebron-xx-basketball-shoes",
+      "lastPrice": 22.23,
+      "firstSeenAt": "2026-08-24T10:02:56.738Z",
+      "lastSeenAt": "2026-08-24T10:02:56.738Z"
+    },
+    "9733635077": {
+      "bootstrapSeen": true,
+      "title": "nike lebron soldier 11 xi basketball shoes blackgum size 11",
+      "url": "https://www.vinted.co.uk/items/9733635077-nike-lebron-soldier-11-xi-basketball-shoes-blackgum-size-11",
+      "lastPrice": 43.72,
+      "firstSeenAt": "2026-08-24T10:02:56.738Z",
+      "lastSeenAt": "2026-08-24T10:02:56.738Z"
+    },
+    "9731840334": {
+      "bootstrapSeen": true,
+      "title": "lebron basketball shoes",
+      "url": "https://www.vinted.co.uk/items/9731840334-lebron-basketball-shoes",
+      "lastPrice": 14.82,
+      "firstSeenAt": "2026-08-24T10:02:56.738Z",
+      "lastSeenAt": "2026-08-24T10:02:56.738Z"
+    },
+    "9760706356": {
+      "bootstrapSeen": true,
+      "title": "this is an authentic lakers basketball set",
+      "url": "https://www.vinted.co.uk/items/9760706356-this-is-an-authentic-lakers-basketball-set",
+      "lastPrice": 10,
+      "firstSeenAt": "2026-08-24T10:02:56.738Z",
+      "lastSeenAt": "2026-08-24T10:02:56.738Z"
+    },
+    "9759231551": {
+      "bootstrapSeen": true,
+      "title": "nike lebron witness 7 black basketball shoes uk10",
+      "url": "https://www.vinted.co.uk/items/9759231551-nike-lebron-witness-7-black-basketball-shoes-uk10",
+      "lastPrice": 50,
+      "firstSeenAt": "2026-08-24T10:02:56.738Z",
+      "lastSeenAt": "2026-08-24T10:02:56.738Z"
+    },
+    "9735742999": {
+      "bootstrapSeen": true,
+      "title": "basketball shoe",
+      "url": "https://www.vinted.co.uk/items/9735742999-basketball-shoe",
+      "lastPrice": 8.89,
+      "firstSeenAt": "2026-08-24T10:02:56.738Z",
+      "lastSeenAt": "2026-08-24T10:02:56.738Z"
+    },
+    "9735729730": {
+      "bootstrapSeen": true,
+      "title": "lebron shoes",
+      "url": "https://www.vinted.co.uk/items/9735729730-lebron-shoes",
+      "lastPrice": 28.16,
+      "firstSeenAt": "2026-08-24T10:02:56.738Z",
+      "lastSeenAt": "2026-08-24T10:02:56.738Z"
+    },
+    "9735688774": {
+      "bootstrapSeen": true,
+      "title": "blues boys basketball shoes size 2",
+      "url": "https://www.vinted.co.uk/items/9735688774-blues-boys-basketball-shoes-size-2",
+      "lastPrice": 9.26,
+      "firstSeenAt": "2026-08-24T10:02:56.738Z",
+      "lastSeenAt": "2026-08-24T10:02:56.738Z"
+    },
+    "9735645351": {
+      "bootstrapSeen": true,
+      "title": "mens 115 kyrie infinity basketball nike shoe",
+      "url": "https://www.vinted.co.uk/items/9735645351-mens-115-kyrie-infinity-basketball-nike-shoe",
+      "lastPrice": 25.94,
+      "firstSeenAt": "2026-08-24T10:02:56.738Z",
+      "lastSeenAt": "2026-08-24T10:02:56.738Z"
+    },
+    "9735487977": {
+      "bootstrapSeen": true,
+      "title": "7y nike lebron 12 instinct basketball shoes",
+      "url": "https://www.vinted.co.uk/items/9735487977-7y-nike-lebron-12-instinct-basketball-shoes",
+      "lastPrice": 48.17,
+      "firstSeenAt": "2026-08-24T10:02:56.738Z",
+      "lastSeenAt": "2026-08-24T10:02:56.738Z"
+    },
+    "9735390666": {
+      "bootstrapSeen": true,
+      "title": "nike lebron 16 glow in the dark basketball sneakers blackgreen",
+      "url": "https://www.vinted.co.uk/items/9735390666-nike-lebron-16-glow-in-the-dark-basketball-sneakers-blackgreen",
+      "lastPrice": 59.29,
+      "firstSeenAt": "2026-08-24T10:02:56.738Z",
+      "lastSeenAt": "2026-08-24T10:02:56.738Z"
+    },
+    "9735371529": {
+      "bootstrapSeen": true,
+      "title": "nike lebron witness 7 vii kids basketball shoes y5",
+      "url": "https://www.vinted.co.uk/items/9735371529-nike-lebron-witness-7-vii-kids-basketball-shoes-y5",
+      "lastPrice": 22.23,
+      "firstSeenAt": "2026-08-24T10:02:56.738Z",
+      "lastSeenAt": "2026-08-24T10:02:56.738Z"
+    },
+    "9733263063": {
+      "bootstrapSeen": true,
+      "title": "authentic nike elite ohio state buckeyes basketball jersey 14 l",
+      "url": "https://www.vinted.co.uk/items/9733263063-authentic-nike-elite-ohio-state-buckeyes-basketball-jersey-14-l",
+      "lastPrice": 37.05,
+      "firstSeenAt": "2026-08-24T10:02:56.738Z",
+      "lastSeenAt": "2026-08-24T10:02:56.738Z"
+    },
+    "9732923715": {
+      "bootstrapSeen": true,
+      "title": "lebron james nike basketball shorts size xl 11inseam baggy sportswear y2k satin",
+      "url": "https://www.vinted.co.uk/items/9732923715-lebron-james-nike-basketball-shorts-size-xl-11inseam-baggy-sportswear-y2k-satin",
+      "lastPrice": 18.53,
+      "firstSeenAt": "2026-08-24T10:02:56.738Z",
+      "lastSeenAt": "2026-08-24T10:02:56.738Z"
+    },
+    "9732326328": {
+      "bootstrapSeen": true,
+      "title": "nike lebron 12 mens sneakers",
+      "url": "https://www.vinted.co.uk/items/9732326328-nike-lebron-12-mens-sneakers",
+      "lastPrice": 29.64,
+      "firstSeenAt": "2026-08-24T10:02:56.738Z",
+      "lastSeenAt": "2026-08-24T10:02:56.738Z"
+    },
+    "9731914381": {
+      "bootstrapSeen": true,
+      "title": "nike lebron xii fighting irish green white sneaker size 11",
+      "url": "https://www.vinted.co.uk/items/9731914381-nike-lebron-xii-fighting-irish-green-white-sneaker-size-11",
+      "lastPrice": 25.94,
+      "firstSeenAt": "2026-08-24T10:02:56.738Z",
+      "lastSeenAt": "2026-08-24T10:02:56.738Z"
+    },
+    "9761143840": {
+      "bootstrapSeen": true,
+      "title": "sb dunk low big money savings",
+      "url": "https://www.vinted.co.uk/items/9761143840-sb-dunk-low-big-money-savings",
+      "lastPrice": 130,
+      "firstSeenAt": "2026-08-24T10:03:01.261Z",
+      "lastSeenAt": "2026-08-24T10:03:01.261Z"
+    },
+    "9760320730": {
+      "bootstrapSeen": true,
+      "title": "nike dunk sb high pro reverse goldenrod",
+      "url": "https://www.vinted.co.uk/items/9760320730-nike-dunk-sb-high-pro-reverse-goldenrod",
+      "lastPrice": 80,
+      "firstSeenAt": "2026-08-24T10:03:01.261Z",
+      "lastSeenAt": "2026-08-24T10:03:01.261Z"
+    },
+    "9758271465": {
+      "bootstrapSeen": true,
+      "title": "nike sb canvas shoes",
+      "url": "https://www.vinted.co.uk/items/9758271465-nike-sb-canvas-shoes",
+      "lastPrice": 11,
+      "firstSeenAt": "2026-08-24T10:03:01.261Z",
+      "lastSeenAt": "2026-08-24T10:03:01.261Z"
+    },
+    "9757203336": {
+      "bootstrapSeen": true,
+      "title": "nike sb dunk high pawnshop og qs black metallic gold uk 75",
+      "url": "https://www.vinted.co.uk/items/9757203336-nike-sb-dunk-high-pawnshop-og-qs-black-metallic-gold-uk-75",
+      "lastPrice": 105,
+      "firstSeenAt": "2026-08-24T10:03:01.261Z",
+      "lastSeenAt": "2026-08-24T10:03:01.261Z"
+    },
+    "9756534456": {
+      "bootstrapSeen": true,
+      "title": "nike sb alleyoop white grey trainers brand new uk 9",
+      "url": "https://www.vinted.co.uk/items/9756534456-nike-sb-alleyoop-white-grey-trainers-brand-new-uk-9",
+      "lastPrice": 45,
+      "firstSeenAt": "2026-08-24T10:03:01.261Z",
+      "lastSeenAt": "2026-08-24T10:03:01.261Z"
+    },
+    "9735438353": {
+      "bootstrapSeen": true,
+      "title": "mens 95 nike sb alleyoop sneakers",
+      "url": "https://www.vinted.co.uk/items/9735438353-mens-95-nike-sb-alleyoop-sneakers",
+      "lastPrice": 44.47,
+      "firstSeenAt": "2026-08-24T10:03:01.261Z",
+      "lastSeenAt": "2026-08-24T10:03:01.261Z"
+    },
+    "9734178916": {
+      "bootstrapSeen": true,
+      "title": "khaki colored nike shoes new in box",
+      "url": "https://www.vinted.co.uk/items/9734178916-khaki-colored-nike-shoes-new-in-box",
+      "lastPrice": 37.05,
+      "firstSeenAt": "2026-08-24T10:03:01.261Z",
+      "lastSeenAt": "2026-08-24T10:03:01.261Z"
+    },
+    "9732581403": {
+      "bootstrapSeen": true,
+      "title": "nike sb sneakers",
+      "url": "https://www.vinted.co.uk/items/9732581403-nike-sb-sneakers",
+      "lastPrice": 17.05,
+      "firstSeenAt": "2026-08-24T10:03:01.261Z",
+      "lastSeenAt": "2026-08-24T10:03:01.261Z"
+    },
+    "9723193031": {
+      "bootstrapSeen": true,
+      "title": "nike sb day one gs black gum trainers uk 5",
+      "url": "https://www.vinted.co.uk/items/9723193031-nike-sb-day-one-gs-black-gum-trainers-uk-5",
+      "lastPrice": 55,
+      "firstSeenAt": "2026-08-24T10:03:01.261Z",
+      "lastSeenAt": "2026-08-24T10:03:01.261Z"
+    },
+    "9760533198": {
+      "bootstrapSeen": true,
+      "title": "nike sb alleyoop university red trainers",
+      "url": "https://www.vinted.co.uk/items/9760533198-nike-sb-alleyoop-university-red-trainers",
+      "lastPrice": 10,
+      "firstSeenAt": "2026-08-24T10:03:01.261Z",
+      "lastSeenAt": "2026-08-24T10:03:01.261Z"
+    },
+    "9756382952": {
+      "bootstrapSeen": true,
+      "title": "nike sb zoom janoski og skate shoes",
+      "url": "https://www.vinted.co.uk/items/9756382952-nike-sb-zoom-janoski-og-skate-shoes",
+      "lastPrice": 20,
+      "firstSeenAt": "2026-08-24T10:03:01.261Z",
+      "lastSeenAt": "2026-08-24T10:03:01.261Z"
+    },
+    "9756010092": {
+      "bootstrapSeen": true,
+      "title": "nike sb janoski trainers",
+      "url": "https://www.vinted.co.uk/items/9756010092-nike-sb-janoski-trainers",
+      "lastPrice": 10,
+      "firstSeenAt": "2026-08-24T10:03:01.262Z",
+      "lastSeenAt": "2026-08-24T10:03:01.262Z"
+    },
+    "9735742667": {
+      "bootstrapSeen": true,
+      "title": "nike sb koston hypervulc mens size 8 gray white athletic skate shoes sneakers",
+      "url": "https://www.vinted.co.uk/items/9735742667-nike-sb-koston-hypervulc-mens-size-8-gray-white-athletic-skate-shoes-sneakers",
+      "lastPrice": 23.71,
+      "firstSeenAt": "2026-08-24T10:03:01.262Z",
+      "lastSeenAt": "2026-08-24T10:03:01.262Z"
+    },
+    "9735543505": {
+      "bootstrapSeen": true,
+      "title": "pink nike shoes womens 8",
+      "url": "https://www.vinted.co.uk/items/9735543505-pink-nike-shoes-womens-8",
+      "lastPrice": 5.19,
+      "firstSeenAt": "2026-08-24T10:03:01.262Z",
+      "lastSeenAt": "2026-08-24T10:03:01.262Z"
+    },
+    "9733131282": {
+      "bootstrapSeen": true,
+      "title": "womens shoes nike check solarsoft sb aluminium white womens size 10",
+      "url": "https://www.vinted.co.uk/items/9733131282-womens-shoes-nike-check-solarsoft-sb-aluminium-white-womens-size-10",
+      "lastPrice": 13.33,
+      "firstSeenAt": "2026-08-24T10:03:01.262Z",
+      "lastSeenAt": "2026-08-24T10:03:01.262Z"
+    },
+    "9760770853": {
+      "bootstrapSeen": true,
+      "title": "unisex nike trainers",
+      "url": "https://www.vinted.co.uk/items/9760770853-unisex-nike-trainers",
+      "lastPrice": 25,
+      "firstSeenAt": "2026-08-24T10:03:01.262Z",
+      "lastSeenAt": "2026-08-24T10:03:01.262Z"
+    },
+    "9760392790": {
+      "bootstrapSeen": true,
+      "title": "nike sb dunks in plain white",
+      "url": "https://www.vinted.co.uk/items/9760392790-nike-sb-dunks-in-plain-white",
+      "lastPrice": 15,
+      "firstSeenAt": "2026-08-24T10:03:01.262Z",
+      "lastSeenAt": "2026-08-24T10:03:01.262Z"
+    },
+    "9760164605": {
+      "bootstrapSeen": true,
+      "title": "nike sb dunk unc blue white",
+      "url": "https://www.vinted.co.uk/items/9760164605-nike-sb-dunk-unc-blue-white",
+      "lastPrice": 50,
+      "firstSeenAt": "2026-08-24T10:03:01.262Z",
+      "lastSeenAt": "2026-08-24T10:03:01.262Z"
+    },
+    "9760026231": {
+      "bootstrapSeen": true,
+      "title": "nike trainers",
+      "url": "https://www.vinted.co.uk/items/9760026231-nike-trainers",
+      "lastPrice": 18,
+      "firstSeenAt": "2026-08-24T10:03:01.262Z",
+      "lastSeenAt": "2026-08-24T10:03:01.262Z"
+    },
+    "9758959501": {
+      "bootstrapSeen": true,
+      "title": "kids nike trainers",
+      "url": "https://www.vinted.co.uk/items/9758959501-kids-nike-trainers",
+      "lastPrice": 17,
+      "firstSeenAt": "2026-08-24T10:03:01.262Z",
+      "lastSeenAt": "2026-08-24T10:03:01.262Z"
+    },
+    "9758750781": {
+      "bootstrapSeen": true,
+      "title": "mens nike trainers uk 7",
+      "url": "https://www.vinted.co.uk/items/9758750781-mens-nike-trainers-uk-7",
+      "lastPrice": 18,
+      "firstSeenAt": "2026-08-24T10:03:01.262Z",
+      "lastSeenAt": "2026-08-24T10:03:01.262Z"
+    },
+    "9758343590": {
+      "bootstrapSeen": true,
+      "title": "nike blazer mid sb orange label dark smoke size uk 45 trainers",
+      "url": "https://www.vinted.co.uk/items/9758343590-nike-blazer-mid-sb-orange-label-dark-smoke-size-uk-45-trainers",
+      "lastPrice": 60,
+      "firstSeenAt": "2026-08-24T10:03:01.262Z",
+      "lastSeenAt": "2026-08-24T10:03:01.262Z"
+    },
+    "9757097338": {
+      "bootstrapSeen": true,
+      "title": "nike sb check solar skate shoes size 7",
+      "url": "https://www.vinted.co.uk/items/9757097338-nike-sb-check-solar-skate-shoes-size-7",
+      "lastPrice": 15,
+      "firstSeenAt": "2026-08-24T10:03:01.262Z",
+      "lastSeenAt": "2026-08-24T10:03:01.262Z"
+    },
+    "9756974780": {
+      "bootstrapSeen": true,
+      "title": "nike sb check solarsoft canvas trainers uk size 8 triple black",
+      "url": "https://www.vinted.co.uk/items/9756974780-nike-sb-check-solarsoft-canvas-trainers-uk-size-8-triple-black",
+      "lastPrice": 25,
+      "firstSeenAt": "2026-08-24T10:03:01.262Z",
+      "lastSeenAt": "2026-08-24T10:03:01.262Z"
+    },
+    "9756732939": {
+      "bootstrapSeen": true,
+      "title": "nike sb shoes",
+      "url": "https://www.vinted.co.uk/items/9756732939-nike-sb-shoes",
+      "lastPrice": 20,
+      "firstSeenAt": "2026-08-24T10:03:01.262Z",
+      "lastSeenAt": "2026-08-24T10:03:01.262Z"
+    },
+    "9755945274": {
+      "bootstrapSeen": true,
+      "title": "nike sb dunk low pro",
+      "url": "https://www.vinted.co.uk/items/9755945274-nike-sb-dunk-low-pro",
+      "lastPrice": 40,
+      "firstSeenAt": "2026-08-24T10:03:01.262Z",
+      "lastSeenAt": "2026-08-24T10:03:01.262Z"
+    },
+    "9735739098": {
+      "bootstrapSeen": true,
+      "title": "mens nike sb force 58 shoes size 85",
+      "url": "https://www.vinted.co.uk/items/9735739098-mens-nike-sb-force-58-shoes-size-85",
+      "lastPrice": 22.23,
+      "firstSeenAt": "2026-08-24T10:03:01.262Z",
+      "lastSeenAt": "2026-08-24T10:03:01.262Z"
+    },
+    "9735244455": {
+      "bootstrapSeen": true,
+      "title": "nike sb check skate shoes grey white size 85",
+      "url": "https://www.vinted.co.uk/items/9735244455-nike-sb-check-skate-shoes-grey-white-size-85",
+      "lastPrice": 11.12,
+      "firstSeenAt": "2026-08-24T10:03:01.262Z",
+      "lastSeenAt": "2026-08-24T10:03:01.262Z"
+    },
+    "9734490257": {
+      "bootstrapSeen": true,
+      "title": "nike dunks wolf gray",
+      "url": "https://www.vinted.co.uk/items/9734490257-nike-dunks-wolf-gray",
+      "lastPrice": 18.53,
+      "firstSeenAt": "2026-08-24T10:03:01.262Z",
+      "lastSeenAt": "2026-08-24T10:03:01.262Z"
+    },
+    "9734423559": {
+      "bootstrapSeen": true,
+      "title": "nike sb stefan janoski shoes mens size 85",
+      "url": "https://www.vinted.co.uk/items/9734423559-nike-sb-stefan-janoski-shoes-mens-size-85",
+      "lastPrice": 22.23,
+      "firstSeenAt": "2026-08-24T10:03:01.262Z",
+      "lastSeenAt": "2026-08-24T10:03:01.262Z"
+    },
+    "9733792416": {
+      "bootstrapSeen": true,
+      "title": "nike sb dunk powerpuff girls bubbles",
+      "url": "https://www.vinted.co.uk/items/9733792416-nike-sb-dunk-powerpuff-girls-bubbles",
+      "lastPrice": 62.99,
+      "firstSeenAt": "2026-08-24T10:03:01.262Z",
+      "lastSeenAt": "2026-08-24T10:03:01.262Z"
+    },
+    "9732253032": {
+      "bootstrapSeen": true,
+      "title": "nike sb alleyoop sneakers 5y",
+      "url": "https://www.vinted.co.uk/items/9732253032-nike-sb-alleyoop-sneakers-5y",
+      "lastPrice": 11.12,
+      "firstSeenAt": "2026-08-24T10:03:01.262Z",
+      "lastSeenAt": "2026-08-24T10:03:01.262Z"
+    },
+    "9731024193": {
+      "bootstrapSeen": true,
+      "title": "nike sb dunks",
+      "url": "https://www.vinted.co.uk/items/9731024193-nike-sb-dunks",
+      "lastPrice": 44.47,
+      "firstSeenAt": "2026-08-24T10:03:01.262Z",
+      "lastSeenAt": "2026-08-24T10:03:01.262Z"
+    },
+    "9760356513": {
+      "bootstrapSeen": true,
+      "title": "girls nike trainers",
+      "url": "https://www.vinted.co.uk/items/9760356513-girls-nike-trainers",
+      "lastPrice": 10,
+      "firstSeenAt": "2026-08-24T10:03:06.957Z",
+      "lastSeenAt": "2026-08-24T10:03:06.957Z"
+    },
+    "9738988017": {
+      "bootstrapSeen": true,
+      "title": "nike kyrie trainers",
+      "url": "https://www.vinted.co.uk/items/9738988017-nike-kyrie-trainers",
+      "lastPrice": 35,
+      "firstSeenAt": "2026-08-24T10:03:06.957Z",
+      "lastSeenAt": "2026-08-24T10:03:06.957Z"
+    },
+    "9731160851": {
+      "bootstrapSeen": true,
+      "title": "nike shoes",
+      "url": "https://www.vinted.co.uk/items/9731160851-nike-shoes",
+      "lastPrice": 50,
+      "firstSeenAt": "2026-08-24T10:03:06.957Z",
+      "lastSeenAt": "2026-08-24T10:03:06.957Z"
+    },
+    "9728098769": {
+      "bootstrapSeen": true,
+      "title": "boys nike trainers",
+      "url": "https://www.vinted.co.uk/items/9728098769-boys-nike-trainers",
+      "lastPrice": 25,
+      "firstSeenAt": "2026-08-24T10:03:06.957Z",
+      "lastSeenAt": "2026-08-24T10:03:06.957Z"
+    },
+    "9725709870": {
+      "bootstrapSeen": true,
+      "title": "nike shoes air flo 10",
+      "url": "https://www.vinted.co.uk/items/9725709870-nike-shoes-air-flo-10",
+      "lastPrice": 20.01,
+      "firstSeenAt": "2026-08-24T10:03:06.957Z",
+      "lastSeenAt": "2026-08-24T10:03:06.957Z"
+    },
+    "9721338033": {
+      "bootstrapSeen": true,
+      "title": "nike elite official basketball trainers",
+      "url": "https://www.vinted.co.uk/items/9721338033-nike-elite-official-basketball-trainers",
+      "lastPrice": 27,
+      "firstSeenAt": "2026-08-24T10:03:06.957Z",
+      "lastSeenAt": "2026-08-24T10:03:06.957Z"
+    },
+    "9715397309": {
+      "bootstrapSeen": true,
+      "title": "nike blazer low men shoes",
+      "url": "https://www.vinted.co.uk/items/9715397309-nike-blazer-low-men-shoes",
+      "lastPrice": 18.53,
+      "firstSeenAt": "2026-08-24T10:03:06.957Z",
+      "lastSeenAt": "2026-08-24T10:03:06.957Z"
+    },
+    "9757115139": {
+      "bootstrapSeen": true,
+      "title": "nike shoes",
+      "url": "https://www.vinted.co.uk/items/9757115139-nike-shoes",
+      "lastPrice": 20,
+      "firstSeenAt": "2026-08-24T10:03:06.957Z",
+      "lastSeenAt": "2026-08-24T10:03:06.957Z"
+    },
+    "9756906982": {
+      "bootstrapSeen": true,
+      "title": "nike trainers size 45",
+      "url": "https://www.vinted.co.uk/items/9756906982-nike-trainers-size-45",
+      "lastPrice": 7.5,
+      "firstSeenAt": "2026-08-24T10:03:06.957Z",
+      "lastSeenAt": "2026-08-24T10:03:06.957Z"
+    },
+    "9755929235": {
+      "bootstrapSeen": true,
+      "title": "nike panda dunk trainers size 35",
+      "url": "https://www.vinted.co.uk/items/9755929235-nike-panda-dunk-trainers-size-35",
+      "lastPrice": 5,
+      "firstSeenAt": "2026-08-24T10:03:06.957Z",
+      "lastSeenAt": "2026-08-24T10:03:06.957Z"
+    },
+    "9754451408": {
+      "bootstrapSeen": true,
+      "title": "nike trainers",
+      "url": "https://www.vinted.co.uk/items/9754451408-nike-trainers",
+      "lastPrice": 10,
+      "firstSeenAt": "2026-08-24T10:03:06.957Z",
+      "lastSeenAt": "2026-08-24T10:03:06.957Z"
+    },
+    "9754153646": {
+      "bootstrapSeen": true,
+      "title": "nike air huarache trainers",
+      "url": "https://www.vinted.co.uk/items/9754153646-nike-air-huarache-trainers",
+      "lastPrice": 30,
+      "firstSeenAt": "2026-08-24T10:03:06.957Z",
+      "lastSeenAt": "2026-08-24T10:03:06.957Z"
+    },
+    "9753625131": {
+      "bootstrapSeen": true,
+      "title": "nike flex experience 8 trainers",
+      "url": "https://www.vinted.co.uk/items/9753625131-nike-flex-experience-8-trainers",
+      "lastPrice": 10,
+      "firstSeenAt": "2026-08-24T10:03:06.957Z",
+      "lastSeenAt": "2026-08-24T10:03:06.957Z"
+    },
+    "9740237332": {
+      "bootstrapSeen": true,
+      "title": "nike trainers size 65 uk",
+      "url": "https://www.vinted.co.uk/items/9740237332-nike-trainers-size-65-uk",
+      "lastPrice": 8,
+      "firstSeenAt": "2026-08-24T10:03:06.957Z",
+      "lastSeenAt": "2026-08-24T10:03:06.957Z"
+    },
+    "9739560735": {
+      "bootstrapSeen": true,
+      "title": "nike trainers",
+      "url": "https://www.vinted.co.uk/items/9739560735-nike-trainers",
+      "lastPrice": 2,
+      "firstSeenAt": "2026-08-24T10:03:06.957Z",
+      "lastSeenAt": "2026-08-24T10:03:06.957Z"
+    },
+    "9738994083": {
+      "bootstrapSeen": true,
+      "title": "nike trainers",
+      "url": "https://www.vinted.co.uk/items/9738994083-nike-trainers",
+      "lastPrice": 10,
+      "firstSeenAt": "2026-08-24T10:03:06.957Z",
+      "lastSeenAt": "2026-08-24T10:03:06.957Z"
+    },
+    "9737516686": {
+      "bootstrapSeen": true,
+      "title": "nike air max sc trainer junior size uk 35eur 36",
+      "url": "https://www.vinted.co.uk/items/9737516686-nike-air-max-sc-trainer-junior-size-uk-35eur-36",
+      "lastPrice": 4,
+      "firstSeenAt": "2026-08-24T10:03:06.957Z",
+      "lastSeenAt": "2026-08-24T10:03:06.957Z"
+    },
+    "9736736398": {
+      "bootstrapSeen": true,
+      "title": "nike air max alpha savage trainers blueblackyellow uk 7 eu 41",
+      "url": "https://www.vinted.co.uk/items/9736736398-nike-air-max-alpha-savage-trainers-blueblackyellow-uk-7-eu-41",
+      "lastPrice": 10,
+      "firstSeenAt": "2026-08-24T10:03:06.957Z",
+      "lastSeenAt": "2026-08-24T10:03:06.957Z"
+    },
+    "9736186493": {
+      "bootstrapSeen": true,
+      "title": "black nike borough trainers",
+      "url": "https://www.vinted.co.uk/items/9736186493-black-nike-borough-trainers",
+      "lastPrice": 4,
+      "firstSeenAt": "2026-08-24T10:03:06.957Z",
+      "lastSeenAt": "2026-08-24T10:03:06.957Z"
+    },
+    "9734362894": {
+      "bootstrapSeen": true,
+      "title": "mens nike dunk trainers size uk 95",
+      "url": "https://www.vinted.co.uk/items/9734362894-mens-nike-dunk-trainers-size-uk-95",
+      "lastPrice": 12.5,
+      "firstSeenAt": "2026-08-24T10:03:06.957Z",
+      "lastSeenAt": "2026-08-24T10:03:06.957Z"
+    },
+    "9734287740": {
+      "bootstrapSeen": true,
+      "title": "lady trainers",
+      "url": "https://www.vinted.co.uk/items/9734287740-lady-trainers",
+      "lastPrice": 13,
+      "firstSeenAt": "2026-08-24T10:03:06.957Z",
+      "lastSeenAt": "2026-08-24T10:03:06.957Z"
+    },
+    "9732002434": {
+      "bootstrapSeen": true,
+      "title": "nike air sneakers sz 11",
+      "url": "https://www.vinted.co.uk/items/9732002434-nike-air-sneakers-sz-11",
+      "lastPrice": 18.53,
+      "firstSeenAt": "2026-08-24T10:03:06.957Z",
+      "lastSeenAt": "2026-08-24T10:03:06.957Z"
+    },
+    "9731319795": {
+      "bootstrapSeen": true,
+      "title": "nike court vision mid white trainers mens uk 7 eu 41",
+      "url": "https://www.vinted.co.uk/items/9731319795-nike-court-vision-mid-white-trainers-mens-uk-7-eu-41",
+      "lastPrice": 8,
+      "firstSeenAt": "2026-08-24T10:03:06.957Z",
+      "lastSeenAt": "2026-08-24T10:03:06.957Z"
+    },
+    "9729954226": {
+      "bootstrapSeen": true,
+      "title": "nike black and white jordan trainers size 65 good condition",
+      "url": "https://www.vinted.co.uk/items/9729954226-nike-black-and-white-jordan-trainers-size-65-good-condition",
+      "lastPrice": 7,
+      "firstSeenAt": "2026-08-24T10:03:06.957Z",
+      "lastSeenAt": "2026-08-24T10:03:06.957Z"
+    },
+    "9728942399": {
+      "bootstrapSeen": true,
+      "title": "nike trainers",
+      "url": "https://www.vinted.co.uk/items/9728942399-nike-trainers",
+      "lastPrice": 5,
+      "firstSeenAt": "2026-08-24T10:03:06.957Z",
+      "lastSeenAt": "2026-08-24T10:03:06.957Z"
+    },
+    "9721647501": {
+      "bootstrapSeen": true,
+      "title": "nike sneakers",
+      "url": "https://www.vinted.co.uk/items/9721647501-nike-sneakers",
+      "lastPrice": 16.3,
+      "firstSeenAt": "2026-08-24T10:03:06.957Z",
+      "lastSeenAt": "2026-08-24T10:03:06.957Z"
+    },
+    "9708498295": {
+      "bootstrapSeen": true,
+      "title": "pgeorge shoes",
+      "url": "https://www.vinted.co.uk/items/9708498295-pgeorge-shoes",
+      "lastPrice": 17.79,
+      "firstSeenAt": "2026-08-24T10:03:06.957Z",
+      "lastSeenAt": "2026-08-24T10:03:06.957Z"
+    },
+    "9700820721": {
+      "bootstrapSeen": true,
+      "title": "nike baby boys size 4c shoes",
+      "url": "https://www.vinted.co.uk/items/9700820721-nike-baby-boys-size-4c-shoes",
+      "lastPrice": 5.19,
+      "firstSeenAt": "2026-08-24T10:03:06.957Z",
+      "lastSeenAt": "2026-08-24T10:03:06.957Z"
+    },
+    "9699635906": {
+      "bootstrapSeen": true,
+      "title": "nike shoes",
+      "url": "https://www.vinted.co.uk/items/9699635906-nike-shoes",
+      "lastPrice": 18.53,
+      "firstSeenAt": "2026-08-24T10:03:06.957Z",
+      "lastSeenAt": "2026-08-24T10:03:06.957Z"
+    },
+    "9759926349": {
+      "bootstrapSeen": true,
+      "title": "red trainers",
+      "url": "https://www.vinted.co.uk/items/9759926349-red-trainers",
+      "lastPrice": 40,
+      "firstSeenAt": "2026-08-24T10:03:06.957Z",
+      "lastSeenAt": "2026-08-24T10:03:06.957Z"
+    },
+    "9757767413": {
+      "bootstrapSeen": true,
+      "title": "nike lining slip on leather trainers",
+      "url": "https://www.vinted.co.uk/items/9757767413-nike-lining-slip-on-leather-trainers",
+      "lastPrice": 7,
+      "firstSeenAt": "2026-08-24T10:03:06.957Z",
+      "lastSeenAt": "2026-08-24T10:03:06.957Z"
+    },
+    "9755903102": {
+      "bootstrapSeen": true,
+      "title": "nike air jordan white patent leather high top platform trainers excellent condition size 5",
+      "url": "https://www.vinted.co.uk/items/9755903102-nike-air-jordan-white-patent-leather-high-top-platform-trainers-excellent-condition-size-5",
+      "lastPrice": 15,
+      "firstSeenAt": "2026-08-24T10:03:06.957Z",
+      "lastSeenAt": "2026-08-24T10:03:06.957Z"
+    },
+    "9755857800": {
+      "bootstrapSeen": true,
+      "title": "nike jordan trainers uk1eur 33 superb condition",
+      "url": "https://www.vinted.co.uk/items/9755857800-nike-jordan-trainers-uk1eur-33-superb-condition",
+      "lastPrice": 15,
+      "firstSeenAt": "2026-08-24T10:03:06.957Z",
+      "lastSeenAt": "2026-08-24T10:03:06.957Z"
+    },
+    "9752182891": {
+      "bootstrapSeen": true,
+      "title": "mens shoes",
+      "url": "https://www.vinted.co.uk/items/9752182891-mens-shoes",
+      "lastPrice": 10,
+      "firstSeenAt": "2026-08-24T10:03:06.957Z",
+      "lastSeenAt": "2026-08-24T10:03:06.957Z"
+    },
+    "9751114204": {
+      "bootstrapSeen": true,
+      "title": "nike air max trainers",
+      "url": "https://www.vinted.co.uk/items/9751114204-nike-air-max-trainers",
+      "lastPrice": 15.5,
+      "firstSeenAt": "2026-08-24T10:03:06.957Z",
+      "lastSeenAt": "2026-08-24T10:03:06.957Z"
+    },
+    "9750896313": {
+      "bootstrapSeen": true,
+      "title": "nike pink trainers",
+      "url": "https://www.vinted.co.uk/items/9750896313-nike-pink-trainers",
+      "lastPrice": 9,
+      "firstSeenAt": "2026-08-24T10:03:06.957Z",
+      "lastSeenAt": "2026-08-24T10:03:06.957Z"
+    },
+    "9750484206": {
+      "bootstrapSeen": true,
+      "title": "nike trainers size 6",
+      "url": "https://www.vinted.co.uk/items/9750484206-nike-trainers-size-6",
+      "lastPrice": 13,
+      "firstSeenAt": "2026-08-24T10:03:06.957Z",
+      "lastSeenAt": "2026-08-24T10:03:06.957Z"
+    },
+    "9749066101": {
+      "bootstrapSeen": true,
+      "title": "nike trainers size 55",
+      "url": "https://www.vinted.co.uk/items/9749066101-nike-trainers-size-55",
+      "lastPrice": 6,
+      "firstSeenAt": "2026-08-24T10:03:06.957Z",
+      "lastSeenAt": "2026-08-24T10:03:06.957Z"
+    },
+    "9748910820": {
+      "bootstrapSeen": true,
+      "title": "nike turquoise trainers size 4",
+      "url": "https://www.vinted.co.uk/items/9748910820-nike-turquoise-trainers-size-4",
+      "lastPrice": 5,
+      "firstSeenAt": "2026-08-24T10:03:06.957Z",
+      "lastSeenAt": "2026-08-24T10:03:06.957Z"
+    },
+    "9748910203": {
+      "bootstrapSeen": true,
+      "title": "nike shoes",
+      "url": "https://www.vinted.co.uk/items/9748910203-nike-shoes",
+      "lastPrice": 20,
+      "firstSeenAt": "2026-08-24T10:03:06.957Z",
+      "lastSeenAt": "2026-08-24T10:03:06.957Z"
+    },
+    "9748825678": {
+      "bootstrapSeen": true,
+      "title": "nike jordan white trainers size 115 kids",
+      "url": "https://www.vinted.co.uk/items/9748825678-nike-jordan-white-trainers-size-115-kids",
+      "lastPrice": 10,
+      "firstSeenAt": "2026-08-24T10:03:06.957Z",
+      "lastSeenAt": "2026-08-24T10:03:06.957Z"
+    },
+    "9748724691": {
+      "bootstrapSeen": true,
+      "title": "nike shoes",
+      "url": "https://www.vinted.co.uk/items/9748724691-nike-shoes",
+      "lastPrice": 17,
+      "firstSeenAt": "2026-08-24T10:03:06.957Z",
+      "lastSeenAt": "2026-08-24T10:03:06.957Z"
+    },
+    "9748466530": {
+      "bootstrapSeen": true,
+      "title": "nike trainers",
+      "url": "https://www.vinted.co.uk/items/9748466530-nike-trainers",
+      "lastPrice": 40,
+      "firstSeenAt": "2026-08-24T10:03:06.957Z",
+      "lastSeenAt": "2026-08-24T10:03:06.957Z"
+    },
+    "9747214869": {
+      "bootstrapSeen": true,
+      "title": "nike trainers size 55",
+      "url": "https://www.vinted.co.uk/items/9747214869-nike-trainers-size-55",
+      "lastPrice": 5,
+      "firstSeenAt": "2026-08-24T10:03:06.957Z",
+      "lastSeenAt": "2026-08-24T10:03:06.957Z"
+    },
+    "9743971745": {
+      "bootstrapSeen": true,
+      "title": "burgundy and white nike high top trainers uk size 5",
+      "url": "https://www.vinted.co.uk/items/9743971745-burgundy-and-white-nike-high-top-trainers-uk-size-5",
+      "lastPrice": 12,
+      "firstSeenAt": "2026-08-24T10:03:06.957Z",
+      "lastSeenAt": "2026-08-24T10:03:06.957Z"
+    },
+    "9742726238": {
+      "bootstrapSeen": true,
+      "title": "nike runnning sneakers womens",
+      "url": "https://www.vinted.co.uk/items/9742726238-nike-runnning-sneakers-womens",
+      "lastPrice": 20,
+      "firstSeenAt": "2026-08-24T10:03:06.957Z",
+      "lastSeenAt": "2026-08-24T10:03:06.957Z"
+    },
+    "9741617032": {
+      "bootstrapSeen": true,
+      "title": "mens nike metcon 4 free trainers uk 9 navy gym running",
+      "url": "https://www.vinted.co.uk/items/9741617032-mens-nike-metcon-4-free-trainers-uk-9-navy-gym-running",
+      "lastPrice": 50,
+      "firstSeenAt": "2026-08-24T10:03:06.957Z",
+      "lastSeenAt": "2026-08-24T10:03:06.957Z"
+    },
+    "9740964583": {
+      "bootstrapSeen": true,
+      "title": "black and pink nike trainers",
+      "url": "https://www.vinted.co.uk/items/9740964583-black-and-pink-nike-trainers",
+      "lastPrice": 4,
+      "firstSeenAt": "2026-08-24T10:03:06.957Z",
+      "lastSeenAt": "2026-08-24T10:03:06.957Z"
+    },
+    "9740072350": {
+      "bootstrapSeen": true,
+      "title": "nike legend react size 35 trainers",
+      "url": "https://www.vinted.co.uk/items/9740072350-nike-legend-react-size-35-trainers",
+      "lastPrice": 10,
+      "firstSeenAt": "2026-08-24T10:03:06.957Z",
+      "lastSeenAt": "2026-08-24T10:03:06.957Z"
+    },
+    "9738558363": {
+      "bootstrapSeen": true,
+      "title": "boys nike astroturf trainers",
+      "url": "https://www.vinted.co.uk/items/9738558363-boys-nike-astroturf-trainers",
+      "lastPrice": 5,
+      "firstSeenAt": "2026-08-24T10:03:06.957Z",
+      "lastSeenAt": "2026-08-24T10:03:06.957Z"
+    },
+    "9737686496": {
+      "bootstrapSeen": true,
+      "title": "nike trainers size 6",
+      "url": "https://www.vinted.co.uk/items/9737686496-nike-trainers-size-6",
+      "lastPrice": 15,
+      "firstSeenAt": "2026-08-24T10:03:06.957Z",
+      "lastSeenAt": "2026-08-24T10:03:06.957Z"
+    },
+    "9737649321": {
+      "bootstrapSeen": true,
+      "title": "nike trainers size 1",
+      "url": "https://www.vinted.co.uk/items/9737649321-nike-trainers-size-1",
+      "lastPrice": 8,
+      "firstSeenAt": "2026-08-24T10:03:06.957Z",
+      "lastSeenAt": "2026-08-24T10:03:06.957Z"
+    },
+    "9736587848": {
+      "bootstrapSeen": true,
+      "title": "nike trainerss",
+      "url": "https://www.vinted.co.uk/items/9736587848-nike-trainerss",
+      "lastPrice": 30,
+      "firstSeenAt": "2026-08-24T10:03:06.957Z",
+      "lastSeenAt": "2026-08-24T10:03:06.957Z"
+    },
+    "9733448720": {
+      "bootstrapSeen": true,
+      "title": "nike precision 7 photo blue volt mens basketball trainers uk 11 fn4322 400",
+      "url": "https://www.vinted.co.uk/items/9733448720-nike-precision-7-photo-blue-volt-mens-basketball-trainers-uk-11-fn4322-400",
+      "lastPrice": 25,
+      "firstSeenAt": "2026-08-24T10:03:06.957Z",
+      "lastSeenAt": "2026-08-24T10:03:06.957Z"
+    },
+    "9732523105": {
+      "bootstrapSeen": true,
+      "title": "nike air zoom running trainers",
+      "url": "https://www.vinted.co.uk/items/9732523105-nike-air-zoom-running-trainers",
+      "lastPrice": 22.5,
+      "firstSeenAt": "2026-08-24T10:03:06.957Z",
+      "lastSeenAt": "2026-08-24T10:03:06.957Z"
+    },
+    "9731820190": {
+      "bootstrapSeen": true,
+      "title": "nike blazer mid 77 sneakers",
+      "url": "https://www.vinted.co.uk/items/9731820190-nike-blazer-mid-77-sneakers",
+      "lastPrice": 17.95,
+      "firstSeenAt": "2026-08-24T10:03:06.957Z",
+      "lastSeenAt": "2026-08-24T10:03:06.957Z"
+    },
+    "9731222113": {
+      "bootstrapSeen": true,
+      "title": "nike metcon training trainers pink mauve orange womens gym shoes size 6",
+      "url": "https://www.vinted.co.uk/items/9731222113-nike-metcon-training-trainers-pink-mauve-orange-womens-gym-shoes-size-6",
+      "lastPrice": 20,
+      "firstSeenAt": "2026-08-24T10:03:06.957Z",
+      "lastSeenAt": "2026-08-24T10:03:06.957Z"
+    },
+    "9728659969": {
+      "bootstrapSeen": true,
+      "title": "boys nike basketball shoes and outgrew ugh",
+      "url": "https://www.vinted.co.uk/items/9728659969-boys-nike-basketball-shoes-and-outgrew-ugh",
+      "lastPrice": 25.94,
+      "firstSeenAt": "2026-08-24T10:03:06.957Z",
+      "lastSeenAt": "2026-08-24T10:03:06.957Z"
+    },
+    "9725981253": {
+      "bootstrapSeen": true,
+      "title": "nike shoes",
+      "url": "https://www.vinted.co.uk/items/9725981253-nike-shoes",
+      "lastPrice": 9.63,
+      "firstSeenAt": "2026-08-24T10:03:06.957Z",
+      "lastSeenAt": "2026-08-24T10:03:06.957Z"
+    },
+    "9725776740": {
+      "bootstrapSeen": true,
+      "title": "nike jordan neutral grey shoes",
+      "url": "https://www.vinted.co.uk/items/9725776740-nike-jordan-neutral-grey-shoes",
+      "lastPrice": 88.93,
+      "firstSeenAt": "2026-08-24T10:03:06.957Z",
+      "lastSeenAt": "2026-08-24T10:03:06.957Z"
+    },
+    "9724799076": {
+      "bootstrapSeen": true,
+      "title": "authentic nike air max thea jacquard womens lace up trainers uk 5 blue",
+      "url": "https://www.vinted.co.uk/items/9724799076-authentic-nike-air-max-thea-jacquard-womens-lace-up-trainers-uk-5-blue",
+      "lastPrice": 32,
+      "firstSeenAt": "2026-08-24T10:03:06.957Z",
+      "lastSeenAt": "2026-08-24T10:03:06.957Z"
+    },
+    "9722755574": {
+      "bootstrapSeen": true,
+      "title": "nike vomero 16 mens running trainers",
+      "url": "https://www.vinted.co.uk/items/9722755574-nike-vomero-16-mens-running-trainers",
+      "lastPrice": 25,
+      "firstSeenAt": "2026-08-24T10:03:06.957Z",
+      "lastSeenAt": "2026-08-24T10:03:06.957Z"
+    },
+    "9703646721": {
+      "bootstrapSeen": true,
+      "title": "nike womens air zoom strong training shoe",
+      "url": "https://www.vinted.co.uk/items/9703646721-nike-womens-air-zoom-strong-training-shoe",
+      "lastPrice": 25.94,
+      "firstSeenAt": "2026-08-24T10:03:06.957Z",
+      "lastSeenAt": "2026-08-24T10:03:06.957Z"
+    },
+    "9702006260": {
+      "bootstrapSeen": true,
+      "title": "lebron james nike basketball shoes",
+      "url": "https://www.vinted.co.uk/items/9702006260-lebron-james-nike-basketball-shoes",
+      "lastPrice": 37.05,
+      "firstSeenAt": "2026-08-24T10:03:06.957Z",
+      "lastSeenAt": "2026-08-24T10:03:06.957Z"
+    },
+    "9700168483": {
+      "bootstrapSeen": true,
+      "title": "baby nike shoes",
+      "url": "https://www.vinted.co.uk/items/9700168483-baby-nike-shoes",
+      "lastPrice": 7.41,
+      "firstSeenAt": "2026-08-24T10:03:06.957Z",
+      "lastSeenAt": "2026-08-24T10:03:06.957Z"
+    },
+    "9761156156": {
+      "blockedReason": "keyword",
+      "title": "baby nike p6000 trainers",
+      "url": "https://www.vinted.co.uk/items/9761156156-baby-nike-p6000-trainers",
+      "lastPrice": 30,
+      "firstSeenAt": "2026-08-24T10:03:11.693Z",
+      "lastSeenAt": "2026-08-24T10:03:11.693Z"
+    },
+    "9761155681": {
+      "blockedReason": "size",
+      "title": "nike p6000",
+      "url": "https://www.vinted.co.uk/items/9761155681-nike-p6000",
+      "lastPrice": 70,
+      "firstSeenAt": "2026-08-24T10:03:13.635Z",
+      "lastSeenAt": "2026-08-24T10:03:13.635Z"
+    },
+    "9761156685": {
+      "blockedReason": "size",
+      "title": "p 6000 white burgundy trainers",
+      "url": "https://www.vinted.co.uk/items/9761156685-p-6000-white-burgundy-trainers",
+      "lastPrice": 35,
+      "firstSeenAt": "2026-08-24T10:03:15.599Z",
+      "lastSeenAt": "2026-08-24T10:03:15.599Z"
+    },
+    "9760857248": {
+      "blockedReason": "keyword",
+      "title": "nike v5 rnr",
+      "url": "https://www.vinted.co.uk/items/9760857248-nike-v5-rnr",
+      "lastPrice": 30,
+      "firstSeenAt": "2026-08-24T10:03:21.740Z",
+      "lastSeenAt": "2026-08-24T10:03:21.740Z"
     }
   },
   "market": {
@@ -88525,7 +90616,7 @@
       ]
     }
   },
-  "updatedAt": "2026-08-24T09:55:09.123Z",
+  "updatedAt": "2026-08-24T10:02:46.964Z",
   "cursor": 0,
   "lastRotation": {
     "bot": "trainers",
@@ -88609,12 +90700,12 @@
         "updatedAt": "2026-08-24T09:39:43.179Z"
       },
       "Nike V5 RNR::primary": {
-        "maxId": "9760739406",
-        "updatedAt": "2026-08-24T09:29:43.162Z"
+        "maxId": "9760857248",
+        "updatedAt": "2026-08-24T10:02:46.964Z"
       },
       "Nike P-6000::primary": {
-        "maxId": "9760767181",
-        "updatedAt": "2026-08-24T09:29:43.162Z"
+        "maxId": "9761156685",
+        "updatedAt": "2026-08-24T10:02:46.964Z"
       },
       "Nike TN::primary": {
         "maxId": "9760774382",
@@ -88735,15 +90826,31 @@
       "Nike Lifestyle Trainer Bargain::generic": {
         "maxId": "9761085129",
         "updatedAt": "2026-08-24T09:55:09.123Z"
+      },
+      "Nike Football Boot Bargain::generic": {
+        "maxId": "9761167222",
+        "updatedAt": "2026-08-24T10:02:46.964Z"
+      },
+      "Nike Basketball Shoe Bargain::generic": {
+        "maxId": "9760848601",
+        "updatedAt": "2026-08-24T10:02:46.964Z"
+      },
+      "Nike SB Shoe Bargain::generic": {
+        "maxId": "9761143840",
+        "updatedAt": "2026-08-24T10:02:46.964Z"
+      },
+      "Nike Any Shoe Bargain::generic": {
+        "maxId": "9760878929",
+        "updatedAt": "2026-08-24T10:02:46.964Z"
       }
     },
-    "lastScanAt": "2026-08-24T09:55:09.123Z",
-    "lastAttemptAt": "2026-08-24T09:55:09.123Z"
+    "lastScanAt": "2026-08-24T10:02:46.964Z",
+    "lastAttemptAt": "2026-08-24T10:02:46.964Z"
   },
   "diagnostics": {
     "bot": "trainers",
     "radarVersion": 6,
-    "lastRunAt": "2026-08-24T09:55:09.123Z",
+    "lastRunAt": "2026-08-24T10:02:46.964Z",
     "recoveryMode": false,
     "filterProfile": {
       "freshnessMinutes": 15,
@@ -88758,34 +90865,35 @@
     },
     "totalSearchGroups": 37,
     "selectedSearches": [
-      "Nike Air Max Moto 2K::primary",
-      "Nike Metcon 10::primary",
-      "Nike Zoom Fly 6::primary",
-      "Nike Air Max Bargain::generic",
-      "Nike Running Trainer Bargain::generic",
-      "Nike Lifestyle Trainer Bargain::generic"
+      "Nike Football Boot Bargain::generic",
+      "Nike Basketball Shoe Bargain::generic",
+      "Nike SB Shoe Bargain::generic",
+      "Nike Any Shoe Bargain::generic",
+      "Nike P-6000::primary",
+      "Nike V5 RNR::primary"
     ],
     "successfulSearches": 6,
     "failedSearches": 0,
     "confirmedEmptySearches": 0,
-    "catalogMarkers": 1152,
-    "catalogItems": 681,
-    "candidateItems": 336,
-    "freshItems": 1,
+    "catalogMarkers": 1072,
+    "catalogItems": 712,
+    "candidateItems": 357,
+    "freshItems": 4,
     "freshByAge": 0,
-    "freshByNewId": 1,
+    "freshByNewId": 4,
     "qualifyingAlerts": 0,
     "deliveredAlerts": 0,
     "discordFailures": 0,
     "pendingDeliveries": 0,
     "rejects": {
-      "stale": 185,
-      "score": 1
+      "keyword": 2,
+      "size": 2,
+      "stale": 76
     },
     "failures": {},
     "healthyScan": true,
-    "detailFetches": 1,
-    "duplicateSuppressed": 14,
+    "detailFetches": 2,
+    "duplicateSuppressed": 4,
     "healthReason": "all-selected-searches-completed",
     "discordRoutes": [
       {
@@ -88821,7 +90929,7 @@
   },
   "radarVersion": 6,
   "pendingDeliveries": {},
-  "rotationCursor": 33,
+  "rotationCursor": 2,
   "alertBalance": {
     "modelConditionLastSent": {}
   },
