@@ -1,39 +1,37 @@
 {
-  "generatedAt": "2026-08-24T14:48:39.664Z",
-  "stateUpdatedAt": "2026-08-24T14:48:39.664Z",
-  "lastAttemptAt": "2026-08-24T14:48:39.664Z",
-  "lastScanAt": "2026-08-24T14:48:39.664Z",
+  "generatedAt": "2026-08-24T14:53:39.346Z",
+  "stateUpdatedAt": "2026-08-24T14:53:39.346Z",
+  "lastAttemptAt": "2026-08-24T14:53:39.346Z",
+  "lastScanAt": "2026-08-24T14:53:39.346Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike TN::primary",
-    "Nike Air Max Plus 3::primary",
-    "Nike Air Max Plus VII::primary",
-    "Nike Air Max 95::primary",
-    "Nike Air Max 90::primary",
-    "Nike Air Max 90 Drift::primary"
+    "Nike Air Max 97::primary",
+    "Nike Air Max 270::primary",
+    "Nike Air Max Dn::primary",
+    "Nike Air Max 1::primary",
+    "Nike Shox TL::primary",
+    "Nike Shox R4::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 968,
-  "candidateItems": 484,
-  "freshItems": 76,
-  "qualifyingAlerts": 11,
+  "catalogItems": 977,
+  "candidateItems": 470,
+  "freshItems": 32,
+  "qualifyingAlerts": 6,
   "qualifyingByCondition": {
-    "newWithoutTags": 1,
-    "newWithTags": 9,
-    "veryGood": 1
+    "newWithTags": 1,
+    "veryGood": 5
   },
-  "deliveredAlerts": 11,
+  "deliveredAlerts": 6,
   "deliveredByCondition": {
-    "newWithoutTags": 1,
-    "newWithTags": 9,
-    "veryGood": 1
+    "newWithTags": 1,
+    "veryGood": 5
   },
-  "duplicateSuppressed": 22,
+  "duplicateSuppressed": 34,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,14 +67,13 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 386,
-    "weak-margin": 2,
-    "price": 2,
-    "condition": 19,
-    "keyword": 5,
-    "size": 1,
-    "seller-check-budget-exhausted": 27,
-    "detail-budget-exhausted": 9
+    "stale": 404,
+    "keyword": 6,
+    "condition": 8,
+    "size": 5,
+    "seller-risk": 1,
+    "detail-budget-exhausted": 3,
+    "seller-check-budget-exhausted": 3
   },
   "failures": {}
 }
