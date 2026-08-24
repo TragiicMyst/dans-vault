@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-08-24T07:18:02.475Z",
-  "stateUpdatedAt": "2026-08-24T07:18:02.475Z",
-  "lastAttemptAt": "2026-08-24T07:18:02.475Z",
-  "lastScanAt": "2026-08-24T07:18:02.475Z",
+  "generatedAt": "2026-08-24T07:39:03.245Z",
+  "stateUpdatedAt": "2026-08-24T07:39:03.245Z",
+  "lastAttemptAt": "2026-08-24T07:39:03.245Z",
+  "lastScanAt": "2026-08-24T07:39:03.245Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
-    "Nike Club Fleece Open-Hem Trousers::nike club fleece open hem trousers",
-    "Nike Club Fleece Crew::nike club fleece crew",
-    "Nike Solo Swoosh Hoodie::nike solo swoosh hoodie",
-    "Nike Solo Swoosh Crew::nike solo swoosh sweatshirt"
+    "Nike Solo Swoosh Joggers::nike solo swoosh joggers",
+    "Nike ACG Fleece::nike acg fleece",
+    "Nike ACG Wolf Tree::nike acg wolf tree",
+    "Nike ACG Tuff Fleece::nike acg tuff fleece"
   ],
   "successfulSearches": 4,
   "failedSearches": 0,
-  "catalogMarkers": 1056,
-  "catalogItems": 576,
-  "candidateItems": 163,
+  "catalogMarkers": 768,
+  "catalogItems": 371,
+  "candidateItems": 169,
   "freshItems": 0,
   "qualifyingAlerts": 0,
   "qualifyingByCondition": {},
   "deliveredAlerts": 0,
   "deliveredByCondition": {},
-  "duplicateSuppressed": 11,
+  "duplicateSuppressed": 10,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -58,7 +58,7 @@
   "pendingDeliveries": 0,
   "detailFetches": 0,
   "rejects": {
-    "recovery-no-fresh-signal": 152
+    "recovery-no-fresh-signal": 159
   },
   "failures": {}
 }
