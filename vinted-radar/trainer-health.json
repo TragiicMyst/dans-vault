@@ -1,35 +1,39 @@
 {
-  "generatedAt": "2026-08-24T10:55:46.799Z",
-  "stateUpdatedAt": "2026-08-24T10:55:46.799Z",
-  "lastAttemptAt": "2026-08-24T10:55:46.799Z",
-  "lastScanAt": "2026-08-24T10:55:46.799Z",
+  "generatedAt": "2026-08-24T11:00:47.087Z",
+  "stateUpdatedAt": "2026-08-24T11:00:47.087Z",
+  "lastAttemptAt": "2026-08-24T11:00:47.087Z",
+  "lastScanAt": "2026-08-24T11:00:47.087Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Vomero 5::primary",
-    "Nike Vomero 18::primary",
-    "Nike Vomero Plus::primary",
-    "Nike Vomero Premium::primary",
-    "Nike Pegasus Premium::primary",
-    "Nike Pegasus Trail 5 GORE-TEX::primary"
+    "Nike TN::primary",
+    "Nike Air Max Plus 3::primary",
+    "Nike Air Max Plus VII::primary",
+    "Nike Air Max 95::primary",
+    "Nike Air Max 90::primary",
+    "Nike Air Max 90 Drift::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 732,
-  "candidateItems": 485,
-  "freshItems": 9,
-  "qualifyingAlerts": 5,
+  "catalogItems": 1042,
+  "candidateItems": 551,
+  "freshItems": 46,
+  "qualifyingAlerts": 8,
   "qualifyingByCondition": {
+    "newWithoutTags": 2,
+    "newWithTags": 1,
     "veryGood": 5
   },
-  "deliveredAlerts": 5,
+  "deliveredAlerts": 8,
   "deliveredByCondition": {
+    "newWithoutTags": 2,
+    "newWithTags": 1,
     "veryGood": 5
   },
-  "duplicateSuppressed": 35,
+  "duplicateSuppressed": 40,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -63,12 +67,18 @@
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 6,
+  "detailFetches": 12,
   "rejects": {
-    "stale": 441,
-    "keyword": 2,
-    "price": 1,
-    "score": 1
+    "stale": 465,
+    "score": 1,
+    "price": 8,
+    "condition": 9,
+    "seller-risk": 1,
+    "size": 2,
+    "keyword": 1,
+    "seller-check-budget-exhausted": 7,
+    "detail-budget-exhausted": 8,
+    "weak-margin": 1
   },
   "failures": {}
 }
