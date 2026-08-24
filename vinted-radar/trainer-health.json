@@ -1,32 +1,36 @@
 {
-  "generatedAt": "2026-08-24T05:23:10.400Z",
-  "stateUpdatedAt": "2026-08-24T05:23:10.400Z",
-  "lastAttemptAt": "2026-08-24T05:23:10.400Z",
-  "lastScanAt": "2026-08-24T05:23:10.400Z",
+  "generatedAt": "2026-08-24T05:34:32.166Z",
+  "stateUpdatedAt": "2026-08-24T05:34:32.166Z",
+  "lastAttemptAt": "2026-08-24T05:34:32.166Z",
+  "lastScanAt": "2026-08-24T05:34:32.166Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
-    "Nike Air Force 1::primary",
-    "Nike Dunk Low::primary",
-    "Air Jordan 1 Low::primary",
-    "Air Jordan 1 Mid::primary",
-    "Air Jordan 4::primary",
-    "Nike Initiator::primary",
-    "Nike Air Max Moto 2K::primary",
-    "Nike Metcon 10::primary"
+    "Nike Zoom Fly 6::primary",
+    "Nike P-6000::primary",
+    "Nike V5 RNR::primary",
+    "Nike Vomero 5::primary",
+    "Nike Vomero 18::primary",
+    "Nike Vomero Plus::primary",
+    "Nike Vomero Premium::primary",
+    "Nike Pegasus Premium::primary"
   ],
   "successfulSearches": 8,
   "failedSearches": 0,
-  "catalogMarkers": 1536,
-  "catalogItems": 1022,
-  "candidateItems": 730,
-  "freshItems": 5,
-  "qualifyingAlerts": 0,
-  "qualifyingByCondition": {},
-  "deliveredAlerts": 0,
-  "deliveredByCondition": {},
-  "duplicateSuppressed": 34,
+  "catalogMarkers": 1456,
+  "catalogItems": 702,
+  "candidateItems": 510,
+  "freshItems": 4,
+  "qualifyingAlerts": 1,
+  "qualifyingByCondition": {
+    "veryGood": 1
+  },
+  "deliveredAlerts": 1,
+  "deliveredByCondition": {
+    "veryGood": 1
+  },
+  "duplicateSuppressed": 35,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -62,10 +66,10 @@
   "pendingDeliveries": 0,
   "detailFetches": 2,
   "rejects": {
-    "recovery-no-fresh-signal": 691,
-    "price": 2,
-    "condition": 1,
-    "seller-risk": 2
+    "stale": 471,
+    "price": 1,
+    "size": 1,
+    "weak-margin": 1
   },
   "failures": {}
 }
