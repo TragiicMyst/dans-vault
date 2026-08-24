@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-08-24T08:35:41.521Z",
-  "stateUpdatedAt": "2026-08-24T08:35:41.521Z",
-  "lastAttemptAt": "2026-08-24T08:35:41.521Z",
-  "lastScanAt": "2026-08-24T08:35:41.521Z",
+  "generatedAt": "2026-08-24T08:40:42.249Z",
+  "stateUpdatedAt": "2026-08-24T08:40:42.249Z",
+  "lastAttemptAt": "2026-08-24T08:40:42.249Z",
+  "lastScanAt": "2026-08-24T08:40:42.249Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
-    "Nike Air Force 1::primary",
-    "Nike Dunk Low::primary",
-    "Air Jordan 1 Low::primary",
-    "Air Jordan 1 Mid::primary",
-    "Air Jordan 4::primary",
-    "Nike Initiator::primary"
+    "Nike Air Max Moto 2K::primary",
+    "Nike Metcon 10::primary",
+    "Nike Zoom Fly 6::primary",
+    "Nike P-6000::primary",
+    "Nike V5 RNR::primary",
+    "Nike Vomero 5::primary"
   ],
   "successfulSearches": 6,
   "failedSearches": 0,
-  "catalogMarkers": 1152,
-  "catalogItems": 813,
-  "candidateItems": 587,
-  "freshItems": 82,
+  "catalogMarkers": 1072,
+  "catalogItems": 529,
+  "candidateItems": 360,
+  "freshItems": 7,
   "qualifyingAlerts": 2,
   "qualifyingByCondition": {
     "veryGood": 2
@@ -28,7 +28,7 @@
   "deliveredByCondition": {
     "veryGood": 2
   },
-  "duplicateSuppressed": 12,
+  "duplicateSuppressed": 21,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -62,16 +62,12 @@
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 12,
+  "detailFetches": 4,
   "rejects": {
-    "price": 5,
-    "size": 9,
-    "stale": 493,
-    "condition": 36,
-    "seller-risk": 1,
-    "keyword": 5,
-    "seller-check-budget-exhausted": 11,
-    "detail-budget-exhausted": 13
+    "stale": 332,
+    "keyword": 2,
+    "condition": 1,
+    "size": 2
   },
   "failures": {}
 }
