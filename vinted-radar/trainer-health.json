@@ -1,39 +1,37 @@
 {
-  "generatedAt": "2026-08-24T20:04:50.744Z",
-  "stateUpdatedAt": "2026-08-24T20:04:50.744Z",
-  "lastAttemptAt": "2026-08-24T20:04:50.744Z",
-  "lastScanAt": "2026-08-24T20:04:50.744Z",
+  "generatedAt": "2026-08-24T20:28:07.990Z",
+  "stateUpdatedAt": "2026-08-24T20:28:07.990Z",
+  "lastAttemptAt": "2026-08-24T20:28:07.990Z",
+  "lastScanAt": "2026-08-24T20:28:07.990Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Lifestyle Trainer Bargain::generic",
-    "Nike Football Boot Bargain::generic",
-    "Nike Basketball Shoe Bargain::generic",
-    "Nike SB Shoe Bargain::generic",
-    "Nike P-6000::primary",
-    "Nike V5 RNR::primary"
+    "Nike Vomero 5::primary",
+    "Nike Vomero 18::primary",
+    "Nike Vomero Plus::primary",
+    "Nike Vomero Premium::primary",
+    "Nike Pegasus Premium::primary",
+    "Nike Pegasus Trail 5 GORE-TEX::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1264,
-  "catalogItems": 878,
-  "candidateItems": 426,
-  "freshItems": 106,
-  "qualifyingAlerts": 6,
+  "catalogMarkers": 1344,
+  "catalogItems": 727,
+  "candidateItems": 477,
+  "freshItems": 12,
+  "qualifyingAlerts": 5,
   "qualifyingByCondition": {
-    "newWithTags": 1,
-    "newWithoutTags": 1,
-    "veryGood": 4
+    "veryGood": 3,
+    "newWithTags": 2
   },
-  "deliveredAlerts": 6,
+  "deliveredAlerts": 5,
   "deliveredByCondition": {
-    "newWithTags": 1,
-    "newWithoutTags": 1,
-    "veryGood": 4
+    "veryGood": 3,
+    "newWithTags": 2
   },
-  "duplicateSuppressed": 6,
+  "duplicateSuppressed": 68,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,15 +65,12 @@
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 12,
+  "detailFetches": 8,
   "rejects": {
-    "stale": 314,
-    "price": 10,
-    "size": 6,
-    "keyword": 9,
-    "condition": 22,
-    "seller-check-budget-exhausted": 25,
-    "detail-budget-exhausted": 28
+    "recovery-no-fresh-signal": 397,
+    "keyword": 3,
+    "size": 3,
+    "price": 1
   },
   "failures": {}
 }
