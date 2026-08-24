@@ -1,36 +1,36 @@
 {
-  "generatedAt": "2026-08-24T11:00:45.503Z",
-  "stateUpdatedAt": "2026-08-24T11:00:45.503Z",
-  "lastAttemptAt": "2026-08-24T11:00:45.503Z",
-  "lastScanAt": "2026-08-24T11:00:45.503Z",
+  "generatedAt": "2026-08-24T11:04:16.445Z",
+  "stateUpdatedAt": "2026-08-24T11:04:16.445Z",
+  "lastAttemptAt": "2026-08-24T11:04:16.445Z",
+  "lastScanAt": "2026-08-24T11:04:16.445Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
     "Nike Accessories Bargain::nike accessories",
-    "Nike Fleece::nike fleece",
-    "Nike Gilet::nike gilet",
-    "Nike Windbreaker::nike windbreaker",
-    "Nike Anorak::nike anorak",
-    "Nike Rain Jacket::nike rain jacket",
-    "Nike Woven Jacket::nike woven jacket"
+    "Nike Bomber Jacket::nike bomber jacket",
+    "Nike Coat::nike coat",
+    "Nike Shorts::nike shorts",
+    "Nike Cargo Trousers::nike cargo trousers",
+    "Nike Track Pants::nike track pants",
+    "Nike Woven Trousers::nike woven trousers"
   ],
   "successfulSearches": 8,
   "failedSearches": 0,
-  "catalogMarkers": 1631,
-  "catalogItems": 1337,
-  "candidateItems": 333,
-  "freshItems": 5,
-  "qualifyingAlerts": 1,
+  "catalogMarkers": 1632,
+  "catalogItems": 1339,
+  "candidateItems": 370,
+  "freshItems": 4,
+  "qualifyingAlerts": 2,
   "qualifyingByCondition": {
-    "veryGood": 1
+    "veryGood": 2
   },
-  "deliveredAlerts": 1,
+  "deliveredAlerts": 2,
   "deliveredByCondition": {
-    "veryGood": 1
+    "veryGood": 2
   },
-  "duplicateSuppressed": 16,
+  "duplicateSuppressed": 14,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -66,9 +66,9 @@
   "pendingDeliveries": 0,
   "detailFetches": 0,
   "rejects": {
-    "stale": 71,
-    "condition": 3,
-    "price": 1
+    "price": 1,
+    "condition": 1,
+    "stale": 91
   },
   "failures": {}
 }
