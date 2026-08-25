@@ -1,35 +1,37 @@
 {
-  "generatedAt": "2026-08-25T05:58:00.538Z",
-  "stateUpdatedAt": "2026-08-25T05:58:00.538Z",
-  "lastAttemptAt": "2026-08-25T05:58:00.538Z",
-  "lastScanAt": "2026-08-25T05:58:00.538Z",
+  "generatedAt": "2026-08-25T06:21:09.486Z",
+  "stateUpdatedAt": "2026-08-25T06:21:09.486Z",
+  "lastAttemptAt": "2026-08-25T06:21:09.486Z",
+  "lastScanAt": "2026-08-25T06:21:09.486Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Air Force 1::primary",
-    "Nike Dunk Low::primary",
-    "Air Jordan 1 Low::primary",
-    "Air Jordan 1 Mid::primary",
-    "Air Jordan 4::primary",
-    "Nike Initiator::primary"
+    "Nike Air Max Moto 2K::primary",
+    "Nike Metcon 10::primary",
+    "Nike Zoom Fly 6::primary",
+    "Nike Air Max Bargain::generic",
+    "Nike Running Trainer Bargain::generic",
+    "Nike Lifestyle Trainer Bargain::generic"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 978,
-  "candidateItems": 662,
-  "freshItems": 27,
-  "qualifyingAlerts": 5,
+  "catalogItems": 846,
+  "candidateItems": 424,
+  "freshItems": 32,
+  "qualifyingAlerts": 3,
   "qualifyingByCondition": {
-    "veryGood": 5
+    "newWithoutTags": 1,
+    "veryGood": 2
   },
-  "deliveredAlerts": 5,
+  "deliveredAlerts": 3,
   "deliveredByCondition": {
-    "veryGood": 5
+    "newWithoutTags": 1,
+    "veryGood": 2
   },
-  "duplicateSuppressed": 18,
+  "duplicateSuppressed": 22,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -63,16 +65,13 @@
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 12,
+  "detailFetches": 11,
   "rejects": {
-    "stale": 617,
-    "condition": 2,
-    "keyword": 3,
-    "price": 2,
-    "size": 6,
-    "score": 1,
-    "detail-budget-exhausted": 2,
-    "seller-check-budget-exhausted": 6
+    "recovery-no-fresh-signal": 370,
+    "size": 8,
+    "condition": 6,
+    "price": 12,
+    "keyword": 3
   },
   "failures": {}
 }
