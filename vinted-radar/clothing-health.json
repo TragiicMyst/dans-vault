@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-08-25T11:48:35.732Z",
-  "stateUpdatedAt": "2026-08-25T11:48:35.732Z",
-  "lastAttemptAt": "2026-08-25T11:48:35.732Z",
-  "lastScanAt": "2026-08-25T11:48:35.732Z",
+  "generatedAt": "2026-08-25T12:03:02.356Z",
+  "stateUpdatedAt": "2026-08-25T12:03:02.356Z",
+  "lastAttemptAt": "2026-08-25T12:03:02.356Z",
+  "lastScanAt": "2026-08-25T12:03:02.356Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Long Sleeve Top::nike long sleeve top",
-    "Nike Polo::nike polo",
-    "Nike Football Shirt::nike football shirt",
-    "Nike Training Top::nike training top",
-    "Nike Dri-FIT Top::nike dri fit top",
-    "Nike Quarter Zip::nike quarter zip"
+    "Nike Fleece::nike fleece",
+    "Nike Gilet::nike gilet",
+    "Nike Windbreaker::nike windbreaker",
+    "Nike Anorak::nike anorak",
+    "Nike Rain Jacket::nike rain jacket",
+    "Nike Woven Jacket::nike woven jacket"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1343,
-  "catalogItems": 1019,
-  "candidateItems": 290,
-  "freshItems": 194,
-  "qualifyingAlerts": 100,
+  "catalogMarkers": 1344,
+  "catalogItems": 1101,
+  "candidateItems": 292,
+  "freshItems": 178,
+  "qualifyingAlerts": 57,
   "qualifyingByCondition": {
-    "veryGood": 87,
-    "newWithoutTags": 8,
-    "newWithTags": 5
+    "newWithoutTags": 3,
+    "veryGood": 53,
+    "newWithTags": 1
   },
-  "deliveredAlerts": 100,
+  "deliveredAlerts": 57,
   "deliveredByCondition": {
-    "veryGood": 87,
-    "newWithoutTags": 8,
-    "newWithTags": 5
+    "newWithoutTags": 3,
+    "veryGood": 53,
+    "newWithTags": 1
   },
-  "duplicateSuppressed": 7,
+  "duplicateSuppressed": 1,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,12 +69,13 @@
   "pendingDeliveries": 0,
   "detailFetches": 6,
   "rejects": {
-    "stale": 89,
-    "size": 4,
+    "condition": 32,
+    "stale": 113,
     "keyword": 13,
-    "condition": 27,
-    "price": 46,
-    "detail-budget-exhausted": 4
+    "price": 66,
+    "size": 3,
+    "detail-budget-exhausted": 6,
+    "score": 1
   },
   "failures": {}
 }
