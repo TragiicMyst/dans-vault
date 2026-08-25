@@ -4,7 +4,6 @@ const r = await fetch(url, {
   headers: {
     'x-no-cache': 'true',
     'x-cache-tolerance': '0',
-    'x-proxy': 'gb',
     'x-locale': 'en-GB',
     'x-referer': 'https://www.pokemoncenter.com/en-gb/'
   },
@@ -16,4 +15,4 @@ console.log('--- BEGIN SNIPPET ---');
 console.log(text.slice(0, 12000));
 console.log('--- END SNIPPET ---');
 const urls = [...text.matchAll(/https?:\/\/[^\s)\]]+/g)].map(m => m[0]);
-console.log('urls=', urls.slice(0, 80));
+console.log('urls=', urls.slice(0, 120));
