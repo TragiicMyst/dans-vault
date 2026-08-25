@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-08-25T22:02:24.664Z",
-  "stateUpdatedAt": "2026-08-25T22:02:24.664Z",
-  "lastAttemptAt": "2026-08-25T22:02:24.664Z",
-  "lastScanAt": "2026-08-25T22:02:24.664Z",
+  "generatedAt": "2026-08-25T22:12:18.708Z",
+  "stateUpdatedAt": "2026-08-25T22:12:18.708Z",
+  "lastAttemptAt": "2026-08-25T22:12:18.708Z",
+  "lastScanAt": "2026-08-25T22:12:18.708Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Miler Challenger Running Set::nike miler challenger set",
-    "Nike Football Tech Fleece::nike football tech fleece",
-    "Nike ACG GORE-TEX Jacket::nike acg gore tex jacket",
-    "Nike Club Fleece Full-Zip Hoodie::nike club fleece full zip hoodie",
-    "Nike Strike Top Shorts Set::nike strike top shorts set",
-    "Nike Club Fleece Joggers::nike club fleece joggers"
+    "Nike Sportswear Winterised Jacket::nike sportswear winterised jacket",
+    "Nike NOCTA Joggers::nike nocta joggers",
+    "Nike ACG Fleece::nike acg fleece",
+    "Nike Club Fleece Open-Hem Trousers::nike club fleece open hem trousers",
+    "Nike Trail Repel Jacket::nike trail repel jacket",
+    "Jordan Flight Fleece Hoodie::jordan flight fleece hoodie"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1824,
-  "catalogItems": 953,
-  "candidateItems": 375,
-  "freshItems": 8,
-  "qualifyingAlerts": 5,
+  "catalogMarkers": 1344,
+  "catalogItems": 852,
+  "candidateItems": 192,
+  "freshItems": 9,
+  "qualifyingAlerts": 4,
   "qualifyingByCondition": {
-    "veryGood": 5
+    "veryGood": 4
   },
-  "deliveredAlerts": 5,
+  "deliveredAlerts": 4,
   "deliveredByCondition": {
-    "veryGood": 5
+    "veryGood": 4
   },
-  "duplicateSuppressed": 51,
+  "duplicateSuppressed": 20,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -63,11 +63,12 @@
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 0,
+  "detailFetches": 2,
   "rejects": {
-    "stale": 316,
-    "condition": 2,
-    "price": 1
+    "size": 2,
+    "price": 1,
+    "stale": 163,
+    "condition": 2
   },
   "failures": {}
 }
