@@ -1,0 +1,30 @@
+{
+  "diagnostics": {
+    "version": 2,
+    "source": "VINTED",
+    "startedAt": "2026-08-25T21:42:09.272Z",
+    "searchGroups": [
+      "tnf-1996-nuptse:north-face-nuptse-700",
+      "tnf-1996-nuptse:north-face-1996-nuptse",
+      "tnf-himalayan:north-face-himalayan-puffer",
+      "tnf-himalayan:north-face-hmlyn-parka",
+      "tnf-baltoro:north-face-baltoro-jacket",
+      "tnf-summit-down:north-face-summit-series-down",
+      "rab-microlight:rab-microlight-alpine",
+      "rab-neutrino:rab-neutrino-pro"
+    ],
+    "vintedItems": 245,
+    "freshItems": 0,
+    "freshByAge": 0,
+    "freshByNewId": 0,
+    "bootstrapBlocked": 185,
+    "staleBlocked": 0,
+    "candidates": 0,
+    "alerts": 0,
+    "supplyVacuumAlerts": 0,
+    "failures": [
+      "Vinted north face hmlyn parka: This operation was aborted"
+    ]
+  },
+  "topRecent": []
+}

@@ -1,6 +1,63 @@
 {
   "version": 2,
-  "history": {},
+  "history": {
+    "tnf-1996-nuptse:north-face-nuptse-700": [
+      {
+        "at": "2026-08-25T21:42:09.272Z",
+        "count": 35,
+        "median": 59.5
+      }
+    ],
+    "tnf-1996-nuptse:north-face-1996-nuptse": [
+      {
+        "at": "2026-08-25T21:42:09.272Z",
+        "count": 35,
+        "median": 65
+      }
+    ],
+    "tnf-himalayan:north-face-himalayan-puffer": [
+      {
+        "at": "2026-08-25T21:42:09.272Z",
+        "count": 35,
+        "median": 149
+      }
+    ],
+    "tnf-himalayan:north-face-hmlyn-parka": [
+      {
+        "at": "2026-08-25T21:42:09.272Z",
+        "count": 0,
+        "median": 0
+      }
+    ],
+    "tnf-baltoro:north-face-baltoro-jacket": [
+      {
+        "at": "2026-08-25T21:42:09.272Z",
+        "count": 35,
+        "median": 120
+      }
+    ],
+    "tnf-summit-down:north-face-summit-series-down": [
+      {
+        "at": "2026-08-25T21:42:09.272Z",
+        "count": 35,
+        "median": 100
+      }
+    ],
+    "rab-microlight:rab-microlight-alpine": [
+      {
+        "at": "2026-08-25T21:42:09.272Z",
+        "count": 35,
+        "median": 100
+      }
+    ],
+    "rab-neutrino:rab-neutrino-pro": [
+      {
+        "at": "2026-08-25T21:42:09.272Z",
+        "count": 35,
+        "median": 100
+      }
+    ]
+  },
   "momentumAlerts": {},
-  "lastRunAt": null
+  "lastRunAt": "2026-08-25T21:42:35.737Z"
 }
