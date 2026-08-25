@@ -1,9 +1,10 @@
 {
   "initialized": false,
   "products": {},
-  "updatedAt": "2026-08-25T10:07:15.320Z",
+  "updatedAt": "2026-08-25T10:10:15.693Z",
   "connectedMessageSent": true,
   "queueLive": false,
   "catalogAvailable": false,
-  "catalogError": "DoH returned no A records for vevtpy1v3r-3.algolianet.com"
+  "catalogError": "fresh UK browser reader: Fresh UK browser-reader feeds returned no products | internal product search API: Pokemon Centre internal search API unavailable | public search index: fetch failed",
+  "catalogSource": null
 }
