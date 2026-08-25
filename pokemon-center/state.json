@@ -1,9 +1,9 @@
 {
   "initialized": false,
   "products": {},
-  "updatedAt": "2026-08-25T10:01:12.037Z",
+  "updatedAt": "2026-08-25T10:07:15.320Z",
   "connectedMessageSent": true,
   "queueLive": false,
   "catalogAvailable": false,
-  "catalogError": "fetch failed"
+  "catalogError": "DoH returned no A records for vevtpy1v3r-3.algolianet.com"
 }
