@@ -6,9 +6,13 @@ const PAGE_HEADERS = {
   'Accept': 'text/html,application/xhtml+xml'
 };
 
-// Force source-level condition filters before the Winter Flips engine sees results.
-// Vinted status IDs: 6 = New with tags, 1 = New without tags.
-// eBay condition ID 1000 = New / Brand New.
+const ebayImageByUrl = new Map();
+let ebayToken = null;
+let ebayTokenExpiresAt = 0;
+
+// Source policy:
+// Vinted: New with tags (6) + New without tags (1) only.
+// eBay: condition ID 1000 (New / Brand New) only.
 globalThis.fetch = async (input, init = {}) => {
   let url;
   try {
@@ -23,10 +27,14 @@ globalThis.fetch = async (input, init = {}) => {
     url.searchParams.delete('status_ids');
     url.searchParams.append('status_ids[]', '6');
     url.searchParams.append('status_ids[]', '1');
+    return nativeFetch(url.toString(), init);
   }
 
   if ((url.hostname === 'www.ebay.co.uk' || url.hostname === 'ebay.co.uk') && url.pathname.startsWith('/sch/')) {
+    const apiResponse = await fetchEbayBrowseAsHtml(url);
+    if (apiResponse) return apiResponse;
     url.searchParams.set('LH_ItemCondition', '1000');
+    return nativeFetch(url.toString(), init);
   }
 
   // Enhance Discord deal alerts with the exact listing's first/main image.
@@ -37,6 +45,88 @@ globalThis.fetch = async (input, init = {}) => {
 
   return nativeFetch(url.toString(), init);
 };
+
+async function fetchEbayBrowseAsHtml(searchUrl) {
+  const clientId = process.env.EBAY_CLIENT_ID || '';
+  const clientSecret = process.env.EBAY_CLIENT_SECRET || '';
+  if (!clientId || !clientSecret) return null;
+
+  try {
+    const token = await getEbayAppToken(clientId, clientSecret);
+    const query = searchUrl.searchParams.get('_nkw') || '';
+    const api = new URL('https://api.ebay.com/buy/browse/v1/item_summary/search');
+    api.searchParams.set('q', query);
+    api.searchParams.set('limit', '35');
+    api.searchParams.set('sort', 'newlyListed');
+    api.searchParams.set('filter', 'conditionIds:{1000},buyingOptions:{FIXED_PRICE}');
+
+    const response = await nativeFetch(api.toString(), {
+      headers: {
+        'Authorization': `Bearer ${token}`,
+        'X-EBAY-C-MARKETPLACE-ID': 'EBAY_GB',
+        'Accept': 'application/json'
+      }
+    });
+    if (!response.ok) throw new Error(`Browse API HTTP ${response.status}`);
+
+    const data = await response.json();
+    const items = Array.isArray(data?.itemSummaries) ? data.itemSummaries : [];
+    return new Response(buildEbaySearchHtml(items), {
+      status: 200,
+      headers: { 'Content-Type': 'text/html; charset=utf-8' }
+    });
+  } catch (error) {
+    console.warn(`eBay Browse API failed: ${error.message}`);
+    return null;
+  }
+}
+
+async function getEbayAppToken(clientId, clientSecret) {
+  if (ebayToken && Date.now() < ebayTokenExpiresAt - 60000) return ebayToken;
+
+  const auth = Buffer.from(`${clientId}:${clientSecret}`).toString('base64');
+  const response = await nativeFetch('https://api.ebay.com/identity/v1/oauth2/token', {
+    method: 'POST',
+    headers: {
+      'Authorization': `Basic ${auth}`,
+      'Content-Type': 'application/x-www-form-urlencoded'
+    },
+    body: 'grant_type=client_credentials&scope=https%3A%2F%2Fapi.ebay.com%2Foauth%2Fapi_scope'
+  });
+  if (!response.ok) throw new Error(`OAuth HTTP ${response.status}`);
+
+  const data = await response.json();
+  if (!data?.access_token) throw new Error('OAuth response did not include an access token');
+  ebayToken = data.access_token;
+  ebayTokenExpiresAt = Date.now() + Number(data.expires_in || 7200) * 1000;
+  return ebayToken;
+}
+
+function buildEbaySearchHtml(items) {
+  const rows = [];
+  for (const item of items) {
+    const price = Number(item?.price?.value);
+    const currency = String(item?.price?.currency || '');
+    const title = String(item?.title || '').trim();
+    const itemUrl = String(item?.itemWebUrl || '').trim();
+    if (!title || !itemUrl || !Number.isFinite(price) || price <= 0 || currency !== 'GBP') continue;
+
+    const imageUrl = cleanApiEbayImage(item?.image?.imageUrl || item?.thumbnailImages?.[0]?.imageUrl || '');
+    if (imageUrl) ebayImageByUrl.set(normaliseListingUrl(itemUrl), imageUrl);
+
+    const bestOffer = Array.isArray(item?.buyingOptions) && item.buyingOptions.includes('BEST_OFFER');
+    rows.push(
+      `<li class="s-item">` +
+      `<a href="${escapeAttr(itemUrl)}">` +
+      `<div class="s-item__title">${escapeHtml(title)}</div>` +
+      `<span class="s-item__price">£${price.toFixed(2)}</span>` +
+      `<span class="s-item__condition">Brand New</span>` +
+      `${bestOffer ? '<span>Best Offer</span>' : ''}` +
+      `</a></li>`
+    );
+  }
+  return `<!doctype html><html><body><ul>${rows.join('')}</ul></body></html>`;
+}
 
 function isDiscordWebhook(url) {
   const host = url.hostname.toLowerCase();
@@ -55,7 +145,8 @@ async function addListingImage(rawBody) {
   const listingUrl = embed?.url;
   if (!embed || !listingUrl || embed.image?.url) return rawBody;
 
-  const imageUrl = await fetchExactLeadImage(listingUrl);
+  const cachedEbayImage = ebayImageByUrl.get(normaliseListingUrl(listingUrl));
+  const imageUrl = cachedEbayImage || await fetchExactLeadImage(listingUrl);
   if (!imageUrl) return rawBody;
 
   embed.image = { url: imageUrl };
@@ -65,7 +156,11 @@ async function addListingImage(rawBody) {
 async function fetchExactLeadImage(listingUrl) {
   try {
     const parsedListing = new URL(listingUrl);
-    if (!['www.vinted.co.uk', 'vinted.co.uk', 'www.ebay.co.uk', 'ebay.co.uk'].includes(parsedListing.hostname.toLowerCase())) return null;
+    const host = parsedListing.hostname.toLowerCase();
+    if (!['www.vinted.co.uk', 'vinted.co.uk', 'www.ebay.co.uk', 'ebay.co.uk'].includes(host)) return null;
+
+    // eBay normally comes from the Browse API image cache above. Avoid page scraping if it is blocked.
+    if (host.includes('ebay')) return null;
 
     const response = await nativeFetch(parsedListing.toString(), {
       headers: PAGE_HEADERS,
@@ -123,6 +218,41 @@ function cleanListingImageUrl(value, listingHost) {
   } catch {
     return null;
   }
+}
+
+function cleanApiEbayImage(value) {
+  if (!value) return null;
+  try {
+    const parsed = new URL(String(value));
+    const host = parsed.hostname.toLowerCase();
+    if (parsed.protocol !== 'https:' || !(host === 'ebayimg.com' || host.endsWith('.ebayimg.com'))) return null;
+    return parsed.toString();
+  } catch {
+    return null;
+  }
+}
+
+function normaliseListingUrl(value) {
+  try {
+    const url = new URL(String(value));
+    url.hash = '';
+    return `${url.origin}${url.pathname}`;
+  } catch {
+    return String(value || '');
+  }
+}
+
+function escapeHtml(value) {
+  return String(value)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
+
+function escapeAttr(value) {
+  return escapeHtml(value);
 }
 
 function decodeHtml(value) {
