@@ -1,33 +1,37 @@
 {
-  "generatedAt": "2026-08-25T14:14:22.895Z",
-  "stateUpdatedAt": "2026-08-25T14:14:22.895Z",
-  "lastAttemptAt": "2026-08-25T14:14:22.895Z",
-  "lastScanAt": "2026-08-25T14:14:22.895Z",
+  "generatedAt": "2026-08-25T15:03:01.336Z",
+  "stateUpdatedAt": "2026-08-25T15:03:01.336Z",
+  "lastAttemptAt": "2026-08-25T15:03:01.336Z",
+  "lastScanAt": "2026-08-25T15:03:01.336Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Air Max 90::primary",
-    "Nike Air Max 90 Drift::primary",
-    "Nike Air Max 97::primary",
-    "Nike Air Max 270::primary",
-    "Nike Air Max Dn::primary",
-    "Nike Air Max 1::primary"
+    "Nike Shox TL::primary",
+    "Nike Shox R4::primary",
+    "Nike Shox Ride 2::primary",
+    "Nike Air Force 1::primary",
+    "Nike Dunk Low::primary",
+    "Air Jordan 1 Low::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1344,
-  "catalogItems": 989,
-  "candidateItems": 575,
-  "freshItems": 76,
-  "qualifyingAlerts": 7,
+  "catalogMarkers": 1341,
+  "catalogItems": 885,
+  "candidateItems": 552,
+  "freshItems": 185,
+  "qualifyingAlerts": 8,
   "qualifyingByCondition": {
-    "veryGood": 7
+    "newWithTags": 5,
+    "veryGood": 2,
+    "newWithoutTags": 1
   },
-  "deliveredAlerts": 7,
+  "deliveredAlerts": 8,
   "deliveredByCondition": {
-    "veryGood": 7
+    "newWithTags": 5,
+    "veryGood": 2,
+    "newWithoutTags": 1
   },
   "duplicateSuppressed": 35,
   "discordFailures": 0,
@@ -65,15 +69,15 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "price": 2,
-    "stale": 464,
-    "keyword": 7,
-    "condition": 21,
-    "seller-risk": 2,
+    "recovery-no-fresh-signal": 332,
+    "keyword": 15,
+    "condition": 35,
+    "price": 5,
     "size": 3,
-    "detail-budget-exhausted": 16,
-    "seller-check-budget-exhausted": 17,
-    "weak-margin": 1
+    "score": 1,
+    "weak-margin": 3,
+    "seller-check-budget-exhausted": 68,
+    "detail-budget-exhausted": 47
   },
   "failures": {}
 }
