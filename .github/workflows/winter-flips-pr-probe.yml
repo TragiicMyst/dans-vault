@@ -1,0 +1,42 @@
+name: Winter Flips PR Live Probe
+
+on:
+  pull_request:
+    paths:
+      - 'winter-flips/pr-live-probe.txt'
+      - '.github/workflows/winter-flips-pr-probe.yml'
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v5
+
+      - name: Validate scanner
+        run: |
+          set -e
+          node --check winter-flips/engine.mjs
+          node -e "JSON.parse(require('fs').readFileSync('winter-flips/config.json','utf8'))"
+
+      - name: Check Winter Flips Discord secret
+        env:
+          DISCORD_WINTER_FLIPS_WEBHOOK_URL: ${{ secrets.DISCORD_WINTER_FLIPS_WEBHOOK_URL }}
+        run: |
+          test -n "$DISCORD_WINTER_FLIPS_WEBHOOK_URL"
+          echo "Dedicated Winter Flips webhook detected."
+
+      - name: Run one real Vinted plus eBay scan
+        env:
+          DISCORD_WINTER_FLIPS_WEBHOOK_URL: ${{ secrets.DISCORD_WINTER_FLIPS_WEBHOOK_URL }}
+        run: node winter-flips/engine.mjs
+
+      - name: Print diagnostic report
+        if: always()
+        run: |
+          if [ -f winter-flips/latest-report.json ]; then
+            cat winter-flips/latest-report.json
+          else
+            echo "No latest-report.json produced"
+          fi
