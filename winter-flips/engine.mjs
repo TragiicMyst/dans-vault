@@ -18,13 +18,13 @@ normaliseState(state);
 
 const searchGroups = buildSearchGroups(CONFIG);
 const cursor = Number(state.rotationCursor || 0) % Math.max(searchGroups.length, 1);
-const selected = pickCircular(searchGroups, cursor, Math.min(CONFIG.scan.searchesPerRun, searchGroups.length));
+const selected = pickCircular(searchGroups, cursor, Math.min(Number(CONFIG.scan.searchesPerRun || 8), searchGroups.length));
 const diagnostics = {
-  version: CONFIG.version,
+  version: 2,
+  source: 'VINTED',
   startedAt: NOW.toISOString(),
   searchGroups: selected.map(x => x.key),
   vintedItems: 0,
-  ebayItems: 0,
   candidates: 0,
   alerts: 0,
   supplyVacuumAlerts: 0,
@@ -32,66 +32,56 @@ const diagnostics = {
 };
 
 let alertBudget = Number(CONFIG.scan.maxAlertsPerRun || 6);
+
 for (let i = 0; i < selected.length; i += 1) {
   const group = selected[i];
-  if (i) await sleep(Number(CONFIG.scan.fetchDelayMs || 450) + Math.floor(Math.random() * 300));
+  if (i) await sleep(Number(CONFIG.scan.fetchDelayMs || 450) + Math.floor(Math.random() * 250));
 
-  let vinted = [];
-  let ebay = [];
+  let items = [];
   try {
-    [vinted, ebay] = await Promise.all([
-      fetchVinted(group.query).catch(error => {
-        diagnostics.failures.push(`Vinted ${group.query}: ${error.message}`);
-        return [];
-      }),
-      fetchEbay(group.query).catch(error => {
-        diagnostics.failures.push(`eBay ${group.query}: ${error.message}`);
-        return [];
-      })
-    ]);
+    items = await fetchVinted(group.query);
   } catch (error) {
-    diagnostics.failures.push(`${group.query}: ${error.message}`);
+    diagnostics.failures.push(`Vinted ${group.query}: ${error.message}`);
   }
 
-  diagnostics.vintedItems += vinted.length;
-  diagnostics.ebayItems += ebay.length;
-
-  const all = dedupeItems([...vinted, ...ebay]).slice(0, Number(CONFIG.scan.itemsPerSource || 35) * 2);
-  const marketPrices = all.map(x => x.price).filter(x => Number.isFinite(x) && x > 5 && x < 1000);
-  const marketMedian = marketPrices.length >= 5 ? median(marketPrices) : null;
-  const sourceMedians = {
-    vinted: vinted.length >= 3 ? median(vinted.map(x => x.price)) : null,
-    ebay: ebay.length >= 3 ? median(ebay.map(x => x.price)) : null
-  };
+  diagnostics.vintedItems += items.length;
+  const all = dedupeItems(items).slice(0, Number(CONFIG.scan.itemsPerSource || 35));
+  const prices = all.map(x => x.price).filter(x => Number.isFinite(x) && x > 5 && x < 1000);
+  const marketMedian = prices.length >= 5 ? median(prices) : null;
 
   await maybeSendSupplyVacuum({ group, all, marketMedian, state, diagnostics });
 
   for (const item of all) {
-    const seenKey = `${item.platform}:${item.id}`;
+    const seenKey = `VINTED:${item.id}`;
     const previous = state.seen[seenKey];
     state.seen[seenKey] = {
       firstSeenAt: previous?.firstSeenAt || NOW.toISOString(),
       lastSeenAt: NOW.toISOString(),
       title: item.title,
       price: item.price,
-      url: item.url
+      url: item.url,
+      condition: item.condition
     };
 
     if (previous?.alertedAt) continue;
-    if (previous && previous.firstSeenAt) continue;
+    if (previous?.firstSeenAt) continue;
 
-    const modelMatch = identifyModel(item, CONFIG.models);
+    const modelMatch = identifyModel(item, CONFIG.models || []);
     if (!modelMatch) continue;
     diagnostics.candidates += 1;
 
-    const evaluation = evaluate({ item, model: modelMatch.model, modelConfidence: modelMatch.confidence, marketMedian, sourceMedians });
+    const evaluation = evaluate({
+      item,
+      model: modelMatch.model,
+      modelConfidence: modelMatch.confidence,
+      marketMedian
+    });
     state.seen[seenKey].evaluation = compactEvaluation(evaluation);
 
-    if (!evaluation.qualifies) continue;
-    if (alertBudget <= 0) continue;
+    if (!evaluation.qualifies || alertBudget <= 0) continue;
 
     const messageId = await sendDealAlert(item, evaluation).catch(error => {
-      diagnostics.failures.push(`Discord ${item.platform}:${item.id}: ${error.message}`);
+      diagnostics.failures.push(`Discord VINTED:${item.id}: ${error.message}`);
       return null;
     });
     if (!messageId) continue;
@@ -103,7 +93,7 @@ for (let i = 0; i < selected.length; i += 1) {
 
     state.opportunities.unshift({
       at: new Date().toISOString(),
-      platform: item.platform,
+      platform: 'VINTED',
       id: item.id,
       title: item.title,
       url: item.url,
@@ -120,10 +110,8 @@ for (let i = 0; i < selected.length; i += 1) {
     at: NOW.toISOString(),
     count: all.length,
     median: marketMedian,
-    vintedCount: vinted.length,
-    ebayCount: ebay.length,
-    vintedMedian: sourceMedians.vinted,
-    ebayMedian: sourceMedians.ebay
+    vintedCount: all.length,
+    vintedMedian: marketMedian
   };
 }
 
@@ -136,13 +124,13 @@ console.log(JSON.stringify(diagnostics, null, 2));
 
 function buildSearchGroups(config) {
   const groups = [];
-  for (const model of config.models) {
+  for (const model of config.models || []) {
     for (const query of model.searchQueries || []) {
-      groups.push({ key: `${model.id}:${slug(query)}`, query, expectedModelId: model.id, broad: false });
+      groups.push({ key: `${model.id}:${slug(query)}`, query });
     }
   }
   for (const query of config.broadQueries || []) {
-    groups.push({ key: `hunter:${slug(query)}`, query, expectedModelId: null, broad: true });
+    groups.push({ key: `hunter:${slug(query)}`, query });
   }
   return groups;
 }
@@ -151,6 +139,9 @@ async function fetchVinted(query) {
   const url = new URL('https://www.vinted.co.uk/catalog');
   url.searchParams.set('search_text', query);
   url.searchParams.set('order', 'newest_first');
+  url.searchParams.append('status_ids[]', '6'); // New with tags
+  url.searchParams.append('status_ids[]', '1'); // New without tags
+
   const html = await fetchText(url.toString(), 'Vinted');
   const occurrences = [];
   const re = /href=["'](?:https?:\/\/(?:www\.)?vinted\.co\.uk)?(\/items\/(\d+)(?:-[^"'?#]*)?)(?:\?[^"']*)?["']/gi;
@@ -159,11 +150,10 @@ async function fetchVinted(query) {
 
   const unique = [];
   const used = new Set();
-  for (const x of occurrences) {
-    if (!used.has(x.id)) {
-      used.add(x.id);
-      unique.push(x);
-    }
+  for (const occurrence of occurrences) {
+    if (used.has(occurrence.id)) continue;
+    used.add(occurrence.id);
+    unique.push(occurrence);
   }
 
   const out = [];
@@ -174,69 +164,32 @@ async function fetchVinted(query) {
     const text = visibleText(chunk);
     const price = parseFirstPound(text);
     if (!Number.isFinite(price) || price <= 0 || price > 1000) continue;
+
     const titleFromSlug = decodeURIComponentSafe(current.path.replace(/^\/items\/\d+-?/, '').replace(/-/g, ' ')).trim();
     const title = cleanTitle(titleFromSlug || extractMetaText(chunk, 'title') || 'Vinted item');
+    const condition = inferAllowedCondition(text);
+
     out.push({
       platform: 'VINTED',
       id: String(current.id),
       title,
       price,
-      condition: inferCondition(text),
+      condition,
       size: inferSize(`${title} ${text}`),
       text: `${title} ${text}`,
-      url: `https://www.vinted.co.uk${current.path}`,
-      newListing: true
+      url: `https://www.vinted.co.uk${current.path}`
     });
   }
   return out;
 }
 
-async function fetchEbay(query) {
-  const url = new URL('https://www.ebay.co.uk/sch/i.html');
-  url.searchParams.set('_nkw', query);
-  url.searchParams.set('_sop', '10');
-  url.searchParams.set('LH_BIN', '1');
-  url.searchParams.set('rt', 'nc');
-
-  const html = await fetchText(url.toString(), 'eBay');
-  const chunks = html.match(/<li\b[^>]*class=["'][^"']*\bs-item\b[^"']*["'][\s\S]*?<\/li>/gi) || [];
-  const out = [];
-  const used = new Set();
-
-  for (const chunk of chunks) {
-    if (out.length >= Number(CONFIG.scan.itemsPerSource || 35)) break;
-    const href = firstMatch(chunk, /href=["'](https?:\/\/www\.ebay\.co\.uk\/itm\/(?:[^"'?#/]+\/)?(\d+)[^"']*)["']/i);
-    if (!href) continue;
-    const id = href[2];
-    if (used.has(id)) continue;
-    used.add(id);
-
-    const titleHtml =
-      firstMatch(chunk, /<div[^>]*class=["'][^"']*\bs-item__title\b[^"']*["'][^>]*>([\s\S]*?)<\/div>/i)?.[1] ||
-      firstMatch(chunk, /<span[^>]*role=["']heading["'][^>]*>([\s\S]*?)<\/span>/i)?.[1] ||
-      '';
-    const title = cleanTitle(visibleText(titleHtml));
-    if (!title || /shop on ebay/i.test(title)) continue;
-
-    const priceHtml = firstMatch(chunk, /<span[^>]*class=["'][^"']*\bs-item__price\b[^"']*["'][^>]*>([\s\S]*?)<\/span>/i)?.[1] || '';
-    const price = parseFirstPound(visibleText(priceHtml));
-    if (!Number.isFinite(price) || price <= 0 || price > 1000) continue;
-
-    const text = visibleText(chunk);
-    out.push({
-      platform: 'EBAY',
-      id: String(id),
-      title,
-      price,
-      condition: inferCondition(text),
-      size: inferSize(`${title} ${text}`),
-      text: `${title} ${text}`,
-      url: href[1].replace(/&amp;/g, '&'),
-      newListing: /\bnew listing\b/i.test(text),
-      bestOffer: /\bbest offer\b/i.test(text)
-    });
-  }
-  return out;
+function inferAllowedCondition(text) {
+  const n = normalise(text);
+  if (/\bnew with tags\b/.test(n)) return 'new';
+  if (/\bnew without tags\b/.test(n)) return 'new-other';
+  // The catalogue request itself is restricted to Vinted status IDs 6 and 1.
+  // If the card omits its condition label, use the more conservative of the two.
+  return 'new-other';
 }
 
 function identifyModel(item, models) {
@@ -244,10 +197,8 @@ function identifyModel(item, models) {
   let best = null;
 
   for (const model of models) {
-    const brandTokens = brandVariants(model.brand);
-    const brandHit = brandTokens.some(v => text.includes(v));
+    const brandHit = brandVariants(model.brand).some(v => text.includes(v));
     if (!brandHit) continue;
-
     const matchValues = (model.matchAny || []).map(normalise);
     const hit = matchValues.find(v => text.includes(v));
     if (!hit) continue;
@@ -261,27 +212,18 @@ function identifyModel(item, models) {
   return best;
 }
 
-function evaluate({ item, model, modelConfidence, marketMedian, sourceMedians }) {
+function evaluate({ item, model, modelConfidence, marketMedian }) {
   const size = item.size;
   const baseline = Number(model.resaleBySize?.[size] ?? model.baselineResale);
   const activeSignal = Number.isFinite(marketMedian) ? clamp(marketMedian, baseline * 0.65, baseline * 1.25) : baseline;
-  const conditionMultiplier = {
-    new: 1.0,
-    'new-other': 0.96,
-    'very-good': 0.91,
-    good: 0.82,
-    unknown: 0.78
-  }[item.condition] ?? 0.78;
-
+  const conditionMultiplier = item.condition === 'new' ? 1 : 0.96;
   const estimatedResale = round2(clamp((baseline * 0.78 + activeSignal * 0.22) * conditionMultiplier, baseline * 0.62, baseline * 1.08));
-  const sourceCost = item.platform === 'VINTED'
-    ? item.price * Number(CONFIG.costs.vintedBuyerProtectionRateEstimate || 0) + Number(CONFIG.costs.vintedBuyerProtectionFixedEstimate || 0)
-    : 0;
+
+  const buyerProtection = item.price * Number(CONFIG.costs.vintedBuyerProtectionRateEstimate || 0) + Number(CONFIG.costs.vintedBuyerProtectionFixedEstimate || 0);
   const resaleFees = estimatedResale * Number(CONFIG.costs.resaleFeeRate || 0);
-  const totalCost = item.price + sourceCost + Number(CONFIG.costs.packaging || 0) + resaleFees;
+  const totalCost = item.price + buyerProtection + Number(CONFIG.costs.packaging || 0) + resaleFees;
   const netProfit = round2(estimatedResale - totalCost);
   const roi = round2(item.price > 0 ? (netProfit / item.price) * 100 : 0);
-  const spread = round2(estimatedResale - item.price);
 
   const maxBuy = modelMaxBuy(model, size, item.condition);
   const belowMax = item.price <= maxBuy;
@@ -290,7 +232,7 @@ function evaluate({ item, model, modelConfidence, marketMedian, sourceMedians })
   const marginScore = clamp((netProfit / Math.max(estimatedResale, 1)) * 180, 0, 100);
   const roiScore = clamp(roi * 1.15, 0, 100);
   const priceScore = clamp(discountToBaseline * 120, 0, 100);
-  const conditionScore = { new: 100, 'new-other': 94, 'very-good': 86, good: 72, unknown: 56 }[item.condition] ?? 56;
+  const conditionScore = item.condition === 'new' ? 100 : 94;
   const confidenceScore = modelConfidence * 100;
   const fakeRisk = counterfeitRisk(model, item, estimatedResale, modelConfidence);
 
@@ -302,22 +244,14 @@ function evaluate({ item, model, modelConfidence, marketMedian, sourceMedians })
     conditionScore * 0.08 +
     confidenceScore * 0.10
   );
-
   if (belowMax) score += 4;
-  if (item.platform === 'EBAY' && item.bestOffer && item.price <= maxBuy * 1.12) score += 2;
   if (fakeRisk.level === 'MEDIUM') score -= 8;
   if (fakeRisk.level === 'HIGH') score = Math.min(score - 18, 79);
   if (!size) score -= 5;
   score = clamp(Math.round(score), 0, 100);
 
-  const strong =
-    netProfit >= Number(CONFIG.scoring.strongNetProfit || 30) &&
-    roi >= Number(CONFIG.scoring.strongRoi || 55) &&
-    fakeRisk.level !== 'HIGH';
-  const exceptional =
-    netProfit >= Number(CONFIG.scoring.exceptionalNetProfit || 45) &&
-    roi >= Number(CONFIG.scoring.exceptionalRoi || 80) &&
-    fakeRisk.level !== 'HIGH';
+  const strong = netProfit >= Number(CONFIG.scoring.strongNetProfit || 30) && roi >= Number(CONFIG.scoring.strongRoi || 55) && fakeRisk.level !== 'HIGH';
+  const exceptional = netProfit >= Number(CONFIG.scoring.exceptionalNetProfit || 45) && roi >= Number(CONFIG.scoring.exceptionalRoi || 80) && fakeRisk.level !== 'HIGH';
   const qualifies =
     netProfit >= Number(CONFIG.scoring.minNetProfit || 18) &&
     roi >= Number(CONFIG.scoring.minRoi || 35) &&
@@ -325,38 +259,28 @@ function evaluate({ item, model, modelConfidence, marketMedian, sourceMedians })
     fakeRisk.level !== 'HIGH';
 
   const verdict = exceptional ? '🔥 EXCEPTIONAL BUY' : score >= 90 ? '🟢 STRONG BUY' : score >= 82 ? '✅ BUY' : '⚠️ REVIEW';
-  return {
-    model,
-    size,
-    baseline,
-    estimatedResale,
-    netProfit,
-    roi,
-    spread,
-    score,
-    verdict,
-    qualifies,
-    strong,
-    exceptional,
-    maxBuy,
-    marketMedian,
-    sourceMedians,
-    modelConfidence,
-    fakeRisk
-  };
+  return { model, size, baseline, estimatedResale, netProfit, roi, score, verdict, qualifies, strong, exceptional, maxBuy, marketMedian, modelConfidence, fakeRisk };
+}
+
+function modelMaxBuy(model, size, condition) {
+  const base = Number(model.maxBuy || 0);
+  const baseline = Number(model.baselineResale || 1);
+  const sized = Number(model.resaleBySize?.[size] ?? baseline);
+  const sizeFactor = clamp(sized / Math.max(baseline, 1), 0.82, 1.15);
+  const conditionFactor = condition === 'new' ? 1 : 0.96;
+  return round2(base * sizeFactor * conditionFactor);
 }
 
 function counterfeitRisk(model, item, resale, confidence) {
   const base = String(model.counterfeitRisk || 'low').toLowerCase();
   const ratio = item.price / Math.max(resale, 1);
   const text = normalise(`${item.title} ${item.text}`);
-
   const flags = [];
   if (ratio < 0.24) flags.push('price is unusually low');
   if (confidence < 0.76) flags.push('model identification is not fully confident');
   if (/\b(rep|replica|fake|ua|1:1|mirror|batch)\b/i.test(text)) flags.push('counterfeit wording detected');
 
-  let level = base === 'high' ? 'MEDIUM' : base === 'medium' ? 'LOW' : 'LOW';
+  let level = base === 'high' ? 'MEDIUM' : 'LOW';
   if (flags.some(x => x.includes('counterfeit'))) level = 'HIGH';
   else if (base === 'high' && ratio < 0.35) level = 'HIGH';
   else if (base === 'medium' && ratio < 0.28) level = 'HIGH';
@@ -384,19 +308,20 @@ async function maybeSendSupplyVacuum({ group, all, marketMedian, state, diagnost
   const body = {
     username: "Dan's Vault Winter Flips",
     embeds: [{
-      title: '⚠️ DAN’S VAULT • SUPPLY VACUUM',
+      title: '⚠️ DAN’S VAULT • VINTED SUPPLY VACUUM',
       description:
         `**${group.query}**\n\n` +
-        `📦 Previous visible supply: **${previous.count}**\n` +
-        `📉 Current visible supply: **${all.length}** (**-${Math.round(drop * 100)}%**)\n` +
+        `📦 Previous visible Vinted supply: **${previous.count}**\n` +
+        `📉 Current visible Vinted supply: **${all.length}** (**-${Math.round(drop * 100)}%**)\n` +
         `${Number.isFinite(previous.median) ? `💷 Previous active median: **£${Number(previous.median).toFixed(0)}**\n` : ''}` +
         `${Number.isFinite(marketMedian) ? `💷 Current active median: **£${Number(marketMedian).toFixed(0)}**\n` : ''}` +
-        `\n🧠 Supply has contracted sharply without a matching price collapse. This is a sourcing signal, not proof of sold demand.`,
+        `\n🧠 Visible Vinted stock has contracted sharply without a matching price collapse. This is a sourcing signal, not sold-data proof.`,
       color: 15105570,
-      footer: { text: "Dan's Vault • Winter Flips • Vinted + eBay" },
+      footer: { text: "Dan's Vault • Winter Flips • Vinted" },
       timestamp: new Date().toISOString()
     }]
   };
+
   const id = await postDiscord(body).catch(() => null);
   if (id) {
     state.supplyAlerts[group.key] = new Date().toISOString();
@@ -405,47 +330,92 @@ async function maybeSendSupplyVacuum({ group, all, marketMedian, state, diagnost
 }
 
 async function sendDealAlert(item, d) {
-  const platformIcon = item.platform === 'VINTED' ? '🟢' : '🔵';
   const confidencePct = Math.round(d.modelConfidence * 100);
   const riskEmoji = d.fakeRisk.level === 'LOW' ? '🟢' : d.fakeRisk.level === 'MEDIUM' ? '🟠' : '🔴';
-  const cross =
-    `${Number.isFinite(d.sourceMedians.vinted) ? `Vinted £${d.sourceMedians.vinted.toFixed(0)}` : 'Vinted n/a'} • ` +
-    `${Number.isFinite(d.sourceMedians.ebay) ? `eBay £${d.sourceMedians.ebay.toFixed(0)}` : 'eBay n/a'}`;
   const reasons = [
     item.price <= d.maxBuy ? `✅ below model max-buy (£${d.maxBuy.toFixed(0)})` : null,
     d.roi >= 80 ? `🔥 ${d.roi.toFixed(0)}% estimated ROI` : d.roi >= 55 ? `📈 ${d.roi.toFixed(0)}% estimated ROI` : null,
     d.netProfit >= 45 ? `💰 £${d.netProfit.toFixed(0)} estimated net profit` : null,
-    d.model.demand >= 90 ? '⚡ very high configured demand' : null,
-    item.bestOffer ? '🤝 eBay Best Offer available' : null
+    d.model.demand >= 90 ? '⚡ very high configured demand' : null
   ].filter(Boolean).slice(0, 4).join('\n') || '✅ Passed Winter Flips margin and demand thresholds';
 
+  const imageUrl = await fetchExactLeadImage(item.url);
   const body = {
     username: "Dan's Vault Winter Flips",
     embeds: [{
-      title: `${platformIcon} ${d.verdict} • ${d.score}/100`,
+      title: `🟢 VINTED • ${d.verdict} • ${d.score}/100`,
       url: item.url,
       description:
         `🧥 **${d.model.brand} ${d.model.name}**\n` +
         `📝 ${item.title}\n\n` +
-        `🛒 **Marketplace:** ${item.platform}\n` +
         `📏 **Size:** ${d.size || 'Not confirmed'}\n` +
-        `✨ **Condition:** ${prettyCondition(item.condition)}\n\n` +
+        `✨ **Condition:** ${item.condition === 'new' ? 'New with tags' : 'New without tags'}\n\n` +
         `🏷️ **Buy:** £${item.price.toFixed(2)}\n` +
         `📈 **Conservative resale estimate:** £${d.estimatedResale.toFixed(2)}\n` +
         `💰 **Estimated net profit:** £${d.netProfit.toFixed(2)}\n` +
         `📊 **Estimated ROI:** ${d.roi.toFixed(1)}%\n` +
         `🎯 **Max buy:** £${d.maxBuy.toFixed(2)}\n\n` +
-        `🌐 **Cross-market active-price signal:** ${cross}\n` +
+        `${Number.isFinite(d.marketMedian) ? `💷 **Current Vinted active median:** £${d.marketMedian.toFixed(0)}\n` : ''}` +
         `🧠 **Model ID confidence:** ${confidencePct}%\n` +
         `${riskEmoji} **Counterfeit risk gate:** ${d.fakeRisk.level}\n\n` +
         `**WHY IT PINGED**\n${reasons}\n\n` +
-        `➡️ **[VIEW ${item.platform} LISTING](${item.url})**`,
+        `➡️ **[VIEW VINTED LISTING](${item.url})**`,
       color: d.score >= 92 ? 3066993 : d.score >= 85 ? 5763719 : 16776960,
-      footer: { text: "Dan's Vault • Winter Flips • Vinted + eBay simultaneously" },
+      ...(imageUrl ? { image: { url: imageUrl } } : {}),
+      footer: { text: "Dan's Vault • Winter Flips • Vinted only" },
       timestamp: new Date().toISOString()
     }]
   };
   return postDiscord(body);
+}
+
+async function fetchExactLeadImage(itemUrl) {
+  try {
+    const html = await fetchText(itemUrl, 'Vinted item');
+    const image = metaContent(html, 'og:image') || metaContent(html, 'twitter:image');
+    return cleanVintedImageUrl(image);
+  } catch {
+    return null;
+  }
+}
+
+function metaContent(html, key) {
+  const wanted = String(key).toLowerCase();
+  const tags = String(html).match(/<meta\b[^>]*>/gi) || [];
+  for (const tag of tags) {
+    const property = attr(tag, 'property').toLowerCase();
+    const name = attr(tag, 'name').toLowerCase();
+    if (property !== wanted && name !== wanted) continue;
+    const content = attr(tag, 'content');
+    if (content) return decodeHtml(content);
+  }
+  return '';
+}
+
+function attr(tag, name) {
+  const escaped = String(name).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  for (const pattern of [
+    new RegExp(`${escaped}\\s*=\\s*\"([^\"]*)\"`, 'i'),
+    new RegExp(`${escaped}\\s*=\\s*'([^']*)'`, 'i')
+  ]) {
+    const match = String(tag).match(pattern);
+    if (match) return match[1];
+  }
+  return '';
+}
+
+function cleanVintedImageUrl(value) {
+  if (!value) return null;
+  let raw = decodeHtml(String(value).trim());
+  if (raw.startsWith('//')) raw = `https:${raw}`;
+  try {
+    const parsed = new URL(raw);
+    const host = parsed.hostname.toLowerCase();
+    if (parsed.protocol !== 'https:' || !(host === 'vinted.net' || host.endsWith('.vinted.net'))) return null;
+    return parsed.toString();
+  } catch {
+    return null;
+  }
 }
 
 async function postDiscord(body) {
@@ -481,15 +451,6 @@ async function fetchText(url, sourceName) {
   }
 }
 
-function inferCondition(text) {
-  const n = normalise(text);
-  if (/\bbrand new\b|\bnew with tags\b|\bnew with box\b/.test(n)) return 'new';
-  if (/\bnew without tags\b|\bnew other\b|\bnew without box\b/.test(n)) return 'new-other';
-  if (/\bvery good\b|\bexcellent\b|\blike new\b/.test(n)) return 'very-good';
-  if (/\bgood condition\b|\bpre owned\b|\bpre-owned\b|\bused\b/.test(n)) return 'good';
-  return 'unknown';
-}
-
 function inferSize(text) {
   const n = normalise(text);
   const patterns = [
@@ -509,151 +470,132 @@ function inferSize(text) {
   return null;
 }
 
-function modelMaxBuy(model, size, condition) {
-  const baseline = Number(model.resaleBySize?.[size] ?? model.baselineResale);
-  const configured = Number(model.maxBuy || baseline * 0.5);
-  const sizeAdjusted = size && model.resaleBySize?.[size]
-    ? configured * (Number(model.resaleBySize[size]) / Number(model.baselineResale))
-    : configured;
-  const conditionMultiplier = { new: 1.08, 'new-other': 1.03, 'very-good': 1, good: 0.86, unknown: 0.76 }[condition] ?? 0.76;
-  return round2(sizeAdjusted * conditionMultiplier);
-}
-
 function brandVariants(brand) {
   const b = normalise(brand);
-  const variants = [b];
-  if (b.includes('the north face')) variants.push('north face', 'tnf');
-  if (b.includes("arc'teryx") || b.includes('arcteryx')) variants.push('arcteryx', 'arc teryx');
-  if (b.includes('polo ralph lauren')) variants.push('ralph lauren', 'polo');
-  return variants;
+  const out = [b];
+  if (b.includes('the north face')) out.push('north face', 'tnf');
+  if (b.includes("arc'teryx") || b.includes('arcteryx')) out.push('arcteryx', 'arc teryx');
+  if (b.includes('polo ralph lauren')) out.push('ralph lauren', 'polo');
+  return out;
+}
+
+function defaultState() {
+  return { version: 2, rotationCursor: 0, lastRunAt: null, seen: {}, market: {}, opportunities: [], supplyAlerts: {} };
+}
+
+function normaliseState(s) {
+  s.version = 2;
+  s.rotationCursor ||= 0;
+  s.seen ||= {};
+  s.market ||= {};
+  s.opportunities ||= [];
+  s.supplyAlerts ||= {};
+  // Remove legacy records from sources that are no longer used.
+  for (const key of Object.keys(s.seen)) if (!key.startsWith('VINTED:')) delete s.seen[key];
+  s.opportunities = s.opportunities.filter(x => !x.platform || x.platform === 'VINTED');
+  for (const snap of Object.values(s.market)) {
+    if (snap && typeof snap === 'object') {
+      delete snap.ebayCount;
+      delete snap.ebayMedian;
+    }
+  }
+}
+
+function pruneState(s) {
+  const seenCutoff = Date.now() - 21 * 86400000;
+  for (const [key, value] of Object.entries(s.seen)) {
+    if (Date.parse(value.lastSeenAt || 0) < seenCutoff) delete s.seen[key];
+  }
+  s.opportunities = (s.opportunities || []).slice(0, 120);
 }
 
 function compactEvaluation(d) {
   return {
     modelId: d.model.id,
-    resale: d.estimatedResale,
+    size: d.size,
+    estimatedResale: d.estimatedResale,
     netProfit: d.netProfit,
     roi: d.roi,
     score: d.score,
-    risk: d.fakeRisk.level,
-    confidence: round2(d.modelConfidence)
+    maxBuy: d.maxBuy,
+    risk: d.fakeRisk.level
   };
 }
 
-function normaliseState(s) {
-  s.seen ||= {};
-  s.market ||= {};
-  s.opportunities ||= [];
-  s.supplyAlerts ||= {};
-  s.rotationCursor ||= 0;
-}
-
-function defaultState() {
-  return { version: 1, rotationCursor: 0, lastRunAt: null, seen: {}, market: {}, opportunities: [], supplyAlerts: {} };
-}
-
-function pruneState(s) {
-  const cutoff = Date.now() - 21 * 86400000;
-  for (const [key, value] of Object.entries(s.seen)) {
-    const seenAt = Date.parse(value.lastSeenAt || value.firstSeenAt || 0);
-    if (Number.isFinite(seenAt) && seenAt > 0 && seenAt < cutoff) delete s.seen[key];
-  }
-  s.opportunities = (s.opportunities || []).slice(0, 120);
-}
-
-async function loadJson(path, fallback) {
-  try {
-    return JSON.parse(await fs.readFile(path, 'utf8'));
-  } catch {
-    return structuredClone(fallback);
-  }
-}
-
 function dedupeItems(items) {
-  const map = new Map();
-  for (const item of items) {
-    const key = `${item.platform}:${item.id}`;
-    if (!map.has(key)) map.set(key, item);
-  }
-  return [...map.values()];
-}
-
-function cleanTitle(value) {
-  return String(value || '')
-    .replace(/^new listing\s*/i, '')
-    .replace(/\s+/g, ' ')
-    .trim()
-    .slice(0, 180);
-}
-
-function visibleText(html) {
-  return decodeHtml(String(html || '')
-    .replace(/<script\b[\s\S]*?<\/script>/gi, ' ')
-    .replace(/<style\b[\s\S]*?<\/style>/gi, ' ')
-    .replace(/<[^>]+>/g, ' ')
-    .replace(/\s+/g, ' '));
-}
-
-function decodeHtml(value) {
-  return String(value || '')
-    .replace(/&amp;/g, '&')
-    .replace(/&quot;/g, '"')
-    .replace(/&#39;|&apos;/g, "'")
-    .replace(/&pound;/g, '£')
-    .replace(/&nbsp;/g, ' ')
-    .replace(/&#(\d+);/g, (_, n) => String.fromCharCode(Number(n)));
-}
-
-function extractMetaText(html, name) {
-  const re = new RegExp(`<meta[^>]+(?:name|property)=["'][^"']*${name}[^"']*["'][^>]+content=["']([^"']+)["']`, 'i');
-  return firstMatch(html, re)?.[1] || '';
+  const seen = new Set();
+  return items.filter(item => {
+    const key = String(item.id);
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
 }
 
 function parseFirstPound(text) {
-  const match = String(text || '').match(/£\s*([0-9]+(?:[.,][0-9]{1,2})?)/);
-  return match ? Number(match[1].replace(',', '.')) : NaN;
+  const matches = [...String(text).matchAll(/£\s*([0-9]{1,4}(?:[.,][0-9]{1,2})?)/g)];
+  for (const match of matches) {
+    const value = Number(match[1].replace(',', '.'));
+    if (Number.isFinite(value) && value > 0) return value;
+  }
+  return null;
 }
 
-function firstMatch(text, re) {
-  return re.exec(String(text || ''));
+function visibleText(html) {
+  return String(html || '')
+    .replace(/<script\b[\s\S]*?<\/script>/gi, ' ')
+    .replace(/<style\b[\s\S]*?<\/style>/gi, ' ')
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/&amp;/g, '&')
+    .replace(/&nbsp;/g, ' ')
+    .replace(/&#39;|&apos;/g, "'")
+    .replace(/&quot;/g, '"')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function extractMetaText(html, key) {
+  return metaContent(html, key);
+}
+
+function cleanTitle(value) {
+  return decodeHtml(String(value || '')).replace(/\s+/g, ' ').trim().slice(0, 180);
+}
+
+function decodeHtml(value) {
+  return String(value)
+    .replace(/&amp;/g, '&')
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;|&apos;/g, "'")
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>');
 }
 
 function decodeURIComponentSafe(value) {
   try { return decodeURIComponent(value); } catch { return value; }
 }
 
+function normalise(value) {
+  return String(value || '').toLowerCase().replace(/[’‘]/g, "'").replace(/\s+/g, ' ').trim();
+}
+
 function median(values) {
   const sorted = values.filter(Number.isFinite).sort((a, b) => a - b);
-  if (!sorted.length) return NaN;
-  const mid = Math.floor(sorted.length / 2);
-  return sorted.length % 2 ? sorted[mid] : (sorted[mid - 1] + sorted[mid]) / 2;
+  if (!sorted.length) return null;
+  const middle = Math.floor(sorted.length / 2);
+  return sorted.length % 2 ? sorted[middle] : (sorted[middle - 1] + sorted[middle]) / 2;
 }
 
 function pickCircular(items, start, count) {
-  if (!items.length) return [];
   const out = [];
-  for (let i = 0; i < Math.min(count, items.length); i += 1) out.push(items[(start + i) % items.length]);
+  for (let i = 0; i < count; i += 1) out.push(items[(start + i) % items.length]);
   return out;
 }
 
-function prettyCondition(value) {
-  return {
-    new: 'New',
-    'new-other': 'New without tags / other',
-    'very-good': 'Very Good',
-    good: 'Good / Used',
-    unknown: 'Not confirmed'
-  }[value] || 'Not confirmed';
-}
-
 function slug(value) {
-  return normalise(value).replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+  return normalise(value).replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 60);
 }
 
-function normalise(value) {
-  return decodeHtml(String(value || '')).toLowerCase().replace(/[’‘]/g, "'").replace(/\s+/g, ' ').trim();
-}
-
+function clamp(n, min, max) { return Math.max(min, Math.min(max, Number(n))); }
 function round2(n) { return Math.round(Number(n) * 100) / 100; }
-function clamp(n, min, max) { return Math.max(min, Math.min(max, n)); }
 function sleep(ms) { return new Promise(resolve => setTimeout(resolve, ms)); }
