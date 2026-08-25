@@ -1,37 +1,39 @@
 {
-  "generatedAt": "2026-08-25T20:57:59.721Z",
-  "stateUpdatedAt": "2026-08-25T20:57:59.721Z",
-  "lastAttemptAt": "2026-08-25T20:57:59.721Z",
-  "lastScanAt": "2026-08-25T20:57:59.721Z",
+  "generatedAt": "2026-08-25T21:03:00.406Z",
+  "stateUpdatedAt": "2026-08-25T21:03:00.406Z",
+  "lastAttemptAt": "2026-08-25T21:03:00.406Z",
+  "lastScanAt": "2026-08-25T21:03:00.406Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Air Max Bargain::generic",
-    "Nike Running Trainer Bargain::generic",
-    "Nike Lifestyle Trainer Bargain::generic",
-    "Nike Football Boot Bargain::generic",
-    "Nike Basketball Shoe Bargain::generic",
-    "Nike SB Shoe Bargain::generic"
+    "Nike P-6000::primary",
+    "Nike V5 RNR::primary",
+    "Nike Vomero 5::primary",
+    "Nike Vomero 18::primary",
+    "Nike Vomero Plus::primary",
+    "Nike Vomero Premium::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1344,
-  "catalogItems": 960,
-  "candidateItems": 399,
-  "freshItems": 153,
-  "qualifyingAlerts": 7,
+  "catalogMarkers": 1262,
+  "catalogItems": 609,
+  "candidateItems": 389,
+  "freshItems": 61,
+  "qualifyingAlerts": 5,
   "qualifyingByCondition": {
-    "veryGood": 6,
+    "newWithoutTags": 3,
+    "veryGood": 1,
     "newWithTags": 1
   },
-  "deliveredAlerts": 7,
+  "deliveredAlerts": 5,
   "deliveredByCondition": {
-    "veryGood": 6,
+    "newWithoutTags": 3,
+    "veryGood": 1,
     "newWithTags": 1
   },
-  "duplicateSuppressed": 1,
+  "duplicateSuppressed": 30,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,14 +69,14 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "recovery-no-fresh-signal": 245,
-    "price": 20,
-    "size": 4,
-    "condition": 33,
-    "seller-risk": 1,
-    "keyword": 13,
-    "seller-check-budget-exhausted": 35,
-    "detail-budget-exhausted": 40
+    "stale": 298,
+    "price": 4,
+    "size": 6,
+    "weak-margin": 3,
+    "keyword": 4,
+    "score": 1,
+    "seller-check-budget-exhausted": 30,
+    "detail-budget-exhausted": 8
   },
   "failures": {}
 }
