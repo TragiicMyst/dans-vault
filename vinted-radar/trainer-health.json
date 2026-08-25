@@ -1,35 +1,37 @@
 {
-  "generatedAt": "2026-08-25T06:48:15.550Z",
-  "stateUpdatedAt": "2026-08-25T06:48:15.550Z",
-  "lastAttemptAt": "2026-08-25T06:48:15.550Z",
-  "lastScanAt": "2026-08-25T06:48:15.550Z",
+  "generatedAt": "2026-08-25T06:53:15.383Z",
+  "stateUpdatedAt": "2026-08-25T06:53:15.383Z",
+  "lastAttemptAt": "2026-08-25T06:53:15.383Z",
+  "lastScanAt": "2026-08-25T06:53:15.383Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Air Max 270::primary",
-    "Nike Air Max Dn::primary",
-    "Nike Air Max 1::primary",
-    "Nike Shox TL::primary",
-    "Nike Shox R4::primary",
-    "Nike Shox Ride 2::primary"
+    "Nike Air Force 1::primary",
+    "Nike Dunk Low::primary",
+    "Air Jordan 1 Low::primary",
+    "Air Jordan 1 Mid::primary",
+    "Air Jordan 4::primary",
+    "Nike Initiator::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1343,
-  "catalogItems": 895,
-  "candidateItems": 433,
-  "freshItems": 7,
-  "qualifyingAlerts": 1,
+  "catalogMarkers": 1344,
+  "catalogItems": 987,
+  "candidateItems": 663,
+  "freshItems": 23,
+  "qualifyingAlerts": 5,
   "qualifyingByCondition": {
-    "newWithoutTags": 1
+    "veryGood": 3,
+    "newWithoutTags": 2
   },
-  "deliveredAlerts": 1,
+  "deliveredAlerts": 5,
   "deliveredByCondition": {
-    "newWithoutTags": 1
+    "veryGood": 3,
+    "newWithoutTags": 2
   },
-  "duplicateSuppressed": 52,
+  "duplicateSuppressed": 20,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -63,12 +65,14 @@
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 5,
+  "detailFetches": 12,
   "rejects": {
-    "stale": 374,
-    "size": 2,
-    "seller-risk": 2,
-    "price": 2
+    "stale": 620,
+    "condition": 6,
+    "weak-margin": 2,
+    "keyword": 3,
+    "size": 6,
+    "score": 1
   },
   "failures": {}
 }
