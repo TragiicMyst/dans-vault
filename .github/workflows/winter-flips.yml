@@ -1,0 +1,68 @@
+name: Dan's Vault Winter Flips Radar
+
+on:
+  schedule:
+    - cron: '4,14,24,34,44,54 * * * *'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Run a live scan or send a test alert'
+        required: false
+        default: 'scan'
+        type: choice
+        options:
+          - scan
+          - test
+  pull_request:
+    paths:
+      - 'winter-flips/**'
+      - '.github/workflows/winter-flips.yml'
+
+concurrency:
+  group: dans-vault-winter-flips
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  winter-flips:
+    runs-on: ubuntu-latest
+    timeout-minutes: 9
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v5
+
+      - name: Validate Winter Flips modules
+        run: |
+          set -e
+          node --check winter-flips/engine.mjs
+          node --check winter-flips/test-alert.mjs
+          node -e "JSON.parse(require('fs').readFileSync('winter-flips/config.json','utf8'))"
+          node -e "JSON.parse(require('fs').readFileSync('winter-flips/state.json','utf8'))"
+          bash -n winter-flips/run-cycle.sh
+
+      - name: Check dedicated Discord webhook
+        id: gate
+        env:
+          DISCORD_WINTER_FLIPS_WEBHOOK_URL: ${{ secrets.DISCORD_WINTER_FLIPS_WEBHOOK_URL }}
+        run: |
+          if [ -n "$DISCORD_WINTER_FLIPS_WEBHOOK_URL" ]; then
+            echo "enabled=true" >> "$GITHUB_OUTPUT"
+            echo "Dedicated Winter Flips webhook is configured."
+          else
+            echo "enabled=false" >> "$GITHUB_OUTPUT"
+            echo "DISCORD_WINTER_FLIPS_WEBHOOK_URL is not configured yet; scan/test steps will be skipped."
+          fi
+
+      - name: Send dedicated-channel test alert
+        if: steps.gate.outputs.enabled == 'true' && github.event_name == 'workflow_dispatch' && inputs.mode == 'test'
+        env:
+          DISCORD_WINTER_FLIPS_WEBHOOK_URL: ${{ secrets.DISCORD_WINTER_FLIPS_WEBHOOK_URL }}
+        run: node winter-flips/test-alert.mjs
+
+      - name: Run combined Vinted + eBay radar
+        if: steps.gate.outputs.enabled == 'true' && !(github.event_name == 'workflow_dispatch' && inputs.mode == 'test') && github.event_name != 'pull_request'
+        env:
+          DISCORD_WINTER_FLIPS_WEBHOOK_URL: ${{ secrets.DISCORD_WINTER_FLIPS_WEBHOOK_URL }}
+        run: bash winter-flips/run-cycle.sh 3 180 105
