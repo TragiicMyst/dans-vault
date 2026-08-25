@@ -57576,7 +57576,7 @@
   "sellers": {},
   "images": {},
   "cursor": 4,
-  "updatedAt": "2026-08-25T05:08:11.911Z",
+  "updatedAt": "2026-08-25T08:18:59.491Z",
   "lastRotation": {
     "bot": "clothing",
     "selected": [
@@ -58005,12 +58005,12 @@
       }
     },
     "lastScanAt": "2026-08-24T11:09:16.385Z",
-    "lastAttemptAt": "2026-08-25T05:08:11.911Z"
+    "lastAttemptAt": "2026-08-25T08:18:59.491Z"
   },
   "diagnostics": {
     "bot": "clothing",
     "radarVersion": 6,
-    "lastRunAt": "2026-08-25T05:08:11.911Z",
+    "lastRunAt": "2026-08-25T08:18:59.491Z",
     "recoveryMode": true,
     "filterProfile": {
       "freshnessMinutes": 15,
@@ -58048,7 +58048,7 @@
     "pendingDeliveries": 0,
     "rejects": {},
     "failures": {
-      "Nike Any Clothing Bargain::nike": "Vinted guard cooldown active for 44s"
+      "Nike Any Clothing Bargain::nike": "Vinted guard cooldown active for 43s"
     },
     "healthyScan": false,
     "healthReason": "vinted-block-or-challenge"
@@ -58689,5 +58689,5 @@
     "9761819842": "2026-08-24T11:04:31.089Z",
     "9761795641": "2026-08-24T11:04:34.494Z"
   },
-  "cooldownUntil": "2026-08-25T05:09:28.660Z"
+  "cooldownUntil": "2026-08-25T08:20:16.802Z"
 }
