@@ -21,7 +21,7 @@ for cycle in $(seq 1 "$CYCLES"); do
   echo "=== Winter Flips cycle $cycle/$CYCLES ==="
 
   set +e
-  timeout "${CYCLE_TIMEOUT_SECONDS}s" node winter-flips/engine.mjs
+  timeout "${CYCLE_TIMEOUT_SECONDS}s" node winter-flips/run-conditioned.mjs
   rc=$?
   if [ "$rc" -eq 0 ]; then
     node winter-flips/intelligence.mjs
