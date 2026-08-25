@@ -246844,7 +246844,7 @@
       ]
     }
   },
-  "updatedAt": "2026-08-25T20:03:00.800Z",
+  "updatedAt": "2026-08-25T20:08:00.661Z",
   "cursor": 0,
   "lastRotation": {
     "bot": "trainers",
@@ -247073,12 +247073,12 @@
       }
     },
     "lastScanAt": "2026-08-25T20:03:00.800Z",
-    "lastAttemptAt": "2026-08-25T20:03:00.800Z"
+    "lastAttemptAt": "2026-08-25T20:08:00.661Z"
   },
   "diagnostics": {
     "bot": "trainers",
     "radarVersion": 6,
-    "lastRunAt": "2026-08-25T20:03:00.800Z",
+    "lastRunAt": "2026-08-25T20:08:00.661Z",
     "recoveryMode": false,
     "filterProfile": {
       "freshnessMinutes": 15,
@@ -247094,82 +247094,32 @@
     "totalSearchGroups": 37,
     "selectedSearches": [
       "Nike Any Shoe Bargain::generic",
-      "Nike Pegasus Premium::primary",
-      "Nike Pegasus Trail 5 GORE-TEX::primary",
-      "Nike TN::primary",
-      "Nike Air Max Plus 3::primary",
-      "Nike Air Max Plus VII::primary",
-      "Nike Air Max 95::primary"
+      "Nike Air Max 90::primary",
+      "Nike Air Max 90 Drift::primary",
+      "Nike Air Max 97::primary",
+      "Nike Air Max 270::primary",
+      "Nike Air Max Dn::primary",
+      "Nike Air Max 1::primary"
     ],
-    "successfulSearches": 7,
-    "failedSearches": 0,
+    "successfulSearches": 0,
+    "failedSearches": 1,
     "confirmedEmptySearches": 0,
-    "catalogMarkers": 1344,
-    "catalogItems": 1015,
-    "candidateItems": 484,
-    "freshItems": 55,
+    "catalogMarkers": 0,
+    "catalogItems": 0,
+    "candidateItems": 0,
+    "freshItems": 0,
     "freshByAge": 0,
-    "freshByNewId": 55,
-    "qualifyingAlerts": 5,
-    "deliveredAlerts": 5,
+    "freshByNewId": 0,
+    "qualifyingAlerts": 0,
+    "deliveredAlerts": 0,
     "discordFailures": 0,
     "pendingDeliveries": 0,
-    "rejects": {
-      "stale": 366,
-      "size": 6,
-      "price": 3,
-      "condition": 10,
-      "keyword": 3,
-      "seller-risk": 1,
-      "seller-check-budget-exhausted": 18,
-      "detail-budget-exhausted": 9
+    "rejects": {},
+    "failures": {
+      "Nike Any Shoe Bargain::generic": "Vinted guard cooldown active for 44s"
     },
-    "failures": {},
-    "healthyScan": true,
-    "detailFetches": 12,
-    "duplicateSuppressed": 63,
-    "qualifyingByCondition": {
-      "newWithoutTags": 1,
-      "newWithTags": 1,
-      "veryGood": 3
-    },
-    "deliveredByCondition": {
-      "newWithoutTags": 1,
-      "newWithTags": 1,
-      "veryGood": 3
-    },
-    "healthReason": "all-selected-searches-completed",
-    "discordRoutes": [
-      {
-        "configuredAs": "newWithoutTags",
-        "webhookId": "1541037387969462303",
-        "channelId": "1541036356384329819",
-        "guildId": "1540743210488430592",
-        "webhookName": "Dan's NWOT Bot",
-        "detectedCondition": "newWithoutTags",
-        "inspectionError": null
-      },
-      {
-        "configuredAs": "newWithTags",
-        "webhookId": "1541040362997547048",
-        "channelId": "1541040152372183140",
-        "guildId": "1540743210488430592",
-        "webhookName": "Dan's New With Tags Bot",
-        "detectedCondition": "newWithTags",
-        "inspectionError": null
-      },
-      {
-        "configuredAs": "veryGood",
-        "webhookId": "1541040545483198516",
-        "channelId": "1541040213780992171",
-        "guildId": "1540743210488430592",
-        "webhookName": "Dan's Very Good Condition Bot",
-        "detectedCondition": "veryGood",
-        "inspectionError": null
-      }
-    ],
-    "discordRouteAutoCorrected": false,
-    "discordRouteWarnings": []
+    "healthyScan": false,
+    "healthReason": "vinted-block-or-challenge"
   },
   "radarVersion": 6,
   "pendingDeliveries": {},
@@ -248803,5 +248753,6 @@
     "9779461419": "2026-08-25T20:03:44.531Z",
     "9779166067": "2026-08-25T20:03:57.718Z",
     "9778910682": "2026-08-25T20:04:02.369Z"
-  }
+  },
+  "cooldownUntil": "2026-08-25T20:09:17.471Z"
 }
