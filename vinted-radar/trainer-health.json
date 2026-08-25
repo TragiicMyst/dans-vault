@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-08-25T17:55:19.234Z",
-  "stateUpdatedAt": "2026-08-25T17:55:19.234Z",
-  "lastAttemptAt": "2026-08-25T17:55:19.234Z",
-  "lastScanAt": "2026-08-25T17:55:19.234Z",
+  "generatedAt": "2026-08-25T18:00:38.469Z",
+  "stateUpdatedAt": "2026-08-25T18:00:38.469Z",
+  "lastAttemptAt": "2026-08-25T18:00:38.469Z",
+  "lastScanAt": "2026-08-25T18:00:38.469Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Pegasus Premium::primary",
-    "Nike Pegasus Trail 5 GORE-TEX::primary",
-    "Nike TN::primary",
-    "Nike Air Max Plus 3::primary",
-    "Nike Air Max Plus VII::primary",
-    "Nike Air Max 95::primary"
+    "Nike Air Max 90::primary",
+    "Nike Air Max 90 Drift::primary",
+    "Nike Air Max 97::primary",
+    "Nike Air Max 270::primary",
+    "Nike Air Max Dn::primary",
+    "Nike Air Max 1::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1343,
-  "catalogItems": 998,
-  "candidateItems": 478,
-  "freshItems": 57,
-  "qualifyingAlerts": 7,
+  "catalogMarkers": 1344,
+  "catalogItems": 991,
+  "candidateItems": 513,
+  "freshItems": 71,
+  "qualifyingAlerts": 4,
   "qualifyingByCondition": {
-    "veryGood": 7
+    "veryGood": 4
   },
-  "deliveredAlerts": 7,
+  "deliveredAlerts": 4,
   "deliveredByCondition": {
-    "veryGood": 7
+    "veryGood": 4
   },
-  "duplicateSuppressed": 55,
+  "duplicateSuppressed": 19,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -65,15 +65,14 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 366,
-    "price": 6,
-    "weak-margin": 2,
+    "stale": 423,
+    "price": 2,
+    "size": 7,
     "condition": 10,
-    "size": 3,
-    "seller-risk": 2,
-    "seller-check-budget-exhausted": 18,
-    "detail-budget-exhausted": 6,
-    "keyword": 3
+    "keyword": 5,
+    "seller-risk": 1,
+    "seller-check-budget-exhausted": 25,
+    "detail-budget-exhausted": 17
   },
   "failures": {}
 }
