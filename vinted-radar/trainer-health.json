@@ -1,37 +1,37 @@
 {
-  "generatedAt": "2026-08-25T11:12:28.018Z",
-  "stateUpdatedAt": "2026-08-25T11:12:28.018Z",
-  "lastAttemptAt": "2026-08-25T11:12:28.018Z",
-  "lastScanAt": "2026-08-25T11:12:28.018Z",
+  "generatedAt": "2026-08-25T11:36:51.010Z",
+  "stateUpdatedAt": "2026-08-25T11:36:51.010Z",
+  "lastAttemptAt": "2026-08-25T11:36:51.010Z",
+  "lastScanAt": "2026-08-25T11:36:51.010Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Air Max Plus 3::primary",
-    "Nike Air Max Plus VII::primary",
-    "Nike Air Max 95::primary",
-    "Nike Air Max 90::primary",
-    "Nike Air Max 90 Drift::primary",
-    "Nike Air Max 97::primary"
+    "Nike Air Max 270::primary",
+    "Nike Air Max Dn::primary",
+    "Nike Air Max 1::primary",
+    "Nike Shox TL::primary",
+    "Nike Shox R4::primary",
+    "Nike Shox Ride 2::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 1044,
-  "candidateItems": 617,
-  "freshItems": 37,
+  "catalogItems": 917,
+  "candidateItems": 436,
+  "freshItems": 22,
   "qualifyingAlerts": 5,
   "qualifyingByCondition": {
-    "newWithTags": 2,
-    "veryGood": 3
+    "veryGood": 3,
+    "newWithoutTags": 2
   },
   "deliveredAlerts": 5,
   "deliveredByCondition": {
-    "newWithTags": 2,
-    "veryGood": 3
+    "veryGood": 3,
+    "newWithoutTags": 2
   },
-  "duplicateSuppressed": 47,
+  "duplicateSuppressed": 51,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -65,16 +65,16 @@
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 12,
+  "detailFetches": 10,
   "rejects": {
-    "stale": 533,
-    "price": 4,
-    "seller-risk": 2,
-    "keyword": 5,
-    "condition": 4,
-    "size": 5,
-    "seller-check-budget-exhausted": 7,
-    "detail-budget-exhausted": 5
+    "recovery-no-fresh-signal": 363,
+    "price": 3,
+    "size": 3,
+    "keyword": 1,
+    "condition": 7,
+    "seller-risk": 1,
+    "weak-margin": 1,
+    "score": 1
   },
   "failures": {}
 }
