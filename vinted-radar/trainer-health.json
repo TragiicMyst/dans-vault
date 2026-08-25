@@ -1,37 +1,37 @@
 {
-  "generatedAt": "2026-08-25T21:59:50.511Z",
-  "stateUpdatedAt": "2026-08-25T21:59:50.511Z",
-  "lastAttemptAt": "2026-08-25T21:59:50.511Z",
-  "lastScanAt": "2026-08-25T21:59:50.511Z",
+  "generatedAt": "2026-08-25T22:04:50.503Z",
+  "stateUpdatedAt": "2026-08-25T22:04:50.503Z",
+  "lastAttemptAt": "2026-08-25T22:04:50.503Z",
+  "lastScanAt": "2026-08-25T22:04:50.503Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Air Max Bargain::generic",
-    "Nike Running Trainer Bargain::generic",
-    "Nike Lifestyle Trainer Bargain::generic",
-    "Nike Football Boot Bargain::generic",
-    "Nike Basketball Shoe Bargain::generic",
-    "Nike SB Shoe Bargain::generic"
+    "Nike P-6000::primary",
+    "Nike V5 RNR::primary",
+    "Nike Vomero 5::primary",
+    "Nike Vomero 18::primary",
+    "Nike Vomero Plus::primary",
+    "Nike Vomero Premium::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1344,
-  "catalogItems": 947,
-  "candidateItems": 419,
-  "freshItems": 162,
-  "qualifyingAlerts": 3,
+  "catalogMarkers": 1262,
+  "catalogItems": 681,
+  "candidateItems": 438,
+  "freshItems": 53,
+  "qualifyingAlerts": 5,
   "qualifyingByCondition": {
-    "newWithoutTags": 1,
-    "veryGood": 2
+    "veryGood": 2,
+    "newWithoutTags": 3
   },
-  "deliveredAlerts": 3,
+  "deliveredAlerts": 5,
   "deliveredByCondition": {
-    "newWithoutTags": 1,
-    "veryGood": 2
+    "veryGood": 2,
+    "newWithoutTags": 3
   },
-  "duplicateSuppressed": 4,
+  "duplicateSuppressed": 33,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,14 +67,15 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "recovery-no-fresh-signal": 253,
-    "price": 35,
-    "size": 8,
-    "keyword": 13,
-    "condition": 34,
+    "stale": 352,
+    "price": 7,
+    "condition": 1,
     "seller-risk": 1,
-    "seller-check-budget-exhausted": 41,
-    "detail-budget-exhausted": 27
+    "size": 2,
+    "score": 4,
+    "seller-check-budget-exhausted": 24,
+    "weak-margin": 1,
+    "detail-budget-exhausted": 8
   },
   "failures": {}
 }
