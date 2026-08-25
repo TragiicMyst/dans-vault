@@ -1,6 +1,6 @@
 # Dan's Vault Winter Flips Radar
 
-Dedicated winter resale sourcing engine for **Vinted + eBay UK simultaneously**.
+Dedicated winter resale sourcing engine for **Vinted UK only**.
 
 ## Discord channel
 
@@ -10,33 +10,37 @@ Create a dedicated Discord channel such as `#winter-flips`, create a webhook for
 
 The workflow deliberately does **not** fall back to the normal clothing/trainer webhooks. If this secret is absent, Winter Flips safely skips live sending.
 
+## Source rules
+
+- Vinted only.
+- Condition filter is restricted to **New with tags** and **New without tags**.
+- Used, very good, good and other conditions are ignored at source level.
+
 ## What it does now
 
-- Searches Vinted and eBay together on every search group.
-- Uses one common FlipScore / buy decision engine for both marketplaces.
+- Searches Vinted across exact-model and broad bad-listing-hunter queries.
 - Covers The North Face Nuptse/Himalayan/Baltoro/Summit, Rab, Patagonia, Arc'teryx, Ralph Lauren, Nike, Berghaus and Napapijri winter stock.
-- Uses broad `bad listing hunter` queries as well as exact-model searches.
 - Uses size-specific resale baselines and max-buy prices.
-- Estimates Vinted sourcing costs and conservative resale selling fees.
-- Creates conservative expected resale, estimated net profit and ROI.
-- Cross-checks active Vinted and eBay price medians as a market signal.
-- Applies a counterfeit-risk gate. High-risk deals are blocked rather than blindly pinged.
+- Estimates Vinted buyer-protection sourcing cost and conservative resale selling fees.
+- Calculates conservative expected resale, estimated net profit, ROI and FlipScore.
+- Uses current Vinted active-price medians as a supporting market signal.
+- Applies a counterfeit-risk gate so suspiciously cheap/high-risk listings are not blindly pinged.
 - Detects sharp visible-supply contractions (`Supply Vacuum`) once enough history exists.
-- Records rolling market history and can alert on a `Momentum Breakout` when visible supply tightens while asking-price medians rise.
-- Tracks eBay listings over time and can produce `Tracked Stale Lowball` alerts after 14+ days when the listing still appears live and offers are available.
+- Records rolling Vinted market history and can alert on a `Momentum Breakout` when visible supply tightens while asking-price medians rise.
 - Persists seen IDs so the same listing is not repeatedly alerted.
 - Keeps a rolling opportunity history for the bankroll allocator.
 - Can generate a bankroll allocation from opportunities detected in the previous 48 hours.
+- Fetches the exact Vinted listing page for qualifying alerts and adds the listing's first/main image to the Discord embed when available.
 
 ## Workflow
 
 `.github/workflows/winter-flips.yml`
 
-Scheduled every 10 minutes. Each scheduled job performs three scan cycles about three minutes apart, rotating through the search groups. The intelligence module runs after successful core scans and persists its own history in `intelligence-state.json`.
+Scheduled every 10 minutes. Each scheduled job performs three scan cycles about three minutes apart, rotating through the search groups. The intelligence module runs after successful core scans and persists its own Vinted market history in `intelligence-state.json`.
 
 Manual modes:
 
-- `scan` — run the live combined radar.
+- `scan` — run the live Vinted radar.
 - `test` — send a test embed to the dedicated Winter Flips Discord channel.
 - `allocate` — send a suggested allocation for a specified GBP bankroll.
 
@@ -44,13 +48,11 @@ Manual modes:
 
 Default minimum score: **82/100** with at least **£18 estimated net profit** and **35% estimated ROI**, unless a deal clears the stronger margin thresholds. High counterfeit-risk candidates cannot qualify.
 
-All resale figures are estimates. Active listing medians are used only as a supporting signal, not represented as sold-price proof. A stale-listing alert reports how long **this bot has tracked** an eBay listing; it does not claim to know the seller's original listing date.
+All resale figures are estimates. Active Vinted listing medians are used only as a supporting signal and are not represented as sold-price proof.
 
 ## Remaining optional intelligence layers
 
-The architecture is intentionally separate from the existing Nike bots so it can later add:
-
-- optional vision-based model recognition for poorly titled listings (requires a separate vision/API key);
+- optional vision-based model recognition for poorly titled listings;
 - sold-data ingestion for winter models;
 - seller-history scoring where reliable source data is available;
 - Dan's Vault purchase/sale outcome learning to recalibrate model, size and price thresholds;
