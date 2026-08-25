@@ -1,35 +1,31 @@
 {
-  "generatedAt": "2026-08-25T04:33:25.405Z",
-  "stateUpdatedAt": "2026-08-25T04:33:25.405Z",
-  "lastAttemptAt": "2026-08-25T04:33:25.405Z",
-  "lastScanAt": "2026-08-25T04:33:25.405Z",
+  "generatedAt": "2026-08-25T05:04:51.026Z",
+  "stateUpdatedAt": "2026-08-25T05:04:51.026Z",
+  "lastAttemptAt": "2026-08-25T05:04:51.026Z",
+  "lastScanAt": "2026-08-25T05:04:51.026Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Air Force 1::primary",
-    "Nike Dunk Low::primary",
-    "Air Jordan 1 Low::primary",
-    "Air Jordan 1 Mid::primary",
-    "Air Jordan 4::primary",
-    "Nike Initiator::primary"
+    "Nike Air Max Moto 2K::primary",
+    "Nike Metcon 10::primary",
+    "Nike Zoom Fly 6::primary",
+    "Nike Air Max Bargain::generic",
+    "Nike Running Trainer Bargain::generic",
+    "Nike Lifestyle Trainer Bargain::generic"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 978,
-  "candidateItems": 673,
-  "freshItems": 14,
-  "qualifyingAlerts": 5,
-  "qualifyingByCondition": {
-    "veryGood": 5
-  },
-  "deliveredAlerts": 5,
-  "deliveredByCondition": {
-    "veryGood": 5
-  },
-  "duplicateSuppressed": 20,
+  "catalogItems": 858,
+  "candidateItems": 429,
+  "freshItems": 6,
+  "qualifyingAlerts": 0,
+  "qualifyingByCondition": {},
+  "deliveredAlerts": 0,
+  "deliveredByCondition": {},
+  "duplicateSuppressed": 26,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -63,15 +59,11 @@
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 12,
+  "detailFetches": 2,
   "rejects": {
-    "stale": 639,
-    "score": 1,
-    "size": 3,
-    "seller-risk": 2,
-    "weak-margin": 1,
-    "price": 1,
-    "seller-check-budget-exhausted": 1
+    "recovery-no-fresh-signal": 397,
+    "condition": 4,
+    "size": 2
   },
   "failures": {}
 }
