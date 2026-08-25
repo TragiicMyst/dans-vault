@@ -1,0 +1,38 @@
+name: Dan's Vault Winter Flips Live Probe
+
+on:
+  push:
+    paths:
+      - 'winter-flips/live-probe-trigger.txt'
+
+concurrency:
+  group: dans-vault-winter-flips
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  live-probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v5
+
+      - name: Validate live scanner
+        run: |
+          set -e
+          node --check winter-flips/engine.mjs
+          node --check winter-flips/intelligence.mjs
+          bash -n winter-flips/run-cycle.sh
+
+      - name: Require dedicated Discord webhook
+        env:
+          DISCORD_WINTER_FLIPS_WEBHOOK_URL: ${{ secrets.DISCORD_WINTER_FLIPS_WEBHOOK_URL }}
+        run: test -n "$DISCORD_WINTER_FLIPS_WEBHOOK_URL"
+
+      - name: Run one real Vinted + eBay scan
+        env:
+          DISCORD_WINTER_FLIPS_WEBHOOK_URL: ${{ secrets.DISCORD_WINTER_FLIPS_WEBHOOK_URL }}
+        run: bash winter-flips/run-cycle.sh 1 180 105
