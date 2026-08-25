@@ -22,6 +22,7 @@ on:
   push:
     paths:
       - 'winter-flips/test-trigger.txt'
+      - 'winter-flips/live-trigger.txt'
   pull_request:
     paths:
       - 'winter-flips/**'
@@ -68,7 +69,7 @@ jobs:
           fi
 
       - name: Send dedicated-channel test alert
-        if: steps.gate.outputs.enabled == 'true' && (github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && inputs.mode == 'test'))
+        if: steps.gate.outputs.enabled == 'true' && ((github.event_name == 'push' && contains(github.event.head_commit.message, 'Trigger Winter Flips test')) || (github.event_name == 'workflow_dispatch' && inputs.mode == 'test'))
         env:
           DISCORD_WINTER_FLIPS_WEBHOOK_URL: ${{ secrets.DISCORD_WINTER_FLIPS_WEBHOOK_URL }}
         run: node winter-flips/test-alert.mjs
@@ -80,7 +81,7 @@ jobs:
         run: node winter-flips/capital-allocator.mjs "${{ inputs.bankroll }}"
 
       - name: Run combined Vinted + eBay radar
-        if: steps.gate.outputs.enabled == 'true' && (github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.mode == 'scan'))
+        if: steps.gate.outputs.enabled == 'true' && (github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.mode == 'scan') || (github.event_name == 'push' && contains(github.event.head_commit.message, 'Trigger Winter Flips live scan')))
         env:
           DISCORD_WINTER_FLIPS_WEBHOOK_URL: ${{ secrets.DISCORD_WINTER_FLIPS_WEBHOOK_URL }}
         run: bash winter-flips/run-cycle.sh 3 180 105
