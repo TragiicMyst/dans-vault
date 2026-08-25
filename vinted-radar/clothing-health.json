@@ -1,37 +1,37 @@
 {
-  "generatedAt": "2026-08-25T21:12:04.486Z",
-  "stateUpdatedAt": "2026-08-25T21:12:04.486Z",
-  "lastAttemptAt": "2026-08-25T21:12:04.486Z",
-  "lastScanAt": "2026-08-25T21:12:04.486Z",
+  "generatedAt": "2026-08-25T21:40:46.301Z",
+  "stateUpdatedAt": "2026-08-25T21:40:46.301Z",
+  "lastAttemptAt": "2026-08-25T21:40:46.301Z",
+  "lastScanAt": "2026-08-25T21:40:46.301Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Storm-FIT Puffer::nike storm fit puffer",
-    "Nike Solo Swoosh Hoodie::nike solo swoosh hoodie",
-    "Nike Miler Running Top::nike miler running top",
-    "Nike Tech Fleece Open-Hem Trousers::nike tech fleece open hem trousers",
-    "Nike ACG Lunar Lake Puffer::nike acg lunar lake",
-    "Nike Academy Tracksuit::nike academy tracksuit"
+    "Nike Dri-FIT Running Top::nike dri-fit running top",
+    "Nike Tech Fleece Shorts::nike tech fleece shorts",
+    "Nike Therma-FIT Jacket::nike therma fit jacket",
+    "Nike NOCTA Hoodie::nike nocta hoodie",
+    "Nike Stride Shorts::nike stride shorts",
+    "Nike Tech Fleece Tracksuit::nike tech fleece tracksuit"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1470,
-  "catalogItems": 826,
-  "candidateItems": 283,
-  "freshItems": 19,
-  "qualifyingAlerts": 10,
+  "catalogMarkers": 1536,
+  "catalogItems": 762,
+  "candidateItems": 429,
+  "freshItems": 93,
+  "qualifyingAlerts": 42,
   "qualifyingByCondition": {
-    "veryGood": 8,
-    "newWithoutTags": 2
+    "veryGood": 38,
+    "newWithoutTags": 4
   },
-  "deliveredAlerts": 10,
+  "deliveredAlerts": 42,
   "deliveredByCondition": {
-    "veryGood": 8,
-    "newWithoutTags": 2
+    "veryGood": 38,
+    "newWithoutTags": 4
   },
-  "duplicateSuppressed": 51,
+  "duplicateSuppressed": 75,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -65,13 +65,16 @@
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 1,
+  "detailFetches": 6,
   "rejects": {
-    "stale": 213,
-    "condition": 2,
-    "price": 4,
-    "weak-margin": 2,
-    "size": 1
+    "recovery-no-fresh-signal": 261,
+    "price": 11,
+    "weak-margin": 8,
+    "condition": 20,
+    "size": 6,
+    "keyword": 4,
+    "clothing-variety-cap": 1,
+    "detail-budget-exhausted": 1
   },
   "failures": {}
 }
