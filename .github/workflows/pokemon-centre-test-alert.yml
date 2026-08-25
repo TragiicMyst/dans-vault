@@ -1,0 +1,59 @@
+name: Pokemon Centre Discord Test Alert
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'pokemon-center/test-trigger.txt'
+
+permissions:
+  contents: read
+
+jobs:
+  send-test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - name: Send example Discord alert
+        env:
+          POKEMON_CENTRE_WEBHOOK_URL: ${{ secrets.POKEMON_CENTRE_WEBHOOK_URL }}
+        run: |
+          node --input-type=module <<'NODE'
+          const webhook = process.env.POKEMON_CENTRE_WEBHOOK_URL;
+          if (!webhook) throw new Error('POKEMON_CENTRE_WEBHOOK_URL is missing');
+
+          const payload = {
+            username: "Dan's Vault Pokémon Centre UK",
+            content: "🧪 **TEST ALERT — NOT A REAL RESTOCK**",
+            embeds: [{
+              title: "🔥 10/10 FLIP WATCH — TEST RESTOCK / AVAILABLE",
+              description: "**Pokémon TCG: Scarlet & Violet—Prismatic Evolutions Pokémon Center Elite Trainer Box**",
+              url: "https://www.pokemoncenter.com/en-gb/",
+              color: 0xff3b30,
+              fields: [
+                { name: "Retail", value: "£59.99 (example)", inline: true },
+                { name: "Stock", value: "🟢 Available (TEST)", inline: true },
+                { name: "Opportunity score", value: "10/10 (example)", inline: true },
+                { name: "SKU / ID", value: "TEST-SKU", inline: true },
+                { name: "Stock source", value: "Dan's Vault test signal", inline: true },
+                { name: "Action", value: "Open Pokémon Centre immediately and verify stock before buying", inline: false }
+              ],
+              footer: { text: "TEST ONLY — this message proves the Discord alert route is working." },
+              timestamp: new Date().toISOString()
+            }]
+          };
+
+          const response = await fetch(webhook, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify(payload),
+            signal: AbortSignal.timeout(12000)
+          });
+
+          if (!response.ok) {
+            const body = await response.text();
+            throw new Error(`Discord HTTP ${response.status}: ${body.slice(0, 300)}`);
+          }
+
+          console.log('Example Pokémon Centre Discord test alert delivered successfully.');
+          NODE
