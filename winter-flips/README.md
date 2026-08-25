@@ -22,6 +22,8 @@ The workflow deliberately does **not** fall back to the normal clothing/trainer 
 - Cross-checks active Vinted and eBay price medians as a market signal.
 - Applies a counterfeit-risk gate. High-risk deals are blocked rather than blindly pinged.
 - Detects sharp visible-supply contractions (`Supply Vacuum`) once enough history exists.
+- Records rolling market history and can alert on a `Momentum Breakout` when visible supply tightens while asking-price medians rise.
+- Tracks eBay listings over time and can produce `Tracked Stale Lowball` alerts after 14+ days when the listing still appears live and offers are available.
 - Persists seen IDs so the same listing is not repeatedly alerted.
 - Keeps a rolling opportunity history for the bankroll allocator.
 - Can generate a bankroll allocation from opportunities detected in the previous 48 hours.
@@ -30,7 +32,7 @@ The workflow deliberately does **not** fall back to the normal clothing/trainer 
 
 `.github/workflows/winter-flips.yml`
 
-Scheduled every 10 minutes. Each scheduled job performs three scan cycles about three minutes apart, rotating through the search groups.
+Scheduled every 10 minutes. Each scheduled job performs three scan cycles about three minutes apart, rotating through the search groups. The intelligence module runs after successful core scans and persists its own history in `intelligence-state.json`.
 
 Manual modes:
 
@@ -42,15 +44,15 @@ Manual modes:
 
 Default minimum score: **82/100** with at least **£18 estimated net profit** and **35% estimated ROI**, unless a deal clears the stronger margin thresholds. High counterfeit-risk candidates cannot qualify.
 
-All resale figures are estimates. Active listing medians are used only as a supporting signal, not represented as sold-price proof.
+All resale figures are estimates. Active listing medians are used only as a supporting signal, not represented as sold-price proof. A stale-listing alert reports how long **this bot has tracked** an eBay listing; it does not claim to know the seller's original listing date.
 
-## Next intelligence layers
+## Remaining optional intelligence layers
 
 The architecture is intentionally separate from the existing Nike bots so it can later add:
 
-- optional vision-based model recognition for poorly titled listings;
+- optional vision-based model recognition for poorly titled listings (requires a separate vision/API key);
 - sold-data ingestion for winter models;
 - seller-history scoring where reliable source data is available;
 - Dan's Vault purchase/sale outcome learning to recalibrate model, size and price thresholds;
-- deeper stale-listing / Best Offer hunting;
-- retailer/clearance reverse-sourcing feeds.
+- retailer/clearance reverse-sourcing feeds;
+- seller-wardrobe bundle mining where marketplace access reliably exposes seller inventory.

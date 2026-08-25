@@ -43,10 +43,12 @@ jobs:
         run: |
           set -e
           node --check winter-flips/engine.mjs
+          node --check winter-flips/intelligence.mjs
           node --check winter-flips/test-alert.mjs
           node --check winter-flips/capital-allocator.mjs
           node -e "JSON.parse(require('fs').readFileSync('winter-flips/config.json','utf8'))"
           node -e "JSON.parse(require('fs').readFileSync('winter-flips/state.json','utf8'))"
+          node -e "JSON.parse(require('fs').readFileSync('winter-flips/intelligence-state.json','utf8'))"
           bash -n winter-flips/run-cycle.sh
 
       - name: Check dedicated Discord webhook
