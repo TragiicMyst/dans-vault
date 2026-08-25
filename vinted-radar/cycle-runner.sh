@@ -7,6 +7,7 @@ HEALTH_NAME="${3:?health file required}"
 GIT_NAME="${4:?git author name required}"
 CYCLES="${5:-3}"
 INTERVAL_SECONDS="${6:-300}"
+CYCLE_TIMEOUT_SECONDS="${7:-115}"
 STATE_PATH="vinted-radar/${STATE_NAME}"
 HEALTH_PATH="vinted-radar/${HEALTH_NAME}"
 TMP_STATE="/tmp/${BOT}-cycle-state.json"
@@ -97,7 +98,7 @@ for cycle in $(seq 1 "$CYCLES"); do
   echo "=== $BOT cycle $cycle/$CYCLES ==="
 
   set +e
-  timeout 115s node vinted-radar/run-bot.mjs
+  timeout "${CYCLE_TIMEOUT_SECONDS}s" node vinted-radar/run-bot.mjs
   rc=$?
   set -e
 
@@ -110,7 +111,7 @@ for cycle in $(seq 1 "$CYCLES"); do
   if [ "$rc" -eq 0 ]; then
     successful_cycles=$((successful_cycles + 1))
   elif [ "$rc" -eq 124 ]; then
-    echo "$BOT cycle $cycle timed out after 115s; moving on without wedging the worker."
+    echo "$BOT cycle $cycle timed out after ${CYCLE_TIMEOUT_SECONDS}s; moving on without wedging the worker."
   else
     echo "$BOT cycle $cycle exited $rc; moving on to the next scheduled cycle."
   fi
