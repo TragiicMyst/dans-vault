@@ -1,53 +1,29 @@
 {
-  "generatedAt": "2026-08-25T11:41:51.043Z",
-  "stateUpdatedAt": "2026-08-25T11:41:51.043Z",
-  "lastAttemptAt": "2026-08-25T11:41:51.043Z",
+  "generatedAt": "2026-08-25T11:43:46.117Z",
+  "stateUpdatedAt": "2026-08-25T11:43:46.117Z",
+  "lastAttemptAt": "2026-08-25T11:43:46.117Z",
   "lastScanAt": "2026-08-25T11:36:51.010Z",
   "cooldownUntil": "2026-08-25T11:43:57.223Z",
   "healthyScan": false,
-  "healthReason": "vinted-block-or-challenge",
-  "selectedSearches": [
-    "Nike Any Shoe Bargain::generic",
-    "Nike Air Force 1::primary",
-    "Nike Dunk Low::primary",
-    "Air Jordan 1 Low::primary",
-    "Air Jordan 1 Mid::primary",
-    "Air Jordan 4::primary",
-    "Nike Initiator::primary"
-  ],
-  "successfulSearches": 1,
-  "failedSearches": 1,
-  "catalogMarkers": 384,
-  "catalogItems": 308,
-  "candidateItems": 187,
-  "freshItems": 37,
-  "qualifyingAlerts": 6,
-  "qualifyingByCondition": {
-    "veryGood": 4,
-    "newWithoutTags": 2
-  },
-  "deliveredAlerts": 6,
-  "deliveredByCondition": {
-    "veryGood": 4,
-    "newWithoutTags": 2
-  },
-  "duplicateSuppressed": 2,
+  "healthReason": "Vinted cooldown active until 2026-08-25T11:43:57.223Z",
+  "selectedSearches": [],
+  "successfulSearches": 0,
+  "failedSearches": 0,
+  "catalogMarkers": 0,
+  "catalogItems": 0,
+  "candidateItems": 0,
+  "freshItems": 0,
+  "qualifyingAlerts": 0,
+  "qualifyingByCondition": {},
+  "deliveredAlerts": 0,
+  "deliveredByCondition": {},
+  "duplicateSuppressed": 0,
   "discordFailures": 0,
   "discordRoutes": [],
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 11,
-  "rejects": {
-    "price": 5,
-    "stale": 66,
-    "condition": 19,
-    "size": 4,
-    "weak-margin": 1,
-    "keyword": 1,
-    "seller-check-failed": 1
-  },
-  "failures": {
-    "Nike Air Force 1::primary": "Vinted guard cooldown active for 43s"
-  }
+  "detailFetches": 0,
+  "rejects": {},
+  "failures": {}
 }

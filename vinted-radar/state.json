@@ -202937,7 +202937,7 @@
       ]
     }
   },
-  "updatedAt": "2026-08-25T11:41:51.043Z",
+  "updatedAt": "2026-08-25T11:43:46.117Z",
   "cursor": 0,
   "lastRotation": {
     "bot": "trainers",
@@ -203166,12 +203166,12 @@
       }
     },
     "lastScanAt": "2026-08-25T11:36:51.010Z",
-    "lastAttemptAt": "2026-08-25T11:41:51.043Z"
+    "lastAttemptAt": "2026-08-25T11:43:46.117Z"
   },
   "diagnostics": {
     "bot": "trainers",
     "radarVersion": 6,
-    "lastRunAt": "2026-08-25T11:41:51.043Z",
+    "lastRunAt": "2026-08-25T11:43:46.117Z",
     "recoveryMode": false,
     "filterProfile": {
       "freshnessMinutes": 15,
@@ -203185,52 +203185,24 @@
       "defaultScore": 55
     },
     "totalSearchGroups": 37,
-    "selectedSearches": [
-      "Nike Any Shoe Bargain::generic",
-      "Nike Air Force 1::primary",
-      "Nike Dunk Low::primary",
-      "Air Jordan 1 Low::primary",
-      "Air Jordan 1 Mid::primary",
-      "Air Jordan 4::primary",
-      "Nike Initiator::primary"
-    ],
-    "successfulSearches": 1,
-    "failedSearches": 1,
+    "selectedSearches": [],
+    "successfulSearches": 0,
+    "failedSearches": 0,
     "confirmedEmptySearches": 0,
-    "catalogMarkers": 384,
-    "catalogItems": 308,
-    "candidateItems": 187,
-    "freshItems": 37,
+    "catalogMarkers": 0,
+    "catalogItems": 0,
+    "candidateItems": 0,
+    "freshItems": 0,
     "freshByAge": 0,
-    "freshByNewId": 37,
-    "qualifyingAlerts": 6,
-    "deliveredAlerts": 6,
+    "freshByNewId": 0,
+    "qualifyingAlerts": 0,
+    "deliveredAlerts": 0,
     "discordFailures": 0,
     "pendingDeliveries": 0,
-    "rejects": {
-      "price": 5,
-      "stale": 66,
-      "condition": 19,
-      "size": 4,
-      "weak-margin": 1,
-      "keyword": 1,
-      "seller-check-failed": 1
-    },
-    "failures": {
-      "Nike Air Force 1::primary": "Vinted guard cooldown active for 43s"
-    },
+    "rejects": {},
+    "failures": {},
     "healthyScan": false,
-    "detailFetches": 11,
-    "qualifyingByCondition": {
-      "veryGood": 4,
-      "newWithoutTags": 2
-    },
-    "deliveredByCondition": {
-      "veryGood": 4,
-      "newWithoutTags": 2
-    },
-    "duplicateSuppressed": 2,
-    "healthReason": "vinted-block-or-challenge"
+    "healthReason": "Vinted cooldown active until 2026-08-25T11:43:57.223Z"
   },
   "radarVersion": 6,
   "pendingDeliveries": {},
