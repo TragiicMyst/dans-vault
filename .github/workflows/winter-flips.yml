@@ -46,7 +46,6 @@ jobs:
         run: |
           set -e
           node --check winter-flips/engine.mjs
-          node --check winter-flips/run-conditioned.mjs
           node --check winter-flips/intelligence.mjs
           node --check winter-flips/test-alert.mjs
           node --check winter-flips/capital-allocator.mjs
@@ -80,10 +79,8 @@ jobs:
           DISCORD_WINTER_FLIPS_WEBHOOK_URL: ${{ secrets.DISCORD_WINTER_FLIPS_WEBHOOK_URL }}
         run: node winter-flips/capital-allocator.mjs "${{ inputs.bankroll }}"
 
-      - name: Run combined Vinted + eBay radar
+      - name: Run Vinted Winter Flips radar
         if: steps.gate.outputs.enabled == 'true' && (github.event_name == 'schedule' || github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && inputs.mode == 'scan'))
         env:
           DISCORD_WINTER_FLIPS_WEBHOOK_URL: ${{ secrets.DISCORD_WINTER_FLIPS_WEBHOOK_URL }}
-          EBAY_CLIENT_ID: ${{ secrets.EBAY_CLIENT_ID }}
-          EBAY_CLIENT_SECRET: ${{ secrets.EBAY_CLIENT_SECRET }}
         run: bash winter-flips/run-cycle.sh 3 180 105
