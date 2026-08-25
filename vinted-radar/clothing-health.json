@@ -1,37 +1,37 @@
 {
-  "generatedAt": "2026-08-25T19:05:38.294Z",
-  "stateUpdatedAt": "2026-08-25T19:05:38.294Z",
-  "lastAttemptAt": "2026-08-25T19:05:38.294Z",
-  "lastScanAt": "2026-08-25T19:05:38.294Z",
+  "generatedAt": "2026-08-25T19:22:27.384Z",
+  "stateUpdatedAt": "2026-08-25T19:22:27.384Z",
+  "lastAttemptAt": "2026-08-25T19:22:27.384Z",
+  "lastScanAt": "2026-08-25T19:22:27.384Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Rain Jacket::nike rain jacket",
-    "Nike Woven Jacket::nike woven jacket",
-    "Nike Bomber Jacket::nike bomber jacket",
-    "Nike Coat::nike coat",
-    "Nike Shorts::nike shorts",
-    "Nike Cargo Trousers::nike cargo trousers"
+    "Nike Track Pants::nike track pants",
+    "Nike Woven Trousers::nike woven trousers",
+    "Nike Tracksuit::nike tracksuit",
+    "Nike Vintage Clothing::vintage nike",
+    "Nike SB Clothing::nike sb clothing",
+    "Nike Vest::nike vest"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1342,
-  "catalogItems": 1101,
-  "candidateItems": 300,
-  "freshItems": 162,
-  "qualifyingAlerts": 64,
+  "catalogMarkers": 1344,
+  "catalogItems": 1050,
+  "candidateItems": 355,
+  "freshItems": 202,
+  "qualifyingAlerts": 65,
   "qualifyingByCondition": {
-    "veryGood": 53,
-    "newWithoutTags": 8,
-    "newWithTags": 3
+    "newWithTags": 3,
+    "veryGood": 54,
+    "newWithoutTags": 8
   },
-  "deliveredAlerts": 64,
+  "deliveredAlerts": 65,
   "deliveredByCondition": {
-    "veryGood": 53,
-    "newWithoutTags": 8,
-    "newWithTags": 3
+    "newWithTags": 3,
+    "veryGood": 54,
+    "newWithoutTags": 8
   },
   "duplicateSuppressed": 20,
   "discordFailures": 0,
@@ -69,12 +69,13 @@
   "pendingDeliveries": 0,
   "detailFetches": 6,
   "rejects": {
-    "recovery-no-fresh-signal": 118,
-    "size": 4,
-    "price": 54,
-    "condition": 29,
-    "keyword": 6,
-    "detail-budget-exhausted": 5
+    "recovery-no-fresh-signal": 133,
+    "condition": 40,
+    "keyword": 11,
+    "price": 74,
+    "size": 6,
+    "detail-budget-exhausted": 5,
+    "weak-margin": 1
   },
   "failures": {}
 }
