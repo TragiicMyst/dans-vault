@@ -1,0 +1,230 @@
+{
+  "version": 1,
+  "channelName": "winter-flips",
+  "scan": {
+    "searchesPerRun": 8,
+    "itemsPerSource": 35,
+    "minScore": 82,
+    "maxAlertsPerRun": 6,
+    "fetchDelayMs": 450,
+    "requestTimeoutMs": 12000
+  },
+  "costs": {
+    "packaging": 0.9,
+    "resaleFeeRate": 0.13,
+    "vintedBuyerProtectionRateEstimate": 0.055,
+    "vintedBuyerProtectionFixedEstimate": 0.7
+  },
+  "scoring": {
+    "minNetProfit": 18,
+    "minRoi": 35,
+    "strongNetProfit": 30,
+    "strongRoi": 55,
+    "exceptionalNetProfit": 45,
+    "exceptionalRoi": 80
+  },
+  "supplyVacuum": {
+    "enabled": true,
+    "minPreviousSupply": 8,
+    "dropPercent": 0.4,
+    "cooldownHours": 12
+  },
+  "broadQueries": [
+    "north face coat",
+    "north face puffer",
+    "north face 700",
+    "mens north face jacket",
+    "rab puffer",
+    "rab down jacket",
+    "patagonia puffer",
+    "arcteryx jacket",
+    "arc teryx puffer",
+    "ralph lauren puffer",
+    "polo puffer jacket",
+    "nike puffer jacket",
+    "berghaus puffer",
+    "napapijri jacket"
+  ],
+  "models": [
+    {
+      "id": "tnf-1996-nuptse",
+      "brand": "The North Face",
+      "name": "1996 Retro Nuptse / Nuptse 700",
+      "searchQueries": ["north face nuptse 700", "north face 1996 nuptse"],
+      "matchAny": ["nuptse", "700 fill", "700 down", "700 puffer"],
+      "baselineResale": 105,
+      "resaleBySize": {"XS": 82, "S": 92, "M": 105, "L": 112, "XL": 110, "XXL": 102},
+      "maxBuy": 58,
+      "demand": 96,
+      "counterfeitRisk": "high"
+    },
+    {
+      "id": "tnf-himalayan",
+      "brand": "The North Face",
+      "name": "Himalayan / HMLYN Down Parka",
+      "searchQueries": ["north face himalayan puffer", "north face hmlyn parka"],
+      "matchAny": ["himalayan", "hmlyn"],
+      "baselineResale": 120,
+      "resaleBySize": {"S": 102, "M": 118, "L": 128, "XL": 125, "XXL": 112},
+      "maxBuy": 68,
+      "demand": 86,
+      "counterfeitRisk": "medium"
+    },
+    {
+      "id": "tnf-baltoro",
+      "brand": "The North Face",
+      "name": "Baltoro Down Jacket",
+      "searchQueries": ["north face baltoro jacket"],
+      "matchAny": ["baltoro"],
+      "baselineResale": 125,
+      "resaleBySize": {"S": 105, "M": 122, "L": 132, "XL": 128},
+      "maxBuy": 70,
+      "demand": 82,
+      "counterfeitRisk": "medium"
+    },
+    {
+      "id": "tnf-summit-down",
+      "brand": "The North Face",
+      "name": "Summit Series Down Jacket",
+      "searchQueries": ["north face summit series down"],
+      "matchAny": ["summit series", "summit down"],
+      "baselineResale": 115,
+      "resaleBySize": {"S": 98, "M": 112, "L": 120, "XL": 116},
+      "maxBuy": 64,
+      "demand": 80,
+      "counterfeitRisk": "medium"
+    },
+    {
+      "id": "rab-microlight",
+      "brand": "Rab",
+      "name": "Microlight Alpine Down Jacket",
+      "searchQueries": ["rab microlight alpine"],
+      "matchAny": ["microlight alpine", "microlight"],
+      "baselineResale": 92,
+      "resaleBySize": {"S": 78, "M": 90, "L": 96, "XL": 94, "XXL": 87},
+      "maxBuy": 50,
+      "demand": 88,
+      "counterfeitRisk": "low"
+    },
+    {
+      "id": "rab-neutrino",
+      "brand": "Rab",
+      "name": "Neutrino Pro Down Jacket",
+      "searchQueries": ["rab neutrino pro"],
+      "matchAny": ["neutrino pro", "neutrino"],
+      "baselineResale": 150,
+      "resaleBySize": {"S": 128, "M": 145, "L": 155, "XL": 152},
+      "maxBuy": 82,
+      "demand": 84,
+      "counterfeitRisk": "low"
+    },
+    {
+      "id": "rab-electron",
+      "brand": "Rab",
+      "name": "Electron Pro Down Jacket",
+      "searchQueries": ["rab electron pro"],
+      "matchAny": ["electron pro", "electron jacket"],
+      "baselineResale": 135,
+      "resaleBySize": {"S": 115, "M": 130, "L": 140, "XL": 138},
+      "maxBuy": 74,
+      "demand": 80,
+      "counterfeitRisk": "low"
+    },
+    {
+      "id": "patagonia-down-sweater",
+      "brand": "Patagonia",
+      "name": "Down Sweater Jacket / Hoody",
+      "searchQueries": ["patagonia down sweater jacket", "patagonia down sweater hoody"],
+      "matchAny": ["down sweater"],
+      "baselineResale": 112,
+      "resaleBySize": {"S": 95, "M": 108, "L": 118, "XL": 115},
+      "maxBuy": 62,
+      "demand": 86,
+      "counterfeitRisk": "low"
+    },
+    {
+      "id": "patagonia-fitz-roy",
+      "brand": "Patagonia",
+      "name": "Fitz Roy Down Hoody",
+      "searchQueries": ["patagonia fitz roy down"],
+      "matchAny": ["fitz roy"],
+      "baselineResale": 155,
+      "resaleBySize": {"S": 135, "M": 150, "L": 162, "XL": 158},
+      "maxBuy": 85,
+      "demand": 79,
+      "counterfeitRisk": "low"
+    },
+    {
+      "id": "arcteryx-cerium",
+      "brand": "Arc'teryx",
+      "name": "Cerium Hoody / Jacket",
+      "searchQueries": ["arcteryx cerium jacket", "arc teryx cerium"],
+      "matchAny": ["cerium"],
+      "baselineResale": 175,
+      "resaleBySize": {"S": 150, "M": 170, "L": 185, "XL": 180},
+      "maxBuy": 92,
+      "demand": 91,
+      "counterfeitRisk": "high"
+    },
+    {
+      "id": "arcteryx-thorium",
+      "brand": "Arc'teryx",
+      "name": "Thorium Hoody / Jacket",
+      "searchQueries": ["arcteryx thorium jacket", "arc teryx thorium"],
+      "matchAny": ["thorium"],
+      "baselineResale": 190,
+      "resaleBySize": {"S": 165, "M": 185, "L": 198, "XL": 192},
+      "maxBuy": 100,
+      "demand": 86,
+      "counterfeitRisk": "high"
+    },
+    {
+      "id": "ralph-lauren-puffer",
+      "brand": "Polo Ralph Lauren",
+      "name": "Polo Ralph Lauren Puffer Jacket",
+      "searchQueries": ["ralph lauren puffer jacket", "polo ralph lauren down jacket"],
+      "matchAny": ["ralph lauren", "polo puffer", "polo down"],
+      "baselineResale": 92,
+      "resaleBySize": {"S": 78, "M": 90, "L": 98, "XL": 96, "XXL": 88},
+      "maxBuy": 48,
+      "demand": 85,
+      "counterfeitRisk": "medium"
+    },
+    {
+      "id": "nike-puffer",
+      "brand": "Nike",
+      "name": "Nike Puffer / Down Jacket",
+      "searchQueries": ["nike puffer jacket mens", "nike down jacket"],
+      "matchAny": ["nike puffer", "nike down", "nike therma fit puffer"],
+      "baselineResale": 72,
+      "resaleBySize": {"S": 60, "M": 70, "L": 78, "XL": 78, "XXL": 70},
+      "maxBuy": 36,
+      "demand": 82,
+      "counterfeitRisk": "low"
+    },
+    {
+      "id": "berghaus-down",
+      "brand": "Berghaus",
+      "name": "Berghaus Down / Puffer Jacket",
+      "searchQueries": ["berghaus down jacket", "berghaus puffer jacket"],
+      "matchAny": ["berghaus down", "berghaus puffer"],
+      "baselineResale": 68,
+      "resaleBySize": {"S": 56, "M": 65, "L": 72, "XL": 70, "XXL": 62},
+      "maxBuy": 32,
+      "demand": 72,
+      "counterfeitRisk": "low"
+    },
+    {
+      "id": "napapijri-skidoo",
+      "brand": "Napapijri",
+      "name": "Skidoo / Rainforest Winter Jacket",
+      "searchQueries": ["napapijri skidoo jacket", "napapijri rainforest winter"],
+      "matchAny": ["skidoo", "rainforest winter"],
+      "baselineResale": 92,
+      "resaleBySize": {"S": 78, "M": 90, "L": 98, "XL": 95},
+      "maxBuy": 48,
+      "demand": 77,
+      "counterfeitRisk": "low"
+    }
+  ]
+}
