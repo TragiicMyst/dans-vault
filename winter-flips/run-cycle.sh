@@ -18,10 +18,10 @@ git config user.email "actions@users.noreply.github.com"
 successful_cycles=0
 for cycle in $(seq 1 "$CYCLES"); do
   cycle_start=$(date +%s)
-  echo "=== Winter Flips cycle $cycle/$CYCLES ==="
+  echo "=== Vinted Winter Flips cycle $cycle/$CYCLES ==="
 
   set +e
-  timeout "${CYCLE_TIMEOUT_SECONDS}s" node winter-flips/run-conditioned.mjs
+  timeout "${CYCLE_TIMEOUT_SECONDS}s" node winter-flips/engine.mjs
   rc=$?
   if [ "$rc" -eq 0 ]; then
     node winter-flips/intelligence.mjs
@@ -67,7 +67,7 @@ save_state() {
     if [ -f "$REPORT_PATH" ]; then git add "$REPORT_PATH"; fi
     if [ -f "$INTEL_PATH" ]; then git add "$INTEL_PATH"; fi
     if git diff --cached --quiet; then return 0; fi
-    git commit -m "Update Winter Flips radar state"
+    git commit -m "Update Vinted Winter Flips radar state"
     if git push origin HEAD:main; then return 0; fi
     sleep 2
   done
@@ -77,8 +77,8 @@ save_state() {
 save_state || echo "Warning: Winter Flips state could not be persisted."
 
 if [ "$successful_cycles" -eq 0 ]; then
-  echo "No Winter Flips cycles completed successfully."
+  echo "No Vinted Winter Flips cycles completed successfully."
   exit 1
 fi
 
-echo "Winter Flips worker completed with $successful_cycles/$CYCLES successful cycles."
+echo "Vinted Winter Flips worker completed with $successful_cycles/$CYCLES successful cycles."
