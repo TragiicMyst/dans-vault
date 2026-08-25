@@ -192462,7 +192462,7 @@
       ]
     }
   },
-  "updatedAt": "2026-08-25T09:13:06.217Z",
+  "updatedAt": "2026-08-25T09:18:05.809Z",
   "cursor": 0,
   "lastRotation": {
     "bot": "trainers",
@@ -192691,12 +192691,12 @@
       }
     },
     "lastScanAt": "2026-08-25T09:08:05.767Z",
-    "lastAttemptAt": "2026-08-25T09:13:06.217Z"
+    "lastAttemptAt": "2026-08-25T09:18:05.809Z"
   },
   "diagnostics": {
     "bot": "trainers",
     "radarVersion": 6,
-    "lastRunAt": "2026-08-25T09:13:06.217Z",
+    "lastRunAt": "2026-08-25T09:18:05.809Z",
     "recoveryMode": false,
     "filterProfile": {
       "freshnessMinutes": 15,
@@ -194090,5 +194090,5 @@
     "9771404620": "2026-08-25T09:08:49.131Z",
     "9771340503": "2026-08-25T09:08:54.380Z"
   },
-  "cooldownUntil": "2026-08-25T09:14:23.161Z"
+  "cooldownUntil": "2026-08-25T09:19:22.753Z"
 }
