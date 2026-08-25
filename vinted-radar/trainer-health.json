@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-08-25T01:32:57.404Z",
-  "stateUpdatedAt": "2026-08-25T01:32:57.404Z",
-  "lastAttemptAt": "2026-08-25T01:32:57.404Z",
-  "lastScanAt": "2026-08-25T01:32:57.404Z",
+  "generatedAt": "2026-08-25T01:37:58.273Z",
+  "stateUpdatedAt": "2026-08-25T01:37:58.273Z",
+  "lastAttemptAt": "2026-08-25T01:37:58.273Z",
+  "lastScanAt": "2026-08-25T01:37:58.273Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Air Force 1::primary",
-    "Nike Dunk Low::primary",
-    "Air Jordan 1 Low::primary",
-    "Air Jordan 1 Mid::primary",
-    "Air Jordan 4::primary",
-    "Nike Initiator::primary"
+    "Nike Air Max Moto 2K::primary",
+    "Nike Metcon 10::primary",
+    "Nike Zoom Fly 6::primary",
+    "Nike Air Max Bargain::generic",
+    "Nike Running Trainer Bargain::generic",
+    "Nike Lifestyle Trainer Bargain::generic"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 965,
-  "candidateItems": 659,
-  "freshItems": 75,
-  "qualifyingAlerts": 6,
+  "catalogItems": 861,
+  "candidateItems": 421,
+  "freshItems": 14,
+  "qualifyingAlerts": 4,
   "qualifyingByCondition": {
-    "veryGood": 6
+    "veryGood": 4
   },
-  "deliveredAlerts": 6,
+  "deliveredAlerts": 4,
   "deliveredByCondition": {
-    "veryGood": 6
+    "veryGood": 4
   },
-  "duplicateSuppressed": 19,
+  "duplicateSuppressed": 23,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -63,15 +63,13 @@
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 12,
+  "detailFetches": 10,
   "rejects": {
-    "stale": 565,
-    "price": 2,
-    "seller-risk": 3,
-    "size": 3,
-    "detail-budget-exhausted": 23,
-    "seller-check-budget-exhausted": 37,
-    "condition": 1
+    "stale": 384,
+    "seller-risk": 2,
+    "price": 3,
+    "size": 4,
+    "keyword": 1
   },
   "failures": {}
 }
