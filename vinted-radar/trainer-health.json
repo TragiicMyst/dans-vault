@@ -1,37 +1,37 @@
 {
-  "generatedAt": "2026-08-25T12:03:05.718Z",
-  "stateUpdatedAt": "2026-08-25T12:03:05.718Z",
-  "lastAttemptAt": "2026-08-25T12:03:05.718Z",
-  "lastScanAt": "2026-08-25T12:03:05.718Z",
+  "generatedAt": "2026-08-25T12:05:02.338Z",
+  "stateUpdatedAt": "2026-08-25T12:05:02.338Z",
+  "lastAttemptAt": "2026-08-25T12:05:02.338Z",
+  "lastScanAt": "2026-08-25T12:05:02.338Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Air Max Bargain::generic",
-    "Nike Running Trainer Bargain::generic",
-    "Nike Lifestyle Trainer Bargain::generic",
-    "Nike Football Boot Bargain::generic",
-    "Nike Basketball Shoe Bargain::generic",
-    "Nike SB Shoe Bargain::generic"
+    "Nike P-6000::primary",
+    "Nike V5 RNR::primary",
+    "Nike Vomero 5::primary",
+    "Nike Vomero 18::primary",
+    "Nike Vomero Plus::primary",
+    "Nike Vomero Premium::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1344,
-  "catalogItems": 870,
-  "candidateItems": 391,
-  "freshItems": 246,
+  "catalogMarkers": 1262,
+  "catalogItems": 681,
+  "candidateItems": 424,
+  "freshItems": 36,
   "qualifyingAlerts": 3,
   "qualifyingByCondition": {
-    "veryGood": 2,
-    "newWithoutTags": 1
+    "veryGood": 1,
+    "newWithTags": 2
   },
   "deliveredAlerts": 3,
   "deliveredByCondition": {
-    "veryGood": 2,
-    "newWithoutTags": 1
+    "veryGood": 1,
+    "newWithTags": 2
   },
-  "duplicateSuppressed": 4,
+  "duplicateSuppressed": 39,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,13 +67,14 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 141,
-    "price": 38,
-    "keyword": 28,
+    "stale": 349,
+    "condition": 3,
     "size": 9,
-    "condition": 54,
-    "detail-budget-exhausted": 40,
-    "seller-check-budget-exhausted": 74
+    "keyword": 3,
+    "detail-budget-exhausted": 9,
+    "seller-check-budget-exhausted": 7,
+    "price": 1,
+    "weak-margin": 1
   },
   "failures": {}
 }
