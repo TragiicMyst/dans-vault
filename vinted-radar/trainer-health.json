@@ -1,37 +1,35 @@
 {
-  "generatedAt": "2026-08-25T09:56:29.914Z",
-  "stateUpdatedAt": "2026-08-25T09:56:29.914Z",
-  "lastAttemptAt": "2026-08-25T09:56:29.914Z",
-  "lastScanAt": "2026-08-25T09:56:29.914Z",
+  "generatedAt": "2026-08-25T10:01:29.606Z",
+  "stateUpdatedAt": "2026-08-25T10:01:29.606Z",
+  "lastAttemptAt": "2026-08-25T10:01:29.606Z",
+  "lastScanAt": "2026-08-25T10:01:29.606Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Air Max 270::primary",
-    "Nike Air Max Dn::primary",
-    "Nike Air Max 1::primary",
-    "Nike Shox TL::primary",
-    "Nike Shox R4::primary",
-    "Nike Shox Ride 2::primary"
+    "Nike Air Force 1::primary",
+    "Nike Dunk Low::primary",
+    "Air Jordan 1 Low::primary",
+    "Air Jordan 1 Mid::primary",
+    "Air Jordan 4::primary",
+    "Nike Initiator::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1344,
-  "catalogItems": 901,
-  "candidateItems": 421,
-  "freshItems": 23,
+  "catalogMarkers": 1343,
+  "catalogItems": 897,
+  "candidateItems": 596,
+  "freshItems": 136,
   "qualifyingAlerts": 2,
   "qualifyingByCondition": {
-    "newWithTags": 1,
-    "newWithoutTags": 1
+    "veryGood": 2
   },
   "deliveredAlerts": 2,
   "deliveredByCondition": {
-    "newWithTags": 1,
-    "newWithoutTags": 1
+    "veryGood": 2
   },
-  "duplicateSuppressed": 53,
+  "duplicateSuppressed": 17,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -65,13 +63,17 @@
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 8,
+  "detailFetches": 12,
   "rejects": {
-    "stale": 345,
-    "keyword": 6,
-    "condition": 8,
-    "size": 6,
-    "price": 1
+    "stale": 443,
+    "condition": 29,
+    "price": 3,
+    "keyword": 18,
+    "seller-risk": 8,
+    "size": 2,
+    "seller-check-budget-exhausted": 37,
+    "detail-budget-exhausted": 36,
+    "weak-margin": 1
   },
   "failures": {}
 }
