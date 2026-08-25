@@ -15,6 +15,11 @@ set -e
 git config user.name "Dan's Vault Winter Flips"
 git config user.email "actions@users.noreply.github.com"
 
+# Patch the checked-out working copy with the same strict freshness policy used by the mature Vinted radar.
+# This is intentionally re-applied each job because state persistence resets the checkout to origin/main.
+node winter-flips/freshness-patch.mjs
+node --check winter-flips/engine.mjs
+
 successful_cycles=0
 for cycle in $(seq 1 "$CYCLES"); do
   cycle_start=$(date +%s)
