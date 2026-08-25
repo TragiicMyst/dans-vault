@@ -1,5 +1,9 @@
 {
   "initialized": false,
   "products": {},
-  "updatedAt": null
+  "updatedAt": "2026-08-25T10:01:12.037Z",
+  "connectedMessageSent": true,
+  "queueLive": false,
+  "catalogAvailable": false,
+  "catalogError": "fetch failed"
 }
