@@ -3,9 +3,34 @@ import fs from 'node:fs/promises';
 const file = new URL('./engine.mjs', import.meta.url);
 let source = await fs.readFile(file, 'utf8');
 const MARKER = '// WINTER_FRESHNESS_GATE_V1';
+const LOAD_JSON_HELPER = `
+
+async function loadJson(file, fallback) {
+  try {
+    const raw = await fs.readFile(file, 'utf8');
+    return JSON.parse(raw);
+  } catch (error) {
+    console.warn(\`Winter Flips state load fallback: \${error?.message || error}\`);
+    return fallback;
+  }
+}
+`;
+
+function ensureRuntimeHelpers() {
+  if (!/\basync\s+function\s+loadJson\s*\(/.test(source) && !/\bfunction\s+loadJson\s*\(/.test(source)) {
+    source += LOAD_JSON_HELPER;
+    return true;
+  }
+  return false;
+}
+
+const repairedRuntime = ensureRuntimeHelpers();
 
 if (source.includes(MARKER)) {
-  console.log('Winter Flips freshness gate already applied in working tree.');
+  if (repairedRuntime) await fs.writeFile(file, source);
+  console.log(repairedRuntime
+    ? 'Winter Flips freshness gate already applied; repaired missing runtime helper.'
+    : 'Winter Flips freshness gate already applied in working tree.');
   process.exit(0);
 }
 
@@ -51,4 +76,6 @@ replaceExact(
 );
 
 await fs.writeFile(file, source);
-console.log('Applied Winter Flips 15-minute/new-ID freshness gate to working engine.');
+console.log(repairedRuntime
+  ? 'Applied Winter Flips 15-minute/new-ID freshness gate and repaired runtime helper.'
+  : 'Applied Winter Flips 15-minute/new-ID freshness gate to working engine.');
