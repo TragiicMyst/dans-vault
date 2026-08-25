@@ -1,4 +1,4 @@
-name: Pokemon Centre Jina Diagnostic
+name: Pokemon Centre Source Diagnostic
 
 on:
   workflow_dispatch:
@@ -9,7 +9,7 @@ on:
 jobs:
   diagnose:
     runs-on: ubuntu-latest
-    timeout-minutes: 2
+    timeout-minutes: 3
     steps:
       - uses: actions/checkout@v5
-      - run: node pokemon-center/jina-diagnostic.mjs
+      - run: node pokemon-center/hotstock-diagnostic.mjs
