@@ -46,6 +46,7 @@ jobs:
         run: |
           set -e
           node --check winter-flips/engine.mjs
+          node --check winter-flips/run-conditioned.mjs
           node --check winter-flips/intelligence.mjs
           node --check winter-flips/test-alert.mjs
           node --check winter-flips/capital-allocator.mjs
