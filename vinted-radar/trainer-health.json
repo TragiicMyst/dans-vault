@@ -1,39 +1,37 @@
 {
-  "generatedAt": "2026-08-25T04:23:25.994Z",
-  "stateUpdatedAt": "2026-08-25T04:23:25.994Z",
-  "lastAttemptAt": "2026-08-25T04:23:25.994Z",
-  "lastScanAt": "2026-08-25T04:23:25.994Z",
+  "generatedAt": "2026-08-25T04:28:25.863Z",
+  "stateUpdatedAt": "2026-08-25T04:28:25.863Z",
+  "lastAttemptAt": "2026-08-25T04:28:25.863Z",
+  "lastScanAt": "2026-08-25T04:28:25.863Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Air Max Plus 3::primary",
-    "Nike Air Max Plus VII::primary",
-    "Nike Air Max 95::primary",
-    "Nike Air Max 90::primary",
-    "Nike Air Max 90 Drift::primary",
-    "Nike Air Max 97::primary"
+    "Nike Air Max 270::primary",
+    "Nike Air Max Dn::primary",
+    "Nike Air Max 1::primary",
+    "Nike Shox TL::primary",
+    "Nike Shox R4::primary",
+    "Nike Shox Ride 2::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 1040,
-  "candidateItems": 588,
-  "freshItems": 19,
-  "qualifyingAlerts": 7,
+  "catalogItems": 901,
+  "candidateItems": 417,
+  "freshItems": 14,
+  "qualifyingAlerts": 9,
   "qualifyingByCondition": {
-    "veryGood": 2,
-    "newWithoutTags": 3,
+    "veryGood": 7,
     "newWithTags": 2
   },
-  "deliveredAlerts": 7,
+  "deliveredAlerts": 9,
   "deliveredByCondition": {
-    "veryGood": 2,
-    "newWithoutTags": 3,
+    "veryGood": 7,
     "newWithTags": 2
   },
-  "duplicateSuppressed": 59,
+  "duplicateSuppressed": 49,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,10 +67,11 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "recovery-no-fresh-signal": 510,
-    "size": 5,
-    "detail-budget-exhausted": 2,
-    "seller-check-budget-exhausted": 5
+    "stale": 354,
+    "price": 1,
+    "size": 2,
+    "seller-risk": 1,
+    "detail-budget-exhausted": 1
   },
   "failures": {}
 }
