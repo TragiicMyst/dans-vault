@@ -215,6 +215,11 @@
         "at": "2026-08-25T22:16:15.222Z",
         "count": 35,
         "median": 175
+      },
+      {
+        "at": "2026-08-25T22:57:30.218Z",
+        "count": 35,
+        "median": 160
       }
     ],
     "arcteryx-cerium:arc-teryx-cerium": [
@@ -227,6 +232,11 @@
         "at": "2026-08-25T22:16:15.222Z",
         "count": 35,
         "median": 155
+      },
+      {
+        "at": "2026-08-25T22:57:30.218Z",
+        "count": 35,
+        "median": 175
       }
     ],
     "arcteryx-thorium:arcteryx-thorium-jacket": [
@@ -239,6 +249,11 @@
         "at": "2026-08-25T22:16:15.222Z",
         "count": 35,
         "median": 160
+      },
+      {
+        "at": "2026-08-25T22:57:30.218Z",
+        "count": 35,
+        "median": 175
       }
     ],
     "arcteryx-thorium:arc-teryx-thorium": [
@@ -249,6 +264,11 @@
       },
       {
         "at": "2026-08-25T22:16:15.222Z",
+        "count": 35,
+        "median": 175
+      },
+      {
+        "at": "2026-08-25T22:57:30.218Z",
         "count": 35,
         "median": 175
       }
@@ -263,6 +283,11 @@
         "at": "2026-08-25T22:16:15.222Z",
         "count": 35,
         "median": 85
+      },
+      {
+        "at": "2026-08-25T22:57:30.218Z",
+        "count": 35,
+        "median": 85
       }
     ],
     "ralph-lauren-puffer:polo-ralph-lauren-down-jacket": [
@@ -273,6 +298,11 @@
       },
       {
         "at": "2026-08-25T22:16:15.222Z",
+        "count": 35,
+        "median": 120
+      },
+      {
+        "at": "2026-08-25T22:57:30.218Z",
         "count": 35,
         "median": 120
       }
@@ -287,6 +317,11 @@
         "at": "2026-08-25T22:43:59.175Z",
         "count": 35,
         "median": 45
+      },
+      {
+        "at": "2026-08-25T22:57:30.218Z",
+        "count": 35,
+        "median": 45
       }
     ],
     "nike-puffer:nike-down-jacket": [
@@ -297,6 +332,11 @@
       },
       {
         "at": "2026-08-25T22:43:59.175Z",
+        "count": 35,
+        "median": 45
+      },
+      {
+        "at": "2026-08-25T22:57:30.218Z",
         "count": 35,
         "median": 45
       }
@@ -519,5 +559,5 @@
     ]
   },
   "momentumAlerts": {},
-  "lastRunAt": "2026-08-25T22:56:42.467Z"
+  "lastRunAt": "2026-08-25T22:57:42.449Z"
 }
