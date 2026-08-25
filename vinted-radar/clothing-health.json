@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-08-25T11:36:51.438Z",
-  "stateUpdatedAt": "2026-08-25T11:36:51.438Z",
-  "lastAttemptAt": "2026-08-25T11:36:51.438Z",
-  "lastScanAt": "2026-08-25T11:36:51.438Z",
+  "generatedAt": "2026-08-25T11:48:35.732Z",
+  "stateUpdatedAt": "2026-08-25T11:48:35.732Z",
+  "lastAttemptAt": "2026-08-25T11:48:35.732Z",
+  "lastScanAt": "2026-08-25T11:48:35.732Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike ACG Tuff Fleece::nike acg tuff fleece",
-    "Nike Solo Swoosh Crew::nike solo swoosh sweatshirt",
-    "Nike Miler Repel Jacket::nike miler repel jacket",
-    "Nike Solo Swoosh Joggers::nike solo swoosh joggers",
-    "Nike Stride Running Jacket::nike stride running jacket",
-    "Nike T-Shirt::nike t shirt"
+    "Nike Long Sleeve Top::nike long sleeve top",
+    "Nike Polo::nike polo",
+    "Nike Football Shirt::nike football shirt",
+    "Nike Training Top::nike training top",
+    "Nike Dri-FIT Top::nike dri fit top",
+    "Nike Quarter Zip::nike quarter zip"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1440,
-  "catalogItems": 839,
-  "candidateItems": 319,
-  "freshItems": 79,
-  "qualifyingAlerts": 33,
+  "catalogMarkers": 1343,
+  "catalogItems": 1019,
+  "candidateItems": 290,
+  "freshItems": 194,
+  "qualifyingAlerts": 100,
   "qualifyingByCondition": {
-    "veryGood": 27,
-    "newWithTags": 2,
-    "newWithoutTags": 4
+    "veryGood": 87,
+    "newWithoutTags": 8,
+    "newWithTags": 5
   },
-  "deliveredAlerts": 33,
+  "deliveredAlerts": 100,
   "deliveredByCondition": {
-    "veryGood": 27,
-    "newWithTags": 2,
-    "newWithoutTags": 4
+    "veryGood": 87,
+    "newWithoutTags": 8,
+    "newWithTags": 5
   },
-  "duplicateSuppressed": 13,
+  "duplicateSuppressed": 7,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,13 +69,12 @@
   "pendingDeliveries": 0,
   "detailFetches": 6,
   "rejects": {
-    "recovery-no-fresh-signal": 227,
-    "price": 22,
-    "condition": 15,
-    "size": 3,
-    "keyword": 2,
-    "detail-budget-exhausted": 3,
-    "weak-margin": 1
+    "stale": 89,
+    "size": 4,
+    "keyword": 13,
+    "condition": 27,
+    "price": 46,
+    "detail-budget-exhausted": 4
   },
   "failures": {}
 }

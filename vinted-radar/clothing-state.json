@@ -41798,7 +41798,8 @@
       "url": "https://www.vinted.co.uk/items/9758362829-bnwt-nike-dri-fit-red-medium-tracksuit-training-football-track-zip-up-top-jacket-size-mens-medium",
       "lastPrice": 13,
       "firstSeenAt": "2026-08-24T09:47:08.411Z",
-      "lastSeenAt": "2026-08-24T09:47:08.411Z"
+      "lastSeenAt": "2026-08-25T11:48:40.163Z",
+      "blockedReason": "stale-or-no-freshness-signal"
     },
     "9758293899": {
       "bootstrapSeen": true,
@@ -50170,7 +50171,8 @@
       "url": "https://www.vinted.co.uk/items/9761074003-nike-polo-shirt-xl-grey-cotton",
       "lastPrice": 21.99,
       "firstSeenAt": "2026-08-24T10:56:09.015Z",
-      "lastSeenAt": "2026-08-24T10:56:09.015Z"
+      "lastSeenAt": "2026-08-25T11:50:36.256Z",
+      "blockedReason": "stale-or-no-freshness-signal"
     },
     "9761067998": {
       "bootstrapSeen": true,
@@ -61110,12 +61112,23 @@
       "lastSeenAt": "2026-08-25T09:55:14.529Z"
     },
     "9762997636": {
-      "blockedReason": "recovery-no-fresh-signal",
       "title": "grey nike polo",
       "url": "https://www.vinted.co.uk/items/9762997636-grey-nike-polo",
       "lastPrice": 12,
       "firstSeenAt": "2026-08-25T09:55:14.529Z",
-      "lastSeenAt": "2026-08-25T10:43:09.930Z"
+      "lastSeenAt": "2026-08-25T11:50:36.255Z",
+      "size": "S",
+      "condition": "newWithTags",
+      "resale": 21,
+      "netProfit": 8.2,
+      "roi": 68.33,
+      "buyScore": 67,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:50:36.255Z",
+      "discordMessageId": "1541776809048285276"
     },
     "9760860551": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -64733,12 +64746,12 @@
       "lastSeenAt": "2026-08-25T10:43:33.639Z"
     },
     "9771033850": {
-      "blockedReason": "price",
+      "blockedReason": "stale-or-no-freshness-signal",
       "title": "bnwt nike sportswear windbreaker windrunner hooded track jacket xl grey white",
       "url": "https://www.vinted.co.uk/items/9771033850-bnwt-nike-sportswear-windbreaker-windrunner-hooded-track-jacket-xl-grey-white",
       "lastPrice": 57.99,
       "firstSeenAt": "2026-08-25T10:43:33.639Z",
-      "lastSeenAt": "2026-08-25T10:43:33.639Z"
+      "lastSeenAt": "2026-08-25T11:48:40.163Z"
     },
     "9770614373": {
       "size": "XL",
@@ -65723,12 +65736,12 @@
       "lastSeenAt": "2026-08-25T10:57:15.578Z"
     },
     "9749163431": {
-      "blockedReason": "recovery-no-fresh-signal",
+      "blockedReason": "stale-or-no-freshness-signal",
       "title": "nike just do it hoodie navy blue pullover sweatshirt size m",
       "url": "https://www.vinted.co.uk/items/9749163431-nike-just-do-it-hoodie-navy-blue-pullover-sweatshirt-size-m",
       "lastPrice": 12.99,
       "firstSeenAt": "2026-08-25T10:57:15.578Z",
-      "lastSeenAt": "2026-08-25T11:36:55.553Z"
+      "lastSeenAt": "2026-08-25T11:48:40.163Z"
     },
     "9735652953": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -66852,12 +66865,23 @@
       "lastSeenAt": "2026-08-25T11:13:13.585Z"
     },
     "9772275175": {
-      "blockedReason": "recovery-no-fresh-signal",
       "title": "long sleeve grey nike gym top",
       "url": "https://www.vinted.co.uk/items/9772275175-long-sleeve-grey-nike-gym-top",
       "lastPrice": 8,
       "firstSeenAt": "2026-08-25T11:36:55.553Z",
-      "lastSeenAt": "2026-08-25T11:36:55.553Z"
+      "lastSeenAt": "2026-08-25T11:49:15.709Z",
+      "size": "S",
+      "condition": "newWithoutTags",
+      "resale": 21,
+      "netProfit": 12.2,
+      "roi": 152.5,
+      "buyScore": 86,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:49:15.709Z",
+      "discordMessageId": "1541776471461339227"
     },
     "9771752818": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -67784,13 +67808,13 @@
       "lastSeenAt": "2026-08-25T11:38:49.581Z"
     },
     "9773152110": {
-      "blockedReason": "detail-budget-exhausted",
+      "blockedReason": "size",
       "size": null,
       "title": "nike long sleeve t shirt",
       "url": "https://www.vinted.co.uk/items/9773152110-nike-long-sleeve-t-shirt",
       "lastPrice": 2,
       "firstSeenAt": "2026-08-25T11:38:49.581Z",
-      "lastSeenAt": "2026-08-25T11:38:49.581Z"
+      "lastSeenAt": "2026-08-25T11:48:53.051Z"
     },
     "9773150340": {
       "blockedReason": "price",
@@ -68063,12 +68087,12 @@
       "lastSeenAt": "2026-08-25T11:39:09.545Z"
     },
     "9746457792": {
-      "blockedReason": "recovery-no-fresh-signal",
+      "blockedReason": "stale-or-no-freshness-signal",
       "title": "nike dri fit youth t shirt size medium dark gray",
       "url": "https://www.vinted.co.uk/items/9746457792-nike-dri-fit-youth-t-shirt-size-medium-dark-gray",
       "lastPrice": 3.71,
       "firstSeenAt": "2026-08-25T11:39:09.545Z",
-      "lastSeenAt": "2026-08-25T11:39:09.545Z"
+      "lastSeenAt": "2026-08-25T11:53:12.009Z"
     },
     "9746456804": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -68117,6 +68141,3240 @@
       "lastPrice": 8.9,
       "firstSeenAt": "2026-08-25T11:39:09.545Z",
       "lastSeenAt": "2026-08-25T11:39:09.545Z"
+    },
+    "9772276068": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "nike air dri fit tracksuit",
+      "url": "https://www.vinted.co.uk/items/9772276068-nike-air-dri-fit-tracksuit",
+      "lastPrice": 10,
+      "firstSeenAt": "2026-08-25T11:48:40.162Z",
+      "lastSeenAt": "2026-08-25T11:48:40.162Z"
+    },
+    "9770858370": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "1860 munich 1995 96 home football shirt",
+      "url": "https://www.vinted.co.uk/items/9770858370-1860-munich-1995-96-home-football-shirt",
+      "lastPrice": 100,
+      "firstSeenAt": "2026-08-25T11:48:40.163Z",
+      "lastSeenAt": "2026-08-25T11:48:40.163Z"
+    },
+    "9769461422": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "nike dri fit black white sports t shirt",
+      "url": "https://www.vinted.co.uk/items/9769461422-nike-dri-fit-black-white-sports-t-shirt",
+      "lastPrice": 8,
+      "firstSeenAt": "2026-08-25T11:48:40.163Z",
+      "lastSeenAt": "2026-08-25T11:48:40.163Z"
+    },
+    "9767702347": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "boys t shirt",
+      "url": "https://www.vinted.co.uk/items/9767702347-boys-t-shirt",
+      "lastPrice": 2,
+      "firstSeenAt": "2026-08-25T11:48:40.163Z",
+      "lastSeenAt": "2026-08-25T11:48:40.163Z"
+    },
+    "9765827122": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "nike golf trousers black w36 l34",
+      "url": "https://www.vinted.co.uk/items/9765827122-nike-golf-trousers-black-w36-l34",
+      "lastPrice": 10,
+      "firstSeenAt": "2026-08-25T11:48:40.163Z",
+      "lastSeenAt": "2026-08-25T11:48:40.163Z"
+    },
+    "9765765395": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "nike grey joggers",
+      "url": "https://www.vinted.co.uk/items/9765765395-nike-grey-joggers",
+      "lastPrice": 5,
+      "firstSeenAt": "2026-08-25T11:48:40.163Z",
+      "lastSeenAt": "2026-08-25T11:48:40.163Z"
+    },
+    "9765117332": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "celtics pierce vest",
+      "url": "https://www.vinted.co.uk/items/9765117332-celtics-pierce-vest",
+      "lastPrice": 50,
+      "firstSeenAt": "2026-08-25T11:48:40.163Z",
+      "lastSeenAt": "2026-08-25T11:48:40.163Z"
+    },
+    "9763857800": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "nike mens pink sports top",
+      "url": "https://www.vinted.co.uk/items/9763857800-nike-mens-pink-sports-top",
+      "lastPrice": 8,
+      "firstSeenAt": "2026-08-25T11:48:40.163Z",
+      "lastSeenAt": "2026-08-25T11:48:40.163Z"
+    },
+    "9762531714": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "womens nike hoodie",
+      "url": "https://www.vinted.co.uk/items/9762531714-womens-nike-hoodie",
+      "lastPrice": 7,
+      "firstSeenAt": "2026-08-25T11:48:40.163Z",
+      "lastSeenAt": "2026-08-25T11:48:40.163Z"
+    },
+    "9759464020": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "nike athletic top",
+      "url": "https://www.vinted.co.uk/items/9759464020-nike-athletic-top",
+      "lastPrice": 7.97,
+      "firstSeenAt": "2026-08-25T11:48:40.163Z",
+      "lastSeenAt": "2026-08-25T11:48:40.163Z"
+    },
+    "9758306012": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "nike golf trousers 34x30",
+      "url": "https://www.vinted.co.uk/items/9758306012-nike-golf-trousers-34x30",
+      "lastPrice": 8,
+      "firstSeenAt": "2026-08-25T11:48:40.163Z",
+      "lastSeenAt": "2026-08-25T11:48:40.163Z"
+    },
+    "9757877918": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "boys black nike joggers 6 7yr",
+      "url": "https://www.vinted.co.uk/items/9757877918-boys-black-nike-joggers-6-7yr",
+      "lastPrice": 10,
+      "firstSeenAt": "2026-08-25T11:48:40.163Z",
+      "lastSeenAt": "2026-08-25T11:48:40.163Z"
+    },
+    "9757691455": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "nike black jacket boys age 34",
+      "url": "https://www.vinted.co.uk/items/9757691455-nike-black-jacket-boys-age-34",
+      "lastPrice": 5,
+      "firstSeenAt": "2026-08-25T11:48:40.163Z",
+      "lastSeenAt": "2026-08-25T11:48:40.163Z"
+    },
+    "9756622762": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "hassan whiteside icon edition swingman jersey miami heat nike nba connected jersey large",
+      "url": "https://www.vinted.co.uk/items/9756622762-hassan-whiteside-icon-edition-swingman-jersey-miami-heat-nike-nba-connected-jersey-large",
+      "lastPrice": 25,
+      "firstSeenAt": "2026-08-25T11:48:40.163Z",
+      "lastSeenAt": "2026-08-25T11:48:40.163Z"
+    },
+    "9748365554": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "nike dri fit trousers size m",
+      "url": "https://www.vinted.co.uk/items/9748365554-nike-dri-fit-trousers-size-m",
+      "lastPrice": 10,
+      "firstSeenAt": "2026-08-25T11:48:40.163Z",
+      "lastSeenAt": "2026-08-25T11:48:40.163Z"
+    },
+    "9747593771": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "nike tech fleece jacket",
+      "url": "https://www.vinted.co.uk/items/9747593771-nike-tech-fleece-jacket",
+      "lastPrice": 8,
+      "firstSeenAt": "2026-08-25T11:48:40.163Z",
+      "lastSeenAt": "2026-08-25T11:48:40.163Z"
+    },
+    "9746959890": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "grey small nike hooded sweatshirt",
+      "url": "https://www.vinted.co.uk/items/9746959890-grey-small-nike-hooded-sweatshirt",
+      "lastPrice": 4,
+      "firstSeenAt": "2026-08-25T11:48:40.163Z",
+      "lastSeenAt": "2026-08-25T11:48:40.163Z"
+    },
+    "9746300365": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "nike jacksonville jaguars trevor lawrence 16 mens jersey size xl new stiched",
+      "url": "https://www.vinted.co.uk/items/9746300365-nike-jacksonville-jaguars-trevor-lawrence-16-mens-jersey-size-xl-new-stiched",
+      "lastPrice": 63.07,
+      "firstSeenAt": "2026-08-25T11:48:40.163Z",
+      "lastSeenAt": "2026-08-25T11:48:40.163Z"
+    },
+    "9745699998": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "burgundy nike shorts",
+      "url": "https://www.vinted.co.uk/items/9745699998-burgundy-nike-shorts",
+      "lastPrice": 3,
+      "firstSeenAt": "2026-08-25T11:48:40.163Z",
+      "lastSeenAt": "2026-08-25T11:48:40.163Z"
+    },
+    "9743981210": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "nike dri fit shorts",
+      "url": "https://www.vinted.co.uk/items/9743981210-nike-dri-fit-shorts",
+      "lastPrice": 4,
+      "firstSeenAt": "2026-08-25T11:48:40.163Z",
+      "lastSeenAt": "2026-08-25T11:48:40.163Z"
+    },
+    "9741772811": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "nike air max shorts",
+      "url": "https://www.vinted.co.uk/items/9741772811-nike-air-max-shorts",
+      "lastPrice": 10,
+      "firstSeenAt": "2026-08-25T11:48:40.163Z",
+      "lastSeenAt": "2026-08-25T11:48:40.163Z"
+    },
+    "9740344462": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "nike dri fit top",
+      "url": "https://www.vinted.co.uk/items/9740344462-nike-dri-fit-top",
+      "lastPrice": 5,
+      "firstSeenAt": "2026-08-25T11:48:40.163Z",
+      "lastSeenAt": "2026-08-25T11:48:40.163Z"
+    },
+    "9736751000": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "nike mens vintage clima fit gilet windbreaker black size l",
+      "url": "https://www.vinted.co.uk/items/9736751000-nike-mens-vintage-clima-fit-gilet-windbreaker-black-size-l",
+      "lastPrice": 18,
+      "firstSeenAt": "2026-08-25T11:48:40.163Z",
+      "lastSeenAt": "2026-08-25T11:48:40.163Z"
+    },
+    "9736498046": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "rare 2324 rb leipzig away jersey",
+      "url": "https://www.vinted.co.uk/items/9736498046-rare-2324-rb-leipzig-away-jersey",
+      "lastPrice": 15,
+      "firstSeenAt": "2026-08-25T11:48:40.163Z",
+      "lastSeenAt": "2026-08-25T11:48:40.163Z"
+    },
+    "9736280054": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "nike dri fit womens size medium black pink athletic workout running shorts wt609",
+      "url": "https://www.vinted.co.uk/items/9736280054-nike-dri-fit-womens-size-medium-black-pink-athletic-workout-running-shorts-wt609",
+      "lastPrice": 19.99,
+      "firstSeenAt": "2026-08-25T11:48:40.163Z",
+      "lastSeenAt": "2026-08-25T11:48:40.163Z"
+    },
+    "9735624179": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "boys nike jacket",
+      "url": "https://www.vinted.co.uk/items/9735624179-boys-nike-jacket",
+      "lastPrice": 3.71,
+      "firstSeenAt": "2026-08-25T11:48:40.163Z",
+      "lastSeenAt": "2026-08-25T11:48:40.163Z"
+    },
+    "9735246915": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "nike boys size 6 mesh athletic shorts",
+      "url": "https://www.vinted.co.uk/items/9735246915-nike-boys-size-6-mesh-athletic-shorts",
+      "lastPrice": 2.97,
+      "firstSeenAt": "2026-08-25T11:48:40.163Z",
+      "lastSeenAt": "2026-08-25T11:48:40.163Z"
+    },
+    "9734890340": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "black nike tracksuit",
+      "url": "https://www.vinted.co.uk/items/9734890340-black-nike-tracksuit",
+      "lastPrice": 10,
+      "firstSeenAt": "2026-08-25T11:48:40.163Z",
+      "lastSeenAt": "2026-08-25T11:48:40.163Z"
+    },
+    "9733024350": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "boys swim shorts",
+      "url": "https://www.vinted.co.uk/items/9733024350-boys-swim-shorts",
+      "lastPrice": 8.9,
+      "firstSeenAt": "2026-08-25T11:48:40.163Z",
+      "lastSeenAt": "2026-08-25T11:48:40.163Z"
+    },
+    "9733014772": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "nike dri fit mens mesh basketball shorts bluewhite colorblock size 3xl",
+      "url": "https://www.vinted.co.uk/items/9733014772-nike-dri-fit-mens-mesh-basketball-shorts-bluewhite-colorblock-size-3xl",
+      "lastPrice": 11.13,
+      "firstSeenAt": "2026-08-25T11:48:40.163Z",
+      "lastSeenAt": "2026-08-25T11:48:40.163Z"
+    },
+    "9732506598": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "mens nike shorts",
+      "url": "https://www.vinted.co.uk/items/9732506598-mens-nike-shorts",
+      "lastPrice": 15,
+      "firstSeenAt": "2026-08-25T11:48:40.163Z",
+      "lastSeenAt": "2026-08-25T11:48:40.163Z"
+    },
+    "9732258163": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "vintage nike club flow blue shorts",
+      "url": "https://www.vinted.co.uk/items/9732258163-vintage-nike-club-flow-blue-shorts",
+      "lastPrice": 14.84,
+      "firstSeenAt": "2026-08-25T11:48:40.163Z",
+      "lastSeenAt": "2026-08-25T11:48:40.163Z"
+    },
+    "9729818376": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "nike mens dri fit victory half zip pullover",
+      "url": "https://www.vinted.co.uk/items/9729818376-nike-mens-dri-fit-victory-half-zip-pullover",
+      "lastPrice": 10.39,
+      "firstSeenAt": "2026-08-25T11:48:40.163Z",
+      "lastSeenAt": "2026-08-25T11:48:40.163Z"
+    },
+    "9715384588": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "white nike youth aaron judge jersey 99",
+      "url": "https://www.vinted.co.uk/items/9715384588-white-nike-youth-aaron-judge-jersey-99",
+      "lastPrice": 29.68,
+      "firstSeenAt": "2026-08-25T11:48:40.163Z",
+      "lastSeenAt": "2026-08-25T11:48:40.163Z"
+    },
+    "9773372268": {
+      "blockedReason": "size",
+      "title": "nike long sleeved top and leggings",
+      "url": "https://www.vinted.co.uk/items/9773372268-nike-long-sleeved-top-and-leggings",
+      "lastPrice": 6,
+      "firstSeenAt": "2026-08-25T11:48:47.550Z",
+      "lastSeenAt": "2026-08-25T11:48:47.550Z"
+    },
+    "9773266538": {
+      "blockedReason": "keyword",
+      "title": "kids dri fit long sleeved top",
+      "url": "https://www.vinted.co.uk/items/9773266538-kids-dri-fit-long-sleeved-top",
+      "lastPrice": 5,
+      "firstSeenAt": "2026-08-25T11:48:47.550Z",
+      "lastSeenAt": "2026-08-25T11:52:22.092Z"
+    },
+    "9773243889": {
+      "blockedReason": "condition",
+      "title": "nike grey long sleeve sports top",
+      "url": "https://www.vinted.co.uk/items/9773243889-nike-grey-long-sleeve-sports-top",
+      "lastPrice": 4,
+      "firstSeenAt": "2026-08-25T11:48:47.550Z",
+      "lastSeenAt": "2026-08-25T11:48:47.550Z"
+    },
+    "9773232860": {
+      "blockedReason": "keyword",
+      "title": "brand new childrens nike long sleeve top in beige xl 158cm",
+      "url": "https://www.vinted.co.uk/items/9773232860-brand-new-childrens-nike-long-sleeve-top-in-beige-xl-158cm",
+      "lastPrice": 7.99,
+      "firstSeenAt": "2026-08-25T11:48:47.550Z",
+      "lastSeenAt": "2026-08-25T11:48:47.550Z"
+    },
+    "9773173820": {
+      "size": "L",
+      "condition": "veryGood",
+      "resale": 23,
+      "netProfit": 18.2,
+      "roi": 455,
+      "buyScore": 96,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:48:51.657Z",
+      "discordMessageId": "1541776370110038027",
+      "title": "nike dri fit long sleeve top",
+      "url": "https://www.vinted.co.uk/items/9773173820-nike-dri-fit-long-sleeve-top",
+      "lastPrice": 4,
+      "firstSeenAt": "2026-08-25T11:48:51.657Z",
+      "lastSeenAt": "2026-08-25T11:48:51.657Z"
+    },
+    "9773139330": {
+      "blockedReason": "price",
+      "title": "nike long sleeve top",
+      "url": "https://www.vinted.co.uk/items/9773139330-nike-long-sleeve-top",
+      "lastPrice": 42,
+      "firstSeenAt": "2026-08-25T11:48:53.051Z",
+      "lastSeenAt": "2026-08-25T11:48:53.051Z"
+    },
+    "9773125208": {
+      "size": "L",
+      "condition": "veryGood",
+      "resale": 23,
+      "netProfit": 16.2,
+      "roi": 270,
+      "buyScore": 93,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:48:55.907Z",
+      "discordMessageId": "1541776388321972346",
+      "title": "nike girls long sleeve 12 zip top juniour",
+      "url": "https://www.vinted.co.uk/items/9773125208-nike-girls-long-sleeve-12-zip-top-juniour",
+      "lastPrice": 6,
+      "firstSeenAt": "2026-08-25T11:48:55.907Z",
+      "lastSeenAt": "2026-08-25T11:48:55.907Z"
+    },
+    "9773084579": {
+      "size": "M",
+      "condition": "veryGood",
+      "resale": 22,
+      "netProfit": 11.2,
+      "roi": 112,
+      "buyScore": 79,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:48:59.447Z",
+      "discordMessageId": "1541776403161284609",
+      "title": "liverpool long sleeve top",
+      "url": "https://www.vinted.co.uk/items/9773084579-liverpool-long-sleeve-top",
+      "lastPrice": 10,
+      "firstSeenAt": "2026-08-25T11:48:59.447Z",
+      "lastSeenAt": "2026-08-25T11:48:59.447Z"
+    },
+    "9772981909": {
+      "size": "XL",
+      "condition": "veryGood",
+      "resale": 24,
+      "netProfit": 12.58,
+      "roi": 118.46,
+      "buyScore": 80,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:49:01.514Z",
+      "discordMessageId": "1541776411973648435",
+      "title": "nike dri fit long sleeve top size xl",
+      "url": "https://www.vinted.co.uk/items/9772981909-nike-dri-fit-long-sleeve-top-size-xl",
+      "lastPrice": 10.62,
+      "firstSeenAt": "2026-08-25T11:49:01.514Z",
+      "lastSeenAt": "2026-08-25T11:49:01.514Z"
+    },
+    "9772942203": {
+      "size": "M",
+      "condition": "veryGood",
+      "resale": 22,
+      "netProfit": 16.7,
+      "roi": 371.11,
+      "buyScore": 95,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:49:03.987Z",
+      "discordMessageId": "1541776421960028193",
+      "title": "nike air long sleeve top",
+      "url": "https://www.vinted.co.uk/items/9772942203-nike-air-long-sleeve-top",
+      "lastPrice": 4.5,
+      "firstSeenAt": "2026-08-25T11:49:03.987Z",
+      "lastSeenAt": "2026-08-25T11:49:03.987Z"
+    },
+    "9772833822": {
+      "blockedReason": "price",
+      "title": "nike fit long sleeved crop top",
+      "url": "https://www.vinted.co.uk/items/9772833822-nike-fit-long-sleeved-crop-top",
+      "lastPrice": 20,
+      "firstSeenAt": "2026-08-25T11:49:03.987Z",
+      "lastSeenAt": "2026-08-25T11:49:03.987Z"
+    },
+    "9772680745": {
+      "blockedReason": "size",
+      "title": "nike long sleeve top and joggers",
+      "url": "https://www.vinted.co.uk/items/9772680745-nike-long-sleeve-top-and-joggers",
+      "lastPrice": 7,
+      "firstSeenAt": "2026-08-25T11:49:06.368Z",
+      "lastSeenAt": "2026-08-25T11:49:06.368Z"
+    },
+    "9772676072": {
+      "blockedReason": "price",
+      "title": "nike usaf tee long sleeve xl",
+      "url": "https://www.vinted.co.uk/items/9772676072-nike-usaf-tee-long-sleeve-xl",
+      "lastPrice": 13.81,
+      "firstSeenAt": "2026-08-25T11:49:06.368Z",
+      "lastSeenAt": "2026-08-25T11:49:06.368Z"
+    },
+    "9772553921": {
+      "blockedReason": "condition",
+      "title": "new york giants long sleeve t shirt",
+      "url": "https://www.vinted.co.uk/items/9772553921-new-york-giants-long-sleeve-t-shirt",
+      "lastPrice": 7,
+      "firstSeenAt": "2026-08-25T11:49:06.368Z",
+      "lastSeenAt": "2026-08-25T11:49:06.368Z"
+    },
+    "9772416108": {
+      "blockedReason": "price",
+      "title": "boston celtics nike top boston celtics nike boston celtics nike long sleeve practice t shirt mens",
+      "url": "https://www.vinted.co.uk/items/9772416108-boston-celtics-nike-top-boston-celtics-nike-boston-celtics-nike-long-sleeve-practice-t-shirt-mens",
+      "lastPrice": 15,
+      "firstSeenAt": "2026-08-25T11:49:06.368Z",
+      "lastSeenAt": "2026-08-25T11:49:06.368Z"
+    },
+    "9772409404": {
+      "size": "S",
+      "condition": "veryGood",
+      "resale": 21,
+      "netProfit": 16.2,
+      "roi": 405,
+      "buyScore": 96,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:49:07.881Z",
+      "discordMessageId": "1541776438653358241",
+      "title": "nike dri fit ladies long sleeve running top",
+      "url": "https://www.vinted.co.uk/items/9772409404-nike-dri-fit-ladies-long-sleeve-running-top",
+      "lastPrice": 4,
+      "firstSeenAt": "2026-08-25T11:49:07.881Z",
+      "lastSeenAt": "2026-08-25T11:49:07.881Z"
+    },
+    "9772385079": {
+      "blockedReason": "price",
+      "title": "nike x stussy jacquard collar long sleeve t shirt black extra small",
+      "url": "https://www.vinted.co.uk/items/9772385079-nike-x-stussy-jacquard-collar-long-sleeve-t-shirt-black-extra-small",
+      "lastPrice": 15,
+      "firstSeenAt": "2026-08-25T11:49:07.882Z",
+      "lastSeenAt": "2026-08-25T11:49:07.882Z"
+    },
+    "9772361378": {
+      "size": "M",
+      "condition": "veryGood",
+      "resale": 22,
+      "netProfit": 16.2,
+      "roi": 324,
+      "buyScore": 94,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:49:10.351Z",
+      "discordMessageId": "1541776448984059946",
+      "title": "nike long sleeve top",
+      "url": "https://www.vinted.co.uk/items/9772361378-nike-long-sleeve-top",
+      "lastPrice": 5,
+      "firstSeenAt": "2026-08-25T11:49:10.351Z",
+      "lastSeenAt": "2026-08-25T11:49:10.351Z"
+    },
+    "9772321362": {
+      "size": "XS",
+      "condition": "veryGood",
+      "resale": 20,
+      "netProfit": 11.2,
+      "roi": 140,
+      "buyScore": 84,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:49:13.453Z",
+      "discordMessageId": "1541776461546131530",
+      "title": "long sleeve dri fit top",
+      "url": "https://www.vinted.co.uk/items/9772321362-long-sleeve-dri-fit-top",
+      "lastPrice": 8,
+      "firstSeenAt": "2026-08-25T11:49:13.453Z",
+      "lastSeenAt": "2026-08-25T11:49:13.453Z"
+    },
+    "9772295536": {
+      "blockedReason": "condition",
+      "title": "black long sleeved top nike l",
+      "url": "https://www.vinted.co.uk/items/9772295536-black-long-sleeved-top-nike-l",
+      "lastPrice": 7,
+      "firstSeenAt": "2026-08-25T11:49:13.454Z",
+      "lastSeenAt": "2026-08-25T11:49:13.454Z"
+    },
+    "9772226300": {
+      "size": "M",
+      "condition": "veryGood",
+      "resale": 22,
+      "netProfit": 17.2,
+      "roi": 430,
+      "buyScore": 96,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:49:18.697Z",
+      "discordMessageId": "1541776483574612000",
+      "title": "black nike womens pullover sports active wear long sleeve top",
+      "url": "https://www.vinted.co.uk/items/9772226300-black-nike-womens-pullover-sports-active-wear-long-sleeve-top",
+      "lastPrice": 4,
+      "firstSeenAt": "2026-08-25T11:49:18.697Z",
+      "lastSeenAt": "2026-08-25T11:49:18.697Z"
+    },
+    "9772178020": {
+      "blockedReason": "condition",
+      "title": "nike long sleeve top size m",
+      "url": "https://www.vinted.co.uk/items/9772178020-nike-long-sleeve-top-size-m",
+      "lastPrice": 2,
+      "firstSeenAt": "2026-08-25T11:49:18.697Z",
+      "lastSeenAt": "2026-08-25T11:49:18.697Z"
+    },
+    "9772161195": {
+      "size": "XS",
+      "condition": "veryGood",
+      "resale": 20,
+      "netProfit": 16.2,
+      "roi": 540,
+      "buyScore": 97,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:49:21.040Z",
+      "discordMessageId": "1541776492978114694",
+      "title": "nike training long sleeve top",
+      "url": "https://www.vinted.co.uk/items/9772161195-nike-training-long-sleeve-top",
+      "lastPrice": 3,
+      "firstSeenAt": "2026-08-25T11:49:21.040Z",
+      "lastSeenAt": "2026-08-25T11:49:21.040Z"
+    },
+    "9772102236": {
+      "blockedReason": "price",
+      "title": "black nike nrg long sleeve t shirt",
+      "url": "https://www.vinted.co.uk/items/9772102236-black-nike-nrg-long-sleeve-t-shirt",
+      "lastPrice": 20,
+      "firstSeenAt": "2026-08-25T11:49:21.040Z",
+      "lastSeenAt": "2026-08-25T11:49:21.040Z"
+    },
+    "9772094946": {
+      "size": "M",
+      "condition": "veryGood",
+      "resale": 22,
+      "netProfit": 18.7,
+      "roi": 748,
+      "buyScore": 98,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:49:22.789Z",
+      "discordMessageId": "1541776500913602651",
+      "title": "nike long sleeve top",
+      "url": "https://www.vinted.co.uk/items/9772094946-nike-long-sleeve-top",
+      "lastPrice": 2.5,
+      "firstSeenAt": "2026-08-25T11:49:22.789Z",
+      "lastSeenAt": "2026-08-25T11:49:22.789Z"
+    },
+    "9771997275": {
+      "size": "L",
+      "condition": "veryGood",
+      "resale": 23,
+      "netProfit": 19.2,
+      "roi": 640,
+      "buyScore": 98,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:49:27.506Z",
+      "discordMessageId": "1541776520970903703",
+      "title": "boys nike black sport top long sleeve",
+      "url": "https://www.vinted.co.uk/items/9771997275-boys-nike-black-sport-top-long-sleeve",
+      "lastPrice": 3,
+      "firstSeenAt": "2026-08-25T11:49:27.506Z",
+      "lastSeenAt": "2026-08-25T11:49:27.506Z"
+    },
+    "9752899266": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "nike basketball long sleeve black shirt size large",
+      "url": "https://www.vinted.co.uk/items/9752899266-nike-basketball-long-sleeve-black-shirt-size-large",
+      "lastPrice": 8,
+      "firstSeenAt": "2026-08-25T11:49:27.506Z",
+      "lastSeenAt": "2026-08-25T11:49:27.506Z"
+    },
+    "9746450059": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "nike long sleeve 14 zip athletic dri fit top",
+      "url": "https://www.vinted.co.uk/items/9746450059-nike-long-sleeve-14-zip-athletic-dri-fit-top",
+      "lastPrice": 7.42,
+      "firstSeenAt": "2026-08-25T11:49:27.506Z",
+      "lastSeenAt": "2026-08-25T11:53:12.009Z"
+    },
+    "9746446852": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "mens new nike drifit realtree long sleeve shirt",
+      "url": "https://www.vinted.co.uk/items/9746446852-mens-new-nike-drifit-realtree-long-sleeve-shirt",
+      "lastPrice": 17.81,
+      "firstSeenAt": "2026-08-25T11:49:27.506Z",
+      "lastSeenAt": "2026-08-25T11:53:12.009Z"
+    },
+    "9746443893": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "nike running dri fit 12 zip long sleeve top reflective black xl",
+      "url": "https://www.vinted.co.uk/items/9746443893-nike-running-dri-fit-12-zip-long-sleeve-top-reflective-black-xl",
+      "lastPrice": 5.19,
+      "firstSeenAt": "2026-08-25T11:49:27.506Z",
+      "lastSeenAt": "2026-08-25T11:53:12.009Z"
+    },
+    "9746432589": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "vtg nike acg long sleeve shirt xl olive gray plaid button up outdoor gorpcore",
+      "url": "https://www.vinted.co.uk/items/9746432589-vtg-nike-acg-long-sleeve-shirt-xl-olive-gray-plaid-button-up-outdoor-gorpcore",
+      "lastPrice": 25.97,
+      "firstSeenAt": "2026-08-25T11:49:27.506Z",
+      "lastSeenAt": "2026-08-25T11:49:27.506Z"
+    },
+    "9746429709": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "nike dri fit triston mckenzie baseball camp long sleeve graphic tee 036",
+      "url": "https://www.vinted.co.uk/items/9746429709-nike-dri-fit-triston-mckenzie-baseball-camp-long-sleeve-graphic-tee-036",
+      "lastPrice": 11.13,
+      "firstSeenAt": "2026-08-25T11:49:27.506Z",
+      "lastSeenAt": "2026-08-25T11:53:12.009Z"
+    },
+    "9746401380": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "nike dri fit womens long sleeve shirt",
+      "url": "https://www.vinted.co.uk/items/9746401380-nike-dri-fit-womens-long-sleeve-shirt",
+      "lastPrice": 11.13,
+      "firstSeenAt": "2026-08-25T11:49:27.506Z",
+      "lastSeenAt": "2026-08-25T11:49:27.506Z"
+    },
+    "9746387668": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "large mens long sleeve nike shirt",
+      "url": "https://www.vinted.co.uk/items/9746387668-large-mens-long-sleeve-nike-shirt",
+      "lastPrice": 11.13,
+      "firstSeenAt": "2026-08-25T11:49:27.506Z",
+      "lastSeenAt": "2026-08-25T11:49:27.506Z"
+    },
+    "9746359158": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "white long sleeve nike kids size m shirt",
+      "url": "https://www.vinted.co.uk/items/9746359158-white-long-sleeve-nike-kids-size-m-shirt",
+      "lastPrice": 2.23,
+      "firstSeenAt": "2026-08-25T11:49:27.506Z",
+      "lastSeenAt": "2026-08-25T11:49:27.506Z"
+    },
+    "9746347274": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "nike dri fit university of minnesota long sleeve t shirt medium",
+      "url": "https://www.vinted.co.uk/items/9746347274-nike-dri-fit-university-of-minnesota-long-sleeve-t-shirt-medium",
+      "lastPrice": 11.13,
+      "firstSeenAt": "2026-08-25T11:49:27.506Z",
+      "lastSeenAt": "2026-08-25T11:49:27.506Z"
+    },
+    "9746332625": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "nikepro dri fit blue long sleeved cropped workout top",
+      "url": "https://www.vinted.co.uk/items/9746332625-nikepro-dri-fit-blue-long-sleeved-cropped-workout-top",
+      "lastPrice": 8.9,
+      "firstSeenAt": "2026-08-25T11:49:27.506Z",
+      "lastSeenAt": "2026-08-25T11:49:27.506Z"
+    },
+    "9735732957": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "nike boys xl long sleeve t shirt black",
+      "url": "https://www.vinted.co.uk/items/9735732957-nike-boys-xl-long-sleeve-t-shirt-black",
+      "lastPrice": 3.71,
+      "firstSeenAt": "2026-08-25T11:49:27.506Z",
+      "lastSeenAt": "2026-08-25T11:49:27.506Z"
+    },
+    "9732333972": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "nike dri fit long sleeve top xxl",
+      "url": "https://www.vinted.co.uk/items/9732333972-nike-dri-fit-long-sleeve-top-xxl",
+      "lastPrice": 9.99,
+      "firstSeenAt": "2026-08-25T11:49:27.506Z",
+      "lastSeenAt": "2026-08-25T11:49:27.506Z"
+    },
+    "9240252919": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "nike wildcats basketball long sleeve top l",
+      "url": "https://www.vinted.co.uk/items/9240252919-nike-wildcats-basketball-long-sleeve-top-l",
+      "lastPrice": 5,
+      "firstSeenAt": "2026-08-25T11:49:27.506Z",
+      "lastSeenAt": "2026-08-25T11:49:27.506Z"
+    },
+    "9773337875": {
+      "size": "L",
+      "condition": "veryGood",
+      "resale": 23,
+      "netProfit": 17.2,
+      "roi": 344,
+      "buyScore": 95,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:49:35.665Z",
+      "discordMessageId": "1541776555162865816",
+      "title": "nike golf polo",
+      "url": "https://www.vinted.co.uk/items/9773337875-nike-golf-polo",
+      "lastPrice": 5,
+      "firstSeenAt": "2026-08-25T11:49:35.666Z",
+      "lastSeenAt": "2026-08-25T11:49:35.666Z"
+    },
+    "9773324143": {
+      "size": "M",
+      "condition": "veryGood",
+      "resale": 22,
+      "netProfit": 16.21,
+      "roi": 324.85,
+      "buyScore": 94,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:49:38.536Z",
+      "discordMessageId": "1541776567250849823",
+      "title": "nike golf polo",
+      "url": "https://www.vinted.co.uk/items/9773324143-nike-golf-polo",
+      "lastPrice": 4.99,
+      "firstSeenAt": "2026-08-25T11:49:38.536Z",
+      "lastSeenAt": "2026-08-25T11:49:38.536Z"
+    },
+    "9773321616": {
+      "size": "S",
+      "condition": "veryGood",
+      "resale": 21,
+      "netProfit": 10.2,
+      "roi": 102,
+      "buyScore": 77,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:49:41.934Z",
+      "discordMessageId": "1541776581297573990",
+      "title": "mens nike polo t shirt white size s",
+      "url": "https://www.vinted.co.uk/items/9773321616-mens-nike-polo-t-shirt-white-size-s",
+      "lastPrice": 10,
+      "firstSeenAt": "2026-08-25T11:49:41.934Z",
+      "lastSeenAt": "2026-08-25T11:49:41.934Z"
+    },
+    "9773311298": {
+      "size": "L",
+      "condition": "veryGood",
+      "resale": 23,
+      "netProfit": 15.2,
+      "roi": 217.14,
+      "buyScore": 93,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:49:43.995Z",
+      "discordMessageId": "1541776589560483954",
+      "title": "mens l nike golf red short sleeve polo shirt",
+      "url": "https://www.vinted.co.uk/items/9773311298-mens-l-nike-golf-red-short-sleeve-polo-shirt",
+      "lastPrice": 7,
+      "firstSeenAt": "2026-08-25T11:49:43.995Z",
+      "lastSeenAt": "2026-08-25T11:49:43.995Z"
+    },
+    "9773196895": {
+      "size": "S",
+      "condition": "veryGood",
+      "resale": 21,
+      "netProfit": 16.2,
+      "roi": 405,
+      "buyScore": 96,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:49:46.955Z",
+      "discordMessageId": "1541776602533462068",
+      "title": "boys nike polo",
+      "url": "https://www.vinted.co.uk/items/9773196895-boys-nike-polo",
+      "lastPrice": 4,
+      "firstSeenAt": "2026-08-25T11:49:46.955Z",
+      "lastSeenAt": "2026-08-25T11:49:46.955Z"
+    },
+    "9773158835": {
+      "size": "M",
+      "condition": "veryGood",
+      "resale": 22,
+      "netProfit": 17.2,
+      "roi": 430,
+      "buyScore": 96,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:49:48.649Z",
+      "discordMessageId": "1541776609608990861",
+      "title": "vintage nike polo shirt",
+      "url": "https://www.vinted.co.uk/items/9773158835-vintage-nike-polo-shirt",
+      "lastPrice": 4,
+      "firstSeenAt": "2026-08-25T11:49:48.649Z",
+      "lastSeenAt": "2026-08-25T11:49:48.649Z"
+    },
+    "9773146810": {
+      "size": "S",
+      "condition": "veryGood",
+      "resale": 21,
+      "netProfit": 12.2,
+      "roi": 152.5,
+      "buyScore": 86,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:49:51.710Z",
+      "discordMessageId": "1541776622070268077",
+      "title": "mens golf polo",
+      "url": "https://www.vinted.co.uk/items/9773146810-mens-golf-polo",
+      "lastPrice": 8,
+      "firstSeenAt": "2026-08-25T11:49:51.710Z",
+      "lastSeenAt": "2026-08-25T11:49:51.710Z"
+    },
+    "9773111849": {
+      "size": "S",
+      "condition": "newWithoutTags",
+      "resale": 21,
+      "netProfit": 12.2,
+      "roi": 152.5,
+      "buyScore": 86,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:49:54.247Z",
+      "discordMessageId": "1541776632514089002",
+      "title": "mens golf polo",
+      "url": "https://www.vinted.co.uk/items/9773111849-mens-golf-polo",
+      "lastPrice": 8,
+      "firstSeenAt": "2026-08-25T11:49:54.247Z",
+      "lastSeenAt": "2026-08-25T11:49:54.247Z"
+    },
+    "9773041617": {
+      "size": "XXL",
+      "condition": "veryGood",
+      "resale": 24,
+      "netProfit": 15.2,
+      "roi": 190,
+      "buyScore": 91,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:49:57.577Z",
+      "discordMessageId": "1541776647127171083",
+      "title": "nike golf polo shirt",
+      "url": "https://www.vinted.co.uk/items/9773041617-nike-golf-polo-shirt",
+      "lastPrice": 8,
+      "firstSeenAt": "2026-08-25T11:49:57.577Z",
+      "lastSeenAt": "2026-08-25T11:49:57.577Z"
+    },
+    "9773031530": {
+      "size": "XXL",
+      "condition": "veryGood",
+      "resale": 24,
+      "netProfit": 16.2,
+      "roi": 231.43,
+      "buyScore": 92,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:49:58.839Z",
+      "discordMessageId": "1541776652378308609",
+      "title": "nike golf polo shirt",
+      "url": "https://www.vinted.co.uk/items/9773031530-nike-golf-polo-shirt",
+      "lastPrice": 7,
+      "firstSeenAt": "2026-08-25T11:49:58.839Z",
+      "lastSeenAt": "2026-08-25T11:49:58.839Z"
+    },
+    "9772998160": {
+      "size": "XXL",
+      "condition": "veryGood",
+      "resale": 24,
+      "netProfit": 16.2,
+      "roi": 231.43,
+      "buyScore": 92,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:50:02.193Z",
+      "discordMessageId": "1541776666089754745",
+      "title": "nike golf polo",
+      "url": "https://www.vinted.co.uk/items/9772998160-nike-golf-polo",
+      "lastPrice": 7,
+      "firstSeenAt": "2026-08-25T11:50:02.193Z",
+      "lastSeenAt": "2026-08-25T11:50:02.193Z"
+    },
+    "9772922225": {
+      "size": "M",
+      "condition": "veryGood",
+      "resale": 22,
+      "netProfit": 11.2,
+      "roi": 112,
+      "buyScore": 79,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:50:03.817Z",
+      "discordMessageId": "1541776672846512179",
+      "title": "nike golf polo",
+      "url": "https://www.vinted.co.uk/items/9772922225-nike-golf-polo",
+      "lastPrice": 10,
+      "firstSeenAt": "2026-08-25T11:50:03.817Z",
+      "lastSeenAt": "2026-08-25T11:50:03.817Z"
+    },
+    "9772781931": {
+      "size": "M",
+      "condition": "veryGood",
+      "resale": 22,
+      "netProfit": 9.2,
+      "roi": 76.67,
+      "buyScore": 69,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:50:07.012Z",
+      "discordMessageId": "1541776686578929684",
+      "title": "mens nike golf polo",
+      "url": "https://www.vinted.co.uk/items/9772781931-mens-nike-golf-polo",
+      "lastPrice": 12,
+      "firstSeenAt": "2026-08-25T11:50:07.012Z",
+      "lastSeenAt": "2026-08-25T11:50:07.012Z"
+    },
+    "9772746450": {
+      "size": "S",
+      "condition": "veryGood",
+      "resale": 21,
+      "netProfit": 17.7,
+      "roi": 708,
+      "buyScore": 98,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:50:08.673Z",
+      "discordMessageId": "1541776693457584270",
+      "title": "nike polo top",
+      "url": "https://www.vinted.co.uk/items/9772746450-nike-polo-top",
+      "lastPrice": 2.5,
+      "firstSeenAt": "2026-08-25T11:50:08.673Z",
+      "lastSeenAt": "2026-08-25T11:50:08.673Z"
+    },
+    "9772731369": {
+      "blockedReason": "condition",
+      "title": "nike parkway hotel polo shirts",
+      "url": "https://www.vinted.co.uk/items/9772731369-nike-parkway-hotel-polo-shirts",
+      "lastPrice": 4,
+      "firstSeenAt": "2026-08-25T11:50:08.673Z",
+      "lastSeenAt": "2026-08-25T11:50:08.673Z"
+    },
+    "9772720000": {
+      "blockedReason": "price",
+      "title": "nike mens dri fit tour micro camo golf polo ashen slatewhite uk size small",
+      "url": "https://www.vinted.co.uk/items/9772720000-nike-mens-dri-fit-tour-micro-camo-golf-polo-ashen-slatewhite-uk-size-small",
+      "lastPrice": 30,
+      "firstSeenAt": "2026-08-25T11:50:08.674Z",
+      "lastSeenAt": "2026-08-25T11:50:08.674Z"
+    },
+    "9772639303": {
+      "blockedReason": "price",
+      "title": "mens nike dri fit striped short sleeve golf polo shirt uk size small",
+      "url": "https://www.vinted.co.uk/items/9772639303-mens-nike-dri-fit-striped-short-sleeve-golf-polo-shirt-uk-size-small",
+      "lastPrice": 30,
+      "firstSeenAt": "2026-08-25T11:50:08.674Z",
+      "lastSeenAt": "2026-08-25T11:50:08.674Z"
+    },
+    "9772617425": {
+      "size": "M",
+      "condition": "veryGood",
+      "resale": 22,
+      "netProfit": 18.2,
+      "roi": 606.67,
+      "buyScore": 98,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:50:12.113Z",
+      "discordMessageId": "1541776708053635093",
+      "title": "nike polo top",
+      "url": "https://www.vinted.co.uk/items/9772617425-nike-polo-top",
+      "lastPrice": 3,
+      "firstSeenAt": "2026-08-25T11:50:12.113Z",
+      "lastSeenAt": "2026-08-25T11:50:12.113Z"
+    },
+    "9772576784": {
+      "blockedReason": "size",
+      "title": "nike polo shirt",
+      "url": "https://www.vinted.co.uk/items/9772576784-nike-polo-shirt",
+      "lastPrice": 3.5,
+      "firstSeenAt": "2026-08-25T11:50:15.789Z",
+      "lastSeenAt": "2026-08-25T11:50:15.789Z"
+    },
+    "9772354919": {
+      "blockedReason": "price",
+      "title": "nike dri fit polo shirt xl",
+      "url": "https://www.vinted.co.uk/items/9772354919-nike-dri-fit-polo-shirt-xl",
+      "lastPrice": 24,
+      "firstSeenAt": "2026-08-25T11:50:15.790Z",
+      "lastSeenAt": "2026-08-25T11:50:15.790Z"
+    },
+    "9772320254": {
+      "blockedReason": "price",
+      "title": "nike dri fit polo shirt medium",
+      "url": "https://www.vinted.co.uk/items/9772320254-nike-dri-fit-polo-shirt-medium",
+      "lastPrice": 24,
+      "firstSeenAt": "2026-08-25T11:50:15.790Z",
+      "lastSeenAt": "2026-08-25T11:50:15.790Z"
+    },
+    "9772295732": {
+      "blockedReason": "price",
+      "title": "nike dri fit polo shirt s",
+      "url": "https://www.vinted.co.uk/items/9772295732-nike-dri-fit-polo-shirt-s",
+      "lastPrice": 24,
+      "firstSeenAt": "2026-08-25T11:50:15.790Z",
+      "lastSeenAt": "2026-08-25T11:50:15.790Z"
+    },
+    "9772240859": {
+      "size": "S",
+      "condition": "veryGood",
+      "resale": 21,
+      "netProfit": 15.2,
+      "roi": 304,
+      "buyScore": 94,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:50:17.101Z",
+      "discordMessageId": "1541776728857247765",
+      "title": "nike liverpool fc polo",
+      "url": "https://www.vinted.co.uk/items/9772240859-nike-liverpool-fc-polo",
+      "lastPrice": 5,
+      "firstSeenAt": "2026-08-25T11:50:17.101Z",
+      "lastSeenAt": "2026-08-25T11:50:17.101Z"
+    },
+    "9772188717": {
+      "size": "S",
+      "condition": "veryGood",
+      "resale": 21,
+      "netProfit": 15.2,
+      "roi": 304,
+      "buyScore": 94,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:50:19.450Z",
+      "discordMessageId": "1541776737870946427",
+      "title": "nike golf polo shirt size small",
+      "url": "https://www.vinted.co.uk/items/9772188717-nike-golf-polo-shirt-size-small",
+      "lastPrice": 5,
+      "firstSeenAt": "2026-08-25T11:50:19.450Z",
+      "lastSeenAt": "2026-08-25T11:50:19.450Z"
+    },
+    "9772119145": {
+      "size": "M",
+      "condition": "veryGood",
+      "resale": 22,
+      "netProfit": 11.2,
+      "roi": 112,
+      "buyScore": 79,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:50:22.503Z",
+      "discordMessageId": "1541776749044568135",
+      "title": "nike golf polo",
+      "url": "https://www.vinted.co.uk/items/9772119145-nike-golf-polo",
+      "lastPrice": 10,
+      "firstSeenAt": "2026-08-25T11:50:22.503Z",
+      "lastSeenAt": "2026-08-25T11:50:22.503Z"
+    },
+    "9772063877": {
+      "blockedReason": "price",
+      "title": "nike fairway fresh golf polo",
+      "url": "https://www.vinted.co.uk/items/9772063877-nike-fairway-fresh-golf-polo",
+      "lastPrice": 35,
+      "firstSeenAt": "2026-08-25T11:50:22.504Z",
+      "lastSeenAt": "2026-08-25T11:50:22.504Z"
+    },
+    "9771891575": {
+      "blockedReason": "price",
+      "title": "nike golf dri fit polo shirt xxl",
+      "url": "https://www.vinted.co.uk/items/9771891575-nike-golf-dri-fit-polo-shirt-xxl",
+      "lastPrice": 20,
+      "firstSeenAt": "2026-08-25T11:50:22.504Z",
+      "lastSeenAt": "2026-08-25T11:50:22.504Z"
+    },
+    "9771776426": {
+      "size": "XXL",
+      "condition": "veryGood",
+      "resale": 24,
+      "netProfit": 13.2,
+      "roi": 132,
+      "buyScore": 82,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:50:24.500Z",
+      "discordMessageId": "1541776759463092245",
+      "title": "nike golf polo",
+      "url": "https://www.vinted.co.uk/items/9771776426-nike-golf-polo",
+      "lastPrice": 10,
+      "firstSeenAt": "2026-08-25T11:50:24.500Z",
+      "lastSeenAt": "2026-08-25T11:50:24.500Z"
+    },
+    "9771709517": {
+      "blockedReason": "price",
+      "title": "vintage nike paixao por futebol brazil blue striped polo mens s",
+      "url": "https://www.vinted.co.uk/items/9771709517-vintage-nike-paixao-por-futebol-brazil-blue-striped-polo-mens-s",
+      "lastPrice": 50,
+      "firstSeenAt": "2026-08-25T11:50:24.500Z",
+      "lastSeenAt": "2026-08-25T11:50:24.500Z"
+    },
+    "9771695731": {
+      "blockedReason": "price",
+      "title": "nike dri fit short sleeve polo shirt charcoal grey soccer club crest size l",
+      "url": "https://www.vinted.co.uk/items/9771695731-nike-dri-fit-short-sleeve-polo-shirt-charcoal-grey-soccer-club-crest-size-l",
+      "lastPrice": 20,
+      "firstSeenAt": "2026-08-25T11:50:24.500Z",
+      "lastSeenAt": "2026-08-25T11:50:24.500Z"
+    },
+    "9771678038": {
+      "blockedReason": "price",
+      "title": "nike golf polo",
+      "url": "https://www.vinted.co.uk/items/9771678038-nike-golf-polo",
+      "lastPrice": 17,
+      "firstSeenAt": "2026-08-25T11:50:24.500Z",
+      "lastSeenAt": "2026-08-25T11:50:24.500Z"
+    },
+    "9771670112": {
+      "size": "M",
+      "condition": "veryGood",
+      "resale": 22,
+      "netProfit": 9.2,
+      "roi": 76.67,
+      "buyScore": 69,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:50:26.526Z",
+      "discordMessageId": "1541776768304677015",
+      "title": "mens nike dri fit performance polo shirt royal blue size m",
+      "url": "https://www.vinted.co.uk/items/9771670112-mens-nike-dri-fit-performance-polo-shirt-royal-blue-size-m",
+      "lastPrice": 12,
+      "firstSeenAt": "2026-08-25T11:50:26.526Z",
+      "lastSeenAt": "2026-08-25T11:50:26.526Z"
+    },
+    "9771652500": {
+      "size": "S",
+      "condition": "veryGood",
+      "resale": 21,
+      "netProfit": 15.2,
+      "roi": 304,
+      "buyScore": 94,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:50:28.854Z",
+      "discordMessageId": "1541776778027339860",
+      "title": "nike polo tshirt",
+      "url": "https://www.vinted.co.uk/items/9771652500-nike-polo-tshirt",
+      "lastPrice": 5,
+      "firstSeenAt": "2026-08-25T11:50:28.854Z",
+      "lastSeenAt": "2026-08-25T11:50:28.854Z"
+    },
+    "9771610771": {
+      "blockedReason": "detail-budget-exhausted",
+      "size": null,
+      "title": "nike polo",
+      "url": "https://www.vinted.co.uk/items/9771610771-nike-polo",
+      "lastPrice": 7,
+      "firstSeenAt": "2026-08-25T11:50:28.854Z",
+      "lastSeenAt": "2026-08-25T11:50:28.854Z"
+    },
+    "9771597103": {
+      "blockedReason": "detail-budget-exhausted",
+      "size": null,
+      "title": "nike polo top",
+      "url": "https://www.vinted.co.uk/items/9771597103-nike-polo-top",
+      "lastPrice": 5,
+      "firstSeenAt": "2026-08-25T11:50:28.854Z",
+      "lastSeenAt": "2026-08-25T11:50:28.854Z"
+    },
+    "9771551021": {
+      "size": "XL",
+      "condition": "newWithTags",
+      "resale": 24,
+      "netProfit": 11.2,
+      "roi": 93.33,
+      "buyScore": 75,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:50:31.152Z",
+      "discordMessageId": "1541776787850268684",
+      "title": "nike xl mens polo top",
+      "url": "https://www.vinted.co.uk/items/9771551021-nike-xl-mens-polo-top",
+      "lastPrice": 12,
+      "firstSeenAt": "2026-08-25T11:50:31.152Z",
+      "lastSeenAt": "2026-08-25T11:50:31.152Z"
+    },
+    "9771097956": {
+      "size": "XL",
+      "condition": "veryGood",
+      "resale": 24,
+      "netProfit": 18.2,
+      "roi": 364,
+      "buyScore": 95,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:50:33.286Z",
+      "discordMessageId": "1541776796469563465",
+      "title": "vintage nike striped polo shirt",
+      "url": "https://www.vinted.co.uk/items/9771097956-vintage-nike-striped-polo-shirt",
+      "lastPrice": 5,
+      "firstSeenAt": "2026-08-25T11:50:33.286Z",
+      "lastSeenAt": "2026-08-25T11:50:33.286Z"
+    },
+    "9768245266": {
+      "blockedReason": "condition",
+      "title": "white nike polo crop top",
+      "url": "https://www.vinted.co.uk/items/9768245266-white-nike-polo-crop-top",
+      "lastPrice": 2,
+      "firstSeenAt": "2026-08-25T11:50:33.286Z",
+      "lastSeenAt": "2026-08-25T11:50:33.286Z"
+    },
+    "9761155447": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "y2k nike lads polo shirt sz l",
+      "url": "https://www.vinted.co.uk/items/9761155447-y2k-nike-lads-polo-shirt-sz-l",
+      "lastPrice": 4.24,
+      "firstSeenAt": "2026-08-25T11:50:36.256Z",
+      "lastSeenAt": "2026-08-25T11:50:36.256Z"
+    },
+    "9751653011": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "nike golf sport dri fit size small mens light blue purple white polo shirt",
+      "url": "https://www.vinted.co.uk/items/9751653011-nike-golf-sport-dri-fit-size-small-mens-light-blue-purple-white-polo-shirt",
+      "lastPrice": 3,
+      "firstSeenAt": "2026-08-25T11:50:36.256Z",
+      "lastSeenAt": "2026-08-25T11:50:36.256Z"
+    },
+    "9746426029": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "nike bundle 2 polo youth xl",
+      "url": "https://www.vinted.co.uk/items/9746426029-nike-bundle-2-polo-youth-xl",
+      "lastPrice": 18.55,
+      "firstSeenAt": "2026-08-25T11:50:36.256Z",
+      "lastSeenAt": "2026-08-25T11:50:36.256Z"
+    },
+    "9746420614": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "girls golf polo",
+      "url": "https://www.vinted.co.uk/items/9746420614-girls-golf-polo",
+      "lastPrice": 2.97,
+      "firstSeenAt": "2026-08-25T11:50:36.256Z",
+      "lastSeenAt": "2026-08-25T11:50:36.256Z"
+    },
+    "9746417880": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "nike polo",
+      "url": "https://www.vinted.co.uk/items/9746417880-nike-polo",
+      "lastPrice": 6.68,
+      "firstSeenAt": "2026-08-25T11:50:36.256Z",
+      "lastSeenAt": "2026-08-25T11:50:36.256Z"
+    },
+    "9746403521": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "nike golf dri fit red striped l mens polo shirt short sleeve breathable",
+      "url": "https://www.vinted.co.uk/items/9746403521-nike-golf-dri-fit-red-striped-l-mens-polo-shirt-short-sleeve-breathable",
+      "lastPrice": 11.13,
+      "firstSeenAt": "2026-08-25T11:50:36.256Z",
+      "lastSeenAt": "2026-08-25T11:50:36.256Z"
+    },
+    "9746389108": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "nwt nike dri fit polo shirt mens s small light blue black dot pattern golf",
+      "url": "https://www.vinted.co.uk/items/9746389108-nwt-nike-dri-fit-polo-shirt-mens-s-small-light-blue-black-dot-pattern-golf",
+      "lastPrice": 33.39,
+      "firstSeenAt": "2026-08-25T11:50:36.256Z",
+      "lastSeenAt": "2026-08-25T11:50:36.256Z"
+    },
+    "9746388208": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "nike polo",
+      "url": "https://www.vinted.co.uk/items/9746388208-nike-polo",
+      "lastPrice": 11.13,
+      "firstSeenAt": "2026-08-25T11:50:36.256Z",
+      "lastSeenAt": "2026-08-25T11:50:36.256Z"
+    },
+    "9746368807": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "nike golf dri fit womens medium yellow short sleeve polo shirt",
+      "url": "https://www.vinted.co.uk/items/9746368807-nike-golf-dri-fit-womens-medium-yellow-short-sleeve-polo-shirt",
+      "lastPrice": 14.84,
+      "firstSeenAt": "2026-08-25T11:50:36.256Z",
+      "lastSeenAt": "2026-08-25T11:50:36.256Z"
+    },
+    "9746343206": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "nike coke zero polo",
+      "url": "https://www.vinted.co.uk/items/9746343206-nike-coke-zero-polo",
+      "lastPrice": 22.26,
+      "firstSeenAt": "2026-08-25T11:50:36.256Z",
+      "lastSeenAt": "2026-08-25T11:50:36.256Z"
+    },
+    "9746339589": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "nike mens polo",
+      "url": "https://www.vinted.co.uk/items/9746339589-nike-mens-polo",
+      "lastPrice": 8.16,
+      "firstSeenAt": "2026-08-25T11:50:36.256Z",
+      "lastSeenAt": "2026-08-25T11:50:36.256Z"
+    },
+    "9746328564": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "nike tiger woods polo shirt size xxl",
+      "url": "https://www.vinted.co.uk/items/9746328564-nike-tiger-woods-polo-shirt-size-xxl",
+      "lastPrice": 7.42,
+      "firstSeenAt": "2026-08-25T11:50:36.256Z",
+      "lastSeenAt": "2026-08-25T11:50:36.256Z"
+    },
+    "9746322632": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "vintage nike golf polo shirt white with thin vertical stripes size xl",
+      "url": "https://www.vinted.co.uk/items/9746322632-vintage-nike-golf-polo-shirt-white-with-thin-vertical-stripes-size-xl",
+      "lastPrice": 11.13,
+      "firstSeenAt": "2026-08-25T11:50:36.256Z",
+      "lastSeenAt": "2026-08-25T11:50:36.256Z"
+    },
+    "9746305383": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "nike dri fit golf polo womens xl gray purple floral short sleeve crest",
+      "url": "https://www.vinted.co.uk/items/9746305383-nike-dri-fit-golf-polo-womens-xl-gray-purple-floral-short-sleeve-crest",
+      "lastPrice": 11.13,
+      "firstSeenAt": "2026-08-25T11:50:36.256Z",
+      "lastSeenAt": "2026-08-25T11:50:36.256Z"
+    },
+    "9746299014": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "nike golf yellow cabo real polo shirt size l",
+      "url": "https://www.vinted.co.uk/items/9746299014-nike-golf-yellow-cabo-real-polo-shirt-size-l",
+      "lastPrice": 10.39,
+      "firstSeenAt": "2026-08-25T11:50:36.256Z",
+      "lastSeenAt": "2026-08-25T11:50:36.256Z"
+    },
+    "9746287166": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "georgia bulldogs nike medium polo tee",
+      "url": "https://www.vinted.co.uk/items/9746287166-georgia-bulldogs-nike-medium-polo-tee",
+      "lastPrice": 11.13,
+      "firstSeenAt": "2026-08-25T11:50:36.256Z",
+      "lastSeenAt": "2026-08-25T11:50:36.256Z"
+    },
+    "9746285362": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "fort wayne mad ants nike polo golf shirt mens m gray g league indiana dri fit",
+      "url": "https://www.vinted.co.uk/items/9746285362-fort-wayne-mad-ants-nike-polo-golf-shirt-mens-m-gray-g-league-indiana-dri-fit",
+      "lastPrice": 14.84,
+      "firstSeenAt": "2026-08-25T11:50:36.256Z",
+      "lastSeenAt": "2026-08-25T11:50:36.256Z"
+    },
+    "9746260862": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "nike tan dri fit victory mens polo sz medium",
+      "url": "https://www.vinted.co.uk/items/9746260862-nike-tan-dri-fit-victory-mens-polo-sz-medium",
+      "lastPrice": 21.52,
+      "firstSeenAt": "2026-08-25T11:50:36.256Z",
+      "lastSeenAt": "2026-08-25T11:50:36.256Z"
+    },
+    "9746260489": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "nike tiger woods platinum polo shirt men xxl black snap performance dri fit",
+      "url": "https://www.vinted.co.uk/items/9746260489-nike-tiger-woods-platinum-polo-shirt-men-xxl-black-snap-performance-dri-fit",
+      "lastPrice": 11.87,
+      "firstSeenAt": "2026-08-25T11:50:36.256Z",
+      "lastSeenAt": "2026-08-25T11:50:36.256Z"
+    },
+    "9773411063": {
+      "blockedReason": "price",
+      "title": "liverpool 20202021 home football shirt top jersey kit xl extra large mens",
+      "url": "https://www.vinted.co.uk/items/9773411063-liverpool-20202021-home-football-shirt-top-jersey-kit-xl-extra-large-mens",
+      "lastPrice": 30,
+      "firstSeenAt": "2026-08-25T11:50:42.767Z",
+      "lastSeenAt": "2026-08-25T11:50:42.767Z"
+    },
+    "9773408411": {
+      "size": "S",
+      "condition": "veryGood",
+      "resale": 30,
+      "netProfit": 25.2,
+      "roi": 630,
+      "buyScore": 100,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:50:44.581Z",
+      "discordMessageId": "1541776844175581285",
+      "title": "nike dry fit football shirt",
+      "url": "https://www.vinted.co.uk/items/9773408411-nike-dry-fit-football-shirt",
+      "lastPrice": 4,
+      "firstSeenAt": "2026-08-25T11:50:44.581Z",
+      "lastSeenAt": "2026-08-25T11:50:44.581Z"
+    },
+    "9773405754": {
+      "size": "XL",
+      "condition": "veryGood",
+      "resale": 35,
+      "netProfit": 22.2,
+      "roi": 185,
+      "buyScore": 90,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:50:46.649Z",
+      "discordMessageId": "1541776852929089607",
+      "title": "england jersey",
+      "url": "https://www.vinted.co.uk/items/9773405754-england-jersey",
+      "lastPrice": 12,
+      "firstSeenAt": "2026-08-25T11:50:46.649Z",
+      "lastSeenAt": "2026-08-25T11:50:46.649Z"
+    },
+    "9773376041": {
+      "size": "M",
+      "condition": "veryGood",
+      "resale": 32,
+      "netProfit": 11.2,
+      "roi": 56,
+      "buyScore": 58,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:50:50.294Z",
+      "discordMessageId": "1541776867605094452",
+      "title": "chelsea hazard 10 nfl jersey",
+      "url": "https://www.vinted.co.uk/items/9773376041-chelsea-hazard-10-nfl-jersey",
+      "lastPrice": 20,
+      "firstSeenAt": "2026-08-25T11:50:50.294Z",
+      "lastSeenAt": "2026-08-25T11:50:50.294Z"
+    },
+    "9773357532": {
+      "blockedReason": "price",
+      "title": "nike unc tar heels football jersey 14 mens size m",
+      "url": "https://www.vinted.co.uk/items/9773357532-nike-unc-tar-heels-football-jersey-14-mens-size-m",
+      "lastPrice": 70,
+      "firstSeenAt": "2026-08-25T11:50:50.294Z",
+      "lastSeenAt": "2026-08-25T11:50:50.294Z"
+    },
+    "9773294747": {
+      "blockedReason": "price",
+      "title": "bnwt inter milan away football shirt 2023 24 size small",
+      "url": "https://www.vinted.co.uk/items/9773294747-bnwt-inter-milan-away-football-shirt-2023-24-size-small",
+      "lastPrice": 45,
+      "firstSeenAt": "2026-08-25T11:50:50.294Z",
+      "lastSeenAt": "2026-08-25T11:50:50.294Z"
+    },
+    "9773254594": {
+      "size": "L",
+      "condition": "veryGood",
+      "resale": 34,
+      "netProfit": 13.2,
+      "roi": 66,
+      "buyScore": 61,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:50:51.793Z",
+      "discordMessageId": "1541776874395668511",
+      "title": "nfl new england patriots vince wilfork american sports football jersey by nike",
+      "url": "https://www.vinted.co.uk/items/9773254594-nfl-new-england-patriots-vince-wilfork-american-sports-football-jersey-by-nike",
+      "lastPrice": 20,
+      "firstSeenAt": "2026-08-25T11:50:51.793Z",
+      "lastSeenAt": "2026-08-25T11:50:51.793Z"
+    },
+    "9773253391": {
+      "blockedReason": "price",
+      "title": "liverpool football shirt",
+      "url": "https://www.vinted.co.uk/items/9773253391-liverpool-football-shirt",
+      "lastPrice": 40,
+      "firstSeenAt": "2026-08-25T11:50:51.793Z",
+      "lastSeenAt": "2026-08-25T11:50:51.793Z"
+    },
+    "9773242558": {
+      "blockedReason": "price",
+      "title": "manchester united alternate football shirt 200203 xxl",
+      "url": "https://www.vinted.co.uk/items/9773242558-manchester-united-alternate-football-shirt-200203-xxl",
+      "lastPrice": 180,
+      "firstSeenAt": "2026-08-25T11:50:51.793Z",
+      "lastSeenAt": "2026-08-25T11:50:51.793Z"
+    },
+    "9773203256": {
+      "blockedReason": "price",
+      "title": "tampa bay buccaneers brady jersey",
+      "url": "https://www.vinted.co.uk/items/9773203256-tampa-bay-buccaneers-brady-jersey",
+      "lastPrice": 35,
+      "firstSeenAt": "2026-08-25T11:50:51.793Z",
+      "lastSeenAt": "2026-08-25T11:50:51.793Z"
+    },
+    "9773203017": {
+      "blockedReason": "price",
+      "title": "mlb new york jersey xl",
+      "url": "https://www.vinted.co.uk/items/9773203017-mlb-new-york-jersey-xl",
+      "lastPrice": 30,
+      "firstSeenAt": "2026-08-25T11:50:51.794Z",
+      "lastSeenAt": "2026-08-25T11:50:51.794Z"
+    },
+    "9773145975": {
+      "blockedReason": "price",
+      "title": "nike chelsea fc 2425 home football shirt jersey size l authentic",
+      "url": "https://www.vinted.co.uk/items/9773145975-nike-chelsea-fc-2425-home-football-shirt-jersey-size-l-authentic",
+      "lastPrice": 35,
+      "firstSeenAt": "2026-08-25T11:50:51.794Z",
+      "lastSeenAt": "2026-08-25T11:50:51.794Z"
+    },
+    "9773127310": {
+      "blockedReason": "price",
+      "title": "france away jersey 2026 world cup",
+      "url": "https://www.vinted.co.uk/items/9773127310-france-away-jersey-2026-world-cup",
+      "lastPrice": 22,
+      "firstSeenAt": "2026-08-25T11:50:51.794Z",
+      "lastSeenAt": "2026-08-25T11:50:51.794Z"
+    },
+    "9773106095": {
+      "size": "M",
+      "condition": "veryGood",
+      "resale": 32,
+      "netProfit": 11.2,
+      "roi": 56,
+      "buyScore": 58,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:50:53.736Z",
+      "discordMessageId": "1541776882423308379",
+      "title": "nike tidewater sharks football shirt",
+      "url": "https://www.vinted.co.uk/items/9773106095-nike-tidewater-sharks-football-shirt",
+      "lastPrice": 20,
+      "firstSeenAt": "2026-08-25T11:50:53.736Z",
+      "lastSeenAt": "2026-08-25T11:50:53.736Z"
+    },
+    "9773052096": {
+      "blockedReason": "condition",
+      "title": "vintage nike leeds united 2000 2002 home football shirt features the iconic",
+      "url": "https://www.vinted.co.uk/items/9773052096-vintage-nike-leeds-united-2000-2002-home-football-shirt-features-the-iconic",
+      "lastPrice": 65,
+      "firstSeenAt": "2026-08-25T11:50:53.736Z",
+      "lastSeenAt": "2026-08-25T11:50:53.736Z"
+    },
+    "9773034504": {
+      "size": "S",
+      "condition": "veryGood",
+      "resale": 30,
+      "netProfit": 19.2,
+      "roi": 192,
+      "buyScore": 88,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:50:56.410Z",
+      "discordMessageId": "1541776893328494646",
+      "title": "nike mens netherlands 202223 stadium home jersey small",
+      "url": "https://www.vinted.co.uk/items/9773034504-nike-mens-netherlands-202223-stadium-home-jersey-small",
+      "lastPrice": 10,
+      "firstSeenAt": "2026-08-25T11:50:56.410Z",
+      "lastSeenAt": "2026-08-25T11:50:56.410Z"
+    },
+    "9773016577": {
+      "blockedReason": "price",
+      "title": "dallas mavericks 77 doncic nba basketball jersey",
+      "url": "https://www.vinted.co.uk/items/9773016577-dallas-mavericks-77-doncic-nba-basketball-jersey",
+      "lastPrice": 23,
+      "firstSeenAt": "2026-08-25T11:50:56.410Z",
+      "lastSeenAt": "2026-08-25T11:50:56.410Z"
+    },
+    "9773000907": {
+      "blockedReason": "condition",
+      "title": "mens celtic football club 2010 2012 nike home football shirt green white size xl",
+      "url": "https://www.vinted.co.uk/items/9773000907-mens-celtic-football-club-2010-2012-nike-home-football-shirt-green-white-size-xl",
+      "lastPrice": 25,
+      "firstSeenAt": "2026-08-25T11:50:56.410Z",
+      "lastSeenAt": "2026-08-25T11:50:56.410Z"
+    },
+    "9772966858": {
+      "blockedReason": "price",
+      "title": "tampa bay mutiny training football shirt 199899 m",
+      "url": "https://www.vinted.co.uk/items/9772966858-tampa-bay-mutiny-training-football-shirt-199899-m",
+      "lastPrice": 100,
+      "firstSeenAt": "2026-08-25T11:50:56.410Z",
+      "lastSeenAt": "2026-08-25T11:50:56.410Z"
+    },
+    "9772961410": {
+      "blockedReason": "keyword",
+      "title": "nike auburn tigers american football jersey size youth l navy orange",
+      "url": "https://www.vinted.co.uk/items/9772961410-nike-auburn-tigers-american-football-jersey-size-youth-l-navy-orange",
+      "lastPrice": 10,
+      "firstSeenAt": "2026-08-25T11:50:56.411Z",
+      "lastSeenAt": "2026-08-25T11:50:56.411Z"
+    },
+    "9772937649": {
+      "blockedReason": "price",
+      "title": "liverpool home football shirt 202122 xl",
+      "url": "https://www.vinted.co.uk/items/9772937649-liverpool-home-football-shirt-202122-xl",
+      "lastPrice": 45,
+      "firstSeenAt": "2026-08-25T11:50:56.411Z",
+      "lastSeenAt": "2026-08-25T11:50:56.411Z"
+    },
+    "9772929859": {
+      "blockedReason": "price",
+      "title": "suns booker jersey",
+      "url": "https://www.vinted.co.uk/items/9772929859-suns-booker-jersey",
+      "lastPrice": 50,
+      "firstSeenAt": "2026-08-25T11:50:56.411Z",
+      "lastSeenAt": "2026-08-25T11:50:56.411Z"
+    },
+    "9772929726": {
+      "blockedReason": "condition",
+      "title": "nike nfl green bay packers clay matthews 52 on field jersey small",
+      "url": "https://www.vinted.co.uk/items/9772929726-nike-nfl-green-bay-packers-clay-matthews-52-on-field-jersey-small",
+      "lastPrice": 20,
+      "firstSeenAt": "2026-08-25T11:50:56.411Z",
+      "lastSeenAt": "2026-08-25T11:50:56.411Z"
+    },
+    "9772926301": {
+      "size": "XL",
+      "condition": "veryGood",
+      "resale": 35,
+      "netProfit": 22.2,
+      "roi": 185,
+      "buyScore": 90,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:50:59.516Z",
+      "discordMessageId": "1541776906863644764",
+      "title": "vintage manchester united 20089 season blue boys jersey",
+      "url": "https://www.vinted.co.uk/items/9772926301-vintage-manchester-united-20089-season-blue-boys-jersey",
+      "lastPrice": 12,
+      "firstSeenAt": "2026-08-25T11:50:59.516Z",
+      "lastSeenAt": "2026-08-25T11:50:59.516Z"
+    },
+    "9772907890": {
+      "size": "XL",
+      "condition": "veryGood",
+      "resale": 35,
+      "netProfit": 30.2,
+      "roi": 755,
+      "buyScore": 100,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:51:02.122Z",
+      "discordMessageId": "1541776917794131969",
+      "title": "nike football shirt",
+      "url": "https://www.vinted.co.uk/items/9772907890-nike-football-shirt",
+      "lastPrice": 4,
+      "firstSeenAt": "2026-08-25T11:51:02.122Z",
+      "lastSeenAt": "2026-08-25T11:51:02.122Z"
+    },
+    "9772906003": {
+      "size": "XS",
+      "condition": "newWithTags",
+      "resale": 28,
+      "netProfit": 9.2,
+      "roi": 51.11,
+      "buyScore": 57,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:51:04.716Z",
+      "discordMessageId": "1541776928648990781",
+      "title": "nike acg inter milan 2526 football shirt authentic",
+      "url": "https://www.vinted.co.uk/items/9772906003-nike-acg-inter-milan-2526-football-shirt-authentic",
+      "lastPrice": 18,
+      "firstSeenAt": "2026-08-25T11:51:04.716Z",
+      "lastSeenAt": "2026-08-25T11:51:04.716Z"
+    },
+    "9772903350": {
+      "blockedReason": "price",
+      "title": "barca yamal 19 blue pink special jersey size l brand new",
+      "url": "https://www.vinted.co.uk/items/9772903350-barca-yamal-19-blue-pink-special-jersey-size-l-brand-new",
+      "lastPrice": 25,
+      "firstSeenAt": "2026-08-25T11:51:04.716Z",
+      "lastSeenAt": "2026-08-25T11:51:04.716Z"
+    },
+    "9768051844": {
+      "blockedReason": "condition",
+      "title": "vintage nike arsenal sega gold away football shirt",
+      "url": "https://www.vinted.co.uk/items/9768051844-vintage-nike-arsenal-sega-gold-away-football-shirt",
+      "lastPrice": 35,
+      "firstSeenAt": "2026-08-25T11:51:04.716Z",
+      "lastSeenAt": "2026-08-25T11:51:04.716Z"
+    },
+    "9762081662": {
+      "blockedReason": "price",
+      "title": "nike all star jersey 2018 lebron james 23 basketball jersey black small",
+      "url": "https://www.vinted.co.uk/items/9762081662-nike-all-star-jersey-2018-lebron-james-23-basketball-jersey-black-small",
+      "lastPrice": 106.21,
+      "firstSeenAt": "2026-08-25T11:51:04.716Z",
+      "lastSeenAt": "2026-08-25T11:51:04.716Z"
+    },
+    "9762044396": {
+      "blockedReason": "price",
+      "title": "vintage retro nike air lebron james team jersey xxl",
+      "url": "https://www.vinted.co.uk/items/9762044396-vintage-retro-nike-air-lebron-james-team-jersey-xxl",
+      "lastPrice": 63.73,
+      "firstSeenAt": "2026-08-25T11:51:04.716Z",
+      "lastSeenAt": "2026-08-25T11:51:04.716Z"
+    },
+    "9746477180": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "new jared goff 16 los angeles rams nike womens nfl jersey sz l super bowl lii",
+      "url": "https://www.vinted.co.uk/items/9746477180-new-jared-goff-16-los-angeles-rams-nike-womens-nfl-jersey-sz-l-super-bowl-lii",
+      "lastPrice": 18.55,
+      "firstSeenAt": "2026-08-25T11:51:04.716Z",
+      "lastSeenAt": "2026-08-25T11:51:04.716Z"
+    },
+    "9746458307": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "pittsburgh pirates stitched jersey",
+      "url": "https://www.vinted.co.uk/items/9746458307-pittsburgh-pirates-stitched-jersey",
+      "lastPrice": 17.07,
+      "firstSeenAt": "2026-08-25T11:51:04.716Z",
+      "lastSeenAt": "2026-08-25T11:51:04.716Z"
+    },
+    "9746438995": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "nike baltimore ravens lamar jackson 3xl jersey",
+      "url": "https://www.vinted.co.uk/items/9746438995-nike-baltimore-ravens-lamar-jackson-3xl-jersey",
+      "lastPrice": 92.75,
+      "firstSeenAt": "2026-08-25T11:51:04.716Z",
+      "lastSeenAt": "2026-08-25T11:51:04.716Z"
+    },
+    "9746327375": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "new youth xl nike new york jets 8 aaron rodgers game or replica football jersey in gotham green",
+      "url": "https://www.vinted.co.uk/items/9746327375-new-youth-xl-nike-new-york-jets-8-aaron-rodgers-game-or-replica-football-jersey-in-gotham-green",
+      "lastPrice": 11.86,
+      "firstSeenAt": "2026-08-25T11:51:04.716Z",
+      "lastSeenAt": "2026-08-25T11:51:04.716Z"
+    },
+    "9773383848": {
+      "blockedReason": "keyword",
+      "title": "fc barcelona training top large kids",
+      "url": "https://www.vinted.co.uk/items/9773383848-fc-barcelona-training-top-large-kids",
+      "lastPrice": 4,
+      "firstSeenAt": "2026-08-25T11:51:10.026Z",
+      "lastSeenAt": "2026-08-25T11:51:10.026Z"
+    },
+    "9773335326": {
+      "size": "XL",
+      "condition": "veryGood",
+      "resale": 26,
+      "netProfit": 15.7,
+      "roi": 165.26,
+      "buyScore": 87,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:51:12.211Z",
+      "discordMessageId": "1541776959829446688",
+      "title": "nike boys navy dri fit training top size xl 122 128cm",
+      "url": "https://www.vinted.co.uk/items/9773335326-nike-boys-navy-dri-fit-training-top-size-xl-122-128cm",
+      "lastPrice": 9.5,
+      "firstSeenAt": "2026-08-25T11:51:12.211Z",
+      "lastSeenAt": "2026-08-25T11:51:12.211Z"
+    },
+    "9773322556": {
+      "size": "S",
+      "condition": "newWithoutTags",
+      "resale": 23,
+      "netProfit": 12.2,
+      "roi": 122,
+      "buyScore": 81,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:51:14.561Z",
+      "discordMessageId": "1541776969602179106",
+      "title": "england 202223 strike drill training top",
+      "url": "https://www.vinted.co.uk/items/9773322556-england-202223-strike-drill-training-top",
+      "lastPrice": 10,
+      "firstSeenAt": "2026-08-25T11:51:14.561Z",
+      "lastSeenAt": "2026-08-25T11:51:14.561Z"
+    },
+    "9773215647": {
+      "size": "M",
+      "condition": "veryGood",
+      "resale": 24,
+      "netProfit": 15.2,
+      "roi": 190,
+      "buyScore": 91,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:51:17.723Z",
+      "discordMessageId": "1541776983086604339",
+      "title": "ladies nike training top",
+      "url": "https://www.vinted.co.uk/items/9773215647-ladies-nike-training-top",
+      "lastPrice": 8,
+      "firstSeenAt": "2026-08-25T11:51:17.723Z",
+      "lastSeenAt": "2026-08-25T11:51:17.723Z"
+    },
+    "9773160379": {
+      "size": "XL",
+      "condition": "newWithTags",
+      "resale": 26,
+      "netProfit": 15.2,
+      "roi": 152,
+      "buyScore": 85,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:51:19.604Z",
+      "discordMessageId": "1541776991093788703",
+      "title": "nike training top age 13 15",
+      "url": "https://www.vinted.co.uk/items/9773160379-nike-training-top-age-13-15",
+      "lastPrice": 10,
+      "firstSeenAt": "2026-08-25T11:51:19.604Z",
+      "lastSeenAt": "2026-08-25T11:51:19.604Z"
+    },
+    "9773096597": {
+      "size": "S",
+      "condition": "veryGood",
+      "resale": 23,
+      "netProfit": 18.2,
+      "roi": 455,
+      "buyScore": 96,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:51:22.550Z",
+      "discordMessageId": "1541777003177451621",
+      "title": "lfc training tops small",
+      "url": "https://www.vinted.co.uk/items/9773096597-lfc-training-tops-small",
+      "lastPrice": 4,
+      "firstSeenAt": "2026-08-25T11:51:22.550Z",
+      "lastSeenAt": "2026-08-25T11:51:22.550Z"
+    },
+    "9773062365": {
+      "blockedReason": "condition",
+      "title": "nike liverpool training top",
+      "url": "https://www.vinted.co.uk/items/9773062365-nike-liverpool-training-top",
+      "lastPrice": 2.5,
+      "firstSeenAt": "2026-08-25T11:51:22.550Z",
+      "lastSeenAt": "2026-08-25T11:51:22.550Z"
+    },
+    "9772987725": {
+      "size": "L",
+      "condition": "veryGood",
+      "resale": 25,
+      "netProfit": 17.2,
+      "roi": 245.71,
+      "buyScore": 93,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:51:26.033Z",
+      "discordMessageId": "1541777017471766579",
+      "title": "chelsea fc nike dri fit training top",
+      "url": "https://www.vinted.co.uk/items/9772987725-chelsea-fc-nike-dri-fit-training-top",
+      "lastPrice": 7,
+      "firstSeenAt": "2026-08-25T11:51:26.033Z",
+      "lastSeenAt": "2026-08-25T11:51:26.033Z"
+    },
+    "9772977214": {
+      "blockedReason": "condition",
+      "title": "nike england football training shirt purple size m jersey top",
+      "url": "https://www.vinted.co.uk/items/9772977214-nike-england-football-training-shirt-purple-size-m-jersey-top",
+      "lastPrice": 5,
+      "firstSeenAt": "2026-08-25T11:51:26.033Z",
+      "lastSeenAt": "2026-08-25T11:51:26.033Z"
+    },
+    "9772897848": {
+      "blockedReason": "condition",
+      "title": "nike training top",
+      "url": "https://www.vinted.co.uk/items/9772897848-nike-training-top",
+      "lastPrice": 3,
+      "firstSeenAt": "2026-08-25T11:51:26.033Z",
+      "lastSeenAt": "2026-08-25T11:51:26.033Z"
+    },
+    "9772849923": {
+      "size": "M",
+      "condition": "veryGood",
+      "resale": 24,
+      "netProfit": 18.2,
+      "roi": 364,
+      "buyScore": 95,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:51:28.334Z",
+      "discordMessageId": "1541777027655532585",
+      "title": "nike dri fit academy quarter zip training drill top",
+      "url": "https://www.vinted.co.uk/items/9772849923-nike-dri-fit-academy-quarter-zip-training-drill-top",
+      "lastPrice": 5,
+      "firstSeenAt": "2026-08-25T11:51:28.334Z",
+      "lastSeenAt": "2026-08-25T11:51:28.334Z"
+    },
+    "9772738713": {
+      "blockedReason": "condition",
+      "title": "nike dri fit academy training top navy size l",
+      "url": "https://www.vinted.co.uk/items/9772738713-nike-dri-fit-academy-training-top-navy-size-l",
+      "lastPrice": 5,
+      "firstSeenAt": "2026-08-25T11:51:28.334Z",
+      "lastSeenAt": "2026-08-25T11:51:28.334Z"
+    },
+    "9772669860": {
+      "blockedReason": "condition",
+      "title": "grey nike training top boys xl",
+      "url": "https://www.vinted.co.uk/items/9772669860-grey-nike-training-top-boys-xl",
+      "lastPrice": 3,
+      "firstSeenAt": "2026-08-25T11:51:28.334Z",
+      "lastSeenAt": "2026-08-25T11:51:28.334Z"
+    },
+    "9772549287": {
+      "size": "M",
+      "condition": "veryGood",
+      "resale": 24,
+      "netProfit": 11.2,
+      "roi": 93.33,
+      "buyScore": 75,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:51:30.304Z",
+      "discordMessageId": "1541777035477778473",
+      "title": "england mens training top",
+      "url": "https://www.vinted.co.uk/items/9772549287-england-mens-training-top",
+      "lastPrice": 12,
+      "firstSeenAt": "2026-08-25T11:51:30.304Z",
+      "lastSeenAt": "2026-08-25T11:51:30.304Z"
+    },
+    "9772536534": {
+      "size": "S",
+      "condition": "veryGood",
+      "resale": 23,
+      "netProfit": 13.2,
+      "roi": 146.67,
+      "buyScore": 85,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:51:33.493Z",
+      "discordMessageId": "1541777049251880981",
+      "title": "nike training top size s",
+      "url": "https://www.vinted.co.uk/items/9772536534-nike-training-top-size-s",
+      "lastPrice": 9,
+      "firstSeenAt": "2026-08-25T11:51:33.493Z",
+      "lastSeenAt": "2026-08-25T11:51:33.493Z"
+    },
+    "9772518115": {
+      "blockedReason": "condition",
+      "title": "nike fri fit half zip training top",
+      "url": "https://www.vinted.co.uk/items/9772518115-nike-fri-fit-half-zip-training-top",
+      "lastPrice": 4,
+      "firstSeenAt": "2026-08-25T11:51:33.494Z",
+      "lastSeenAt": "2026-08-25T11:51:33.494Z"
+    },
+    "9772477610": {
+      "size": "S",
+      "condition": "newWithoutTags",
+      "resale": 23,
+      "netProfit": 17.2,
+      "roi": 344,
+      "buyScore": 95,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:51:35.396Z",
+      "discordMessageId": "1541777056558219425",
+      "title": "mens nike training top",
+      "url": "https://www.vinted.co.uk/items/9772477610-mens-nike-training-top",
+      "lastPrice": 5,
+      "firstSeenAt": "2026-08-25T11:51:35.396Z",
+      "lastSeenAt": "2026-08-25T11:51:35.396Z"
+    },
+    "9772439048": {
+      "blockedReason": "keyword",
+      "title": "nike dri fit training top youth l",
+      "url": "https://www.vinted.co.uk/items/9772439048-nike-dri-fit-training-top-youth-l",
+      "lastPrice": 4,
+      "firstSeenAt": "2026-08-25T11:51:35.397Z",
+      "lastSeenAt": "2026-08-25T11:51:35.397Z"
+    },
+    "9772406734": {
+      "size": "XL",
+      "condition": "veryGood",
+      "resale": 26,
+      "netProfit": 19.2,
+      "roi": 320,
+      "buyScore": 94,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:51:37.859Z",
+      "discordMessageId": "1541777067580989495",
+      "title": "nike dri fit american football graphic t shirt size xl burgundy gym training top",
+      "url": "https://www.vinted.co.uk/items/9772406734-nike-dri-fit-american-football-graphic-t-shirt-size-xl-burgundy-gym-training-top",
+      "lastPrice": 6,
+      "firstSeenAt": "2026-08-25T11:51:37.859Z",
+      "lastSeenAt": "2026-08-25T11:51:37.859Z"
+    },
+    "9772403027": {
+      "blockedReason": "condition",
+      "title": "lfc training top",
+      "url": "https://www.vinted.co.uk/items/9772403027-lfc-training-top",
+      "lastPrice": 7,
+      "firstSeenAt": "2026-08-25T11:51:37.860Z",
+      "lastSeenAt": "2026-08-25T11:51:37.860Z"
+    },
+    "9772383564": {
+      "blockedReason": "condition",
+      "title": "lfc training top",
+      "url": "https://www.vinted.co.uk/items/9772383564-lfc-training-top",
+      "lastPrice": 6,
+      "firstSeenAt": "2026-08-25T11:51:37.860Z",
+      "lastSeenAt": "2026-08-25T11:51:37.860Z"
+    },
+    "9772345422": {
+      "size": "L",
+      "condition": "veryGood",
+      "resale": 25,
+      "netProfit": 14.2,
+      "roi": 142,
+      "buyScore": 84,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:51:40.617Z",
+      "discordMessageId": "1541777078859468962",
+      "title": "chelsea training top l 2324",
+      "url": "https://www.vinted.co.uk/items/9772345422-chelsea-training-top-l-2324",
+      "lastPrice": 10,
+      "firstSeenAt": "2026-08-25T11:51:40.617Z",
+      "lastSeenAt": "2026-08-25T11:51:40.617Z"
+    },
+    "9772306617": {
+      "size": "L",
+      "condition": "veryGood",
+      "resale": 25,
+      "netProfit": 14.2,
+      "roi": 142,
+      "buyScore": 84,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:51:42.800Z",
+      "discordMessageId": "1541777088447647765",
+      "title": "chelsea training top 2425",
+      "url": "https://www.vinted.co.uk/items/9772306617-chelsea-training-top-2425",
+      "lastPrice": 10,
+      "firstSeenAt": "2026-08-25T11:51:42.800Z",
+      "lastSeenAt": "2026-08-25T11:51:42.800Z"
+    },
+    "9772291857": {
+      "blockedReason": "condition",
+      "title": "nike strike 14 zip drill top black mens medium",
+      "url": "https://www.vinted.co.uk/items/9772291857-nike-strike-14-zip-drill-top-black-mens-medium",
+      "lastPrice": 14.99,
+      "firstSeenAt": "2026-08-25T11:51:42.800Z",
+      "lastSeenAt": "2026-08-25T11:51:42.800Z"
+    },
+    "9772246856": {
+      "blockedReason": "price",
+      "title": "vintage nike team red shield football training top",
+      "url": "https://www.vinted.co.uk/items/9772246856-vintage-nike-team-red-shield-football-training-top",
+      "lastPrice": 16,
+      "firstSeenAt": "2026-08-25T11:51:42.801Z",
+      "lastSeenAt": "2026-08-25T11:51:42.801Z"
+    },
+    "9772219791": {
+      "blockedReason": "price",
+      "title": "nike blue 14 zip training top",
+      "url": "https://www.vinted.co.uk/items/9772219791-nike-blue-14-zip-training-top",
+      "lastPrice": 20,
+      "firstSeenAt": "2026-08-25T11:51:42.801Z",
+      "lastSeenAt": "2026-08-25T11:51:42.801Z"
+    },
+    "9772188420": {
+      "blockedReason": "price",
+      "title": "nike strike 14 zip drill top blueorange mens medium",
+      "url": "https://www.vinted.co.uk/items/9772188420-nike-strike-14-zip-drill-top-blueorange-mens-medium",
+      "lastPrice": 19.99,
+      "firstSeenAt": "2026-08-25T11:51:42.801Z",
+      "lastSeenAt": "2026-08-25T11:51:42.801Z"
+    },
+    "9772171721": {
+      "blockedReason": "keyword",
+      "title": "nike fc barcelona messi 2018 19 rare orange training shirt youth xl eu 164",
+      "url": "https://www.vinted.co.uk/items/9772171721-nike-fc-barcelona-messi-2018-19-rare-orange-training-shirt-youth-xl-eu-164",
+      "lastPrice": 17,
+      "firstSeenAt": "2026-08-25T11:51:42.801Z",
+      "lastSeenAt": "2026-08-25T11:51:42.801Z"
+    },
+    "9771992788": {
+      "size": "S",
+      "condition": "newWithTags",
+      "resale": 23,
+      "netProfit": 14.2,
+      "roi": 177.5,
+      "buyScore": 89,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:51:45.275Z",
+      "discordMessageId": "1541777098342015039",
+      "title": "nike pro hypercool womens training top grey size small",
+      "url": "https://www.vinted.co.uk/items/9771992788-nike-pro-hypercool-womens-training-top-grey-size-small",
+      "lastPrice": 8,
+      "firstSeenAt": "2026-08-25T11:51:45.275Z",
+      "lastSeenAt": "2026-08-25T11:51:45.275Z"
+    },
+    "9771991617": {
+      "blockedReason": "price",
+      "title": "nike strike 14 zip drill top blackgrey mens large",
+      "url": "https://www.vinted.co.uk/items/9771991617-nike-strike-14-zip-drill-top-blackgrey-mens-large",
+      "lastPrice": 19.99,
+      "firstSeenAt": "2026-08-25T11:51:45.275Z",
+      "lastSeenAt": "2026-08-25T11:51:45.275Z"
+    },
+    "9771975428": {
+      "size": "M",
+      "condition": "veryGood",
+      "resale": 24,
+      "netProfit": 13.2,
+      "roi": 132,
+      "buyScore": 82,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:51:48.500Z",
+      "discordMessageId": "1541777111566651454",
+      "title": "lfc training top",
+      "url": "https://www.vinted.co.uk/items/9771975428-lfc-training-top",
+      "lastPrice": 10,
+      "firstSeenAt": "2026-08-25T11:51:48.500Z",
+      "lastSeenAt": "2026-08-25T11:51:48.500Z"
+    },
+    "9771946462": {
+      "size": "M",
+      "condition": "veryGood",
+      "resale": 24,
+      "netProfit": 13.2,
+      "roi": 132,
+      "buyScore": 82,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:51:51.599Z",
+      "discordMessageId": "1541777123138863115",
+      "title": "lfc training top",
+      "url": "https://www.vinted.co.uk/items/9771946462-lfc-training-top",
+      "lastPrice": 10,
+      "firstSeenAt": "2026-08-25T11:51:51.599Z",
+      "lastSeenAt": "2026-08-25T11:51:51.599Z"
+    },
+    "9771931339": {
+      "size": "M",
+      "condition": "veryGood",
+      "resale": 24,
+      "netProfit": 13.2,
+      "roi": 132,
+      "buyScore": 82,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:51:53.343Z",
+      "discordMessageId": "1541777132525584428",
+      "title": "lfc training top",
+      "url": "https://www.vinted.co.uk/items/9771931339-lfc-training-top",
+      "lastPrice": 10,
+      "firstSeenAt": "2026-08-25T11:51:53.343Z",
+      "lastSeenAt": "2026-08-25T11:51:53.343Z"
+    },
+    "9771880166": {
+      "size": "M",
+      "condition": "veryGood",
+      "resale": 24,
+      "netProfit": 13.2,
+      "roi": 132,
+      "buyScore": 82,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:51:55.810Z",
+      "discordMessageId": "1541777141694206073",
+      "title": "nike 14 zipper training top",
+      "url": "https://www.vinted.co.uk/items/9771880166-nike-14-zipper-training-top",
+      "lastPrice": 10,
+      "firstSeenAt": "2026-08-25T11:51:55.810Z",
+      "lastSeenAt": "2026-08-25T11:51:55.810Z"
+    },
+    "9771869863": {
+      "blockedReason": "price",
+      "title": "nike barcelona 14 zip training top",
+      "url": "https://www.vinted.co.uk/items/9771869863-nike-barcelona-14-zip-training-top",
+      "lastPrice": 15,
+      "firstSeenAt": "2026-08-25T11:51:55.810Z",
+      "lastSeenAt": "2026-08-25T11:51:55.810Z"
+    },
+    "9771659451": {
+      "size": "M",
+      "condition": "veryGood",
+      "resale": 24,
+      "netProfit": 15.21,
+      "roi": 190.36,
+      "buyScore": 91,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:51:58.066Z",
+      "discordMessageId": "1541777152436084847",
+      "title": "nike pro dri fit compression black short sleeve training top mens m",
+      "url": "https://www.vinted.co.uk/items/9771659451-nike-pro-dri-fit-compression-black-short-sleeve-training-top-mens-m",
+      "lastPrice": 7.99,
+      "firstSeenAt": "2026-08-25T11:51:58.066Z",
+      "lastSeenAt": "2026-08-25T11:51:58.066Z"
+    },
+    "9771132210": {
+      "blockedReason": "price",
+      "title": "nike tottenham hotspur spurs hooded training top blue size m",
+      "url": "https://www.vinted.co.uk/items/9771132210-nike-tottenham-hotspur-spurs-hooded-training-top-blue-size-m",
+      "lastPrice": 30,
+      "firstSeenAt": "2026-08-25T11:51:58.066Z",
+      "lastSeenAt": "2026-08-25T11:51:58.066Z"
+    },
+    "9746429802": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "oregon ducks nike training jersey",
+      "url": "https://www.vinted.co.uk/items/9746429802-oregon-ducks-nike-training-jersey",
+      "lastPrice": 7.42,
+      "firstSeenAt": "2026-08-25T11:51:58.067Z",
+      "lastSeenAt": "2026-08-25T11:51:58.067Z"
+    },
+    "9773418783": {
+      "blockedReason": "keyword",
+      "title": "nike dri fit cream gold training top 14 zip kids large size age 11 12",
+      "url": "https://www.vinted.co.uk/items/9773418783-nike-dri-fit-cream-gold-training-top-14-zip-kids-large-size-age-11-12",
+      "lastPrice": 5,
+      "firstSeenAt": "2026-08-25T11:52:02.620Z",
+      "lastSeenAt": "2026-08-25T11:52:02.620Z"
+    },
+    "9773417903": {
+      "blockedReason": "condition",
+      "title": "nike drifit manny tee medium",
+      "url": "https://www.vinted.co.uk/items/9773417903-nike-drifit-manny-tee-medium",
+      "lastPrice": 3.72,
+      "firstSeenAt": "2026-08-25T11:52:02.620Z",
+      "lastSeenAt": "2026-08-25T11:52:02.620Z"
+    },
+    "9773403000": {
+      "size": "M",
+      "condition": "veryGood",
+      "resale": 23,
+      "netProfit": 8.2,
+      "roi": 58.57,
+      "buyScore": 65,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:52:04.591Z",
+      "discordMessageId": "1541777179711508571",
+      "title": "nike dri fit cheshire lacrosse polo shirt black size m",
+      "url": "https://www.vinted.co.uk/items/9773403000-nike-dri-fit-cheshire-lacrosse-polo-shirt-black-size-m",
+      "lastPrice": 14,
+      "firstSeenAt": "2026-08-25T11:52:04.591Z",
+      "lastSeenAt": "2026-08-25T11:52:04.591Z"
+    },
+    "9773394915": {
+      "size": "M",
+      "condition": "newWithoutTags",
+      "resale": 23,
+      "netProfit": 17.2,
+      "roi": 344,
+      "buyScore": 95,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:52:07.705Z",
+      "discordMessageId": "1541777192923570318",
+      "title": "purple lilac running dri fit 14 zip top size m",
+      "url": "https://www.vinted.co.uk/items/9773394915-purple-lilac-running-dri-fit-14-zip-top-size-m",
+      "lastPrice": 5,
+      "firstSeenAt": "2026-08-25T11:52:07.705Z",
+      "lastSeenAt": "2026-08-25T11:52:07.705Z"
+    },
+    "9773327584": {
+      "size": "XL",
+      "condition": "veryGood",
+      "resale": 25,
+      "netProfit": 17.2,
+      "roi": 245.71,
+      "buyScore": 93,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:52:10.642Z",
+      "discordMessageId": "1541777204860686400",
+      "title": "boys bike dri fit tops white and black and grey and pink",
+      "url": "https://www.vinted.co.uk/items/9773327584-boys-bike-dri-fit-tops-white-and-black-and-grey-and-pink",
+      "lastPrice": 7,
+      "firstSeenAt": "2026-08-25T11:52:10.642Z",
+      "lastSeenAt": "2026-08-25T11:52:10.642Z"
+    },
+    "9773321230": {
+      "size": "S",
+      "condition": "newWithoutTags",
+      "resale": 22,
+      "netProfit": 9.2,
+      "roi": 76.67,
+      "buyScore": 69,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:52:13.388Z",
+      "discordMessageId": "1541777216680104068",
+      "title": "nike dri fit top",
+      "url": "https://www.vinted.co.uk/items/9773321230-nike-dri-fit-top",
+      "lastPrice": 12,
+      "firstSeenAt": "2026-08-25T11:52:13.388Z",
+      "lastSeenAt": "2026-08-25T11:52:13.388Z"
+    },
+    "9773313453": {
+      "size": "L",
+      "condition": "veryGood",
+      "resale": 24,
+      "netProfit": 21.2,
+      "roi": 1060,
+      "buyScore": 100,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:52:16.511Z",
+      "discordMessageId": "1541777229401301005",
+      "title": "nike dri fit tshirt",
+      "url": "https://www.vinted.co.uk/items/9773313453-nike-dri-fit-tshirt",
+      "lastPrice": 2,
+      "firstSeenAt": "2026-08-25T11:52:16.511Z",
+      "lastSeenAt": "2026-08-25T11:52:16.511Z"
+    },
+    "9773305547": {
+      "size": "XL",
+      "condition": "veryGood",
+      "resale": 25,
+      "netProfit": 20.2,
+      "roi": 505,
+      "buyScore": 100,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:52:19.354Z",
+      "discordMessageId": "1541777241367908364",
+      "title": "boys nike dri fit grey and pink top",
+      "url": "https://www.vinted.co.uk/items/9773305547-boys-nike-dri-fit-grey-and-pink-top",
+      "lastPrice": 4,
+      "firstSeenAt": "2026-08-25T11:52:19.354Z",
+      "lastSeenAt": "2026-08-25T11:52:19.354Z"
+    },
+    "9773303928": {
+      "size": "S",
+      "condition": "veryGood",
+      "resale": 22,
+      "netProfit": 17.2,
+      "roi": 430,
+      "buyScore": 96,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:52:22.091Z",
+      "discordMessageId": "1541777252826746891",
+      "title": "pink nike dri fit running top",
+      "url": "https://www.vinted.co.uk/items/9773303928-pink-nike-dri-fit-running-top",
+      "lastPrice": 4,
+      "firstSeenAt": "2026-08-25T11:52:22.091Z",
+      "lastSeenAt": "2026-08-25T11:52:22.091Z"
+    },
+    "9773277128": {
+      "blockedReason": "price",
+      "title": "dri fit nike pink short sleeveless top size m",
+      "url": "https://www.vinted.co.uk/items/9773277128-dri-fit-nike-pink-short-sleeveless-top-size-m",
+      "lastPrice": 18,
+      "firstSeenAt": "2026-08-25T11:52:22.091Z",
+      "lastSeenAt": "2026-08-25T11:52:22.091Z"
+    },
+    "9773238219": {
+      "size": "S",
+      "condition": "veryGood",
+      "resale": 22,
+      "netProfit": 16.2,
+      "roi": 324,
+      "buyScore": 94,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:52:24.158Z",
+      "discordMessageId": "1541777261735186443",
+      "title": "nike running grey dri fit vest tank top",
+      "url": "https://www.vinted.co.uk/items/9773238219-nike-running-grey-dri-fit-vest-tank-top",
+      "lastPrice": 5,
+      "firstSeenAt": "2026-08-25T11:52:24.158Z",
+      "lastSeenAt": "2026-08-25T11:52:24.158Z"
+    },
+    "9773234028": {
+      "size": "XL",
+      "condition": "veryGood",
+      "resale": 25,
+      "netProfit": 20.2,
+      "roi": 505,
+      "buyScore": 100,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:52:27.321Z",
+      "discordMessageId": "1541777275090112593",
+      "title": "nike boys white and black dri fit top",
+      "url": "https://www.vinted.co.uk/items/9773234028-nike-boys-white-and-black-dri-fit-top",
+      "lastPrice": 4,
+      "firstSeenAt": "2026-08-25T11:52:27.321Z",
+      "lastSeenAt": "2026-08-25T11:52:27.321Z"
+    },
+    "9773228880": {
+      "size": "L",
+      "condition": "veryGood",
+      "resale": 24,
+      "netProfit": 18.2,
+      "roi": 364,
+      "buyScore": 95,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:52:29.581Z",
+      "discordMessageId": "1541777284392951812",
+      "title": "nike dri fit gym vest top with nike logo",
+      "url": "https://www.vinted.co.uk/items/9773228880-nike-dri-fit-gym-vest-top-with-nike-logo",
+      "lastPrice": 5,
+      "firstSeenAt": "2026-08-25T11:52:29.581Z",
+      "lastSeenAt": "2026-08-25T11:52:29.581Z"
+    },
+    "9773208447": {
+      "size": "S",
+      "condition": "veryGood",
+      "resale": 22,
+      "netProfit": 16.2,
+      "roi": 324,
+      "buyScore": 94,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:52:32.216Z",
+      "discordMessageId": "1541777295583223869",
+      "title": "ladies lime green nike dri fit running top",
+      "url": "https://www.vinted.co.uk/items/9773208447-ladies-lime-green-nike-dri-fit-running-top",
+      "lastPrice": 5,
+      "firstSeenAt": "2026-08-25T11:52:32.216Z",
+      "lastSeenAt": "2026-08-25T11:52:32.216Z"
+    },
+    "9773180254": {
+      "blockedReason": "condition",
+      "title": "nike dri fit blue short sleeve top",
+      "url": "https://www.vinted.co.uk/items/9773180254-nike-dri-fit-blue-short-sleeve-top",
+      "lastPrice": 8,
+      "firstSeenAt": "2026-08-25T11:52:32.216Z",
+      "lastSeenAt": "2026-08-25T11:52:32.216Z"
+    },
+    "9773173863": {
+      "size": "L",
+      "condition": "veryGood",
+      "resale": 24,
+      "netProfit": 19.2,
+      "roi": 480,
+      "buyScore": 97,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:52:35.787Z",
+      "discordMessageId": "1541777310305357908",
+      "title": "boys nike dri fit top",
+      "url": "https://www.vinted.co.uk/items/9773173863-boys-nike-dri-fit-top",
+      "lastPrice": 4,
+      "firstSeenAt": "2026-08-25T11:52:35.787Z",
+      "lastSeenAt": "2026-08-25T11:52:35.787Z"
+    },
+    "9773155694": {
+      "size": "M",
+      "condition": "veryGood",
+      "resale": 23,
+      "netProfit": 17.2,
+      "roi": 344,
+      "buyScore": 95,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:52:37.942Z",
+      "discordMessageId": "1541777319398477906",
+      "title": "nike womens dri fit running top size m black",
+      "url": "https://www.vinted.co.uk/items/9773155694-nike-womens-dri-fit-running-top-size-m-black",
+      "lastPrice": 5,
+      "firstSeenAt": "2026-08-25T11:52:37.942Z",
+      "lastSeenAt": "2026-08-25T11:52:37.942Z"
+    },
+    "9773140263": {
+      "size": "L",
+      "condition": "veryGood",
+      "resale": 24,
+      "netProfit": 19.2,
+      "roi": 480,
+      "buyScore": 97,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:52:41.355Z",
+      "discordMessageId": "1541777332572913747",
+      "title": "womens dri fit top",
+      "url": "https://www.vinted.co.uk/items/9773140263-womens-dri-fit-top",
+      "lastPrice": 4,
+      "firstSeenAt": "2026-08-25T11:52:41.355Z",
+      "lastSeenAt": "2026-08-25T11:52:41.355Z"
+    },
+    "9773092577": {
+      "size": "L",
+      "condition": "newWithoutTags",
+      "resale": 24,
+      "netProfit": 18.7,
+      "roi": 415.56,
+      "buyScore": 96,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:52:43.038Z",
+      "discordMessageId": "1541777341007527977",
+      "title": "boys nike dri fit top",
+      "url": "https://www.vinted.co.uk/items/9773092577-boys-nike-dri-fit-top",
+      "lastPrice": 4.5,
+      "firstSeenAt": "2026-08-25T11:52:43.038Z",
+      "lastSeenAt": "2026-08-25T11:52:43.038Z"
+    },
+    "9773050372": {
+      "blockedReason": "keyword",
+      "title": "nike dri fit top kids xl",
+      "url": "https://www.vinted.co.uk/items/9773050372-nike-dri-fit-top-kids-xl",
+      "lastPrice": 3,
+      "firstSeenAt": "2026-08-25T11:52:43.039Z",
+      "lastSeenAt": "2026-08-25T11:52:43.039Z"
+    },
+    "9773035045": {
+      "blockedReason": "price",
+      "title": "bundle ladies nike dri fit tops size xl",
+      "url": "https://www.vinted.co.uk/items/9773035045-bundle-ladies-nike-dri-fit-tops-size-xl",
+      "lastPrice": 15,
+      "firstSeenAt": "2026-08-25T11:52:43.039Z",
+      "lastSeenAt": "2026-08-25T11:52:43.039Z"
+    },
+    "9773022191": {
+      "size": "XL",
+      "condition": "veryGood",
+      "resale": 25,
+      "netProfit": 19.2,
+      "roi": 384,
+      "buyScore": 95,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:52:44.691Z",
+      "discordMessageId": "1541777347848577147",
+      "title": "mens nike dri fit slim fit top size xl",
+      "url": "https://www.vinted.co.uk/items/9773022191-mens-nike-dri-fit-slim-fit-top-size-xl",
+      "lastPrice": 5,
+      "firstSeenAt": "2026-08-25T11:52:44.691Z",
+      "lastSeenAt": "2026-08-25T11:52:44.691Z"
+    },
+    "9772999935": {
+      "blockedReason": "condition",
+      "title": "nike dri fit t shirt l black",
+      "url": "https://www.vinted.co.uk/items/9772999935-nike-dri-fit-t-shirt-l-black",
+      "lastPrice": 2,
+      "firstSeenAt": "2026-08-25T11:52:44.691Z",
+      "lastSeenAt": "2026-08-25T11:52:44.691Z"
+    },
+    "9772990644": {
+      "size": "M",
+      "condition": "veryGood",
+      "resale": 23,
+      "netProfit": 10.2,
+      "roi": 85,
+      "buyScore": 74,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:52:47.059Z",
+      "discordMessageId": "1541777357856055349",
+      "title": "nike dri fit sports top",
+      "url": "https://www.vinted.co.uk/items/9772990644-nike-dri-fit-sports-top",
+      "lastPrice": 12,
+      "firstSeenAt": "2026-08-25T11:52:47.059Z",
+      "lastSeenAt": "2026-08-25T11:52:47.059Z"
+    },
+    "9772989213": {
+      "size": "XS",
+      "condition": "veryGood",
+      "resale": 20,
+      "netProfit": 11.2,
+      "roi": 140,
+      "buyScore": 84,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:52:50.264Z",
+      "discordMessageId": "1541777371357511781",
+      "title": "lladies nike dri fit zip top",
+      "url": "https://www.vinted.co.uk/items/9772989213-lladies-nike-dri-fit-zip-top",
+      "lastPrice": 8,
+      "firstSeenAt": "2026-08-25T11:52:50.264Z",
+      "lastSeenAt": "2026-08-25T11:52:50.264Z"
+    },
+    "9772958326": {
+      "blockedReason": "condition",
+      "title": "nike dri fit womens top running",
+      "url": "https://www.vinted.co.uk/items/9772958326-nike-dri-fit-womens-top-running",
+      "lastPrice": 2,
+      "firstSeenAt": "2026-08-25T11:52:50.264Z",
+      "lastSeenAt": "2026-08-25T11:52:50.264Z"
+    },
+    "9772949678": {
+      "size": "XL",
+      "condition": "veryGood",
+      "resale": 25,
+      "netProfit": 19.2,
+      "roi": 384,
+      "buyScore": 95,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:52:52.769Z",
+      "discordMessageId": "1541777381872631930",
+      "title": "nike running dri fit top xl",
+      "url": "https://www.vinted.co.uk/items/9772949678-nike-running-dri-fit-top-xl",
+      "lastPrice": 5,
+      "firstSeenAt": "2026-08-25T11:52:52.769Z",
+      "lastSeenAt": "2026-08-25T11:52:52.769Z"
+    },
+    "9772923803": {
+      "size": "XL",
+      "condition": "veryGood",
+      "resale": 25,
+      "netProfit": 19.2,
+      "roi": 384,
+      "buyScore": 95,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:52:55.507Z",
+      "discordMessageId": "1541777393092403261",
+      "title": "nike dri fit black t shirt xl",
+      "url": "https://www.vinted.co.uk/items/9772923803-nike-dri-fit-black-t-shirt-xl",
+      "lastPrice": 5,
+      "firstSeenAt": "2026-08-25T11:52:55.507Z",
+      "lastSeenAt": "2026-08-25T11:52:55.507Z"
+    },
+    "9772918974": {
+      "blockedReason": "keyword",
+      "title": "nike kids dri fit black graphic t shirt size xl boys",
+      "url": "https://www.vinted.co.uk/items/9772918974-nike-kids-dri-fit-black-graphic-t-shirt-size-xl-boys",
+      "lastPrice": 5,
+      "firstSeenAt": "2026-08-25T11:52:55.507Z",
+      "lastSeenAt": "2026-08-25T11:52:55.507Z"
+    },
+    "9772912994": {
+      "blockedReason": "price",
+      "title": "nike dri fit pink sports running top size m",
+      "url": "https://www.vinted.co.uk/items/9772912994-nike-dri-fit-pink-sports-running-top-size-m",
+      "lastPrice": 16,
+      "firstSeenAt": "2026-08-25T11:52:55.507Z",
+      "lastSeenAt": "2026-08-25T11:52:55.507Z"
+    },
+    "9772904023": {
+      "blockedReason": "condition",
+      "title": "nike dri fit top",
+      "url": "https://www.vinted.co.uk/items/9772904023-nike-dri-fit-top",
+      "lastPrice": 5,
+      "firstSeenAt": "2026-08-25T11:52:55.507Z",
+      "lastSeenAt": "2026-08-25T11:52:55.507Z"
+    },
+    "9772897038": {
+      "size": "XS",
+      "condition": "veryGood",
+      "resale": 20,
+      "netProfit": 14.2,
+      "roi": 284,
+      "buyScore": 94,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:52:57.761Z",
+      "discordMessageId": "1541777402731175937",
+      "title": "red nike dri fit top",
+      "url": "https://www.vinted.co.uk/items/9772897038-red-nike-dri-fit-top",
+      "lastPrice": 5,
+      "firstSeenAt": "2026-08-25T11:52:57.761Z",
+      "lastSeenAt": "2026-08-25T11:52:57.761Z"
+    },
+    "9772896511": {
+      "size": "S",
+      "condition": "veryGood",
+      "resale": 22,
+      "netProfit": 19.2,
+      "roi": 960,
+      "buyScore": 99,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:53:00.063Z",
+      "discordMessageId": "1541777412411629589",
+      "title": "nike dri fit top",
+      "url": "https://www.vinted.co.uk/items/9772896511-nike-dri-fit-top",
+      "lastPrice": 2,
+      "firstSeenAt": "2026-08-25T11:53:00.063Z",
+      "lastSeenAt": "2026-08-25T11:53:00.063Z"
+    },
+    "9772874855": {
+      "blockedReason": "price",
+      "title": "nike miler 10 dri fit top t shirt hot punch pink size xl mens fz4782 674 new",
+      "url": "https://www.vinted.co.uk/items/9772874855-nike-miler-10-dri-fit-top-t-shirt-hot-punch-pink-size-xl-mens-fz4782-674-new",
+      "lastPrice": 29.99,
+      "firstSeenAt": "2026-08-25T11:53:00.063Z",
+      "lastSeenAt": "2026-08-25T11:53:00.063Z"
+    },
+    "9772872051": {
+      "size": "L",
+      "condition": "veryGood",
+      "resale": 24,
+      "netProfit": 21.2,
+      "roi": 1060,
+      "buyScore": 100,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:53:01.758Z",
+      "discordMessageId": "1541777419340349534",
+      "title": "girls nike dri fit t shirt",
+      "url": "https://www.vinted.co.uk/items/9772872051-girls-nike-dri-fit-t-shirt",
+      "lastPrice": 2,
+      "firstSeenAt": "2026-08-25T11:53:01.759Z",
+      "lastSeenAt": "2026-08-25T11:53:01.759Z"
+    },
+    "9772864206": {
+      "blockedReason": "detail-budget-exhausted",
+      "size": null,
+      "title": "nike boys dri fit topswim top",
+      "url": "https://www.vinted.co.uk/items/9772864206-nike-boys-dri-fit-topswim-top",
+      "lastPrice": 2,
+      "firstSeenAt": "2026-08-25T11:53:01.759Z",
+      "lastSeenAt": "2026-08-25T11:53:01.759Z"
+    },
+    "9772840929": {
+      "blockedReason": "condition",
+      "title": "nike drifit white top size small",
+      "url": "https://www.vinted.co.uk/items/9772840929-nike-drifit-white-top-size-small",
+      "lastPrice": 3,
+      "firstSeenAt": "2026-08-25T11:53:01.759Z",
+      "lastSeenAt": "2026-08-25T11:53:01.759Z"
+    },
+    "9772815389": {
+      "size": "S",
+      "condition": "veryGood",
+      "resale": 22,
+      "netProfit": 15.2,
+      "roi": 253.33,
+      "buyScore": 93,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:53:04.243Z",
+      "discordMessageId": "1541777430048673903",
+      "title": "nike dri fit top",
+      "url": "https://www.vinted.co.uk/items/9772815389-nike-dri-fit-top",
+      "lastPrice": 6,
+      "firstSeenAt": "2026-08-25T11:53:04.243Z",
+      "lastSeenAt": "2026-08-25T11:53:04.243Z"
+    },
+    "9772784872": {
+      "blockedReason": "price",
+      "title": "nike dri fit training t shirt brownheather athletic top",
+      "url": "https://www.vinted.co.uk/items/9772784872-nike-dri-fit-training-t-shirt-brownheather-athletic-top",
+      "lastPrice": 19,
+      "firstSeenAt": "2026-08-25T11:53:04.244Z",
+      "lastSeenAt": "2026-08-25T11:53:04.244Z"
+    },
+    "9772726563": {
+      "size": "S",
+      "condition": "veryGood",
+      "resale": 22,
+      "netProfit": 17.2,
+      "roi": 430,
+      "buyScore": 96,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:53:10.767Z",
+      "discordMessageId": "1541777457231962133",
+      "title": "nike dri fit workout top with built on bra",
+      "url": "https://www.vinted.co.uk/items/9772726563-nike-dri-fit-workout-top-with-built-on-bra",
+      "lastPrice": 4,
+      "firstSeenAt": "2026-08-25T11:53:10.767Z",
+      "lastSeenAt": "2026-08-25T11:53:10.767Z"
+    },
+    "9769553697": {
+      "size": "S",
+      "condition": "veryGood",
+      "resale": 22,
+      "netProfit": 17.2,
+      "roi": 430,
+      "buyScore": 96,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:53:12.009Z",
+      "discordMessageId": "1541777461992497284",
+      "title": "nike womens dri fit academy 21 black running training sports top size s",
+      "url": "https://www.vinted.co.uk/items/9769553697-nike-womens-dri-fit-academy-21-black-running-training-sports-top-size-s",
+      "lastPrice": 4,
+      "firstSeenAt": "2026-08-25T11:53:12.009Z",
+      "lastSeenAt": "2026-08-25T11:53:12.009Z"
+    },
+    "9761950617": {
+      "blockedReason": "keyword",
+      "title": "neymar jr nike dri fit kids small jersey top",
+      "url": "https://www.vinted.co.uk/items/9761950617-neymar-jr-nike-dri-fit-kids-small-jersey-top",
+      "lastPrice": 21.24,
+      "firstSeenAt": "2026-08-25T11:53:12.009Z",
+      "lastSeenAt": "2026-08-25T11:53:12.009Z"
+    },
+    "9746472143": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "youth nike dri fit shirt",
+      "url": "https://www.vinted.co.uk/items/9746472143-youth-nike-dri-fit-shirt",
+      "lastPrice": 1.86,
+      "firstSeenAt": "2026-08-25T11:53:12.009Z",
+      "lastSeenAt": "2026-08-25T11:53:12.009Z"
+    },
+    "9746463650": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "nike ls 14 zip athletic dri fit top m",
+      "url": "https://www.vinted.co.uk/items/9746463650-nike-ls-14-zip-athletic-dri-fit-top-m",
+      "lastPrice": 11.13,
+      "firstSeenAt": "2026-08-25T11:53:12.009Z",
+      "lastSeenAt": "2026-08-25T11:53:39.981Z"
+    },
+    "9746435743": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "xs nike dri fit pink athletic tank top",
+      "url": "https://www.vinted.co.uk/items/9746435743-xs-nike-dri-fit-pink-athletic-tank-top",
+      "lastPrice": 3.71,
+      "firstSeenAt": "2026-08-25T11:53:12.009Z",
+      "lastSeenAt": "2026-08-25T11:53:12.009Z"
+    },
+    "9746431997": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "nike blue dri fit elastika training tank top small",
+      "url": "https://www.vinted.co.uk/items/9746431997-nike-blue-dri-fit-elastika-training-tank-top-small",
+      "lastPrice": 4.45,
+      "firstSeenAt": "2026-08-25T11:53:12.009Z",
+      "lastSeenAt": "2026-08-25T11:53:12.009Z"
+    },
+    "9746430864": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "nike womens dri fit geometric line print racerback tank top with built in bra",
+      "url": "https://www.vinted.co.uk/items/9746430864-nike-womens-dri-fit-geometric-line-print-racerback-tank-top-with-built-in-bra",
+      "lastPrice": 5.94,
+      "firstSeenAt": "2026-08-25T11:53:12.009Z",
+      "lastSeenAt": "2026-08-25T11:53:12.009Z"
+    },
+    "9773374446": {
+      "size": "S",
+      "condition": "newWithoutTags",
+      "resale": 27,
+      "netProfit": 19.2,
+      "roi": 274.29,
+      "buyScore": 93,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:53:18.982Z",
+      "discordMessageId": "1541777490358439990",
+      "title": "nike pink quarter zip",
+      "url": "https://www.vinted.co.uk/items/9773374446-nike-pink-quarter-zip",
+      "lastPrice": 7,
+      "firstSeenAt": "2026-08-25T11:53:18.982Z",
+      "lastSeenAt": "2026-08-25T11:53:18.982Z"
+    },
+    "9773373473": {
+      "size": "XL",
+      "condition": "veryGood",
+      "resale": 30,
+      "netProfit": 24.2,
+      "roi": 484,
+      "buyScore": 100,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:53:20.852Z",
+      "discordMessageId": "1541777499749621832",
+      "title": "nike sports quarter zip",
+      "url": "https://www.vinted.co.uk/items/9773373473-nike-sports-quarter-zip",
+      "lastPrice": 5,
+      "firstSeenAt": "2026-08-25T11:53:20.852Z",
+      "lastSeenAt": "2026-08-25T11:53:20.852Z"
+    },
+    "9773314751": {
+      "blockedReason": "keyword",
+      "title": "nike black quarter zip kids 13 14",
+      "url": "https://www.vinted.co.uk/items/9773314751-nike-black-quarter-zip-kids-13-14",
+      "lastPrice": 11,
+      "firstSeenAt": "2026-08-25T11:53:20.852Z",
+      "lastSeenAt": "2026-08-25T11:53:20.852Z"
+    },
+    "9773278572": {
+      "size": "S",
+      "condition": "veryGood",
+      "resale": 27,
+      "netProfit": 11.2,
+      "roi": 74.67,
+      "buyScore": 69,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:53:24.207Z",
+      "discordMessageId": "1541777513368395899",
+      "title": "nike dri fit running two piece leggings and quarter zip size small",
+      "url": "https://www.vinted.co.uk/items/9773278572-nike-dri-fit-running-two-piece-leggings-and-quarter-zip-size-small",
+      "lastPrice": 15,
+      "firstSeenAt": "2026-08-25T11:53:24.207Z",
+      "lastSeenAt": "2026-08-25T11:53:24.207Z"
+    },
+    "9773257663": {
+      "blockedReason": "condition",
+      "title": "vintage nike 14 zip",
+      "url": "https://www.vinted.co.uk/items/9773257663-vintage-nike-14-zip",
+      "lastPrice": 10,
+      "firstSeenAt": "2026-08-25T11:53:24.207Z",
+      "lastSeenAt": "2026-08-25T11:53:24.207Z"
+    },
+    "9773256095": {
+      "size": "S",
+      "condition": "veryGood",
+      "resale": 27,
+      "netProfit": 19.2,
+      "roi": 274.29,
+      "buyScore": 93,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:53:26.388Z",
+      "discordMessageId": "1541777522767954031",
+      "title": "nike 14 zip",
+      "url": "https://www.vinted.co.uk/items/9773256095-nike-14-zip",
+      "lastPrice": 7,
+      "firstSeenAt": "2026-08-25T11:53:26.388Z",
+      "lastSeenAt": "2026-08-25T11:53:26.388Z"
+    },
+    "9773241661": {
+      "size": "M",
+      "condition": "veryGood",
+      "resale": 28,
+      "netProfit": 22.2,
+      "roi": 444,
+      "buyScore": 100,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:53:29.189Z",
+      "discordMessageId": "1541777534356684902",
+      "title": "nike academy therma fit drill 14 zip top junior",
+      "url": "https://www.vinted.co.uk/items/9773241661-nike-academy-therma-fit-drill-14-zip-top-junior",
+      "lastPrice": 5,
+      "firstSeenAt": "2026-08-25T11:53:29.189Z",
+      "lastSeenAt": "2026-08-25T11:53:29.189Z"
+    },
+    "9773229234": {
+      "size": "S",
+      "condition": "veryGood",
+      "resale": 27,
+      "netProfit": 16.2,
+      "roi": 162,
+      "buyScore": 87,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:53:32.093Z",
+      "discordMessageId": "1541777546151075963",
+      "title": "grey nike cropped 14 zip tracksuit set size s",
+      "url": "https://www.vinted.co.uk/items/9773229234-grey-nike-cropped-14-zip-tracksuit-set-size-s",
+      "lastPrice": 10,
+      "firstSeenAt": "2026-08-25T11:53:32.093Z",
+      "lastSeenAt": "2026-08-25T11:53:32.093Z"
+    },
+    "9773190116": {
+      "size": "XS",
+      "condition": "veryGood",
+      "resale": 25,
+      "netProfit": 19.2,
+      "roi": 384,
+      "buyScore": 95,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:53:36.013Z",
+      "discordMessageId": "1541777563355979787",
+      "title": "nike 14 quarter zip black yxl",
+      "url": "https://www.vinted.co.uk/items/9773190116-nike-14-quarter-zip-black-yxl",
+      "lastPrice": 5,
+      "firstSeenAt": "2026-08-25T11:53:36.013Z",
+      "lastSeenAt": "2026-08-25T11:53:36.013Z"
+    },
+    "9773161848": {
+      "size": "S",
+      "condition": "veryGood",
+      "resale": 27,
+      "netProfit": 18.2,
+      "roi": 227.5,
+      "buyScore": 92,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:53:38.618Z",
+      "discordMessageId": "1541777573514576053",
+      "title": "2 nike quarter zips and joggers",
+      "url": "https://www.vinted.co.uk/items/9773161848-2-nike-quarter-zips-and-joggers",
+      "lastPrice": 8,
+      "firstSeenAt": "2026-08-25T11:53:38.618Z",
+      "lastSeenAt": "2026-08-25T11:53:38.618Z"
+    },
+    "9773161338": {
+      "blockedReason": "condition",
+      "title": "adidas golf mens 3 stripe 14 zip",
+      "url": "https://www.vinted.co.uk/items/9773161338-adidas-golf-mens-3-stripe-14-zip",
+      "lastPrice": 12,
+      "firstSeenAt": "2026-08-25T11:53:38.619Z",
+      "lastSeenAt": "2026-08-25T11:53:38.619Z"
+    },
+    "9773153035": {
+      "blockedReason": "keyword",
+      "title": "nike quarter 14 zip black youth xl",
+      "url": "https://www.vinted.co.uk/items/9773153035-nike-quarter-14-zip-black-youth-xl",
+      "lastPrice": 5,
+      "firstSeenAt": "2026-08-25T11:53:38.619Z",
+      "lastSeenAt": "2026-08-25T11:53:38.619Z"
+    },
+    "9773119875": {
+      "blockedReason": "price",
+      "title": "nike black swoosh all over quarter zip sweatshirt size m",
+      "url": "https://www.vinted.co.uk/items/9773119875-nike-black-swoosh-all-over-quarter-zip-sweatshirt-size-m",
+      "lastPrice": 30,
+      "firstSeenAt": "2026-08-25T11:53:38.619Z",
+      "lastSeenAt": "2026-08-25T11:53:38.619Z"
+    },
+    "9773076773": {
+      "size": "M",
+      "condition": "veryGood",
+      "resale": 28,
+      "netProfit": 17.2,
+      "roi": 172,
+      "buyScore": 88,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-08-25T11:53:39.981Z",
+      "discordMessageId": "1541777579676012685",
+      "title": "nike quarter zip top",
+      "url": "https://www.vinted.co.uk/items/9773076773-nike-quarter-zip-top",
+      "lastPrice": 10,
+      "firstSeenAt": "2026-08-25T11:53:39.981Z",
+      "lastSeenAt": "2026-08-25T11:53:39.981Z"
+    },
+    "9773055841": {
+      "blockedReason": "price",
+      "title": "nike quarter zip xl",
+      "url": "https://www.vinted.co.uk/items/9773055841-nike-quarter-zip-xl",
+      "lastPrice": 45,
+      "firstSeenAt": "2026-08-25T11:53:39.981Z",
+      "lastSeenAt": "2026-08-25T11:53:39.981Z"
+    },
+    "9773011915": {
+      "blockedReason": "price",
+      "title": "psg quarter zip men",
+      "url": "https://www.vinted.co.uk/items/9773011915-psg-quarter-zip-men",
+      "lastPrice": 20,
+      "firstSeenAt": "2026-08-25T11:53:39.981Z",
+      "lastSeenAt": "2026-08-25T11:53:39.981Z"
+    },
+    "9772972773": {
+      "blockedReason": "detail-budget-exhausted",
+      "size": null,
+      "title": "nike quarter zip",
+      "url": "https://www.vinted.co.uk/items/9772972773-nike-quarter-zip",
+      "lastPrice": 4,
+      "firstSeenAt": "2026-08-25T11:53:39.981Z",
+      "lastSeenAt": "2026-08-25T11:53:39.981Z"
+    },
+    "9746483034": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "nike dri fit nfl on fileld apparel green packers quarter zip sweatshirt medium",
+      "url": "https://www.vinted.co.uk/items/9746483034-nike-dri-fit-nfl-on-fileld-apparel-green-packers-quarter-zip-sweatshirt-medium",
+      "lastPrice": 14.84,
+      "firstSeenAt": "2026-08-25T11:53:39.981Z",
+      "lastSeenAt": "2026-08-25T11:53:39.981Z"
+    },
+    "9735824466": {
+      "blockedReason": "stale-or-no-freshness-signal",
+      "title": "nike dri fit mens quarter zip pullover charcoal grey heather training top large",
+      "url": "https://www.vinted.co.uk/items/9735824466-nike-dri-fit-mens-quarter-zip-pullover-charcoal-grey-heather-training-top-large",
+      "lastPrice": 18.55,
+      "firstSeenAt": "2026-08-25T11:53:39.981Z",
+      "lastSeenAt": "2026-08-25T11:53:39.981Z"
     }
   },
   "market": {
@@ -68222,7 +71480,7 @@
   "sellers": {},
   "images": {},
   "cursor": 4,
-  "updatedAt": "2026-08-25T11:36:51.438Z",
+  "updatedAt": "2026-08-25T11:48:35.732Z",
   "lastRotation": {
     "bot": "clothing",
     "selected": [
@@ -68511,7 +71769,7 @@
       },
       "Nike Any Clothing Bargain::nike": {
         "maxId": "9772828577",
-        "updatedAt": "2026-08-25T11:36:51.438Z"
+        "updatedAt": "2026-08-25T11:48:35.732Z"
       },
       "Nike Accessories Bargain::nike accessories": {
         "maxId": "9761883863",
@@ -68554,28 +71812,28 @@
         "updatedAt": "2026-08-25T11:36:51.438Z"
       },
       "Nike Long Sleeve Top::nike long sleeve top": {
-        "maxId": "9761677823",
-        "updatedAt": "2026-08-24T10:55:46.052Z"
+        "maxId": "9773372268",
+        "updatedAt": "2026-08-25T11:48:35.732Z"
       },
       "Nike Polo::nike polo": {
-        "maxId": "9761735467",
-        "updatedAt": "2026-08-24T10:55:46.052Z"
+        "maxId": "9773337875",
+        "updatedAt": "2026-08-25T11:48:35.732Z"
       },
       "Nike Football Shirt::nike football shirt": {
-        "maxId": "9761735440",
-        "updatedAt": "2026-08-24T10:55:46.052Z"
+        "maxId": "9773411063",
+        "updatedAt": "2026-08-25T11:48:35.732Z"
       },
       "Nike Training Top::nike training top": {
-        "maxId": "9761696560",
-        "updatedAt": "2026-08-24T10:55:46.052Z"
+        "maxId": "9773383848",
+        "updatedAt": "2026-08-25T11:48:35.732Z"
       },
       "Nike Dri-FIT Top::nike dri fit top": {
-        "maxId": "9761709664",
-        "updatedAt": "2026-08-24T10:55:46.052Z"
+        "maxId": "9773418783",
+        "updatedAt": "2026-08-25T11:48:35.732Z"
       },
       "Nike Quarter Zip::nike quarter zip": {
-        "maxId": "9761719986",
-        "updatedAt": "2026-08-24T10:55:46.052Z"
+        "maxId": "9773394915",
+        "updatedAt": "2026-08-25T11:48:35.732Z"
       },
       "Nike Fleece::nike fleece": {
         "maxId": "9761793094",
@@ -68650,14 +71908,14 @@
         "updatedAt": "2026-08-24T11:09:16.385Z"
       }
     },
-    "lastScanAt": "2026-08-25T11:36:51.438Z",
-    "lastAttemptAt": "2026-08-25T11:36:51.438Z"
+    "lastScanAt": "2026-08-25T11:48:35.732Z",
+    "lastAttemptAt": "2026-08-25T11:48:35.732Z"
   },
   "diagnostics": {
     "bot": "clothing",
     "radarVersion": 6,
-    "lastRunAt": "2026-08-25T11:36:51.438Z",
-    "recoveryMode": true,
+    "lastRunAt": "2026-08-25T11:48:35.732Z",
+    "recoveryMode": false,
     "filterProfile": {
       "freshnessMinutes": 15,
       "priceMultiplier": 1.4,
@@ -68672,49 +71930,48 @@
     "totalSearchGroups": 81,
     "selectedSearches": [
       "Nike Any Clothing Bargain::nike",
-      "Nike ACG Tuff Fleece::nike acg tuff fleece",
-      "Nike Solo Swoosh Crew::nike solo swoosh sweatshirt",
-      "Nike Miler Repel Jacket::nike miler repel jacket",
-      "Nike Solo Swoosh Joggers::nike solo swoosh joggers",
-      "Nike Stride Running Jacket::nike stride running jacket",
-      "Nike T-Shirt::nike t shirt"
+      "Nike Long Sleeve Top::nike long sleeve top",
+      "Nike Polo::nike polo",
+      "Nike Football Shirt::nike football shirt",
+      "Nike Training Top::nike training top",
+      "Nike Dri-FIT Top::nike dri fit top",
+      "Nike Quarter Zip::nike quarter zip"
     ],
     "successfulSearches": 7,
     "failedSearches": 0,
     "confirmedEmptySearches": 0,
-    "catalogMarkers": 1440,
-    "catalogItems": 839,
-    "candidateItems": 319,
-    "freshItems": 79,
+    "catalogMarkers": 1343,
+    "catalogItems": 1019,
+    "candidateItems": 290,
+    "freshItems": 194,
     "freshByAge": 0,
-    "freshByNewId": 79,
-    "qualifyingAlerts": 33,
-    "deliveredAlerts": 33,
+    "freshByNewId": 194,
+    "qualifyingAlerts": 100,
+    "deliveredAlerts": 100,
     "discordFailures": 0,
     "pendingDeliveries": 0,
     "rejects": {
-      "recovery-no-fresh-signal": 227,
-      "price": 22,
-      "condition": 15,
-      "size": 3,
-      "keyword": 2,
-      "detail-budget-exhausted": 3,
-      "weak-margin": 1
+      "stale": 89,
+      "size": 4,
+      "keyword": 13,
+      "condition": 27,
+      "price": 46,
+      "detail-budget-exhausted": 4
     },
     "failures": {},
     "healthyScan": true,
     "detailFetches": 6,
-    "duplicateSuppressed": 13,
     "qualifyingByCondition": {
-      "veryGood": 27,
-      "newWithTags": 2,
-      "newWithoutTags": 4
+      "veryGood": 87,
+      "newWithoutTags": 8,
+      "newWithTags": 5
     },
     "deliveredByCondition": {
-      "veryGood": 27,
-      "newWithTags": 2,
-      "newWithoutTags": 4
+      "veryGood": 87,
+      "newWithoutTags": 8,
+      "newWithTags": 5
     },
+    "duplicateSuppressed": 7,
     "healthReason": "all-selected-searches-completed",
     "discordRoutes": [
       {
@@ -68750,7 +72007,7 @@
   },
   "radarVersion": 6,
   "pendingDeliveries": {},
-  "rotationCursor": 1,
+  "rotationCursor": 7,
   "alertedItemIds": {
     "9757757267": "2026-08-23T20:37:33.120Z",
     "9757864455": "2026-08-23T20:37:41.737Z",
@@ -69658,6 +72915,106 @@
     "9773094831": "2026-08-25T11:39:02.660Z",
     "9773090801": "2026-08-25T11:39:05.562Z",
     "9773073362": "2026-08-25T11:39:07.545Z",
-    "9766695723": "2026-08-25T11:39:09.545Z"
+    "9766695723": "2026-08-25T11:39:09.545Z",
+    "9773173820": "2026-08-25T11:48:51.657Z",
+    "9773125208": "2026-08-25T11:48:55.907Z",
+    "9773084579": "2026-08-25T11:48:59.447Z",
+    "9772981909": "2026-08-25T11:49:01.514Z",
+    "9772942203": "2026-08-25T11:49:03.987Z",
+    "9772409404": "2026-08-25T11:49:07.881Z",
+    "9772361378": "2026-08-25T11:49:10.351Z",
+    "9772321362": "2026-08-25T11:49:13.453Z",
+    "9772275175": "2026-08-25T11:49:15.709Z",
+    "9772226300": "2026-08-25T11:49:18.697Z",
+    "9772161195": "2026-08-25T11:49:21.040Z",
+    "9772094946": "2026-08-25T11:49:22.789Z",
+    "9771997275": "2026-08-25T11:49:27.506Z",
+    "9773337875": "2026-08-25T11:49:35.665Z",
+    "9773324143": "2026-08-25T11:49:38.535Z",
+    "9773321616": "2026-08-25T11:49:41.934Z",
+    "9773311298": "2026-08-25T11:49:43.995Z",
+    "9773196895": "2026-08-25T11:49:46.955Z",
+    "9773158835": "2026-08-25T11:49:48.649Z",
+    "9773146810": "2026-08-25T11:49:51.710Z",
+    "9773111849": "2026-08-25T11:49:54.247Z",
+    "9773041617": "2026-08-25T11:49:57.577Z",
+    "9773031530": "2026-08-25T11:49:58.839Z",
+    "9772998160": "2026-08-25T11:50:02.193Z",
+    "9772922225": "2026-08-25T11:50:03.817Z",
+    "9772781931": "2026-08-25T11:50:07.012Z",
+    "9772746450": "2026-08-25T11:50:08.673Z",
+    "9772617425": "2026-08-25T11:50:12.113Z",
+    "9772240859": "2026-08-25T11:50:17.101Z",
+    "9772188717": "2026-08-25T11:50:19.450Z",
+    "9772119145": "2026-08-25T11:50:22.503Z",
+    "9771776426": "2026-08-25T11:50:24.500Z",
+    "9771670112": "2026-08-25T11:50:26.526Z",
+    "9771652500": "2026-08-25T11:50:28.854Z",
+    "9771551021": "2026-08-25T11:50:31.152Z",
+    "9771097956": "2026-08-25T11:50:33.286Z",
+    "9762997636": "2026-08-25T11:50:36.255Z",
+    "9773408411": "2026-08-25T11:50:44.581Z",
+    "9773405754": "2026-08-25T11:50:46.649Z",
+    "9773376041": "2026-08-25T11:50:50.294Z",
+    "9773254594": "2026-08-25T11:50:51.793Z",
+    "9773106095": "2026-08-25T11:50:53.736Z",
+    "9773034504": "2026-08-25T11:50:56.410Z",
+    "9772926301": "2026-08-25T11:50:59.516Z",
+    "9772907890": "2026-08-25T11:51:02.122Z",
+    "9772906003": "2026-08-25T11:51:04.716Z",
+    "9773335326": "2026-08-25T11:51:12.211Z",
+    "9773322556": "2026-08-25T11:51:14.561Z",
+    "9773215647": "2026-08-25T11:51:17.723Z",
+    "9773160379": "2026-08-25T11:51:19.604Z",
+    "9773096597": "2026-08-25T11:51:22.550Z",
+    "9772987725": "2026-08-25T11:51:26.033Z",
+    "9772849923": "2026-08-25T11:51:28.334Z",
+    "9772549287": "2026-08-25T11:51:30.304Z",
+    "9772536534": "2026-08-25T11:51:33.493Z",
+    "9772477610": "2026-08-25T11:51:35.396Z",
+    "9772406734": "2026-08-25T11:51:37.859Z",
+    "9772345422": "2026-08-25T11:51:40.617Z",
+    "9772306617": "2026-08-25T11:51:42.800Z",
+    "9771992788": "2026-08-25T11:51:45.275Z",
+    "9771975428": "2026-08-25T11:51:48.500Z",
+    "9771946462": "2026-08-25T11:51:51.599Z",
+    "9771931339": "2026-08-25T11:51:53.343Z",
+    "9771880166": "2026-08-25T11:51:55.810Z",
+    "9771659451": "2026-08-25T11:51:58.066Z",
+    "9773403000": "2026-08-25T11:52:04.591Z",
+    "9773394915": "2026-08-25T11:52:07.705Z",
+    "9773327584": "2026-08-25T11:52:10.642Z",
+    "9773321230": "2026-08-25T11:52:13.388Z",
+    "9773313453": "2026-08-25T11:52:16.511Z",
+    "9773305547": "2026-08-25T11:52:19.354Z",
+    "9773303928": "2026-08-25T11:52:22.091Z",
+    "9773238219": "2026-08-25T11:52:24.158Z",
+    "9773234028": "2026-08-25T11:52:27.321Z",
+    "9773228880": "2026-08-25T11:52:29.581Z",
+    "9773208447": "2026-08-25T11:52:32.216Z",
+    "9773173863": "2026-08-25T11:52:35.787Z",
+    "9773155694": "2026-08-25T11:52:37.942Z",
+    "9773140263": "2026-08-25T11:52:41.355Z",
+    "9773092577": "2026-08-25T11:52:43.038Z",
+    "9773022191": "2026-08-25T11:52:44.691Z",
+    "9772990644": "2026-08-25T11:52:47.059Z",
+    "9772989213": "2026-08-25T11:52:50.264Z",
+    "9772949678": "2026-08-25T11:52:52.769Z",
+    "9772923803": "2026-08-25T11:52:55.507Z",
+    "9772897038": "2026-08-25T11:52:57.760Z",
+    "9772896511": "2026-08-25T11:53:00.063Z",
+    "9772872051": "2026-08-25T11:53:01.758Z",
+    "9772815389": "2026-08-25T11:53:04.243Z",
+    "9772726563": "2026-08-25T11:53:10.767Z",
+    "9769553697": "2026-08-25T11:53:12.009Z",
+    "9773374446": "2026-08-25T11:53:18.982Z",
+    "9773373473": "2026-08-25T11:53:20.852Z",
+    "9773278572": "2026-08-25T11:53:24.207Z",
+    "9773256095": "2026-08-25T11:53:26.388Z",
+    "9773241661": "2026-08-25T11:53:29.189Z",
+    "9773229234": "2026-08-25T11:53:32.093Z",
+    "9773190116": "2026-08-25T11:53:36.013Z",
+    "9773161848": "2026-08-25T11:53:38.618Z",
+    "9773076773": "2026-08-25T11:53:39.981Z"
   }
 }
