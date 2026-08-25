@@ -21,7 +21,7 @@ jobs:
     timeout-minutes: 14
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Validate production clothing modules
         run: |
@@ -71,4 +71,4 @@ jobs:
           DISCORD_VERY_GOOD_WEBHOOK_URL: ${{ secrets.DISCORD_VERY_GOOD_WEBHOOK_URL }}
           BOT_TYPE: clothing
           STATE_NAME: clothing-state.json
-        run: bash vinted-radar/cycle-runner.sh clothing clothing-state.json clothing-health.json "Dan's Vault Clothing Radar" 3 300
+        run: bash vinted-radar/cycle-runner.sh clothing clothing-state.json clothing-health.json "Dan's Vault Clothing Radar" 1 300 720
