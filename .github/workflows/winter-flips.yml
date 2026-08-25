@@ -6,13 +6,19 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: 'Run a live scan or send a test alert'
+        description: 'Run a live scan, send a test alert, or allocate bankroll'
         required: false
         default: 'scan'
         type: choice
         options:
           - scan
           - test
+          - allocate
+      bankroll:
+        description: 'Bankroll in GBP for allocate mode'
+        required: false
+        default: '200'
+        type: string
   pull_request:
     paths:
       - 'winter-flips/**'
@@ -38,6 +44,7 @@ jobs:
           set -e
           node --check winter-flips/engine.mjs
           node --check winter-flips/test-alert.mjs
+          node --check winter-flips/capital-allocator.mjs
           node -e "JSON.parse(require('fs').readFileSync('winter-flips/config.json','utf8'))"
           node -e "JSON.parse(require('fs').readFileSync('winter-flips/state.json','utf8'))"
           bash -n winter-flips/run-cycle.sh
@@ -52,7 +59,7 @@ jobs:
             echo "Dedicated Winter Flips webhook is configured."
           else
             echo "enabled=false" >> "$GITHUB_OUTPUT"
-            echo "DISCORD_WINTER_FLIPS_WEBHOOK_URL is not configured yet; scan/test steps will be skipped."
+            echo "DISCORD_WINTER_FLIPS_WEBHOOK_URL is not configured yet; live actions will be skipped."
           fi
 
       - name: Send dedicated-channel test alert
@@ -61,8 +68,14 @@ jobs:
           DISCORD_WINTER_FLIPS_WEBHOOK_URL: ${{ secrets.DISCORD_WINTER_FLIPS_WEBHOOK_URL }}
         run: node winter-flips/test-alert.mjs
 
+      - name: Send bankroll allocation
+        if: steps.gate.outputs.enabled == 'true' && github.event_name == 'workflow_dispatch' && inputs.mode == 'allocate'
+        env:
+          DISCORD_WINTER_FLIPS_WEBHOOK_URL: ${{ secrets.DISCORD_WINTER_FLIPS_WEBHOOK_URL }}
+        run: node winter-flips/capital-allocator.mjs "${{ inputs.bankroll }}"
+
       - name: Run combined Vinted + eBay radar
-        if: steps.gate.outputs.enabled == 'true' && !(github.event_name == 'workflow_dispatch' && inputs.mode == 'test') && github.event_name != 'pull_request'
+        if: steps.gate.outputs.enabled == 'true' && !(github.event_name == 'workflow_dispatch' && (inputs.mode == 'test' || inputs.mode == 'allocate')) && github.event_name != 'pull_request'
         env:
           DISCORD_WINTER_FLIPS_WEBHOOK_URL: ${{ secrets.DISCORD_WINTER_FLIPS_WEBHOOK_URL }}
         run: bash winter-flips/run-cycle.sh 3 180 105
