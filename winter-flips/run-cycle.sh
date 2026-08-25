@@ -19,6 +19,7 @@ git config user.email "actions@users.noreply.github.com"
 # This is intentionally re-applied each job because state persistence resets the checkout to origin/main.
 node winter-flips/freshness-patch.mjs
 node --check winter-flips/engine.mjs
+node --check winter-flips/bargain-hunter.mjs
 
 successful_cycles=0
 for cycle in $(seq 1 "$CYCLES"); do
@@ -29,15 +30,19 @@ for cycle in $(seq 1 "$CYCLES"); do
   timeout "${CYCLE_TIMEOUT_SECONDS}s" node winter-flips/engine.mjs
   rc=$?
   if [ "$rc" -eq 0 ]; then
+    node winter-flips/bargain-hunter.mjs
+    hunter_rc=$?
     node winter-flips/intelligence.mjs
     intel_rc=$?
   else
+    hunter_rc=0
     intel_rc=0
   fi
   set -e
 
   if [ "$rc" -eq 0 ]; then
     successful_cycles=$((successful_cycles + 1))
+    if [ "$hunter_rc" -ne 0 ]; then echo "Winter bargain hunter exited $hunter_rc; core scan still completed."; fi
     if [ "$intel_rc" -ne 0 ]; then echo "Winter intelligence exited $intel_rc; core scan still completed."; fi
   elif [ "$rc" -eq 124 ]; then
     echo "Winter Flips cycle timed out after ${CYCLE_TIMEOUT_SECONDS}s."
