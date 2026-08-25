@@ -6,7 +6,7 @@ const WEBHOOK = process.env.POKEMON_CENTRE_WEBHOOK_URL || '';
 const PC_BASE = 'https://www.pokemoncenter.com';
 const HOTSTOCK_BASE = 'https://www.hotstock.io';
 const HOTSTOCK_HOME = `${HOTSTOCK_BASE}/uk`;
-const MAX_TRACKED_SLUGS = 48;
+const MAX_TRACKED_SLUGS = 60;
 const FETCH_CONCURRENCY = 6;
 
 const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
@@ -23,7 +23,7 @@ function score(name, price, url = '') {
   if (/super[- ]premium collection/.test(n)) s += 2.0;
   if (/booster display box|booster box/.test(n)) s += 1.8;
   if (/30th|anniversary|celebration/.test(n)) s += 1.5;
-  if (/prismatic evolutions|scarlet.*violet.*151|destined rivals/.test(n)) s += 0.5;
+  if (/prismatic evolutions|scarlet.*violet.*151|destined rivals|ascended heroes/.test(n)) s += 0.5;
   if (Number.isFinite(price) && price <= 60) s += 0.5;
 
   return Math.min(10, Math.round(s * 10) / 10);
@@ -32,7 +32,7 @@ function score(name, price, url = '') {
 function isInterestingPokemon(text) {
   const n = String(text || '').toLowerCase();
   if (!/pokemon|pokémon/.test(n)) return false;
-  return /tcg|trading-card|trading card|elite-trainer|elite trainer|booster|premium|collection|151|prismatic|destined|anniversary|celebration|30th|pokemon-center/.test(n);
+  return /tcg|trading-card|trading card|elite-trainer|elite trainer|booster|premium|collection|151|prismatic|destined|ascended|anniversary|celebration|30th|pokemon-center/.test(n);
 }
 
 function htmlDecode(value) {
@@ -86,30 +86,105 @@ function extractNuxtState(html) {
   }
 }
 
-function discoverHotStockSlugs(html) {
-  const discovered = new Map();
+function objectIdTime(id) {
+  const value = String(id || '');
+  if (!/^[0-9a-f]{24}$/i.test(value)) return 0;
+  const seconds = Number.parseInt(value.slice(0, 8), 16);
+  return Number.isFinite(seconds) ? seconds * 1000 : 0;
+}
+
+function discoverHotStockCandidates(html) {
+  const candidates = new Map();
+  const add = (slug, meta = {}) => {
+    const clean = String(slug || '').replace(/^\/+|\/$/g, '');
+    if (!clean || !isInterestingPokemon(`${meta.name || ''} ${clean}`)) return;
+    const previous = candidates.get(clean) || {};
+    candidates.set(clean, {
+      slug: clean,
+      name: meta.name || previous.name || '',
+      id: meta.id || previous.id || '',
+      homepage: Boolean(meta.homepage || previous.homepage),
+      search: Boolean(meta.search || previous.search),
+      previous: Boolean(meta.previous || previous.previous)
+    });
+  };
 
   for (const match of String(html).matchAll(/(?:https?:\/\/www\.hotstock\.io)?\/uk\/p\/([^"'<>\s?#)]+)/gi)) {
-    const slug = match[1].replace(/\/$/, '');
-    if (isInterestingPokemon(slug)) discovered.set(slug, 1);
+    add(match[1], { homepage: true });
   }
 
   const nuxt = extractNuxtState(html);
-  const groups = [
-    nuxt?.pinia?.products?.recentproducts,
-    nuxt?.pinia?.products?.popularproducts
-  ];
-
+  const groups = [nuxt?.pinia?.products?.recentproducts, nuxt?.pinia?.products?.popularproducts];
   for (const list of groups) {
     if (!Array.isArray(list)) continue;
     for (const product of list) {
-      const slug = String(product?.slug || '').trim();
-      const name = String(product?.name || '');
-      if (slug && isInterestingPokemon(`${name} ${slug}`)) discovered.set(slug, 2);
+      add(product?.slug, { name: product?.name, id: product?._id || product?.id, homepage: true });
     }
   }
 
-  return [...discovered.keys()];
+  return { candidates, nuxt };
+}
+
+async function discoverViaHotStockSearch(nuxt) {
+  const apiBase = nuxt?.config?.public?.apiBase;
+  const apiSecret = nuxt?.config?.public?.apiSecret;
+  if (!apiBase || !apiSecret) {
+    console.warn('HotStock public search config unavailable; homepage discovery only.');
+    return [];
+  }
+
+  // These are the same public search suggestions the HotStock UK browser UI uses.
+  const queries = [
+    'pokemon center',
+    'elite trainer box',
+    'pokemon tcg',
+    'pokemon 151',
+    'prismatic evolutions',
+    'booster box',
+    'ultra premium collection',
+    'pokemon 30th'
+  ];
+
+  const found = new Map();
+  for (const query of queries) {
+    try {
+      const response = await fetch(`${apiBase}/api/searchsuggestions/${encodeURIComponent(query)}`, {
+        headers: {
+          token: String(apiSecret),
+          region: 'uk',
+          'user-agent': 'Mozilla/5.0 DanVaultPokemonMonitor/2.1'
+        },
+        signal: AbortSignal.timeout(12000)
+      });
+      if (!response.ok) {
+        console.warn(`HotStock search '${query}' HTTP ${response.status}`);
+        continue;
+      }
+      const payload = await response.json();
+      const results = Array.isArray(payload?.results) ? payload.results : [];
+      for (let rank = 0; rank < results.length; rank++) {
+        const item = results[rank];
+        if (item?.type && item.type !== 'product') continue;
+        const slug = String(item?.slug || '').trim();
+        if (!slug || !isInterestingPokemon(`${item?.name || ''} ${slug}`)) continue;
+        const existing = found.get(slug);
+        const candidate = {
+          slug,
+          name: String(item?.name || ''),
+          id: String(item?._id || item?.id || ''),
+          rank,
+          query
+        };
+        if (!existing || rank < existing.rank) found.set(slug, candidate);
+      }
+    } catch (error) {
+      console.warn(`HotStock search '${query}' failed: ${error.message}`);
+    }
+    await sleep(120);
+  }
+
+  console.log(`HotStock public search discovery: ${found.size} relevant Pokémon products`);
+  return [...found.values()];
 }
 
 function findHotStockProductObject(nuxt) {
@@ -179,7 +254,10 @@ function parseHotStockProduct(html, slug) {
       const directUrl = normalisePokemonCenterUrl(shop.productUrl || shop.goUrl || '');
       if (directUrl) {
         const hasStockKnown = typeof shop.hasStock === 'boolean';
-        const price = Number.isFinite(Number(shop.price)) ? Number(shop.price) : null;
+        const rawPrice = shop.price;
+        const price = rawPrice !== null && rawPrice !== undefined && rawPrice !== '' && Number.isFinite(Number(rawPrice))
+          ? Number(rawPrice)
+          : null;
         const checkedAt = shop.shopLastCheckedAt || shop.lastCheckedAt || shop.updatedAt || product.updatedAt || null;
         const productName = shop.productName || shop.fallbackProductName || product.name || slug.replace(/-/g, ' ');
 
@@ -210,7 +288,7 @@ function parseHotStockProduct(html, slug) {
 async function fetchText(url, timeoutMs = 15000) {
   const response = await fetch(url, {
     headers: {
-      'user-agent': 'Mozilla/5.0 DanVaultPokemonMonitor/2.0',
+      'user-agent': 'Mozilla/5.0 DanVaultPokemonMonitor/2.1',
       accept: 'text/html,application/xhtml+xml;q=0.9,*/*;q=0.8',
       'accept-language': 'en-GB,en;q=0.9',
       'cache-control': 'no-cache'
@@ -221,14 +299,30 @@ async function fetchText(url, timeoutMs = 15000) {
   return response.text();
 }
 
-function priorityForSlug(slug) {
-  const s = String(slug).toLowerCase();
+function priorityForCandidate(candidate) {
+  const slug = String(candidate?.slug || '').toLowerCase();
   let priority = 0;
-  if (/pokemon-center|elite-trainer/.test(s)) priority += 50;
-  if (/30th|anniversary|celebration/.test(s)) priority += 40;
-  if (/151|prismatic|destined-rivals/.test(s)) priority += 30;
-  if (/ultra-premium|super-premium|premium-collection/.test(s)) priority += 20;
-  if (/booster-box|booster-bundle/.test(s)) priority += 10;
+
+  if (candidate?.homepage) priority += 1000;
+  if (candidate?.previous) priority += 700;
+  if (candidate?.search) priority += 300;
+
+  if (/pokemon-center/.test(slug)) priority += 600;
+  if (/elite-trainer/.test(slug)) priority += 300;
+  if (/30th|anniversary|celebration/.test(slug)) priority += 250;
+  if (/151|prismatic|destined-rivals|ascended-heroes/.test(slug)) priority += 200;
+  if (/ultra-premium|super-premium|premium-collection/.test(slug)) priority += 150;
+  if (/booster-box|booster-bundle/.test(slug)) priority += 100;
+
+  const createdAt = objectIdTime(candidate?.id);
+  if (createdAt) {
+    const ageDays = (Date.now() - createdAt) / 86400000;
+    if (ageDays <= 180) priority += 350;
+    else if (ageDays <= 365) priority += 250;
+    else if (ageDays <= 730) priority += 100;
+  }
+
+  if (Number.isFinite(candidate?.rank)) priority += Math.max(0, 80 - candidate.rank);
   return priority;
 }
 
@@ -254,24 +348,45 @@ async function mapConcurrent(items, limit, worker) {
 
 async function fetchHotStockCatalog(previousSlugs = []) {
   const homeHtml = await fetchText(HOTSTOCK_HOME, 20000);
-  const discovered = discoverHotStockSlugs(homeHtml);
-  const merged = [...new Set([...discovered, ...previousSlugs])]
-    .filter(isInterestingPokemon)
-    .sort((a, b) => priorityForSlug(b) - priorityForSlug(a) || a.localeCompare(b))
+  const { candidates, nuxt } = discoverHotStockCandidates(homeHtml);
+
+  for (const slug of previousSlugs) {
+    const clean = String(slug || '').trim();
+    if (!clean || !isInterestingPokemon(clean)) continue;
+    const existing = candidates.get(clean) || { slug: clean };
+    candidates.set(clean, { ...existing, previous: true });
+  }
+
+  const searchResults = await discoverViaHotStockSearch(nuxt);
+  for (const item of searchResults) {
+    const existing = candidates.get(item.slug) || { slug: item.slug };
+    candidates.set(item.slug, {
+      ...existing,
+      name: item.name || existing.name || '',
+      id: item.id || existing.id || '',
+      search: true,
+      rank: Number.isFinite(item.rank) ? item.rank : existing.rank
+    });
+  }
+
+  const selected = [...candidates.values()]
+    .filter(candidate => isInterestingPokemon(`${candidate.name || ''} ${candidate.slug}`))
+    .sort((a, b) => priorityForCandidate(b) - priorityForCandidate(a) || a.slug.localeCompare(b.slug))
     .slice(0, MAX_TRACKED_SLUGS);
+  const slugs = selected.map(candidate => candidate.slug);
 
-  if (!merged.length) throw new Error('HotStock UK returned no relevant Pokémon product pages');
+  if (!slugs.length) throw new Error('HotStock UK returned no relevant Pokémon product pages');
 
-  console.log(`HotStock UK discovery: current=${discovered.length}, checking=${merged.length}`);
+  console.log(`HotStock UK discovery: candidates=${candidates.size}, checking=${slugs.length}`);
 
-  const results = await mapConcurrent(merged, FETCH_CONCURRENCY, async slug => {
+  const results = await mapConcurrent(slugs, FETCH_CONCURRENCY, async slug => {
     const html = await fetchText(`${HOTSTOCK_BASE}/uk/p/${slug}`, 15000);
     const product = parseHotStockProduct(html, slug);
     if (!product) return { slug, product: null };
     return { slug, product };
   });
 
-  const products = [];
+  const productsByKey = new Map();
   let failed = 0;
   let noPcRetailer = 0;
   for (const result of results) {
@@ -284,9 +399,10 @@ async function fetchHotStockCatalog(previousSlugs = []) {
       noPcRetailer++;
       continue;
     }
-    products.push(result.product);
+    productsByKey.set(result.product.key, result.product);
   }
 
+  const products = [...productsByKey.values()];
   if (!products.length) throw new Error(`HotStock pages loaded but no Pokémon Center UK retailer records found (failed=${failed}, noPc=${noPcRetailer})`);
 
   const known = products.filter(product => product.availabilityKnown).length;
@@ -295,7 +411,7 @@ async function fetchHotStockCatalog(previousSlugs = []) {
 
   return {
     products,
-    slugs: merged,
+    slugs,
     source: 'HotStock UK — Pokémon Center'
   };
 }
