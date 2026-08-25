@@ -1,0 +1,15 @@
+name: Pokemon Centre Jina Diagnostic
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'pokemon-center/jina-diag-trigger.txt'
+
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - uses: actions/checkout@v5
+      - run: node pokemon-center/jina-diagnostic.mjs
