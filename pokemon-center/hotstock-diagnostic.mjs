@@ -1,13 +1,16 @@
+import vm from 'node:vm';
 const url = 'https://www.hotstock.io/uk/p/pokemon-tcg-scarlet-and-violet-151-elite-trainer-box-9-boosters-and-premium-accessories';
 const r = await fetch(url, { headers: { 'user-agent': 'Mozilla/5.0 DanVaultMonitor/1.0', accept: 'text/html,*/*' }, signal: AbortSignal.timeout(20000) });
 const text = await r.text();
 console.log('status', r.status, 'chars', text.length);
-for (const needle of ['Pokemon Center','OUT OF STOCK','IN STOCK','__NUXT__','api/','productRetailers','retailer']) {
-  const idx = text.toLowerCase().indexOf(needle.toLowerCase());
-  console.log('\nNEEDLE', needle, 'index', idx);
-  if (idx >= 0) console.log(text.slice(Math.max(0, idx - 2500), Math.min(text.length, idx + 5000)));
-}
-const scripts = [...text.matchAll(/<script[^>]+src="([^"]+)"/g)].map(m => m[1]);
-console.log('\nSCRIPTS', scripts);
-const apiish = [...text.matchAll(/https?:\\?\/\\?\/[^"'<>\s]+|\/api\/[^"'<>\s]+/g)].map(m=>m[0]);
-console.log('\nAPIISH', [...new Set(apiish)].slice(0,150));
+const m = text.match(/<script>window\.__NUXT__=([\s\S]*?)<\/script>/);
+if (!m) throw new Error('NUXT state not found');
+let expr = m[1].trim();
+if (expr.endsWith(';')) expr = expr.slice(0,-1);
+const data = vm.runInNewContext(expr, Object.create(null), { timeout: 3000 });
+console.log('config.public=', JSON.stringify(data?.config?.public, null, 2));
+console.log('pinia search=', JSON.stringify(data?.pinia?.search, null, 2));
+console.log('recent count=', data?.pinia?.products?.recentproducts?.length, 'popular count=', data?.pinia?.products?.popularproducts?.length);
+console.log('pokemon recent=', JSON.stringify((data?.pinia?.products?.recentproducts || []).filter(p => /pokemon|pokémon/i.test(p.name || '')).map(p=>({name:p.name,slug:p.slug,updatedAt:p.updatedAt})), null, 2));
+console.log('pokemon popular=', JSON.stringify((data?.pinia?.products?.popularproducts || []).filter(p => /pokemon|pokémon/i.test(p.name || '')).map(p=>({name:p.name,slug:p.slug,updatedAt:p.updatedAt})), null, 2));
+console.log('data keys=', Object.keys(data?.data || {}));
