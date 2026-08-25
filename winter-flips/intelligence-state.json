@@ -79,6 +79,11 @@
         "at": "2026-08-25T22:13:15.190Z",
         "count": 35,
         "median": 130
+      },
+      {
+        "at": "2026-08-25T22:56:28.238Z",
+        "count": 35,
+        "median": 120
       }
     ],
     "tnf-summit-down:north-face-summit-series-down": [
@@ -91,6 +96,11 @@
         "at": "2026-08-25T22:13:15.190Z",
         "count": 35,
         "median": 80
+      },
+      {
+        "at": "2026-08-25T22:56:28.238Z",
+        "count": 35,
+        "median": 90
       }
     ],
     "rab-microlight:rab-microlight-alpine": [
@@ -101,6 +111,11 @@
       },
       {
         "at": "2026-08-25T22:13:15.190Z",
+        "count": 35,
+        "median": 100
+      },
+      {
+        "at": "2026-08-25T22:56:28.238Z",
         "count": 35,
         "median": 100
       }
@@ -115,6 +130,11 @@
         "at": "2026-08-25T22:13:15.190Z",
         "count": 35,
         "median": 100
+      },
+      {
+        "at": "2026-08-25T22:56:28.238Z",
+        "count": 35,
+        "median": 100
       }
     ],
     "rab-electron:rab-electron-pro": [
@@ -127,6 +147,11 @@
         "at": "2026-08-25T22:13:15.190Z",
         "count": 35,
         "median": 100
+      },
+      {
+        "at": "2026-08-25T22:56:28.238Z",
+        "count": 35,
+        "median": 110
       }
     ],
     "patagonia-down-sweater:patagonia-down-sweater-jacket": [
@@ -137,6 +162,11 @@
       },
       {
         "at": "2026-08-25T22:13:15.190Z",
+        "count": 35,
+        "median": 90
+      },
+      {
+        "at": "2026-08-25T22:56:28.238Z",
         "count": 35,
         "median": 90
       }
@@ -151,6 +181,11 @@
         "at": "2026-08-25T22:16:15.222Z",
         "count": 35,
         "median": 95
+      },
+      {
+        "at": "2026-08-25T22:56:28.238Z",
+        "count": 35,
+        "median": 94.99
       }
     ],
     "patagonia-fitz-roy:patagonia-fitz-roy-down": [
@@ -161,6 +196,11 @@
       },
       {
         "at": "2026-08-25T22:16:15.222Z",
+        "count": 35,
+        "median": 80
+      },
+      {
+        "at": "2026-08-25T22:56:28.238Z",
         "count": 35,
         "median": 80
       }
@@ -479,5 +519,5 @@
     ]
   },
   "momentumAlerts": {},
-  "lastRunAt": "2026-08-25T22:50:13.151Z"
+  "lastRunAt": "2026-08-25T22:56:42.467Z"
 }
