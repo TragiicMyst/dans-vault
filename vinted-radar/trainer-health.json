@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-08-25T17:41:18.977Z",
-  "stateUpdatedAt": "2026-08-25T17:41:18.977Z",
-  "lastAttemptAt": "2026-08-25T17:41:18.977Z",
-  "lastScanAt": "2026-08-25T17:41:18.977Z",
+  "generatedAt": "2026-08-25T17:55:19.234Z",
+  "stateUpdatedAt": "2026-08-25T17:55:19.234Z",
+  "lastAttemptAt": "2026-08-25T17:55:19.234Z",
+  "lastScanAt": "2026-08-25T17:55:19.234Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike P-6000::primary",
-    "Nike V5 RNR::primary",
-    "Nike Vomero 5::primary",
-    "Nike Vomero 18::primary",
-    "Nike Vomero Plus::primary",
-    "Nike Vomero Premium::primary"
+    "Nike Pegasus Premium::primary",
+    "Nike Pegasus Trail 5 GORE-TEX::primary",
+    "Nike TN::primary",
+    "Nike Air Max Plus 3::primary",
+    "Nike Air Max Plus VII::primary",
+    "Nike Air Max 95::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1254,
-  "catalogItems": 682,
-  "candidateItems": 431,
-  "freshItems": 40,
-  "qualifyingAlerts": 4,
+  "catalogMarkers": 1343,
+  "catalogItems": 998,
+  "candidateItems": 478,
+  "freshItems": 57,
+  "qualifyingAlerts": 7,
   "qualifyingByCondition": {
-    "newWithoutTags": 4
+    "veryGood": 7
   },
-  "deliveredAlerts": 4,
+  "deliveredAlerts": 7,
   "deliveredByCondition": {
-    "newWithoutTags": 4
+    "veryGood": 7
   },
-  "duplicateSuppressed": 35,
+  "duplicateSuppressed": 55,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -65,14 +65,15 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 356,
-    "condition": 2,
+    "stale": 366,
+    "price": 6,
     "weak-margin": 2,
-    "keyword": 3,
+    "condition": 10,
+    "size": 3,
     "seller-risk": 2,
-    "size": 6,
-    "seller-check-budget-exhausted": 15,
-    "detail-budget-exhausted": 6
+    "seller-check-budget-exhausted": 18,
+    "detail-budget-exhausted": 6,
+    "keyword": 3
   },
   "failures": {}
 }
