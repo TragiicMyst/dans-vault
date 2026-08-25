@@ -1,37 +1,39 @@
 {
-  "generatedAt": "2026-08-25T10:30:59.636Z",
-  "stateUpdatedAt": "2026-08-25T10:30:59.636Z",
-  "lastAttemptAt": "2026-08-25T10:30:59.636Z",
-  "lastScanAt": "2026-08-25T10:30:59.636Z",
+  "generatedAt": "2026-08-25T10:36:00.263Z",
+  "stateUpdatedAt": "2026-08-25T10:36:00.263Z",
+  "lastAttemptAt": "2026-08-25T10:36:00.263Z",
+  "lastScanAt": "2026-08-25T10:36:00.263Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Air Max Plus 3::primary",
-    "Nike Air Max Plus VII::primary",
-    "Nike Air Max 95::primary",
-    "Nike Air Max 90::primary",
-    "Nike Air Max 90 Drift::primary",
-    "Nike Air Max 97::primary"
+    "Nike Air Max 270::primary",
+    "Nike Air Max Dn::primary",
+    "Nike Air Max 1::primary",
+    "Nike Shox TL::primary",
+    "Nike Shox R4::primary",
+    "Nike Shox Ride 2::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 1041,
-  "candidateItems": 608,
-  "freshItems": 32,
-  "qualifyingAlerts": 10,
+  "catalogItems": 822,
+  "candidateItems": 389,
+  "freshItems": 15,
+  "qualifyingAlerts": 6,
   "qualifyingByCondition": {
-    "newWithTags": 2,
-    "veryGood": 8
+    "veryGood": 4,
+    "newWithTags": 1,
+    "newWithoutTags": 1
   },
-  "deliveredAlerts": 10,
+  "deliveredAlerts": 6,
   "deliveredByCondition": {
-    "newWithTags": 2,
-    "veryGood": 8
+    "veryGood": 4,
+    "newWithTags": 1,
+    "newWithoutTags": 1
   },
-  "duplicateSuppressed": 46,
+  "duplicateSuppressed": 48,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -65,16 +67,12 @@
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 12,
+  "detailFetches": 9,
   "rejects": {
-    "stale": 530,
-    "keyword": 6,
-    "size": 2,
-    "condition": 7,
-    "weak-margin": 1,
-    "price": 1,
-    "seller-check-budget-exhausted": 2,
-    "detail-budget-exhausted": 3
+    "stale": 326,
+    "condition": 2,
+    "size": 3,
+    "keyword": 4
   },
   "failures": {}
 }
