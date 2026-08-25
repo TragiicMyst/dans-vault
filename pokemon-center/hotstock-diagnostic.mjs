@@ -1,16 +1,23 @@
-import vm from 'node:vm';
-const url = 'https://www.hotstock.io/uk/p/pokemon-tcg-scarlet-and-violet-151-elite-trainer-box-9-boosters-and-premium-accessories';
-const r = await fetch(url, { headers: { 'user-agent': 'Mozilla/5.0 DanVaultMonitor/1.0', accept: 'text/html,*/*' }, signal: AbortSignal.timeout(20000) });
-const text = await r.text();
-console.log('status', r.status, 'chars', text.length);
-const m = text.match(/<script>window\.__NUXT__=([\s\S]*?)<\/script>/);
-if (!m) throw new Error('NUXT state not found');
-let expr = m[1].trim();
-if (expr.endsWith(';')) expr = expr.slice(0,-1);
-const data = vm.runInNewContext(expr, Object.create(null), { timeout: 3000 });
-console.log('config.public=', JSON.stringify(data?.config?.public, null, 2));
-console.log('pinia search=', JSON.stringify(data?.pinia?.search, null, 2));
-console.log('recent count=', data?.pinia?.products?.recentproducts?.length, 'popular count=', data?.pinia?.products?.popularproducts?.length);
-console.log('pokemon recent=', JSON.stringify((data?.pinia?.products?.recentproducts || []).filter(p => /pokemon|pokémon/i.test(p.name || '')).map(p=>({name:p.name,slug:p.slug,updatedAt:p.updatedAt})), null, 2));
-console.log('pokemon popular=', JSON.stringify((data?.pinia?.products?.popularproducts || []).filter(p => /pokemon|pokémon/i.test(p.name || '')).map(p=>({name:p.name,slug:p.slug,updatedAt:p.updatedAt})), null, 2));
-console.log('data keys=', Object.keys(data?.data || {}));
+const home = await fetch('https://www.hotstock.io/uk', { headers: { 'user-agent': 'Mozilla/5.0 DanVaultMonitor/1.0' }, signal: AbortSignal.timeout(20000) }).then(r => r.text());
+const scripts = [...home.matchAll(/<script[^>]+src="([^"]+\.js[^"]*)"/g)].map(m => m[1]);
+console.log('scripts', scripts);
+for (const src of scripts) {
+  const url = new URL(src, 'https://www.hotstock.io').href;
+  try {
+    const r = await fetch(url, { signal: AbortSignal.timeout(20000) });
+    const js = await r.text();
+    console.log('\nFILE', src, 'status', r.status, 'chars', js.length);
+    const needles = ['api/proxy','/products','searchSuggestions','suggestions','apiBase','recentproducts','popularproducts'];
+    for (const needle of needles) {
+      let idx = 0;
+      let count = 0;
+      while ((idx = js.indexOf(needle, idx)) >= 0 && count < 8) {
+        console.log('MATCH', needle, js.slice(Math.max(0, idx - 600), Math.min(js.length, idx + 1400)));
+        idx += needle.length;
+        count++;
+      }
+    }
+  } catch (e) {
+    console.log('FAIL', src, e.message);
+  }
+}
