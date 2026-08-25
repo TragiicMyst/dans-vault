@@ -84,4 +84,6 @@ jobs:
         if: steps.gate.outputs.enabled == 'true' && (github.event_name == 'schedule' || github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && inputs.mode == 'scan'))
         env:
           DISCORD_WINTER_FLIPS_WEBHOOK_URL: ${{ secrets.DISCORD_WINTER_FLIPS_WEBHOOK_URL }}
+          EBAY_CLIENT_ID: ${{ secrets.EBAY_CLIENT_ID }}
+          EBAY_CLIENT_SECRET: ${{ secrets.EBAY_CLIENT_SECRET }}
         run: bash winter-flips/run-cycle.sh 3 180 105
