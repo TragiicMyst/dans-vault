@@ -1,37 +1,37 @@
 {
-  "generatedAt": "2026-08-25T09:51:30.223Z",
-  "stateUpdatedAt": "2026-08-25T09:51:30.223Z",
-  "lastAttemptAt": "2026-08-25T09:51:30.223Z",
-  "lastScanAt": "2026-08-25T09:51:30.223Z",
+  "generatedAt": "2026-08-25T09:56:29.914Z",
+  "stateUpdatedAt": "2026-08-25T09:56:29.914Z",
+  "lastAttemptAt": "2026-08-25T09:56:29.914Z",
+  "lastScanAt": "2026-08-25T09:56:29.914Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Air Max Plus 3::primary",
-    "Nike Air Max Plus VII::primary",
-    "Nike Air Max 95::primary",
-    "Nike Air Max 90::primary",
-    "Nike Air Max 90 Drift::primary",
-    "Nike Air Max 97::primary"
+    "Nike Air Max 270::primary",
+    "Nike Air Max Dn::primary",
+    "Nike Air Max 1::primary",
+    "Nike Shox TL::primary",
+    "Nike Shox R4::primary",
+    "Nike Shox Ride 2::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 1040,
-  "candidateItems": 616,
-  "freshItems": 40,
-  "qualifyingAlerts": 7,
+  "catalogItems": 901,
+  "candidateItems": 421,
+  "freshItems": 23,
+  "qualifyingAlerts": 2,
   "qualifyingByCondition": {
     "newWithTags": 1,
-    "veryGood": 6
+    "newWithoutTags": 1
   },
-  "deliveredAlerts": 7,
+  "deliveredAlerts": 2,
   "deliveredByCondition": {
     "newWithTags": 1,
-    "veryGood": 6
+    "newWithoutTags": 1
   },
-  "duplicateSuppressed": 46,
+  "duplicateSuppressed": 53,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -65,16 +65,13 @@
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 12,
+  "detailFetches": 8,
   "rejects": {
-    "stale": 530,
-    "condition": 7,
-    "price": 5,
-    "size": 5,
-    "keyword": 7,
-    "weak-margin": 1,
-    "seller-check-budget-exhausted": 6,
-    "detail-budget-exhausted": 2
+    "stale": 345,
+    "keyword": 6,
+    "condition": 8,
+    "size": 6,
+    "price": 1
   },
   "failures": {}
 }
