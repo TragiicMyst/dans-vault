@@ -244144,7 +244144,7 @@
       ]
     }
   },
-  "updatedAt": "2026-08-25T19:36:05.207Z",
+  "updatedAt": "2026-08-25T19:41:04.824Z",
   "cursor": 0,
   "lastRotation": {
     "bot": "trainers",
@@ -244373,12 +244373,12 @@
       }
     },
     "lastScanAt": "2026-08-25T19:31:05.154Z",
-    "lastAttemptAt": "2026-08-25T19:36:05.207Z"
+    "lastAttemptAt": "2026-08-25T19:41:04.824Z"
   },
   "diagnostics": {
     "bot": "trainers",
     "radarVersion": 6,
-    "lastRunAt": "2026-08-25T19:36:05.207Z",
+    "lastRunAt": "2026-08-25T19:41:04.824Z",
     "recoveryMode": false,
     "filterProfile": {
       "freshnessMinutes": 15,
@@ -244401,41 +244401,24 @@
       "Nike Basketball Shoe Bargain::generic",
       "Nike SB Shoe Bargain::generic"
     ],
-    "successfulSearches": 1,
+    "successfulSearches": 0,
     "failedSearches": 1,
     "confirmedEmptySearches": 0,
-    "catalogMarkers": 384,
-    "catalogItems": 320,
-    "candidateItems": 102,
-    "freshItems": 27,
+    "catalogMarkers": 0,
+    "catalogItems": 0,
+    "candidateItems": 0,
+    "freshItems": 0,
     "freshByAge": 0,
-    "freshByNewId": 27,
-    "qualifyingAlerts": 5,
-    "deliveredAlerts": 5,
+    "freshByNewId": 0,
+    "qualifyingAlerts": 0,
+    "deliveredAlerts": 0,
     "discordFailures": 0,
     "pendingDeliveries": 0,
-    "rejects": {
-      "stale": 61,
-      "size": 5,
-      "price": 6,
-      "condition": 6,
-      "keyword": 4,
-      "detail-fetch-failed": 1
-    },
+    "rejects": {},
     "failures": {
-      "Nike Air Max Bargain::generic": "Vinted guard cooldown active for 44s"
+      "Nike Any Shoe Bargain::generic": "Vinted guard cooldown active for 43s"
     },
     "healthyScan": false,
-    "detailFetches": 11,
-    "duplicateSuppressed": 1,
-    "qualifyingByCondition": {
-      "newWithoutTags": 1,
-      "veryGood": 4
-    },
-    "deliveredByCondition": {
-      "newWithoutTags": 1,
-      "veryGood": 4
-    },
     "healthReason": "vinted-block-or-challenge"
   },
   "radarVersion": 6,
@@ -246055,5 +246038,5 @@
     "9779276826": "2026-08-25T19:36:43.863Z",
     "9779228611": "2026-08-25T19:36:49.853Z"
   },
-  "cooldownUntil": "2026-08-25T19:38:06.646Z"
+  "cooldownUntil": "2026-08-25T19:42:22.034Z"
 }
