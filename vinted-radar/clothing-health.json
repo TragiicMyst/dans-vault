@@ -1,39 +1,35 @@
 {
-  "generatedAt": "2026-08-25T21:47:45.304Z",
-  "stateUpdatedAt": "2026-08-25T21:47:45.304Z",
-  "lastAttemptAt": "2026-08-25T21:47:45.304Z",
-  "lastScanAt": "2026-08-25T21:47:45.304Z",
+  "generatedAt": "2026-08-25T22:02:24.664Z",
+  "stateUpdatedAt": "2026-08-25T22:02:24.664Z",
+  "lastAttemptAt": "2026-08-25T22:02:24.664Z",
+  "lastScanAt": "2026-08-25T22:02:24.664Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike ACG Skull Peak Jacket::nike acg skull peak",
-    "Nike Club Fleece Pullover Hoodie::nike club fleece hoodie",
-    "Nike Unlimited Shorts::nike unlimited shorts",
-    "Nike Tech Fleece Colour-Block Windrunner::nike tech fleece colour block windrunner",
-    "Nike Windrunner Jacket::nike windrunner jacket",
-    "Nike NOCTA Tracksuit::nike nocta tracksuit"
+    "Nike Miler Challenger Running Set::nike miler challenger set",
+    "Nike Football Tech Fleece::nike football tech fleece",
+    "Nike ACG GORE-TEX Jacket::nike acg gore tex jacket",
+    "Nike Club Fleece Full-Zip Hoodie::nike club fleece full zip hoodie",
+    "Nike Strike Top Shorts Set::nike strike top shorts set",
+    "Nike Club Fleece Joggers::nike club fleece joggers"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1632,
-  "catalogItems": 901,
-  "candidateItems": 308,
-  "freshItems": 36,
-  "qualifyingAlerts": 17,
+  "catalogMarkers": 1824,
+  "catalogItems": 953,
+  "candidateItems": 375,
+  "freshItems": 8,
+  "qualifyingAlerts": 5,
   "qualifyingByCondition": {
-    "veryGood": 14,
-    "newWithTags": 1,
-    "newWithoutTags": 2
+    "veryGood": 5
   },
-  "deliveredAlerts": 17,
+  "deliveredAlerts": 5,
   "deliveredByCondition": {
-    "veryGood": 14,
-    "newWithTags": 1,
-    "newWithoutTags": 2
+    "veryGood": 5
   },
-  "duplicateSuppressed": 52,
+  "duplicateSuppressed": 51,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,15 +63,11 @@
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 1,
+  "detailFetches": 0,
   "rejects": {
-    "stale": 220,
-    "keyword": 1,
-    "price": 11,
-    "condition": 4,
-    "size": 1,
-    "weak-margin": 1,
-    "score": 1
+    "stale": 316,
+    "condition": 2,
+    "price": 1
   },
   "failures": {}
 }
