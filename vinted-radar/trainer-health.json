@@ -1,35 +1,31 @@
 {
-  "generatedAt": "2026-08-25T05:09:50.907Z",
-  "stateUpdatedAt": "2026-08-25T05:09:50.907Z",
-  "lastAttemptAt": "2026-08-25T05:09:50.907Z",
-  "lastScanAt": "2026-08-25T05:09:50.907Z",
+  "generatedAt": "2026-08-25T05:14:50.882Z",
+  "stateUpdatedAt": "2026-08-25T05:14:50.882Z",
+  "lastAttemptAt": "2026-08-25T05:14:50.882Z",
+  "lastScanAt": "2026-08-25T05:14:50.882Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Football Boot Bargain::generic",
-    "Nike Basketball Shoe Bargain::generic",
-    "Nike SB Shoe Bargain::generic",
-    "Nike P-6000::primary",
-    "Nike V5 RNR::primary",
-    "Nike Vomero 5::primary"
+    "Nike Vomero 18::primary",
+    "Nike Vomero Plus::primary",
+    "Nike Vomero Premium::primary",
+    "Nike Pegasus Premium::primary",
+    "Nike Pegasus Trail 5 GORE-TEX::primary",
+    "Nike TN::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1262,
-  "catalogItems": 804,
-  "candidateItems": 417,
-  "freshItems": 24,
-  "qualifyingAlerts": 9,
-  "qualifyingByCondition": {
-    "veryGood": 9
-  },
-  "deliveredAlerts": 9,
-  "deliveredByCondition": {
-    "veryGood": 9
-  },
-  "duplicateSuppressed": 39,
+  "catalogMarkers": 1344,
+  "catalogItems": 762,
+  "candidateItems": 477,
+  "freshItems": 3,
+  "qualifyingAlerts": 0,
+  "qualifyingByCondition": {},
+  "deliveredAlerts": 0,
+  "deliveredByCondition": {},
+  "duplicateSuppressed": 70,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -63,14 +59,11 @@
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 12,
+  "detailFetches": 1,
   "rejects": {
-    "stale": 354,
-    "condition": 1,
-    "size": 3,
-    "keyword": 1,
-    "detail-budget-exhausted": 7,
-    "seller-check-budget-exhausted": 3
+    "stale": 404,
+    "size": 1,
+    "condition": 2
   },
   "failures": {}
 }
