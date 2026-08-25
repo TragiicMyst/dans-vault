@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-25T23:08:10.329Z",
-  "stateUpdatedAt": "2026-08-25T23:08:10.329Z",
-  "lastAttemptAt": "2026-08-25T23:08:10.329Z",
+  "generatedAt": "2026-08-25T23:13:08.342Z",
+  "stateUpdatedAt": "2026-08-25T23:13:08.342Z",
+  "lastAttemptAt": "2026-08-25T23:13:08.342Z",
   "lastScanAt": "2026-08-25T23:03:08.934Z",
-  "cooldownUntil": "2026-08-25T23:09:27.441Z",
+  "cooldownUntil": "2026-08-25T23:14:25.213Z",
   "healthyScan": false,
   "healthReason": "vinted-block-or-challenge",
   "selectedSearches": [
@@ -34,6 +34,6 @@
   "detailFetches": 0,
   "rejects": {},
   "failures": {
-    "Nike Any Shoe Bargain::generic": "Vinted guard cooldown active for 43s"
+    "Nike Any Shoe Bargain::generic": "Vinted guard cooldown active for 44s"
   }
 }
