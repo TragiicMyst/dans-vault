@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-25T08:18:59.491Z",
-  "stateUpdatedAt": "2026-08-25T08:18:59.491Z",
-  "lastAttemptAt": "2026-08-25T08:18:59.491Z",
-  "lastScanAt": "2026-08-24T11:09:16.385Z",
-  "cooldownUntil": "2026-08-25T08:20:16.802Z",
-  "healthyScan": false,
-  "healthReason": "vinted-block-or-challenge",
+  "generatedAt": "2026-08-25T09:34:13.482Z",
+  "stateUpdatedAt": "2026-08-25T09:34:13.482Z",
+  "lastAttemptAt": "2026-08-25T09:34:13.482Z",
+  "lastScanAt": "2026-08-25T09:34:13.482Z",
+  "cooldownUntil": null,
+  "healthyScan": true,
+  "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
     "Nike Puffer Jacket::nike puffer jacket",
@@ -15,25 +15,67 @@
     "Nike ACG Canwell Glacier Jacket::nike acg canwell glacier",
     "Nike Strike Tracksuit::nike strike tracksuit"
   ],
-  "successfulSearches": 0,
-  "failedSearches": 1,
-  "catalogMarkers": 0,
-  "catalogItems": 0,
-  "candidateItems": 0,
-  "freshItems": 0,
-  "qualifyingAlerts": 0,
-  "qualifyingByCondition": {},
-  "deliveredAlerts": 0,
-  "deliveredByCondition": {},
-  "duplicateSuppressed": 0,
+  "successfulSearches": 7,
+  "failedSearches": 0,
+  "catalogMarkers": 1457,
+  "catalogItems": 821,
+  "candidateItems": 239,
+  "freshItems": 96,
+  "qualifyingAlerts": 37,
+  "qualifyingByCondition": {
+    "veryGood": 31,
+    "newWithoutTags": 3,
+    "newWithTags": 3
+  },
+  "deliveredAlerts": 37,
+  "deliveredByCondition": {
+    "veryGood": 31,
+    "newWithoutTags": 3,
+    "newWithTags": 3
+  },
+  "duplicateSuppressed": 9,
   "discordFailures": 0,
-  "discordRoutes": [],
+  "discordRoutes": [
+    {
+      "configuredAs": "newWithoutTags",
+      "webhookId": "1541037387969462303",
+      "channelId": "1541036356384329819",
+      "guildId": "1540743210488430592",
+      "webhookName": "Dan's NWOT Bot",
+      "detectedCondition": "newWithoutTags",
+      "inspectionError": null
+    },
+    {
+      "configuredAs": "newWithTags",
+      "webhookId": "1541040362997547048",
+      "channelId": "1541040152372183140",
+      "guildId": "1540743210488430592",
+      "webhookName": "Dan's New With Tags Bot",
+      "detectedCondition": "newWithTags",
+      "inspectionError": null
+    },
+    {
+      "configuredAs": "veryGood",
+      "webhookId": "1541040545483198516",
+      "channelId": "1541040213780992171",
+      "guildId": "1540743210488430592",
+      "webhookName": "Dan's Very Good Condition Bot",
+      "detectedCondition": "veryGood",
+      "inspectionError": null
+    }
+  ],
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 0,
-  "rejects": {},
-  "failures": {
-    "Nike Any Clothing Bargain::nike": "Vinted guard cooldown active for 43s"
-  }
+  "detailFetches": 6,
+  "rejects": {
+    "keyword": 6,
+    "price": 20,
+    "condition": 25,
+    "recovery-no-fresh-signal": 134,
+    "size": 5,
+    "detail-budget-exhausted": 1,
+    "weak-margin": 2
+  },
+  "failures": {}
 }
