@@ -1,37 +1,35 @@
 {
-  "generatedAt": "2026-08-25T08:22:58.424Z",
-  "stateUpdatedAt": "2026-08-25T08:22:58.424Z",
-  "lastAttemptAt": "2026-08-25T08:22:58.424Z",
-  "lastScanAt": "2026-08-25T08:22:58.424Z",
+  "generatedAt": "2026-08-25T08:27:58.436Z",
+  "stateUpdatedAt": "2026-08-25T08:27:58.436Z",
+  "lastAttemptAt": "2026-08-25T08:27:58.436Z",
+  "lastScanAt": "2026-08-25T08:27:58.436Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Vomero 18::primary",
-    "Nike Vomero Plus::primary",
-    "Nike Vomero Premium::primary",
-    "Nike Pegasus Premium::primary",
-    "Nike Pegasus Trail 5 GORE-TEX::primary",
-    "Nike TN::primary"
+    "Nike Air Max Plus 3::primary",
+    "Nike Air Max Plus VII::primary",
+    "Nike Air Max 95::primary",
+    "Nike Air Max 90::primary",
+    "Nike Air Max 90 Drift::primary",
+    "Nike Air Max 97::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 808,
-  "candidateItems": 457,
-  "freshItems": 10,
-  "qualifyingAlerts": 3,
+  "catalogItems": 1041,
+  "candidateItems": 641,
+  "freshItems": 16,
+  "qualifyingAlerts": 2,
   "qualifyingByCondition": {
-    "newWithTags": 2,
-    "veryGood": 1
+    "veryGood": 2
   },
-  "deliveredAlerts": 3,
+  "deliveredAlerts": 2,
   "deliveredByCondition": {
-    "newWithTags": 2,
-    "veryGood": 1
+    "veryGood": 2
   },
-  "duplicateSuppressed": 64,
+  "duplicateSuppressed": 60,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -65,13 +63,15 @@
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 3,
+  "detailFetches": 6,
   "rejects": {
-    "stale": 383,
-    "price": 3,
-    "weak-margin": 2,
-    "keyword": 1,
-    "condition": 1
+    "stale": 565,
+    "price": 2,
+    "condition": 4,
+    "score": 1,
+    "keyword": 2,
+    "size": 3,
+    "weak-margin": 2
   },
   "failures": {}
 }
