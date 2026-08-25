@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-08-25T18:05:37.960Z",
-  "stateUpdatedAt": "2026-08-25T18:05:37.960Z",
-  "lastAttemptAt": "2026-08-25T18:05:37.960Z",
-  "lastScanAt": "2026-08-25T18:05:37.960Z",
+  "generatedAt": "2026-08-25T18:10:38.375Z",
+  "stateUpdatedAt": "2026-08-25T18:10:38.375Z",
+  "lastAttemptAt": "2026-08-25T18:10:38.375Z",
+  "lastScanAt": "2026-08-25T18:10:38.375Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Shox TL::primary",
-    "Nike Shox R4::primary",
-    "Nike Shox Ride 2::primary",
-    "Nike Air Force 1::primary",
-    "Nike Dunk Low::primary",
-    "Air Jordan 1 Low::primary"
+    "Air Jordan 1 Mid::primary",
+    "Air Jordan 4::primary",
+    "Nike Initiator::primary",
+    "Nike Air Max Moto 2K::primary",
+    "Nike Metcon 10::primary",
+    "Nike Zoom Fly 6::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 879,
-  "candidateItems": 531,
-  "freshItems": 138,
-  "qualifyingAlerts": 1,
+  "catalogItems": 853,
+  "candidateItems": 553,
+  "freshItems": 48,
+  "qualifyingAlerts": 4,
   "qualifyingByCondition": {
-    "veryGood": 1
+    "veryGood": 4
   },
-  "deliveredAlerts": 1,
+  "deliveredAlerts": 4,
   "deliveredByCondition": {
-    "veryGood": 1
+    "veryGood": 4
   },
-  "duplicateSuppressed": 44,
+  "duplicateSuppressed": 35,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -65,15 +65,15 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 349,
-    "condition": 28,
-    "size": 2,
-    "weak-margin": 2,
-    "keyword": 13,
-    "seller-risk": 9,
-    "seller-check-budget-exhausted": 48,
-    "detail-budget-exhausted": 31,
-    "price": 4
+    "stale": 470,
+    "price": 1,
+    "condition": 7,
+    "keyword": 4,
+    "seller-risk": 1,
+    "size": 6,
+    "score": 1,
+    "detail-budget-exhausted": 7,
+    "seller-check-budget-exhausted": 17
   },
   "failures": {}
 }
