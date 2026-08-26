@@ -1,35 +1,37 @@
 {
-  "generatedAt": "2026-08-26T10:08:34.054Z",
-  "stateUpdatedAt": "2026-08-26T10:08:34.054Z",
-  "lastAttemptAt": "2026-08-26T10:08:34.054Z",
-  "lastScanAt": "2026-08-26T10:08:34.054Z",
+  "generatedAt": "2026-08-26T10:32:40.563Z",
+  "stateUpdatedAt": "2026-08-26T10:32:40.563Z",
+  "lastAttemptAt": "2026-08-26T10:32:40.563Z",
+  "lastScanAt": "2026-08-26T10:32:40.563Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Therma-FIT Jacket::nike therma fit jacket",
-    "Nike NOCTA Hoodie::nike nocta hoodie",
-    "Nike Stride Shorts::nike stride shorts",
-    "Nike Tech Fleece Tracksuit::nike tech fleece tracksuit",
-    "Nike ACG Skull Peak Jacket::nike acg skull peak",
-    "Nike Club Fleece Pullover Hoodie::nike club fleece hoodie"
+    "Nike Unlimited Shorts::nike unlimited shorts",
+    "Nike Tech Fleece Colour-Block Windrunner::nike tech fleece colour block windrunner",
+    "Nike Windrunner Jacket::nike windrunner jacket",
+    "Nike NOCTA Tracksuit::nike nocta tracksuit",
+    "Nike Miler Challenger Running Set::nike miler challenger set",
+    "Nike Football Tech Fleece::nike football tech fleece"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1632,
-  "catalogItems": 881,
-  "candidateItems": 366,
-  "freshItems": 19,
-  "qualifyingAlerts": 3,
+  "catalogItems": 878,
+  "candidateItems": 349,
+  "freshItems": 12,
+  "qualifyingAlerts": 8,
   "qualifyingByCondition": {
-    "veryGood": 3
+    "veryGood": 7,
+    "newWithoutTags": 1
   },
-  "deliveredAlerts": 3,
+  "deliveredAlerts": 8,
   "deliveredByCondition": {
-    "veryGood": 3
+    "veryGood": 7,
+    "newWithoutTags": 1
   },
-  "duplicateSuppressed": 80,
+  "duplicateSuppressed": 35,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -63,13 +65,11 @@
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 2,
+  "detailFetches": 0,
   "rejects": {
-    "recovery-no-fresh-signal": 267,
-    "price": 5,
-    "condition": 7,
-    "keyword": 2,
-    "size": 2
+    "condition": 2,
+    "price": 2,
+    "recovery-no-fresh-signal": 302
   },
   "failures": {}
 }
