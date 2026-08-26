@@ -1,35 +1,39 @@
 {
-  "generatedAt": "2026-08-26T16:58:49.019Z",
-  "stateUpdatedAt": "2026-08-26T16:58:49.019Z",
-  "lastAttemptAt": "2026-08-26T16:58:49.019Z",
-  "lastScanAt": "2026-08-26T16:58:49.019Z",
+  "generatedAt": "2026-08-26T17:03:48.925Z",
+  "stateUpdatedAt": "2026-08-26T17:03:48.925Z",
+  "lastAttemptAt": "2026-08-26T17:03:48.925Z",
+  "lastScanAt": "2026-08-26T17:03:48.925Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Air Max 90::primary",
-    "Nike Air Max 90 Drift::primary",
-    "Nike Air Max 97::primary",
-    "Nike Air Max 270::primary",
-    "Nike Air Max Dn::primary",
-    "Nike Air Max 1::primary"
+    "Nike Shox TL::primary",
+    "Nike Shox R4::primary",
+    "Nike Shox Ride 2::primary",
+    "Nike Air Force 1::primary",
+    "Nike Dunk Low::primary",
+    "Air Jordan 1 Low::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 923,
-  "candidateItems": 505,
-  "freshItems": 137,
-  "qualifyingAlerts": 6,
+  "catalogItems": 877,
+  "candidateItems": 503,
+  "freshItems": 188,
+  "qualifyingAlerts": 7,
   "qualifyingByCondition": {
-    "veryGood": 6
+    "newWithoutTags": 2,
+    "veryGood": 4,
+    "newWithTags": 1
   },
-  "deliveredAlerts": 6,
+  "deliveredAlerts": 7,
   "deliveredByCondition": {
-    "veryGood": 6
+    "newWithoutTags": 2,
+    "veryGood": 4,
+    "newWithTags": 1
   },
-  "duplicateSuppressed": 20,
+  "duplicateSuppressed": 30,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -65,14 +69,15 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 348,
-    "price": 12,
-    "size": 6,
-    "weak-margin": 7,
-    "condition": 32,
-    "keyword": 13,
-    "seller-check-budget-exhausted": 39,
-    "detail-budget-exhausted": 22
+    "stale": 285,
+    "size": 4,
+    "weak-margin": 5,
+    "score": 1,
+    "detail-budget-exhausted": 41,
+    "price": 14,
+    "seller-check-budget-exhausted": 62,
+    "keyword": 17,
+    "condition": 37
   },
   "failures": {}
 }
