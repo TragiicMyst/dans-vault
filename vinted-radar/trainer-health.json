@@ -1,35 +1,37 @@
 {
-  "generatedAt": "2026-08-26T22:21:46.163Z",
-  "stateUpdatedAt": "2026-08-26T22:21:46.163Z",
-  "lastAttemptAt": "2026-08-26T22:21:46.163Z",
-  "lastScanAt": "2026-08-26T22:21:46.163Z",
+  "generatedAt": "2026-08-26T22:26:45.743Z",
+  "stateUpdatedAt": "2026-08-26T22:26:45.743Z",
+  "lastAttemptAt": "2026-08-26T22:26:45.743Z",
+  "lastScanAt": "2026-08-26T22:26:45.743Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Air Max Bargain::generic",
-    "Nike Running Trainer Bargain::generic",
-    "Nike Lifestyle Trainer Bargain::generic",
-    "Nike Football Boot Bargain::generic",
-    "Nike Basketball Shoe Bargain::generic",
-    "Nike SB Shoe Bargain::generic"
+    "Nike P-6000::primary",
+    "Nike V5 RNR::primary",
+    "Nike Vomero 5::primary",
+    "Nike Vomero 18::primary",
+    "Nike Vomero Plus::primary",
+    "Nike Vomero Premium::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1344,
-  "catalogItems": 949,
-  "candidateItems": 414,
-  "freshItems": 184,
-  "qualifyingAlerts": 2,
+  "catalogMarkers": 1262,
+  "catalogItems": 674,
+  "candidateItems": 431,
+  "freshItems": 125,
+  "qualifyingAlerts": 6,
   "qualifyingByCondition": {
-    "veryGood": 2
+    "veryGood": 5,
+    "newWithTags": 1
   },
-  "deliveredAlerts": 2,
+  "deliveredAlerts": 6,
   "deliveredByCondition": {
-    "veryGood": 2
+    "veryGood": 5,
+    "newWithTags": 1
   },
-  "duplicateSuppressed": 1,
+  "duplicateSuppressed": 30,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -65,14 +67,14 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 229,
-    "price": 53,
-    "size": 8,
-    "keyword": 17,
-    "condition": 33,
-    "seller-risk": 2,
-    "seller-check-budget-exhausted": 36,
-    "detail-budget-exhausted": 33
+    "stale": 276,
+    "size": 6,
+    "price": 5,
+    "weak-margin": 8,
+    "condition": 7,
+    "keyword": 4,
+    "detail-budget-exhausted": 25,
+    "seller-check-budget-exhausted": 64
   },
   "failures": {}
 }
