@@ -1,35 +1,31 @@
 {
-  "generatedAt": "2026-08-26T05:32:33.434Z",
-  "stateUpdatedAt": "2026-08-26T05:32:33.434Z",
-  "lastAttemptAt": "2026-08-26T05:32:33.434Z",
-  "lastScanAt": "2026-08-26T05:32:33.434Z",
+  "generatedAt": "2026-08-26T05:37:33.242Z",
+  "stateUpdatedAt": "2026-08-26T05:37:33.242Z",
+  "lastAttemptAt": "2026-08-26T05:37:33.242Z",
+  "lastScanAt": "2026-08-26T05:37:33.242Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Air Max Bargain::generic",
-    "Nike Running Trainer Bargain::generic",
-    "Nike Lifestyle Trainer Bargain::generic",
-    "Nike Football Boot Bargain::generic",
-    "Nike Basketball Shoe Bargain::generic",
-    "Nike SB Shoe Bargain::generic"
+    "Nike P-6000::primary",
+    "Nike V5 RNR::primary",
+    "Nike Vomero 5::primary",
+    "Nike Vomero 18::primary",
+    "Nike Vomero Plus::primary",
+    "Nike Vomero Premium::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1344,
-  "catalogItems": 987,
-  "candidateItems": 391,
-  "freshItems": 42,
-  "qualifyingAlerts": 4,
-  "qualifyingByCondition": {
-    "veryGood": 4
-  },
-  "deliveredAlerts": 4,
-  "deliveredByCondition": {
-    "veryGood": 4
-  },
-  "duplicateSuppressed": 5,
+  "catalogMarkers": 1262,
+  "catalogItems": 607,
+  "candidateItems": 401,
+  "freshItems": 4,
+  "qualifyingAlerts": 0,
+  "qualifyingByCondition": {},
+  "deliveredAlerts": 0,
+  "deliveredByCondition": {},
+  "duplicateSuppressed": 51,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -63,15 +59,12 @@
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 12,
+  "detailFetches": 1,
   "rejects": {
-    "recovery-no-fresh-signal": 344,
-    "keyword": 6,
-    "condition": 5,
-    "size": 8,
-    "price": 2,
-    "detail-budget-exhausted": 8,
-    "seller-check-budget-exhausted": 9
+    "stale": 346,
+    "weak-margin": 1,
+    "condition": 2,
+    "seller-risk": 1
   },
   "failures": {}
 }
