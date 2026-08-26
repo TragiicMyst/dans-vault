@@ -16,6 +16,7 @@ import { applyAllNikeOpportunities } from './all-nike-opportunities.mjs';
 import { applyPriorityCatchall } from './priority-catchall.mjs';
 import { applyConditionChannelRouting } from './condition-channel-routing.mjs';
 import { applyListingImageEmbed } from './listing-image-embed.mjs';
+import { applyReferenceDiscordLayout } from './reference-discord-layout.mjs';
 import { resolveDiscordRoutes } from './discord-route-resolver.mjs';
 
 const root = new URL('./', import.meta.url);
@@ -59,6 +60,7 @@ await applyAllNikeOpportunities(bot);
 await applyPriorityCatchall(bot);
 await applyConditionChannelRouting();
 await applyListingImageEmbed();
+await applyReferenceDiscordLayout();
 const { runRadarV6 } = await import(`./radar-v6.mjs?expanded-${bot}-v6`);
 const baseConfig = JSON.parse(await fs.readFile(new URL('./config.json', root), 'utf8'));
 
