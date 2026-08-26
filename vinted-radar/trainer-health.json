@@ -1,35 +1,37 @@
 {
-  "generatedAt": "2026-08-26T04:07:56.907Z",
-  "stateUpdatedAt": "2026-08-26T04:07:56.907Z",
-  "lastAttemptAt": "2026-08-26T04:07:56.907Z",
-  "lastScanAt": "2026-08-26T04:07:56.907Z",
+  "generatedAt": "2026-08-26T04:12:56.399Z",
+  "stateUpdatedAt": "2026-08-26T04:12:56.399Z",
+  "lastAttemptAt": "2026-08-26T04:12:56.399Z",
+  "lastScanAt": "2026-08-26T04:12:56.399Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Air Max Bargain::generic",
-    "Nike Running Trainer Bargain::generic",
-    "Nike Lifestyle Trainer Bargain::generic",
-    "Nike Football Boot Bargain::generic",
-    "Nike Basketball Shoe Bargain::generic",
-    "Nike SB Shoe Bargain::generic"
+    "Nike P-6000::primary",
+    "Nike V5 RNR::primary",
+    "Nike Vomero 5::primary",
+    "Nike Vomero 18::primary",
+    "Nike Vomero Plus::primary",
+    "Nike Vomero Premium::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1343,
-  "catalogItems": 977,
-  "candidateItems": 379,
-  "freshItems": 52,
+  "catalogMarkers": 1262,
+  "catalogItems": 682,
+  "candidateItems": 413,
+  "freshItems": 14,
   "qualifyingAlerts": 6,
   "qualifyingByCondition": {
-    "veryGood": 6
+    "veryGood": 5,
+    "newWithTags": 1
   },
   "deliveredAlerts": 6,
   "deliveredByCondition": {
-    "veryGood": 6
+    "veryGood": 5,
+    "newWithTags": 1
   },
-  "duplicateSuppressed": 0,
+  "duplicateSuppressed": 46,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -65,14 +67,11 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 327,
-    "condition": 5,
-    "price": 6,
-    "seller-risk": 2,
-    "keyword": 2,
-    "size": 4,
-    "seller-check-budget-exhausted": 17,
-    "detail-budget-exhausted": 10
+    "price": 1,
+    "stale": 353,
+    "size": 3,
+    "weak-margin": 1,
+    "score": 3
   },
   "failures": {}
 }
