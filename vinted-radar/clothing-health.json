@@ -1,37 +1,35 @@
 {
-  "generatedAt": "2026-08-25T23:57:10.339Z",
-  "stateUpdatedAt": "2026-08-25T23:57:10.339Z",
-  "lastAttemptAt": "2026-08-25T23:57:10.339Z",
-  "lastScanAt": "2026-08-25T23:57:10.339Z",
+  "generatedAt": "2026-08-26T01:52:30.345Z",
+  "stateUpdatedAt": "2026-08-26T01:52:30.345Z",
+  "lastAttemptAt": "2026-08-26T01:52:30.345Z",
+  "lastScanAt": "2026-08-26T01:52:30.345Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Shorts::nike shorts",
-    "Nike Cargo Trousers::nike cargo trousers",
-    "Nike Track Pants::nike track pants",
-    "Nike Woven Trousers::nike woven trousers",
-    "Nike Tracksuit::nike tracksuit",
-    "Nike Vintage Clothing::vintage nike"
+    "Nike SB Clothing::nike sb clothing",
+    "Nike Vest::nike vest",
+    "Nike Air Max Hoodie::nike air max hoodie",
+    "Nike Zip Hoodie::nike zip hoodie",
+    "Nike Hoodie::nike hoodie",
+    "Nike Sweatshirt::nike sweatshirt"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 1085,
-  "candidateItems": 321,
-  "freshItems": 130,
-  "qualifyingAlerts": 39,
+  "catalogItems": 1069,
+  "candidateItems": 273,
+  "freshItems": 71,
+  "qualifyingAlerts": 21,
   "qualifyingByCondition": {
-    "veryGood": 32,
-    "newWithoutTags": 6,
-    "newWithTags": 1
+    "veryGood": 19,
+    "newWithoutTags": 2
   },
-  "deliveredAlerts": 39,
+  "deliveredAlerts": 21,
   "deliveredByCondition": {
-    "veryGood": 32,
-    "newWithoutTags": 6,
-    "newWithTags": 1
+    "veryGood": 19,
+    "newWithoutTags": 2
   },
   "duplicateSuppressed": 19,
   "discordFailures": 0,
@@ -69,12 +67,12 @@
   "pendingDeliveries": 0,
   "detailFetches": 6,
   "rejects": {
-    "recovery-no-fresh-signal": 172,
-    "condition": 30,
-    "price": 45,
-    "size": 4,
-    "keyword": 8,
-    "detail-budget-exhausted": 4
+    "recovery-no-fresh-signal": 183,
+    "price": 19,
+    "size": 6,
+    "condition": 21,
+    "keyword": 2,
+    "detail-budget-exhausted": 2
   },
   "failures": {}
 }
