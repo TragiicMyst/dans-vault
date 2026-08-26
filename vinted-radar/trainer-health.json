@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-26T03:13:15.171Z",
-  "stateUpdatedAt": "2026-08-26T03:13:15.171Z",
-  "lastAttemptAt": "2026-08-26T03:13:15.171Z",
-  "lastScanAt": "2026-08-26T03:03:15.388Z",
-  "cooldownUntil": "2026-08-26T03:14:32.224Z",
-  "healthyScan": false,
-  "healthReason": "vinted-block-or-challenge",
+  "generatedAt": "2026-08-26T04:02:56.921Z",
+  "stateUpdatedAt": "2026-08-26T04:02:56.921Z",
+  "lastAttemptAt": "2026-08-26T04:02:56.921Z",
+  "lastScanAt": "2026-08-26T04:02:56.921Z",
+  "cooldownUntil": null,
+  "healthyScan": true,
+  "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
     "Air Jordan 1 Mid::primary",
@@ -15,25 +15,65 @@
     "Nike Metcon 10::primary",
     "Nike Zoom Fly 6::primary"
   ],
-  "successfulSearches": 0,
-  "failedSearches": 1,
-  "catalogMarkers": 0,
-  "catalogItems": 0,
-  "candidateItems": 0,
-  "freshItems": 0,
-  "qualifyingAlerts": 0,
-  "qualifyingByCondition": {},
-  "deliveredAlerts": 0,
-  "deliveredByCondition": {},
-  "duplicateSuppressed": 0,
+  "successfulSearches": 7,
+  "failedSearches": 0,
+  "catalogMarkers": 1344,
+  "catalogItems": 854,
+  "candidateItems": 553,
+  "freshItems": 18,
+  "qualifyingAlerts": 8,
+  "qualifyingByCondition": {
+    "veryGood": 4,
+    "newWithTags": 4
+  },
+  "deliveredAlerts": 8,
+  "deliveredByCondition": {
+    "veryGood": 4,
+    "newWithTags": 4
+  },
+  "duplicateSuppressed": 39,
   "discordFailures": 0,
-  "discordRoutes": [],
+  "discordRoutes": [
+    {
+      "configuredAs": "newWithoutTags",
+      "webhookId": "1541037387969462303",
+      "channelId": "1541036356384329819",
+      "guildId": "1540743210488430592",
+      "webhookName": "Dan's NWOT Bot",
+      "detectedCondition": "newWithoutTags",
+      "inspectionError": null
+    },
+    {
+      "configuredAs": "newWithTags",
+      "webhookId": "1541040362997547048",
+      "channelId": "1541040152372183140",
+      "guildId": "1540743210488430592",
+      "webhookName": "Dan's New With Tags Bot",
+      "detectedCondition": "newWithTags",
+      "inspectionError": null
+    },
+    {
+      "configuredAs": "veryGood",
+      "webhookId": "1541040545483198516",
+      "channelId": "1541040213780992171",
+      "guildId": "1540743210488430592",
+      "webhookName": "Dan's Very Good Condition Bot",
+      "detectedCondition": "veryGood",
+      "inspectionError": null
+    }
+  ],
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 0,
-  "rejects": {},
-  "failures": {
-    "Nike Any Shoe Bargain::generic": "Vinted guard cooldown active for 44s"
-  }
+  "detailFetches": 12,
+  "rejects": {
+    "recovery-no-fresh-signal": 496,
+    "condition": 4,
+    "keyword": 1,
+    "score": 1,
+    "size": 2,
+    "seller-risk": 1,
+    "seller-check-budget-exhausted": 1
+  },
+  "failures": {}
 }
