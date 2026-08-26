@@ -1,37 +1,37 @@
 {
-  "generatedAt": "2026-08-26T01:52:30.345Z",
-  "stateUpdatedAt": "2026-08-26T01:52:30.345Z",
-  "lastAttemptAt": "2026-08-26T01:52:30.345Z",
-  "lastScanAt": "2026-08-26T01:52:30.345Z",
+  "generatedAt": "2026-08-26T03:09:35.904Z",
+  "stateUpdatedAt": "2026-08-26T03:09:35.904Z",
+  "lastAttemptAt": "2026-08-26T03:09:35.904Z",
+  "lastScanAt": "2026-08-26T03:09:35.904Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike SB Clothing::nike sb clothing",
-    "Nike Vest::nike vest",
-    "Nike Air Max Hoodie::nike air max hoodie",
-    "Nike Zip Hoodie::nike zip hoodie",
-    "Nike Hoodie::nike hoodie",
-    "Nike Sweatshirt::nike sweatshirt"
+    "Nike Track Jacket::nike track jacket",
+    "Nike Joggers::nike joggers",
+    "Nike Trousers::nike trousers",
+    "Nike Sportswear Hoodie::nike sportswear hoodie",
+    "Nike Sportswear Jacket::nike sportswear jacket",
+    "Nike Tech Fleece Windrunner::nike tech fleece windrunner"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1344,
-  "catalogItems": 1069,
-  "candidateItems": 273,
-  "freshItems": 71,
-  "qualifyingAlerts": 21,
+  "catalogMarkers": 1440,
+  "catalogItems": 1014,
+  "candidateItems": 229,
+  "freshItems": 21,
+  "qualifyingAlerts": 8,
   "qualifyingByCondition": {
-    "veryGood": 19,
+    "veryGood": 6,
     "newWithoutTags": 2
   },
-  "deliveredAlerts": 21,
+  "deliveredAlerts": 8,
   "deliveredByCondition": {
-    "veryGood": 19,
+    "veryGood": 6,
     "newWithoutTags": 2
   },
-  "duplicateSuppressed": 19,
+  "duplicateSuppressed": 54,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -65,14 +65,11 @@
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 6,
+  "detailFetches": 0,
   "rejects": {
-    "recovery-no-fresh-signal": 183,
-    "price": 19,
-    "size": 6,
-    "condition": 21,
-    "keyword": 2,
-    "detail-budget-exhausted": 2
+    "recovery-no-fresh-signal": 154,
+    "price": 7,
+    "condition": 6
   },
   "failures": {}
 }
