@@ -1,39 +1,37 @@
 {
-  "generatedAt": "2026-08-26T09:21:51.907Z",
-  "stateUpdatedAt": "2026-08-26T09:21:51.907Z",
-  "lastAttemptAt": "2026-08-26T09:21:51.907Z",
-  "lastScanAt": "2026-08-26T09:21:51.907Z",
+  "generatedAt": "2026-08-26T09:52:00.362Z",
+  "stateUpdatedAt": "2026-08-26T09:52:00.362Z",
+  "lastAttemptAt": "2026-08-26T09:52:00.362Z",
+  "lastScanAt": "2026-08-26T09:52:00.362Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike ACG Canwell Glacier Jacket::nike acg canwell glacier",
-    "Nike Strike Tracksuit::nike strike tracksuit",
-    "Nike Challenger Shorts::nike challenger shorts",
-    "Nike Tech Fleece Joggers::nike tech fleece joggers",
-    "Nike Storm-FIT Puffer::nike storm fit puffer",
-    "Nike Solo Swoosh Hoodie::nike solo swoosh hoodie"
+    "Nike Miler Running Top::nike miler running top",
+    "Nike Tech Fleece Open-Hem Trousers::nike tech fleece open hem trousers",
+    "Nike ACG Lunar Lake Puffer::nike acg lunar lake",
+    "Nike Academy Tracksuit::nike academy tracksuit",
+    "Nike Dri-FIT Running Top::nike dri-fit running top",
+    "Nike Tech Fleece Shorts::nike tech fleece shorts"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1536,
-  "catalogItems": 860,
-  "candidateItems": 333,
-  "freshItems": 18,
-  "qualifyingAlerts": 11,
+  "catalogMarkers": 1567,
+  "catalogItems": 832,
+  "candidateItems": 322,
+  "freshItems": 14,
+  "qualifyingAlerts": 5,
   "qualifyingByCondition": {
-    "veryGood": 6,
-    "newWithoutTags": 3,
-    "newWithTags": 2
+    "veryGood": 4,
+    "newWithoutTags": 1
   },
-  "deliveredAlerts": 11,
+  "deliveredAlerts": 5,
   "deliveredByCondition": {
-    "veryGood": 6,
-    "newWithoutTags": 3,
-    "newWithTags": 2
+    "veryGood": 4,
+    "newWithoutTags": 1
   },
-  "duplicateSuppressed": 72,
+  "duplicateSuppressed": 64,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,10 +67,10 @@
   "pendingDeliveries": 0,
   "detailFetches": 0,
   "rejects": {
-    "condition": 3,
-    "recovery-no-fresh-signal": 243,
-    "weak-margin": 2,
-    "price": 2
+    "recovery-no-fresh-signal": 244,
+    "condition": 4,
+    "price": 4,
+    "keyword": 1
   },
   "failures": {}
 }
