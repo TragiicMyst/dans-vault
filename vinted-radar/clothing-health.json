@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-08-26T04:59:04.536Z",
-  "stateUpdatedAt": "2026-08-26T04:59:04.536Z",
-  "lastAttemptAt": "2026-08-26T04:59:04.536Z",
-  "lastScanAt": "2026-08-26T04:59:04.536Z",
+  "generatedAt": "2026-08-26T05:37:01.634Z",
+  "stateUpdatedAt": "2026-08-26T05:37:01.634Z",
+  "lastAttemptAt": "2026-08-26T05:37:01.634Z",
+  "lastScanAt": "2026-08-26T05:37:01.634Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Windrunner Jacket::nike windrunner jacket",
-    "Nike NOCTA Tracksuit::nike nocta tracksuit",
-    "Nike Miler Challenger Running Set::nike miler challenger set",
-    "Nike Football Tech Fleece::nike football tech fleece",
-    "Nike ACG GORE-TEX Jacket::nike acg gore tex jacket",
-    "Nike Club Fleece Full-Zip Hoodie::nike club fleece full zip hoodie"
+    "Nike Strike Top Shorts Set::nike strike top shorts set",
+    "Nike Club Fleece Joggers::nike club fleece joggers",
+    "Nike Sportswear Winterised Jacket::nike sportswear winterised jacket",
+    "Nike NOCTA Joggers::nike nocta joggers",
+    "Nike ACG Fleece::nike acg fleece",
+    "Nike Club Fleece Open-Hem Trousers::nike club fleece open hem trousers"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1728,
-  "catalogItems": 868,
-  "candidateItems": 394,
-  "freshItems": 7,
-  "qualifyingAlerts": 2,
+  "catalogMarkers": 1536,
+  "catalogItems": 924,
+  "candidateItems": 259,
+  "freshItems": 2,
+  "qualifyingAlerts": 1,
   "qualifyingByCondition": {
-    "veryGood": 2
+    "veryGood": 1
   },
-  "deliveredAlerts": 2,
+  "deliveredAlerts": 1,
   "deliveredByCondition": {
-    "veryGood": 2
+    "veryGood": 1
   },
-  "duplicateSuppressed": 47,
+  "duplicateSuppressed": 59,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -65,9 +65,7 @@
   "pendingDeliveries": 0,
   "detailFetches": 0,
   "rejects": {
-    "stale": 340,
-    "score": 1,
-    "price": 3,
+    "recovery-no-fresh-signal": 198,
     "condition": 1
   },
   "failures": {}
