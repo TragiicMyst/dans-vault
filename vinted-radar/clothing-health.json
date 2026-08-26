@@ -1,39 +1,37 @@
 {
-  "generatedAt": "2026-08-26T14:22:57.739Z",
-  "stateUpdatedAt": "2026-08-26T14:22:57.739Z",
-  "lastAttemptAt": "2026-08-26T14:22:57.739Z",
-  "lastScanAt": "2026-08-26T14:22:57.739Z",
+  "generatedAt": "2026-08-26T14:30:35.036Z",
+  "stateUpdatedAt": "2026-08-26T14:30:35.036Z",
+  "lastAttemptAt": "2026-08-26T14:30:35.036Z",
+  "lastScanAt": "2026-08-26T14:30:35.036Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Track Pants::nike track pants",
-    "Nike Woven Trousers::nike woven trousers",
-    "Nike Tracksuit::nike tracksuit",
-    "Nike Vintage Clothing::vintage nike",
-    "Nike SB Clothing::nike sb clothing",
-    "Nike Vest::nike vest"
+    "Nike Air Max Hoodie::nike air max hoodie",
+    "Nike Zip Hoodie::nike zip hoodie",
+    "Nike Hoodie::nike hoodie",
+    "Nike Sweatshirt::nike sweatshirt",
+    "Nike Track Jacket::nike track jacket",
+    "Nike Joggers::nike joggers"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 1053,
-  "candidateItems": 360,
-  "freshItems": 234,
-  "qualifyingAlerts": 80,
+  "catalogItems": 1091,
+  "candidateItems": 257,
+  "freshItems": 172,
+  "qualifyingAlerts": 72,
   "qualifyingByCondition": {
-    "veryGood": 73,
-    "newWithoutTags": 6,
-    "newWithTags": 1
+    "veryGood": 65,
+    "newWithoutTags": 7
   },
-  "deliveredAlerts": 80,
+  "deliveredAlerts": 72,
   "deliveredByCondition": {
-    "veryGood": 73,
-    "newWithoutTags": 6,
-    "newWithTags": 1
+    "veryGood": 65,
+    "newWithoutTags": 7
   },
-  "duplicateSuppressed": 23,
+  "duplicateSuppressed": 17,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,12 +67,13 @@
   "pendingDeliveries": 0,
   "detailFetches": 6,
   "rejects": {
-    "recovery-no-fresh-signal": 103,
-    "keyword": 6,
-    "condition": 66,
-    "price": 62,
-    "size": 5,
-    "detail-budget-exhausted": 15
+    "price": 32,
+    "stale": 68,
+    "condition": 48,
+    "size": 4,
+    "keyword": 7,
+    "weak-margin": 1,
+    "detail-budget-exhausted": 8
   },
   "failures": {}
 }
