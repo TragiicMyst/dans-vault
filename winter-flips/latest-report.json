@@ -2,21 +2,21 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-08-26T14:08:59.299Z",
+    "startedAt": "2026-08-26T15:01:51.870Z",
     "searchGroups": [
-      "hunter:berghaus-puffer",
-      "hunter:napapijri-jacket",
-      "tnf-1996-nuptse:north-face-nuptse-700",
-      "tnf-1996-nuptse:north-face-1996-nuptse",
-      "tnf-himalayan:north-face-himalayan-puffer",
-      "tnf-himalayan:north-face-hmlyn-parka",
-      "tnf-baltoro:north-face-baltoro-jacket",
-      "tnf-summit-down:north-face-summit-series-down"
+      "napapijri-skidoo:napapijri-skidoo-jacket",
+      "napapijri-skidoo:napapijri-rainforest-winter",
+      "hunter:north-face-coat",
+      "hunter:north-face-puffer",
+      "hunter:north-face-700",
+      "hunter:mens-north-face-jacket",
+      "hunter:rab-puffer",
+      "hunter:rab-down-jacket"
     ],
     "vintedItems": 280,
-    "freshItems": 1,
+    "freshItems": 16,
     "freshByAge": 0,
-    "freshByNewId": 1,
+    "freshByNewId": 16,
     "bootstrapBlocked": 0,
     "staleBlocked": 1,
     "candidates": 0,
@@ -25,6 +25,18 @@
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-08-26T14:59:10.736Z",
+      "platform": "VINTED",
+      "id": "9786602060",
+      "title": "berghaus puffer jacket",
+      "url": "https://www.vinted.co.uk/items/9786602060-berghaus-puffer-jacket",
+      "modelId": "berghaus-down",
+      "buyPrice": 17,
+      "estimatedNetProfit": 36.71,
+      "roi": 215.94,
+      "score": 92
+    },
     {
       "at": "2026-08-26T13:10:01.746Z",
       "platform": "VINTED",
