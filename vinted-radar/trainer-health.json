@@ -1,31 +1,37 @@
 {
-  "generatedAt": "2026-08-26T05:42:32.690Z",
-  "stateUpdatedAt": "2026-08-26T05:42:32.690Z",
-  "lastAttemptAt": "2026-08-26T05:42:32.690Z",
-  "lastScanAt": "2026-08-26T05:42:32.690Z",
+  "generatedAt": "2026-08-26T06:06:09.073Z",
+  "stateUpdatedAt": "2026-08-26T06:06:09.073Z",
+  "lastAttemptAt": "2026-08-26T06:06:09.073Z",
+  "lastScanAt": "2026-08-26T06:06:09.073Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Pegasus Premium::primary",
-    "Nike Pegasus Trail 5 GORE-TEX::primary",
-    "Nike TN::primary",
-    "Nike Air Max Plus 3::primary",
-    "Nike Air Max Plus VII::primary",
-    "Nike Air Max 95::primary"
+    "Nike Air Max 90::primary",
+    "Nike Air Max 90 Drift::primary",
+    "Nike Air Max 97::primary",
+    "Nike Air Max 270::primary",
+    "Nike Air Max Dn::primary",
+    "Nike Air Max 1::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 947,
-  "candidateItems": 441,
-  "freshItems": 2,
-  "qualifyingAlerts": 0,
-  "qualifyingByCondition": {},
-  "deliveredAlerts": 0,
-  "deliveredByCondition": {},
-  "duplicateSuppressed": 86,
+  "catalogItems": 990,
+  "candidateItems": 565,
+  "freshItems": 19,
+  "qualifyingAlerts": 7,
+  "qualifyingByCondition": {
+    "veryGood": 6,
+    "newWithTags": 1
+  },
+  "deliveredAlerts": 7,
+  "deliveredByCondition": {
+    "veryGood": 6,
+    "newWithTags": 1
+  },
+  "duplicateSuppressed": 40,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -59,11 +65,15 @@
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 1,
+  "detailFetches": 12,
   "rejects": {
-    "stale": 353,
+    "recovery-no-fresh-signal": 506,
     "price": 1,
-    "seller-risk": 1
+    "condition": 2,
+    "size": 5,
+    "keyword": 1,
+    "seller-check-budget-exhausted": 2,
+    "detail-budget-exhausted": 1
   },
   "failures": {}
 }
