@@ -1,35 +1,31 @@
 {
-  "generatedAt": "2026-08-26T05:37:01.634Z",
-  "stateUpdatedAt": "2026-08-26T05:37:01.634Z",
-  "lastAttemptAt": "2026-08-26T05:37:01.634Z",
-  "lastScanAt": "2026-08-26T05:37:01.634Z",
+  "generatedAt": "2026-08-26T05:44:16.145Z",
+  "stateUpdatedAt": "2026-08-26T05:44:16.145Z",
+  "lastAttemptAt": "2026-08-26T05:44:16.145Z",
+  "lastScanAt": "2026-08-26T05:44:16.145Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Strike Top Shorts Set::nike strike top shorts set",
-    "Nike Club Fleece Joggers::nike club fleece joggers",
-    "Nike Sportswear Winterised Jacket::nike sportswear winterised jacket",
-    "Nike NOCTA Joggers::nike nocta joggers",
-    "Nike ACG Fleece::nike acg fleece",
-    "Nike Club Fleece Open-Hem Trousers::nike club fleece open hem trousers"
+    "Nike Trail Repel Jacket::nike trail repel jacket",
+    "Jordan Flight Fleece Hoodie::jordan flight fleece hoodie",
+    "Nike ACG Wolf Tree::nike acg wolf tree",
+    "Nike Club Fleece Crew::nike club fleece crew",
+    "Nike Running Division Jacket::nike running division jacket",
+    "Jordan Flight Fleece Joggers::jordan flight fleece joggers"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1536,
-  "catalogItems": 924,
-  "candidateItems": 259,
-  "freshItems": 2,
-  "qualifyingAlerts": 1,
-  "qualifyingByCondition": {
-    "veryGood": 1
-  },
-  "deliveredAlerts": 1,
-  "deliveredByCondition": {
-    "veryGood": 1
-  },
-  "duplicateSuppressed": 59,
+  "catalogMarkers": 1248,
+  "catalogItems": 772,
+  "candidateItems": 251,
+  "freshItems": 0,
+  "qualifyingAlerts": 0,
+  "qualifyingByCondition": {},
+  "deliveredAlerts": 0,
+  "deliveredByCondition": {},
+  "duplicateSuppressed": 11,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -65,8 +61,7 @@
   "pendingDeliveries": 0,
   "detailFetches": 0,
   "rejects": {
-    "recovery-no-fresh-signal": 198,
-    "condition": 1
+    "stale": 240
   },
   "failures": {}
 }
