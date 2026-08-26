@@ -1,35 +1,37 @@
 {
-  "generatedAt": "2026-08-26T08:57:36.942Z",
-  "stateUpdatedAt": "2026-08-26T08:57:36.942Z",
-  "lastAttemptAt": "2026-08-26T08:57:36.942Z",
-  "lastScanAt": "2026-08-26T08:57:36.942Z",
+  "generatedAt": "2026-08-26T09:02:36.849Z",
+  "stateUpdatedAt": "2026-08-26T09:02:36.849Z",
+  "lastAttemptAt": "2026-08-26T09:02:36.849Z",
+  "lastScanAt": "2026-08-26T09:02:36.849Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike P-6000::primary",
-    "Nike V5 RNR::primary",
-    "Nike Vomero 5::primary",
-    "Nike Vomero 18::primary",
-    "Nike Vomero Plus::primary",
-    "Nike Vomero Premium::primary"
+    "Nike Pegasus Premium::primary",
+    "Nike Pegasus Trail 5 GORE-TEX::primary",
+    "Nike TN::primary",
+    "Nike Air Max Plus 3::primary",
+    "Nike Air Max Plus VII::primary",
+    "Nike Air Max 95::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1262,
-  "catalogItems": 701,
-  "candidateItems": 456,
-  "freshItems": 18,
-  "qualifyingAlerts": 4,
+  "catalogMarkers": 1344,
+  "catalogItems": 1019,
+  "candidateItems": 480,
+  "freshItems": 25,
+  "qualifyingAlerts": 6,
   "qualifyingByCondition": {
-    "veryGood": 4
+    "veryGood": 5,
+    "newWithTags": 1
   },
-  "deliveredAlerts": 4,
+  "deliveredAlerts": 6,
   "deliveredByCondition": {
-    "veryGood": 4
+    "veryGood": 5,
+    "newWithTags": 1
   },
-  "duplicateSuppressed": 54,
+  "duplicateSuppressed": 81,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -65,12 +67,14 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 384,
-    "size": 7,
+    "stale": 374,
+    "price": 4,
+    "size": 4,
+    "weak-margin": 1,
+    "condition": 7,
+    "score": 1,
     "seller-risk": 1,
-    "keyword": 2,
-    "weak-margin": 3,
-    "seller-check-budget-exhausted": 1
+    "keyword": 1
   },
   "failures": {}
 }
