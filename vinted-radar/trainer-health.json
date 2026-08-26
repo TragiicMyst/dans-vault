@@ -1,37 +1,35 @@
 {
-  "generatedAt": "2026-08-26T00:04:20.521Z",
-  "stateUpdatedAt": "2026-08-26T00:04:20.521Z",
-  "lastAttemptAt": "2026-08-26T00:04:20.521Z",
-  "lastScanAt": "2026-08-26T00:04:20.521Z",
+  "generatedAt": "2026-08-26T00:09:21.230Z",
+  "stateUpdatedAt": "2026-08-26T00:09:21.230Z",
+  "lastAttemptAt": "2026-08-26T00:09:21.230Z",
+  "lastScanAt": "2026-08-26T00:09:21.230Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Air Jordan 1 Mid::primary",
-    "Air Jordan 4::primary",
-    "Nike Initiator::primary",
-    "Nike Air Max Moto 2K::primary",
-    "Nike Metcon 10::primary",
-    "Nike Zoom Fly 6::primary"
+    "Nike Air Max Bargain::generic",
+    "Nike Running Trainer Bargain::generic",
+    "Nike Lifestyle Trainer Bargain::generic",
+    "Nike Football Boot Bargain::generic",
+    "Nike Basketball Shoe Bargain::generic",
+    "Nike SB Shoe Bargain::generic"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 857,
-  "candidateItems": 528,
-  "freshItems": 23,
-  "qualifyingAlerts": 4,
+  "catalogItems": 963,
+  "candidateItems": 396,
+  "freshItems": 80,
+  "qualifyingAlerts": 2,
   "qualifyingByCondition": {
-    "veryGood": 3,
-    "newWithTags": 1
+    "veryGood": 2
   },
-  "deliveredAlerts": 4,
+  "deliveredAlerts": 2,
   "deliveredByCondition": {
-    "veryGood": 3,
-    "newWithTags": 1
+    "veryGood": 2
   },
-  "duplicateSuppressed": 40,
+  "duplicateSuppressed": 6,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,12 +65,14 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 465,
+    "stale": 310,
     "size": 6,
-    "keyword": 2,
-    "score": 2,
-    "seller-check-budget-exhausted": 8,
-    "detail-budget-exhausted": 1
+    "price": 6,
+    "condition": 8,
+    "keyword": 4,
+    "seller-risk": 4,
+    "detail-budget-exhausted": 22,
+    "seller-check-budget-exhausted": 28
   },
   "failures": {}
 }
