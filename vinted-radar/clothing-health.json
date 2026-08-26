@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-08-26T04:54:06.793Z",
-  "stateUpdatedAt": "2026-08-26T04:54:06.793Z",
-  "lastAttemptAt": "2026-08-26T04:54:06.793Z",
-  "lastScanAt": "2026-08-26T04:54:06.793Z",
+  "generatedAt": "2026-08-26T04:59:04.536Z",
+  "stateUpdatedAt": "2026-08-26T04:59:04.536Z",
+  "lastAttemptAt": "2026-08-26T04:59:04.536Z",
+  "lastScanAt": "2026-08-26T04:59:04.536Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Stride Shorts::nike stride shorts",
-    "Nike Tech Fleece Tracksuit::nike tech fleece tracksuit",
-    "Nike ACG Skull Peak Jacket::nike acg skull peak",
-    "Nike Club Fleece Pullover Hoodie::nike club fleece hoodie",
-    "Nike Unlimited Shorts::nike unlimited shorts",
-    "Nike Tech Fleece Colour-Block Windrunner::nike tech fleece colour block windrunner"
+    "Nike Windrunner Jacket::nike windrunner jacket",
+    "Nike NOCTA Tracksuit::nike nocta tracksuit",
+    "Nike Miler Challenger Running Set::nike miler challenger set",
+    "Nike Football Tech Fleece::nike football tech fleece",
+    "Nike ACG GORE-TEX Jacket::nike acg gore tex jacket",
+    "Nike Club Fleece Full-Zip Hoodie::nike club fleece full zip hoodie"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1728,
-  "catalogItems": 936,
-  "candidateItems": 302,
-  "freshItems": 8,
-  "qualifyingAlerts": 3,
+  "catalogItems": 868,
+  "candidateItems": 394,
+  "freshItems": 7,
+  "qualifyingAlerts": 2,
   "qualifyingByCondition": {
-    "veryGood": 3
+    "veryGood": 2
   },
-  "deliveredAlerts": 3,
+  "deliveredAlerts": 2,
   "deliveredByCondition": {
-    "veryGood": 3
+    "veryGood": 2
   },
-  "duplicateSuppressed": 61,
+  "duplicateSuppressed": 47,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -65,11 +65,10 @@
   "pendingDeliveries": 0,
   "detailFetches": 0,
   "rejects": {
-    "recovery-no-fresh-signal": 233,
-    "price": 2,
-    "condition": 1,
+    "stale": 340,
     "score": 1,
-    "clothing-variety-cap": 1
+    "price": 3,
+    "condition": 1
   },
   "failures": {}
 }
