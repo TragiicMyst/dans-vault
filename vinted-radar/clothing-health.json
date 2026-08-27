@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-08-27T03:23:20.028Z",
-  "stateUpdatedAt": "2026-08-27T03:23:20.028Z",
-  "lastAttemptAt": "2026-08-27T03:23:20.028Z",
-  "lastScanAt": "2026-08-27T03:23:20.028Z",
+  "generatedAt": "2026-08-27T05:08:07.851Z",
+  "stateUpdatedAt": "2026-08-27T05:08:07.851Z",
+  "lastAttemptAt": "2026-08-27T05:08:07.851Z",
+  "lastScanAt": "2026-08-27T05:08:07.851Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Miler Repel Jacket::nike miler repel jacket",
-    "Nike Solo Swoosh Joggers::nike solo swoosh joggers",
-    "Nike Stride Running Jacket::nike stride running jacket",
-    "Nike T-Shirt::nike t shirt",
-    "Nike Long Sleeve Top::nike long sleeve top",
-    "Nike Polo::nike polo"
+    "Nike Football Shirt::nike football shirt",
+    "Nike Training Top::nike training top",
+    "Nike Dri-FIT Top::nike dri fit top",
+    "Nike Quarter Zip::nike quarter zip",
+    "Nike Fleece::nike fleece",
+    "Nike Gilet::nike gilet"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 902,
-  "candidateItems": 332,
-  "freshItems": 49,
-  "qualifyingAlerts": 24,
+  "catalogItems": 1025,
+  "candidateItems": 308,
+  "freshItems": 112,
+  "qualifyingAlerts": 48,
   "qualifyingByCondition": {
-    "veryGood": 21,
-    "newWithoutTags": 2,
-    "newWithTags": 1
+    "veryGood": 38,
+    "newWithoutTags": 7,
+    "newWithTags": 3
   },
-  "deliveredAlerts": 24,
+  "deliveredAlerts": 48,
   "deliveredByCondition": {
-    "veryGood": 21,
-    "newWithoutTags": 2,
-    "newWithTags": 1
+    "veryGood": 38,
+    "newWithoutTags": 7,
+    "newWithTags": 3
   },
-  "duplicateSuppressed": 30,
+  "duplicateSuppressed": 6,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,13 +67,14 @@
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 0,
+  "detailFetches": 6,
   "rejects": {
-    "recovery-no-fresh-signal": 253,
-    "price": 14,
-    "condition": 7,
-    "weak-margin": 2,
-    "keyword": 2
+    "recovery-no-fresh-signal": 190,
+    "size": 6,
+    "price": 36,
+    "condition": 15,
+    "keyword": 4,
+    "detail-budget-exhausted": 3
   },
   "failures": {}
 }
