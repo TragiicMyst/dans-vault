@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-08-27T03:23:16.957Z",
-  "stateUpdatedAt": "2026-08-27T03:23:16.957Z",
-  "lastAttemptAt": "2026-08-27T03:23:16.957Z",
-  "lastScanAt": "2026-08-27T03:23:16.957Z",
+  "generatedAt": "2026-08-27T03:28:16.928Z",
+  "stateUpdatedAt": "2026-08-27T03:28:16.928Z",
+  "lastAttemptAt": "2026-08-27T03:28:16.928Z",
+  "lastScanAt": "2026-08-27T03:28:16.928Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Air Jordan 1 Mid::primary",
-    "Air Jordan 4::primary",
-    "Nike Initiator::primary",
-    "Nike Air Max Moto 2K::primary",
-    "Nike Metcon 10::primary",
-    "Nike Zoom Fly 6::primary"
+    "Nike Air Max Bargain::generic",
+    "Nike Running Trainer Bargain::generic",
+    "Nike Lifestyle Trainer Bargain::generic",
+    "Nike Football Boot Bargain::generic",
+    "Nike Basketball Shoe Bargain::generic",
+    "Nike SB Shoe Bargain::generic"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 847,
-  "candidateItems": 547,
-  "freshItems": 40,
-  "qualifyingAlerts": 5,
+  "catalogItems": 895,
+  "candidateItems": 385,
+  "freshItems": 97,
+  "qualifyingAlerts": 4,
   "qualifyingByCondition": {
-    "veryGood": 3,
+    "veryGood": 2,
     "newWithTags": 1,
     "newWithoutTags": 1
   },
-  "deliveredAlerts": 5,
+  "deliveredAlerts": 4,
   "deliveredByCondition": {
-    "veryGood": 3,
+    "veryGood": 2,
     "newWithTags": 1,
     "newWithoutTags": 1
   },
-  "duplicateSuppressed": 40,
+  "duplicateSuppressed": 2,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,14 +69,14 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "recovery-no-fresh-signal": 467,
-    "price": 2,
-    "condition": 2,
-    "keyword": 3,
+    "stale": 286,
+    "price": 18,
+    "condition": 11,
     "size": 6,
-    "seller-risk": 1,
-    "seller-check-budget-exhausted": 16,
-    "detail-budget-exhausted": 5
+    "keyword": 6,
+    "seller-risk": 2,
+    "detail-budget-exhausted": 23,
+    "seller-check-budget-exhausted": 27
   },
   "failures": {}
 }
