@@ -1,37 +1,39 @@
 {
-  "generatedAt": "2026-08-27T02:16:02.834Z",
-  "stateUpdatedAt": "2026-08-27T02:16:02.834Z",
-  "lastAttemptAt": "2026-08-27T02:16:02.834Z",
-  "lastScanAt": "2026-08-27T02:16:02.834Z",
+  "generatedAt": "2026-08-27T02:21:03.180Z",
+  "stateUpdatedAt": "2026-08-27T02:21:03.180Z",
+  "lastAttemptAt": "2026-08-27T02:21:03.180Z",
+  "lastScanAt": "2026-08-27T02:21:03.180Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Air Max 90::primary",
-    "Nike Air Max 90 Drift::primary",
-    "Nike Air Max 97::primary",
-    "Nike Air Max 270::primary",
-    "Nike Air Max Dn::primary",
-    "Nike Air Max 1::primary"
+    "Nike Shox TL::primary",
+    "Nike Shox R4::primary",
+    "Nike Shox Ride 2::primary",
+    "Nike Air Force 1::primary",
+    "Nike Dunk Low::primary",
+    "Air Jordan 1 Low::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 1000,
-  "candidateItems": 544,
-  "freshItems": 88,
+  "catalogItems": 884,
+  "candidateItems": 492,
+  "freshItems": 102,
   "qualifyingAlerts": 6,
   "qualifyingByCondition": {
     "newWithTags": 2,
-    "veryGood": 4
+    "newWithoutTags": 1,
+    "veryGood": 3
   },
   "deliveredAlerts": 6,
   "deliveredByCondition": {
     "newWithTags": 2,
-    "veryGood": 4
+    "newWithoutTags": 1,
+    "veryGood": 3
   },
-  "duplicateSuppressed": 20,
+  "duplicateSuppressed": 31,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,14 +69,15 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "keyword": 5,
-    "stale": 436,
-    "price": 5,
-    "condition": 8,
+    "stale": 359,
+    "condition": 15,
+    "price": 3,
     "size": 5,
+    "keyword": 11,
+    "weak-margin": 4,
     "seller-risk": 1,
-    "seller-check-budget-exhausted": 32,
-    "detail-budget-exhausted": 26
+    "seller-check-budget-exhausted": 34,
+    "detail-budget-exhausted": 23
   },
   "failures": {}
 }
