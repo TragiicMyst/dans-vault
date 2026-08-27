@@ -1,39 +1,37 @@
 {
-  "generatedAt": "2026-08-27T05:08:07.851Z",
-  "stateUpdatedAt": "2026-08-27T05:08:07.851Z",
-  "lastAttemptAt": "2026-08-27T05:08:07.851Z",
-  "lastScanAt": "2026-08-27T05:08:07.851Z",
+  "generatedAt": "2026-08-27T14:28:44.513Z",
+  "stateUpdatedAt": "2026-08-27T14:28:44.513Z",
+  "lastAttemptAt": "2026-08-27T14:28:44.513Z",
+  "lastScanAt": "2026-08-27T14:28:44.513Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Football Shirt::nike football shirt",
-    "Nike Training Top::nike training top",
-    "Nike Dri-FIT Top::nike dri fit top",
-    "Nike Quarter Zip::nike quarter zip",
-    "Nike Fleece::nike fleece",
-    "Nike Gilet::nike gilet"
+    "Nike Windbreaker::nike windbreaker",
+    "Nike Anorak::nike anorak",
+    "Nike Rain Jacket::nike rain jacket",
+    "Nike Woven Jacket::nike woven jacket",
+    "Nike Bomber Jacket::nike bomber jacket",
+    "Nike Coat::nike coat"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1344,
-  "catalogItems": 1025,
-  "candidateItems": 308,
-  "freshItems": 112,
-  "qualifyingAlerts": 48,
+  "catalogMarkers": 1333,
+  "catalogItems": 1101,
+  "candidateItems": 224,
+  "freshItems": 130,
+  "qualifyingAlerts": 53,
   "qualifyingByCondition": {
-    "veryGood": 38,
-    "newWithoutTags": 7,
-    "newWithTags": 3
+    "veryGood": 48,
+    "newWithoutTags": 5
   },
-  "deliveredAlerts": 48,
+  "deliveredAlerts": 53,
   "deliveredByCondition": {
-    "veryGood": 38,
-    "newWithoutTags": 7,
-    "newWithTags": 3
+    "veryGood": 48,
+    "newWithoutTags": 5
   },
-  "duplicateSuppressed": 6,
+  "duplicateSuppressed": 11,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,12 +67,12 @@
   "pendingDeliveries": 0,
   "detailFetches": 6,
   "rejects": {
-    "recovery-no-fresh-signal": 190,
-    "size": 6,
-    "price": 36,
-    "condition": 15,
+    "size": 5,
+    "price": 41,
     "keyword": 4,
-    "detail-budget-exhausted": 3
+    "condition": 19,
+    "recovery-no-fresh-signal": 83,
+    "detail-budget-exhausted": 8
   },
   "failures": {}
 }
