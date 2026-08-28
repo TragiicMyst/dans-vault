@@ -1,26 +1,26 @@
 {
-  "generatedAt": "2026-08-28T21:31:46.070Z",
-  "stateUpdatedAt": "2026-08-28T21:31:46.070Z",
-  "lastAttemptAt": "2026-08-28T21:31:46.070Z",
-  "lastScanAt": "2026-08-28T21:31:46.070Z",
+  "generatedAt": "2026-08-28T21:36:46.084Z",
+  "stateUpdatedAt": "2026-08-28T21:36:46.084Z",
+  "lastAttemptAt": "2026-08-28T21:36:46.084Z",
+  "lastScanAt": "2026-08-28T21:36:46.084Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Air Jordan 4::primary",
-    "Nike Initiator::primary",
-    "Nike Air Max Moto 2K::primary",
-    "Nike Metcon 10::primary",
-    "Nike Zoom Fly 6::primary",
-    "Nike Air Max Bargain::generic"
+    "Nike Running Trainer Bargain::generic",
+    "Nike Lifestyle Trainer Bargain::generic",
+    "Nike Football Boot Bargain::generic",
+    "Nike Basketball Shoe Bargain::generic",
+    "Nike SB Shoe Bargain::generic",
+    "Nike P-6000::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1343,
-  "catalogItems": 839,
-  "candidateItems": 463,
-  "freshItems": 144,
+  "catalogItems": 894,
+  "candidateItems": 369,
+  "freshItems": 211,
   "qualifyingAlerts": 4,
   "qualifyingByCondition": {
     "veryGood": 4
@@ -29,7 +29,7 @@
   "deliveredByCondition": {
     "veryGood": 4
   },
-  "duplicateSuppressed": 30,
+  "duplicateSuppressed": 2,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -65,15 +65,13 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "price": 8,
-    "stale": 289,
-    "size": 7,
-    "condition": 14,
-    "keyword": 8,
-    "seller-risk": 1,
-    "weak-margin": 3,
-    "seller-check-budget-exhausted": 76,
-    "detail-budget-exhausted": 23
+    "stale": 156,
+    "keyword": 24,
+    "condition": 70,
+    "size": 8,
+    "price": 40,
+    "detail-budget-exhausted": 38,
+    "seller-check-budget-exhausted": 27
   },
   "failures": {}
 }
