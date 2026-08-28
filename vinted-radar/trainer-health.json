@@ -1,78 +1,53 @@
 {
-  "generatedAt": "2026-08-28T00:00:55.191Z",
-  "stateUpdatedAt": "2026-08-28T00:00:55.191Z",
-  "lastAttemptAt": "2026-08-28T00:00:55.191Z",
+  "generatedAt": "2026-08-28T00:05:54.522Z",
+  "stateUpdatedAt": "2026-08-28T00:05:54.522Z",
+  "lastAttemptAt": "2026-08-28T00:05:54.522Z",
   "lastScanAt": "2026-08-28T00:00:55.191Z",
-  "cooldownUntil": null,
-  "healthyScan": true,
-  "healthReason": "all-selected-searches-completed",
+  "cooldownUntil": "2026-08-28T00:07:52.332Z",
+  "healthyScan": false,
+  "healthReason": "vinted-block-or-challenge",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Air Max Bargain::generic",
-    "Nike Running Trainer Bargain::generic",
-    "Nike Lifestyle Trainer Bargain::generic",
-    "Nike Football Boot Bargain::generic",
-    "Nike Basketball Shoe Bargain::generic",
-    "Nike SB Shoe Bargain::generic"
+    "Nike P-6000::primary",
+    "Nike V5 RNR::primary",
+    "Nike Vomero 5::primary",
+    "Nike Vomero 18::primary",
+    "Nike Vomero Plus::primary",
+    "Nike Vomero Premium::primary"
   ],
-  "successfulSearches": 7,
-  "failedSearches": 0,
-  "catalogMarkers": 1344,
-  "catalogItems": 963,
-  "candidateItems": 422,
-  "freshItems": 188,
-  "qualifyingAlerts": 6,
+  "successfulSearches": 2,
+  "failedSearches": 1,
+  "catalogMarkers": 491,
+  "catalogItems": 333,
+  "candidateItems": 162,
+  "freshItems": 17,
+  "qualifyingAlerts": 2,
   "qualifyingByCondition": {
-    "veryGood": 6
+    "newWithTags": 1,
+    "veryGood": 1
   },
-  "deliveredAlerts": 6,
+  "deliveredAlerts": 2,
   "deliveredByCondition": {
-    "veryGood": 6
+    "newWithTags": 1,
+    "veryGood": 1
   },
-  "duplicateSuppressed": 1,
+  "duplicateSuppressed": 6,
   "discordFailures": 0,
-  "discordRoutes": [
-    {
-      "configuredAs": "newWithoutTags",
-      "webhookId": "1541037387969462303",
-      "channelId": "1541036356384329819",
-      "guildId": "1540743210488430592",
-      "webhookName": "Dan's NWOT Bot",
-      "detectedCondition": "newWithoutTags",
-      "inspectionError": null
-    },
-    {
-      "configuredAs": "newWithTags",
-      "webhookId": "1541040362997547048",
-      "channelId": "1541040152372183140",
-      "guildId": "1540743210488430592",
-      "webhookName": "Dan's New With Tags Bot",
-      "detectedCondition": "newWithTags",
-      "inspectionError": null
-    },
-    {
-      "configuredAs": "veryGood",
-      "webhookId": "1541040545483198516",
-      "channelId": "1541040213780992171",
-      "guildId": "1540743210488430592",
-      "webhookName": "Dan's Very Good Condition Bot",
-      "detectedCondition": "veryGood",
-      "inspectionError": null
-    }
-  ],
+  "discordRoutes": [],
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 12,
+  "detailFetches": 6,
   "rejects": {
-    "stale": 233,
-    "price": 54,
-    "condition": 49,
-    "size": 4,
-    "seller-risk": 2,
-    "keyword": 10,
-    "detail-budget-exhausted": 28,
-    "seller-check-budget-exhausted": 35
+    "stale": 109,
+    "condition": 1,
+    "weak-margin": 2,
+    "size": 3,
+    "price": 4,
+    "keyword": 4,
+    "seller-check-failed": 1
   },
-  "failures": {}
+  "failures": {
+    "Nike V5 RNR::primary": "Vinted guard cooldown active for 44s"
+  }
 }
