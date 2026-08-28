@@ -1,35 +1,37 @@
 {
-  "generatedAt": "2026-08-28T11:16:12.309Z",
-  "stateUpdatedAt": "2026-08-28T11:16:12.309Z",
-  "lastAttemptAt": "2026-08-28T11:16:12.309Z",
-  "lastScanAt": "2026-08-28T11:16:12.309Z",
+  "generatedAt": "2026-08-28T11:21:12.022Z",
+  "stateUpdatedAt": "2026-08-28T11:21:12.022Z",
+  "lastAttemptAt": "2026-08-28T11:21:12.022Z",
+  "lastScanAt": "2026-08-28T11:21:12.022Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Air Jordan 4::primary",
-    "Nike Initiator::primary",
-    "Nike Air Max Moto 2K::primary",
-    "Nike Metcon 10::primary",
-    "Nike Zoom Fly 6::primary",
-    "Nike Air Max Bargain::generic"
+    "Nike Running Trainer Bargain::generic",
+    "Nike Lifestyle Trainer Bargain::generic",
+    "Nike Football Boot Bargain::generic",
+    "Nike Basketball Shoe Bargain::generic",
+    "Nike SB Shoe Bargain::generic",
+    "Nike P-6000::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1343,
-  "catalogItems": 851,
-  "candidateItems": 467,
-  "freshItems": 130,
-  "qualifyingAlerts": 3,
+  "catalogMarkers": 1340,
+  "catalogItems": 852,
+  "candidateItems": 378,
+  "freshItems": 222,
+  "qualifyingAlerts": 4,
   "qualifyingByCondition": {
+    "newWithTags": 1,
     "veryGood": 3
   },
-  "deliveredAlerts": 3,
+  "deliveredAlerts": 4,
   "deliveredByCondition": {
+    "newWithTags": 1,
     "veryGood": 3
   },
-  "duplicateSuppressed": 32,
+  "duplicateSuppressed": 1,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -65,14 +67,15 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 305,
-    "condition": 16,
-    "keyword": 7,
-    "price": 14,
-    "size": 9,
-    "detail-budget-exhausted": 19,
-    "seller-check-budget-exhausted": 61,
-    "weak-margin": 1
+    "stale": 155,
+    "size": 7,
+    "keyword": 39,
+    "condition": 47,
+    "price": 28,
+    "seller-risk": 1,
+    "seller-check-budget-exhausted": 45,
+    "detail-budget-exhausted": 49,
+    "weak-margin": 2
   },
   "failures": {}
 }
