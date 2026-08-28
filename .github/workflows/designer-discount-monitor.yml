@@ -39,7 +39,9 @@ jobs:
           MIN_FURTHER_DROP: "35"
           MAX_ALERT_PRICE: "120"
           MAX_INITIAL_ALERTS: "8"
-        run: python discount-monitor/monitor.py
+        run: |
+          export DISCOUNT_MONITOR_PAGES_JSON="$(cat discount-monitor/retailers.json)"
+          python discount-monitor/monitor.py
 
       - name: Persist price history
         run: |
