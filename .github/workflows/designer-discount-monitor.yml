@@ -1,0 +1,55 @@
+name: Designer Discount Monitor
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/5 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: designer-discount-monitor
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: discount-monitor/requirements.txt
+
+      - name: Install dependencies
+        run: pip install -r discount-monitor/requirements.txt
+
+      - name: Run designer discount monitor
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_DISCOUNT_WEBHOOK_URL || secrets.DISCORD_WINTER_FLIPS_WEBHOOK_URL }}
+          MIN_TOTAL_DISCOUNT: "65"
+          MIN_FURTHER_DROP: "35"
+          MAX_ALERT_PRICE: "120"
+          MAX_INITIAL_ALERTS: "8"
+        run: python discount-monitor/monitor.py
+
+      - name: Persist price history
+        run: |
+          if git diff --quiet -- discount-monitor/state.json; then
+            echo "No state change"
+            exit 0
+          fi
+          git config user.name "dans-vault-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add discount-monitor/state.json
+          git commit -m "Update designer discount monitor state"
+          git pull --rebase origin main
+          git push origin HEAD:main
