@@ -1,37 +1,35 @@
 {
-  "generatedAt": "2026-08-28T06:55:55.154Z",
-  "stateUpdatedAt": "2026-08-28T06:55:55.154Z",
-  "lastAttemptAt": "2026-08-28T06:55:55.154Z",
-  "lastScanAt": "2026-08-28T06:55:55.154Z",
+  "generatedAt": "2026-08-28T11:11:12.220Z",
+  "stateUpdatedAt": "2026-08-28T11:11:12.220Z",
+  "lastAttemptAt": "2026-08-28T11:11:12.220Z",
+  "lastScanAt": "2026-08-28T11:11:12.220Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Air Max 90 Drift::primary",
-    "Nike Air Max 97::primary",
-    "Nike Air Max 270::primary",
-    "Nike Air Max Dn::primary",
-    "Nike Air Max 1::primary",
-    "Nike Shox TL::primary"
+    "Nike Shox R4::primary",
+    "Nike Shox Ride 2::primary",
+    "Nike Air Force 1::primary",
+    "Nike Dunk Low::primary",
+    "Air Jordan 1 Low::primary",
+    "Air Jordan 1 Mid::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1344,
-  "catalogItems": 979,
-  "candidateItems": 535,
-  "freshItems": 97,
+  "catalogMarkers": 1343,
+  "catalogItems": 887,
+  "candidateItems": 588,
+  "freshItems": 223,
   "qualifyingAlerts": 7,
   "qualifyingByCondition": {
-    "veryGood": 5,
-    "newWithTags": 2
+    "newWithTags": 7
   },
   "deliveredAlerts": 7,
   "deliveredByCondition": {
-    "veryGood": 5,
-    "newWithTags": 2
+    "newWithTags": 7
   },
-  "duplicateSuppressed": 30,
+  "duplicateSuppressed": 12,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,13 +65,15 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 408,
-    "weak-margin": 1,
-    "size": 5,
-    "condition": 6,
-    "keyword": 4,
-    "detail-budget-exhausted": 35,
-    "seller-check-budget-exhausted": 39
+    "recovery-no-fresh-signal": 353,
+    "condition": 42,
+    "keyword": 26,
+    "price": 14,
+    "size": 4,
+    "score": 1,
+    "detail-budget-exhausted": 43,
+    "seller-check-budget-exhausted": 85,
+    "weak-margin": 1
   },
   "failures": {}
 }
