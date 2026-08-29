@@ -1,37 +1,37 @@
 {
-  "generatedAt": "2026-08-29T02:16:02.893Z",
-  "stateUpdatedAt": "2026-08-29T02:16:02.893Z",
-  "lastAttemptAt": "2026-08-29T02:16:02.893Z",
-  "lastScanAt": "2026-08-29T02:16:02.893Z",
+  "generatedAt": "2026-08-29T02:21:02.755Z",
+  "stateUpdatedAt": "2026-08-29T02:21:02.755Z",
+  "lastAttemptAt": "2026-08-29T02:21:02.755Z",
+  "lastScanAt": "2026-08-29T02:21:02.755Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Pegasus Trail 5 GORE-TEX::primary",
-    "Nike TN::primary",
-    "Nike Air Max Plus 3::primary",
-    "Nike Air Max Plus VII::primary",
-    "Nike Air Max 95::primary",
-    "Nike Air Max 90::primary"
+    "Nike Air Max 90 Drift::primary",
+    "Nike Air Max 97::primary",
+    "Nike Air Max 270::primary",
+    "Nike Air Max Dn::primary",
+    "Nike Air Max 1::primary",
+    "Nike Shox TL::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1342,
-  "catalogItems": 1100,
-  "candidateItems": 505,
-  "freshItems": 115,
-  "qualifyingAlerts": 7,
+  "catalogMarkers": 1343,
+  "catalogItems": 988,
+  "candidateItems": 495,
+  "freshItems": 120,
+  "qualifyingAlerts": 5,
   "qualifyingByCondition": {
-    "newWithoutTags": 2,
-    "veryGood": 5
+    "newWithTags": 1,
+    "veryGood": 4
   },
-  "deliveredAlerts": 7,
+  "deliveredAlerts": 5,
   "deliveredByCondition": {
-    "newWithoutTags": 2,
-    "veryGood": 5
+    "newWithTags": 1,
+    "veryGood": 4
   },
-  "duplicateSuppressed": 23,
+  "duplicateSuppressed": 20,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,15 +67,15 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 367,
-    "size": 4,
-    "score": 1,
-    "condition": 16,
-    "weak-margin": 3,
+    "stale": 355,
     "price": 10,
+    "weak-margin": 3,
+    "size": 6,
+    "condition": 13,
     "keyword": 7,
-    "seller-check-budget-exhausted": 48,
-    "detail-budget-exhausted": 19
+    "seller-risk": 1,
+    "seller-check-budget-exhausted": 41,
+    "detail-budget-exhausted": 34
   },
   "failures": {}
 }
