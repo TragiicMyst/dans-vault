@@ -2,29 +2,65 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-08-29T15:19:39.132Z",
+    "startedAt": "2026-08-29T18:38:39.800Z",
     "searchGroups": [
-      "rab-microlight:rab-microlight-alpine",
-      "rab-neutrino:rab-neutrino-pro",
-      "rab-electron:rab-electron-pro",
-      "patagonia-down-sweater:patagonia-down-sweater-jacket",
-      "patagonia-down-sweater:patagonia-down-sweater-hoody",
-      "patagonia-fitz-roy:patagonia-fitz-roy-down",
-      "arcteryx-cerium:arcteryx-cerium-jacket",
-      "arcteryx-cerium:arc-teryx-cerium"
+      "hunter:patagonia-puffer",
+      "hunter:arcteryx-jacket",
+      "hunter:arc-teryx-puffer",
+      "hunter:ralph-lauren-puffer",
+      "hunter:polo-puffer-jacket",
+      "hunter:nike-puffer-jacket",
+      "hunter:berghaus-puffer",
+      "hunter:napapijri-jacket"
     ],
     "vintedItems": 280,
-    "freshItems": 3,
+    "freshItems": 21,
     "freshByAge": 0,
-    "freshByNewId": 3,
+    "freshByNewId": 21,
     "bootstrapBlocked": 0,
-    "staleBlocked": 3,
-    "candidates": 0,
-    "alerts": 0,
+    "staleBlocked": 0,
+    "candidates": 2,
+    "alerts": 1,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-08-29T18:38:52.901Z",
+      "platform": "VINTED",
+      "id": "9821019592",
+      "title": "multicoloured nike puffer jacket pen holder",
+      "url": "https://www.vinted.co.uk/items/9821019592-multicoloured-nike-puffer-jacket-pen-holder",
+      "modelId": "nike-puffer",
+      "buyPrice": 15,
+      "estimatedNetProfit": 41.96,
+      "roi": 279.73,
+      "score": 86
+    },
+    {
+      "at": "2026-08-29T18:32:54.365Z",
+      "platform": "VINTED",
+      "id": "9816756128",
+      "title": "vintage polo ralph lauren tartan overshirt l",
+      "url": "https://www.vinted.co.uk/items/9816756128-vintage-polo-ralph-lauren-tartan-overshirt-l",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 50,
+      "estimatedNetProfit": 32,
+      "roi": 64,
+      "score": 73
+    },
+    {
+      "at": "2026-08-29T18:32:49.234Z",
+      "platform": "VINTED",
+      "id": "9819780460",
+      "title": "kids polo ralph lauren puffer jumper",
+      "url": "https://www.vinted.co.uk/items/9819780460-kids-polo-ralph-lauren-puffer-jumper",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 25,
+      "estimatedNetProfit": 47.58,
+      "roi": 190.32,
+      "score": 93
+    },
     {
       "at": "2026-08-29T10:28:43.883Z",
       "platform": "VINTED",
@@ -228,42 +264,6 @@
       "estimatedNetProfit": 30.09,
       "roi": 60.18,
       "score": 66
-    },
-    {
-      "at": "2026-08-26T23:23:27.041Z",
-      "platform": "VINTED",
-      "id": "9791126038",
-      "title": "nike puffer jacket",
-      "url": "https://www.vinted.co.uk/items/9791126038-nike-puffer-jacket",
-      "modelId": "nike-puffer",
-      "buyPrice": 25,
-      "estimatedNetProfit": 32.15,
-      "roi": 128.6,
-      "score": 92
-    },
-    {
-      "at": "2026-08-26T18:13:46.450Z",
-      "platform": "VINTED",
-      "id": "9788582317",
-      "title": "the north face yellow black puffer gilet 700 down vest",
-      "url": "https://www.vinted.co.uk/items/9788582317-the-north-face-yellow-black-puffer-gilet-700-down-vest",
-      "modelId": "tnf-1996-nuptse",
-      "buyPrice": 35,
-      "estimatedNetProfit": 33.9,
-      "roi": 96.86,
-      "score": 83
-    },
-    {
-      "at": "2026-08-26T16:23:07.116Z",
-      "platform": "VINTED",
-      "id": "9786376414",
-      "title": "nike puffer coat girls",
-      "url": "https://www.vinted.co.uk/items/9786376414-nike-puffer-coat-girls",
-      "modelId": "nike-puffer",
-      "buyPrice": 8.5,
-      "estimatedNetProfit": 44.94,
-      "roi": 528.71,
-      "score": 87
     }
   ]
 }
