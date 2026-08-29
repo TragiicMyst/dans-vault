@@ -1,37 +1,39 @@
 {
-  "generatedAt": "2026-08-29T21:09:30.657Z",
-  "stateUpdatedAt": "2026-08-29T21:09:30.657Z",
-  "lastAttemptAt": "2026-08-29T21:09:30.657Z",
-  "lastScanAt": "2026-08-29T21:09:30.657Z",
+  "generatedAt": "2026-08-29T21:40:02.335Z",
+  "stateUpdatedAt": "2026-08-29T21:40:02.335Z",
+  "lastAttemptAt": "2026-08-29T21:40:02.335Z",
+  "lastScanAt": "2026-08-29T21:40:02.335Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Hoodie::nike hoodie",
-    "Nike Sweatshirt::nike sweatshirt",
-    "Nike Track Jacket::nike track jacket",
-    "Nike Joggers::nike joggers",
-    "Nike Trousers::nike trousers",
-    "Nike Sportswear Hoodie::nike sportswear hoodie"
+    "Nike Sportswear Jacket::nike sportswear jacket",
+    "Nike Tech Fleece Windrunner::nike tech fleece windrunner",
+    "Nike Puffer Jacket::nike puffer jacket",
+    "Nike NOCTA Track Jacket::nike nocta track jacket",
+    "Nike Miler Shorts::nike miler shorts",
+    "Nike Tech Fleece Full-Zip Hoodie::nike tech fleece full zip hoodie"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1342,
-  "catalogItems": 1077,
-  "candidateItems": 241,
-  "freshItems": 186,
-  "qualifyingAlerts": 76,
+  "catalogMarkers": 1467,
+  "catalogItems": 811,
+  "candidateItems": 252,
+  "freshItems": 107,
+  "qualifyingAlerts": 44,
   "qualifyingByCondition": {
-    "veryGood": 69,
-    "newWithoutTags": 7
+    "veryGood": 36,
+    "newWithoutTags": 6,
+    "newWithTags": 2
   },
-  "deliveredAlerts": 76,
+  "deliveredAlerts": 44,
   "deliveredByCondition": {
-    "veryGood": 69,
-    "newWithoutTags": 7
+    "veryGood": 36,
+    "newWithoutTags": 6,
+    "newWithTags": 2
   },
-  "duplicateSuppressed": 1,
+  "duplicateSuppressed": 33,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,13 +69,12 @@
   "pendingDeliveries": 0,
   "detailFetches": 6,
   "rejects": {
-    "price": 43,
-    "recovery-no-fresh-signal": 54,
-    "condition": 46,
-    "keyword": 14,
+    "price": 27,
+    "recovery-no-fresh-signal": 112,
+    "keyword": 8,
+    "condition": 21,
     "size": 5,
-    "weak-margin": 1,
-    "detail-budget-exhausted": 1
+    "score": 2
   },
   "failures": {}
 }
