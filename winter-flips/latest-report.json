@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-08-29T03:50:31.927Z",
+    "startedAt": "2026-08-29T10:34:40.685Z",
     "searchGroups": [
-      "hunter:polo-puffer-jacket",
-      "hunter:nike-puffer-jacket",
-      "hunter:berghaus-puffer",
-      "hunter:napapijri-jacket",
-      "tnf-1996-nuptse:north-face-nuptse-700",
-      "tnf-1996-nuptse:north-face-1996-nuptse",
-      "tnf-himalayan:north-face-himalayan-puffer",
-      "tnf-himalayan:north-face-hmlyn-parka"
+      "berghaus-down:berghaus-down-jacket",
+      "berghaus-down:berghaus-puffer-jacket",
+      "napapijri-skidoo:napapijri-skidoo-jacket",
+      "napapijri-skidoo:napapijri-rainforest-winter",
+      "hunter:north-face-coat",
+      "hunter:north-face-puffer",
+      "hunter:north-face-700",
+      "hunter:mens-north-face-jacket"
     ],
     "vintedItems": 280,
-    "freshItems": 1,
+    "freshItems": 46,
     "freshByAge": 0,
-    "freshByNewId": 1,
+    "freshByNewId": 46,
     "bootstrapBlocked": 0,
-    "staleBlocked": 1,
-    "candidates": 0,
+    "staleBlocked": 30,
+    "candidates": 2,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-08-29T10:28:43.883Z",
+      "platform": "VINTED",
+      "id": "9813552743",
+      "title": "the north face nuptse puffer jacket in the iconic red and black colourway",
+      "url": "https://www.vinted.co.uk/items/9813552743-the-north-face-nuptse-puffer-jacket-in-the-iconic-red-and-black-colourway",
+      "modelId": "tnf-1996-nuptse",
+      "buyPrice": 55,
+      "estimatedNetProfit": 31.74,
+      "roi": 57.71,
+      "score": 67
+    },
     {
       "at": "2026-08-28T22:16:31.608Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 44.94,
       "roi": 528.71,
       "score": 87
-    },
-    {
-      "at": "2026-08-26T16:23:02.130Z",
-      "platform": "VINTED",
-      "id": "9787377789",
-      "title": "boys ralph lauren reverse jacket",
-      "url": "https://www.vinted.co.uk/items/9787377789-boys-ralph-lauren-reverse-jacket",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 30,
-      "estimatedNetProfit": 41.39,
-      "roi": 137.97,
-      "score": 89
     }
   ]
 }
