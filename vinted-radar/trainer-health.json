@@ -1,35 +1,37 @@
 {
-  "generatedAt": "2026-08-29T22:49:23.028Z",
-  "stateUpdatedAt": "2026-08-29T22:49:23.028Z",
-  "lastAttemptAt": "2026-08-29T22:49:23.028Z",
-  "lastScanAt": "2026-08-29T22:49:23.028Z",
+  "generatedAt": "2026-08-29T22:54:20.811Z",
+  "stateUpdatedAt": "2026-08-29T22:54:20.811Z",
+  "lastAttemptAt": "2026-08-29T22:54:20.811Z",
+  "lastScanAt": "2026-08-29T22:54:20.811Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Pegasus Trail 5 GORE-TEX::primary",
-    "Nike TN::primary",
-    "Nike Air Max Plus 3::primary",
-    "Nike Air Max Plus VII::primary",
-    "Nike Air Max 95::primary",
-    "Nike Air Max 90::primary"
+    "Nike Air Max 90 Drift::primary",
+    "Nike Air Max 97::primary",
+    "Nike Air Max 270::primary",
+    "Nike Air Max Dn::primary",
+    "Nike Air Max 1::primary",
+    "Nike Shox TL::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1342,
-  "catalogItems": 1104,
-  "candidateItems": 510,
-  "freshItems": 111,
-  "qualifyingAlerts": 6,
+  "catalogMarkers": 1344,
+  "catalogItems": 996,
+  "candidateItems": 483,
+  "freshItems": 105,
+  "qualifyingAlerts": 7,
   "qualifyingByCondition": {
+    "newWithTags": 1,
     "veryGood": 6
   },
-  "deliveredAlerts": 6,
+  "deliveredAlerts": 7,
   "deliveredByCondition": {
+    "newWithTags": 1,
     "veryGood": 6
   },
-  "duplicateSuppressed": 24,
+  "duplicateSuppressed": 28,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -65,14 +67,13 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "price": 9,
-    "stale": 375,
-    "seller-risk": 2,
-    "condition": 16,
-    "keyword": 5,
-    "size": 4,
-    "seller-check-budget-exhausted": 49,
-    "detail-budget-exhausted": 19,
+    "stale": 350,
+    "price": 4,
+    "condition": 8,
+    "size": 5,
+    "keyword": 4,
+    "seller-check-budget-exhausted": 50,
+    "detail-budget-exhausted": 26,
     "weak-margin": 1
   },
   "failures": {}
