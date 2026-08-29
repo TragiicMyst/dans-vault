@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-08-29T17:54:12.735Z",
-  "stateUpdatedAt": "2026-08-29T17:54:12.735Z",
-  "lastAttemptAt": "2026-08-29T17:54:12.735Z",
-  "lastScanAt": "2026-08-29T17:54:12.735Z",
+  "generatedAt": "2026-08-29T17:59:13.017Z",
+  "stateUpdatedAt": "2026-08-29T17:59:13.017Z",
+  "lastAttemptAt": "2026-08-29T17:59:13.017Z",
+  "lastScanAt": "2026-08-29T17:59:13.017Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Pegasus Trail 5 GORE-TEX::primary",
-    "Nike TN::primary",
-    "Nike Air Max Plus 3::primary",
-    "Nike Air Max Plus VII::primary",
-    "Nike Air Max 95::primary",
-    "Nike Air Max 90::primary"
+    "Nike Air Max 90 Drift::primary",
+    "Nike Air Max 97::primary",
+    "Nike Air Max 270::primary",
+    "Nike Air Max Dn::primary",
+    "Nike Air Max 1::primary",
+    "Nike Shox TL::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1343,
-  "catalogItems": 1068,
-  "candidateItems": 544,
-  "freshItems": 203,
-  "qualifyingAlerts": 5,
+  "catalogItems": 995,
+  "candidateItems": 471,
+  "freshItems": 152,
+  "qualifyingAlerts": 9,
   "qualifyingByCondition": {
-    "newWithTags": 5
+    "veryGood": 9
   },
-  "deliveredAlerts": 5,
+  "deliveredAlerts": 9,
   "deliveredByCondition": {
-    "newWithTags": 5
+    "veryGood": 9
   },
-  "duplicateSuppressed": 18,
+  "duplicateSuppressed": 25,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -65,15 +65,14 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 323,
-    "size": 5,
-    "weak-margin": 4,
-    "seller-risk": 2,
-    "seller-check-budget-exhausted": 83,
-    "detail-budget-exhausted": 39,
-    "price": 10,
-    "condition": 42,
-    "keyword": 13
+    "stale": 294,
+    "price": 13,
+    "weak-margin": 8,
+    "size": 3,
+    "condition": 27,
+    "keyword": 10,
+    "detail-budget-exhausted": 33,
+    "seller-check-budget-exhausted": 49
   },
   "failures": {}
 }
