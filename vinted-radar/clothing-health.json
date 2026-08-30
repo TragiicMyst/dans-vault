@@ -1,37 +1,37 @@
 {
-  "generatedAt": "2026-08-30T07:17:19.658Z",
-  "stateUpdatedAt": "2026-08-30T07:17:19.658Z",
-  "lastAttemptAt": "2026-08-30T07:17:19.658Z",
-  "lastScanAt": "2026-08-30T07:17:19.658Z",
+  "generatedAt": "2026-08-30T07:32:29.360Z",
+  "stateUpdatedAt": "2026-08-30T07:32:29.360Z",
+  "lastAttemptAt": "2026-08-30T07:32:29.360Z",
+  "lastScanAt": "2026-08-30T07:32:29.360Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike ACG GORE-TEX Jacket::nike acg gore tex jacket",
-    "Nike Club Fleece Full-Zip Hoodie::nike club fleece full zip hoodie",
-    "Nike Strike Top Shorts Set::nike strike top shorts set",
-    "Nike Club Fleece Joggers::nike club fleece joggers",
-    "Nike Sportswear Winterised Jacket::nike sportswear winterised jacket",
-    "Nike NOCTA Joggers::nike nocta joggers"
+    "Nike ACG Fleece::nike acg fleece",
+    "Nike Club Fleece Open-Hem Trousers::nike club fleece open hem trousers",
+    "Nike Trail Repel Jacket::nike trail repel jacket",
+    "Jordan Flight Fleece Hoodie::jordan flight fleece hoodie",
+    "Nike ACG Wolf Tree::nike acg wolf tree",
+    "Nike Club Fleece Crew::nike club fleece crew"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1632,
-  "catalogItems": 889,
-  "candidateItems": 294,
-  "freshItems": 29,
-  "qualifyingAlerts": 16,
+  "catalogMarkers": 1440,
+  "catalogItems": 867,
+  "candidateItems": 244,
+  "freshItems": 20,
+  "qualifyingAlerts": 15,
   "qualifyingByCondition": {
-    "veryGood": 15,
+    "veryGood": 14,
     "newWithTags": 1
   },
-  "deliveredAlerts": 16,
+  "deliveredAlerts": 15,
   "deliveredByCondition": {
-    "veryGood": 15,
+    "veryGood": 14,
     "newWithTags": 1
   },
-  "duplicateSuppressed": 48,
+  "duplicateSuppressed": 31,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -65,13 +65,11 @@
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 1,
+  "detailFetches": 0,
   "rejects": {
-    "recovery-no-fresh-signal": 217,
-    "condition": 8,
-    "size": 1,
-    "price": 3,
-    "keyword": 1
+    "recovery-no-fresh-signal": 193,
+    "keyword": 2,
+    "price": 3
   },
   "failures": {}
 }
