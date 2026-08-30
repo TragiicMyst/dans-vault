@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-08-30T15:35:04.837Z",
-  "stateUpdatedAt": "2026-08-30T15:35:04.837Z",
-  "lastAttemptAt": "2026-08-30T15:35:04.837Z",
-  "lastScanAt": "2026-08-30T15:35:04.837Z",
+  "generatedAt": "2026-08-30T17:24:15.492Z",
+  "stateUpdatedAt": "2026-08-30T17:24:15.492Z",
+  "lastAttemptAt": "2026-08-30T17:24:15.492Z",
+  "lastScanAt": "2026-08-30T17:24:15.492Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Air Max 90 Drift::primary",
-    "Nike Air Max 97::primary",
-    "Nike Air Max 270::primary",
-    "Nike Air Max Dn::primary",
-    "Nike Air Max 1::primary",
-    "Nike Shox TL::primary"
+    "Nike Shox R4::primary",
+    "Nike Shox Ride 2::primary",
+    "Nike Air Force 1::primary",
+    "Nike Dunk Low::primary",
+    "Air Jordan 1 Low::primary",
+    "Air Jordan 1 Mid::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1343,
-  "catalogItems": 988,
-  "candidateItems": 508,
-  "freshItems": 185,
-  "qualifyingAlerts": 9,
+  "catalogMarkers": 1344,
+  "catalogItems": 883,
+  "candidateItems": 593,
+  "freshItems": 297,
+  "qualifyingAlerts": 4,
   "qualifyingByCondition": {
-    "newWithTags": 3,
+    "veryGood": 1,
     "newWithoutTags": 1,
-    "veryGood": 5
+    "newWithTags": 2
   },
-  "deliveredAlerts": 9,
+  "deliveredAlerts": 4,
   "deliveredByCondition": {
-    "newWithTags": 3,
+    "veryGood": 1,
     "newWithoutTags": 1,
-    "veryGood": 5
+    "newWithTags": 2
   },
-  "duplicateSuppressed": 21,
+  "duplicateSuppressed": 27,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,15 +69,15 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 302,
-    "price": 7,
-    "score": 1,
-    "condition": 38,
-    "keyword": 16,
-    "size": 2,
-    "detail-budget-exhausted": 52,
-    "weak-margin": 3,
-    "seller-check-budget-exhausted": 57
+    "recovery-no-fresh-signal": 269,
+    "condition": 73,
+    "size": 3,
+    "weak-margin": 5,
+    "seller-risk": 5,
+    "detail-budget-exhausted": 79,
+    "seller-check-budget-exhausted": 86,
+    "keyword": 32,
+    "price": 10
   },
   "failures": {}
 }
