@@ -2,29 +2,77 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-08-30T12:24:40.883Z",
+    "startedAt": "2026-08-30T16:53:55.401Z",
     "searchGroups": [
-      "hunter:berghaus-puffer",
-      "hunter:napapijri-jacket",
-      "tnf-1996-nuptse:north-face-nuptse-700",
-      "tnf-1996-nuptse:north-face-1996-nuptse",
-      "tnf-himalayan:north-face-himalayan-puffer",
-      "tnf-himalayan:north-face-hmlyn-parka",
-      "tnf-baltoro:north-face-baltoro-jacket",
-      "tnf-summit-down:north-face-summit-series-down"
+      "napapijri-skidoo:napapijri-skidoo-jacket",
+      "napapijri-skidoo:napapijri-rainforest-winter",
+      "hunter:north-face-coat",
+      "hunter:north-face-puffer",
+      "hunter:north-face-700",
+      "hunter:mens-north-face-jacket",
+      "hunter:rab-puffer",
+      "hunter:rab-down-jacket"
     ],
     "vintedItems": 280,
-    "freshItems": 2,
+    "freshItems": 82,
     "freshByAge": 0,
-    "freshByNewId": 2,
+    "freshByNewId": 82,
     "bootstrapBlocked": 0,
-    "staleBlocked": 0,
-    "candidates": 0,
-    "alerts": 0,
+    "staleBlocked": 1,
+    "candidates": 14,
+    "alerts": 2,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-08-30T16:54:19.698Z",
+      "platform": "VINTED",
+      "id": "9830764851",
+      "title": "rab mens microlight down gilet bodywarmer black size m pertex quantum",
+      "url": "https://www.vinted.co.uk/items/9830764851-rab-mens-microlight-down-gilet-bodywarmer-black-size-m-pertex-quantum",
+      "modelId": "rab-microlight",
+      "buyPrice": 40,
+      "estimatedNetProfit": 35.5,
+      "roi": 88.75,
+      "score": 88
+    },
+    {
+      "at": "2026-08-30T16:54:09.455Z",
+      "platform": "VINTED",
+      "id": "9832653877",
+      "title": "the north face black nuptse 1996 puffer jacket size xl",
+      "url": "https://www.vinted.co.uk/items/9832653877-the-north-face-black-nuptse-1996-puffer-jacket-size-xl",
+      "modelId": "tnf-1996-nuptse",
+      "buyPrice": 45,
+      "estimatedNetProfit": 35.72,
+      "roi": 79.38,
+      "score": 78
+    },
+    {
+      "at": "2026-08-30T16:51:07.030Z",
+      "platform": "VINTED",
+      "id": "9829868166",
+      "title": "nike puffer coat blackgreen",
+      "url": "https://www.vinted.co.uk/items/9829868166-nike-puffer-coat-blackgreen",
+      "modelId": "nike-puffer",
+      "buyPrice": 15.5,
+      "estimatedNetProfit": 37.24,
+      "roi": 240.26,
+      "score": 99
+    },
+    {
+      "at": "2026-08-30T16:51:01.688Z",
+      "platform": "VINTED",
+      "id": "9832074274",
+      "title": "green polo ralph lauren jacket",
+      "url": "https://www.vinted.co.uk/items/9832074274-green-polo-ralph-lauren-jacket",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 40,
+      "estimatedNetProfit": 33.94,
+      "roi": 84.85,
+      "score": 82
+    },
     {
       "at": "2026-08-30T12:21:55.945Z",
       "platform": "VINTED",
@@ -216,54 +264,6 @@
       "estimatedNetProfit": 47.82,
       "roi": 159.4,
       "score": 90
-    },
-    {
-      "at": "2026-08-28T00:36:06.570Z",
-      "platform": "VINTED",
-      "id": "9796733263",
-      "title": "black nike puffer jacket",
-      "url": "https://www.vinted.co.uk/items/9796733263-black-nike-puffer-jacket",
-      "modelId": "nike-puffer",
-      "buyPrice": 30,
-      "estimatedNetProfit": 26.88,
-      "roi": 89.6,
-      "score": 87
-    },
-    {
-      "at": "2026-08-28T00:36:05.655Z",
-      "platform": "VINTED",
-      "id": "9799975880",
-      "title": "mens nike puffer coat",
-      "url": "https://www.vinted.co.uk/items/9799975880-mens-nike-puffer-coat",
-      "modelId": "nike-puffer",
-      "buyPrice": 30,
-      "estimatedNetProfit": 26.88,
-      "roi": 89.6,
-      "score": 87
-    },
-    {
-      "at": "2026-08-28T00:36:04.749Z",
-      "platform": "VINTED",
-      "id": "9800220450",
-      "title": "nike puffer padded khaki longline thermafit coat jacket size l 16 18",
-      "url": "https://www.vinted.co.uk/items/9800220450-nike-puffer-padded-khaki-longline-thermafit-coat-jacket-size-l-16-18",
-      "modelId": "nike-puffer",
-      "buyPrice": 25,
-      "estimatedNetProfit": 32.15,
-      "roi": 128.6,
-      "score": 92
-    },
-    {
-      "at": "2026-08-28T00:36:03.781Z",
-      "platform": "VINTED",
-      "id": "9801665543",
-      "title": "nike puffer coat",
-      "url": "https://www.vinted.co.uk/items/9801665543-nike-puffer-coat",
-      "modelId": "nike-puffer",
-      "buyPrice": 15,
-      "estimatedNetProfit": 36.54,
-      "roi": 243.6,
-      "score": 99
     }
   ]
 }
