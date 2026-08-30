@@ -1,35 +1,37 @@
 {
-  "generatedAt": "2026-08-30T05:53:46.078Z",
-  "stateUpdatedAt": "2026-08-30T05:53:46.078Z",
-  "lastAttemptAt": "2026-08-30T05:53:46.078Z",
-  "lastScanAt": "2026-08-30T05:53:46.078Z",
+  "generatedAt": "2026-08-30T05:58:45.893Z",
+  "stateUpdatedAt": "2026-08-30T05:58:45.893Z",
+  "lastAttemptAt": "2026-08-30T05:58:45.893Z",
+  "lastScanAt": "2026-08-30T05:58:45.893Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike V5 RNR::primary",
-    "Nike Vomero 5::primary",
-    "Nike Vomero 18::primary",
-    "Nike Vomero Plus::primary",
-    "Nike Vomero Premium::primary",
-    "Nike Pegasus Premium::primary"
+    "Nike Pegasus Trail 5 GORE-TEX::primary",
+    "Nike TN::primary",
+    "Nike Air Max Plus 3::primary",
+    "Nike Air Max Plus VII::primary",
+    "Nike Air Max 95::primary",
+    "Nike Air Max 90::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1262,
-  "catalogItems": 671,
-  "candidateItems": 489,
-  "freshItems": 123,
-  "qualifyingAlerts": 4,
+  "catalogMarkers": 1342,
+  "catalogItems": 1104,
+  "candidateItems": 565,
+  "freshItems": 65,
+  "qualifyingAlerts": 10,
   "qualifyingByCondition": {
-    "veryGood": 4
+    "veryGood": 9,
+    "newWithTags": 1
   },
-  "deliveredAlerts": 4,
+  "deliveredAlerts": 10,
   "deliveredByCondition": {
-    "veryGood": 4
+    "veryGood": 9,
+    "newWithTags": 1
   },
-  "duplicateSuppressed": 29,
+  "duplicateSuppressed": 35,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -65,13 +67,13 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "recovery-no-fresh-signal": 337,
-    "keyword": 1,
-    "size": 8,
-    "seller-check-budget-exhausted": 81,
-    "detail-budget-exhausted": 27,
-    "price": 1,
-    "weak-margin": 1
+    "stale": 465,
+    "price": 6,
+    "size": 1,
+    "score": 1,
+    "detail-budget-exhausted": 17,
+    "seller-check-budget-exhausted": 28,
+    "keyword": 2
   },
   "failures": {}
 }
