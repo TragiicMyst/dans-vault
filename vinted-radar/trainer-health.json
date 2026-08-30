@@ -1,33 +1,35 @@
 {
-  "generatedAt": "2026-08-30T18:53:09.940Z",
-  "stateUpdatedAt": "2026-08-30T18:53:09.940Z",
-  "lastAttemptAt": "2026-08-30T18:53:09.940Z",
-  "lastScanAt": "2026-08-30T18:53:09.940Z",
+  "generatedAt": "2026-08-30T19:58:33.711Z",
+  "stateUpdatedAt": "2026-08-30T19:58:33.711Z",
+  "lastAttemptAt": "2026-08-30T19:58:33.711Z",
+  "lastScanAt": "2026-08-30T19:58:33.711Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Air Max 90 Drift::primary",
-    "Nike Air Max 97::primary",
-    "Nike Air Max 270::primary",
-    "Nike Air Max Dn::primary",
-    "Nike Air Max 1::primary",
-    "Nike Shox TL::primary"
+    "Nike Shox R4::primary",
+    "Nike Shox Ride 2::primary",
+    "Nike Air Force 1::primary",
+    "Nike Dunk Low::primary",
+    "Air Jordan 1 Low::primary",
+    "Air Jordan 1 Mid::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1343,
-  "catalogItems": 986,
-  "candidateItems": 513,
-  "freshItems": 189,
-  "qualifyingAlerts": 4,
+  "catalogMarkers": 1342,
+  "catalogItems": 883,
+  "candidateItems": 608,
+  "freshItems": 294,
+  "qualifyingAlerts": 3,
   "qualifyingByCondition": {
-    "veryGood": 4
+    "veryGood": 2,
+    "newWithTags": 1
   },
-  "deliveredAlerts": 4,
+  "deliveredAlerts": 3,
   "deliveredByCondition": {
-    "veryGood": 4
+    "veryGood": 2,
+    "newWithTags": 1
   },
   "duplicateSuppressed": 29,
   "discordFailures": 0,
@@ -65,16 +67,15 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 295,
-    "size": 6,
-    "weak-margin": 4,
-    "score": 1,
-    "condition": 37,
-    "keyword": 8,
+    "recovery-no-fresh-signal": 285,
+    "size": 8,
+    "keyword": 30,
+    "condition": 46,
     "price": 10,
     "seller-risk": 1,
-    "detail-budget-exhausted": 48,
-    "seller-check-budget-exhausted": 70
+    "detail-budget-exhausted": 88,
+    "seller-check-budget-exhausted": 106,
+    "weak-margin": 2
   },
   "failures": {}
 }
