@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-08-30T06:54:23.996Z",
+    "startedAt": "2026-08-30T12:24:40.883Z",
     "searchGroups": [
-      "arcteryx-cerium:arcteryx-cerium-jacket",
-      "arcteryx-cerium:arc-teryx-cerium",
-      "arcteryx-thorium:arcteryx-thorium-jacket",
-      "arcteryx-thorium:arc-teryx-thorium",
-      "ralph-lauren-puffer:ralph-lauren-puffer-jacket",
-      "ralph-lauren-puffer:polo-ralph-lauren-down-jacket",
-      "nike-puffer:nike-puffer-jacket-mens",
-      "nike-puffer:nike-down-jacket"
+      "hunter:berghaus-puffer",
+      "hunter:napapijri-jacket",
+      "tnf-1996-nuptse:north-face-nuptse-700",
+      "tnf-1996-nuptse:north-face-1996-nuptse",
+      "tnf-himalayan:north-face-himalayan-puffer",
+      "tnf-himalayan:north-face-hmlyn-parka",
+      "tnf-baltoro:north-face-baltoro-jacket",
+      "tnf-summit-down:north-face-summit-series-down"
     ],
     "vintedItems": 280,
-    "freshItems": 0,
+    "freshItems": 2,
     "freshByAge": 0,
-    "freshByNewId": 0,
+    "freshByNewId": 2,
     "bootstrapBlocked": 0,
-    "staleBlocked": 1,
+    "staleBlocked": 0,
     "candidates": 0,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-08-30T12:21:55.945Z",
+      "platform": "VINTED",
+      "id": "9826733526",
+      "title": "navy blue nike puffer jacket",
+      "url": "https://www.vinted.co.uk/items/9826733526-navy-blue-nike-puffer-jacket",
+      "modelId": "nike-puffer",
+      "buyPrice": 25,
+      "estimatedNetProfit": 28.11,
+      "roi": 112.44,
+      "score": 90
+    },
     {
       "at": "2026-08-29T21:15:03.336Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 36.54,
       "roi": 243.6,
       "score": 99
-    },
-    {
-      "at": "2026-08-28T00:36:01.325Z",
-      "platform": "VINTED",
-      "id": "9798801124",
-      "title": "girls ralph lauren coat",
-      "url": "https://www.vinted.co.uk/items/9798801124-girls-ralph-lauren-coat",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 45,
-      "estimatedNetProfit": 31.54,
-      "roi": 70.09,
-      "score": 75
     }
   ]
 }
