@@ -1,37 +1,37 @@
 {
-  "generatedAt": "2026-08-30T07:32:29.360Z",
-  "stateUpdatedAt": "2026-08-30T07:32:29.360Z",
-  "lastAttemptAt": "2026-08-30T07:32:29.360Z",
-  "lastScanAt": "2026-08-30T07:32:29.360Z",
+  "generatedAt": "2026-08-30T13:01:13.539Z",
+  "stateUpdatedAt": "2026-08-30T13:01:13.539Z",
+  "lastAttemptAt": "2026-08-30T13:01:13.539Z",
+  "lastScanAt": "2026-08-30T13:01:13.539Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike ACG Fleece::nike acg fleece",
-    "Nike Club Fleece Open-Hem Trousers::nike club fleece open hem trousers",
-    "Nike Trail Repel Jacket::nike trail repel jacket",
-    "Jordan Flight Fleece Hoodie::jordan flight fleece hoodie",
-    "Nike ACG Wolf Tree::nike acg wolf tree",
-    "Nike Club Fleece Crew::nike club fleece crew"
+    "Nike Running Division Jacket::nike running division jacket",
+    "Jordan Flight Fleece Joggers::jordan flight fleece joggers",
+    "Nike ACG Tuff Fleece::nike acg tuff fleece",
+    "Nike Solo Swoosh Crew::nike solo swoosh sweatshirt",
+    "Nike Miler Repel Jacket::nike miler repel jacket",
+    "Nike Solo Swoosh Joggers::nike solo swoosh joggers"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1440,
-  "catalogItems": 867,
-  "candidateItems": 244,
-  "freshItems": 20,
-  "qualifyingAlerts": 15,
+  "catalogMarkers": 1341,
+  "catalogItems": 763,
+  "candidateItems": 292,
+  "freshItems": 24,
+  "qualifyingAlerts": 11,
   "qualifyingByCondition": {
-    "veryGood": 14,
+    "veryGood": 10,
     "newWithTags": 1
   },
-  "deliveredAlerts": 15,
+  "deliveredAlerts": 11,
   "deliveredByCondition": {
-    "veryGood": 14,
+    "veryGood": 10,
     "newWithTags": 1
   },
-  "duplicateSuppressed": 31,
+  "duplicateSuppressed": 42,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -65,11 +65,13 @@
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 0,
+  "detailFetches": 1,
   "rejects": {
-    "recovery-no-fresh-signal": 193,
-    "keyword": 2,
-    "price": 3
+    "price": 9,
+    "condition": 2,
+    "size": 1,
+    "keyword": 1,
+    "recovery-no-fresh-signal": 226
   },
   "failures": {}
 }
