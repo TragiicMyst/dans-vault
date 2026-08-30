@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-08-30T13:06:09.483Z",
-  "stateUpdatedAt": "2026-08-30T13:06:09.483Z",
-  "lastAttemptAt": "2026-08-30T13:06:09.483Z",
-  "lastScanAt": "2026-08-30T13:06:09.483Z",
+  "generatedAt": "2026-08-30T13:11:09.508Z",
+  "stateUpdatedAt": "2026-08-30T13:11:09.508Z",
+  "lastAttemptAt": "2026-08-30T13:11:09.508Z",
+  "lastScanAt": "2026-08-30T13:11:09.508Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Air Jordan 4::primary",
-    "Nike Initiator::primary",
-    "Nike Air Max Moto 2K::primary",
-    "Nike Metcon 10::primary",
-    "Nike Zoom Fly 6::primary",
-    "Nike Air Max Bargain::generic"
+    "Nike Running Trainer Bargain::generic",
+    "Nike Lifestyle Trainer Bargain::generic",
+    "Nike Football Boot Bargain::generic",
+    "Nike Basketball Shoe Bargain::generic",
+    "Nike SB Shoe Bargain::generic",
+    "Nike P-6000::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1343,
-  "catalogItems": 853,
-  "candidateItems": 486,
-  "freshItems": 138,
-  "qualifyingAlerts": 4,
+  "catalogItems": 876,
+  "candidateItems": 387,
+  "freshItems": 256,
+  "qualifyingAlerts": 5,
   "qualifyingByCondition": {
-    "veryGood": 4
+    "veryGood": 5
   },
-  "deliveredAlerts": 4,
+  "deliveredAlerts": 5,
   "deliveredByCondition": {
-    "veryGood": 4
+    "veryGood": 5
   },
-  "duplicateSuppressed": 52,
+  "duplicateSuppressed": 1,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -65,15 +65,14 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 296,
-    "condition": 27,
-    "keyword": 8,
-    "price": 10,
+    "stale": 130,
+    "price": 41,
     "size": 7,
-    "seller-risk": 1,
-    "weak-margin": 1,
-    "seller-check-budget-exhausted": 60,
-    "detail-budget-exhausted": 20
+    "keyword": 25,
+    "condition": 83,
+    "seller-check-budget-exhausted": 51,
+    "detail-budget-exhausted": 43,
+    "weak-margin": 1
   },
   "failures": {}
 }
