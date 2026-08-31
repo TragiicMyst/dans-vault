@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-08-31T00:53:17.385Z",
-  "stateUpdatedAt": "2026-08-31T00:53:17.385Z",
-  "lastAttemptAt": "2026-08-31T00:53:17.385Z",
-  "lastScanAt": "2026-08-31T00:53:17.385Z",
+  "generatedAt": "2026-08-31T00:58:17.157Z",
+  "stateUpdatedAt": "2026-08-31T00:58:17.157Z",
+  "lastAttemptAt": "2026-08-31T00:58:17.157Z",
+  "lastScanAt": "2026-08-31T00:58:17.157Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Shox R4::primary",
-    "Nike Shox Ride 2::primary",
-    "Nike Air Force 1::primary",
-    "Nike Dunk Low::primary",
-    "Air Jordan 1 Low::primary",
-    "Air Jordan 1 Mid::primary"
+    "Air Jordan 4::primary",
+    "Nike Initiator::primary",
+    "Nike Air Max Moto 2K::primary",
+    "Nike Metcon 10::primary",
+    "Nike Zoom Fly 6::primary",
+    "Nike Air Max Bargain::generic"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1341,
-  "catalogItems": 900,
-  "candidateItems": 592,
-  "freshItems": 156,
+  "catalogMarkers": 1342,
+  "catalogItems": 853,
+  "candidateItems": 475,
+  "freshItems": 122,
   "qualifyingAlerts": 6,
   "qualifyingByCondition": {
-    "veryGood": 3,
-    "newWithTags": 2,
-    "newWithoutTags": 1
+    "newWithTags": 3,
+    "newWithoutTags": 1,
+    "veryGood": 2
   },
   "deliveredAlerts": 6,
   "deliveredByCondition": {
-    "veryGood": 3,
-    "newWithTags": 2,
-    "newWithoutTags": 1
+    "newWithTags": 3,
+    "newWithoutTags": 1,
+    "veryGood": 2
   },
-  "duplicateSuppressed": 27,
+  "duplicateSuppressed": 60,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,15 +69,14 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "recovery-no-fresh-signal": 409,
-    "weak-margin": 3,
-    "price": 6,
+    "stale": 293,
+    "price": 9,
+    "keyword": 5,
     "size": 4,
-    "condition": 14,
-    "keyword": 6,
-    "seller-risk": 1,
-    "seller-check-budget-exhausted": 52,
-    "detail-budget-exhausted": 64
+    "seller-risk": 2,
+    "seller-check-budget-exhausted": 59,
+    "detail-budget-exhausted": 26,
+    "condition": 11
   },
   "failures": {}
 }
