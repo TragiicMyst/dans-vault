@@ -1,37 +1,39 @@
 {
-  "generatedAt": "2026-08-31T22:13:09.076Z",
-  "stateUpdatedAt": "2026-08-31T22:13:09.076Z",
-  "lastAttemptAt": "2026-08-31T22:13:09.076Z",
-  "lastScanAt": "2026-08-31T22:13:09.076Z",
+  "generatedAt": "2026-08-31T23:58:13.469Z",
+  "stateUpdatedAt": "2026-08-31T23:58:13.469Z",
+  "lastAttemptAt": "2026-08-31T23:58:13.469Z",
+  "lastScanAt": "2026-08-31T23:58:13.469Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Air Max 90 Drift::primary",
-    "Nike Air Max 97::primary",
-    "Nike Air Max 270::primary",
-    "Nike Air Max Dn::primary",
-    "Nike Air Max 1::primary",
-    "Nike Shox TL::primary"
+    "Nike Shox R4::primary",
+    "Nike Shox Ride 2::primary",
+    "Nike Air Force 1::primary",
+    "Nike Dunk Low::primary",
+    "Air Jordan 1 Low::primary",
+    "Air Jordan 1 Mid::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1344,
-  "catalogItems": 919,
-  "candidateItems": 469,
-  "freshItems": 161,
-  "qualifyingAlerts": 4,
+  "catalogMarkers": 1342,
+  "catalogItems": 889,
+  "candidateItems": 591,
+  "freshItems": 209,
+  "qualifyingAlerts": 10,
   "qualifyingByCondition": {
-    "newWithoutTags": 1,
-    "veryGood": 3
+    "veryGood": 6,
+    "newWithoutTags": 3,
+    "newWithTags": 1
   },
-  "deliveredAlerts": 4,
+  "deliveredAlerts": 10,
   "deliveredByCondition": {
-    "newWithoutTags": 1,
-    "veryGood": 3
+    "veryGood": 6,
+    "newWithoutTags": 3,
+    "newWithTags": 1
   },
-  "duplicateSuppressed": 21,
+  "duplicateSuppressed": 25,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,15 +69,15 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "price": 11,
-    "stale": 287,
-    "size": 6,
-    "weak-margin": 5,
-    "condition": 32,
-    "seller-risk": 2,
-    "seller-check-budget-exhausted": 53,
-    "detail-budget-exhausted": 37,
-    "keyword": 11
+    "recovery-no-fresh-signal": 357,
+    "price": 9,
+    "size": 1,
+    "score": 1,
+    "condition": 30,
+    "seller-check-budget-exhausted": 66,
+    "weak-margin": 3,
+    "detail-budget-exhausted": 65,
+    "keyword": 24
   },
   "failures": {}
 }
