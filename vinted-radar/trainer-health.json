@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-08-31T03:46:43.975Z",
-  "stateUpdatedAt": "2026-08-31T03:46:43.975Z",
-  "lastAttemptAt": "2026-08-31T03:46:43.975Z",
-  "lastScanAt": "2026-08-31T03:46:43.975Z",
+  "generatedAt": "2026-08-31T03:51:43.717Z",
+  "stateUpdatedAt": "2026-08-31T03:51:43.717Z",
+  "lastAttemptAt": "2026-08-31T03:51:43.717Z",
+  "lastScanAt": "2026-08-31T03:51:43.717Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike V5 RNR::primary",
-    "Nike Vomero 5::primary",
-    "Nike Vomero 18::primary",
-    "Nike Vomero Plus::primary",
-    "Nike Vomero Premium::primary",
-    "Nike Pegasus Premium::primary"
+    "Nike Pegasus Trail 5 GORE-TEX::primary",
+    "Nike TN::primary",
+    "Nike Air Max Plus 3::primary",
+    "Nike Air Max Plus VII::primary",
+    "Nike Air Max 95::primary",
+    "Nike Air Max 90::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1262,
-  "catalogItems": 670,
-  "candidateItems": 512,
-  "freshItems": 152,
-  "qualifyingAlerts": 7,
+  "catalogMarkers": 1344,
+  "catalogItems": 1097,
+  "candidateItems": 543,
+  "freshItems": 94,
+  "qualifyingAlerts": 9,
   "qualifyingByCondition": {
-    "veryGood": 7
+    "veryGood": 9
   },
-  "deliveredAlerts": 7,
+  "deliveredAlerts": 9,
   "deliveredByCondition": {
-    "veryGood": 7
+    "veryGood": 9
   },
-  "duplicateSuppressed": 26,
+  "duplicateSuppressed": 31,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -65,12 +65,14 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "recovery-no-fresh-signal": 334,
-    "size": 5,
-    "keyword": 1,
-    "condition": 1,
-    "detail-budget-exhausted": 32,
-    "seller-check-budget-exhausted": 106
+    "stale": 418,
+    "condition": 4,
+    "seller-risk": 1,
+    "size": 1,
+    "score": 1,
+    "detail-budget-exhausted": 29,
+    "seller-check-budget-exhausted": 47,
+    "price": 2
   },
   "failures": {}
 }
