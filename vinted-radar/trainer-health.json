@@ -1,35 +1,37 @@
 {
-  "generatedAt": "2026-08-31T17:47:32.037Z",
-  "stateUpdatedAt": "2026-08-31T17:47:32.037Z",
-  "lastAttemptAt": "2026-08-31T17:47:32.037Z",
-  "lastScanAt": "2026-08-31T17:47:32.037Z",
+  "generatedAt": "2026-08-31T17:52:31.955Z",
+  "stateUpdatedAt": "2026-08-31T17:52:31.955Z",
+  "lastAttemptAt": "2026-08-31T17:52:31.955Z",
+  "lastScanAt": "2026-08-31T17:52:31.955Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Pegasus Trail 5 GORE-TEX::primary",
-    "Nike TN::primary",
-    "Nike Air Max Plus 3::primary",
-    "Nike Air Max Plus VII::primary",
-    "Nike Air Max 95::primary",
-    "Nike Air Max 90::primary"
+    "Nike Air Max 90 Drift::primary",
+    "Nike Air Max 97::primary",
+    "Nike Air Max 270::primary",
+    "Nike Air Max Dn::primary",
+    "Nike Air Max 1::primary",
+    "Nike Shox TL::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 1086,
-  "candidateItems": 529,
-  "freshItems": 211,
-  "qualifyingAlerts": 7,
+  "catalogItems": 989,
+  "candidateItems": 474,
+  "freshItems": 185,
+  "qualifyingAlerts": 8,
   "qualifyingByCondition": {
-    "veryGood": 3,
-    "newWithTags": 4
+    "veryGood": 5,
+    "newWithoutTags": 2,
+    "newWithTags": 1
   },
-  "deliveredAlerts": 7,
+  "deliveredAlerts": 8,
   "deliveredByCondition": {
-    "veryGood": 3,
-    "newWithTags": 4
+    "veryGood": 5,
+    "newWithoutTags": 2,
+    "newWithTags": 1
   },
   "duplicateSuppressed": 22,
   "discordFailures": 0,
@@ -67,15 +69,14 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 296,
-    "condition": 49,
-    "price": 27,
-    "keyword": 10,
+    "stale": 267,
+    "weak-margin": 7,
+    "price": 13,
+    "keyword": 22,
+    "condition": 46,
     "size": 4,
-    "weak-margin": 9,
-    "score": 1,
-    "seller-check-budget-exhausted": 78,
-    "detail-budget-exhausted": 26
+    "detail-budget-exhausted": 33,
+    "seller-check-budget-exhausted": 52
   },
   "failures": {}
 }
