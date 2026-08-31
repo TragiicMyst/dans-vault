@@ -1,37 +1,35 @@
 {
-  "generatedAt": "2026-08-30T23:59:06.460Z",
-  "stateUpdatedAt": "2026-08-30T23:59:06.460Z",
-  "lastAttemptAt": "2026-08-30T23:59:06.460Z",
-  "lastScanAt": "2026-08-30T23:59:06.460Z",
+  "generatedAt": "2026-08-31T00:04:06.855Z",
+  "stateUpdatedAt": "2026-08-31T00:04:06.855Z",
+  "lastAttemptAt": "2026-08-31T00:04:06.855Z",
+  "lastScanAt": "2026-08-31T00:04:06.855Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Pegasus Trail 5 GORE-TEX::primary",
-    "Nike TN::primary",
-    "Nike Air Max Plus 3::primary",
-    "Nike Air Max Plus VII::primary",
-    "Nike Air Max 95::primary",
-    "Nike Air Max 90::primary"
+    "Nike Air Max 90 Drift::primary",
+    "Nike Air Max 97::primary",
+    "Nike Air Max 270::primary",
+    "Nike Air Max Dn::primary",
+    "Nike Air Max 1::primary",
+    "Nike Shox TL::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1343,
-  "catalogItems": 1096,
-  "candidateItems": 543,
-  "freshItems": 116,
-  "qualifyingAlerts": 5,
+  "catalogMarkers": 1344,
+  "catalogItems": 984,
+  "candidateItems": 521,
+  "freshItems": 112,
+  "qualifyingAlerts": 4,
   "qualifyingByCondition": {
-    "newWithTags": 1,
     "veryGood": 4
   },
-  "deliveredAlerts": 5,
+  "deliveredAlerts": 4,
   "deliveredByCondition": {
-    "newWithTags": 1,
     "veryGood": 4
   },
-  "duplicateSuppressed": 33,
+  "duplicateSuppressed": 30,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,15 +65,15 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 394,
-    "price": 4,
+    "stale": 379,
+    "keyword": 2,
+    "size": 7,
+    "price": 3,
     "condition": 4,
-    "size": 5,
-    "score": 2,
-    "weak-margin": 3,
-    "seller-check-budget-exhausted": 63,
-    "detail-budget-exhausted": 28,
-    "keyword": 2
+    "score": 1,
+    "seller-check-budget-exhausted": 56,
+    "detail-budget-exhausted": 34,
+    "weak-margin": 1
   },
   "failures": {}
 }
