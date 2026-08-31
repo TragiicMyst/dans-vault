@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-08-31T20:20:59.318Z",
-  "stateUpdatedAt": "2026-08-31T20:20:59.318Z",
-  "lastAttemptAt": "2026-08-31T20:20:59.318Z",
-  "lastScanAt": "2026-08-31T20:20:59.318Z",
+  "generatedAt": "2026-08-31T20:25:59.200Z",
+  "stateUpdatedAt": "2026-08-31T20:25:59.200Z",
+  "lastAttemptAt": "2026-08-31T20:25:59.200Z",
+  "lastScanAt": "2026-08-31T20:25:59.200Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Shox R4::primary",
-    "Nike Shox Ride 2::primary",
-    "Nike Air Force 1::primary",
-    "Nike Dunk Low::primary",
-    "Air Jordan 1 Low::primary",
-    "Air Jordan 1 Mid::primary"
+    "Air Jordan 4::primary",
+    "Nike Initiator::primary",
+    "Nike Air Max Moto 2K::primary",
+    "Nike Metcon 10::primary",
+    "Nike Zoom Fly 6::primary",
+    "Nike Air Max Bargain::generic"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 884,
-  "candidateItems": 605,
-  "freshItems": 331,
-  "qualifyingAlerts": 4,
+  "catalogItems": 780,
+  "candidateItems": 441,
+  "freshItems": 161,
+  "qualifyingAlerts": 7,
   "qualifyingByCondition": {
-    "newWithoutTags": 1,
-    "newWithTags": 2,
-    "veryGood": 1
+    "newWithoutTags": 3,
+    "veryGood": 3,
+    "newWithTags": 1
   },
-  "deliveredAlerts": 4,
+  "deliveredAlerts": 7,
   "deliveredByCondition": {
-    "newWithoutTags": 1,
-    "newWithTags": 2,
-    "veryGood": 1
+    "newWithoutTags": 3,
+    "veryGood": 3,
+    "newWithTags": 1
   },
-  "duplicateSuppressed": 22,
+  "duplicateSuppressed": 54,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,15 +69,14 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "recovery-no-fresh-signal": 252,
-    "condition": 68,
-    "keyword": 39,
-    "size": 6,
-    "weak-margin": 8,
-    "seller-risk": 2,
-    "seller-check-budget-exhausted": 103,
-    "price": 20,
-    "detail-budget-exhausted": 81
+    "stale": 226,
+    "size": 5,
+    "price": 13,
+    "condition": 22,
+    "keyword": 4,
+    "weak-margin": 7,
+    "detail-budget-exhausted": 27,
+    "seller-check-budget-exhausted": 76
   },
   "failures": {}
 }
