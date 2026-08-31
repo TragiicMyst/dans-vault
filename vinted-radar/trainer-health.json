@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-08-31T06:49:19.348Z",
-  "stateUpdatedAt": "2026-08-31T06:49:19.348Z",
-  "lastAttemptAt": "2026-08-31T06:49:19.348Z",
-  "lastScanAt": "2026-08-31T06:49:19.348Z",
+  "generatedAt": "2026-08-31T06:54:18.748Z",
+  "stateUpdatedAt": "2026-08-31T06:54:18.748Z",
+  "lastAttemptAt": "2026-08-31T06:54:18.748Z",
+  "lastScanAt": "2026-08-31T06:54:18.748Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Air Jordan 4::primary",
-    "Nike Initiator::primary",
-    "Nike Air Max Moto 2K::primary",
-    "Nike Metcon 10::primary",
-    "Nike Zoom Fly 6::primary",
-    "Nike Air Max Bargain::generic"
+    "Nike Running Trainer Bargain::generic",
+    "Nike Lifestyle Trainer Bargain::generic",
+    "Nike Football Boot Bargain::generic",
+    "Nike Basketball Shoe Bargain::generic",
+    "Nike SB Shoe Bargain::generic",
+    "Nike P-6000::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1344,
-  "catalogItems": 855,
-  "candidateItems": 464,
-  "freshItems": 102,
+  "catalogMarkers": 1342,
+  "catalogItems": 896,
+  "candidateItems": 354,
+  "freshItems": 69,
   "qualifyingAlerts": 5,
   "qualifyingByCondition": {
     "veryGood": 2,
-    "newWithTags": 1,
-    "newWithoutTags": 2
+    "newWithoutTags": 2,
+    "newWithTags": 1
   },
   "deliveredAlerts": 5,
   "deliveredByCondition": {
     "veryGood": 2,
-    "newWithTags": 1,
-    "newWithoutTags": 2
+    "newWithoutTags": 2,
+    "newWithTags": 1
   },
-  "duplicateSuppressed": 61,
+  "duplicateSuppressed": 2,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,15 +69,13 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 301,
+    "stale": 283,
+    "keyword": 6,
+    "price": 12,
     "condition": 8,
-    "keyword": 8,
-    "price": 9,
-    "size": 4,
-    "score": 2,
-    "seller-risk": 1,
-    "seller-check-budget-exhausted": 49,
-    "detail-budget-exhausted": 16
+    "size": 7,
+    "detail-budget-exhausted": 15,
+    "seller-check-budget-exhausted": 16
   },
   "failures": {}
 }
