@@ -1,52 +1,39 @@
 {
-  "generatedAt": "2026-09-01T19:41:57.802Z",
-  "stateUpdatedAt": "2026-09-01T19:41:57.802Z",
-  "lastAttemptAt": "2026-09-01T19:41:57.802Z",
+  "generatedAt": "2026-09-01T19:46:57.642Z",
+  "stateUpdatedAt": "2026-09-01T19:46:57.642Z",
+  "lastAttemptAt": "2026-09-01T19:46:57.642Z",
   "lastScanAt": "2026-09-01T19:36:58.335Z",
-  "cooldownUntil": "2026-09-01T19:44:23.326Z",
+  "cooldownUntil": "2026-09-01T19:48:14.418Z",
   "healthyScan": false,
   "healthReason": "vinted-block-or-challenge",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Running Trainer Bargain::generic",
-    "Nike Lifestyle Trainer Bargain::generic",
-    "Nike Football Boot Bargain::generic",
-    "Nike Basketball Shoe Bargain::generic",
     "Nike SB Shoe Bargain::generic",
-    "Nike P-6000::primary"
+    "Nike P-6000::primary",
+    "Nike V5 RNR::primary",
+    "Nike Vomero 5::primary",
+    "Nike Vomero 18::primary",
+    "Nike Vomero Plus::primary"
   ],
-  "successfulSearches": 5,
+  "successfulSearches": 0,
   "failedSearches": 1,
-  "catalogMarkers": 960,
-  "catalogItems": 702,
-  "candidateItems": 301,
-  "freshItems": 154,
-  "qualifyingAlerts": 5,
-  "qualifyingByCondition": {
-    "veryGood": 5
-  },
-  "deliveredAlerts": 5,
-  "deliveredByCondition": {
-    "veryGood": 5
-  },
-  "duplicateSuppressed": 1,
+  "catalogMarkers": 0,
+  "catalogItems": 0,
+  "candidateItems": 0,
+  "freshItems": 0,
+  "qualifyingAlerts": 0,
+  "qualifyingByCondition": {},
+  "deliveredAlerts": 0,
+  "deliveredByCondition": {},
+  "duplicateSuppressed": 0,
   "discordFailures": 0,
   "discordRoutes": [],
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 12,
-  "rejects": {
-    "stale": 146,
-    "condition": 45,
-    "seller-risk": 1,
-    "size": 6,
-    "price": 30,
-    "keyword": 8,
-    "detail-budget-exhausted": 23,
-    "seller-check-budget-exhausted": 36
-  },
+  "detailFetches": 0,
+  "rejects": {},
   "failures": {
-    "Nike SB Shoe Bargain::generic": "Vinted guard cooldown active for 43s"
+    "Nike Any Shoe Bargain::generic": "Vinted guard cooldown active for 44s"
   }
 }
