@@ -1,37 +1,37 @@
 {
-  "generatedAt": "2026-09-01T00:08:13.419Z",
-  "stateUpdatedAt": "2026-09-01T00:08:13.419Z",
-  "lastAttemptAt": "2026-09-01T00:08:13.419Z",
-  "lastScanAt": "2026-09-01T00:08:13.419Z",
+  "generatedAt": "2026-09-01T01:17:57.466Z",
+  "stateUpdatedAt": "2026-09-01T01:17:57.466Z",
+  "lastAttemptAt": "2026-09-01T01:17:57.466Z",
+  "lastScanAt": "2026-09-01T01:17:57.466Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Running Trainer Bargain::generic",
-    "Nike Lifestyle Trainer Bargain::generic",
-    "Nike Football Boot Bargain::generic",
-    "Nike Basketball Shoe Bargain::generic",
-    "Nike SB Shoe Bargain::generic",
-    "Nike P-6000::primary"
+    "Nike V5 RNR::primary",
+    "Nike Vomero 5::primary",
+    "Nike Vomero 18::primary",
+    "Nike Vomero Plus::primary",
+    "Nike Vomero Premium::primary",
+    "Nike Pegasus Premium::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1344,
-  "catalogItems": 810,
-  "candidateItems": 361,
-  "freshItems": 151,
+  "catalogMarkers": 1265,
+  "catalogItems": 678,
+  "candidateItems": 494,
+  "freshItems": 180,
   "qualifyingAlerts": 7,
   "qualifyingByCondition": {
-    "newWithoutTags": 4,
-    "veryGood": 3
+    "veryGood": 5,
+    "newWithTags": 2
   },
   "deliveredAlerts": 7,
   "deliveredByCondition": {
-    "newWithoutTags": 4,
-    "veryGood": 3
+    "veryGood": 5,
+    "newWithTags": 2
   },
-  "duplicateSuppressed": 1,
+  "duplicateSuppressed": 13,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,14 +67,14 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 209,
-    "size": 5,
-    "price": 36,
-    "keyword": 16,
-    "detail-budget-exhausted": 29,
-    "seller-check-budget-exhausted": 32,
-    "condition": 25,
-    "weak-margin": 1
+    "recovery-no-fresh-signal": 301,
+    "score": 1,
+    "size": 4,
+    "seller-check-budget-exhausted": 117,
+    "detail-budget-exhausted": 47,
+    "keyword": 2,
+    "condition": 1,
+    "price": 1
   },
   "failures": {}
 }
