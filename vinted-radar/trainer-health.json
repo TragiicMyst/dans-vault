@@ -1,37 +1,35 @@
 {
-  "generatedAt": "2026-09-01T22:13:49.902Z",
-  "stateUpdatedAt": "2026-09-01T22:13:49.902Z",
-  "lastAttemptAt": "2026-09-01T22:13:49.902Z",
-  "lastScanAt": "2026-09-01T22:13:49.902Z",
+  "generatedAt": "2026-09-01T23:14:55.301Z",
+  "stateUpdatedAt": "2026-09-01T23:14:55.301Z",
+  "lastAttemptAt": "2026-09-01T23:14:55.301Z",
+  "lastScanAt": "2026-09-01T23:14:55.301Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Zoom Fly 6::primary",
-    "Nike Air Max Bargain::generic",
-    "Nike Running Trainer Bargain::generic",
-    "Nike Lifestyle Trainer Bargain::generic",
-    "Nike Football Boot Bargain::generic",
-    "Nike Basketball Shoe Bargain::generic"
+    "Nike SB Shoe Bargain::generic",
+    "Nike P-6000::primary",
+    "Nike V5 RNR::primary",
+    "Nike Vomero 5::primary",
+    "Nike Vomero 18::primary",
+    "Nike Vomero Plus::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1344,
-  "catalogItems": 884,
-  "candidateItems": 430,
-  "freshItems": 220,
+  "catalogMarkers": 1262,
+  "catalogItems": 677,
+  "candidateItems": 447,
+  "freshItems": 143,
   "qualifyingAlerts": 6,
   "qualifyingByCondition": {
-    "newWithTags": 4,
-    "newWithoutTags": 2
+    "veryGood": 6
   },
   "deliveredAlerts": 6,
   "deliveredByCondition": {
-    "newWithTags": 4,
-    "newWithoutTags": 2
+    "veryGood": 6
   },
-  "duplicateSuppressed": 2,
+  "duplicateSuppressed": 22,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,14 +65,14 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 208,
-    "size": 2,
-    "score": 4,
-    "detail-budget-exhausted": 41,
-    "seller-check-budget-exhausted": 69,
-    "condition": 43,
-    "price": 37,
-    "keyword": 18
+    "recovery-no-fresh-signal": 282,
+    "size": 3,
+    "seller-risk": 3,
+    "price": 6,
+    "seller-check-budget-exhausted": 78,
+    "detail-budget-exhausted": 42,
+    "weak-margin": 3,
+    "keyword": 2
   },
   "failures": {}
 }
