@@ -2,29 +2,65 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-09-01T19:41:25.675Z",
+    "startedAt": "2026-09-01T22:07:20.341Z",
     "searchGroups": [
-      "rab-microlight:rab-microlight-alpine",
-      "rab-neutrino:rab-neutrino-pro",
-      "rab-electron:rab-electron-pro",
-      "patagonia-down-sweater:patagonia-down-sweater-jacket",
-      "patagonia-down-sweater:patagonia-down-sweater-hoody",
-      "patagonia-fitz-roy:patagonia-fitz-roy-down",
-      "arcteryx-cerium:arcteryx-cerium-jacket",
-      "arcteryx-cerium:arc-teryx-cerium"
+      "hunter:patagonia-puffer",
+      "hunter:arcteryx-jacket",
+      "hunter:arc-teryx-puffer",
+      "hunter:ralph-lauren-puffer",
+      "hunter:polo-puffer-jacket",
+      "hunter:nike-puffer-jacket",
+      "hunter:berghaus-puffer",
+      "hunter:napapijri-jacket"
     ],
     "vintedItems": 280,
-    "freshItems": 2,
+    "freshItems": 10,
     "freshByAge": 0,
-    "freshByNewId": 2,
+    "freshByNewId": 10,
     "bootstrapBlocked": 0,
     "staleBlocked": 2,
-    "candidates": 0,
-    "alerts": 0,
+    "candidates": 2,
+    "alerts": 2,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-09-01T22:07:36.137Z",
+      "platform": "VINTED",
+      "id": "9859399640",
+      "title": "nike puffer long coat",
+      "url": "https://www.vinted.co.uk/items/9859399640-nike-puffer-long-coat",
+      "modelId": "nike-puffer",
+      "buyPrice": 30,
+      "estimatedNetProfit": 22.26,
+      "roi": 74.2,
+      "score": 82
+    },
+    {
+      "at": "2026-09-01T22:07:34.970Z",
+      "platform": "VINTED",
+      "id": "9859572850",
+      "title": "white nike puffer jacket pen holder desk organiser",
+      "url": "https://www.vinted.co.uk/items/9859572850-white-nike-puffer-jacket-pen-holder-desk-organiser",
+      "modelId": "nike-puffer",
+      "buyPrice": 8.99,
+      "estimatedNetProfit": 44.42,
+      "roi": 494.1,
+      "score": 87
+    },
+    {
+      "at": "2026-09-01T22:01:29.405Z",
+      "platform": "VINTED",
+      "id": "9859009140",
+      "title": "bnwt ralph lauren boys red packable puffer jacket size m 10 12",
+      "url": "https://www.vinted.co.uk/items/9859009140-bnwt-ralph-lauren-boys-red-packable-puffer-jacket-size-m-10-12",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 30,
+      "estimatedNetProfit": 49.36,
+      "roi": 164.53,
+      "score": 96
+    },
     {
       "at": "2026-09-01T19:35:53.611Z",
       "platform": "VINTED",
@@ -228,42 +264,6 @@
       "estimatedNetProfit": 31.27,
       "roi": 156.35,
       "score": 95
-    },
-    {
-      "at": "2026-08-31T11:52:54.487Z",
-      "platform": "VINTED",
-      "id": "9839491113",
-      "title": "polo ralph lauren quilted puffer bomber jacket mens medium",
-      "url": "https://www.vinted.co.uk/items/9839491113-polo-ralph-lauren-quilted-puffer-bomber-jacket-mens-medium",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 34.99,
-      "estimatedNetProfit": 40.32,
-      "roi": 115.23,
-      "score": 91
-    },
-    {
-      "at": "2026-08-31T05:53:30.157Z",
-      "platform": "VINTED",
-      "id": "9837634931",
-      "title": "nike puffer jacket",
-      "url": "https://www.vinted.co.uk/items/9837634931-nike-puffer-jacket",
-      "modelId": "nike-puffer",
-      "buyPrice": 20,
-      "estimatedNetProfit": 37.43,
-      "roi": 187.15,
-      "score": 97
-    },
-    {
-      "at": "2026-08-31T00:23:35.371Z",
-      "platform": "VINTED",
-      "id": "9837082129",
-      "title": "patagonia down sweater vest gilet m",
-      "url": "https://www.vinted.co.uk/items/9837082129-patagonia-down-sweater-vest-gilet-m",
-      "modelId": "patagonia-down-sweater",
-      "buyPrice": 55,
-      "estimatedNetProfit": 30.89,
-      "roi": 56.16,
-      "score": 74
     }
   ]
 }
