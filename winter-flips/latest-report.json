@@ -2,27 +2,34 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-09-01T06:54:51.782Z",
+    "startedAt": "2026-09-01T12:12:48.626Z",
     "searchGroups": [
-      "patagonia-down-sweater:patagonia-down-sweater-hoody",
-      "patagonia-fitz-roy:patagonia-fitz-roy-down",
-      "arcteryx-cerium:arcteryx-cerium-jacket",
-      "arcteryx-cerium:arc-teryx-cerium",
-      "arcteryx-thorium:arcteryx-thorium-jacket",
-      "arcteryx-thorium:arc-teryx-thorium",
-      "ralph-lauren-puffer:ralph-lauren-puffer-jacket",
-      "ralph-lauren-puffer:polo-ralph-lauren-down-jacket"
+      "hunter:polo-puffer-jacket",
+      "hunter:nike-puffer-jacket",
+      "hunter:berghaus-puffer",
+      "hunter:napapijri-jacket",
+      "tnf-1996-nuptse:north-face-nuptse-700",
+      "tnf-1996-nuptse:north-face-1996-nuptse",
+      "tnf-himalayan:north-face-himalayan-puffer",
+      "tnf-himalayan:north-face-hmlyn-parka"
     ],
-    "vintedItems": 280,
-    "freshItems": 0,
+    "vintedItems": 70,
+    "freshItems": 1,
     "freshByAge": 0,
-    "freshByNewId": 0,
+    "freshByNewId": 1,
     "bootstrapBlocked": 0,
-    "staleBlocked": 1,
-    "candidates": 0,
+    "staleBlocked": 0,
+    "candidates": 1,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
-    "failures": []
+    "failures": [
+      "Vinted polo puffer jacket: Vinted HTTP 500",
+      "Vinted nike puffer jacket: This operation was aborted",
+      "Vinted berghaus puffer: This operation was aborted",
+      "Vinted napapijri jacket: Vinted HTTP 500",
+      "Vinted north face nuptse 700: This operation was aborted",
+      "Vinted north face hmlyn parka: This operation was aborted"
+    ]
   },
   "topRecent": [
     {
