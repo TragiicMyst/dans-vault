@@ -1,35 +1,39 @@
 {
-  "generatedAt": "2026-09-02T20:04:27.234Z",
-  "stateUpdatedAt": "2026-09-02T20:04:27.234Z",
-  "lastAttemptAt": "2026-09-02T20:04:27.234Z",
-  "lastScanAt": "2026-09-02T20:04:27.234Z",
+  "generatedAt": "2026-09-02T20:09:26.729Z",
+  "stateUpdatedAt": "2026-09-02T20:09:26.729Z",
+  "lastAttemptAt": "2026-09-02T20:09:26.729Z",
+  "lastScanAt": "2026-09-02T20:09:26.729Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike SB Shoe Bargain::generic",
-    "Nike P-6000::primary",
-    "Nike V5 RNR::primary",
-    "Nike Vomero 5::primary",
-    "Nike Vomero 18::primary",
-    "Nike Vomero Plus::primary"
+    "Nike Vomero Premium::primary",
+    "Nike Pegasus Premium::primary",
+    "Nike Pegasus Trail 5 GORE-TEX::primary",
+    "Nike TN::primary",
+    "Nike Air Max Plus 3::primary",
+    "Nike Air Max Plus VII::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1262,
-  "catalogItems": 664,
-  "candidateItems": 438,
-  "freshItems": 194,
-  "qualifyingAlerts": 6,
+  "catalogMarkers": 1343,
+  "catalogItems": 936,
+  "candidateItems": 410,
+  "freshItems": 92,
+  "qualifyingAlerts": 10,
   "qualifyingByCondition": {
-    "veryGood": 6
+    "newWithoutTags": 2,
+    "veryGood": 7,
+    "newWithTags": 1
   },
-  "deliveredAlerts": 6,
+  "deliveredAlerts": 10,
   "deliveredByCondition": {
-    "veryGood": 6
+    "newWithoutTags": 2,
+    "veryGood": 7,
+    "newWithTags": 1
   },
-  "duplicateSuppressed": 13,
+  "duplicateSuppressed": 50,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -65,15 +69,14 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 231,
-    "condition": 5,
-    "keyword": 4,
-    "price": 16,
-    "size": 5,
-    "seller-risk": 1,
-    "seller-check-budget-exhausted": 88,
-    "detail-budget-exhausted": 63,
-    "weak-margin": 6
+    "stale": 268,
+    "price": 5,
+    "weak-margin": 4,
+    "size": 2,
+    "condition": 16,
+    "detail-budget-exhausted": 18,
+    "seller-check-budget-exhausted": 35,
+    "keyword": 2
   },
   "failures": {}
 }
