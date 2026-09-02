@@ -1,80 +1,42 @@
 {
-  "generatedAt": "2026-09-02T00:13:54.367Z",
-  "stateUpdatedAt": "2026-09-02T00:13:54.367Z",
-  "lastAttemptAt": "2026-09-02T00:13:54.367Z",
+  "generatedAt": "2026-09-02T00:18:54.130Z",
+  "stateUpdatedAt": "2026-09-02T00:18:54.130Z",
+  "lastAttemptAt": "2026-09-02T00:18:54.130Z",
   "lastScanAt": "2026-09-02T00:13:54.367Z",
-  "cooldownUntil": null,
-  "healthyScan": true,
-  "healthReason": "all-selected-searches-completed",
+  "cooldownUntil": "2026-09-02T00:20:21.832Z",
+  "healthyScan": false,
+  "healthReason": "vinted-block-or-challenge",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Air Max 95::primary",
-    "Nike Air Max 90::primary",
-    "Nike Air Max 90 Drift::primary",
-    "Nike Air Max 97::primary",
-    "Nike Air Max 270::primary",
-    "Nike Air Max Dn::primary"
+    "Nike Air Max 1::primary",
+    "Nike Shox TL::primary",
+    "Nike Shox R4::primary",
+    "Nike Shox Ride 2::primary",
+    "Nike Air Force 1::primary",
+    "Nike Dunk Low::primary"
   ],
-  "successfulSearches": 7,
-  "failedSearches": 0,
-  "catalogMarkers": 1344,
-  "catalogItems": 998,
-  "candidateItems": 603,
-  "freshItems": 159,
-  "qualifyingAlerts": 11,
-  "qualifyingByCondition": {
-    "veryGood": 10,
-    "newWithoutTags": 1
-  },
-  "deliveredAlerts": 11,
-  "deliveredByCondition": {
-    "veryGood": 10,
-    "newWithoutTags": 1
-  },
-  "duplicateSuppressed": 24,
+  "successfulSearches": 1,
+  "failedSearches": 1,
+  "catalogMarkers": 192,
+  "catalogItems": 160,
+  "candidateItems": 59,
+  "freshItems": 1,
+  "qualifyingAlerts": 0,
+  "qualifyingByCondition": {},
+  "deliveredAlerts": 0,
+  "deliveredByCondition": {},
+  "duplicateSuppressed": 1,
   "discordFailures": 0,
-  "discordRoutes": [
-    {
-      "configuredAs": "newWithoutTags",
-      "webhookId": "1541037387969462303",
-      "channelId": "1541036356384329819",
-      "guildId": "1540743210488430592",
-      "webhookName": "Dan's NWOT Bot",
-      "detectedCondition": "newWithoutTags",
-      "inspectionError": null
-    },
-    {
-      "configuredAs": "newWithTags",
-      "webhookId": "1541040362997547048",
-      "channelId": "1541040152372183140",
-      "guildId": "1540743210488430592",
-      "webhookName": "Dan's New With Tags Bot",
-      "detectedCondition": "newWithTags",
-      "inspectionError": null
-    },
-    {
-      "configuredAs": "veryGood",
-      "webhookId": "1541040545483198516",
-      "channelId": "1541040213780992171",
-      "guildId": "1540743210488430592",
-      "webhookName": "Dan's Very Good Condition Bot",
-      "detectedCondition": "veryGood",
-      "inspectionError": null
-    }
-  ],
+  "discordRoutes": [],
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 12,
+  "detailFetches": 1,
   "rejects": {
-    "recovery-no-fresh-signal": 420,
-    "condition": 13,
-    "price": 8,
-    "size": 1,
-    "weak-margin": 2,
-    "detail-budget-exhausted": 47,
-    "seller-check-budget-exhausted": 68,
-    "keyword": 9
+    "stale": 57,
+    "size": 1
   },
-  "failures": {}
+  "failures": {
+    "Nike Air Max 1::primary": "Vinted guard cooldown active for 44s"
+  }
 }
