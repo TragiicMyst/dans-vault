@@ -1,37 +1,39 @@
 {
-  "generatedAt": "2026-09-02T05:48:09.249Z",
-  "stateUpdatedAt": "2026-09-02T05:48:09.249Z",
-  "lastAttemptAt": "2026-09-02T05:48:09.249Z",
-  "lastScanAt": "2026-09-02T05:48:09.249Z",
+  "generatedAt": "2026-09-02T06:22:24.892Z",
+  "stateUpdatedAt": "2026-09-02T06:22:24.892Z",
+  "lastAttemptAt": "2026-09-02T06:22:24.892Z",
+  "lastScanAt": "2026-09-02T06:22:24.892Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Hoodie::nike hoodie",
-    "Nike Sweatshirt::nike sweatshirt",
-    "Nike Track Jacket::nike track jacket",
-    "Nike Joggers::nike joggers",
-    "Nike Trousers::nike trousers",
-    "Nike Sportswear Hoodie::nike sportswear hoodie"
+    "Nike Sportswear Jacket::nike sportswear jacket",
+    "Nike Tech Fleece Windrunner::nike tech fleece windrunner",
+    "Nike Puffer Jacket::nike puffer jacket",
+    "Nike NOCTA Track Jacket::nike nocta track jacket",
+    "Nike Miler Shorts::nike miler shorts",
+    "Nike Tech Fleece Full-Zip Hoodie::nike tech fleece full zip hoodie"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1344,
-  "catalogItems": 1082,
-  "candidateItems": 252,
-  "freshItems": 83,
-  "qualifyingAlerts": 36,
+  "catalogMarkers": 1460,
+  "catalogItems": 815,
+  "candidateItems": 300,
+  "freshItems": 116,
+  "qualifyingAlerts": 44,
   "qualifyingByCondition": {
-    "veryGood": 33,
-    "newWithoutTags": 3
+    "veryGood": 36,
+    "newWithoutTags": 5,
+    "newWithTags": 3
   },
-  "deliveredAlerts": 36,
+  "deliveredAlerts": 44,
   "deliveredByCondition": {
-    "veryGood": 33,
-    "newWithoutTags": 3
+    "veryGood": 36,
+    "newWithoutTags": 5,
+    "newWithTags": 3
   },
-  "duplicateSuppressed": 4,
+  "duplicateSuppressed": 41,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -65,12 +67,16 @@
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 1,
+  "detailFetches": 3,
   "rejects": {
-    "recovery-no-fresh-signal": 165,
-    "price": 27,
-    "condition": 15,
-    "keyword": 5
+    "recovery-no-fresh-signal": 143,
+    "price": 39,
+    "condition": 13,
+    "keyword": 10,
+    "size": 2,
+    "score": 2,
+    "weak-margin": 5,
+    "clothing-variety-cap": 1
   },
   "failures": {}
 }
