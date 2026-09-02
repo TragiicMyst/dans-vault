@@ -1,39 +1,37 @@
 {
-  "generatedAt": "2026-09-02T21:45:00.566Z",
-  "stateUpdatedAt": "2026-09-02T21:45:00.566Z",
-  "lastAttemptAt": "2026-09-02T21:45:00.566Z",
-  "lastScanAt": "2026-09-02T21:45:00.566Z",
+  "generatedAt": "2026-09-02T23:15:33.774Z",
+  "stateUpdatedAt": "2026-09-02T23:15:33.774Z",
+  "lastAttemptAt": "2026-09-02T23:15:33.774Z",
+  "lastScanAt": "2026-09-02T23:15:33.774Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Stride Running Jacket::nike stride running jacket",
-    "Nike T-Shirt::nike t shirt",
-    "Nike Long Sleeve Top::nike long sleeve top",
-    "Nike Polo::nike polo",
-    "Nike Football Shirt::nike football shirt",
-    "Nike Training Top::nike training top"
+    "Nike Dri-FIT Top::nike dri fit top",
+    "Nike Quarter Zip::nike quarter zip",
+    "Nike Fleece::nike fleece",
+    "Nike Gilet::nike gilet",
+    "Nike Windbreaker::nike windbreaker",
+    "Nike Anorak::nike anorak"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 1012,
-  "candidateItems": 344,
-  "freshItems": 240,
-  "qualifyingAlerts": 104,
+  "catalogItems": 1042,
+  "candidateItems": 290,
+  "freshItems": 189,
+  "qualifyingAlerts": 66,
   "qualifyingByCondition": {
-    "newWithTags": 6,
-    "veryGood": 89,
-    "newWithoutTags": 9
+    "veryGood": 56,
+    "newWithoutTags": 10
   },
-  "deliveredAlerts": 104,
+  "deliveredAlerts": 66,
   "deliveredByCondition": {
-    "newWithTags": 6,
-    "veryGood": 89,
-    "newWithoutTags": 9
+    "veryGood": 56,
+    "newWithoutTags": 10
   },
-  "duplicateSuppressed": 7,
+  "duplicateSuppressed": 5,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,12 +67,14 @@
   "pendingDeliveries": 0,
   "detailFetches": 6,
   "rejects": {
-    "recovery-no-fresh-signal": 97,
-    "price": 66,
-    "condition": 52,
+    "recovery-no-fresh-signal": 96,
+    "weak-margin": 4,
+    "price": 60,
     "size": 5,
-    "keyword": 6,
-    "detail-budget-exhausted": 7
+    "condition": 38,
+    "keyword": 8,
+    "score": 2,
+    "detail-budget-exhausted": 6
   },
   "failures": {}
 }
