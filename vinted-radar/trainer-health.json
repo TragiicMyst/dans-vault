@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-09-02T04:39:02.282Z",
-  "stateUpdatedAt": "2026-09-02T04:39:02.282Z",
-  "lastAttemptAt": "2026-09-02T04:39:02.282Z",
-  "lastScanAt": "2026-09-02T04:39:02.282Z",
+  "generatedAt": "2026-09-02T04:44:01.665Z",
+  "stateUpdatedAt": "2026-09-02T04:44:01.665Z",
+  "lastAttemptAt": "2026-09-02T04:44:01.665Z",
+  "lastScanAt": "2026-09-02T04:44:01.665Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Zoom Fly 6::primary",
-    "Nike Air Max Bargain::generic",
-    "Nike Running Trainer Bargain::generic",
-    "Nike Lifestyle Trainer Bargain::generic",
-    "Nike Football Boot Bargain::generic",
-    "Nike Basketball Shoe Bargain::generic"
+    "Nike SB Shoe Bargain::generic",
+    "Nike P-6000::primary",
+    "Nike V5 RNR::primary",
+    "Nike Vomero 5::primary",
+    "Nike Vomero 18::primary",
+    "Nike Vomero Plus::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1344,
-  "catalogItems": 956,
-  "candidateItems": 441,
-  "freshItems": 81,
-  "qualifyingAlerts": 6,
+  "catalogMarkers": 1262,
+  "catalogItems": 672,
+  "candidateItems": 448,
+  "freshItems": 120,
+  "qualifyingAlerts": 10,
   "qualifyingByCondition": {
-    "newWithoutTags": 1,
-    "newWithTags": 1,
-    "veryGood": 4
+    "veryGood": 6,
+    "newWithoutTags": 2,
+    "newWithTags": 2
   },
-  "deliveredAlerts": 6,
+  "deliveredAlerts": 10,
   "deliveredByCondition": {
-    "newWithoutTags": 1,
-    "newWithTags": 1,
-    "veryGood": 4
+    "veryGood": 6,
+    "newWithoutTags": 2,
+    "newWithTags": 2
   },
-  "duplicateSuppressed": 6,
+  "duplicateSuppressed": 23,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,14 +69,13 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "price": 6,
-    "recovery-no-fresh-signal": 354,
-    "size": 5,
-    "score": 1,
-    "detail-budget-exhausted": 21,
-    "seller-check-budget-exhausted": 33,
-    "condition": 5,
-    "keyword": 4
+    "stale": 305,
+    "price": 2,
+    "condition": 3,
+    "size": 2,
+    "keyword": 1,
+    "detail-budget-exhausted": 37,
+    "seller-check-budget-exhausted": 65
   },
   "failures": {}
 }
