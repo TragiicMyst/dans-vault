@@ -1,37 +1,39 @@
 {
-  "generatedAt": "2026-09-02T18:09:59.765Z",
-  "stateUpdatedAt": "2026-09-02T18:09:59.765Z",
-  "lastAttemptAt": "2026-09-02T18:09:59.765Z",
-  "lastScanAt": "2026-09-02T18:09:59.765Z",
+  "generatedAt": "2026-09-02T19:59:27.088Z",
+  "stateUpdatedAt": "2026-09-02T19:59:27.088Z",
+  "lastAttemptAt": "2026-09-02T19:59:27.088Z",
+  "lastScanAt": "2026-09-02T19:59:27.088Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Air Jordan 1 Low::primary",
-    "Air Jordan 1 Mid::primary",
-    "Air Jordan 4::primary",
-    "Nike Initiator::primary",
-    "Nike Air Max Moto 2K::primary",
-    "Nike Metcon 10::primary"
+    "Nike Zoom Fly 6::primary",
+    "Nike Air Max Bargain::generic",
+    "Nike Running Trainer Bargain::generic",
+    "Nike Lifestyle Trainer Bargain::generic",
+    "Nike Football Boot Bargain::generic",
+    "Nike Basketball Shoe Bargain::generic"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1343,
-  "catalogItems": 916,
-  "candidateItems": 566,
-  "freshItems": 166,
-  "qualifyingAlerts": 7,
+  "catalogMarkers": 1344,
+  "catalogItems": 957,
+  "candidateItems": 454,
+  "freshItems": 198,
+  "qualifyingAlerts": 6,
   "qualifyingByCondition": {
-    "veryGood": 6,
-    "newWithTags": 1
+    "newWithTags": 1,
+    "newWithoutTags": 1,
+    "veryGood": 4
   },
-  "deliveredAlerts": 7,
+  "deliveredAlerts": 6,
   "deliveredByCondition": {
-    "veryGood": 6,
-    "newWithTags": 1
+    "newWithTags": 1,
+    "newWithoutTags": 1,
+    "veryGood": 4
   },
-  "duplicateSuppressed": 58,
+  "duplicateSuppressed": 25,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,13 +69,13 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "price": 11,
-    "stale": 342,
-    "size": 5,
-    "condition": 35,
-    "keyword": 12,
-    "detail-budget-exhausted": 30,
-    "seller-check-budget-exhausted": 66
+    "recovery-no-fresh-signal": 231,
+    "condition": 48,
+    "size": 6,
+    "price": 45,
+    "keyword": 18,
+    "seller-check-budget-exhausted": 33,
+    "detail-budget-exhausted": 42
   },
   "failures": {}
 }
