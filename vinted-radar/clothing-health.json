@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-09-02T01:06:17.006Z",
-  "stateUpdatedAt": "2026-09-02T01:06:17.006Z",
-  "lastAttemptAt": "2026-09-02T01:06:17.006Z",
-  "lastScanAt": "2026-09-02T01:06:17.006Z",
+  "generatedAt": "2026-09-02T01:22:17.613Z",
+  "stateUpdatedAt": "2026-09-02T01:22:17.613Z",
+  "lastAttemptAt": "2026-09-02T01:22:17.613Z",
+  "lastScanAt": "2026-09-02T01:22:17.613Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Bomber Jacket::nike bomber jacket",
-    "Nike Coat::nike coat",
-    "Nike Shorts::nike shorts",
-    "Nike Cargo Trousers::nike cargo trousers",
-    "Nike Track Pants::nike track pants",
-    "Nike Woven Trousers::nike woven trousers"
+    "Nike Tracksuit::nike tracksuit",
+    "Nike Vintage Clothing::vintage nike",
+    "Nike SB Clothing::nike sb clothing",
+    "Nike Vest::nike vest",
+    "Nike Air Max Hoodie::nike air max hoodie",
+    "Nike Zip Hoodie::nike zip hoodie"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 1091,
-  "candidateItems": 308,
-  "freshItems": 165,
-  "qualifyingAlerts": 51,
+  "catalogItems": 1067,
+  "candidateItems": 270,
+  "freshItems": 176,
+  "qualifyingAlerts": 73,
   "qualifyingByCondition": {
-    "veryGood": 44,
-    "newWithTags": 3,
-    "newWithoutTags": 4
+    "veryGood": 67,
+    "newWithoutTags": 5,
+    "newWithTags": 1
   },
-  "deliveredAlerts": 51,
+  "deliveredAlerts": 73,
   "deliveredByCondition": {
-    "veryGood": 44,
-    "newWithTags": 3,
-    "newWithoutTags": 4
+    "veryGood": 67,
+    "newWithoutTags": 5,
+    "newWithTags": 1
   },
-  "duplicateSuppressed": 17,
+  "duplicateSuppressed": 5,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,13 +69,12 @@
   "pendingDeliveries": 0,
   "detailFetches": 6,
   "rejects": {
-    "price": 71,
-    "recovery-no-fresh-signal": 126,
-    "size": 4,
-    "condition": 30,
-    "score": 1,
-    "detail-budget-exhausted": 5,
-    "keyword": 3
+    "price": 49,
+    "recovery-no-fresh-signal": 89,
+    "condition": 34,
+    "size": 6,
+    "keyword": 7,
+    "detail-budget-exhausted": 7
   },
   "failures": {}
 }
