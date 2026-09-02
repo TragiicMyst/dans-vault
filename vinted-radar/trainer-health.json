@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-02T01:16:09.948Z",
-  "stateUpdatedAt": "2026-09-02T01:16:09.948Z",
-  "lastAttemptAt": "2026-09-02T01:16:09.948Z",
-  "lastScanAt": "2026-09-02T01:11:10.019Z",
-  "cooldownUntil": "2026-09-02T01:17:26.991Z",
-  "healthyScan": false,
-  "healthReason": "vinted-block-or-challenge",
+  "generatedAt": "2026-09-02T04:39:02.282Z",
+  "stateUpdatedAt": "2026-09-02T04:39:02.282Z",
+  "lastAttemptAt": "2026-09-02T04:39:02.282Z",
+  "lastScanAt": "2026-09-02T04:39:02.282Z",
+  "cooldownUntil": null,
+  "healthyScan": true,
+  "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
     "Nike Zoom Fly 6::primary",
@@ -15,25 +15,68 @@
     "Nike Football Boot Bargain::generic",
     "Nike Basketball Shoe Bargain::generic"
   ],
-  "successfulSearches": 0,
-  "failedSearches": 1,
-  "catalogMarkers": 0,
-  "catalogItems": 0,
-  "candidateItems": 0,
-  "freshItems": 0,
-  "qualifyingAlerts": 0,
-  "qualifyingByCondition": {},
-  "deliveredAlerts": 0,
-  "deliveredByCondition": {},
-  "duplicateSuppressed": 0,
+  "successfulSearches": 7,
+  "failedSearches": 0,
+  "catalogMarkers": 1344,
+  "catalogItems": 956,
+  "candidateItems": 441,
+  "freshItems": 81,
+  "qualifyingAlerts": 6,
+  "qualifyingByCondition": {
+    "newWithoutTags": 1,
+    "newWithTags": 1,
+    "veryGood": 4
+  },
+  "deliveredAlerts": 6,
+  "deliveredByCondition": {
+    "newWithoutTags": 1,
+    "newWithTags": 1,
+    "veryGood": 4
+  },
+  "duplicateSuppressed": 6,
   "discordFailures": 0,
-  "discordRoutes": [],
+  "discordRoutes": [
+    {
+      "configuredAs": "newWithoutTags",
+      "webhookId": "1541037387969462303",
+      "channelId": "1541036356384329819",
+      "guildId": "1540743210488430592",
+      "webhookName": "Dan's NWOT Bot",
+      "detectedCondition": "newWithoutTags",
+      "inspectionError": null
+    },
+    {
+      "configuredAs": "newWithTags",
+      "webhookId": "1541040362997547048",
+      "channelId": "1541040152372183140",
+      "guildId": "1540743210488430592",
+      "webhookName": "Dan's New With Tags Bot",
+      "detectedCondition": "newWithTags",
+      "inspectionError": null
+    },
+    {
+      "configuredAs": "veryGood",
+      "webhookId": "1541040545483198516",
+      "channelId": "1541040213780992171",
+      "guildId": "1540743210488430592",
+      "webhookName": "Dan's Very Good Condition Bot",
+      "detectedCondition": "veryGood",
+      "inspectionError": null
+    }
+  ],
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 0,
-  "rejects": {},
-  "failures": {
-    "Nike Any Shoe Bargain::generic": "Vinted guard cooldown active for 44s"
-  }
+  "detailFetches": 12,
+  "rejects": {
+    "price": 6,
+    "recovery-no-fresh-signal": 354,
+    "size": 5,
+    "score": 1,
+    "detail-budget-exhausted": 21,
+    "seller-check-budget-exhausted": 33,
+    "condition": 5,
+    "keyword": 4
+  },
+  "failures": {}
 }
