@@ -1,37 +1,35 @@
 {
-  "generatedAt": "2026-09-02T23:15:29.126Z",
-  "stateUpdatedAt": "2026-09-02T23:15:29.126Z",
-  "lastAttemptAt": "2026-09-02T23:15:29.126Z",
-  "lastScanAt": "2026-09-02T23:15:29.126Z",
+  "generatedAt": "2026-09-02T23:20:29.050Z",
+  "stateUpdatedAt": "2026-09-02T23:20:29.050Z",
+  "lastAttemptAt": "2026-09-02T23:20:29.050Z",
+  "lastScanAt": "2026-09-02T23:20:29.050Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Air Max 95::primary",
-    "Nike Air Max 90::primary",
-    "Nike Air Max 90 Drift::primary",
-    "Nike Air Max 97::primary",
-    "Nike Air Max 270::primary",
-    "Nike Air Max Dn::primary"
+    "Nike Air Max 1::primary",
+    "Nike Shox TL::primary",
+    "Nike Shox R4::primary",
+    "Nike Shox Ride 2::primary",
+    "Nike Air Force 1::primary",
+    "Nike Dunk Low::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1343,
-  "catalogItems": 988,
-  "candidateItems": 589,
-  "freshItems": 179,
-  "qualifyingAlerts": 5,
+  "catalogItems": 870,
+  "candidateItems": 487,
+  "freshItems": 135,
+  "qualifyingAlerts": 8,
   "qualifyingByCondition": {
-    "newWithTags": 2,
-    "veryGood": 3
+    "veryGood": 8
   },
-  "deliveredAlerts": 5,
+  "deliveredAlerts": 8,
   "deliveredByCondition": {
-    "newWithTags": 2,
-    "veryGood": 3
+    "veryGood": 8
   },
-  "duplicateSuppressed": 26,
+  "duplicateSuppressed": 44,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,16 +65,15 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "recovery-no-fresh-signal": 384,
-    "price": 10,
-    "size": 5,
+    "stale": 308,
+    "price": 7,
+    "score": 3,
+    "size": 1,
+    "detail-budget-exhausted": 43,
+    "seller-check-budget-exhausted": 46,
+    "condition": 18,
     "keyword": 8,
-    "condition": 14,
-    "score": 1,
-    "seller-risk": 1,
-    "seller-check-budget-exhausted": 91,
-    "detail-budget-exhausted": 42,
-    "weak-margin": 2
+    "weak-margin": 1
   },
   "failures": {}
 }
