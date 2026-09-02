@@ -1,35 +1,37 @@
 {
-  "generatedAt": "2026-09-02T18:04:59.729Z",
-  "stateUpdatedAt": "2026-09-02T18:04:59.729Z",
-  "lastAttemptAt": "2026-09-02T18:04:59.729Z",
-  "lastScanAt": "2026-09-02T18:04:59.729Z",
+  "generatedAt": "2026-09-02T18:09:59.765Z",
+  "stateUpdatedAt": "2026-09-02T18:09:59.765Z",
+  "lastAttemptAt": "2026-09-02T18:09:59.765Z",
+  "lastScanAt": "2026-09-02T18:09:59.765Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Air Max 1::primary",
-    "Nike Shox TL::primary",
-    "Nike Shox R4::primary",
-    "Nike Shox Ride 2::primary",
-    "Nike Air Force 1::primary",
-    "Nike Dunk Low::primary"
+    "Air Jordan 1 Low::primary",
+    "Air Jordan 1 Mid::primary",
+    "Air Jordan 4::primary",
+    "Nike Initiator::primary",
+    "Nike Air Max Moto 2K::primary",
+    "Nike Metcon 10::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1344,
-  "catalogItems": 887,
-  "candidateItems": 509,
-  "freshItems": 223,
-  "qualifyingAlerts": 6,
+  "catalogMarkers": 1343,
+  "catalogItems": 916,
+  "candidateItems": 566,
+  "freshItems": 166,
+  "qualifyingAlerts": 7,
   "qualifyingByCondition": {
-    "veryGood": 6
+    "veryGood": 6,
+    "newWithTags": 1
   },
-  "deliveredAlerts": 6,
+  "deliveredAlerts": 7,
   "deliveredByCondition": {
-    "veryGood": 6
+    "veryGood": 6,
+    "newWithTags": 1
   },
-  "duplicateSuppressed": 40,
+  "duplicateSuppressed": 58,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -65,15 +67,13 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "price": 13,
-    "stale": 246,
+    "price": 11,
+    "stale": 342,
     "size": 5,
-    "keyword": 15,
-    "condition": 47,
-    "seller-risk": 1,
-    "detail-budget-exhausted": 52,
-    "seller-check-budget-exhausted": 81,
-    "weak-margin": 3
+    "condition": 35,
+    "keyword": 12,
+    "detail-budget-exhausted": 30,
+    "seller-check-budget-exhausted": 66
   },
   "failures": {}
 }
