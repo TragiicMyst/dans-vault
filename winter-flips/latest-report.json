@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-09-02T08:46:19.753Z",
+    "startedAt": "2026-09-02T13:04:04.473Z",
     "searchGroups": [
-      "hunter:north-face-700",
-      "hunter:mens-north-face-jacket",
-      "hunter:rab-puffer",
-      "hunter:rab-down-jacket",
-      "hunter:patagonia-puffer",
-      "hunter:arcteryx-jacket",
-      "hunter:arc-teryx-puffer",
-      "hunter:ralph-lauren-puffer"
+      "arcteryx-cerium:arcteryx-cerium-jacket",
+      "arcteryx-cerium:arc-teryx-cerium",
+      "arcteryx-thorium:arcteryx-thorium-jacket",
+      "arcteryx-thorium:arc-teryx-thorium",
+      "ralph-lauren-puffer:ralph-lauren-puffer-jacket",
+      "ralph-lauren-puffer:polo-ralph-lauren-down-jacket",
+      "nike-puffer:nike-puffer-jacket-mens",
+      "nike-puffer:nike-down-jacket"
     ],
     "vintedItems": 280,
-    "freshItems": 3,
+    "freshItems": 4,
     "freshByAge": 0,
-    "freshByNewId": 3,
+    "freshByNewId": 4,
     "bootstrapBlocked": 0,
-    "staleBlocked": 15,
-    "candidates": 0,
-    "alerts": 0,
+    "staleBlocked": 3,
+    "candidates": 3,
+    "alerts": 1,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-09-02T13:04:18.237Z",
+      "platform": "VINTED",
+      "id": "9862910436",
+      "title": "polo ralph lauren green lightweight harrington jacket size s",
+      "url": "https://www.vinted.co.uk/items/9862910436-polo-ralph-lauren-green-lightweight-harrington-jacket-size-s",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 35,
+      "estimatedNetProfit": 30.21,
+      "roi": 86.31,
+      "score": 87
+    },
     {
       "at": "2026-09-01T22:07:36.137Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 43.6,
       "roi": 124.57,
       "score": 91
-    },
-    {
-      "at": "2026-08-31T11:59:00.242Z",
-      "platform": "VINTED",
-      "id": "9841540109",
-      "title": "nike therma fit puffer coat",
-      "url": "https://www.vinted.co.uk/items/9841540109-nike-therma-fit-puffer-coat",
-      "modelId": "nike-puffer",
-      "buyPrice": 20,
-      "estimatedNetProfit": 31.27,
-      "roi": 156.35,
-      "score": 95
     }
   ]
 }
