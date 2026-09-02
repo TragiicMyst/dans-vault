@@ -1,26 +1,26 @@
 {
-  "generatedAt": "2026-09-02T17:23:23.961Z",
-  "stateUpdatedAt": "2026-09-02T17:23:23.961Z",
-  "lastAttemptAt": "2026-09-02T17:23:23.961Z",
-  "lastScanAt": "2026-09-02T17:23:23.961Z",
+  "generatedAt": "2026-09-02T17:28:23.705Z",
+  "stateUpdatedAt": "2026-09-02T17:28:23.705Z",
+  "lastAttemptAt": "2026-09-02T17:28:23.705Z",
+  "lastScanAt": "2026-09-02T17:28:23.705Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Zoom Fly 6::primary",
-    "Nike Air Max Bargain::generic",
-    "Nike Running Trainer Bargain::generic",
-    "Nike Lifestyle Trainer Bargain::generic",
-    "Nike Football Boot Bargain::generic",
-    "Nike Basketball Shoe Bargain::generic"
+    "Nike SB Shoe Bargain::generic",
+    "Nike P-6000::primary",
+    "Nike V5 RNR::primary",
+    "Nike Vomero 5::primary",
+    "Nike Vomero 18::primary",
+    "Nike Vomero Plus::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1344,
-  "catalogItems": 948,
-  "candidateItems": 424,
-  "freshItems": 228,
+  "catalogMarkers": 1262,
+  "catalogItems": 663,
+  "candidateItems": 411,
+  "freshItems": 211,
   "qualifyingAlerts": 6,
   "qualifyingByCondition": {
     "veryGood": 5,
@@ -31,7 +31,7 @@
     "veryGood": 5,
     "newWithoutTags": 1
   },
-  "duplicateSuppressed": 21,
+  "duplicateSuppressed": 13,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,14 +67,15 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "recovery-no-fresh-signal": 175,
+    "stale": 187,
+    "price": 22,
     "size": 5,
-    "price": 49,
-    "condition": 55,
-    "score": 1,
-    "keyword": 19,
-    "seller-check-budget-exhausted": 47,
-    "detail-budget-exhausted": 46
+    "condition": 15,
+    "keyword": 7,
+    "seller-risk": 1,
+    "detail-budget-exhausted": 65,
+    "seller-check-budget-exhausted": 78,
+    "weak-margin": 12
   },
   "failures": {}
 }
