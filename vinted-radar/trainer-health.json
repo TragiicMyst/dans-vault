@@ -1,39 +1,37 @@
 {
-  "generatedAt": "2026-09-03T14:09:23.468Z",
-  "stateUpdatedAt": "2026-09-03T14:09:23.468Z",
-  "lastAttemptAt": "2026-09-03T14:09:23.468Z",
-  "lastScanAt": "2026-09-03T14:09:23.468Z",
+  "generatedAt": "2026-09-03T14:14:23.249Z",
+  "stateUpdatedAt": "2026-09-03T14:14:23.249Z",
+  "lastAttemptAt": "2026-09-03T14:14:23.249Z",
+  "lastScanAt": "2026-09-03T14:14:23.249Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Zoom Fly 6::primary",
-    "Nike Air Max Bargain::generic",
-    "Nike Running Trainer Bargain::generic",
-    "Nike Lifestyle Trainer Bargain::generic",
-    "Nike Football Boot Bargain::generic",
-    "Nike Basketball Shoe Bargain::generic"
+    "Nike SB Shoe Bargain::generic",
+    "Nike P-6000::primary",
+    "Nike V5 RNR::primary",
+    "Nike Vomero 5::primary",
+    "Nike Vomero 18::primary",
+    "Nike Vomero Plus::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1344,
-  "catalogItems": 876,
-  "candidateItems": 407,
-  "freshItems": 209,
-  "qualifyingAlerts": 5,
+  "catalogMarkers": 1262,
+  "catalogItems": 666,
+  "candidateItems": 422,
+  "freshItems": 160,
+  "qualifyingAlerts": 3,
   "qualifyingByCondition": {
-    "newWithoutTags": 1,
-    "newWithTags": 1,
-    "veryGood": 3
+    "veryGood": 2,
+    "newWithoutTags": 1
   },
-  "deliveredAlerts": 5,
+  "deliveredAlerts": 3,
   "deliveredByCondition": {
-    "newWithoutTags": 1,
-    "newWithTags": 1,
-    "veryGood": 3
+    "veryGood": 2,
+    "newWithoutTags": 1
   },
-  "duplicateSuppressed": 23,
+  "duplicateSuppressed": 16,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,13 +67,15 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "keyword": 34,
-    "recovery-no-fresh-signal": 175,
-    "condition": 60,
-    "size": 7,
-    "price": 31,
-    "seller-check-budget-exhausted": 46,
-    "detail-budget-exhausted": 26
+    "stale": 246,
+    "size": 8,
+    "price": 12,
+    "condition": 18,
+    "seller-risk": 1,
+    "detail-budget-exhausted": 47,
+    "seller-check-budget-exhausted": 53,
+    "keyword": 8,
+    "weak-margin": 10
   },
   "failures": {}
 }
