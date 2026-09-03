@@ -1,37 +1,39 @@
 {
-  "generatedAt": "2026-09-03T21:07:57.709Z",
-  "stateUpdatedAt": "2026-09-03T21:07:57.709Z",
-  "lastAttemptAt": "2026-09-03T21:07:57.709Z",
-  "lastScanAt": "2026-09-03T21:07:57.709Z",
+  "generatedAt": "2026-09-03T21:12:58.255Z",
+  "stateUpdatedAt": "2026-09-03T21:12:58.255Z",
+  "lastAttemptAt": "2026-09-03T21:12:58.255Z",
+  "lastScanAt": "2026-09-03T21:12:58.255Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike SB Shoe Bargain::generic",
-    "Nike P-6000::primary",
-    "Nike V5 RNR::primary",
-    "Nike Vomero 5::primary",
-    "Nike Vomero 18::primary",
-    "Nike Vomero Plus::primary"
+    "Nike Vomero Premium::primary",
+    "Nike Pegasus Premium::primary",
+    "Nike Pegasus Trail 5 GORE-TEX::primary",
+    "Nike TN::primary",
+    "Nike Air Max Plus 3::primary",
+    "Nike Air Max Plus VII::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1262,
-  "catalogItems": 663,
-  "candidateItems": 418,
-  "freshItems": 160,
-  "qualifyingAlerts": 3,
+  "catalogMarkers": 1344,
+  "catalogItems": 951,
+  "candidateItems": 405,
+  "freshItems": 84,
+  "qualifyingAlerts": 7,
   "qualifyingByCondition": {
-    "veryGood": 2,
-    "newWithTags": 1
+    "newWithTags": 2,
+    "newWithoutTags": 2,
+    "veryGood": 3
   },
-  "deliveredAlerts": 3,
+  "deliveredAlerts": 7,
   "deliveredByCondition": {
-    "veryGood": 2,
-    "newWithTags": 1
+    "newWithTags": 2,
+    "newWithoutTags": 2,
+    "veryGood": 3
   },
-  "duplicateSuppressed": 11,
+  "duplicateSuppressed": 58,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,15 +69,15 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 247,
-    "price": 16,
-    "size": 8,
-    "condition": 16,
-    "keyword": 6,
-    "seller-risk": 1,
-    "seller-check-budget-exhausted": 53,
-    "detail-budget-exhausted": 55,
-    "weak-margin": 2
+    "stale": 263,
+    "size": 4,
+    "score": 1,
+    "price": 4,
+    "detail-budget-exhausted": 10,
+    "seller-check-budget-exhausted": 39,
+    "condition": 15,
+    "keyword": 3,
+    "weak-margin": 1
   },
   "failures": {}
 }
