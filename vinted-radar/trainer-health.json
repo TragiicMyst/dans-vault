@@ -1,35 +1,37 @@
 {
-  "generatedAt": "2026-09-03T09:54:43.006Z",
-  "stateUpdatedAt": "2026-09-03T09:54:43.006Z",
-  "lastAttemptAt": "2026-09-03T09:54:43.006Z",
-  "lastScanAt": "2026-09-03T09:54:43.006Z",
+  "generatedAt": "2026-09-03T09:59:43.244Z",
+  "stateUpdatedAt": "2026-09-03T09:59:43.244Z",
+  "lastAttemptAt": "2026-09-03T09:59:43.244Z",
+  "lastScanAt": "2026-09-03T09:59:43.244Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike SB Shoe Bargain::generic",
-    "Nike P-6000::primary",
-    "Nike V5 RNR::primary",
-    "Nike Vomero 5::primary",
-    "Nike Vomero 18::primary",
-    "Nike Vomero Plus::primary"
+    "Nike Vomero Premium::primary",
+    "Nike Pegasus Premium::primary",
+    "Nike Pegasus Trail 5 GORE-TEX::primary",
+    "Nike TN::primary",
+    "Nike Air Max Plus 3::primary",
+    "Nike Air Max Plus VII::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1261,
-  "catalogItems": 694,
-  "candidateItems": 440,
-  "freshItems": 127,
-  "qualifyingAlerts": 5,
+  "catalogMarkers": 1343,
+  "catalogItems": 946,
+  "candidateItems": 406,
+  "freshItems": 52,
+  "qualifyingAlerts": 7,
   "qualifyingByCondition": {
-    "veryGood": 5
+    "veryGood": 6,
+    "newWithTags": 1
   },
-  "deliveredAlerts": 5,
+  "deliveredAlerts": 7,
   "deliveredByCondition": {
-    "veryGood": 5
+    "veryGood": 6,
+    "newWithTags": 1
   },
-  "duplicateSuppressed": 26,
+  "duplicateSuppressed": 68,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -65,13 +67,16 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 287,
-    "keyword": 8,
-    "size": 7,
-    "price": 7,
-    "condition": 5,
-    "seller-check-budget-exhausted": 51,
-    "detail-budget-exhausted": 44
+    "stale": 286,
+    "condition": 8,
+    "keyword": 5,
+    "price": 6,
+    "size": 3,
+    "weak-margin": 1,
+    "score": 1,
+    "seller-risk": 1,
+    "seller-check-budget-exhausted": 17,
+    "detail-budget-exhausted": 3
   },
   "failures": {}
 }
