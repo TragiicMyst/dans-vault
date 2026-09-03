@@ -1,36 +1,36 @@
 {
-  "generatedAt": "2026-09-03T10:54:37.486Z",
-  "stateUpdatedAt": "2026-09-03T10:54:37.486Z",
-  "lastAttemptAt": "2026-09-03T10:54:37.486Z",
-  "lastScanAt": "2026-09-03T10:54:37.486Z",
+  "generatedAt": "2026-09-03T10:59:37.099Z",
+  "stateUpdatedAt": "2026-09-03T10:59:37.099Z",
+  "lastAttemptAt": "2026-09-03T10:59:37.099Z",
+  "lastScanAt": "2026-09-03T10:59:37.099Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Air Max 1::primary",
-    "Nike Shox TL::primary",
-    "Nike Shox R4::primary",
-    "Nike Shox Ride 2::primary",
-    "Nike Air Force 1::primary",
-    "Nike Dunk Low::primary"
+    "Air Jordan 1 Low::primary",
+    "Air Jordan 1 Mid::primary",
+    "Air Jordan 4::primary",
+    "Nike Initiator::primary",
+    "Nike Air Max Moto 2K::primary",
+    "Nike Metcon 10::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 884,
-  "candidateItems": 525,
-  "freshItems": 154,
-  "qualifyingAlerts": 5,
+  "catalogItems": 924,
+  "candidateItems": 553,
+  "freshItems": 126,
+  "qualifyingAlerts": 4,
   "qualifyingByCondition": {
-    "veryGood": 3,
-    "newWithoutTags": 1,
+    "veryGood": 1,
+    "newWithoutTags": 2,
     "newWithTags": 1
   },
-  "deliveredAlerts": 5,
+  "deliveredAlerts": 4,
   "deliveredByCondition": {
-    "veryGood": 3,
-    "newWithoutTags": 1,
+    "veryGood": 1,
+    "newWithoutTags": 2,
     "newWithTags": 1
   },
   "duplicateSuppressed": 54,
@@ -69,14 +69,15 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 317,
-    "price": 12,
-    "condition": 40,
-    "keyword": 23,
+    "stale": 373,
     "size": 7,
-    "weak-margin": 3,
-    "detail-budget-exhausted": 29,
-    "seller-check-budget-exhausted": 35
+    "seller-risk": 1,
+    "price": 2,
+    "keyword": 11,
+    "condition": 18,
+    "detail-budget-exhausted": 21,
+    "seller-check-budget-exhausted": 61,
+    "weak-margin": 1
   },
   "failures": {}
 }
