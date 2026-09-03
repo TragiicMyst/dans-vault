@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-09-03T14:19:23.173Z",
-  "stateUpdatedAt": "2026-09-03T14:19:23.173Z",
-  "lastAttemptAt": "2026-09-03T14:19:23.173Z",
-  "lastScanAt": "2026-09-03T14:19:23.173Z",
+  "generatedAt": "2026-09-03T14:47:52.802Z",
+  "stateUpdatedAt": "2026-09-03T14:47:52.802Z",
+  "lastAttemptAt": "2026-09-03T14:47:52.802Z",
+  "lastScanAt": "2026-09-03T14:47:52.802Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Vomero Premium::primary",
-    "Nike Pegasus Premium::primary",
-    "Nike Pegasus Trail 5 GORE-TEX::primary",
-    "Nike TN::primary",
-    "Nike Air Max Plus 3::primary",
-    "Nike Air Max Plus VII::primary"
+    "Nike Air Max 95::primary",
+    "Nike Air Max 90::primary",
+    "Nike Air Max 90 Drift::primary",
+    "Nike Air Max 97::primary",
+    "Nike Air Max 270::primary",
+    "Nike Air Max Dn::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1343,
-  "catalogItems": 951,
-  "candidateItems": 424,
-  "freshItems": 90,
-  "qualifyingAlerts": 5,
+  "catalogMarkers": 1344,
+  "catalogItems": 994,
+  "candidateItems": 623,
+  "freshItems": 242,
+  "qualifyingAlerts": 8,
   "qualifyingByCondition": {
-    "veryGood": 2,
-    "newWithTags": 2,
-    "newWithoutTags": 1
+    "veryGood": 6,
+    "newWithoutTags": 1,
+    "newWithTags": 1
   },
-  "deliveredAlerts": 5,
+  "deliveredAlerts": 8,
   "deliveredByCondition": {
-    "veryGood": 2,
-    "newWithTags": 2,
-    "newWithoutTags": 1
+    "veryGood": 6,
+    "newWithoutTags": 1,
+    "newWithTags": 1
   },
-  "duplicateSuppressed": 61,
+  "duplicateSuppressed": 21,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,15 +69,15 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 273,
-    "price": 5,
-    "weak-margin": 8,
-    "size": 4,
-    "keyword": 5,
-    "seller-risk": 3,
-    "detail-budget-exhausted": 12,
-    "seller-check-budget-exhausted": 37,
-    "condition": 11
+    "recovery-no-fresh-signal": 360,
+    "price": 20,
+    "size": 2,
+    "keyword": 27,
+    "condition": 44,
+    "seller-risk": 2,
+    "weak-margin": 3,
+    "seller-check-budget-exhausted": 75,
+    "detail-budget-exhausted": 61
   },
   "failures": {}
 }
