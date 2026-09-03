@@ -1,35 +1,37 @@
 {
-  "generatedAt": "2026-09-03T00:43:55.046Z",
-  "stateUpdatedAt": "2026-09-03T00:43:55.046Z",
-  "lastAttemptAt": "2026-09-03T00:43:55.046Z",
-  "lastScanAt": "2026-09-03T00:43:55.046Z",
+  "generatedAt": "2026-09-03T01:12:29.867Z",
+  "stateUpdatedAt": "2026-09-03T01:12:29.867Z",
+  "lastAttemptAt": "2026-09-03T01:12:29.867Z",
+  "lastScanAt": "2026-09-03T01:12:29.867Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Vomero Premium::primary",
-    "Nike Pegasus Premium::primary",
-    "Nike Pegasus Trail 5 GORE-TEX::primary",
-    "Nike TN::primary",
-    "Nike Air Max Plus 3::primary",
-    "Nike Air Max Plus VII::primary"
+    "Nike Air Max 95::primary",
+    "Nike Air Max 90::primary",
+    "Nike Air Max 90 Drift::primary",
+    "Nike Air Max 97::primary",
+    "Nike Air Max 270::primary",
+    "Nike Air Max Dn::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1343,
-  "catalogItems": 952,
-  "candidateItems": 395,
-  "freshItems": 40,
-  "qualifyingAlerts": 8,
+  "catalogMarkers": 1339,
+  "catalogItems": 991,
+  "candidateItems": 596,
+  "freshItems": 131,
+  "qualifyingAlerts": 7,
   "qualifyingByCondition": {
-    "veryGood": 8
+    "newWithTags": 1,
+    "veryGood": 6
   },
-  "deliveredAlerts": 8,
+  "deliveredAlerts": 7,
   "deliveredByCondition": {
-    "veryGood": 8
+    "newWithTags": 1,
+    "veryGood": 6
   },
-  "duplicateSuppressed": 62,
+  "duplicateSuppressed": 26,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -65,13 +67,13 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 293,
-    "price": 1,
-    "keyword": 1,
-    "score": 1,
-    "size": 3,
-    "seller-check-budget-exhausted": 21,
-    "detail-budget-exhausted": 5
+    "recovery-no-fresh-signal": 439,
+    "condition": 6,
+    "price": 2,
+    "size": 4,
+    "seller-risk": 1,
+    "seller-check-budget-exhausted": 72,
+    "detail-budget-exhausted": 39
   },
   "failures": {}
 }
