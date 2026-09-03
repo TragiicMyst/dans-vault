@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-09-03T22:01:22.599Z",
+    "startedAt": "2026-09-03T23:59:14.942Z",
     "searchGroups": [
-      "hunter:north-face-coat",
-      "hunter:north-face-puffer",
-      "hunter:north-face-700",
-      "hunter:mens-north-face-jacket",
-      "hunter:rab-puffer",
-      "hunter:rab-down-jacket",
-      "hunter:patagonia-puffer",
-      "hunter:arcteryx-jacket"
+      "patagonia-down-sweater:patagonia-down-sweater-hoody",
+      "patagonia-fitz-roy:patagonia-fitz-roy-down",
+      "arcteryx-cerium:arcteryx-cerium-jacket",
+      "arcteryx-cerium:arc-teryx-cerium",
+      "arcteryx-thorium:arcteryx-thorium-jacket",
+      "arcteryx-thorium:arc-teryx-thorium",
+      "ralph-lauren-puffer:ralph-lauren-puffer-jacket",
+      "ralph-lauren-puffer:polo-ralph-lauren-down-jacket"
     ],
     "vintedItems": 280,
-    "freshItems": 30,
+    "freshItems": 0,
     "freshByAge": 0,
-    "freshByNewId": 30,
+    "freshByNewId": 0,
     "bootstrapBlocked": 0,
-    "staleBlocked": 4,
-    "candidates": 2,
+    "staleBlocked": 0,
+    "candidates": 0,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-09-03T23:53:24.533Z",
+      "platform": "VINTED",
+      "id": "9880940558",
+      "title": "womens berghaus puffer",
+      "url": "https://www.vinted.co.uk/items/9880940558-womens-berghaus-puffer",
+      "modelId": "berghaus-down",
+      "buyPrice": 18,
+      "estimatedNetProfit": 31.5,
+      "roi": 175,
+      "score": 95
+    },
     {
       "at": "2026-09-03T19:51:52.031Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 44.42,
       "roi": 494.1,
       "score": 87
-    },
-    {
-      "at": "2026-09-01T22:01:29.405Z",
-      "platform": "VINTED",
-      "id": "9859009140",
-      "title": "bnwt ralph lauren boys red packable puffer jacket size m 10 12",
-      "url": "https://www.vinted.co.uk/items/9859009140-bnwt-ralph-lauren-boys-red-packable-puffer-jacket-size-m-10-12",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 30,
-      "estimatedNetProfit": 49.36,
-      "roi": 164.53,
-      "score": 96
     }
   ]
 }
