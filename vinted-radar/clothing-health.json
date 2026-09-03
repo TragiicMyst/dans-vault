@@ -1,37 +1,39 @@
 {
-  "generatedAt": "2026-09-03T21:25:51.444Z",
-  "stateUpdatedAt": "2026-09-03T21:25:51.444Z",
-  "lastAttemptAt": "2026-09-03T21:25:51.444Z",
-  "lastScanAt": "2026-09-03T21:25:51.444Z",
+  "generatedAt": "2026-09-03T23:15:08.920Z",
+  "stateUpdatedAt": "2026-09-03T23:15:08.920Z",
+  "lastAttemptAt": "2026-09-03T23:15:08.920Z",
+  "lastScanAt": "2026-09-03T23:15:08.920Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Football Shirt::nike football shirt",
-    "Nike Training Top::nike training top",
-    "Nike Dri-FIT Top::nike dri fit top",
-    "Nike Quarter Zip::nike quarter zip",
-    "Nike Fleece::nike fleece",
-    "Nike Gilet::nike gilet"
+    "Nike Windbreaker::nike windbreaker",
+    "Nike Anorak::nike anorak",
+    "Nike Rain Jacket::nike rain jacket",
+    "Nike Woven Jacket::nike woven jacket",
+    "Nike Bomber Jacket::nike bomber jacket",
+    "Nike Coat::nike coat"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1343,
-  "catalogItems": 994,
-  "candidateItems": 310,
-  "freshItems": 237,
-  "qualifyingAlerts": 93,
+  "catalogMarkers": 1344,
+  "catalogItems": 1105,
+  "candidateItems": 246,
+  "freshItems": 122,
+  "qualifyingAlerts": 39,
   "qualifyingByCondition": {
-    "veryGood": 80,
-    "newWithoutTags": 13
+    "veryGood": 34,
+    "newWithoutTags": 2,
+    "newWithTags": 3
   },
-  "deliveredAlerts": 93,
+  "deliveredAlerts": 39,
   "deliveredByCondition": {
-    "veryGood": 80,
-    "newWithoutTags": 13
+    "veryGood": 34,
+    "newWithoutTags": 2,
+    "newWithTags": 3
   },
-  "duplicateSuppressed": 27,
+  "duplicateSuppressed": 17,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,12 +69,11 @@
   "pendingDeliveries": 0,
   "detailFetches": 6,
   "rejects": {
-    "price": 76,
-    "condition": 46,
-    "recovery-no-fresh-signal": 46,
+    "price": 44,
+    "recovery-no-fresh-signal": 107,
+    "condition": 27,
     "size": 5,
-    "keyword": 14,
-    "detail-budget-exhausted": 3
+    "keyword": 7
   },
   "failures": {}
 }
