@@ -2,29 +2,53 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-09-04T12:12:41.416Z",
+    "startedAt": "2026-09-04T16:25:00.280Z",
     "searchGroups": [
-      "rab-microlight:rab-microlight-alpine",
-      "rab-neutrino:rab-neutrino-pro",
-      "rab-electron:rab-electron-pro",
-      "patagonia-down-sweater:patagonia-down-sweater-jacket",
-      "patagonia-down-sweater:patagonia-down-sweater-hoody",
-      "patagonia-fitz-roy:patagonia-fitz-roy-down",
-      "arcteryx-cerium:arcteryx-cerium-jacket",
-      "arcteryx-cerium:arc-teryx-cerium"
+      "hunter:patagonia-puffer",
+      "hunter:arcteryx-jacket",
+      "hunter:arc-teryx-puffer",
+      "hunter:ralph-lauren-puffer",
+      "hunter:polo-puffer-jacket",
+      "hunter:nike-puffer-jacket",
+      "hunter:berghaus-puffer",
+      "hunter:napapijri-jacket"
     ],
     "vintedItems": 280,
-    "freshItems": 0,
+    "freshItems": 16,
     "freshByAge": 0,
-    "freshByNewId": 0,
+    "freshByNewId": 16,
     "bootstrapBlocked": 0,
-    "staleBlocked": 2,
-    "candidates": 0,
-    "alerts": 0,
+    "staleBlocked": 0,
+    "candidates": 2,
+    "alerts": 1,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-09-04T16:25:13.278Z",
+      "platform": "VINTED",
+      "id": "9885521599",
+      "title": "gorgeous pink nike puffer coat womens size s",
+      "url": "https://www.vinted.co.uk/items/9885521599-gorgeous-pink-nike-puffer-coat-womens-size-s",
+      "modelId": "nike-puffer",
+      "buyPrice": 25,
+      "estimatedNetProfit": 19.38,
+      "roi": 77.52,
+      "score": 83
+    },
+    {
+      "at": "2026-09-04T16:19:07.612Z",
+      "platform": "VINTED",
+      "id": "9887057407",
+      "title": "vintage polo ralph lauren neon green quilted puffer jacket",
+      "url": "https://www.vinted.co.uk/items/9887057407-vintage-polo-ralph-lauren-neon-green-quilted-puffer-jacket",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 30,
+      "estimatedNetProfit": 35.48,
+      "roi": 118.27,
+      "score": 91
+    },
     {
       "at": "2026-09-04T12:06:58.618Z",
       "platform": "VINTED",
@@ -240,30 +264,6 @@
       "estimatedNetProfit": 39.99,
       "roi": 114.26,
       "score": 86
-    },
-    {
-      "at": "2026-09-02T17:08:24.372Z",
-      "platform": "VINTED",
-      "id": "9866015811",
-      "title": "womens jacket size s",
-      "url": "https://www.vinted.co.uk/items/9866015811-womens-jacket-size-s",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 25,
-      "estimatedNetProfit": 40.76,
-      "roi": 163.04,
-      "score": 94
-    },
-    {
-      "at": "2026-09-02T13:04:18.237Z",
-      "platform": "VINTED",
-      "id": "9862910436",
-      "title": "polo ralph lauren green lightweight harrington jacket size s",
-      "url": "https://www.vinted.co.uk/items/9862910436-polo-ralph-lauren-green-lightweight-harrington-jacket-size-s",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 35,
-      "estimatedNetProfit": 30.21,
-      "roi": 86.31,
-      "score": 87
     }
   ]
 }
