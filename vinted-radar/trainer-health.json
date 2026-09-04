@@ -1,37 +1,37 @@
 {
-  "generatedAt": "2026-09-04T00:46:55.552Z",
-  "stateUpdatedAt": "2026-09-04T00:46:55.552Z",
-  "lastAttemptAt": "2026-09-04T00:46:55.552Z",
-  "lastScanAt": "2026-09-04T00:46:55.552Z",
+  "generatedAt": "2026-09-04T00:51:56.465Z",
+  "stateUpdatedAt": "2026-09-04T00:51:56.465Z",
+  "lastAttemptAt": "2026-09-04T00:51:56.465Z",
+  "lastScanAt": "2026-09-04T00:51:56.465Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Air Max 95::primary",
-    "Nike Air Max 90::primary",
-    "Nike Air Max 90 Drift::primary",
-    "Nike Air Max 97::primary",
-    "Nike Air Max 270::primary",
-    "Nike Air Max Dn::primary"
+    "Nike Air Max 1::primary",
+    "Nike Shox TL::primary",
+    "Nike Shox R4::primary",
+    "Nike Shox Ride 2::primary",
+    "Nike Air Force 1::primary",
+    "Nike Dunk Low::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 993,
-  "candidateItems": 625,
-  "freshItems": 151,
-  "qualifyingAlerts": 9,
+  "catalogItems": 876,
+  "candidateItems": 531,
+  "freshItems": 109,
+  "qualifyingAlerts": 7,
   "qualifyingByCondition": {
     "veryGood": 6,
-    "newWithoutTags": 3
+    "newWithTags": 1
   },
-  "deliveredAlerts": 9,
+  "deliveredAlerts": 7,
   "deliveredByCondition": {
     "veryGood": 6,
-    "newWithoutTags": 3
+    "newWithTags": 1
   },
-  "duplicateSuppressed": 32,
+  "duplicateSuppressed": 59,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,14 +67,13 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "price": 3,
-    "recovery-no-fresh-signal": 442,
-    "keyword": 2,
-    "condition": 5,
-    "size": 3,
-    "seller-check-budget-exhausted": 83,
-    "detail-budget-exhausted": 45,
-    "weak-margin": 1
+    "stale": 363,
+    "size": 4,
+    "condition": 8,
+    "score": 1,
+    "detail-budget-exhausted": 41,
+    "seller-check-budget-exhausted": 46,
+    "keyword": 2
   },
   "failures": {}
 }
