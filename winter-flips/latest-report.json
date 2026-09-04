@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-09-04T19:07:09.451Z",
+    "startedAt": "2026-09-04T21:28:00.292Z",
     "searchGroups": [
-      "ralph-lauren-puffer:ralph-lauren-puffer-jacket",
-      "ralph-lauren-puffer:polo-ralph-lauren-down-jacket",
-      "nike-puffer:nike-puffer-jacket-mens",
-      "nike-puffer:nike-down-jacket",
-      "berghaus-down:berghaus-down-jacket",
-      "berghaus-down:berghaus-puffer-jacket",
-      "napapijri-skidoo:napapijri-skidoo-jacket",
-      "napapijri-skidoo:napapijri-rainforest-winter"
+      "tnf-himalayan:north-face-himalayan-puffer",
+      "tnf-himalayan:north-face-hmlyn-parka",
+      "tnf-baltoro:north-face-baltoro-jacket",
+      "tnf-summit-down:north-face-summit-series-down",
+      "rab-microlight:rab-microlight-alpine",
+      "rab-neutrino:rab-neutrino-pro",
+      "rab-electron:rab-electron-pro",
+      "patagonia-down-sweater:patagonia-down-sweater-jacket"
     ],
     "vintedItems": 280,
-    "freshItems": 16,
+    "freshItems": 0,
     "freshByAge": 0,
-    "freshByNewId": 16,
+    "freshByNewId": 0,
     "bootstrapBlocked": 0,
-    "staleBlocked": 2,
-    "candidates": 8,
-    "alerts": 2,
+    "staleBlocked": 1,
+    "candidates": 0,
+    "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-09-04T21:25:08.164Z",
+      "platform": "VINTED",
+      "id": "9887715141",
+      "title": "baby nike puffer jacket",
+      "url": "https://www.vinted.co.uk/items/9887715141-baby-nike-puffer-jacket",
+      "modelId": "nike-puffer",
+      "buyPrice": 20,
+      "estimatedNetProfit": 32.81,
+      "roi": 164.05,
+      "score": 91
+    },
     {
       "at": "2026-09-04T19:07:19.086Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 27.53,
       "roi": 110.12,
       "score": 85
-    },
-    {
-      "at": "2026-09-02T17:08:32.396Z",
-      "platform": "VINTED",
-      "id": "9866562578",
-      "title": "white nike puffer jacket pen holder desk organiser",
-      "url": "https://www.vinted.co.uk/items/9866562578-white-nike-puffer-jacket-pen-holder-desk-organiser",
-      "modelId": "nike-puffer",
-      "buyPrice": 8.99,
-      "estimatedNetProfit": 44.42,
-      "roi": 494.1,
-      "score": 87
     }
   ]
 }
