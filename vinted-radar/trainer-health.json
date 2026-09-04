@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-09-04T10:06:33.852Z",
-  "stateUpdatedAt": "2026-09-04T10:06:33.852Z",
-  "lastAttemptAt": "2026-09-04T10:06:33.852Z",
-  "lastScanAt": "2026-09-04T10:06:33.852Z",
+  "generatedAt": "2026-09-04T10:30:24.315Z",
+  "stateUpdatedAt": "2026-09-04T10:30:24.315Z",
+  "lastAttemptAt": "2026-09-04T10:30:24.315Z",
+  "lastScanAt": "2026-09-04T10:30:24.315Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Air Jordan 1 Low::primary",
-    "Air Jordan 1 Mid::primary",
-    "Air Jordan 4::primary",
-    "Nike Initiator::primary",
-    "Nike Air Max Moto 2K::primary",
-    "Nike Metcon 10::primary"
+    "Nike Zoom Fly 6::primary",
+    "Nike Air Max Bargain::generic",
+    "Nike Running Trainer Bargain::generic",
+    "Nike Lifestyle Trainer Bargain::generic",
+    "Nike Football Boot Bargain::generic",
+    "Nike Basketball Shoe Bargain::generic"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 924,
-  "candidateItems": 579,
-  "freshItems": 111,
-  "qualifyingAlerts": 3,
+  "catalogItems": 950,
+  "candidateItems": 463,
+  "freshItems": 227,
+  "qualifyingAlerts": 5,
   "qualifyingByCondition": {
-    "veryGood": 3
+    "veryGood": 5
   },
-  "deliveredAlerts": 3,
+  "deliveredAlerts": 5,
   "deliveredByCondition": {
-    "veryGood": 3
+    "veryGood": 5
   },
-  "duplicateSuppressed": 49,
+  "duplicateSuppressed": 29,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -65,15 +65,14 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 419,
+    "recovery-no-fresh-signal": 207,
+    "condition": 61,
+    "keyword": 54,
+    "price": 20,
     "size": 5,
-    "condition": 9,
     "seller-risk": 2,
-    "keyword": 10,
-    "price": 1,
-    "score": 2,
-    "detail-budget-exhausted": 16,
-    "seller-check-budget-exhausted": 63
+    "detail-budget-exhausted": 43,
+    "seller-check-budget-exhausted": 37
   },
   "failures": {}
 }
