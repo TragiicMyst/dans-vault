@@ -2,29 +2,53 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-09-04T16:25:00.280Z",
+    "startedAt": "2026-09-04T19:07:09.451Z",
     "searchGroups": [
-      "hunter:patagonia-puffer",
-      "hunter:arcteryx-jacket",
-      "hunter:arc-teryx-puffer",
-      "hunter:ralph-lauren-puffer",
-      "hunter:polo-puffer-jacket",
-      "hunter:nike-puffer-jacket",
-      "hunter:berghaus-puffer",
-      "hunter:napapijri-jacket"
+      "ralph-lauren-puffer:ralph-lauren-puffer-jacket",
+      "ralph-lauren-puffer:polo-ralph-lauren-down-jacket",
+      "nike-puffer:nike-puffer-jacket-mens",
+      "nike-puffer:nike-down-jacket",
+      "berghaus-down:berghaus-down-jacket",
+      "berghaus-down:berghaus-puffer-jacket",
+      "napapijri-skidoo:napapijri-skidoo-jacket",
+      "napapijri-skidoo:napapijri-rainforest-winter"
     ],
     "vintedItems": 280,
     "freshItems": 16,
     "freshByAge": 0,
     "freshByNewId": 16,
     "bootstrapBlocked": 0,
-    "staleBlocked": 0,
-    "candidates": 2,
-    "alerts": 1,
+    "staleBlocked": 2,
+    "candidates": 8,
+    "alerts": 2,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-09-04T19:07:19.086Z",
+      "platform": "VINTED",
+      "id": "9888617668",
+      "title": "nike puffer jacket l",
+      "url": "https://www.vinted.co.uk/items/9888617668-nike-puffer-jacket-l",
+      "modelId": "nike-puffer",
+      "buyPrice": 22,
+      "estimatedNetProfit": 35.32,
+      "roi": 160.55,
+      "score": 95
+    },
+    {
+      "at": "2026-09-04T19:07:15.812Z",
+      "platform": "VINTED",
+      "id": "9888878737",
+      "title": "mens gilet jacket",
+      "url": "https://www.vinted.co.uk/items/9888878737-mens-gilet-jacket",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 40,
+      "estimatedNetProfit": 33.74,
+      "roi": 84.35,
+      "score": 84
+    },
     {
       "at": "2026-09-04T16:25:13.278Z",
       "platform": "VINTED",
@@ -240,30 +264,6 @@
       "estimatedNetProfit": 44.42,
       "roi": 494.1,
       "score": 87
-    },
-    {
-      "at": "2026-09-02T17:08:28.242Z",
-      "platform": "VINTED",
-      "id": "9863396623",
-      "title": "genuine ralph lauren puffer gilet",
-      "url": "https://www.vinted.co.uk/items/9863396623-genuine-ralph-lauren-puffer-gilet",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 35,
-      "estimatedNetProfit": 38.69,
-      "roi": 110.54,
-      "score": 90
-    },
-    {
-      "at": "2026-09-02T17:08:25.857Z",
-      "platform": "VINTED",
-      "id": "9865587821",
-      "title": "ralph lauren hooded jacket",
-      "url": "https://www.vinted.co.uk/items/9865587821-ralph-lauren-hooded-jacket",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 35,
-      "estimatedNetProfit": 39.99,
-      "roi": 114.26,
-      "score": 86
     }
   ]
 }
