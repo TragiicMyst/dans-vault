@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-09-05T08:30:28.496Z",
-  "stateUpdatedAt": "2026-09-05T08:30:28.496Z",
-  "lastAttemptAt": "2026-09-05T08:30:28.496Z",
-  "lastScanAt": "2026-09-05T08:30:28.496Z",
+  "generatedAt": "2026-09-05T08:35:28.011Z",
+  "stateUpdatedAt": "2026-09-05T08:35:28.011Z",
+  "lastAttemptAt": "2026-09-05T08:35:28.011Z",
+  "lastScanAt": "2026-09-05T08:35:28.011Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Air Max 95::primary",
-    "Nike Air Max 90::primary",
-    "Nike Air Max 90 Drift::primary",
-    "Nike Air Max 97::primary",
-    "Nike Air Max 270::primary",
-    "Nike Air Max Dn::primary"
+    "Nike Air Max 1::primary",
+    "Nike Shox TL::primary",
+    "Nike Shox R4::primary",
+    "Nike Shox Ride 2::primary",
+    "Nike Air Force 1::primary",
+    "Nike Dunk Low::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 993,
-  "candidateItems": 558,
-  "freshItems": 130,
-  "qualifyingAlerts": 5,
+  "catalogItems": 876,
+  "candidateItems": 534,
+  "freshItems": 151,
+  "qualifyingAlerts": 8,
   "qualifyingByCondition": {
-    "veryGood": 5
+    "veryGood": 8
   },
-  "deliveredAlerts": 5,
+  "deliveredAlerts": 8,
   "deliveredByCondition": {
-    "veryGood": 5
+    "veryGood": 8
   },
-  "duplicateSuppressed": 25,
+  "duplicateSuppressed": 45,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -65,15 +65,16 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "recovery-no-fresh-signal": 403,
-    "price": 4,
-    "seller-risk": 2,
+    "stale": 338,
+    "condition": 42,
+    "size": 2,
     "score": 1,
-    "condition": 11,
-    "size": 4,
-    "keyword": 12,
-    "detail-budget-exhausted": 30,
-    "seller-check-budget-exhausted": 61
+    "price": 5,
+    "seller-risk": 1,
+    "seller-check-budget-exhausted": 41,
+    "detail-budget-exhausted": 39,
+    "weak-margin": 2,
+    "keyword": 10
   },
   "failures": {}
 }
