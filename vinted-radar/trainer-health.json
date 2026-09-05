@@ -1,33 +1,35 @@
 {
-  "generatedAt": "2026-09-05T19:08:53.661Z",
-  "stateUpdatedAt": "2026-09-05T19:08:53.661Z",
-  "lastAttemptAt": "2026-09-05T19:08:53.661Z",
-  "lastScanAt": "2026-09-05T19:08:53.661Z",
+  "generatedAt": "2026-09-05T19:13:53.994Z",
+  "stateUpdatedAt": "2026-09-05T19:13:53.994Z",
+  "lastAttemptAt": "2026-09-05T19:13:53.994Z",
+  "lastScanAt": "2026-09-05T19:13:53.994Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Air Max 1::primary",
-    "Nike Shox TL::primary",
-    "Nike Shox R4::primary",
-    "Nike Shox Ride 2::primary",
-    "Nike Air Force 1::primary",
-    "Nike Dunk Low::primary"
+    "Air Jordan 1 Low::primary",
+    "Air Jordan 1 Mid::primary",
+    "Air Jordan 4::primary",
+    "Nike Initiator::primary",
+    "Nike Air Max Moto 2K::primary",
+    "Nike Metcon 10::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1344,
-  "catalogItems": 882,
-  "candidateItems": 537,
-  "freshItems": 251,
-  "qualifyingAlerts": 11,
+  "catalogMarkers": 1343,
+  "catalogItems": 919,
+  "candidateItems": 580,
+  "freshItems": 211,
+  "qualifyingAlerts": 5,
   "qualifyingByCondition": {
-    "veryGood": 11
+    "veryGood": 3,
+    "newWithTags": 2
   },
-  "deliveredAlerts": 11,
+  "deliveredAlerts": 5,
   "deliveredByCondition": {
-    "veryGood": 11
+    "veryGood": 3,
+    "newWithTags": 2
   },
   "duplicateSuppressed": 27,
   "discordFailures": 0,
@@ -65,14 +67,13 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 259,
-    "price": 10,
-    "size": 1,
-    "condition": 47,
-    "weak-margin": 7,
-    "seller-check-budget-exhausted": 96,
-    "detail-budget-exhausted": 64,
-    "keyword": 15
+    "stale": 342,
+    "price": 13,
+    "keyword": 12,
+    "condition": 12,
+    "size": 7,
+    "detail-budget-exhausted": 52,
+    "seller-check-budget-exhausted": 110
   },
   "failures": {}
 }
