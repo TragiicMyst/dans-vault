@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-09-06T13:11:13.952Z",
-  "stateUpdatedAt": "2026-09-06T13:11:13.952Z",
-  "lastAttemptAt": "2026-09-06T13:11:13.952Z",
-  "lastScanAt": "2026-09-06T13:11:13.952Z",
+  "generatedAt": "2026-09-06T16:09:30.066Z",
+  "stateUpdatedAt": "2026-09-06T16:09:30.066Z",
+  "lastAttemptAt": "2026-09-06T16:09:30.066Z",
+  "lastScanAt": "2026-09-06T16:09:30.066Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Training Top::nike training top",
-    "Nike Dri-FIT Top::nike dri fit top",
-    "Nike Quarter Zip::nike quarter zip",
-    "Nike Fleece::nike fleece",
-    "Nike Gilet::nike gilet",
-    "Nike Windbreaker::nike windbreaker"
+    "Nike Anorak::nike anorak",
+    "Nike Rain Jacket::nike rain jacket",
+    "Nike Woven Jacket::nike woven jacket",
+    "Nike Bomber Jacket::nike bomber jacket",
+    "Nike Coat::nike coat",
+    "Nike Shorts::nike shorts"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 1012,
-  "candidateItems": 300,
-  "freshItems": 240,
-  "qualifyingAlerts": 108,
+  "catalogItems": 1107,
+  "candidateItems": 260,
+  "freshItems": 162,
+  "qualifyingAlerts": 62,
   "qualifyingByCondition": {
-    "veryGood": 102,
-    "newWithoutTags": 3,
-    "newWithTags": 3
+    "veryGood": 50,
+    "newWithTags": 2,
+    "newWithoutTags": 10
   },
-  "deliveredAlerts": 108,
+  "deliveredAlerts": 62,
   "deliveredByCondition": {
-    "veryGood": 102,
-    "newWithoutTags": 3,
-    "newWithTags": 3
+    "veryGood": 50,
+    "newWithTags": 2,
+    "newWithoutTags": 10
   },
-  "duplicateSuppressed": 7,
+  "duplicateSuppressed": 14,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,12 +69,12 @@
   "pendingDeliveries": 0,
   "detailFetches": 6,
   "rejects": {
-    "recovery-no-fresh-signal": 53,
-    "size": 2,
-    "keyword": 14,
-    "price": 66,
-    "condition": 42,
-    "detail-budget-exhausted": 8
+    "condition": 40,
+    "recovery-no-fresh-signal": 84,
+    "price": 42,
+    "keyword": 8,
+    "size": 3,
+    "detail-budget-exhausted": 7
   },
   "failures": {}
 }
