@@ -2,29 +2,65 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-09-06T13:54:05.984Z",
+    "startedAt": "2026-09-06T16:34:23.097Z",
     "searchGroups": [
-      "hunter:polo-puffer-jacket",
-      "hunter:nike-puffer-jacket",
-      "hunter:berghaus-puffer",
-      "hunter:napapijri-jacket",
-      "tnf-1996-nuptse:north-face-nuptse-700",
-      "tnf-1996-nuptse:north-face-1996-nuptse",
-      "tnf-himalayan:north-face-himalayan-puffer",
-      "tnf-himalayan:north-face-hmlyn-parka"
+      "berghaus-down:berghaus-down-jacket",
+      "berghaus-down:berghaus-puffer-jacket",
+      "napapijri-skidoo:napapijri-skidoo-jacket",
+      "napapijri-skidoo:napapijri-rainforest-winter",
+      "hunter:north-face-coat",
+      "hunter:north-face-puffer",
+      "hunter:north-face-700",
+      "hunter:mens-north-face-jacket"
     ],
     "vintedItems": 280,
-    "freshItems": 25,
+    "freshItems": 73,
     "freshByAge": 0,
-    "freshByNewId": 25,
+    "freshByNewId": 73,
     "bootstrapBlocked": 0,
-    "staleBlocked": 0,
-    "candidates": 3,
-    "alerts": 1,
+    "staleBlocked": 6,
+    "candidates": 9,
+    "alerts": 2,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-09-06T16:34:29.352Z",
+      "platform": "VINTED",
+      "id": "9910211994",
+      "title": "berghaus puffer coat 9 10",
+      "url": "https://www.vinted.co.uk/items/9910211994-berghaus-puffer-coat-9-10",
+      "modelId": "berghaus-down",
+      "buyPrice": 15,
+      "estimatedNetProfit": 36.06,
+      "roi": 240.4,
+      "score": 92
+    },
+    {
+      "at": "2026-09-06T16:34:26.319Z",
+      "platform": "VINTED",
+      "id": "9910566362",
+      "title": "berghaus puffer buddy warmer",
+      "url": "https://www.vinted.co.uk/items/9910566362-berghaus-puffer-buddy-warmer",
+      "modelId": "berghaus-down",
+      "buyPrice": 25,
+      "estimatedNetProfit": 26.31,
+      "roi": 105.24,
+      "score": 88
+    },
+    {
+      "at": "2026-09-06T16:31:37.113Z",
+      "platform": "VINTED",
+      "id": "9910894440",
+      "title": "ralph lauren sleeveless puffa jacket reversible",
+      "url": "https://www.vinted.co.uk/items/9910894440-ralph-lauren-sleeveless-puffa-jacket-reversible",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 40,
+      "estimatedNetProfit": 37.27,
+      "roi": 93.18,
+      "score": 83
+    },
     {
       "at": "2026-09-06T13:54:10.421Z",
       "platform": "VINTED",
@@ -228,42 +264,6 @@
       "estimatedNetProfit": 32.81,
       "roi": 164.05,
       "score": 91
-    },
-    {
-      "at": "2026-09-04T19:07:19.086Z",
-      "platform": "VINTED",
-      "id": "9888617668",
-      "title": "nike puffer jacket l",
-      "url": "https://www.vinted.co.uk/items/9888617668-nike-puffer-jacket-l",
-      "modelId": "nike-puffer",
-      "buyPrice": 22,
-      "estimatedNetProfit": 35.32,
-      "roi": 160.55,
-      "score": 95
-    },
-    {
-      "at": "2026-09-04T19:07:15.812Z",
-      "platform": "VINTED",
-      "id": "9888878737",
-      "title": "mens gilet jacket",
-      "url": "https://www.vinted.co.uk/items/9888878737-mens-gilet-jacket",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 40,
-      "estimatedNetProfit": 33.74,
-      "roi": 84.35,
-      "score": 84
-    },
-    {
-      "at": "2026-09-04T16:25:13.278Z",
-      "platform": "VINTED",
-      "id": "9885521599",
-      "title": "gorgeous pink nike puffer coat womens size s",
-      "url": "https://www.vinted.co.uk/items/9885521599-gorgeous-pink-nike-puffer-coat-womens-size-s",
-      "modelId": "nike-puffer",
-      "buyPrice": 25,
-      "estimatedNetProfit": 19.38,
-      "roi": 77.52,
-      "score": 83
     }
   ]
 }
