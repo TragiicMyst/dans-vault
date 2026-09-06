@@ -1,37 +1,39 @@
 {
-  "generatedAt": "2026-09-06T16:19:21.252Z",
-  "stateUpdatedAt": "2026-09-06T16:19:21.252Z",
-  "lastAttemptAt": "2026-09-06T16:19:21.252Z",
-  "lastScanAt": "2026-09-06T16:19:21.252Z",
+  "generatedAt": "2026-09-06T18:23:59.693Z",
+  "stateUpdatedAt": "2026-09-06T18:23:59.693Z",
+  "lastAttemptAt": "2026-09-06T18:23:59.693Z",
+  "lastScanAt": "2026-09-06T18:23:59.693Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Cargo Trousers::nike cargo trousers",
-    "Nike Track Pants::nike track pants",
-    "Nike Woven Trousers::nike woven trousers",
-    "Nike Tracksuit::nike tracksuit",
-    "Nike Vintage Clothing::vintage nike",
-    "Nike SB Clothing::nike sb clothing"
+    "Nike Vest::nike vest",
+    "Nike Air Max Hoodie::nike air max hoodie",
+    "Nike Zip Hoodie::nike zip hoodie",
+    "Nike Hoodie::nike hoodie",
+    "Nike Sweatshirt::nike sweatshirt",
+    "Nike Track Jacket::nike track jacket"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1343,
-  "catalogItems": 1032,
-  "candidateItems": 289,
-  "freshItems": 210,
-  "qualifyingAlerts": 72,
+  "catalogMarkers": 1344,
+  "catalogItems": 1102,
+  "candidateItems": 261,
+  "freshItems": 217,
+  "qualifyingAlerts": 95,
   "qualifyingByCondition": {
-    "veryGood": 67,
-    "newWithoutTags": 5
+    "veryGood": 87,
+    "newWithoutTags": 5,
+    "newWithTags": 3
   },
-  "deliveredAlerts": 72,
+  "deliveredAlerts": 95,
   "deliveredByCondition": {
-    "veryGood": 67,
-    "newWithoutTags": 5
+    "veryGood": 87,
+    "newWithoutTags": 5,
+    "newWithTags": 3
   },
-  "duplicateSuppressed": 7,
+  "duplicateSuppressed": 2,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,12 +69,13 @@
   "pendingDeliveries": 0,
   "detailFetches": 6,
   "rejects": {
-    "price": 79,
-    "stale": 72,
-    "condition": 40,
-    "size": 4,
-    "keyword": 7,
-    "detail-budget-exhausted": 8
+    "price": 49,
+    "size": 5,
+    "condition": 47,
+    "recovery-no-fresh-signal": 42,
+    "keyword": 9,
+    "weak-margin": 2,
+    "detail-budget-exhausted": 10
   },
   "failures": {}
 }
