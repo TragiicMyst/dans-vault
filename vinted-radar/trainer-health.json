@@ -1,35 +1,37 @@
 {
-  "generatedAt": "2026-09-06T05:41:14.653Z",
-  "stateUpdatedAt": "2026-09-06T05:41:14.653Z",
-  "lastAttemptAt": "2026-09-06T05:41:14.653Z",
-  "lastScanAt": "2026-09-06T05:41:14.653Z",
+  "generatedAt": "2026-09-06T05:46:14.185Z",
+  "stateUpdatedAt": "2026-09-06T05:46:14.185Z",
+  "lastAttemptAt": "2026-09-06T05:46:14.185Z",
+  "lastScanAt": "2026-09-06T05:46:14.185Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Air Max 95::primary",
-    "Nike Air Max 90::primary",
-    "Nike Air Max 90 Drift::primary",
-    "Nike Air Max 97::primary",
-    "Nike Air Max 270::primary",
-    "Nike Air Max Dn::primary"
+    "Nike Air Max 1::primary",
+    "Nike Shox TL::primary",
+    "Nike Shox R4::primary",
+    "Nike Shox Ride 2::primary",
+    "Nike Air Force 1::primary",
+    "Nike Dunk Low::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 988,
-  "candidateItems": 630,
-  "freshItems": 146,
-  "qualifyingAlerts": 4,
+  "catalogItems": 884,
+  "candidateItems": 549,
+  "freshItems": 55,
+  "qualifyingAlerts": 7,
   "qualifyingByCondition": {
+    "newWithTags": 3,
     "veryGood": 4
   },
-  "deliveredAlerts": 4,
+  "deliveredAlerts": 7,
   "deliveredByCondition": {
+    "newWithTags": 3,
     "veryGood": 4
   },
-  "duplicateSuppressed": 34,
+  "duplicateSuppressed": 45,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -65,14 +67,12 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "recovery-no-fresh-signal": 450,
-    "size": 7,
-    "keyword": 1,
-    "seller-risk": 1,
-    "detail-budget-exhausted": 46,
-    "seller-check-budget-exhausted": 83,
-    "condition": 3,
-    "price": 1
+    "stale": 449,
+    "size": 4,
+    "score": 1,
+    "detail-budget-exhausted": 17,
+    "seller-check-budget-exhausted": 23,
+    "condition": 3
   },
   "failures": {}
 }
