@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-09-06T01:10:43.397Z",
+    "startedAt": "2026-09-06T06:01:07.570Z",
     "searchGroups": [
-      "tnf-1996-nuptse:north-face-nuptse-700",
-      "tnf-1996-nuptse:north-face-1996-nuptse",
-      "tnf-himalayan:north-face-himalayan-puffer",
-      "tnf-himalayan:north-face-hmlyn-parka",
-      "tnf-baltoro:north-face-baltoro-jacket",
-      "tnf-summit-down:north-face-summit-series-down",
-      "rab-microlight:rab-microlight-alpine",
-      "rab-neutrino:rab-neutrino-pro"
+      "hunter:north-face-coat",
+      "hunter:north-face-puffer",
+      "hunter:north-face-700",
+      "hunter:mens-north-face-jacket",
+      "hunter:rab-puffer",
+      "hunter:rab-down-jacket",
+      "hunter:patagonia-puffer",
+      "hunter:arcteryx-jacket"
     ],
     "vintedItems": 280,
-    "freshItems": 0,
+    "freshItems": 8,
     "freshByAge": 0,
-    "freshByNewId": 0,
+    "freshByNewId": 8,
     "bootstrapBlocked": 0,
-    "staleBlocked": 1,
+    "staleBlocked": 33,
     "candidates": 0,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-09-06T05:58:10.350Z",
+      "platform": "VINTED",
+      "id": "9902765976",
+      "title": "ralph lauren hawthorne puffer in goldyellow rrp135ps bnwt read description",
+      "url": "https://www.vinted.co.uk/items/9902765976-ralph-lauren-hawthorne-puffer-in-goldyellow-rrp135ps-bnwt-read-description",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 30,
+      "estimatedNetProfit": 43.54,
+      "roi": 145.13,
+      "score": 95
+    },
     {
       "at": "2026-09-05T19:32:20.934Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 44.14,
       "roi": 147.13,
       "score": 90
-    },
-    {
-      "at": "2026-09-03T23:53:24.533Z",
-      "platform": "VINTED",
-      "id": "9880940558",
-      "title": "womens berghaus puffer",
-      "url": "https://www.vinted.co.uk/items/9880940558-womens-berghaus-puffer",
-      "modelId": "berghaus-down",
-      "buyPrice": 18,
-      "estimatedNetProfit": 31.5,
-      "roi": 175,
-      "score": 95
     }
   ]
 }
