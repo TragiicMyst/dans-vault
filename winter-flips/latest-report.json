@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-09-06T16:34:23.097Z",
+    "startedAt": "2026-09-06T18:39:57.811Z",
     "searchGroups": [
-      "berghaus-down:berghaus-down-jacket",
-      "berghaus-down:berghaus-puffer-jacket",
-      "napapijri-skidoo:napapijri-skidoo-jacket",
-      "napapijri-skidoo:napapijri-rainforest-winter",
-      "hunter:north-face-coat",
-      "hunter:north-face-puffer",
-      "hunter:north-face-700",
-      "hunter:mens-north-face-jacket"
+      "rab-microlight:rab-microlight-alpine",
+      "rab-neutrino:rab-neutrino-pro",
+      "rab-electron:rab-electron-pro",
+      "patagonia-down-sweater:patagonia-down-sweater-jacket",
+      "patagonia-down-sweater:patagonia-down-sweater-hoody",
+      "patagonia-fitz-roy:patagonia-fitz-roy-down",
+      "arcteryx-cerium:arcteryx-cerium-jacket",
+      "arcteryx-cerium:arc-teryx-cerium"
     ],
     "vintedItems": 280,
-    "freshItems": 73,
+    "freshItems": 4,
     "freshByAge": 0,
-    "freshByNewId": 73,
+    "freshByNewId": 4,
     "bootstrapBlocked": 0,
-    "staleBlocked": 6,
-    "candidates": 9,
-    "alerts": 2,
+    "staleBlocked": 5,
+    "candidates": 0,
+    "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-09-06T18:34:17.191Z",
+      "platform": "VINTED",
+      "id": "9909296721",
+      "title": "nike puffer coat",
+      "url": "https://www.vinted.co.uk/items/9909296721-nike-puffer-coat",
+      "modelId": "nike-puffer",
+      "buyPrice": 15,
+      "estimatedNetProfit": 28.82,
+      "roi": 192.13,
+      "score": 98
+    },
     {
       "at": "2026-09-06T16:34:29.352Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 39.02,
       "roi": 105.46,
       "score": 84
-    },
-    {
-      "at": "2026-09-04T21:25:08.164Z",
-      "platform": "VINTED",
-      "id": "9887715141",
-      "title": "baby nike puffer jacket",
-      "url": "https://www.vinted.co.uk/items/9887715141-baby-nike-puffer-jacket",
-      "modelId": "nike-puffer",
-      "buyPrice": 20,
-      "estimatedNetProfit": 32.81,
-      "roi": 164.05,
-      "score": 91
     }
   ]
 }
