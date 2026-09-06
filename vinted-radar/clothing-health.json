@@ -1,39 +1,37 @@
 {
-  "generatedAt": "2026-09-06T16:09:30.066Z",
-  "stateUpdatedAt": "2026-09-06T16:09:30.066Z",
-  "lastAttemptAt": "2026-09-06T16:09:30.066Z",
-  "lastScanAt": "2026-09-06T16:09:30.066Z",
+  "generatedAt": "2026-09-06T16:19:21.252Z",
+  "stateUpdatedAt": "2026-09-06T16:19:21.252Z",
+  "lastAttemptAt": "2026-09-06T16:19:21.252Z",
+  "lastScanAt": "2026-09-06T16:19:21.252Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Anorak::nike anorak",
-    "Nike Rain Jacket::nike rain jacket",
-    "Nike Woven Jacket::nike woven jacket",
-    "Nike Bomber Jacket::nike bomber jacket",
-    "Nike Coat::nike coat",
-    "Nike Shorts::nike shorts"
+    "Nike Cargo Trousers::nike cargo trousers",
+    "Nike Track Pants::nike track pants",
+    "Nike Woven Trousers::nike woven trousers",
+    "Nike Tracksuit::nike tracksuit",
+    "Nike Vintage Clothing::vintage nike",
+    "Nike SB Clothing::nike sb clothing"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1344,
-  "catalogItems": 1107,
-  "candidateItems": 260,
-  "freshItems": 162,
-  "qualifyingAlerts": 62,
+  "catalogMarkers": 1343,
+  "catalogItems": 1032,
+  "candidateItems": 289,
+  "freshItems": 210,
+  "qualifyingAlerts": 72,
   "qualifyingByCondition": {
-    "veryGood": 50,
-    "newWithTags": 2,
-    "newWithoutTags": 10
+    "veryGood": 67,
+    "newWithoutTags": 5
   },
-  "deliveredAlerts": 62,
+  "deliveredAlerts": 72,
   "deliveredByCondition": {
-    "veryGood": 50,
-    "newWithTags": 2,
-    "newWithoutTags": 10
+    "veryGood": 67,
+    "newWithoutTags": 5
   },
-  "duplicateSuppressed": 14,
+  "duplicateSuppressed": 7,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,12 +67,12 @@
   "pendingDeliveries": 0,
   "detailFetches": 6,
   "rejects": {
+    "price": 79,
+    "stale": 72,
     "condition": 40,
-    "recovery-no-fresh-signal": 84,
-    "price": 42,
-    "keyword": 8,
-    "size": 3,
-    "detail-budget-exhausted": 7
+    "size": 4,
+    "keyword": 7,
+    "detail-budget-exhausted": 8
   },
   "failures": {}
 }
