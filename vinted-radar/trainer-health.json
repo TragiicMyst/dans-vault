@@ -1,37 +1,35 @@
 {
-  "generatedAt": "2026-09-07T19:38:16.575Z",
-  "stateUpdatedAt": "2026-09-07T19:38:16.575Z",
-  "lastAttemptAt": "2026-09-07T19:38:16.575Z",
-  "lastScanAt": "2026-09-07T19:38:16.575Z",
+  "generatedAt": "2026-09-07T19:43:41.888Z",
+  "stateUpdatedAt": "2026-09-07T19:43:41.888Z",
+  "lastAttemptAt": "2026-09-07T19:43:41.888Z",
+  "lastScanAt": "2026-09-07T19:43:41.888Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Zoom Fly 6::primary",
-    "Nike Air Max Bargain::generic",
-    "Nike Running Trainer Bargain::generic",
-    "Nike Lifestyle Trainer Bargain::generic",
-    "Nike Football Boot Bargain::generic",
-    "Nike Basketball Shoe Bargain::generic"
+    "Nike SB Shoe Bargain::generic",
+    "Nike P-6000::primary",
+    "Nike V5 RNR::primary",
+    "Nike Vomero 5::primary",
+    "Nike Vomero 18::primary",
+    "Nike Vomero Plus::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1344,
-  "catalogItems": 951,
-  "candidateItems": 456,
-  "freshItems": 206,
+  "catalogMarkers": 1266,
+  "catalogItems": 669,
+  "candidateItems": 422,
+  "freshItems": 194,
   "qualifyingAlerts": 6,
   "qualifyingByCondition": {
-    "veryGood": 5,
-    "newWithTags": 1
+    "veryGood": 6
   },
   "deliveredAlerts": 6,
   "deliveredByCondition": {
-    "veryGood": 5,
-    "newWithTags": 1
+    "veryGood": 6
   },
-  "duplicateSuppressed": 28,
+  "duplicateSuppressed": 9,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,14 +65,15 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 222,
-    "condition": 52,
+    "stale": 219,
+    "price": 24,
     "size": 5,
-    "price": 35,
-    "keyword": 27,
+    "condition": 14,
     "seller-risk": 1,
-    "detail-budget-exhausted": 35,
-    "seller-check-budget-exhausted": 45
+    "seller-check-budget-exhausted": 82,
+    "detail-budget-exhausted": 48,
+    "keyword": 8,
+    "weak-margin": 6
   },
   "failures": {}
 }
