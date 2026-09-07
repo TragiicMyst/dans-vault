@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-09-07T05:00:36.276Z",
+    "startedAt": "2026-09-07T10:09:15.912Z",
     "searchGroups": [
-      "hunter:north-face-700",
-      "hunter:mens-north-face-jacket",
-      "hunter:rab-puffer",
-      "hunter:rab-down-jacket",
-      "hunter:patagonia-puffer",
-      "hunter:arcteryx-jacket",
-      "hunter:arc-teryx-puffer",
-      "hunter:ralph-lauren-puffer"
+      "arcteryx-cerium:arcteryx-cerium-jacket",
+      "arcteryx-cerium:arc-teryx-cerium",
+      "arcteryx-thorium:arcteryx-thorium-jacket",
+      "arcteryx-thorium:arc-teryx-thorium",
+      "ralph-lauren-puffer:ralph-lauren-puffer-jacket",
+      "ralph-lauren-puffer:polo-ralph-lauren-down-jacket",
+      "nike-puffer:nike-puffer-jacket-mens",
+      "nike-puffer:nike-down-jacket"
     ],
     "vintedItems": 280,
-    "freshItems": 0,
+    "freshItems": 4,
     "freshByAge": 0,
-    "freshByNewId": 0,
+    "freshByNewId": 4,
     "bootstrapBlocked": 0,
     "staleBlocked": 4,
-    "candidates": 0,
+    "candidates": 3,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-09-07T10:03:21.297Z",
+      "platform": "VINTED",
+      "id": "9917902270",
+      "title": "large nike puffer jacket",
+      "url": "https://www.vinted.co.uk/items/9917902270-large-nike-puffer-jacket",
+      "modelId": "nike-puffer",
+      "buyPrice": 15,
+      "estimatedNetProfit": 42.7,
+      "roi": 284.67,
+      "score": 91
+    },
     {
       "at": "2026-09-06T20:49:21.730Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 25.42,
       "roi": 94.15,
       "score": 83
-    },
-    {
-      "at": "2026-09-05T12:49:22.183Z",
-      "platform": "VINTED",
-      "id": "9893610195",
-      "title": "ralph lauren baby quilted jacket",
-      "url": "https://www.vinted.co.uk/items/9893610195-ralph-lauren-baby-quilted-jacket",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 45,
-      "estimatedNetProfit": 30.58,
-      "roi": 67.96,
-      "score": 74
     }
   ]
 }
