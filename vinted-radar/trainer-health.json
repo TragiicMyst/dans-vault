@@ -1,35 +1,37 @@
 {
-  "generatedAt": "2026-09-07T00:31:22.307Z",
-  "stateUpdatedAt": "2026-09-07T00:31:22.307Z",
-  "lastAttemptAt": "2026-09-07T00:31:22.307Z",
-  "lastScanAt": "2026-09-07T00:31:22.307Z",
+  "generatedAt": "2026-09-07T04:56:56.535Z",
+  "stateUpdatedAt": "2026-09-07T04:56:56.535Z",
+  "lastAttemptAt": "2026-09-07T04:56:56.535Z",
+  "lastScanAt": "2026-09-07T04:56:56.535Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Vomero Premium::primary",
-    "Nike Pegasus Premium::primary",
-    "Nike Pegasus Trail 5 GORE-TEX::primary",
-    "Nike TN::primary",
-    "Nike Air Max Plus 3::primary",
-    "Nike Air Max Plus VII::primary"
+    "Nike Air Max 95::primary",
+    "Nike Air Max 90::primary",
+    "Nike Air Max 90 Drift::primary",
+    "Nike Air Max 97::primary",
+    "Nike Air Max 270::primary",
+    "Nike Air Max Dn::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1343,
-  "catalogItems": 968,
-  "candidateItems": 417,
-  "freshItems": 59,
-  "qualifyingAlerts": 7,
+  "catalogMarkers": 1344,
+  "catalogItems": 993,
+  "candidateItems": 675,
+  "freshItems": 158,
+  "qualifyingAlerts": 9,
   "qualifyingByCondition": {
-    "veryGood": 7
+    "newWithoutTags": 1,
+    "veryGood": 8
   },
-  "deliveredAlerts": 7,
+  "deliveredAlerts": 9,
   "deliveredByCondition": {
-    "veryGood": 7
+    "newWithoutTags": 1,
+    "veryGood": 8
   },
-  "duplicateSuppressed": 64,
+  "duplicateSuppressed": 31,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -65,13 +67,15 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 294,
-    "price": 1,
-    "size": 3,
+    "recovery-no-fresh-signal": 486,
+    "size": 1,
     "seller-risk": 2,
-    "condition": 1,
-    "seller-check-budget-exhausted": 31,
-    "detail-budget-exhausted": 14
+    "price": 7,
+    "weak-margin": 1,
+    "keyword": 8,
+    "detail-budget-exhausted": 40,
+    "seller-check-budget-exhausted": 88,
+    "condition": 2
   },
   "failures": {}
 }
