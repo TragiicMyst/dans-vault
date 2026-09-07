@@ -1,37 +1,35 @@
 {
-  "generatedAt": "2026-09-07T04:56:56.535Z",
-  "stateUpdatedAt": "2026-09-07T04:56:56.535Z",
-  "lastAttemptAt": "2026-09-07T04:56:56.535Z",
-  "lastScanAt": "2026-09-07T04:56:56.535Z",
+  "generatedAt": "2026-09-07T05:02:38.775Z",
+  "stateUpdatedAt": "2026-09-07T05:02:38.775Z",
+  "lastAttemptAt": "2026-09-07T05:02:38.775Z",
+  "lastScanAt": "2026-09-07T05:02:38.775Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Air Max 95::primary",
-    "Nike Air Max 90::primary",
-    "Nike Air Max 90 Drift::primary",
-    "Nike Air Max 97::primary",
-    "Nike Air Max 270::primary",
-    "Nike Air Max Dn::primary"
+    "Nike Air Max 1::primary",
+    "Nike Shox TL::primary",
+    "Nike Shox R4::primary",
+    "Nike Shox Ride 2::primary",
+    "Nike Air Force 1::primary",
+    "Nike Dunk Low::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 993,
-  "candidateItems": 675,
-  "freshItems": 158,
-  "qualifyingAlerts": 9,
+  "catalogItems": 885,
+  "candidateItems": 555,
+  "freshItems": 90,
+  "qualifyingAlerts": 6,
   "qualifyingByCondition": {
-    "newWithoutTags": 1,
-    "veryGood": 8
+    "veryGood": 6
   },
-  "deliveredAlerts": 9,
+  "deliveredAlerts": 6,
   "deliveredByCondition": {
-    "newWithoutTags": 1,
-    "veryGood": 8
+    "veryGood": 6
   },
-  "duplicateSuppressed": 31,
+  "duplicateSuppressed": 44,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,15 +65,13 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "recovery-no-fresh-signal": 486,
-    "size": 1,
-    "seller-risk": 2,
-    "price": 7,
-    "weak-margin": 1,
-    "keyword": 8,
-    "detail-budget-exhausted": 40,
-    "seller-check-budget-exhausted": 88,
-    "condition": 2
+    "price": 3,
+    "stale": 421,
+    "size": 6,
+    "seller-check-budget-exhausted": 41,
+    "detail-budget-exhausted": 26,
+    "condition": 5,
+    "keyword": 3
   },
   "failures": {}
 }
