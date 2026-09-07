@@ -1,37 +1,37 @@
 {
-  "generatedAt": "2026-09-07T00:17:37.092Z",
-  "stateUpdatedAt": "2026-09-07T00:17:37.092Z",
-  "lastAttemptAt": "2026-09-07T00:17:37.092Z",
-  "lastScanAt": "2026-09-07T00:17:37.092Z",
+  "generatedAt": "2026-09-07T00:21:22.385Z",
+  "stateUpdatedAt": "2026-09-07T00:21:22.385Z",
+  "lastAttemptAt": "2026-09-07T00:21:22.385Z",
+  "lastScanAt": "2026-09-07T00:21:22.385Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Air Jordan 1 Low::primary",
-    "Air Jordan 1 Mid::primary",
-    "Air Jordan 4::primary",
-    "Nike Initiator::primary",
-    "Nike Air Max Moto 2K::primary",
-    "Nike Metcon 10::primary"
+    "Nike Zoom Fly 6::primary",
+    "Nike Air Max Bargain::generic",
+    "Nike Running Trainer Bargain::generic",
+    "Nike Lifestyle Trainer Bargain::generic",
+    "Nike Football Boot Bargain::generic",
+    "Nike Basketball Shoe Bargain::generic"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1343,
-  "catalogItems": 915,
-  "candidateItems": 595,
-  "freshItems": 168,
-  "qualifyingAlerts": 4,
+  "catalogMarkers": 1344,
+  "catalogItems": 952,
+  "candidateItems": 434,
+  "freshItems": 77,
+  "qualifyingAlerts": 6,
   "qualifyingByCondition": {
-    "veryGood": 3,
-    "newWithTags": 1
+    "newWithoutTags": 3,
+    "veryGood": 3
   },
-  "deliveredAlerts": 4,
+  "deliveredAlerts": 6,
   "deliveredByCondition": {
-    "veryGood": 3,
-    "newWithTags": 1
+    "newWithoutTags": 3,
+    "veryGood": 3
   },
-  "duplicateSuppressed": 20,
+  "duplicateSuppressed": 30,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,15 +67,14 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "recovery-no-fresh-signal": 407,
-    "price": 1,
-    "size": 7,
-    "condition": 4,
-    "seller-risk": 1,
-    "keyword": 2,
-    "weak-margin": 1,
-    "detail-budget-exhausted": 30,
-    "seller-check-budget-exhausted": 118
+    "stale": 327,
+    "price": 14,
+    "condition": 12,
+    "keyword": 5,
+    "seller-risk": 2,
+    "size": 4,
+    "seller-check-budget-exhausted": 20,
+    "detail-budget-exhausted": 14
   },
   "failures": {}
 }
