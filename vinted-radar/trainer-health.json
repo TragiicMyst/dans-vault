@@ -1,37 +1,35 @@
 {
-  "generatedAt": "2026-09-07T00:26:21.962Z",
-  "stateUpdatedAt": "2026-09-07T00:26:21.962Z",
-  "lastAttemptAt": "2026-09-07T00:26:21.962Z",
-  "lastScanAt": "2026-09-07T00:26:21.962Z",
+  "generatedAt": "2026-09-07T00:31:22.307Z",
+  "stateUpdatedAt": "2026-09-07T00:31:22.307Z",
+  "lastAttemptAt": "2026-09-07T00:31:22.307Z",
+  "lastScanAt": "2026-09-07T00:31:22.307Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike SB Shoe Bargain::generic",
-    "Nike P-6000::primary",
-    "Nike V5 RNR::primary",
-    "Nike Vomero 5::primary",
-    "Nike Vomero 18::primary",
-    "Nike Vomero Plus::primary"
+    "Nike Vomero Premium::primary",
+    "Nike Pegasus Premium::primary",
+    "Nike Pegasus Trail 5 GORE-TEX::primary",
+    "Nike TN::primary",
+    "Nike Air Max Plus 3::primary",
+    "Nike Air Max Plus VII::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1267,
-  "catalogItems": 604,
-  "candidateItems": 410,
-  "freshItems": 145,
-  "qualifyingAlerts": 4,
+  "catalogMarkers": 1343,
+  "catalogItems": 968,
+  "candidateItems": 417,
+  "freshItems": 59,
+  "qualifyingAlerts": 7,
   "qualifyingByCondition": {
-    "newWithoutTags": 2,
-    "veryGood": 2
+    "veryGood": 7
   },
-  "deliveredAlerts": 4,
+  "deliveredAlerts": 7,
   "deliveredByCondition": {
-    "newWithoutTags": 2,
-    "veryGood": 2
+    "veryGood": 7
   },
-  "duplicateSuppressed": 11,
+  "duplicateSuppressed": 64,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,12 +65,13 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 254,
-    "size": 7,
-    "weak-margin": 2,
-    "seller-risk": 1,
-    "detail-budget-exhausted": 44,
-    "seller-check-budget-exhausted": 87
+    "stale": 294,
+    "price": 1,
+    "size": 3,
+    "seller-risk": 2,
+    "condition": 1,
+    "seller-check-budget-exhausted": 31,
+    "detail-budget-exhausted": 14
   },
   "failures": {}
 }
