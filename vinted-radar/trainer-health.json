@@ -1,37 +1,37 @@
 {
-  "generatedAt": "2026-09-07T10:23:39.557Z",
-  "stateUpdatedAt": "2026-09-07T10:23:39.557Z",
-  "lastAttemptAt": "2026-09-07T10:23:39.557Z",
-  "lastScanAt": "2026-09-07T10:23:39.557Z",
+  "generatedAt": "2026-09-07T10:28:38.912Z",
+  "stateUpdatedAt": "2026-09-07T10:28:38.912Z",
+  "lastAttemptAt": "2026-09-07T10:28:38.912Z",
+  "lastScanAt": "2026-09-07T10:28:38.912Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Air Max 1::primary",
-    "Nike Shox TL::primary",
-    "Nike Shox R4::primary",
-    "Nike Shox Ride 2::primary",
-    "Nike Air Force 1::primary",
-    "Nike Dunk Low::primary"
+    "Air Jordan 1 Low::primary",
+    "Air Jordan 1 Mid::primary",
+    "Air Jordan 4::primary",
+    "Nike Initiator::primary",
+    "Nike Air Max Moto 2K::primary",
+    "Nike Metcon 10::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 884,
+  "catalogItems": 913,
   "candidateItems": 567,
-  "freshItems": 187,
+  "freshItems": 154,
   "qualifyingAlerts": 4,
   "qualifyingByCondition": {
-    "newWithoutTags": 1,
-    "veryGood": 3
+    "veryGood": 3,
+    "newWithoutTags": 1
   },
   "deliveredAlerts": 4,
   "deliveredByCondition": {
-    "newWithoutTags": 1,
-    "veryGood": 3
+    "veryGood": 3,
+    "newWithoutTags": 1
   },
-  "duplicateSuppressed": 41,
+  "duplicateSuppressed": 21,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,14 +67,14 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 339,
+    "stale": 392,
+    "price": 4,
+    "condition": 10,
     "size": 8,
-    "keyword": 21,
-    "seller-check-budget-exhausted": 71,
-    "detail-budget-exhausted": 38,
-    "price": 5,
-    "condition": 38,
-    "weak-margin": 2
+    "weak-margin": 1,
+    "detail-budget-exhausted": 27,
+    "seller-check-budget-exhausted": 97,
+    "keyword": 3
   },
   "failures": {}
 }
