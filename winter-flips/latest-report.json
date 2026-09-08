@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-09-08T05:10:29.699Z",
+    "startedAt": "2026-09-08T09:44:11.784Z",
     "searchGroups": [
-      "nike-puffer:nike-puffer-jacket-mens",
-      "nike-puffer:nike-down-jacket",
-      "berghaus-down:berghaus-down-jacket",
-      "berghaus-down:berghaus-puffer-jacket",
-      "napapijri-skidoo:napapijri-skidoo-jacket",
-      "napapijri-skidoo:napapijri-rainforest-winter",
-      "hunter:north-face-coat",
-      "hunter:north-face-puffer"
+      "tnf-baltoro:north-face-baltoro-jacket",
+      "tnf-summit-down:north-face-summit-series-down",
+      "rab-microlight:rab-microlight-alpine",
+      "rab-neutrino:rab-neutrino-pro",
+      "rab-electron:rab-electron-pro",
+      "patagonia-down-sweater:patagonia-down-sweater-jacket",
+      "patagonia-down-sweater:patagonia-down-sweater-hoody",
+      "patagonia-fitz-roy:patagonia-fitz-roy-down"
     ],
     "vintedItems": 280,
-    "freshItems": 2,
+    "freshItems": 1,
     "freshByAge": 0,
-    "freshByNewId": 2,
+    "freshByNewId": 1,
     "bootstrapBlocked": 0,
-    "staleBlocked": 30,
-    "candidates": 0,
+    "staleBlocked": 4,
+    "candidates": 1,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-09-08T09:38:29.272Z",
+      "platform": "VINTED",
+      "id": "9928449250",
+      "title": "polo ralph lauren womens packable gilet",
+      "url": "https://www.vinted.co.uk/items/9928449250-polo-ralph-lauren-womens-packable-gilet",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 30,
+      "estimatedNetProfit": 41,
+      "roi": 136.67,
+      "score": 94
+    },
     {
       "at": "2026-09-07T22:17:02.696Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 45.74,
       "roi": 182.96,
       "score": 93
-    },
-    {
-      "at": "2026-09-05T15:38:20.098Z",
-      "platform": "VINTED",
-      "id": "9897380301",
-      "title": "nike puffer jacket hooded maroon burgundy wine red size medium m",
-      "url": "https://www.vinted.co.uk/items/9897380301-nike-puffer-jacket-hooded-maroon-burgundy-wine-red-size-medium-m",
-      "modelId": "nike-puffer",
-      "buyPrice": 20,
-      "estimatedNetProfit": 32.09,
-      "roi": 160.45,
-      "score": 95
     }
   ]
 }
