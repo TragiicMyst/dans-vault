@@ -1,37 +1,39 @@
 {
-  "generatedAt": "2026-09-08T20:40:18.679Z",
-  "stateUpdatedAt": "2026-09-08T20:40:18.679Z",
-  "lastAttemptAt": "2026-09-08T20:40:18.679Z",
-  "lastScanAt": "2026-09-08T20:40:18.679Z",
+  "generatedAt": "2026-09-08T20:45:35.290Z",
+  "stateUpdatedAt": "2026-09-08T20:45:35.290Z",
+  "lastAttemptAt": "2026-09-08T20:45:35.290Z",
+  "lastScanAt": "2026-09-08T20:45:35.290Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Air Jordan 1 Low::primary",
-    "Air Jordan 1 Mid::primary",
-    "Air Jordan 4::primary",
-    "Nike Initiator::primary",
-    "Nike Air Max Moto 2K::primary",
-    "Nike Metcon 10::primary"
+    "Nike Zoom Fly 6::primary",
+    "Nike Air Max Bargain::generic",
+    "Nike Running Trainer Bargain::generic",
+    "Nike Lifestyle Trainer Bargain::generic",
+    "Nike Football Boot Bargain::generic",
+    "Nike Basketball Shoe Bargain::generic"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1343,
-  "catalogItems": 921,
-  "candidateItems": 584,
-  "freshItems": 217,
-  "qualifyingAlerts": 7,
+  "catalogMarkers": 1344,
+  "catalogItems": 956,
+  "candidateItems": 465,
+  "freshItems": 225,
+  "qualifyingAlerts": 6,
   "qualifyingByCondition": {
-    "veryGood": 6,
-    "newWithTags": 1
+    "newWithTags": 1,
+    "veryGood": 4,
+    "newWithoutTags": 1
   },
-  "deliveredAlerts": 7,
+  "deliveredAlerts": 6,
   "deliveredByCondition": {
-    "veryGood": 6,
-    "newWithTags": 1
+    "newWithTags": 1,
+    "veryGood": 4,
+    "newWithoutTags": 1
   },
-  "duplicateSuppressed": 19,
+  "duplicateSuppressed": 27,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,16 +69,15 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "price": 10,
-    "recovery-no-fresh-signal": 348,
-    "condition": 23,
-    "seller-risk": 3,
-    "keyword": 21,
+    "stale": 213,
+    "price": 42,
+    "size": 4,
     "score": 1,
-    "size": 1,
-    "seller-check-budget-exhausted": 106,
-    "detail-budget-exhausted": 42,
-    "weak-margin": 3
+    "keyword": 23,
+    "condition": 48,
+    "seller-risk": 1,
+    "seller-check-budget-exhausted": 64,
+    "detail-budget-exhausted": 36
   },
   "failures": {}
 }
