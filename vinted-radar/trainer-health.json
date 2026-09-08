@@ -1,37 +1,37 @@
 {
-  "generatedAt": "2026-09-08T14:19:17.125Z",
-  "stateUpdatedAt": "2026-09-08T14:19:17.125Z",
-  "lastAttemptAt": "2026-09-08T14:19:17.125Z",
-  "lastScanAt": "2026-09-08T14:19:17.125Z",
+  "generatedAt": "2026-09-08T17:51:42.215Z",
+  "stateUpdatedAt": "2026-09-08T17:51:42.215Z",
+  "lastAttemptAt": "2026-09-08T17:51:42.215Z",
+  "lastScanAt": "2026-09-08T17:51:42.215Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Zoom Fly 6::primary",
-    "Nike Air Max Bargain::generic",
-    "Nike Running Trainer Bargain::generic",
-    "Nike Lifestyle Trainer Bargain::generic",
-    "Nike Football Boot Bargain::generic",
-    "Nike Basketball Shoe Bargain::generic"
+    "Nike SB Shoe Bargain::generic",
+    "Nike P-6000::primary",
+    "Nike V5 RNR::primary",
+    "Nike Vomero 5::primary",
+    "Nike Vomero 18::primary",
+    "Nike Vomero Plus::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1344,
-  "catalogItems": 952,
-  "candidateItems": 465,
-  "freshItems": 224,
+  "catalogMarkers": 1264,
+  "catalogItems": 672,
+  "candidateItems": 432,
+  "freshItems": 160,
   "qualifyingAlerts": 4,
   "qualifyingByCondition": {
-    "newWithTags": 1,
-    "veryGood": 3
+    "veryGood": 2,
+    "newWithTags": 2
   },
   "deliveredAlerts": 4,
   "deliveredByCondition": {
-    "newWithTags": 1,
-    "veryGood": 3
+    "veryGood": 2,
+    "newWithTags": 2
   },
-  "duplicateSuppressed": 25,
+  "duplicateSuppressed": 11,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,14 +67,14 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 216,
-    "score": 1,
-    "price": 34,
-    "size": 7,
-    "keyword": 32,
-    "condition": 70,
-    "detail-budget-exhausted": 43,
-    "seller-check-budget-exhausted": 33
+    "recovery-no-fresh-signal": 261,
+    "condition": 19,
+    "price": 14,
+    "size": 8,
+    "detail-budget-exhausted": 48,
+    "seller-check-budget-exhausted": 62,
+    "keyword": 2,
+    "weak-margin": 3
   },
   "failures": {}
 }
