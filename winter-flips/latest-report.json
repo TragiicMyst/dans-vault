@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-09-08T13:58:15.737Z",
+    "startedAt": "2026-09-08T17:42:26.542Z",
     "searchGroups": [
-      "hunter:rab-puffer",
-      "hunter:rab-down-jacket",
-      "hunter:patagonia-puffer",
-      "hunter:arcteryx-jacket",
-      "hunter:arc-teryx-puffer",
-      "hunter:ralph-lauren-puffer",
-      "hunter:polo-puffer-jacket",
-      "hunter:nike-puffer-jacket"
+      "arcteryx-thorium:arcteryx-thorium-jacket",
+      "arcteryx-thorium:arc-teryx-thorium",
+      "ralph-lauren-puffer:ralph-lauren-puffer-jacket",
+      "ralph-lauren-puffer:polo-ralph-lauren-down-jacket",
+      "nike-puffer:nike-puffer-jacket-mens",
+      "nike-puffer:nike-down-jacket",
+      "berghaus-down:berghaus-down-jacket",
+      "berghaus-down:berghaus-puffer-jacket"
     ],
     "vintedItems": 280,
-    "freshItems": 22,
+    "freshItems": 15,
     "freshByAge": 0,
-    "freshByNewId": 22,
+    "freshByNewId": 15,
     "bootstrapBlocked": 0,
-    "staleBlocked": 7,
-    "candidates": 4,
-    "alerts": 3,
+    "staleBlocked": 1,
+    "candidates": 9,
+    "alerts": 1,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-09-08T17:42:33.240Z",
+      "platform": "VINTED",
+      "id": "9932333328",
+      "title": "ralph lauren down jacket",
+      "url": "https://www.vinted.co.uk/items/9932333328-ralph-lauren-down-jacket",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 30,
+      "estimatedNetProfit": 42.3,
+      "roi": 141,
+      "score": 89
+    },
     {
       "at": "2026-09-08T13:58:34.407Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 38.08,
       "roi": 253.87,
       "score": 91
-    },
-    {
-      "at": "2026-09-06T05:58:10.350Z",
-      "platform": "VINTED",
-      "id": "9902765976",
-      "title": "ralph lauren hawthorne puffer in goldyellow rrp135ps bnwt read description",
-      "url": "https://www.vinted.co.uk/items/9902765976-ralph-lauren-hawthorne-puffer-in-goldyellow-rrp135ps-bnwt-read-description",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 30,
-      "estimatedNetProfit": 43.54,
-      "roi": 145.13,
-      "score": 95
     }
   ]
 }
