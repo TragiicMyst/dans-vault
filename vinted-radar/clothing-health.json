@@ -1,39 +1,37 @@
 {
-  "generatedAt": "2026-09-09T01:28:03.707Z",
-  "stateUpdatedAt": "2026-09-09T01:28:03.707Z",
-  "lastAttemptAt": "2026-09-09T01:28:03.707Z",
-  "lastScanAt": "2026-09-09T01:28:03.707Z",
+  "generatedAt": "2026-09-09T06:03:37.298Z",
+  "stateUpdatedAt": "2026-09-09T06:03:37.298Z",
+  "lastAttemptAt": "2026-09-09T06:03:37.298Z",
+  "lastScanAt": "2026-09-09T06:03:37.298Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Zip Hoodie::nike zip hoodie",
-    "Nike Hoodie::nike hoodie",
-    "Nike Sweatshirt::nike sweatshirt",
-    "Nike Track Jacket::nike track jacket",
-    "Nike Joggers::nike joggers",
-    "Nike Trousers::nike trousers"
+    "Nike Sportswear Hoodie::nike sportswear hoodie",
+    "Nike Sportswear Jacket::nike sportswear jacket",
+    "Nike Tech Fleece Windrunner::nike tech fleece windrunner",
+    "Nike Puffer Jacket::nike puffer jacket",
+    "Nike NOCTA Track Jacket::nike nocta track jacket",
+    "Nike Miler Shorts::nike miler shorts"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1344,
-  "catalogItems": 1103,
-  "candidateItems": 274,
-  "freshItems": 105,
-  "qualifyingAlerts": 43,
+  "catalogMarkers": 1378,
+  "catalogItems": 857,
+  "candidateItems": 270,
+  "freshItems": 92,
+  "qualifyingAlerts": 29,
   "qualifyingByCondition": {
-    "newWithoutTags": 11,
-    "veryGood": 31,
-    "newWithTags": 1
+    "veryGood": 26,
+    "newWithoutTags": 3
   },
-  "deliveredAlerts": 43,
+  "deliveredAlerts": 29,
   "deliveredByCondition": {
-    "newWithoutTags": 11,
-    "veryGood": 31,
-    "newWithTags": 1
+    "veryGood": 26,
+    "newWithoutTags": 3
   },
-  "duplicateSuppressed": 4,
+  "duplicateSuppressed": 44,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,14 +65,14 @@
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 5,
+  "detailFetches": 3,
   "rejects": {
-    "stale": 165,
-    "price": 25,
-    "size": 4,
-    "weak-margin": 2,
-    "condition": 26,
-    "keyword": 5
+    "condition": 14,
+    "recovery-no-fresh-signal": 134,
+    "price": 35,
+    "keyword": 10,
+    "size": 1,
+    "weak-margin": 3
   },
   "failures": {}
 }
