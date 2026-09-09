@@ -1,35 +1,39 @@
 {
-  "generatedAt": "2026-09-09T19:27:59.241Z",
-  "stateUpdatedAt": "2026-09-09T19:27:59.241Z",
-  "lastAttemptAt": "2026-09-09T19:27:59.241Z",
-  "lastScanAt": "2026-09-09T19:27:59.241Z",
+  "generatedAt": "2026-09-09T21:14:37.283Z",
+  "stateUpdatedAt": "2026-09-09T21:14:37.283Z",
+  "lastAttemptAt": "2026-09-09T21:14:37.283Z",
+  "lastScanAt": "2026-09-09T21:14:37.283Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Club Fleece Crew::nike club fleece crew",
-    "Nike Running Division Jacket::nike running division jacket",
-    "Jordan Flight Fleece Joggers::jordan flight fleece joggers",
-    "Nike ACG Tuff Fleece::nike acg tuff fleece",
-    "Nike Solo Swoosh Crew::nike solo swoosh sweatshirt",
-    "Nike Miler Repel Jacket::nike miler repel jacket"
+    "Nike Solo Swoosh Joggers::nike solo swoosh joggers",
+    "Nike Stride Running Jacket::nike stride running jacket",
+    "Nike T-Shirt::nike t shirt",
+    "Nike Long Sleeve Top::nike long sleeve top",
+    "Nike Polo::nike polo",
+    "Nike Football Shirt::nike football shirt"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1440,
-  "catalogItems": 818,
-  "candidateItems": 300,
-  "freshItems": 20,
-  "qualifyingAlerts": 9,
+  "catalogMarkers": 1344,
+  "catalogItems": 957,
+  "candidateItems": 347,
+  "freshItems": 178,
+  "qualifyingAlerts": 83,
   "qualifyingByCondition": {
-    "veryGood": 9
+    "veryGood": 70,
+    "newWithTags": 4,
+    "newWithoutTags": 9
   },
-  "deliveredAlerts": 9,
+  "deliveredAlerts": 83,
   "deliveredByCondition": {
-    "veryGood": 9
+    "veryGood": 70,
+    "newWithTags": 4,
+    "newWithoutTags": 9
   },
-  "duplicateSuppressed": 76,
+  "duplicateSuppressed": 35,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -63,12 +67,15 @@
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 0,
+  "detailFetches": 6,
   "rejects": {
-    "price": 4,
-    "condition": 6,
-    "recovery-no-fresh-signal": 204,
-    "keyword": 1
+    "price": 55,
+    "recovery-no-fresh-signal": 134,
+    "size": 5,
+    "condition": 26,
+    "keyword": 7,
+    "weak-margin": 1,
+    "detail-budget-exhausted": 1
   },
   "failures": {}
 }
