@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-09-09T01:13:04.712Z",
-  "stateUpdatedAt": "2026-09-09T01:13:04.712Z",
-  "lastAttemptAt": "2026-09-09T01:13:04.712Z",
-  "lastScanAt": "2026-09-09T01:13:04.712Z",
+  "generatedAt": "2026-09-09T01:28:03.707Z",
+  "stateUpdatedAt": "2026-09-09T01:28:03.707Z",
+  "lastAttemptAt": "2026-09-09T01:28:03.707Z",
+  "lastScanAt": "2026-09-09T01:28:03.707Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Woven Trousers::nike woven trousers",
-    "Nike Tracksuit::nike tracksuit",
-    "Nike Vintage Clothing::vintage nike",
-    "Nike SB Clothing::nike sb clothing",
-    "Nike Vest::nike vest",
-    "Nike Air Max Hoodie::nike air max hoodie"
+    "Nike Zip Hoodie::nike zip hoodie",
+    "Nike Hoodie::nike hoodie",
+    "Nike Sweatshirt::nike sweatshirt",
+    "Nike Track Jacket::nike track jacket",
+    "Nike Joggers::nike joggers",
+    "Nike Trousers::nike trousers"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 1061,
-  "candidateItems": 293,
-  "freshItems": 169,
-  "qualifyingAlerts": 62,
+  "catalogItems": 1103,
+  "candidateItems": 274,
+  "freshItems": 105,
+  "qualifyingAlerts": 43,
   "qualifyingByCondition": {
-    "veryGood": 47,
-    "newWithoutTags": 14,
+    "newWithoutTags": 11,
+    "veryGood": 31,
     "newWithTags": 1
   },
-  "deliveredAlerts": 62,
+  "deliveredAlerts": 43,
   "deliveredByCondition": {
-    "veryGood": 47,
-    "newWithoutTags": 14,
+    "newWithoutTags": 11,
+    "veryGood": 31,
     "newWithTags": 1
   },
-  "duplicateSuppressed": 14,
+  "duplicateSuppressed": 4,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,14 +67,14 @@
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 6,
+  "detailFetches": 5,
   "rejects": {
-    "recovery-no-fresh-signal": 110,
-    "price": 57,
-    "keyword": 8,
-    "size": 6,
-    "condition": 32,
-    "detail-budget-exhausted": 4
+    "stale": 165,
+    "price": 25,
+    "size": 4,
+    "weak-margin": 2,
+    "condition": 26,
+    "keyword": 5
   },
   "failures": {}
 }
