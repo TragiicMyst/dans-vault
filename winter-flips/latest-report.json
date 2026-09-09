@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-09-09T20:09:42.076Z",
+    "startedAt": "2026-09-09T22:34:14.189Z",
     "searchGroups": [
-      "ralph-lauren-puffer:ralph-lauren-puffer-jacket",
-      "ralph-lauren-puffer:polo-ralph-lauren-down-jacket",
-      "nike-puffer:nike-puffer-jacket-mens",
-      "nike-puffer:nike-down-jacket",
-      "berghaus-down:berghaus-down-jacket",
-      "berghaus-down:berghaus-puffer-jacket",
-      "napapijri-skidoo:napapijri-skidoo-jacket",
-      "napapijri-skidoo:napapijri-rainforest-winter"
+      "tnf-himalayan:north-face-himalayan-puffer",
+      "tnf-himalayan:north-face-hmlyn-parka",
+      "tnf-baltoro:north-face-baltoro-jacket",
+      "tnf-summit-down:north-face-summit-series-down",
+      "rab-microlight:rab-microlight-alpine",
+      "rab-neutrino:rab-neutrino-pro",
+      "rab-electron:rab-electron-pro",
+      "patagonia-down-sweater:patagonia-down-sweater-jacket"
     ],
     "vintedItems": 280,
-    "freshItems": 15,
+    "freshItems": 0,
     "freshByAge": 0,
-    "freshByNewId": 15,
+    "freshByNewId": 0,
     "bootstrapBlocked": 0,
     "staleBlocked": 1,
-    "candidates": 7,
+    "candidates": 0,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-09-09T22:31:22.802Z",
+      "platform": "VINTED",
+      "id": "9946163631",
+      "title": "girls nike puffer jacket",
+      "url": "https://www.vinted.co.uk/items/9946163631-girls-nike-puffer-jacket",
+      "modelId": "nike-puffer",
+      "buyPrice": 22,
+      "estimatedNetProfit": 31.28,
+      "roi": 142.18,
+      "score": 89
+    },
     {
       "at": "2026-09-09T17:46:10.996Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 42.54,
       "roi": 106.35,
       "score": 84
-    },
-    {
-      "at": "2026-09-07T10:03:21.297Z",
-      "platform": "VINTED",
-      "id": "9917902270",
-      "title": "large nike puffer jacket",
-      "url": "https://www.vinted.co.uk/items/9917902270-large-nike-puffer-jacket",
-      "modelId": "nike-puffer",
-      "buyPrice": 15,
-      "estimatedNetProfit": 42.7,
-      "roi": 284.67,
-      "score": 91
     }
   ]
 }
