@@ -1,37 +1,35 @@
 {
-  "generatedAt": "2026-09-10T00:05:42.645Z",
-  "stateUpdatedAt": "2026-09-10T00:05:42.645Z",
-  "lastAttemptAt": "2026-09-10T00:05:42.645Z",
-  "lastScanAt": "2026-09-10T00:05:42.645Z",
+  "generatedAt": "2026-09-10T01:15:57.444Z",
+  "stateUpdatedAt": "2026-09-10T01:15:57.444Z",
+  "lastAttemptAt": "2026-09-10T01:15:57.444Z",
+  "lastScanAt": "2026-09-10T01:15:57.444Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Cargo Trousers::nike cargo trousers",
-    "Nike Track Pants::nike track pants",
-    "Nike Woven Trousers::nike woven trousers",
-    "Nike Tracksuit::nike tracksuit",
-    "Nike Vintage Clothing::vintage nike",
-    "Nike SB Clothing::nike sb clothing"
+    "Nike Vest::nike vest",
+    "Nike Air Max Hoodie::nike air max hoodie",
+    "Nike Zip Hoodie::nike zip hoodie",
+    "Nike Hoodie::nike hoodie",
+    "Nike Sweatshirt::nike sweatshirt",
+    "Nike Track Jacket::nike track jacket"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 1051,
-  "candidateItems": 295,
-  "freshItems": 186,
-  "qualifyingAlerts": 62,
+  "catalogItems": 1099,
+  "candidateItems": 281,
+  "freshItems": 127,
+  "qualifyingAlerts": 48,
   "qualifyingByCondition": {
-    "newWithoutTags": 6,
-    "veryGood": 55,
-    "newWithTags": 1
+    "veryGood": 43,
+    "newWithoutTags": 5
   },
-  "deliveredAlerts": 62,
+  "deliveredAlerts": 48,
   "deliveredByCondition": {
-    "newWithoutTags": 6,
-    "veryGood": 55,
-    "newWithTags": 1
+    "veryGood": 43,
+    "newWithoutTags": 5
   },
   "duplicateSuppressed": 8,
   "discordFailures": 0,
@@ -69,12 +67,13 @@
   "pendingDeliveries": 0,
   "detailFetches": 6,
   "rejects": {
-    "recovery-no-fresh-signal": 101,
-    "price": 76,
-    "keyword": 5,
-    "condition": 31,
-    "size": 6,
-    "detail-budget-exhausted": 6
+    "size": 5,
+    "price": 47,
+    "recovery-no-fresh-signal": 146,
+    "keyword": 9,
+    "condition": 16,
+    "weak-margin": 1,
+    "detail-budget-exhausted": 1
   },
   "failures": {}
 }
