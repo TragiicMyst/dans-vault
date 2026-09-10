@@ -1,39 +1,37 @@
 {
-  "generatedAt": "2026-09-10T06:26:37.962Z",
-  "stateUpdatedAt": "2026-09-10T06:26:37.962Z",
-  "lastAttemptAt": "2026-09-10T06:26:37.962Z",
-  "lastScanAt": "2026-09-10T06:26:37.962Z",
+  "generatedAt": "2026-09-10T06:31:38.237Z",
+  "stateUpdatedAt": "2026-09-10T06:31:38.237Z",
+  "lastAttemptAt": "2026-09-10T06:31:38.237Z",
+  "lastScanAt": "2026-09-10T06:31:38.237Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Air Max 1::primary",
-    "Nike Shox TL::primary",
-    "Nike Shox R4::primary",
-    "Nike Shox Ride 2::primary",
-    "Nike Air Force 1::primary",
-    "Nike Dunk Low::primary"
+    "Air Jordan 1 Low::primary",
+    "Air Jordan 1 Mid::primary",
+    "Air Jordan 4::primary",
+    "Nike Initiator::primary",
+    "Nike Air Max Moto 2K::primary",
+    "Nike Metcon 10::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 875,
-  "candidateItems": 540,
-  "freshItems": 114,
-  "qualifyingAlerts": 10,
+  "catalogItems": 926,
+  "candidateItems": 595,
+  "freshItems": 122,
+  "qualifyingAlerts": 6,
   "qualifyingByCondition": {
-    "newWithTags": 8,
-    "newWithoutTags": 1,
-    "veryGood": 1
+    "newWithTags": 2,
+    "veryGood": 4
   },
-  "deliveredAlerts": 10,
+  "deliveredAlerts": 6,
   "deliveredByCondition": {
-    "newWithTags": 8,
-    "newWithoutTags": 1,
-    "veryGood": 1
+    "newWithTags": 2,
+    "veryGood": 4
   },
-  "duplicateSuppressed": 27,
+  "duplicateSuppressed": 33,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,13 +67,14 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 399,
-    "condition": 7,
-    "weak-margin": 1,
-    "size": 2,
-    "seller-check-budget-exhausted": 53,
-    "detail-budget-exhausted": 36,
-    "keyword": 5
+    "stale": 440,
+    "size": 4,
+    "keyword": 3,
+    "price": 3,
+    "score": 2,
+    "condition": 1,
+    "detail-budget-exhausted": 21,
+    "seller-check-budget-exhausted": 82
   },
   "failures": {}
 }
