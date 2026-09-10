@@ -2,29 +2,53 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-09-10T09:46:26.637Z",
+    "startedAt": "2026-09-10T13:55:19.222Z",
     "searchGroups": [
-      "hunter:berghaus-puffer",
-      "hunter:napapijri-jacket",
-      "tnf-1996-nuptse:north-face-nuptse-700",
-      "tnf-1996-nuptse:north-face-1996-nuptse",
-      "tnf-himalayan:north-face-himalayan-puffer",
-      "tnf-himalayan:north-face-hmlyn-parka",
-      "tnf-baltoro:north-face-baltoro-jacket",
-      "tnf-summit-down:north-face-summit-series-down"
+      "napapijri-skidoo:napapijri-skidoo-jacket",
+      "napapijri-skidoo:napapijri-rainforest-winter",
+      "hunter:north-face-coat",
+      "hunter:north-face-puffer",
+      "hunter:north-face-700",
+      "hunter:mens-north-face-jacket",
+      "hunter:rab-puffer",
+      "hunter:rab-down-jacket"
     ],
     "vintedItems": 280,
-    "freshItems": 0,
+    "freshItems": 82,
     "freshByAge": 0,
-    "freshByNewId": 0,
+    "freshByNewId": 82,
     "bootstrapBlocked": 0,
-    "staleBlocked": 0,
-    "candidates": 0,
-    "alerts": 0,
+    "staleBlocked": 9,
+    "candidates": 23,
+    "alerts": 1,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-09-10T13:55:23.625Z",
+      "platform": "VINTED",
+      "id": "9953380266",
+      "title": "napapijri rainforest winter jacket",
+      "url": "https://www.vinted.co.uk/items/9953380266-napapijri-rainforest-winter-jacket",
+      "modelId": "napapijri-skidoo",
+      "buyPrice": 30,
+      "estimatedNetProfit": 40.08,
+      "roi": 133.6,
+      "score": 92
+    },
+    {
+      "at": "2026-09-10T13:52:26.585Z",
+      "platform": "VINTED",
+      "id": "9951585821",
+      "title": "polo ralph lauren girls jacket",
+      "url": "https://www.vinted.co.uk/items/9951585821-polo-ralph-lauren-girls-jacket",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 35,
+      "estimatedNetProfit": 39.6,
+      "roi": 113.14,
+      "score": 86
+    },
     {
       "at": "2026-09-09T22:31:22.802Z",
       "platform": "VINTED",
@@ -240,30 +264,6 @@
       "estimatedNetProfit": 47.81,
       "roi": 136.6,
       "score": 88
-    },
-    {
-      "at": "2026-09-07T19:28:45.559Z",
-      "platform": "VINTED",
-      "id": "9924644797",
-      "title": "winter ralph lauren jacket",
-      "url": "https://www.vinted.co.uk/items/9924644797-winter-ralph-lauren-jacket",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 30,
-      "estimatedNetProfit": 43.22,
-      "roi": 144.07,
-      "score": 89
-    },
-    {
-      "at": "2026-09-07T15:46:09.113Z",
-      "platform": "VINTED",
-      "id": "9922375220",
-      "title": "the north face sherpa high pile nuptse jacket harbor blue",
-      "url": "https://www.vinted.co.uk/items/9922375220-the-north-face-sherpa-high-pile-nuptse-jacket-harbor-blue",
-      "modelId": "tnf-1996-nuptse",
-      "buyPrice": 40,
-      "estimatedNetProfit": 42.54,
-      "roi": 106.35,
-      "score": 84
     }
   ]
 }
