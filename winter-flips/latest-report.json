@@ -2,31 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-09-10T19:55:52.561Z",
+    "startedAt": "2026-09-10T22:04:58.325Z",
     "searchGroups": [
-      "hunter:arc-teryx-puffer",
-      "hunter:ralph-lauren-puffer",
-      "hunter:polo-puffer-jacket",
-      "hunter:nike-puffer-jacket",
-      "hunter:berghaus-puffer",
-      "hunter:napapijri-jacket",
-      "tnf-1996-nuptse:north-face-nuptse-700",
-      "tnf-1996-nuptse:north-face-1996-nuptse"
+      "nike-puffer:nike-puffer-jacket-mens",
+      "nike-puffer:nike-down-jacket",
+      "berghaus-down:berghaus-down-jacket",
+      "berghaus-down:berghaus-puffer-jacket",
+      "napapijri-skidoo:napapijri-skidoo-jacket",
+      "napapijri-skidoo:napapijri-rainforest-winter",
+      "hunter:north-face-coat",
+      "hunter:north-face-puffer"
     ],
-    "vintedItems": 245,
-    "freshItems": 16,
+    "vintedItems": 280,
+    "freshItems": 27,
     "freshByAge": 0,
-    "freshByNewId": 16,
+    "freshByNewId": 27,
     "bootstrapBlocked": 0,
-    "staleBlocked": 4,
-    "candidates": 7,
-    "alerts": 1,
+    "staleBlocked": 6,
+    "candidates": 3,
+    "alerts": 0,
     "supplyVacuumAlerts": 0,
-    "failures": [
-      "Vinted north face nuptse 700: This operation was aborted"
-    ]
+    "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-09-10T22:02:12.112Z",
+      "platform": "VINTED",
+      "id": "9957737271",
+      "title": "mens medium ralph lauren polo jacket",
+      "url": "https://www.vinted.co.uk/items/9957737271-mens-medium-ralph-lauren-polo-jacket",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 30,
+      "estimatedNetProfit": 41.92,
+      "roi": 139.73,
+      "score": 94
+    },
     {
       "at": "2026-09-10T19:56:01.264Z",
       "platform": "VINTED",
@@ -254,18 +264,6 @@
       "estimatedNetProfit": 32.12,
       "roi": 61.77,
       "score": 70
-    },
-    {
-      "at": "2026-09-08T09:38:29.272Z",
-      "platform": "VINTED",
-      "id": "9928449250",
-      "title": "polo ralph lauren womens packable gilet",
-      "url": "https://www.vinted.co.uk/items/9928449250-polo-ralph-lauren-womens-packable-gilet",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 30,
-      "estimatedNetProfit": 41,
-      "roi": 136.67,
-      "score": 94
     }
   ]
 }
