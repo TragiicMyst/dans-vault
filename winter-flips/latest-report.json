@@ -2,29 +2,67 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-09-10T17:24:12.654Z",
+    "startedAt": "2026-09-10T19:55:52.561Z",
     "searchGroups": [
-      "rab-electron:rab-electron-pro",
-      "patagonia-down-sweater:patagonia-down-sweater-jacket",
-      "patagonia-down-sweater:patagonia-down-sweater-hoody",
-      "patagonia-fitz-roy:patagonia-fitz-roy-down",
-      "arcteryx-cerium:arcteryx-cerium-jacket",
-      "arcteryx-cerium:arc-teryx-cerium",
-      "arcteryx-thorium:arcteryx-thorium-jacket",
-      "arcteryx-thorium:arc-teryx-thorium"
+      "hunter:arc-teryx-puffer",
+      "hunter:ralph-lauren-puffer",
+      "hunter:polo-puffer-jacket",
+      "hunter:nike-puffer-jacket",
+      "hunter:berghaus-puffer",
+      "hunter:napapijri-jacket",
+      "tnf-1996-nuptse:north-face-nuptse-700",
+      "tnf-1996-nuptse:north-face-1996-nuptse"
     ],
-    "vintedItems": 280,
-    "freshItems": 1,
+    "vintedItems": 245,
+    "freshItems": 16,
     "freshByAge": 0,
-    "freshByNewId": 1,
+    "freshByNewId": 16,
     "bootstrapBlocked": 0,
-    "staleBlocked": 0,
-    "candidates": 0,
-    "alerts": 0,
+    "staleBlocked": 4,
+    "candidates": 7,
+    "alerts": 1,
     "supplyVacuumAlerts": 0,
-    "failures": []
+    "failures": [
+      "Vinted north face nuptse 700: This operation was aborted"
+    ]
   },
   "topRecent": [
+    {
+      "at": "2026-09-10T19:56:01.264Z",
+      "platform": "VINTED",
+      "id": "9956243662",
+      "title": "kids nike puffer coat age 9 months",
+      "url": "https://www.vinted.co.uk/items/9956243662-kids-nike-puffer-coat-age-9-months",
+      "modelId": "nike-puffer",
+      "buyPrice": 15,
+      "estimatedNetProfit": 38.08,
+      "roi": 253.87,
+      "score": 86
+    },
+    {
+      "at": "2026-09-10T19:49:58.162Z",
+      "platform": "VINTED",
+      "id": "9956580304",
+      "title": "ralph lauren puffer black new black jacket 1415 girls",
+      "url": "https://www.vinted.co.uk/items/9956580304-ralph-lauren-puffer-black-new-black-jacket-1415-girls",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 34.55,
+      "estimatedNetProfit": 41.61,
+      "roi": 120.43,
+      "score": 87
+    },
+    {
+      "at": "2026-09-10T19:49:56.791Z",
+      "platform": "VINTED",
+      "id": "9957464289",
+      "title": "polo raulph lauren jacket",
+      "url": "https://www.vinted.co.uk/items/9957464289-polo-raulph-lauren-jacket",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 40,
+      "estimatedNetProfit": 32.67,
+      "roi": 81.68,
+      "score": 78
+    },
     {
       "at": "2026-09-10T13:55:23.625Z",
       "platform": "VINTED",
@@ -228,42 +266,6 @@
       "estimatedNetProfit": 41,
       "roi": 136.67,
       "score": 94
-    },
-    {
-      "at": "2026-09-07T22:17:02.696Z",
-      "platform": "VINTED",
-      "id": "9923206843",
-      "title": "the north face pertex summit series blue lightweight down jacket xs",
-      "url": "https://www.vinted.co.uk/items/9923206843-the-north-face-pertex-summit-series-blue-lightweight-down-jacket-xs",
-      "modelId": "tnf-summit-down",
-      "buyPrice": 39.99,
-      "estimatedNetProfit": 46.74,
-      "roi": 116.88,
-      "score": 91
-    },
-    {
-      "at": "2026-09-07T22:14:03.925Z",
-      "platform": "VINTED",
-      "id": "9926343553",
-      "title": "berghaus puffer jacket",
-      "url": "https://www.vinted.co.uk/items/9926343553-berghaus-puffer-jacket",
-      "modelId": "berghaus-down",
-      "buyPrice": 15,
-      "estimatedNetProfit": 34.99,
-      "roi": 233.27,
-      "score": 92
-    },
-    {
-      "at": "2026-09-07T19:31:44.998Z",
-      "platform": "VINTED",
-      "id": "9925491054",
-      "title": "the north face 700 puffer jacket",
-      "url": "https://www.vinted.co.uk/items/9925491054-the-north-face-700-puffer-jacket",
-      "modelId": "tnf-1996-nuptse",
-      "buyPrice": 35,
-      "estimatedNetProfit": 47.81,
-      "roi": 136.6,
-      "score": 88
     }
   ]
 }
