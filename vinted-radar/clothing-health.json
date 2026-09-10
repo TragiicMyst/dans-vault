@@ -1,55 +1,80 @@
 {
-  "generatedAt": "2026-09-10T21:05:28.298Z",
-  "stateUpdatedAt": "2026-09-10T21:05:28.298Z",
-  "lastAttemptAt": "2026-09-10T21:05:28.298Z",
-  "lastScanAt": "2026-09-10T20:05:34.687Z",
-  "cooldownUntil": "2026-09-10T21:11:12.647Z",
-  "healthyScan": false,
-  "healthReason": "vinted-block-or-challenge",
+  "generatedAt": "2026-09-10T22:39:34.149Z",
+  "stateUpdatedAt": "2026-09-10T22:39:34.149Z",
+  "lastAttemptAt": "2026-09-10T22:39:34.149Z",
+  "lastScanAt": "2026-09-10T22:39:34.149Z",
+  "cooldownUntil": null,
+  "healthyScan": true,
+  "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Polo::nike polo",
-    "Nike Football Shirt::nike football shirt",
-    "Nike Training Top::nike training top",
-    "Nike Dri-FIT Top::nike dri fit top",
-    "Nike Quarter Zip::nike quarter zip",
-    "Nike Fleece::nike fleece"
+    "Nike Fleece::nike fleece",
+    "Nike Gilet::nike gilet",
+    "Nike Windbreaker::nike windbreaker",
+    "Nike Anorak::nike anorak",
+    "Nike Rain Jacket::nike rain jacket",
+    "Nike Woven Jacket::nike woven jacket"
   ],
-  "successfulSearches": 6,
-  "failedSearches": 1,
-  "catalogMarkers": 1151,
-  "catalogItems": 852,
-  "candidateItems": 239,
-  "freshItems": 182,
-  "qualifyingAlerts": 85,
+  "successfulSearches": 7,
+  "failedSearches": 0,
+  "catalogMarkers": 1339,
+  "catalogItems": 1097,
+  "candidateItems": 283,
+  "freshItems": 180,
+  "qualifyingAlerts": 60,
   "qualifyingByCondition": {
-    "veryGood": 67,
-    "newWithoutTags": 11,
-    "newWithTags": 7
+    "veryGood": 52,
+    "newWithoutTags": 5,
+    "newWithTags": 3
   },
-  "deliveredAlerts": 85,
+  "deliveredAlerts": 60,
   "deliveredByCondition": {
-    "veryGood": 67,
-    "newWithoutTags": 11,
-    "newWithTags": 7
+    "veryGood": 52,
+    "newWithoutTags": 5,
+    "newWithTags": 3
   },
-  "duplicateSuppressed": 7,
+  "duplicateSuppressed": 5,
   "discordFailures": 0,
-  "discordRoutes": [],
+  "discordRoutes": [
+    {
+      "configuredAs": "newWithoutTags",
+      "webhookId": "1541037387969462303",
+      "channelId": "1541036356384329819",
+      "guildId": "1540743210488430592",
+      "webhookName": "Dan's NWOT Bot",
+      "detectedCondition": "newWithoutTags",
+      "inspectionError": null
+    },
+    {
+      "configuredAs": "newWithTags",
+      "webhookId": "1541040362997547048",
+      "channelId": "1541040152372183140",
+      "guildId": "1540743210488430592",
+      "webhookName": "Dan's New With Tags Bot",
+      "detectedCondition": "newWithTags",
+      "inspectionError": null
+    },
+    {
+      "configuredAs": "veryGood",
+      "webhookId": "1541040545483198516",
+      "channelId": "1541040213780992171",
+      "guildId": "1540743210488430592",
+      "webhookName": "Dan's Very Good Condition Bot",
+      "detectedCondition": "veryGood",
+      "inspectionError": null
+    }
+  ],
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
   "detailFetches": 6,
   "rejects": {
-    "size": 5,
-    "recovery-no-fresh-signal": 50,
-    "price": 42,
-    "condition": 36,
-    "keyword": 5,
-    "weak-margin": 1,
-    "detail-budget-exhausted": 8
+    "price": 73,
+    "recovery-no-fresh-signal": 98,
+    "keyword": 7,
+    "condition": 33,
+    "size": 4,
+    "detail-budget-exhausted": 3
   },
-  "failures": {
-    "Nike Fleece::nike fleece": "Vinted guard cooldown active for 34s"
-  }
+  "failures": {}
 }
