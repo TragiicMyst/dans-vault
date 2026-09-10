@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-09-10T04:52:52.949Z",
-  "stateUpdatedAt": "2026-09-10T04:52:52.949Z",
-  "lastAttemptAt": "2026-09-10T04:52:52.949Z",
-  "lastScanAt": "2026-09-10T04:52:52.949Z",
+  "generatedAt": "2026-09-10T06:05:50.593Z",
+  "stateUpdatedAt": "2026-09-10T06:05:50.593Z",
+  "lastAttemptAt": "2026-09-10T06:05:50.593Z",
+  "lastScanAt": "2026-09-10T06:05:50.593Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Joggers::nike joggers",
-    "Nike Trousers::nike trousers",
-    "Nike Sportswear Hoodie::nike sportswear hoodie",
-    "Nike Sportswear Jacket::nike sportswear jacket",
-    "Nike Tech Fleece Windrunner::nike tech fleece windrunner",
-    "Nike Puffer Jacket::nike puffer jacket"
+    "Nike NOCTA Track Jacket::nike nocta track jacket",
+    "Nike Miler Shorts::nike miler shorts",
+    "Nike Tech Fleece Full-Zip Hoodie::nike tech fleece full zip hoodie",
+    "Nike ACG Canwell Glacier Jacket::nike acg canwell glacier",
+    "Nike Strike Tracksuit::nike strike tracksuit",
+    "Nike Challenger Shorts::nike challenger shorts"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1440,
-  "catalogItems": 1020,
-  "candidateItems": 237,
-  "freshItems": 64,
-  "qualifyingAlerts": 31,
+  "catalogMarkers": 1472,
+  "catalogItems": 747,
+  "candidateItems": 263,
+  "freshItems": 91,
+  "qualifyingAlerts": 27,
   "qualifyingByCondition": {
-    "veryGood": 26,
+    "newWithTags": 2,
     "newWithoutTags": 4,
-    "newWithTags": 1
+    "veryGood": 21
   },
-  "deliveredAlerts": 31,
+  "deliveredAlerts": 27,
   "deliveredByCondition": {
-    "veryGood": 26,
+    "newWithTags": 2,
     "newWithoutTags": 4,
-    "newWithTags": 1
+    "veryGood": 21
   },
-  "duplicateSuppressed": 39,
+  "duplicateSuppressed": 61,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,13 +67,15 @@
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 3,
+  "detailFetches": 6,
   "rejects": {
-    "recovery-no-fresh-signal": 134,
-    "price": 14,
-    "condition": 12,
-    "size": 2,
-    "keyword": 5
+    "recovery-no-fresh-signal": 111,
+    "price": 35,
+    "weak-margin": 15,
+    "condition": 9,
+    "clothing-variety-cap": 2,
+    "keyword": 1,
+    "size": 2
   },
   "failures": {}
 }
