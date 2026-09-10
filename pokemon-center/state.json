@@ -118,10 +118,10 @@
     "pokemon-tcg-mega-evolution-phantasmal-flames-elite-trainer-box-1-full-art-promo-card-9-booster-packs-and-premium",
     "pokemon-tcg-scarlet-and-violet-paradox-rift-elite-trainer-box-iron-valiant-9-booster-packs-1-full-art-foil-card-and"
   ],
-  "updatedAt": "2026-09-10T15:14:19.103Z",
+  "updatedAt": "2026-09-10T18:32:45.944Z",
   "connectedMessageSent": true,
   "queueLive": false,
-  "catalogAvailable": true,
-  "catalogSource": "HotStock UK — Pokémon Center",
-  "catalogError": null
+  "catalogAvailable": false,
+  "catalogSource": null,
+  "catalogError": "HotStock pages loaded but no Pokémon Center UK retailer records found (failed=0, noPc=60)"
 }
