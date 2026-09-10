@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-09-09T23:20:35.922Z",
-  "stateUpdatedAt": "2026-09-09T23:20:35.922Z",
-  "lastAttemptAt": "2026-09-09T23:20:35.922Z",
-  "lastScanAt": "2026-09-09T23:20:35.922Z",
+  "generatedAt": "2026-09-10T00:05:42.645Z",
+  "stateUpdatedAt": "2026-09-10T00:05:42.645Z",
+  "lastAttemptAt": "2026-09-10T00:05:42.645Z",
+  "lastScanAt": "2026-09-10T00:05:42.645Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Anorak::nike anorak",
-    "Nike Rain Jacket::nike rain jacket",
-    "Nike Woven Jacket::nike woven jacket",
-    "Nike Bomber Jacket::nike bomber jacket",
-    "Nike Coat::nike coat",
-    "Nike Shorts::nike shorts"
+    "Nike Cargo Trousers::nike cargo trousers",
+    "Nike Track Pants::nike track pants",
+    "Nike Woven Trousers::nike woven trousers",
+    "Nike Tracksuit::nike tracksuit",
+    "Nike Vintage Clothing::vintage nike",
+    "Nike SB Clothing::nike sb clothing"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 1105,
-  "candidateItems": 275,
-  "freshItems": 130,
-  "qualifyingAlerts": 46,
+  "catalogItems": 1051,
+  "candidateItems": 295,
+  "freshItems": 186,
+  "qualifyingAlerts": 62,
   "qualifyingByCondition": {
-    "veryGood": 38,
     "newWithoutTags": 6,
-    "newWithTags": 2
+    "veryGood": 55,
+    "newWithTags": 1
   },
-  "deliveredAlerts": 46,
+  "deliveredAlerts": 62,
   "deliveredByCondition": {
-    "veryGood": 38,
     "newWithoutTags": 6,
-    "newWithTags": 2
+    "veryGood": 55,
+    "newWithTags": 1
   },
-  "duplicateSuppressed": 4,
+  "duplicateSuppressed": 8,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,11 +69,12 @@
   "pendingDeliveries": 0,
   "detailFetches": 6,
   "rejects": {
-    "recovery-no-fresh-signal": 141,
-    "price": 50,
-    "condition": 22,
-    "keyword": 8,
-    "size": 4
+    "recovery-no-fresh-signal": 101,
+    "price": 76,
+    "keyword": 5,
+    "condition": 31,
+    "size": 6,
+    "detail-budget-exhausted": 6
   },
   "failures": {}
 }
