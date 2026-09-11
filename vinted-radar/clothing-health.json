@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-09-11T00:36:10.511Z",
-  "stateUpdatedAt": "2026-09-11T00:36:10.511Z",
-  "lastAttemptAt": "2026-09-11T00:36:10.511Z",
-  "lastScanAt": "2026-09-11T00:36:10.511Z",
+  "generatedAt": "2026-09-11T01:06:58.543Z",
+  "stateUpdatedAt": "2026-09-11T01:06:58.543Z",
+  "lastAttemptAt": "2026-09-11T01:06:58.543Z",
+  "lastScanAt": "2026-09-11T01:06:58.543Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Tracksuit::nike tracksuit",
-    "Nike Vintage Clothing::vintage nike",
-    "Nike SB Clothing::nike sb clothing",
-    "Nike Vest::nike vest",
-    "Nike Air Max Hoodie::nike air max hoodie",
-    "Nike Zip Hoodie::nike zip hoodie"
+    "Nike Hoodie::nike hoodie",
+    "Nike Sweatshirt::nike sweatshirt",
+    "Nike Track Jacket::nike track jacket",
+    "Nike Joggers::nike joggers",
+    "Nike Trousers::nike trousers",
+    "Nike Sportswear Hoodie::nike sportswear hoodie"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1342,
-  "catalogItems": 1070,
-  "candidateItems": 255,
-  "freshItems": 181,
-  "qualifyingAlerts": 72,
+  "catalogMarkers": 1341,
+  "catalogItems": 1079,
+  "candidateItems": 250,
+  "freshItems": 128,
+  "qualifyingAlerts": 37,
   "qualifyingByCondition": {
-    "newWithoutTags": 8,
-    "veryGood": 59,
-    "newWithTags": 5
+    "veryGood": 33,
+    "newWithTags": 1,
+    "newWithoutTags": 3
   },
-  "deliveredAlerts": 72,
+  "deliveredAlerts": 37,
   "deliveredByCondition": {
-    "newWithoutTags": 8,
-    "veryGood": 59,
-    "newWithTags": 5
+    "veryGood": 33,
+    "newWithTags": 1,
+    "newWithoutTags": 3
   },
-  "duplicateSuppressed": 3,
+  "duplicateSuppressed": 5,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,12 +69,13 @@
   "pendingDeliveries": 0,
   "detailFetches": 6,
   "rejects": {
-    "recovery-no-fresh-signal": 71,
-    "price": 59,
-    "condition": 38,
+    "recovery-no-fresh-signal": 117,
+    "weak-margin": 2,
+    "size": 3,
+    "condition": 33,
+    "price": 47,
     "keyword": 5,
-    "size": 5,
-    "detail-budget-exhausted": 2
+    "detail-budget-exhausted": 1
   },
   "failures": {}
 }
