@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-09-11T08:59:54.942Z",
+    "startedAt": "2026-09-11T13:14:06.164Z",
     "searchGroups": [
-      "arcteryx-thorium:arcteryx-thorium-jacket",
-      "arcteryx-thorium:arc-teryx-thorium",
-      "ralph-lauren-puffer:ralph-lauren-puffer-jacket",
-      "ralph-lauren-puffer:polo-ralph-lauren-down-jacket",
-      "nike-puffer:nike-puffer-jacket-mens",
-      "nike-puffer:nike-down-jacket",
-      "berghaus-down:berghaus-down-jacket",
-      "berghaus-down:berghaus-puffer-jacket"
+      "tnf-1996-nuptse:north-face-nuptse-700",
+      "tnf-1996-nuptse:north-face-1996-nuptse",
+      "tnf-himalayan:north-face-himalayan-puffer",
+      "tnf-himalayan:north-face-hmlyn-parka",
+      "tnf-baltoro:north-face-baltoro-jacket",
+      "tnf-summit-down:north-face-summit-series-down",
+      "rab-microlight:rab-microlight-alpine",
+      "rab-neutrino:rab-neutrino-pro"
     ],
     "vintedItems": 280,
-    "freshItems": 3,
+    "freshItems": 2,
     "freshByAge": 0,
-    "freshByNewId": 3,
+    "freshByNewId": 2,
     "bootstrapBlocked": 0,
-    "staleBlocked": 3,
-    "candidates": 1,
+    "staleBlocked": 1,
+    "candidates": 0,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-09-11T13:11:15.349Z",
+      "platform": "VINTED",
+      "id": "9962328258",
+      "title": "ralph lauren boys jacket",
+      "url": "https://www.vinted.co.uk/items/9962328258-ralph-lauren-boys-jacket",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 28,
+      "estimatedNetProfit": 46.25,
+      "roi": 165.18,
+      "score": 91
+    },
     {
       "at": "2026-09-10T22:02:12.112Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 40.4,
       "roi": 269.33,
       "score": 86
-    },
-    {
-      "at": "2026-09-08T13:55:30.827Z",
-      "platform": "VINTED",
-      "id": "9930209456",
-      "title": "north face 700 puffer",
-      "url": "https://www.vinted.co.uk/items/9930209456-north-face-700-puffer",
-      "modelId": "tnf-1996-nuptse",
-      "buyPrice": 52,
-      "estimatedNetProfit": 32.12,
-      "roi": 61.77,
-      "score": 70
     }
   ]
 }
