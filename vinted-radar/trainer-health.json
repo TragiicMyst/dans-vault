@@ -1,35 +1,37 @@
 {
-  "generatedAt": "2026-09-11T15:11:09.045Z",
-  "stateUpdatedAt": "2026-09-11T15:11:09.045Z",
-  "lastAttemptAt": "2026-09-11T15:11:09.045Z",
-  "lastScanAt": "2026-09-11T15:11:09.045Z",
+  "generatedAt": "2026-09-11T18:22:54.833Z",
+  "stateUpdatedAt": "2026-09-11T18:22:54.833Z",
+  "lastAttemptAt": "2026-09-11T18:22:54.833Z",
+  "lastScanAt": "2026-09-11T18:22:54.833Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike SB Shoe Bargain::generic",
-    "Nike P-6000::primary",
-    "Nike V5 RNR::primary",
-    "Nike Vomero 5::primary",
-    "Nike Vomero 18::primary",
-    "Nike Vomero Plus::primary"
+    "Nike Vomero Premium::primary",
+    "Nike Pegasus Premium::primary",
+    "Nike Pegasus Trail 5 GORE-TEX::primary",
+    "Nike TN::primary",
+    "Nike Air Max Plus 3::primary",
+    "Nike Air Max Plus VII::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1251,
-  "catalogItems": 670,
-  "candidateItems": 440,
-  "freshItems": 215,
-  "qualifyingAlerts": 7,
+  "catalogMarkers": 1335,
+  "catalogItems": 857,
+  "candidateItems": 429,
+  "freshItems": 147,
+  "qualifyingAlerts": 6,
   "qualifyingByCondition": {
-    "veryGood": 7
+    "veryGood": 5,
+    "newWithTags": 1
   },
-  "deliveredAlerts": 7,
+  "deliveredAlerts": 6,
   "deliveredByCondition": {
-    "veryGood": 7
+    "veryGood": 5,
+    "newWithTags": 1
   },
-  "duplicateSuppressed": 12,
+  "duplicateSuppressed": 47,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -65,16 +67,16 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "price": 25,
-    "stale": 213,
-    "keyword": 20,
-    "size": 2,
-    "seller-risk": 2,
-    "condition": 12,
-    "score": 1,
-    "seller-check-budget-exhausted": 93,
-    "weak-margin": 12,
-    "detail-budget-exhausted": 41
+    "price": 8,
+    "recovery-no-fresh-signal": 235,
+    "keyword": 7,
+    "seller-risk": 1,
+    "score": 2,
+    "size": 3,
+    "weak-margin": 6,
+    "seller-check-budget-exhausted": 74,
+    "condition": 13,
+    "detail-budget-exhausted": 27
   },
   "failures": {}
 }
