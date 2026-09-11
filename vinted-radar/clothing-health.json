@@ -1,39 +1,37 @@
 {
-  "generatedAt": "2026-09-11T05:58:29.580Z",
-  "stateUpdatedAt": "2026-09-11T05:58:29.580Z",
-  "lastAttemptAt": "2026-09-11T05:58:29.580Z",
-  "lastScanAt": "2026-09-11T05:58:29.580Z",
+  "generatedAt": "2026-09-11T09:58:29.528Z",
+  "stateUpdatedAt": "2026-09-11T09:58:29.528Z",
+  "lastAttemptAt": "2026-09-11T09:58:29.528Z",
+  "lastScanAt": "2026-09-11T09:58:29.528Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike ACG Canwell Glacier Jacket::nike acg canwell glacier",
-    "Nike Strike Tracksuit::nike strike tracksuit",
-    "Nike Challenger Shorts::nike challenger shorts",
-    "Nike Tech Fleece Joggers::nike tech fleece joggers",
-    "Nike Storm-FIT Puffer::nike storm fit puffer",
-    "Nike Solo Swoosh Hoodie::nike solo swoosh hoodie"
+    "Nike Miler Running Top::nike miler running top",
+    "Nike Tech Fleece Open-Hem Trousers::nike tech fleece open hem trousers",
+    "Nike ACG Lunar Lake Puffer::nike acg lunar lake",
+    "Nike Academy Tracksuit::nike academy tracksuit",
+    "Nike Dri-FIT Running Top::nike dri-fit running top",
+    "Nike Tech Fleece Shorts::nike tech fleece shorts"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1527,
-  "catalogItems": 848,
-  "candidateItems": 331,
-  "freshItems": 93,
+  "catalogMarkers": 1560,
+  "catalogItems": 817,
+  "candidateItems": 301,
+  "freshItems": 68,
   "qualifyingAlerts": 35,
   "qualifyingByCondition": {
-    "veryGood": 28,
-    "newWithoutTags": 6,
-    "newWithTags": 1
+    "newWithTags": 3,
+    "veryGood": 32
   },
   "deliveredAlerts": 35,
   "deliveredByCondition": {
-    "veryGood": 28,
-    "newWithoutTags": 6,
-    "newWithTags": 1
+    "newWithTags": 3,
+    "veryGood": 32
   },
-  "duplicateSuppressed": 86,
+  "duplicateSuppressed": 81,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,12 +67,11 @@
   "pendingDeliveries": 0,
   "detailFetches": 2,
   "rejects": {
+    "condition": 11,
     "recovery-no-fresh-signal": 152,
-    "weak-margin": 7,
-    "price": 19,
-    "keyword": 3,
-    "condition": 28,
-    "clothing-variety-cap": 1
+    "price": 10,
+    "weak-margin": 9,
+    "keyword": 3
   },
   "failures": {}
 }
