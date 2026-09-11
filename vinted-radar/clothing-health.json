@@ -1,39 +1,37 @@
 {
-  "generatedAt": "2026-09-11T11:09:05.186Z",
-  "stateUpdatedAt": "2026-09-11T11:09:05.186Z",
-  "lastAttemptAt": "2026-09-11T11:09:05.186Z",
-  "lastScanAt": "2026-09-11T11:09:05.186Z",
+  "generatedAt": "2026-09-11T14:19:39.801Z",
+  "stateUpdatedAt": "2026-09-11T14:19:39.801Z",
+  "lastAttemptAt": "2026-09-11T14:19:39.801Z",
+  "lastScanAt": "2026-09-11T14:19:39.801Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Therma-FIT Jacket::nike therma fit jacket",
-    "Nike NOCTA Hoodie::nike nocta hoodie",
-    "Nike Stride Shorts::nike stride shorts",
-    "Nike Tech Fleece Tracksuit::nike tech fleece tracksuit",
-    "Nike ACG Skull Peak Jacket::nike acg skull peak",
-    "Nike Club Fleece Pullover Hoodie::nike club fleece hoodie"
+    "Nike Unlimited Shorts::nike unlimited shorts",
+    "Nike Tech Fleece Colour-Block Windrunner::nike tech fleece colour block windrunner",
+    "Nike Windrunner Jacket::nike windrunner jacket",
+    "Nike NOCTA Tracksuit::nike nocta tracksuit",
+    "Nike Miler Challenger Running Set::nike miler challenger set",
+    "Nike Football Tech Fleece::nike football tech fleece"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1618,
-  "catalogItems": 869,
-  "candidateItems": 374,
-  "freshItems": 127,
-  "qualifyingAlerts": 68,
+  "catalogMarkers": 1624,
+  "catalogItems": 890,
+  "candidateItems": 345,
+  "freshItems": 45,
+  "qualifyingAlerts": 23,
   "qualifyingByCondition": {
-    "veryGood": 60,
-    "newWithTags": 2,
-    "newWithoutTags": 6
+    "veryGood": 21,
+    "newWithTags": 2
   },
-  "deliveredAlerts": 68,
+  "deliveredAlerts": 23,
   "deliveredByCondition": {
-    "veryGood": 60,
-    "newWithTags": 2,
-    "newWithoutTags": 6
+    "veryGood": 21,
+    "newWithTags": 2
   },
-  "duplicateSuppressed": 64,
+  "duplicateSuppressed": 68,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,13 +67,12 @@
   "pendingDeliveries": 0,
   "detailFetches": 3,
   "rejects": {
-    "recovery-no-fresh-signal": 183,
-    "price": 23,
-    "keyword": 7,
-    "condition": 18,
-    "score": 1,
-    "weak-margin": 7,
-    "clothing-variety-cap": 3
+    "price": 12,
+    "keyword": 1,
+    "recovery-no-fresh-signal": 232,
+    "condition": 6,
+    "size": 2,
+    "weak-margin": 1
   },
   "failures": {}
 }
