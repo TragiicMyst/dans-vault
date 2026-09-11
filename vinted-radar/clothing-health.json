@@ -1,37 +1,37 @@
 {
-  "generatedAt": "2026-09-11T15:02:40.361Z",
-  "stateUpdatedAt": "2026-09-11T15:02:40.361Z",
-  "lastAttemptAt": "2026-09-11T15:02:40.361Z",
-  "lastScanAt": "2026-09-11T15:02:40.361Z",
+  "generatedAt": "2026-09-11T17:51:51.859Z",
+  "stateUpdatedAt": "2026-09-11T17:51:51.859Z",
+  "lastAttemptAt": "2026-09-11T17:51:51.859Z",
+  "lastScanAt": "2026-09-11T17:51:51.859Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike ACG GORE-TEX Jacket::nike acg gore tex jacket",
-    "Nike Club Fleece Full-Zip Hoodie::nike club fleece full zip hoodie",
-    "Nike Strike Top Shorts Set::nike strike top shorts set",
-    "Nike Club Fleece Joggers::nike club fleece joggers",
-    "Nike Sportswear Winterised Jacket::nike sportswear winterised jacket",
-    "Nike NOCTA Joggers::nike nocta joggers"
+    "Nike ACG Fleece::nike acg fleece",
+    "Nike Club Fleece Open-Hem Trousers::nike club fleece open hem trousers",
+    "Nike Trail Repel Jacket::nike trail repel jacket",
+    "Jordan Flight Fleece Hoodie::jordan flight fleece hoodie",
+    "Nike ACG Wolf Tree::nike acg wolf tree",
+    "Nike Club Fleece Crew::nike club fleece crew"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1627,
-  "catalogItems": 874,
-  "candidateItems": 295,
-  "freshItems": 28,
+  "catalogMarkers": 1433,
+  "catalogItems": 866,
+  "candidateItems": 247,
+  "freshItems": 27,
   "qualifyingAlerts": 17,
   "qualifyingByCondition": {
-    "veryGood": 15,
-    "newWithTags": 2
+    "veryGood": 6,
+    "newWithTags": 11
   },
   "deliveredAlerts": 17,
   "deliveredByCondition": {
-    "veryGood": 15,
-    "newWithTags": 2
+    "veryGood": 6,
+    "newWithTags": 11
   },
-  "duplicateSuppressed": 92,
+  "duplicateSuppressed": 56,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,9 +67,11 @@
   "pendingDeliveries": 0,
   "detailFetches": 0,
   "rejects": {
-    "condition": 7,
-    "recovery-no-fresh-signal": 175,
-    "price": 4
+    "price": 3,
+    "condition": 4,
+    "recovery-no-fresh-signal": 164,
+    "weak-margin": 1,
+    "score": 2
   },
   "failures": {}
 }
