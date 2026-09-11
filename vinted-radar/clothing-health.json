@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-09-11T23:11:09.076Z",
-  "stateUpdatedAt": "2026-09-11T23:11:09.076Z",
-  "lastAttemptAt": "2026-09-11T23:11:09.076Z",
-  "lastScanAt": "2026-09-11T23:11:09.076Z",
+  "generatedAt": "2026-09-11T23:19:47.255Z",
+  "stateUpdatedAt": "2026-09-11T23:19:47.255Z",
+  "lastAttemptAt": "2026-09-11T23:19:47.255Z",
+  "lastScanAt": "2026-09-11T23:19:47.255Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Rain Jacket::nike rain jacket",
-    "Nike Woven Jacket::nike woven jacket",
-    "Nike Bomber Jacket::nike bomber jacket",
-    "Nike Coat::nike coat",
-    "Nike Shorts::nike shorts",
-    "Nike Cargo Trousers::nike cargo trousers"
+    "Nike Track Pants::nike track pants",
+    "Nike Woven Trousers::nike woven trousers",
+    "Nike Tracksuit::nike tracksuit",
+    "Nike Vintage Clothing::vintage nike",
+    "Nike SB Clothing::nike sb clothing",
+    "Nike Vest::nike vest"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1336,
-  "catalogItems": 1112,
-  "candidateItems": 288,
-  "freshItems": 157,
-  "qualifyingAlerts": 47,
+  "catalogMarkers": 1341,
+  "catalogItems": 1041,
+  "candidateItems": 344,
+  "freshItems": 221,
+  "qualifyingAlerts": 86,
   "qualifyingByCondition": {
-    "veryGood": 37,
-    "newWithTags": 3,
-    "newWithoutTags": 7
+    "veryGood": 72,
+    "newWithoutTags": 11,
+    "newWithTags": 3
   },
-  "deliveredAlerts": 47,
+  "deliveredAlerts": 86,
   "deliveredByCondition": {
-    "veryGood": 37,
-    "newWithTags": 3,
-    "newWithoutTags": 7
+    "veryGood": 72,
+    "newWithoutTags": 11,
+    "newWithTags": 3
   },
-  "duplicateSuppressed": 15,
+  "duplicateSuppressed": 8,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,13 +69,12 @@
   "pendingDeliveries": 0,
   "detailFetches": 6,
   "rejects": {
-    "keyword": 12,
-    "recovery-no-fresh-signal": 116,
-    "score": 1,
-    "price": 60,
-    "condition": 32,
-    "size": 4,
-    "detail-budget-exhausted": 1
+    "stale": 115,
+    "price": 66,
+    "condition": 46,
+    "keyword": 15,
+    "size": 3,
+    "detail-budget-exhausted": 5
   },
   "failures": {}
 }
