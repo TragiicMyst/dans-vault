@@ -1,37 +1,39 @@
 {
-  "generatedAt": "2026-09-11T06:04:24.859Z",
-  "stateUpdatedAt": "2026-09-11T06:04:24.859Z",
-  "lastAttemptAt": "2026-09-11T06:04:24.859Z",
-  "lastScanAt": "2026-09-11T06:04:24.859Z",
+  "generatedAt": "2026-09-11T06:09:25.846Z",
+  "stateUpdatedAt": "2026-09-11T06:09:25.846Z",
+  "lastAttemptAt": "2026-09-11T06:09:25.846Z",
+  "lastScanAt": "2026-09-11T06:09:25.846Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Vomero Premium::primary",
-    "Nike Pegasus Premium::primary",
-    "Nike Pegasus Trail 5 GORE-TEX::primary",
-    "Nike TN::primary",
-    "Nike Air Max Plus 3::primary",
-    "Nike Air Max Plus VII::primary"
+    "Nike Air Max 95::primary",
+    "Nike Air Max 90::primary",
+    "Nike Air Max 90 Drift::primary",
+    "Nike Air Max 97::primary",
+    "Nike Air Max 270::primary",
+    "Nike Air Max Dn::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1336,
-  "catalogItems": 946,
-  "candidateItems": 441,
-  "freshItems": 84,
-  "qualifyingAlerts": 7,
+  "catalogMarkers": 1342,
+  "catalogItems": 992,
+  "candidateItems": 627,
+  "freshItems": 138,
+  "qualifyingAlerts": 9,
   "qualifyingByCondition": {
-    "veryGood": 6,
-    "newWithTags": 1
+    "newWithoutTags": 1,
+    "newWithTags": 1,
+    "veryGood": 7
   },
-  "deliveredAlerts": 7,
+  "deliveredAlerts": 9,
   "deliveredByCondition": {
-    "veryGood": 6,
-    "newWithTags": 1
+    "newWithoutTags": 1,
+    "newWithTags": 1,
+    "veryGood": 7
   },
-  "duplicateSuppressed": 57,
+  "duplicateSuppressed": 30,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,13 +69,14 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 300,
-    "size": 4,
+    "stale": 459,
     "price": 2,
-    "weak-margin": 1,
+    "condition": 5,
+    "size": 2,
     "score": 1,
-    "seller-check-budget-exhausted": 50,
-    "detail-budget-exhausted": 19
+    "detail-budget-exhausted": 51,
+    "seller-check-budget-exhausted": 67,
+    "keyword": 1
   },
   "failures": {}
 }
