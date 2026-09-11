@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-09-11T13:14:06.164Z",
+    "startedAt": "2026-09-11T17:07:01.609Z",
     "searchGroups": [
-      "tnf-1996-nuptse:north-face-nuptse-700",
-      "tnf-1996-nuptse:north-face-1996-nuptse",
-      "tnf-himalayan:north-face-himalayan-puffer",
-      "tnf-himalayan:north-face-hmlyn-parka",
-      "tnf-baltoro:north-face-baltoro-jacket",
-      "tnf-summit-down:north-face-summit-series-down",
-      "rab-microlight:rab-microlight-alpine",
-      "rab-neutrino:rab-neutrino-pro"
+      "hunter:north-face-coat",
+      "hunter:north-face-puffer",
+      "hunter:north-face-700",
+      "hunter:mens-north-face-jacket",
+      "hunter:rab-puffer",
+      "hunter:rab-down-jacket",
+      "hunter:patagonia-puffer",
+      "hunter:arcteryx-jacket"
     ],
     "vintedItems": 280,
-    "freshItems": 2,
+    "freshItems": 70,
     "freshByAge": 0,
-    "freshByNewId": 2,
+    "freshByNewId": 70,
     "bootstrapBlocked": 0,
     "staleBlocked": 1,
-    "candidates": 0,
+    "candidates": 8,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-09-11T17:04:22.927Z",
+      "platform": "VINTED",
+      "id": "9965622876",
+      "title": "berghaus puffer jacket",
+      "url": "https://www.vinted.co.uk/items/9965622876-berghaus-puffer-jacket",
+      "modelId": "berghaus-down",
+      "buyPrice": 22,
+      "estimatedNetProfit": 28.68,
+      "roi": 130.36,
+      "score": 86
+    },
     {
       "at": "2026-09-11T13:11:15.349Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 38.29,
       "roi": 225.24,
       "score": 94
-    },
-    {
-      "at": "2026-09-08T13:58:31.663Z",
-      "platform": "VINTED",
-      "id": "9931519602",
-      "title": "nike puffer jacket bnwt black pink white age 45",
-      "url": "https://www.vinted.co.uk/items/9931519602-nike-puffer-jacket-bnwt-black-pink-white-age-45",
-      "modelId": "nike-puffer",
-      "buyPrice": 15,
-      "estimatedNetProfit": 40.4,
-      "roi": 269.33,
-      "score": 86
     }
   ]
 }
