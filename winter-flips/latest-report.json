@@ -2,29 +2,65 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-09-12T11:15:52.047Z",
+    "startedAt": "2026-09-12T14:11:47.213Z",
     "searchGroups": [
-      "ralph-lauren-puffer:ralph-lauren-puffer-jacket",
-      "ralph-lauren-puffer:polo-ralph-lauren-down-jacket",
-      "nike-puffer:nike-puffer-jacket-mens",
-      "nike-puffer:nike-down-jacket",
-      "berghaus-down:berghaus-down-jacket",
-      "berghaus-down:berghaus-puffer-jacket",
-      "napapijri-skidoo:napapijri-skidoo-jacket",
-      "napapijri-skidoo:napapijri-rainforest-winter"
+      "tnf-himalayan:north-face-himalayan-puffer",
+      "tnf-himalayan:north-face-hmlyn-parka",
+      "tnf-baltoro:north-face-baltoro-jacket",
+      "tnf-summit-down:north-face-summit-series-down",
+      "rab-microlight:rab-microlight-alpine",
+      "rab-neutrino:rab-neutrino-pro",
+      "rab-electron:rab-electron-pro",
+      "patagonia-down-sweater:patagonia-down-sweater-jacket"
     ],
     "vintedItems": 280,
-    "freshItems": 21,
+    "freshItems": 3,
     "freshByAge": 0,
-    "freshByNewId": 21,
+    "freshByNewId": 3,
     "bootstrapBlocked": 0,
-    "staleBlocked": 4,
-    "candidates": 11,
+    "staleBlocked": 3,
+    "candidates": 0,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-09-12T14:08:56.447Z",
+      "platform": "VINTED",
+      "id": "9971172179",
+      "title": "grey nike puffer jacket junior size l",
+      "url": "https://www.vinted.co.uk/items/9971172179-grey-nike-puffer-jacket-junior-size-l",
+      "modelId": "nike-puffer",
+      "buyPrice": 15,
+      "estimatedNetProfit": 42.7,
+      "roi": 284.67,
+      "score": 91
+    },
+    {
+      "at": "2026-09-12T14:08:55.302Z",
+      "platform": "VINTED",
+      "id": "9971417123",
+      "title": "nike puffer jacket",
+      "url": "https://www.vinted.co.uk/items/9971417123-nike-puffer-jacket",
+      "modelId": "nike-puffer",
+      "buyPrice": 10,
+      "estimatedNetProfit": 43.36,
+      "roi": 433.6,
+      "score": 87
+    },
+    {
+      "at": "2026-09-12T14:05:57.549Z",
+      "platform": "VINTED",
+      "id": "9973122720",
+      "title": "new rab neutrino endurance jacket",
+      "url": "https://www.vinted.co.uk/items/9973122720-new-rab-neutrino-endurance-jacket",
+      "modelId": "rab-neutrino",
+      "buyPrice": 49,
+      "estimatedNetProfit": 66.47,
+      "roi": 135.65,
+      "score": 93
+    },
     {
       "at": "2026-09-12T11:09:58.732Z",
       "platform": "VINTED",
@@ -228,42 +264,6 @@
       "estimatedNetProfit": 26.88,
       "roi": 89.6,
       "score": 87
-    },
-    {
-      "at": "2026-09-08T20:20:48.259Z",
-      "platform": "VINTED",
-      "id": "9935427268",
-      "title": "reversible nike puffer jacket",
-      "url": "https://www.vinted.co.uk/items/9935427268-reversible-nike-puffer-jacket",
-      "modelId": "nike-puffer",
-      "buyPrice": 21,
-      "estimatedNetProfit": 34.07,
-      "roi": 162.24,
-      "score": 91
-    },
-    {
-      "at": "2026-09-08T20:20:35.103Z",
-      "platform": "VINTED",
-      "id": "9933084434",
-      "title": "ralph lauren hot pink puffer gilet size m",
-      "url": "https://www.vinted.co.uk/items/9933084434-ralph-lauren-hot-pink-puffer-gilet-size-m",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 26,
-      "estimatedNetProfit": 47.97,
-      "roi": 184.5,
-      "score": 98
-    },
-    {
-      "at": "2026-09-08T20:20:32.312Z",
-      "platform": "VINTED",
-      "id": "9935982688",
-      "title": "polo ralph lauren kids el cap hooded down puffer jacket",
-      "url": "https://www.vinted.co.uk/items/9935982688-polo-ralph-lauren-kids-el-cap-hooded-down-puffer-jacket",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 35,
-      "estimatedNetProfit": 39.78,
-      "roi": 113.66,
-      "score": 86
     }
   ]
 }
