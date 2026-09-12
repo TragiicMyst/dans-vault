@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-09-12T06:31:56.129Z",
+    "startedAt": "2026-09-12T11:15:52.047Z",
     "searchGroups": [
-      "hunter:patagonia-puffer",
-      "hunter:arcteryx-jacket",
-      "hunter:arc-teryx-puffer",
-      "hunter:ralph-lauren-puffer",
-      "hunter:polo-puffer-jacket",
-      "hunter:nike-puffer-jacket",
-      "hunter:berghaus-puffer",
-      "hunter:napapijri-jacket"
+      "ralph-lauren-puffer:ralph-lauren-puffer-jacket",
+      "ralph-lauren-puffer:polo-ralph-lauren-down-jacket",
+      "nike-puffer:nike-puffer-jacket-mens",
+      "nike-puffer:nike-down-jacket",
+      "berghaus-down:berghaus-down-jacket",
+      "berghaus-down:berghaus-puffer-jacket",
+      "napapijri-skidoo:napapijri-skidoo-jacket",
+      "napapijri-skidoo:napapijri-rainforest-winter"
     ],
     "vintedItems": 280,
-    "freshItems": 0,
+    "freshItems": 21,
     "freshByAge": 0,
-    "freshByNewId": 0,
+    "freshByNewId": 21,
     "bootstrapBlocked": 0,
-    "staleBlocked": 12,
-    "candidates": 0,
+    "staleBlocked": 4,
+    "candidates": 11,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-09-12T11:09:58.732Z",
+      "platform": "VINTED",
+      "id": "9970544283",
+      "title": "the north face himalayan insulated puffer blue and black coat",
+      "url": "https://www.vinted.co.uk/items/9970544283-the-north-face-himalayan-insulated-puffer-blue-and-black-coat",
+      "modelId": "tnf-himalayan",
+      "buyPrice": 50,
+      "estimatedNetProfit": 35.53,
+      "roi": 71.06,
+      "score": 80
+    },
     {
       "at": "2026-09-11T19:33:27.482Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 39.78,
       "roi": 113.66,
       "score": 86
-    },
-    {
-      "at": "2026-09-08T17:42:33.240Z",
-      "platform": "VINTED",
-      "id": "9932333328",
-      "title": "ralph lauren down jacket",
-      "url": "https://www.vinted.co.uk/items/9932333328-ralph-lauren-down-jacket",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 30,
-      "estimatedNetProfit": 42.3,
-      "roi": 141,
-      "score": 89
     }
   ]
 }
