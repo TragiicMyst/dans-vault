@@ -1,39 +1,37 @@
 {
-  "generatedAt": "2026-09-12T01:11:04.995Z",
-  "stateUpdatedAt": "2026-09-12T01:11:04.995Z",
-  "lastAttemptAt": "2026-09-12T01:11:04.995Z",
-  "lastScanAt": "2026-09-12T01:11:04.995Z",
+  "generatedAt": "2026-09-12T01:16:04.782Z",
+  "stateUpdatedAt": "2026-09-12T01:16:04.782Z",
+  "lastAttemptAt": "2026-09-12T01:16:04.782Z",
+  "lastScanAt": "2026-09-12T01:16:04.782Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Air Max 95::primary",
-    "Nike Air Max 90::primary",
-    "Nike Air Max 90 Drift::primary",
-    "Nike Air Max 97::primary",
-    "Nike Air Max 270::primary",
-    "Nike Air Max Dn::primary"
+    "Nike Air Max 1::primary",
+    "Nike Shox TL::primary",
+    "Nike Shox R4::primary",
+    "Nike Shox Ride 2::primary",
+    "Nike Air Force 1::primary",
+    "Nike Dunk Low::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1342,
-  "catalogItems": 987,
-  "candidateItems": 613,
-  "freshItems": 231,
-  "qualifyingAlerts": 6,
+  "catalogMarkers": 1339,
+  "catalogItems": 873,
+  "candidateItems": 528,
+  "freshItems": 141,
+  "qualifyingAlerts": 8,
   "qualifyingByCondition": {
-    "newWithoutTags": 2,
-    "newWithTags": 3,
-    "veryGood": 1
+    "veryGood": 7,
+    "newWithoutTags": 1
   },
-  "deliveredAlerts": 6,
+  "deliveredAlerts": 8,
   "deliveredByCondition": {
-    "newWithoutTags": 2,
-    "newWithTags": 3,
-    "veryGood": 1
+    "veryGood": 7,
+    "newWithoutTags": 1
   },
-  "duplicateSuppressed": 15,
+  "duplicateSuppressed": 36,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,16 +67,15 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "recovery-no-fresh-signal": 367,
-    "size": 3,
-    "price": 17,
-    "score": 1,
-    "seller-risk": 2,
-    "weak-margin": 7,
-    "keyword": 15,
-    "condition": 36,
-    "detail-budget-exhausted": 47,
-    "seller-check-budget-exhausted": 97
+    "stale": 351,
+    "price": 2,
+    "keyword": 7,
+    "weak-margin": 2,
+    "score": 2,
+    "condition": 15,
+    "size": 2,
+    "seller-check-budget-exhausted": 58,
+    "detail-budget-exhausted": 45
   },
   "failures": {}
 }
