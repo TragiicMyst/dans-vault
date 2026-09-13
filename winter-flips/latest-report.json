@@ -2,29 +2,65 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-09-13T20:52:22.279Z",
+    "startedAt": "2026-09-13T22:46:57.588Z",
     "searchGroups": [
-      "arcteryx-thorium:arcteryx-thorium-jacket",
-      "arcteryx-thorium:arc-teryx-thorium",
-      "ralph-lauren-puffer:ralph-lauren-puffer-jacket",
-      "ralph-lauren-puffer:polo-ralph-lauren-down-jacket",
-      "nike-puffer:nike-puffer-jacket-mens",
-      "nike-puffer:nike-down-jacket",
-      "berghaus-down:berghaus-down-jacket",
-      "berghaus-down:berghaus-puffer-jacket"
+      "tnf-1996-nuptse:north-face-nuptse-700",
+      "tnf-1996-nuptse:north-face-1996-nuptse",
+      "tnf-himalayan:north-face-himalayan-puffer",
+      "tnf-himalayan:north-face-hmlyn-parka",
+      "tnf-baltoro:north-face-baltoro-jacket",
+      "tnf-summit-down:north-face-summit-series-down",
+      "rab-microlight:rab-microlight-alpine",
+      "rab-neutrino:rab-neutrino-pro"
     ],
     "vintedItems": 280,
-    "freshItems": 22,
+    "freshItems": 0,
     "freshByAge": 0,
-    "freshByNewId": 22,
+    "freshByNewId": 0,
     "bootstrapBlocked": 0,
-    "staleBlocked": 0,
-    "candidates": 14,
+    "staleBlocked": 1,
+    "candidates": 0,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-09-13T22:44:10.882Z",
+      "platform": "VINTED",
+      "id": "9994591242",
+      "title": "kids nike puffer coat",
+      "url": "https://www.vinted.co.uk/items/9994591242-kids-nike-puffer-coat",
+      "modelId": "nike-puffer",
+      "buyPrice": 25,
+      "estimatedNetProfit": 25.99,
+      "roi": 103.96,
+      "score": 89
+    },
+    {
+      "at": "2026-09-13T22:44:06.519Z",
+      "platform": "VINTED",
+      "id": "9994169559",
+      "title": "polo ralph lauren navy puffer gilet",
+      "url": "https://www.vinted.co.uk/items/9994169559-polo-ralph-lauren-navy-puffer-gilet",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 30,
+      "estimatedNetProfit": 35.48,
+      "roi": 118.27,
+      "score": 91
+    },
+    {
+      "at": "2026-09-13T22:44:05.393Z",
+      "platform": "VINTED",
+      "id": "9993723689",
+      "title": "polo ralph lauren navy quilted jacket with detachable hood size 5 brand new",
+      "url": "https://www.vinted.co.uk/items/9993723689-polo-ralph-lauren-navy-quilted-jacket-with-detachable-hood-size-5-brand-new",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 45,
+      "estimatedNetProfit": 31.07,
+      "roi": 69.04,
+      "score": 74
+    },
     {
       "at": "2026-09-13T18:07:56.769Z",
       "platform": "VINTED",
@@ -228,42 +264,6 @@
       "estimatedNetProfit": 40.35,
       "roi": 89.67,
       "score": 87
-    },
-    {
-      "at": "2026-09-12T17:07:27.322Z",
-      "platform": "VINTED",
-      "id": "9975823719",
-      "title": "polo ralph lauren polo bear t shirt",
-      "url": "https://www.vinted.co.uk/items/9975823719-polo-ralph-lauren-polo-bear-t-shirt",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 30,
-      "estimatedNetProfit": 51.19,
-      "roi": 170.63,
-      "score": 97
-    },
-    {
-      "at": "2026-09-12T17:07:24.278Z",
-      "platform": "VINTED",
-      "id": "9976746245",
-      "title": "quilted jacket",
-      "url": "https://www.vinted.co.uk/items/9976746245-quilted-jacket",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 40,
-      "estimatedNetProfit": 38.42,
-      "roi": 96.05,
-      "score": 87
-    },
-    {
-      "at": "2026-09-12T14:08:56.447Z",
-      "platform": "VINTED",
-      "id": "9971172179",
-      "title": "grey nike puffer jacket junior size l",
-      "url": "https://www.vinted.co.uk/items/9971172179-grey-nike-puffer-jacket-junior-size-l",
-      "modelId": "nike-puffer",
-      "buyPrice": 15,
-      "estimatedNetProfit": 42.7,
-      "roi": 284.67,
-      "score": 91
     }
   ]
 }
