@@ -1,37 +1,35 @@
 {
-  "generatedAt": "2026-09-13T00:54:25.705Z",
-  "stateUpdatedAt": "2026-09-13T00:54:25.705Z",
-  "lastAttemptAt": "2026-09-13T00:54:25.705Z",
-  "lastScanAt": "2026-09-13T00:54:25.705Z",
+  "generatedAt": "2026-09-13T01:09:24.665Z",
+  "stateUpdatedAt": "2026-09-13T01:09:24.665Z",
+  "lastAttemptAt": "2026-09-13T01:09:24.665Z",
+  "lastScanAt": "2026-09-13T01:09:24.665Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Windbreaker::nike windbreaker",
-    "Nike Anorak::nike anorak",
-    "Nike Rain Jacket::nike rain jacket",
-    "Nike Woven Jacket::nike woven jacket",
-    "Nike Bomber Jacket::nike bomber jacket",
-    "Nike Coat::nike coat"
+    "Nike Shorts::nike shorts",
+    "Nike Cargo Trousers::nike cargo trousers",
+    "Nike Track Pants::nike track pants",
+    "Nike Woven Trousers::nike woven trousers",
+    "Nike Tracksuit::nike tracksuit",
+    "Nike Vintage Clothing::vintage nike"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1343,
+  "catalogMarkers": 1340,
   "catalogItems": 1103,
-  "candidateItems": 246,
-  "freshItems": 118,
-  "qualifyingAlerts": 32,
+  "candidateItems": 326,
+  "freshItems": 200,
+  "qualifyingAlerts": 53,
   "qualifyingByCondition": {
-    "veryGood": 29,
-    "newWithoutTags": 2,
-    "newWithTags": 1
+    "veryGood": 45,
+    "newWithoutTags": 8
   },
-  "deliveredAlerts": 32,
+  "deliveredAlerts": 53,
   "deliveredByCondition": {
-    "veryGood": 29,
-    "newWithoutTags": 2,
-    "newWithTags": 1
+    "veryGood": 45,
+    "newWithoutTags": 8
   },
   "duplicateSuppressed": 8,
   "discordFailures": 0,
@@ -69,13 +67,12 @@
   "pendingDeliveries": 0,
   "detailFetches": 6,
   "rejects": {
-    "recovery-no-fresh-signal": 120,
-    "price": 46,
-    "condition": 23,
-    "keyword": 10,
+    "condition": 29,
+    "stale": 118,
+    "price": 110,
     "size": 5,
-    "score": 1,
-    "detail-budget-exhausted": 1
+    "keyword": 1,
+    "detail-budget-exhausted": 2
   },
   "failures": {}
 }
