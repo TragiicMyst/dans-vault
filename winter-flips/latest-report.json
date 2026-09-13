@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-09-13T01:07:27.913Z",
+    "startedAt": "2026-09-13T06:03:43.886Z",
     "searchGroups": [
-      "rab-electron:rab-electron-pro",
-      "patagonia-down-sweater:patagonia-down-sweater-jacket",
-      "patagonia-down-sweater:patagonia-down-sweater-hoody",
-      "patagonia-fitz-roy:patagonia-fitz-roy-down",
-      "arcteryx-cerium:arcteryx-cerium-jacket",
-      "arcteryx-cerium:arc-teryx-cerium",
-      "arcteryx-thorium:arcteryx-thorium-jacket",
-      "arcteryx-thorium:arc-teryx-thorium"
+      "hunter:arc-teryx-puffer",
+      "hunter:ralph-lauren-puffer",
+      "hunter:polo-puffer-jacket",
+      "hunter:nike-puffer-jacket",
+      "hunter:berghaus-puffer",
+      "hunter:napapijri-jacket",
+      "tnf-1996-nuptse:north-face-nuptse-700",
+      "tnf-1996-nuptse:north-face-1996-nuptse"
     ],
     "vintedItems": 280,
-    "freshItems": 0,
+    "freshItems": 1,
     "freshByAge": 0,
-    "freshByNewId": 0,
+    "freshByNewId": 1,
     "bootstrapBlocked": 0,
-    "staleBlocked": 2,
+    "staleBlocked": 1,
     "candidates": 0,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-09-13T05:57:50.274Z",
+      "platform": "VINTED",
+      "id": "9980786510",
+      "title": "polo ralph lauren herringbone bomber jacket grey medium",
+      "url": "https://www.vinted.co.uk/items/9980786510-polo-ralph-lauren-herringbone-bomber-jacket-grey-medium",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 30,
+      "estimatedNetProfit": 46.05,
+      "roi": 153.5,
+      "score": 95
+    },
     {
       "at": "2026-09-12T23:15:48.441Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 32.67,
       "roi": 81.68,
       "score": 78
-    },
-    {
-      "at": "2026-09-10T13:55:23.625Z",
-      "platform": "VINTED",
-      "id": "9953380266",
-      "title": "napapijri rainforest winter jacket",
-      "url": "https://www.vinted.co.uk/items/9953380266-napapijri-rainforest-winter-jacket",
-      "modelId": "napapijri-skidoo",
-      "buyPrice": 30,
-      "estimatedNetProfit": 40.08,
-      "roi": 133.6,
-      "score": 92
     }
   ]
 }
