@@ -2,29 +2,65 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-09-13T15:06:53.223Z",
+    "startedAt": "2026-09-13T18:10:39.542Z",
     "searchGroups": [
-      "tnf-baltoro:north-face-baltoro-jacket",
-      "tnf-summit-down:north-face-summit-series-down",
-      "rab-microlight:rab-microlight-alpine",
-      "rab-neutrino:rab-neutrino-pro",
-      "rab-electron:rab-electron-pro",
-      "patagonia-down-sweater:patagonia-down-sweater-jacket",
-      "patagonia-down-sweater:patagonia-down-sweater-hoody",
-      "patagonia-fitz-roy:patagonia-fitz-roy-down"
+      "hunter:rab-puffer",
+      "hunter:rab-down-jacket",
+      "hunter:patagonia-puffer",
+      "hunter:arcteryx-jacket",
+      "hunter:arc-teryx-puffer",
+      "hunter:ralph-lauren-puffer",
+      "hunter:polo-puffer-jacket",
+      "hunter:nike-puffer-jacket"
     ],
     "vintedItems": 280,
-    "freshItems": 3,
+    "freshItems": 29,
     "freshByAge": 0,
-    "freshByNewId": 3,
+    "freshByNewId": 29,
     "bootstrapBlocked": 0,
-    "staleBlocked": 1,
-    "candidates": 1,
+    "staleBlocked": 0,
+    "candidates": 5,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-09-13T18:07:56.769Z",
+      "platform": "VINTED",
+      "id": "9991641602",
+      "title": "womens north face massif 700 puffer gilet size m",
+      "url": "https://www.vinted.co.uk/items/9991641602-womens-north-face-massif-700-puffer-gilet-size-m",
+      "modelId": "tnf-1996-nuptse",
+      "buyPrice": 45,
+      "estimatedNetProfit": 31.87,
+      "roi": 70.82,
+      "score": 75
+    },
+    {
+      "at": "2026-09-13T18:07:44.612Z",
+      "platform": "VINTED",
+      "id": "9992040650",
+      "title": "womans berghaus puffer",
+      "url": "https://www.vinted.co.uk/items/9992040650-womans-berghaus-puffer",
+      "modelId": "berghaus-down",
+      "buyPrice": 20,
+      "estimatedNetProfit": 29.75,
+      "roi": 148.75,
+      "score": 93
+    },
+    {
+      "at": "2026-09-13T18:04:51.646Z",
+      "platform": "VINTED",
+      "id": "9989453431",
+      "title": "girls light weight reversible jacket ralph lauren",
+      "url": "https://www.vinted.co.uk/items/9989453431-girls-light-weight-reversible-jacket-ralph-lauren",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 31,
+      "estimatedNetProfit": 35.85,
+      "roi": 115.65,
+      "score": 91
+    },
     {
       "at": "2026-09-13T15:04:05.494Z",
       "platform": "VINTED",
@@ -228,42 +264,6 @@
       "estimatedNetProfit": 42.7,
       "roi": 284.67,
       "score": 91
-    },
-    {
-      "at": "2026-09-12T14:08:55.302Z",
-      "platform": "VINTED",
-      "id": "9971417123",
-      "title": "nike puffer jacket",
-      "url": "https://www.vinted.co.uk/items/9971417123-nike-puffer-jacket",
-      "modelId": "nike-puffer",
-      "buyPrice": 10,
-      "estimatedNetProfit": 43.36,
-      "roi": 433.6,
-      "score": 87
-    },
-    {
-      "at": "2026-09-12T14:05:57.549Z",
-      "platform": "VINTED",
-      "id": "9973122720",
-      "title": "new rab neutrino endurance jacket",
-      "url": "https://www.vinted.co.uk/items/9973122720-new-rab-neutrino-endurance-jacket",
-      "modelId": "rab-neutrino",
-      "buyPrice": 49,
-      "estimatedNetProfit": 66.47,
-      "roi": 135.65,
-      "score": 93
-    },
-    {
-      "at": "2026-09-12T11:09:58.732Z",
-      "platform": "VINTED",
-      "id": "9970544283",
-      "title": "the north face himalayan insulated puffer blue and black coat",
-      "url": "https://www.vinted.co.uk/items/9970544283-the-north-face-himalayan-insulated-puffer-blue-and-black-coat",
-      "modelId": "tnf-himalayan",
-      "buyPrice": 50,
-      "estimatedNetProfit": 35.53,
-      "roi": 71.06,
-      "score": 80
     }
   ]
 }
