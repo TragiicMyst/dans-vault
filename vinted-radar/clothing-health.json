@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-09-13T21:24:05.768Z",
-  "stateUpdatedAt": "2026-09-13T21:24:05.768Z",
-  "lastAttemptAt": "2026-09-13T21:24:05.768Z",
-  "lastScanAt": "2026-09-13T21:24:05.768Z",
+  "generatedAt": "2026-09-13T22:10:53.519Z",
+  "stateUpdatedAt": "2026-09-13T22:10:53.519Z",
+  "lastAttemptAt": "2026-09-13T22:10:53.519Z",
+  "lastScanAt": "2026-09-13T22:10:53.519Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike ACG Tuff Fleece::nike acg tuff fleece",
-    "Nike Solo Swoosh Crew::nike solo swoosh sweatshirt",
-    "Nike Miler Repel Jacket::nike miler repel jacket",
-    "Nike Solo Swoosh Joggers::nike solo swoosh joggers",
-    "Nike Stride Running Jacket::nike stride running jacket",
-    "Nike T-Shirt::nike t shirt"
+    "Nike Long Sleeve Top::nike long sleeve top",
+    "Nike Polo::nike polo",
+    "Nike Football Shirt::nike football shirt",
+    "Nike Training Top::nike training top",
+    "Nike Dri-FIT Top::nike dri fit top",
+    "Nike Quarter Zip::nike quarter zip"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1436,
-  "catalogItems": 840,
-  "candidateItems": 327,
-  "freshItems": 78,
-  "qualifyingAlerts": 32,
+  "catalogMarkers": 1343,
+  "catalogItems": 1017,
+  "candidateItems": 275,
+  "freshItems": 195,
+  "qualifyingAlerts": 66,
   "qualifyingByCondition": {
-    "veryGood": 27,
-    "newWithTags": 4,
-    "newWithoutTags": 1
+    "veryGood": 58,
+    "newWithTags": 3,
+    "newWithoutTags": 5
   },
-  "deliveredAlerts": 32,
+  "deliveredAlerts": 66,
   "deliveredByCondition": {
-    "veryGood": 27,
-    "newWithTags": 4,
-    "newWithoutTags": 1
+    "veryGood": 58,
+    "newWithTags": 3,
+    "newWithoutTags": 5
   },
-  "duplicateSuppressed": 58,
+  "duplicateSuppressed": 5,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,15 +67,14 @@
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 4,
+  "detailFetches": 6,
   "rejects": {
-    "price": 25,
-    "recovery-no-fresh-signal": 191,
-    "weak-margin": 1,
-    "score": 1,
-    "condition": 11,
-    "size": 3,
-    "keyword": 5
+    "condition": 48,
+    "recovery-no-fresh-signal": 75,
+    "price": 64,
+    "size": 5,
+    "keyword": 7,
+    "detail-budget-exhausted": 5
   },
   "failures": {}
 }
