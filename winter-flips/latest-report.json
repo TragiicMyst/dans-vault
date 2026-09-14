@@ -2,29 +2,53 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-09-14T16:44:28.031Z",
+    "startedAt": "2026-09-14T20:39:53.022Z",
     "searchGroups": [
-      "berghaus-down:berghaus-down-jacket",
-      "berghaus-down:berghaus-puffer-jacket",
-      "napapijri-skidoo:napapijri-skidoo-jacket",
-      "napapijri-skidoo:napapijri-rainforest-winter",
-      "hunter:north-face-coat",
-      "hunter:north-face-puffer",
-      "hunter:north-face-700",
-      "hunter:mens-north-face-jacket"
+      "rab-microlight:rab-microlight-alpine",
+      "rab-neutrino:rab-neutrino-pro",
+      "rab-electron:rab-electron-pro",
+      "patagonia-down-sweater:patagonia-down-sweater-jacket",
+      "patagonia-down-sweater:patagonia-down-sweater-hoody",
+      "patagonia-fitz-roy:patagonia-fitz-roy-down",
+      "arcteryx-cerium:arcteryx-cerium-jacket",
+      "arcteryx-cerium:arc-teryx-cerium"
     ],
     "vintedItems": 280,
-    "freshItems": 85,
+    "freshItems": 1,
     "freshByAge": 0,
-    "freshByNewId": 85,
+    "freshByNewId": 1,
     "bootstrapBlocked": 0,
-    "staleBlocked": 5,
-    "candidates": 28,
-    "alerts": 1,
+    "staleBlocked": 1,
+    "candidates": 0,
+    "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-09-14T20:34:10.623Z",
+      "platform": "VINTED",
+      "id": "9999036055",
+      "title": "polo puffer jacket",
+      "url": "https://www.vinted.co.uk/items/9999036055-polo-puffer-jacket",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 30,
+      "estimatedNetProfit": 38.63,
+      "roi": 128.77,
+      "score": 88
+    },
+    {
+      "at": "2026-09-14T20:34:06.406Z",
+      "platform": "VINTED",
+      "id": "10004257767",
+      "title": "polo ralph lauren black glossy puffer jacket hooded",
+      "url": "https://www.vinted.co.uk/items/10004257767-polo-ralph-lauren-black-glossy-puffer-jacket-hooded",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 35,
+      "estimatedNetProfit": 36.64,
+      "roi": 104.69,
+      "score": 90
+    },
     {
       "at": "2026-09-14T16:44:45.616Z",
       "platform": "VINTED",
@@ -240,30 +264,6 @@
       "estimatedNetProfit": 31.75,
       "roi": 79.38,
       "score": 78
-    },
-    {
-      "at": "2026-09-13T11:33:43.577Z",
-      "platform": "VINTED",
-      "id": "9985148490",
-      "title": "ralph loren jacket",
-      "url": "https://www.vinted.co.uk/items/9985148490-ralph-loren-jacket",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 35,
-      "estimatedNetProfit": 28.82,
-      "roi": 82.34,
-      "score": 83
-    },
-    {
-      "at": "2026-09-13T05:57:50.274Z",
-      "platform": "VINTED",
-      "id": "9980786510",
-      "title": "polo ralph lauren herringbone bomber jacket grey medium",
-      "url": "https://www.vinted.co.uk/items/9980786510-polo-ralph-lauren-herringbone-bomber-jacket-grey-medium",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 30,
-      "estimatedNetProfit": 46.05,
-      "roi": 153.5,
-      "score": 95
     }
   ]
 }
