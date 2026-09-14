@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-09-14T05:07:10.175Z",
-  "stateUpdatedAt": "2026-09-14T05:07:10.175Z",
-  "lastAttemptAt": "2026-09-14T05:07:10.175Z",
-  "lastScanAt": "2026-09-14T05:07:10.175Z",
+  "generatedAt": "2026-09-14T07:02:56.256Z",
+  "stateUpdatedAt": "2026-09-14T07:02:56.256Z",
+  "lastAttemptAt": "2026-09-14T07:02:56.256Z",
+  "lastScanAt": "2026-09-14T07:02:56.256Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Hoodie::nike hoodie",
-    "Nike Sweatshirt::nike sweatshirt",
-    "Nike Track Jacket::nike track jacket",
-    "Nike Joggers::nike joggers",
-    "Nike Trousers::nike trousers",
-    "Nike Sportswear Hoodie::nike sportswear hoodie"
+    "Nike Sportswear Jacket::nike sportswear jacket",
+    "Nike Tech Fleece Windrunner::nike tech fleece windrunner",
+    "Nike Puffer Jacket::nike puffer jacket",
+    "Nike NOCTA Track Jacket::nike nocta track jacket",
+    "Nike Miler Shorts::nike miler shorts",
+    "Nike Tech Fleece Full-Zip Hoodie::nike tech fleece full zip hoodie"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1344,
-  "catalogItems": 1089,
-  "candidateItems": 237,
-  "freshItems": 77,
-  "qualifyingAlerts": 35,
+  "catalogMarkers": 1474,
+  "catalogItems": 813,
+  "candidateItems": 267,
+  "freshItems": 113,
+  "qualifyingAlerts": 56,
   "qualifyingByCondition": {
-    "veryGood": 30,
-    "newWithoutTags": 4,
-    "newWithTags": 1
+    "veryGood": 44,
+    "newWithoutTags": 6,
+    "newWithTags": 6
   },
-  "deliveredAlerts": 35,
+  "deliveredAlerts": 56,
   "deliveredByCondition": {
-    "veryGood": 30,
-    "newWithoutTags": 4,
-    "newWithTags": 1
+    "veryGood": 44,
+    "newWithoutTags": 6,
+    "newWithTags": 6
   },
-  "duplicateSuppressed": 1,
+  "duplicateSuppressed": 32,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,13 +67,14 @@
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 5,
+  "detailFetches": 6,
   "rejects": {
-    "recovery-no-fresh-signal": 159,
-    "price": 21,
-    "condition": 15,
+    "recovery-no-fresh-signal": 122,
+    "price": 13,
+    "condition": 25,
     "size": 5,
-    "keyword": 1
+    "keyword": 10,
+    "weak-margin": 4
   },
   "failures": {}
 }
