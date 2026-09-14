@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-09-14T00:22:04.161Z",
-  "stateUpdatedAt": "2026-09-14T00:22:04.161Z",
-  "lastAttemptAt": "2026-09-14T00:22:04.161Z",
-  "lastScanAt": "2026-09-14T00:22:04.161Z",
+  "generatedAt": "2026-09-14T04:57:53.524Z",
+  "stateUpdatedAt": "2026-09-14T04:57:53.524Z",
+  "lastAttemptAt": "2026-09-14T04:57:53.524Z",
+  "lastScanAt": "2026-09-14T04:57:53.524Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Air Max 95::primary",
-    "Nike Air Max 90::primary",
-    "Nike Air Max 90 Drift::primary",
-    "Nike Air Max 97::primary",
-    "Nike Air Max 270::primary",
-    "Nike Air Max Dn::primary"
+    "Nike Air Max 1::primary",
+    "Nike Shox TL::primary",
+    "Nike Shox R4::primary",
+    "Nike Shox Ride 2::primary",
+    "Nike Air Force 1::primary",
+    "Nike Dunk Low::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1343,
-  "catalogItems": 991,
-  "candidateItems": 606,
-  "freshItems": 262,
-  "qualifyingAlerts": 10,
+  "catalogItems": 875,
+  "candidateItems": 513,
+  "freshItems": 125,
+  "qualifyingAlerts": 7,
   "qualifyingByCondition": {
-    "veryGood": 2,
-    "newWithoutTags": 3,
-    "newWithTags": 5
+    "veryGood": 1,
+    "newWithTags": 3,
+    "newWithoutTags": 3
   },
-  "deliveredAlerts": 10,
+  "deliveredAlerts": 7,
   "deliveredByCondition": {
-    "veryGood": 2,
-    "newWithoutTags": 3,
-    "newWithTags": 5
+    "veryGood": 1,
+    "newWithTags": 3,
+    "newWithoutTags": 3
   },
-  "duplicateSuppressed": 16,
+  "duplicateSuppressed": 23,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,14 +69,15 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 328,
-    "price": 14,
-    "weak-margin": 6,
-    "size": 2,
-    "seller-check-budget-exhausted": 113,
-    "keyword": 20,
-    "condition": 37,
-    "detail-budget-exhausted": 60
+    "recovery-no-fresh-signal": 365,
+    "price": 7,
+    "size": 3,
+    "condition": 9,
+    "score": 1,
+    "seller-risk": 1,
+    "seller-check-budget-exhausted": 55,
+    "detail-budget-exhausted": 39,
+    "keyword": 3
   },
   "failures": {}
 }
