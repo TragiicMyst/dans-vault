@@ -2,29 +2,53 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-09-14T05:26:26.479Z",
+    "startedAt": "2026-09-14T10:53:42.742Z",
     "searchGroups": [
-      "patagonia-down-sweater:patagonia-down-sweater-hoody",
-      "patagonia-fitz-roy:patagonia-fitz-roy-down",
-      "arcteryx-cerium:arcteryx-cerium-jacket",
-      "arcteryx-cerium:arc-teryx-cerium",
-      "arcteryx-thorium:arcteryx-thorium-jacket",
-      "arcteryx-thorium:arc-teryx-thorium",
-      "ralph-lauren-puffer:ralph-lauren-puffer-jacket",
-      "ralph-lauren-puffer:polo-ralph-lauren-down-jacket"
+      "hunter:polo-puffer-jacket",
+      "hunter:nike-puffer-jacket",
+      "hunter:berghaus-puffer",
+      "hunter:napapijri-jacket",
+      "tnf-1996-nuptse:north-face-nuptse-700",
+      "tnf-1996-nuptse:north-face-1996-nuptse",
+      "tnf-himalayan:north-face-himalayan-puffer",
+      "tnf-himalayan:north-face-hmlyn-parka"
     ],
     "vintedItems": 280,
-    "freshItems": 0,
+    "freshItems": 8,
     "freshByAge": 0,
-    "freshByNewId": 0,
+    "freshByNewId": 8,
     "bootstrapBlocked": 0,
-    "staleBlocked": 1,
-    "candidates": 0,
-    "alerts": 0,
+    "staleBlocked": 11,
+    "candidates": 1,
+    "alerts": 1,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-09-14T10:53:47.543Z",
+      "platform": "VINTED",
+      "id": "9997214744",
+      "title": "age 18 months new nike puffer",
+      "url": "https://www.vinted.co.uk/items/9997214744-age-18-months-new-nike-puffer",
+      "modelId": "nike-puffer",
+      "buyPrice": 25,
+      "estimatedNetProfit": 27.53,
+      "roi": 110.12,
+      "score": 85
+    },
+    {
+      "at": "2026-09-14T10:47:45.486Z",
+      "platform": "VINTED",
+      "id": "9998120354",
+      "title": "mens small long nike puffer jacket gilet body warmer",
+      "url": "https://www.vinted.co.uk/items/9998120354-mens-small-long-nike-puffer-jacket-gilet-body-warmer",
+      "modelId": "nike-puffer",
+      "buyPrice": 25,
+      "estimatedNetProfit": 19.38,
+      "roi": 77.52,
+      "score": 83
+    },
     {
       "at": "2026-09-13T22:44:10.882Z",
       "platform": "VINTED",
@@ -240,30 +264,6 @@
       "estimatedNetProfit": 36.54,
       "roi": 243.6,
       "score": 99
-    },
-    {
-      "at": "2026-09-12T17:13:15.574Z",
-      "platform": "VINTED",
-      "id": "9977338704",
-      "title": "the north face summit series jacket size s",
-      "url": "https://www.vinted.co.uk/items/9977338704-the-north-face-summit-series-jacket-size-s",
-      "modelId": "tnf-summit-down",
-      "buyPrice": 29.95,
-      "estimatedNetProfit": 42.35,
-      "roi": 141.4,
-      "score": 94
-    },
-    {
-      "at": "2026-09-12T17:10:24.994Z",
-      "platform": "VINTED",
-      "id": "9977235297",
-      "title": "the north face summit series raincoat",
-      "url": "https://www.vinted.co.uk/items/9977235297-the-north-face-summit-series-raincoat",
-      "modelId": "tnf-summit-down",
-      "buyPrice": 45,
-      "estimatedNetProfit": 40.35,
-      "roi": 89.67,
-      "score": 87
     }
   ]
 }
