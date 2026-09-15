@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-09-15T01:53:53.425Z",
+    "startedAt": "2026-09-15T06:53:10.693Z",
     "searchGroups": [
-      "ralph-lauren-puffer:ralph-lauren-puffer-jacket",
-      "ralph-lauren-puffer:polo-ralph-lauren-down-jacket",
-      "nike-puffer:nike-puffer-jacket-mens",
-      "nike-puffer:nike-down-jacket",
-      "berghaus-down:berghaus-down-jacket",
-      "berghaus-down:berghaus-puffer-jacket",
-      "napapijri-skidoo:napapijri-skidoo-jacket",
-      "napapijri-skidoo:napapijri-rainforest-winter"
+      "tnf-himalayan:north-face-himalayan-puffer",
+      "tnf-himalayan:north-face-hmlyn-parka",
+      "tnf-baltoro:north-face-baltoro-jacket",
+      "tnf-summit-down:north-face-summit-series-down",
+      "rab-microlight:rab-microlight-alpine",
+      "rab-neutrino:rab-neutrino-pro",
+      "rab-electron:rab-electron-pro",
+      "patagonia-down-sweater:patagonia-down-sweater-jacket"
     ],
     "vintedItems": 280,
-    "freshItems": 0,
+    "freshItems": 1,
     "freshByAge": 0,
-    "freshByNewId": 0,
+    "freshByNewId": 1,
     "bootstrapBlocked": 0,
-    "staleBlocked": 14,
+    "staleBlocked": 2,
     "candidates": 0,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-09-15T06:50:17.525Z",
+      "platform": "VINTED",
+      "id": "10007151765",
+      "title": "nike puffer jacket",
+      "url": "https://www.vinted.co.uk/items/10007151765-nike-puffer-jacket",
+      "modelId": "nike-puffer",
+      "buyPrice": 12,
+      "estimatedNetProfit": 45.87,
+      "roi": 382.25,
+      "score": 92
+    },
     {
       "at": "2026-09-14T20:34:10.623Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 45.07,
       "roi": 150.28,
       "score": 90
-    },
-    {
-      "at": "2026-09-13T15:00:59.591Z",
-      "platform": "VINTED",
-      "id": "9988414180",
-      "title": "north face nuptse 700 puffer jacket",
-      "url": "https://www.vinted.co.uk/items/9988414180-north-face-nuptse-700-puffer-jacket",
-      "modelId": "tnf-1996-nuptse",
-      "buyPrice": 40,
-      "estimatedNetProfit": 31.75,
-      "roi": 79.38,
-      "score": 78
     }
   ]
 }
