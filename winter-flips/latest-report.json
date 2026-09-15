@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-09-15T06:53:10.693Z",
+    "startedAt": "2026-09-15T12:20:02.317Z",
     "searchGroups": [
-      "tnf-himalayan:north-face-himalayan-puffer",
-      "tnf-himalayan:north-face-hmlyn-parka",
-      "tnf-baltoro:north-face-baltoro-jacket",
-      "tnf-summit-down:north-face-summit-series-down",
-      "rab-microlight:rab-microlight-alpine",
-      "rab-neutrino:rab-neutrino-pro",
-      "rab-electron:rab-electron-pro",
-      "patagonia-down-sweater:patagonia-down-sweater-jacket"
+      "hunter:north-face-700",
+      "hunter:mens-north-face-jacket",
+      "hunter:rab-puffer",
+      "hunter:rab-down-jacket",
+      "hunter:patagonia-puffer",
+      "hunter:arcteryx-jacket",
+      "hunter:arc-teryx-puffer",
+      "hunter:ralph-lauren-puffer"
     ],
     "vintedItems": 280,
-    "freshItems": 1,
+    "freshItems": 36,
     "freshByAge": 0,
-    "freshByNewId": 1,
+    "freshByNewId": 36,
     "bootstrapBlocked": 0,
-    "staleBlocked": 2,
-    "candidates": 0,
+    "staleBlocked": 9,
+    "candidates": 6,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-09-15T12:14:17.219Z",
+      "platform": "VINTED",
+      "id": "10010166488",
+      "title": "girls ralph lauren puffer jacket age 7",
+      "url": "https://www.vinted.co.uk/items/10010166488-girls-ralph-lauren-puffer-jacket-age-7",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 46,
+      "estimatedNetProfit": 31.44,
+      "roi": 68.35,
+      "score": 74
+    },
     {
       "at": "2026-09-15T06:50:17.525Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 40.76,
       "roi": 163.04,
       "score": 96
-    },
-    {
-      "at": "2026-09-13T15:01:14.466Z",
-      "platform": "VINTED",
-      "id": "9986551895",
-      "title": "ralph lauren polo navy puffer jacket age 16",
-      "url": "https://www.vinted.co.uk/items/9986551895-ralph-lauren-polo-navy-puffer-jacket-age-16",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 29.99,
-      "estimatedNetProfit": 45.07,
-      "roi": 150.28,
-      "score": 90
     }
   ]
 }
