@@ -2,29 +2,53 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-09-15T17:08:04.456Z",
+    "startedAt": "2026-09-15T20:15:28.379Z",
     "searchGroups": [
-      "arcteryx-cerium:arcteryx-cerium-jacket",
-      "arcteryx-cerium:arc-teryx-cerium",
-      "arcteryx-thorium:arcteryx-thorium-jacket",
-      "arcteryx-thorium:arc-teryx-thorium",
-      "ralph-lauren-puffer:ralph-lauren-puffer-jacket",
-      "ralph-lauren-puffer:polo-ralph-lauren-down-jacket",
-      "nike-puffer:nike-puffer-jacket-mens",
-      "nike-puffer:nike-down-jacket"
+      "hunter:berghaus-puffer",
+      "hunter:napapijri-jacket",
+      "tnf-1996-nuptse:north-face-nuptse-700",
+      "tnf-1996-nuptse:north-face-1996-nuptse",
+      "tnf-himalayan:north-face-himalayan-puffer",
+      "tnf-himalayan:north-face-hmlyn-parka",
+      "tnf-baltoro:north-face-baltoro-jacket",
+      "tnf-summit-down:north-face-summit-series-down"
     ],
     "vintedItems": 280,
-    "freshItems": 13,
+    "freshItems": 4,
     "freshByAge": 0,
-    "freshByNewId": 13,
+    "freshByNewId": 4,
     "bootstrapBlocked": 0,
-    "staleBlocked": 0,
-    "candidates": 10,
-    "alerts": 1,
+    "staleBlocked": 1,
+    "candidates": 1,
+    "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-09-15T20:12:47.249Z",
+      "platform": "VINTED",
+      "id": "10014133948",
+      "title": "mens nike puffer coat",
+      "url": "https://www.vinted.co.uk/items/10014133948-mens-nike-puffer-coat",
+      "modelId": "nike-puffer",
+      "buyPrice": 25,
+      "estimatedNetProfit": 32.15,
+      "roi": 128.6,
+      "score": 92
+    },
+    {
+      "at": "2026-09-15T20:12:45.612Z",
+      "platform": "VINTED",
+      "id": "10015596955",
+      "title": "nike puffer coat",
+      "url": "https://www.vinted.co.uk/items/10015596955-nike-puffer-coat",
+      "modelId": "nike-puffer",
+      "buyPrice": 25,
+      "estimatedNetProfit": 27.53,
+      "roi": 110.12,
+      "score": 85
+    },
     {
       "at": "2026-09-15T17:08:15.073Z",
       "platform": "VINTED",
@@ -240,30 +264,6 @@
       "estimatedNetProfit": 35.85,
       "roi": 115.65,
       "score": 91
-    },
-    {
-      "at": "2026-09-13T15:04:05.494Z",
-      "platform": "VINTED",
-      "id": "9987754239",
-      "title": "lovely black unisex berghaus puffer jacket coat size 56",
-      "url": "https://www.vinted.co.uk/items/9987754239-lovely-black-unisex-berghaus-puffer-jacket-coat-size-56",
-      "modelId": "berghaus-down",
-      "buyPrice": 20,
-      "estimatedNetProfit": 31.7,
-      "roi": 158.5,
-      "score": 88
-    },
-    {
-      "at": "2026-09-13T15:04:04.296Z",
-      "platform": "VINTED",
-      "id": "9988266039",
-      "title": "berghaus puffer jacket",
-      "url": "https://www.vinted.co.uk/items/9988266039-berghaus-puffer-jacket",
-      "modelId": "berghaus-down",
-      "buyPrice": 15,
-      "estimatedNetProfit": 36.98,
-      "roi": 246.53,
-      "score": 84
     }
   ]
 }
