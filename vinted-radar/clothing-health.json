@@ -1,37 +1,37 @@
 {
-  "generatedAt": "2026-09-15T11:52:48.665Z",
-  "stateUpdatedAt": "2026-09-15T11:52:48.665Z",
-  "lastAttemptAt": "2026-09-15T11:52:48.665Z",
-  "lastScanAt": "2026-09-15T11:52:48.665Z",
+  "generatedAt": "2026-09-15T12:38:06.601Z",
+  "stateUpdatedAt": "2026-09-15T12:38:06.601Z",
+  "lastAttemptAt": "2026-09-15T12:38:06.601Z",
+  "lastScanAt": "2026-09-15T12:38:06.601Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Air Max Hoodie::nike air max hoodie",
-    "Nike Zip Hoodie::nike zip hoodie",
-    "Nike Hoodie::nike hoodie",
-    "Nike Sweatshirt::nike sweatshirt",
-    "Nike Track Jacket::nike track jacket",
-    "Nike Joggers::nike joggers"
+    "Nike Trousers::nike trousers",
+    "Nike Sportswear Hoodie::nike sportswear hoodie",
+    "Nike Sportswear Jacket::nike sportswear jacket",
+    "Nike Tech Fleece Windrunner::nike tech fleece windrunner",
+    "Nike Puffer Jacket::nike puffer jacket",
+    "Nike NOCTA Track Jacket::nike nocta track jacket"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1344,
-  "catalogItems": 1095,
-  "candidateItems": 263,
-  "freshItems": 178,
-  "qualifyingAlerts": 94,
+  "catalogMarkers": 1377,
+  "catalogItems": 910,
+  "candidateItems": 236,
+  "freshItems": 73,
+  "qualifyingAlerts": 34,
   "qualifyingByCondition": {
-    "newWithoutTags": 7,
-    "veryGood": 87
+    "veryGood": 32,
+    "newWithTags": 2
   },
-  "deliveredAlerts": 94,
+  "deliveredAlerts": 34,
   "deliveredByCondition": {
-    "newWithoutTags": 7,
-    "veryGood": 87
+    "veryGood": 32,
+    "newWithTags": 2
   },
-  "duplicateSuppressed": 7,
+  "duplicateSuppressed": 33,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,13 +67,13 @@
   "pendingDeliveries": 0,
   "detailFetches": 6,
   "rejects": {
-    "price": 25,
-    "recovery-no-fresh-signal": 78,
-    "condition": 39,
-    "size": 3,
-    "weak-margin": 2,
+    "price": 12,
+    "recovery-no-fresh-signal": 130,
+    "condition": 13,
     "keyword": 7,
-    "detail-budget-exhausted": 8
+    "clothing-variety-cap": 1,
+    "size": 3,
+    "detail-budget-exhausted": 3
   },
   "failures": {}
 }
