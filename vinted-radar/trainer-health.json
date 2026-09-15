@@ -1,51 +1,39 @@
 {
-  "generatedAt": "2026-09-15T17:06:02.120Z",
-  "stateUpdatedAt": "2026-09-15T17:06:02.120Z",
-  "lastAttemptAt": "2026-09-15T17:06:02.120Z",
+  "generatedAt": "2026-09-15T17:11:02.304Z",
+  "stateUpdatedAt": "2026-09-15T17:11:02.304Z",
+  "lastAttemptAt": "2026-09-15T17:11:02.304Z",
   "lastScanAt": "2026-09-15T17:01:02.641Z",
-  "cooldownUntil": "2026-09-15T17:08:05.086Z",
+  "cooldownUntil": "2026-09-15T17:12:18.901Z",
   "healthyScan": false,
   "healthReason": "vinted-block-or-challenge",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Shox TL::primary",
     "Nike Shox R4::primary",
     "Nike Shox Ride 2::primary",
     "Nike Air Force 1::primary",
     "Nike Dunk Low::primary",
-    "Air Jordan 1 Low::primary"
+    "Air Jordan 1 Low::primary",
+    "Air Jordan 1 Mid::primary"
   ],
-  "successfulSearches": 2,
+  "successfulSearches": 0,
   "failedSearches": 1,
-  "catalogMarkers": 384,
-  "catalogItems": 319,
-  "candidateItems": 131,
-  "freshItems": 25,
-  "qualifyingAlerts": 2,
-  "qualifyingByCondition": {
-    "newWithoutTags": 2
-  },
-  "deliveredAlerts": 2,
-  "deliveredByCondition": {
-    "newWithoutTags": 2
-  },
-  "duplicateSuppressed": 9,
+  "catalogMarkers": 0,
+  "catalogItems": 0,
+  "candidateItems": 0,
+  "freshItems": 0,
+  "qualifyingAlerts": 0,
+  "qualifyingByCondition": {},
+  "deliveredAlerts": 0,
+  "deliveredByCondition": {},
+  "duplicateSuppressed": 0,
   "discordFailures": 0,
   "discordRoutes": [],
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 12,
-  "rejects": {
-    "price": 2,
-    "stale": 97,
-    "size": 9,
-    "weak-margin": 2,
-    "seller-risk": 1,
-    "detail-budget-exhausted": 4,
-    "seller-check-budget-exhausted": 5
-  },
+  "detailFetches": 0,
+  "rejects": {},
   "failures": {
-    "Nike Shox R4::primary": "Vinted guard cooldown active for 43s"
+    "Nike Any Shoe Bargain::generic": "Vinted guard cooldown active for 44s"
   }
 }
