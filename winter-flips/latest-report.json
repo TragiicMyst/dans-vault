@@ -2,29 +2,65 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-09-15T12:20:02.317Z",
+    "startedAt": "2026-09-15T17:08:04.456Z",
     "searchGroups": [
-      "hunter:north-face-700",
-      "hunter:mens-north-face-jacket",
-      "hunter:rab-puffer",
-      "hunter:rab-down-jacket",
-      "hunter:patagonia-puffer",
-      "hunter:arcteryx-jacket",
-      "hunter:arc-teryx-puffer",
-      "hunter:ralph-lauren-puffer"
+      "arcteryx-cerium:arcteryx-cerium-jacket",
+      "arcteryx-cerium:arc-teryx-cerium",
+      "arcteryx-thorium:arcteryx-thorium-jacket",
+      "arcteryx-thorium:arc-teryx-thorium",
+      "ralph-lauren-puffer:ralph-lauren-puffer-jacket",
+      "ralph-lauren-puffer:polo-ralph-lauren-down-jacket",
+      "nike-puffer:nike-puffer-jacket-mens",
+      "nike-puffer:nike-down-jacket"
     ],
     "vintedItems": 280,
-    "freshItems": 36,
+    "freshItems": 13,
     "freshByAge": 0,
-    "freshByNewId": 36,
+    "freshByNewId": 13,
     "bootstrapBlocked": 0,
-    "staleBlocked": 9,
-    "candidates": 6,
-    "alerts": 0,
+    "staleBlocked": 0,
+    "candidates": 10,
+    "alerts": 1,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-09-15T17:08:15.073Z",
+      "platform": "VINTED",
+      "id": "10011012403",
+      "title": "ralph lauren reversible quilted jacket 2 years",
+      "url": "https://www.vinted.co.uk/items/10011012403-ralph-lauren-reversible-quilted-jacket-2-years",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 30,
+      "estimatedNetProfit": 42.3,
+      "roi": 141,
+      "score": 89
+    },
+    {
+      "at": "2026-09-15T17:02:10.635Z",
+      "platform": "VINTED",
+      "id": "10012705998",
+      "title": "khaki nike puffer quilt coat jacket",
+      "url": "https://www.vinted.co.uk/items/10012705998-khaki-nike-puffer-quilt-coat-jacket",
+      "modelId": "nike-puffer",
+      "buyPrice": 20,
+      "estimatedNetProfit": 37.43,
+      "roi": 187.15,
+      "score": 97
+    },
+    {
+      "at": "2026-09-15T17:02:07.481Z",
+      "platform": "VINTED",
+      "id": "10010990073",
+      "title": "ralph lauren reversible quilted jacket 2 years",
+      "url": "https://www.vinted.co.uk/items/10010990073-ralph-lauren-reversible-quilted-jacket-2-years",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 30,
+      "estimatedNetProfit": 37.67,
+      "roi": 125.57,
+      "score": 88
+    },
     {
       "at": "2026-09-15T12:14:17.219Z",
       "platform": "VINTED",
@@ -228,42 +264,6 @@
       "estimatedNetProfit": 36.98,
       "roi": 246.53,
       "score": 84
-    },
-    {
-      "at": "2026-09-13T15:04:02.632Z",
-      "platform": "VINTED",
-      "id": "9988740461",
-      "title": "berghaus puffer jacket",
-      "url": "https://www.vinted.co.uk/items/9988740461-berghaus-puffer-jacket",
-      "modelId": "berghaus-down",
-      "buyPrice": 25,
-      "estimatedNetProfit": 26.43,
-      "roi": 105.72,
-      "score": 83
-    },
-    {
-      "at": "2026-09-13T15:03:58.663Z",
-      "platform": "VINTED",
-      "id": "9988815720",
-      "title": "nike puffer jacket",
-      "url": "https://www.vinted.co.uk/items/9988815720-nike-puffer-jacket",
-      "modelId": "nike-puffer",
-      "buyPrice": 20,
-      "estimatedNetProfit": 32.81,
-      "roi": 164.05,
-      "score": 91
-    },
-    {
-      "at": "2026-09-13T15:01:16.149Z",
-      "platform": "VINTED",
-      "id": "9986191826",
-      "title": "ralph lauren jacket",
-      "url": "https://www.vinted.co.uk/items/9986191826-ralph-lauren-jacket",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 25,
-      "estimatedNetProfit": 40.76,
-      "roi": 163.04,
-      "score": 96
     }
   ]
 }
