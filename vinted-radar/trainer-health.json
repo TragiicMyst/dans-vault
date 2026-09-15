@@ -1,51 +1,39 @@
 {
-  "generatedAt": "2026-09-15T12:17:55.377Z",
-  "stateUpdatedAt": "2026-09-15T12:17:55.377Z",
-  "lastAttemptAt": "2026-09-15T12:17:55.377Z",
+  "generatedAt": "2026-09-15T12:22:55.400Z",
+  "stateUpdatedAt": "2026-09-15T12:22:55.400Z",
+  "lastAttemptAt": "2026-09-15T12:22:55.400Z",
   "lastScanAt": "2026-09-15T12:12:55.060Z",
-  "cooldownUntil": "2026-09-15T12:19:54.103Z",
+  "cooldownUntil": "2026-09-15T12:24:12.075Z",
   "healthyScan": false,
   "healthReason": "vinted-block-or-challenge",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Zoom Fly 6::primary",
     "Nike Air Max Bargain::generic",
     "Nike Running Trainer Bargain::generic",
     "Nike Lifestyle Trainer Bargain::generic",
     "Nike Football Boot Bargain::generic",
-    "Nike Basketball Shoe Bargain::generic"
+    "Nike Basketball Shoe Bargain::generic",
+    "Nike SB Shoe Bargain::generic"
   ],
-  "successfulSearches": 2,
+  "successfulSearches": 0,
   "failedSearches": 1,
-  "catalogMarkers": 576,
-  "catalogItems": 404,
-  "candidateItems": 188,
-  "freshItems": 10,
-  "qualifyingAlerts": 5,
-  "qualifyingByCondition": {
-    "veryGood": 4,
-    "newWithoutTags": 1
-  },
-  "deliveredAlerts": 5,
-  "deliveredByCondition": {
-    "veryGood": 4,
-    "newWithoutTags": 1
-  },
-  "duplicateSuppressed": 21,
+  "catalogMarkers": 0,
+  "catalogItems": 0,
+  "candidateItems": 0,
+  "freshItems": 0,
+  "qualifyingAlerts": 0,
+  "qualifyingByCondition": {},
+  "deliveredAlerts": 0,
+  "deliveredByCondition": {},
+  "duplicateSuppressed": 0,
   "discordFailures": 0,
   "discordRoutes": [],
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 6,
-  "rejects": {
-    "stale": 117,
-    "price": 2,
-    "weak-margin": 1,
-    "condition": 1,
-    "seller-check-failed": 1
-  },
+  "detailFetches": 0,
+  "rejects": {},
   "failures": {
-    "Nike Air Max Bargain::generic": "Vinted guard cooldown active for 44s"
+    "Nike Any Shoe Bargain::generic": "Vinted guard cooldown active for 44s"
   }
 }
