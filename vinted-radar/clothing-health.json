@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-09-15T01:49:56.041Z",
-  "stateUpdatedAt": "2026-09-15T01:49:56.041Z",
-  "lastAttemptAt": "2026-09-15T01:49:56.041Z",
-  "lastScanAt": "2026-09-15T01:49:56.041Z",
+  "generatedAt": "2026-09-15T06:06:16.482Z",
+  "stateUpdatedAt": "2026-09-15T06:06:16.482Z",
+  "lastAttemptAt": "2026-09-15T06:06:16.482Z",
+  "lastScanAt": "2026-09-15T06:06:16.482Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Dri-FIT Top::nike dri fit top",
-    "Nike Quarter Zip::nike quarter zip",
-    "Nike Fleece::nike fleece",
-    "Nike Gilet::nike gilet",
-    "Nike Windbreaker::nike windbreaker",
-    "Nike Anorak::nike anorak"
+    "Nike Rain Jacket::nike rain jacket",
+    "Nike Woven Jacket::nike woven jacket",
+    "Nike Bomber Jacket::nike bomber jacket",
+    "Nike Coat::nike coat",
+    "Nike Shorts::nike shorts",
+    "Nike Cargo Trousers::nike cargo trousers"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 1041,
-  "candidateItems": 293,
-  "freshItems": 153,
-  "qualifyingAlerts": 54,
+  "catalogItems": 1112,
+  "candidateItems": 303,
+  "freshItems": 159,
+  "qualifyingAlerts": 65,
   "qualifyingByCondition": {
-    "veryGood": 40,
-    "newWithTags": 2,
-    "newWithoutTags": 12
+    "newWithoutTags": 6,
+    "veryGood": 58,
+    "newWithTags": 1
   },
-  "deliveredAlerts": 54,
+  "deliveredAlerts": 65,
   "deliveredByCondition": {
-    "veryGood": 40,
-    "newWithTags": 2,
-    "newWithoutTags": 12
+    "newWithoutTags": 6,
+    "veryGood": 58,
+    "newWithTags": 1
   },
-  "duplicateSuppressed": 7,
+  "duplicateSuppressed": 10,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,13 +69,11 @@
   "pendingDeliveries": 0,
   "detailFetches": 6,
   "rejects": {
-    "size": 5,
-    "recovery-no-fresh-signal": 133,
-    "price": 53,
-    "condition": 26,
-    "keyword": 11,
-    "weak-margin": 1,
-    "detail-budget-exhausted": 3
+    "recovery-no-fresh-signal": 134,
+    "condition": 38,
+    "price": 46,
+    "keyword": 4,
+    "size": 6
   },
   "failures": {}
 }
