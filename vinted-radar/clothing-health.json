@@ -1,37 +1,39 @@
 {
-  "generatedAt": "2026-09-16T06:39:13.178Z",
-  "stateUpdatedAt": "2026-09-16T06:39:13.178Z",
-  "lastAttemptAt": "2026-09-16T06:39:13.178Z",
-  "lastScanAt": "2026-09-16T06:39:13.178Z",
+  "generatedAt": "2026-09-16T11:54:00.909Z",
+  "stateUpdatedAt": "2026-09-16T11:54:00.909Z",
+  "lastAttemptAt": "2026-09-16T11:54:00.909Z",
+  "lastScanAt": "2026-09-16T11:54:00.909Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Miler Repel Jacket::nike miler repel jacket",
-    "Nike Solo Swoosh Joggers::nike solo swoosh joggers",
-    "Nike Stride Running Jacket::nike stride running jacket",
-    "Nike T-Shirt::nike t shirt",
-    "Nike Long Sleeve Top::nike long sleeve top",
-    "Nike Polo::nike polo"
+    "Nike Football Shirt::nike football shirt",
+    "Nike Training Top::nike training top",
+    "Nike Dri-FIT Top::nike dri fit top",
+    "Nike Quarter Zip::nike quarter zip",
+    "Nike Fleece::nike fleece",
+    "Nike Gilet::nike gilet"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 912,
-  "candidateItems": 336,
-  "freshItems": 63,
-  "qualifyingAlerts": 34,
+  "catalogItems": 1009,
+  "candidateItems": 284,
+  "freshItems": 209,
+  "qualifyingAlerts": 84,
   "qualifyingByCondition": {
-    "veryGood": 33,
-    "newWithTags": 1
+    "veryGood": 71,
+    "newWithTags": 9,
+    "newWithoutTags": 4
   },
-  "deliveredAlerts": 34,
+  "deliveredAlerts": 84,
   "deliveredByCondition": {
-    "veryGood": 33,
-    "newWithTags": 1
+    "veryGood": 71,
+    "newWithTags": 9,
+    "newWithoutTags": 4
   },
-  "duplicateSuppressed": 46,
+  "duplicateSuppressed": 4,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -65,14 +67,14 @@
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 5,
+  "detailFetches": 6,
   "rejects": {
-    "recovery-no-fresh-signal": 227,
-    "price": 12,
-    "condition": 11,
-    "score": 1,
-    "keyword": 2,
-    "size": 3
+    "condition": 41,
+    "price": 65,
+    "recovery-no-fresh-signal": 71,
+    "keyword": 11,
+    "size": 3,
+    "detail-budget-exhausted": 5
   },
   "failures": {}
 }
