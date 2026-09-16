@@ -1,35 +1,39 @@
 {
-  "generatedAt": "2026-09-16T15:43:07.696Z",
-  "stateUpdatedAt": "2026-09-16T15:43:07.696Z",
-  "lastAttemptAt": "2026-09-16T15:43:07.696Z",
-  "lastScanAt": "2026-09-16T15:43:07.696Z",
+  "generatedAt": "2026-09-16T16:24:23.488Z",
+  "stateUpdatedAt": "2026-09-16T16:24:23.488Z",
+  "lastAttemptAt": "2026-09-16T16:24:23.488Z",
+  "lastScanAt": "2026-09-16T16:24:23.488Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Running Trainer Bargain::generic",
-    "Nike Lifestyle Trainer Bargain::generic",
-    "Nike Football Boot Bargain::generic",
-    "Nike Basketball Shoe Bargain::generic",
-    "Nike SB Shoe Bargain::generic",
-    "Nike P-6000::primary"
+    "Nike V5 RNR::primary",
+    "Nike Vomero 5::primary",
+    "Nike Vomero 18::primary",
+    "Nike Vomero Plus::primary",
+    "Nike Vomero Premium::primary",
+    "Nike Pegasus Premium::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1343,
-  "catalogItems": 889,
-  "candidateItems": 391,
-  "freshItems": 189,
-  "qualifyingAlerts": 3,
+  "catalogMarkers": 1266,
+  "catalogItems": 681,
+  "candidateItems": 508,
+  "freshItems": 173,
+  "qualifyingAlerts": 4,
   "qualifyingByCondition": {
-    "veryGood": 3
+    "veryGood": 2,
+    "newWithoutTags": 1,
+    "newWithTags": 1
   },
-  "deliveredAlerts": 3,
+  "deliveredAlerts": 4,
   "deliveredByCondition": {
-    "veryGood": 3
+    "veryGood": 2,
+    "newWithoutTags": 1,
+    "newWithTags": 1
   },
-  "duplicateSuppressed": 3,
+  "duplicateSuppressed": 38,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -65,14 +69,15 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 199,
-    "price": 30,
-    "keyword": 21,
-    "size": 9,
-    "condition": 56,
-    "seller-check-budget-exhausted": 34,
-    "detail-budget-exhausted": 35,
-    "weak-margin": 1
+    "keyword": 10,
+    "recovery-no-fresh-signal": 297,
+    "condition": 3,
+    "weak-margin": 4,
+    "score": 1,
+    "size": 7,
+    "price": 8,
+    "detail-budget-exhausted": 36,
+    "seller-check-budget-exhausted": 100
   },
   "failures": {}
 }
