@@ -1,39 +1,37 @@
 {
-  "generatedAt": "2026-09-16T11:33:04.188Z",
-  "stateUpdatedAt": "2026-09-16T11:33:04.188Z",
-  "lastAttemptAt": "2026-09-16T11:33:04.188Z",
-  "lastScanAt": "2026-09-16T11:33:04.188Z",
+  "generatedAt": "2026-09-16T11:38:04.399Z",
+  "stateUpdatedAt": "2026-09-16T11:38:04.399Z",
+  "lastAttemptAt": "2026-09-16T11:38:04.399Z",
+  "lastScanAt": "2026-09-16T11:38:04.399Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Air Jordan 4::primary",
-    "Nike Initiator::primary",
-    "Nike Air Max Moto 2K::primary",
-    "Nike Metcon 10::primary",
-    "Nike Zoom Fly 6::primary",
-    "Nike Air Max Bargain::generic"
+    "Nike Running Trainer Bargain::generic",
+    "Nike Lifestyle Trainer Bargain::generic",
+    "Nike Football Boot Bargain::generic",
+    "Nike Basketball Shoe Bargain::generic",
+    "Nike SB Shoe Bargain::generic",
+    "Nike P-6000::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1343,
-  "catalogItems": 861,
-  "candidateItems": 481,
-  "freshItems": 157,
-  "qualifyingAlerts": 7,
+  "catalogMarkers": 1342,
+  "catalogItems": 898,
+  "candidateItems": 395,
+  "freshItems": 195,
+  "qualifyingAlerts": 4,
   "qualifyingByCondition": {
-    "veryGood": 5,
-    "newWithTags": 1,
+    "veryGood": 3,
     "newWithoutTags": 1
   },
-  "deliveredAlerts": 7,
+  "deliveredAlerts": 4,
   "deliveredByCondition": {
-    "veryGood": 5,
-    "newWithTags": 1,
+    "veryGood": 3,
     "newWithoutTags": 1
   },
-  "duplicateSuppressed": 43,
+  "duplicateSuppressed": 1,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,13 +67,13 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "recovery-no-fresh-signal": 281,
-    "keyword": 10,
-    "condition": 14,
-    "price": 10,
-    "size": 5,
-    "detail-budget-exhausted": 35,
-    "seller-check-budget-exhausted": 76
+    "stale": 199,
+    "keyword": 24,
+    "size": 8,
+    "price": 23,
+    "condition": 55,
+    "seller-check-budget-exhausted": 43,
+    "detail-budget-exhausted": 38
   },
   "failures": {}
 }
