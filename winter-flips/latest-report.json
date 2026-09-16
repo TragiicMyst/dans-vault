@@ -2,29 +2,43 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-09-16T15:02:53.195Z",
+    "startedAt": "2026-09-16T18:52:57.157Z",
     "searchGroups": [
-      "tnf-baltoro:north-face-baltoro-jacket",
-      "tnf-summit-down:north-face-summit-series-down",
-      "rab-microlight:rab-microlight-alpine",
-      "rab-neutrino:rab-neutrino-pro",
-      "rab-electron:rab-electron-pro",
-      "patagonia-down-sweater:patagonia-down-sweater-jacket",
-      "patagonia-down-sweater:patagonia-down-sweater-hoody",
-      "patagonia-fitz-roy:patagonia-fitz-roy-down"
+      "hunter:rab-puffer",
+      "hunter:rab-down-jacket",
+      "hunter:patagonia-puffer",
+      "hunter:arcteryx-jacket",
+      "hunter:arc-teryx-puffer",
+      "hunter:ralph-lauren-puffer",
+      "hunter:polo-puffer-jacket",
+      "hunter:nike-puffer-jacket"
     ],
     "vintedItems": 280,
-    "freshItems": 3,
+    "freshItems": 16,
     "freshByAge": 0,
-    "freshByNewId": 3,
+    "freshByNewId": 16,
     "bootstrapBlocked": 0,
-    "staleBlocked": 3,
-    "candidates": 1,
+    "staleBlocked": 0,
+    "candidates": 6,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
-    "failures": []
+    "failures": [
+      "Discord VINTED:10025961128: HTTP 429"
+    ]
   },
   "topRecent": [
+    {
+      "at": "2026-09-16T18:47:08.448Z",
+      "platform": "VINTED",
+      "id": "10024831340",
+      "title": "ralph lauren ladies velvet jacket",
+      "url": "https://www.vinted.co.uk/items/10024831340-ralph-lauren-ladies-velvet-jacket",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 30,
+      "estimatedNetProfit": 43.75,
+      "roi": 145.83,
+      "score": 94
+    },
     {
       "at": "2026-09-16T15:00:01.914Z",
       "platform": "VINTED",
@@ -252,18 +266,6 @@
       "estimatedNetProfit": 49.36,
       "roi": 164.53,
       "score": 96
-    },
-    {
-      "at": "2026-09-14T16:41:39.585Z",
-      "platform": "VINTED",
-      "id": "10000889032",
-      "title": "girls jacket",
-      "url": "https://www.vinted.co.uk/items/10000889032-girls-jacket",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 40,
-      "estimatedNetProfit": 34.51,
-      "roi": 86.28,
-      "score": 80
     }
   ]
 }
