@@ -1,37 +1,35 @@
 {
-  "generatedAt": "2026-09-16T06:20:55.737Z",
-  "stateUpdatedAt": "2026-09-16T06:20:55.737Z",
-  "lastAttemptAt": "2026-09-16T06:20:55.737Z",
-  "lastScanAt": "2026-09-16T06:20:55.737Z",
+  "generatedAt": "2026-09-16T06:25:56.247Z",
+  "stateUpdatedAt": "2026-09-16T06:25:56.247Z",
+  "lastAttemptAt": "2026-09-16T06:25:56.247Z",
+  "lastScanAt": "2026-09-16T06:25:56.247Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Pegasus Trail 5 GORE-TEX::primary",
-    "Nike TN::primary",
-    "Nike Air Max Plus 3::primary",
-    "Nike Air Max Plus VII::primary",
-    "Nike Air Max 95::primary",
-    "Nike Air Max 90::primary"
+    "Nike Air Max 90 Drift::primary",
+    "Nike Air Max 97::primary",
+    "Nike Air Max 270::primary",
+    "Nike Air Max Dn::primary",
+    "Nike Air Max 1::primary",
+    "Nike Shox TL::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1343,
-  "catalogItems": 1022,
-  "candidateItems": 492,
-  "freshItems": 113,
-  "qualifyingAlerts": 6,
+  "catalogItems": 989,
+  "candidateItems": 506,
+  "freshItems": 82,
+  "qualifyingAlerts": 4,
   "qualifyingByCondition": {
-    "newWithTags": 1,
-    "veryGood": 5
+    "veryGood": 4
   },
-  "deliveredAlerts": 6,
+  "deliveredAlerts": 4,
   "deliveredByCondition": {
-    "newWithTags": 1,
-    "veryGood": 5
+    "veryGood": 4
   },
-  "duplicateSuppressed": 34,
+  "duplicateSuppressed": 32,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,14 +65,13 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 345,
-    "seller-risk": 2,
-    "score": 1,
-    "condition": 6,
-    "size": 3,
-    "seller-check-budget-exhausted": 75,
-    "detail-budget-exhausted": 16,
-    "price": 3,
+    "stale": 392,
+    "price": 2,
+    "size": 8,
+    "condition": 1,
+    "detail-budget-exhausted": 23,
+    "seller-check-budget-exhausted": 42,
+    "keyword": 1,
     "weak-margin": 1
   },
   "failures": {}
