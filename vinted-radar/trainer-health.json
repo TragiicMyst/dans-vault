@@ -1,26 +1,26 @@
 {
-  "generatedAt": "2026-09-16T15:38:07.456Z",
-  "stateUpdatedAt": "2026-09-16T15:38:07.456Z",
-  "lastAttemptAt": "2026-09-16T15:38:07.456Z",
-  "lastScanAt": "2026-09-16T15:38:07.456Z",
+  "generatedAt": "2026-09-16T15:43:07.696Z",
+  "stateUpdatedAt": "2026-09-16T15:43:07.696Z",
+  "lastAttemptAt": "2026-09-16T15:43:07.696Z",
+  "lastScanAt": "2026-09-16T15:43:07.696Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Air Jordan 4::primary",
-    "Nike Initiator::primary",
-    "Nike Air Max Moto 2K::primary",
-    "Nike Metcon 10::primary",
-    "Nike Zoom Fly 6::primary",
-    "Nike Air Max Bargain::generic"
+    "Nike Running Trainer Bargain::generic",
+    "Nike Lifestyle Trainer Bargain::generic",
+    "Nike Football Boot Bargain::generic",
+    "Nike Basketball Shoe Bargain::generic",
+    "Nike SB Shoe Bargain::generic",
+    "Nike P-6000::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1344,
-  "catalogItems": 852,
-  "candidateItems": 488,
-  "freshItems": 151,
+  "catalogMarkers": 1343,
+  "catalogItems": 889,
+  "candidateItems": 391,
+  "freshItems": 189,
   "qualifyingAlerts": 3,
   "qualifyingByCondition": {
     "veryGood": 3
@@ -29,7 +29,7 @@
   "deliveredByCondition": {
     "veryGood": 3
   },
-  "duplicateSuppressed": 44,
+  "duplicateSuppressed": 3,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -65,15 +65,14 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 293,
-    "score": 1,
-    "condition": 15,
-    "size": 8,
-    "price": 9,
-    "weak-margin": 1,
-    "detail-budget-exhausted": 25,
-    "seller-check-budget-exhausted": 78,
-    "keyword": 11
+    "stale": 199,
+    "price": 30,
+    "keyword": 21,
+    "size": 9,
+    "condition": 56,
+    "seller-check-budget-exhausted": 34,
+    "detail-budget-exhausted": 35,
+    "weak-margin": 1
   },
   "failures": {}
 }
