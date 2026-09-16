@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-09-16T22:22:04.569Z",
-  "stateUpdatedAt": "2026-09-16T22:22:04.569Z",
-  "lastAttemptAt": "2026-09-16T22:22:04.569Z",
-  "lastScanAt": "2026-09-16T22:22:04.569Z",
+  "generatedAt": "2026-09-16T23:01:40.822Z",
+  "stateUpdatedAt": "2026-09-16T23:01:40.822Z",
+  "lastAttemptAt": "2026-09-16T23:01:40.822Z",
+  "lastScanAt": "2026-09-16T23:01:40.822Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Challenger Shorts::nike challenger shorts",
-    "Nike Tech Fleece Joggers::nike tech fleece joggers",
-    "Nike Storm-FIT Puffer::nike storm fit puffer",
-    "Nike Solo Swoosh Hoodie::nike solo swoosh hoodie",
-    "Nike Miler Running Top::nike miler running top",
-    "Nike Tech Fleece Open-Hem Trousers::nike tech fleece open hem trousers"
+    "Nike ACG Lunar Lake Puffer::nike acg lunar lake",
+    "Nike Academy Tracksuit::nike academy tracksuit",
+    "Nike Dri-FIT Running Top::nike dri-fit running top",
+    "Nike Tech Fleece Shorts::nike tech fleece shorts",
+    "Nike Therma-FIT Jacket::nike therma fit jacket",
+    "Nike NOCTA Hoodie::nike nocta hoodie"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1535,
-  "catalogItems": 820,
-  "candidateItems": 353,
-  "freshItems": 132,
-  "qualifyingAlerts": 52,
+  "catalogMarkers": 1470,
+  "catalogItems": 781,
+  "candidateItems": 369,
+  "freshItems": 76,
+  "qualifyingAlerts": 44,
   "qualifyingByCondition": {
-    "veryGood": 40,
-    "newWithTags": 7,
-    "newWithoutTags": 5
+    "newWithTags": 8,
+    "veryGood": 29,
+    "newWithoutTags": 7
   },
-  "deliveredAlerts": 52,
+  "deliveredAlerts": 44,
   "deliveredByCondition": {
-    "veryGood": 40,
-    "newWithTags": 7,
-    "newWithoutTags": 5
+    "newWithTags": 8,
+    "veryGood": 29,
+    "newWithoutTags": 7
   },
-  "duplicateSuppressed": 79,
+  "duplicateSuppressed": 88,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,13 +69,13 @@
   "pendingDeliveries": 0,
   "detailFetches": 2,
   "rejects": {
-    "price": 29,
-    "recovery-no-fresh-signal": 142,
-    "weak-margin": 11,
-    "condition": 33,
-    "keyword": 1,
-    "clothing-variety-cap": 5,
-    "size": 1
+    "condition": 14,
+    "recovery-no-fresh-signal": 205,
+    "size": 2,
+    "price": 10,
+    "weak-margin": 3,
+    "clothing-variety-cap": 2,
+    "keyword": 1
   },
   "failures": {}
 }
