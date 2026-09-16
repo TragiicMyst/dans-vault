@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-09-15T22:58:26.408Z",
+    "startedAt": "2026-09-16T00:57:59.002Z",
     "searchGroups": [
-      "napapijri-skidoo:napapijri-skidoo-jacket",
-      "napapijri-skidoo:napapijri-rainforest-winter",
-      "hunter:north-face-coat",
-      "hunter:north-face-puffer",
-      "hunter:north-face-700",
-      "hunter:mens-north-face-jacket",
-      "hunter:rab-puffer",
-      "hunter:rab-down-jacket"
+      "rab-electron:rab-electron-pro",
+      "patagonia-down-sweater:patagonia-down-sweater-jacket",
+      "patagonia-down-sweater:patagonia-down-sweater-hoody",
+      "patagonia-fitz-roy:patagonia-fitz-roy-down",
+      "arcteryx-cerium:arcteryx-cerium-jacket",
+      "arcteryx-cerium:arc-teryx-cerium",
+      "arcteryx-thorium:arcteryx-thorium-jacket",
+      "arcteryx-thorium:arc-teryx-thorium"
     ],
     "vintedItems": 280,
-    "freshItems": 34,
+    "freshItems": 1,
     "freshByAge": 0,
-    "freshByNewId": 34,
+    "freshByNewId": 1,
     "bootstrapBlocked": 0,
-    "staleBlocked": 12,
-    "candidates": 3,
+    "staleBlocked": 2,
+    "candidates": 0,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-09-16T00:52:07.515Z",
+      "platform": "VINTED",
+      "id": "10017253124",
+      "title": "navy blue ralph baby puffer jacket size 9 months",
+      "url": "https://www.vinted.co.uk/items/10017253124-navy-blue-ralph-baby-puffer-jacket-size-9-months",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 30,
+      "estimatedNetProfit": 44.14,
+      "roi": 147.13,
+      "score": 88
+    },
     {
       "at": "2026-09-15T20:12:47.249Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 29.75,
       "roi": 148.75,
       "score": 93
-    },
-    {
-      "at": "2026-09-13T18:04:51.646Z",
-      "platform": "VINTED",
-      "id": "9989453431",
-      "title": "girls light weight reversible jacket ralph lauren",
-      "url": "https://www.vinted.co.uk/items/9989453431-girls-light-weight-reversible-jacket-ralph-lauren",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 31,
-      "estimatedNetProfit": 35.85,
-      "roi": 115.65,
-      "score": 91
     }
   ]
 }
