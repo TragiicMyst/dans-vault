@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-09-16T21:51:51.596Z",
+    "startedAt": "2026-09-17T00:00:28.857Z",
     "searchGroups": [
-      "arcteryx-thorium:arcteryx-thorium-jacket",
-      "arcteryx-thorium:arc-teryx-thorium",
-      "ralph-lauren-puffer:ralph-lauren-puffer-jacket",
-      "ralph-lauren-puffer:polo-ralph-lauren-down-jacket",
-      "nike-puffer:nike-puffer-jacket-mens",
-      "nike-puffer:nike-down-jacket",
-      "berghaus-down:berghaus-down-jacket",
-      "berghaus-down:berghaus-puffer-jacket"
+      "tnf-1996-nuptse:north-face-nuptse-700",
+      "tnf-1996-nuptse:north-face-1996-nuptse",
+      "tnf-himalayan:north-face-himalayan-puffer",
+      "tnf-himalayan:north-face-hmlyn-parka",
+      "tnf-baltoro:north-face-baltoro-jacket",
+      "tnf-summit-down:north-face-summit-series-down",
+      "rab-microlight:rab-microlight-alpine",
+      "rab-neutrino:rab-neutrino-pro"
     ],
     "vintedItems": 280,
-    "freshItems": 8,
+    "freshItems": 0,
     "freshByAge": 0,
-    "freshByNewId": 8,
+    "freshByNewId": 0,
     "bootstrapBlocked": 0,
     "staleBlocked": 1,
-    "candidates": 3,
+    "candidates": 0,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-09-16T23:57:37.066Z",
+      "platform": "VINTED",
+      "id": "10026961624",
+      "title": "ralph lauren reversible puffer gilet 6 years",
+      "url": "https://www.vinted.co.uk/items/10026961624-ralph-lauren-reversible-puffer-gilet-6-years",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 35,
+      "estimatedNetProfit": 37.97,
+      "roi": 108.49,
+      "score": 85
+    },
     {
       "at": "2026-09-16T18:47:08.448Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 37.14,
       "roi": 92.85,
       "score": 82
-    },
-    {
-      "at": "2026-09-14T16:41:42.609Z",
-      "platform": "VINTED",
-      "id": "10002518851",
-      "title": "polo ralph lauren los angeles custom fit polo shirt bnwt",
-      "url": "https://www.vinted.co.uk/items/10002518851-polo-ralph-lauren-los-angeles-custom-fit-polo-shirt-bnwt",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 30,
-      "estimatedNetProfit": 49.36,
-      "roi": 164.53,
-      "score": 96
     }
   ]
 }
