@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-09-17T01:20:01.505Z",
-  "stateUpdatedAt": "2026-09-17T01:20:01.505Z",
-  "lastAttemptAt": "2026-09-17T01:20:01.505Z",
-  "lastScanAt": "2026-09-17T01:20:01.505Z",
+  "generatedAt": "2026-09-17T05:32:14.129Z",
+  "stateUpdatedAt": "2026-09-17T05:32:14.129Z",
+  "lastAttemptAt": "2026-09-17T05:32:14.129Z",
+  "lastScanAt": "2026-09-17T05:32:14.129Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Windrunner Jacket::nike windrunner jacket",
-    "Nike NOCTA Tracksuit::nike nocta tracksuit",
-    "Nike Miler Challenger Running Set::nike miler challenger set",
-    "Nike Football Tech Fleece::nike football tech fleece",
-    "Nike ACG GORE-TEX Jacket::nike acg gore tex jacket",
-    "Nike Club Fleece Full-Zip Hoodie::nike club fleece full zip hoodie"
+    "Nike Strike Top Shorts Set::nike strike top shorts set",
+    "Nike Club Fleece Joggers::nike club fleece joggers",
+    "Nike Sportswear Winterised Jacket::nike sportswear winterised jacket",
+    "Nike NOCTA Joggers::nike nocta joggers",
+    "Nike ACG Fleece::nike acg fleece",
+    "Nike Club Fleece Open-Hem Trousers::nike club fleece open hem trousers"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1728,
-  "catalogItems": 855,
-  "candidateItems": 394,
-  "freshItems": 64,
-  "qualifyingAlerts": 33,
+  "catalogMarkers": 1535,
+  "catalogItems": 901,
+  "candidateItems": 233,
+  "freshItems": 33,
+  "qualifyingAlerts": 21,
   "qualifyingByCondition": {
-    "newWithTags": 7,
-    "veryGood": 25,
-    "newWithoutTags": 1
+    "veryGood": 14,
+    "newWithTags": 4,
+    "newWithoutTags": 3
   },
-  "deliveredAlerts": 33,
+  "deliveredAlerts": 21,
   "deliveredByCondition": {
-    "newWithTags": 7,
-    "veryGood": 25,
-    "newWithoutTags": 1
+    "veryGood": 14,
+    "newWithTags": 4,
+    "newWithoutTags": 3
   },
-  "duplicateSuppressed": 89,
+  "duplicateSuppressed": 69,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,11 +69,11 @@
   "pendingDeliveries": 0,
   "detailFetches": 0,
   "rejects": {
-    "recovery-no-fresh-signal": 241,
-    "condition": 10,
-    "price": 17,
-    "weak-margin": 1,
-    "keyword": 3
+    "recovery-no-fresh-signal": 131,
+    "keyword": 1,
+    "condition": 2,
+    "price": 8,
+    "score": 1
   },
   "failures": {}
 }
