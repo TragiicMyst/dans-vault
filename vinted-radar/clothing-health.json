@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-09-17T10:24:03.938Z",
-  "stateUpdatedAt": "2026-09-17T10:24:03.938Z",
-  "lastAttemptAt": "2026-09-17T10:24:03.938Z",
-  "lastScanAt": "2026-09-17T10:24:03.938Z",
+  "generatedAt": "2026-09-17T12:12:16.010Z",
+  "stateUpdatedAt": "2026-09-17T12:12:16.010Z",
+  "lastAttemptAt": "2026-09-17T12:12:16.010Z",
+  "lastScanAt": "2026-09-17T12:12:16.010Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike ACG Tuff Fleece::nike acg tuff fleece",
-    "Nike Solo Swoosh Crew::nike solo swoosh sweatshirt",
-    "Nike Miler Repel Jacket::nike miler repel jacket",
-    "Nike Solo Swoosh Joggers::nike solo swoosh joggers",
-    "Nike Stride Running Jacket::nike stride running jacket",
-    "Nike T-Shirt::nike t shirt"
+    "Nike Long Sleeve Top::nike long sleeve top",
+    "Nike Polo::nike polo",
+    "Nike Football Shirt::nike football shirt",
+    "Nike Training Top::nike training top",
+    "Nike Dri-FIT Top::nike dri fit top",
+    "Nike Quarter Zip::nike quarter zip"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1438,
-  "catalogItems": 840,
-  "candidateItems": 324,
-  "freshItems": 70,
-  "qualifyingAlerts": 21,
+  "catalogMarkers": 1344,
+  "catalogItems": 1016,
+  "candidateItems": 280,
+  "freshItems": 186,
+  "qualifyingAlerts": 87,
   "qualifyingByCondition": {
-    "veryGood": 19,
-    "newWithoutTags": 1,
-    "newWithTags": 1
+    "veryGood": 79,
+    "newWithoutTags": 6,
+    "newWithTags": 2
   },
-  "deliveredAlerts": 21,
+  "deliveredAlerts": 87,
   "deliveredByCondition": {
-    "veryGood": 19,
-    "newWithoutTags": 1,
-    "newWithTags": 1
+    "veryGood": 79,
+    "newWithoutTags": 6,
+    "newWithTags": 2
   },
-  "duplicateSuppressed": 75,
+  "duplicateSuppressed": 12,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,12 +69,12 @@
   "pendingDeliveries": 0,
   "detailFetches": 6,
   "rejects": {
-    "condition": 20,
-    "price": 18,
-    "recovery-no-fresh-signal": 179,
-    "score": 1,
-    "keyword": 4,
-    "size": 6
+    "price": 29,
+    "condition": 43,
+    "recovery-no-fresh-signal": 82,
+    "keyword": 13,
+    "size": 4,
+    "detail-budget-exhausted": 10
   },
   "failures": {}
 }
