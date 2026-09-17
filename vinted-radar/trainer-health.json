@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-17T15:20:53.051Z",
-  "stateUpdatedAt": "2026-09-17T15:20:53.051Z",
-  "lastAttemptAt": "2026-09-17T15:20:53.051Z",
-  "lastScanAt": "2026-09-17T15:15:53.235Z",
-  "cooldownUntil": "2026-09-17T15:22:09.628Z",
-  "healthyScan": false,
-  "healthReason": "vinted-block-or-challenge",
+  "generatedAt": "2026-09-17T19:02:07.814Z",
+  "stateUpdatedAt": "2026-09-17T19:02:07.814Z",
+  "lastAttemptAt": "2026-09-17T19:02:07.814Z",
+  "lastScanAt": "2026-09-17T19:02:07.814Z",
+  "cooldownUntil": null,
+  "healthyScan": true,
+  "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
     "Nike Air Force 1::primary",
@@ -15,25 +15,65 @@
     "Air Jordan 4::primary",
     "Nike Initiator::primary"
   ],
-  "successfulSearches": 0,
-  "failedSearches": 1,
-  "catalogMarkers": 0,
-  "catalogItems": 0,
-  "candidateItems": 0,
-  "freshItems": 0,
-  "qualifyingAlerts": 0,
-  "qualifyingByCondition": {},
-  "deliveredAlerts": 0,
-  "deliveredByCondition": {},
-  "duplicateSuppressed": 0,
+  "successfulSearches": 7,
+  "failedSearches": 0,
+  "catalogMarkers": 1344,
+  "catalogItems": 972,
+  "candidateItems": 648,
+  "freshItems": 294,
+  "qualifyingAlerts": 4,
+  "qualifyingByCondition": {
+    "veryGood": 4
+  },
+  "deliveredAlerts": 4,
+  "deliveredByCondition": {
+    "veryGood": 4
+  },
+  "duplicateSuppressed": 32,
   "discordFailures": 0,
-  "discordRoutes": [],
+  "discordRoutes": [
+    {
+      "configuredAs": "newWithoutTags",
+      "webhookId": "1541037387969462303",
+      "channelId": "1541036356384329819",
+      "guildId": "1540743210488430592",
+      "webhookName": "Dan's NWOT Bot",
+      "detectedCondition": "newWithoutTags",
+      "inspectionError": null
+    },
+    {
+      "configuredAs": "newWithTags",
+      "webhookId": "1541040362997547048",
+      "channelId": "1541040152372183140",
+      "guildId": "1540743210488430592",
+      "webhookName": "Dan's New With Tags Bot",
+      "detectedCondition": "newWithTags",
+      "inspectionError": null
+    },
+    {
+      "configuredAs": "veryGood",
+      "webhookId": "1541040545483198516",
+      "channelId": "1541040213780992171",
+      "guildId": "1540743210488430592",
+      "webhookName": "Dan's Very Good Condition Bot",
+      "detectedCondition": "veryGood",
+      "inspectionError": null
+    }
+  ],
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 0,
-  "rejects": {},
-  "failures": {
-    "Nike Any Shoe Bargain::generic": "Vinted guard cooldown active for 44s"
-  }
+  "detailFetches": 12,
+  "rejects": {
+    "keyword": 43,
+    "recovery-no-fresh-signal": 322,
+    "condition": 74,
+    "price": 14,
+    "size": 6,
+    "seller-risk": 2,
+    "seller-check-budget-exhausted": 75,
+    "detail-budget-exhausted": 73,
+    "weak-margin": 3
+  },
+  "failures": {}
 }
