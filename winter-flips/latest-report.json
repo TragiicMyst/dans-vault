@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-09-17T14:32:33.189Z",
+    "startedAt": "2026-09-17T18:34:13.762Z",
     "searchGroups": [
-      "hunter:polo-puffer-jacket",
-      "hunter:nike-puffer-jacket",
-      "hunter:berghaus-puffer",
-      "hunter:napapijri-jacket",
-      "tnf-1996-nuptse:north-face-nuptse-700",
-      "tnf-1996-nuptse:north-face-1996-nuptse",
-      "tnf-himalayan:north-face-himalayan-puffer",
-      "tnf-himalayan:north-face-hmlyn-parka"
+      "berghaus-down:berghaus-down-jacket",
+      "berghaus-down:berghaus-puffer-jacket",
+      "napapijri-skidoo:napapijri-skidoo-jacket",
+      "napapijri-skidoo:napapijri-rainforest-winter",
+      "hunter:north-face-coat",
+      "hunter:north-face-puffer",
+      "hunter:north-face-700",
+      "hunter:mens-north-face-jacket"
     ],
     "vintedItems": 280,
-    "freshItems": 22,
+    "freshItems": 82,
     "freshByAge": 0,
-    "freshByNewId": 22,
+    "freshByNewId": 82,
     "bootstrapBlocked": 0,
-    "staleBlocked": 1,
-    "candidates": 6,
-    "alerts": 3,
+    "staleBlocked": 4,
+    "candidates": 14,
+    "alerts": 1,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-09-17T18:34:18.888Z",
+      "platform": "VINTED",
+      "id": "10036400263",
+      "title": "berghaus puffer jacket",
+      "url": "https://www.vinted.co.uk/items/10036400263-berghaus-puffer-jacket",
+      "modelId": "berghaus-down",
+      "buyPrice": 25,
+      "estimatedNetProfit": 29.18,
+      "roi": 116.72,
+      "score": 84
+    },
     {
       "at": "2026-09-17T14:32:41.140Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 37.43,
       "roi": 187.15,
       "score": 97
-    },
-    {
-      "at": "2026-09-15T17:02:07.481Z",
-      "platform": "VINTED",
-      "id": "10010990073",
-      "title": "ralph lauren reversible quilted jacket 2 years",
-      "url": "https://www.vinted.co.uk/items/10010990073-ralph-lauren-reversible-quilted-jacket-2-years",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 30,
-      "estimatedNetProfit": 37.67,
-      "roi": 125.57,
-      "score": 88
     }
   ]
 }
