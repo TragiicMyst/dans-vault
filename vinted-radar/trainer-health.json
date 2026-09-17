@@ -1,37 +1,35 @@
 {
-  "generatedAt": "2026-09-17T05:25:55.617Z",
-  "stateUpdatedAt": "2026-09-17T05:25:55.617Z",
-  "lastAttemptAt": "2026-09-17T05:25:55.617Z",
-  "lastScanAt": "2026-09-17T05:25:55.617Z",
+  "generatedAt": "2026-09-17T05:30:55.367Z",
+  "stateUpdatedAt": "2026-09-17T05:30:55.367Z",
+  "lastAttemptAt": "2026-09-17T05:30:55.367Z",
+  "lastScanAt": "2026-09-17T05:30:55.367Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Air Max 90 Drift::primary",
-    "Nike Air Max 97::primary",
-    "Nike Air Max 270::primary",
-    "Nike Air Max Dn::primary",
-    "Nike Air Max 1::primary",
-    "Nike Shox TL::primary"
+    "Nike Shox R4::primary",
+    "Nike Shox Ride 2::primary",
+    "Nike Air Force 1::primary",
+    "Nike Dunk Low::primary",
+    "Air Jordan 1 Low::primary",
+    "Air Jordan 1 Mid::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 987,
-  "candidateItems": 538,
-  "freshItems": 118,
-  "qualifyingAlerts": 7,
+  "catalogItems": 876,
+  "candidateItems": 588,
+  "freshItems": 39,
+  "qualifyingAlerts": 6,
   "qualifyingByCondition": {
-    "veryGood": 6,
-    "newWithTags": 1
+    "veryGood": 6
   },
-  "deliveredAlerts": 7,
+  "deliveredAlerts": 6,
   "deliveredByCondition": {
-    "veryGood": 6,
-    "newWithTags": 1
+    "veryGood": 6
   },
-  "duplicateSuppressed": 42,
+  "duplicateSuppressed": 34,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,14 +65,14 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "recovery-no-fresh-signal": 378,
+    "stale": 515,
     "price": 5,
-    "weak-margin": 3,
-    "condition": 14,
-    "size": 5,
-    "seller-check-budget-exhausted": 41,
-    "keyword": 8,
-    "detail-budget-exhausted": 35
+    "condition": 6,
+    "keyword": 6,
+    "size": 6,
+    "weak-margin": 1,
+    "detail-budget-exhausted": 4,
+    "seller-check-budget-exhausted": 5
   },
   "failures": {}
 }
