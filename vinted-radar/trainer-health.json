@@ -1,37 +1,35 @@
 {
-  "generatedAt": "2026-09-18T05:10:09.552Z",
-  "stateUpdatedAt": "2026-09-18T05:10:09.552Z",
-  "lastAttemptAt": "2026-09-18T05:10:09.552Z",
-  "lastScanAt": "2026-09-18T05:10:09.552Z",
+  "generatedAt": "2026-09-18T09:34:52.044Z",
+  "stateUpdatedAt": "2026-09-18T09:34:52.044Z",
+  "lastAttemptAt": "2026-09-18T09:34:52.044Z",
+  "lastScanAt": "2026-09-18T09:34:52.044Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Vomero 18::primary",
-    "Nike Vomero Plus::primary",
-    "Nike Vomero Premium::primary",
-    "Nike Pegasus Premium::primary",
-    "Nike Pegasus Trail 5 GORE-TEX::primary",
-    "Nike TN::primary"
+    "Nike Air Max Plus 3::primary",
+    "Nike Air Max Plus VII::primary",
+    "Nike Air Max 95::primary",
+    "Nike Air Max 90::primary",
+    "Nike Air Max 90 Drift::primary",
+    "Nike Air Max 97::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1344,
-  "catalogItems": 809,
-  "candidateItems": 436,
-  "freshItems": 110,
-  "qualifyingAlerts": 7,
+  "catalogMarkers": 1343,
+  "catalogItems": 1049,
+  "candidateItems": 566,
+  "freshItems": 123,
+  "qualifyingAlerts": 10,
   "qualifyingByCondition": {
-    "veryGood": 5,
-    "newWithTags": 2
+    "veryGood": 10
   },
-  "deliveredAlerts": 7,
+  "deliveredAlerts": 10,
   "deliveredByCondition": {
-    "veryGood": 5,
-    "newWithTags": 2
+    "veryGood": 10
   },
-  "duplicateSuppressed": 44,
+  "duplicateSuppressed": 47,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,12 +65,15 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 282,
-    "size": 5,
-    "seller-check-budget-exhausted": 74,
-    "detail-budget-exhausted": 22,
-    "keyword": 1,
-    "price": 1
+    "recovery-no-fresh-signal": 396,
+    "keyword": 10,
+    "size": 1,
+    "price": 8,
+    "condition": 17,
+    "score": 1,
+    "seller-check-budget-exhausted": 44,
+    "detail-budget-exhausted": 30,
+    "weak-margin": 2
   },
   "failures": {}
 }
