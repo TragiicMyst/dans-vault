@@ -2,29 +2,53 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-09-18T06:37:40.903Z",
+    "startedAt": "2026-09-18T11:48:08.764Z",
     "searchGroups": [
-      "tnf-himalayan:north-face-himalayan-puffer",
-      "tnf-himalayan:north-face-hmlyn-parka",
-      "tnf-baltoro:north-face-baltoro-jacket",
-      "tnf-summit-down:north-face-summit-series-down",
-      "rab-microlight:rab-microlight-alpine",
-      "rab-neutrino:rab-neutrino-pro",
-      "rab-electron:rab-electron-pro",
-      "patagonia-down-sweater:patagonia-down-sweater-jacket"
+      "hunter:north-face-700",
+      "hunter:mens-north-face-jacket",
+      "hunter:rab-puffer",
+      "hunter:rab-down-jacket",
+      "hunter:patagonia-puffer",
+      "hunter:arcteryx-jacket",
+      "hunter:arc-teryx-puffer",
+      "hunter:ralph-lauren-puffer"
     ],
     "vintedItems": 280,
-    "freshItems": 0,
+    "freshItems": 21,
     "freshByAge": 0,
-    "freshByNewId": 0,
+    "freshByNewId": 21,
     "bootstrapBlocked": 0,
-    "staleBlocked": 2,
-    "candidates": 0,
+    "staleBlocked": 14,
+    "candidates": 4,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-09-18T11:42:23.737Z",
+      "platform": "VINTED",
+      "id": "10040657912",
+      "title": "ralph lauren puffer jacket age 12 14",
+      "url": "https://www.vinted.co.uk/items/10040657912-ralph-lauren-puffer-jacket-age-12-14",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 40,
+      "estimatedNetProfit": 33.59,
+      "roi": 83.98,
+      "score": 81
+    },
+    {
+      "at": "2026-09-18T11:42:22.732Z",
+      "platform": "VINTED",
+      "id": "10040726256",
+      "title": "ralph polo lauren jacket",
+      "url": "https://www.vinted.co.uk/items/10040726256-ralph-polo-lauren-jacket",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 30,
+      "estimatedNetProfit": 44.14,
+      "roi": 147.13,
+      "score": 88
+    },
     {
       "at": "2026-09-18T06:34:44.218Z",
       "platform": "VINTED",
@@ -240,30 +264,6 @@
       "estimatedNetProfit": 33.59,
       "roi": 83.98,
       "score": 81
-    },
-    {
-      "at": "2026-09-16T14:56:56.689Z",
-      "platform": "VINTED",
-      "id": "10020085324",
-      "title": "the north face womens multicoloured down 700 puffer gilet sz m",
-      "url": "https://www.vinted.co.uk/items/10020085324-the-north-face-womens-multicoloured-down-700-puffer-gilet-sz-m",
-      "modelId": "tnf-1996-nuptse",
-      "buyPrice": 45,
-      "estimatedNetProfit": 31.87,
-      "roi": 70.82,
-      "score": 75
-    },
-    {
-      "at": "2026-09-16T10:09:25.712Z",
-      "platform": "VINTED",
-      "id": "10018888606",
-      "title": "polo ralph lauren puffer down jacket uk12",
-      "url": "https://www.vinted.co.uk/items/10018888606-polo-ralph-lauren-puffer-down-jacket-uk12",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 40,
-      "estimatedNetProfit": 33.2,
-      "roi": 83,
-      "score": 85
     }
   ]
 }
