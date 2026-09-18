@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-09-18T01:36:19.952Z",
+    "startedAt": "2026-09-18T06:37:40.903Z",
     "searchGroups": [
-      "ralph-lauren-puffer:ralph-lauren-puffer-jacket",
-      "ralph-lauren-puffer:polo-ralph-lauren-down-jacket",
-      "nike-puffer:nike-puffer-jacket-mens",
-      "nike-puffer:nike-down-jacket",
-      "berghaus-down:berghaus-down-jacket",
-      "berghaus-down:berghaus-puffer-jacket",
-      "napapijri-skidoo:napapijri-skidoo-jacket",
-      "napapijri-skidoo:napapijri-rainforest-winter"
+      "tnf-himalayan:north-face-himalayan-puffer",
+      "tnf-himalayan:north-face-hmlyn-parka",
+      "tnf-baltoro:north-face-baltoro-jacket",
+      "tnf-summit-down:north-face-summit-series-down",
+      "rab-microlight:rab-microlight-alpine",
+      "rab-neutrino:rab-neutrino-pro",
+      "rab-electron:rab-electron-pro",
+      "patagonia-down-sweater:patagonia-down-sweater-jacket"
     ],
     "vintedItems": 280,
-    "freshItems": 2,
+    "freshItems": 0,
     "freshByAge": 0,
-    "freshByNewId": 2,
+    "freshByNewId": 0,
     "bootstrapBlocked": 0,
-    "staleBlocked": 0,
-    "candidates": 1,
+    "staleBlocked": 2,
+    "candidates": 0,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-09-18T06:34:44.218Z",
+      "platform": "VINTED",
+      "id": "10039995551",
+      "title": "ralph lauren polo 75down coat",
+      "url": "https://www.vinted.co.uk/items/10039995551-ralph-lauren-polo-75down-coat",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 45,
+      "estimatedNetProfit": 31.99,
+      "roi": 71.09,
+      "score": 75
+    },
     {
       "at": "2026-09-17T23:40:30.075Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 33.2,
       "roi": 83,
       "score": 85
-    },
-    {
-      "at": "2026-09-16T10:06:29.174Z",
-      "platform": "VINTED",
-      "id": "10018610319",
-      "title": "patagonia baby reversible down sweater hoody",
-      "url": "https://www.vinted.co.uk/items/10018610319-patagonia-baby-reversible-down-sweater-hoody",
-      "modelId": "patagonia-down-sweater",
-      "buyPrice": 42.3,
-      "estimatedNetProfit": 40.52,
-      "roi": 95.79,
-      "score": 84
     }
   ]
 }
