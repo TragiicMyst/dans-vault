@@ -1,39 +1,37 @@
 {
-  "generatedAt": "2026-09-18T15:02:21.684Z",
-  "stateUpdatedAt": "2026-09-18T15:02:21.684Z",
-  "lastAttemptAt": "2026-09-18T15:02:21.684Z",
-  "lastScanAt": "2026-09-18T15:02:21.684Z",
+  "generatedAt": "2026-09-18T17:24:07.650Z",
+  "stateUpdatedAt": "2026-09-18T17:24:07.650Z",
+  "lastAttemptAt": "2026-09-18T17:24:07.650Z",
+  "lastScanAt": "2026-09-18T17:24:07.650Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Dri-FIT Top::nike dri fit top",
-    "Nike Quarter Zip::nike quarter zip",
-    "Nike Fleece::nike fleece",
-    "Nike Gilet::nike gilet",
-    "Nike Windbreaker::nike windbreaker",
-    "Nike Anorak::nike anorak"
+    "Nike Rain Jacket::nike rain jacket",
+    "Nike Woven Jacket::nike woven jacket",
+    "Nike Bomber Jacket::nike bomber jacket",
+    "Nike Coat::nike coat",
+    "Nike Shorts::nike shorts",
+    "Nike Cargo Trousers::nike cargo trousers"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 1031,
-  "candidateItems": 284,
-  "freshItems": 213,
-  "qualifyingAlerts": 101,
+  "catalogItems": 1106,
+  "candidateItems": 289,
+  "freshItems": 201,
+  "qualifyingAlerts": 68,
   "qualifyingByCondition": {
-    "veryGood": 91,
-    "newWithTags": 5,
+    "veryGood": 63,
     "newWithoutTags": 5
   },
-  "deliveredAlerts": 101,
+  "deliveredAlerts": 68,
   "deliveredByCondition": {
-    "veryGood": 91,
-    "newWithTags": 5,
+    "veryGood": 63,
     "newWithoutTags": 5
   },
-  "duplicateSuppressed": 3,
+  "duplicateSuppressed": 16,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,11 +67,11 @@
   "pendingDeliveries": 0,
   "detailFetches": 6,
   "rejects": {
-    "recovery-no-fresh-signal": 68,
+    "price": 76,
+    "size": 6,
+    "recovery-no-fresh-signal": 72,
+    "condition": 33,
     "keyword": 10,
-    "price": 61,
-    "condition": 28,
-    "size": 5,
     "detail-budget-exhausted": 8
   },
   "failures": {}
