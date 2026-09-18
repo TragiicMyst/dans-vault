@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-18T00:23:56.331Z",
-  "stateUpdatedAt": "2026-09-18T00:23:56.331Z",
-  "lastAttemptAt": "2026-09-18T00:23:56.331Z",
+  "generatedAt": "2026-09-18T00:28:55.800Z",
+  "stateUpdatedAt": "2026-09-18T00:28:55.800Z",
+  "lastAttemptAt": "2026-09-18T00:28:55.800Z",
   "lastScanAt": "2026-09-18T00:18:56.059Z",
-  "cooldownUntil": "2026-09-18T00:25:45.920Z",
+  "cooldownUntil": "2026-09-18T00:30:13.008Z",
   "healthyScan": false,
   "healthReason": "vinted-block-or-challenge",
   "selectedSearches": [
@@ -15,37 +15,25 @@
     "Air Jordan 4::primary",
     "Nike Initiator::primary"
   ],
-  "successfulSearches": 1,
+  "successfulSearches": 0,
   "failedSearches": 1,
-  "catalogMarkers": 384,
-  "catalogItems": 314,
-  "candidateItems": 187,
-  "freshItems": 22,
-  "qualifyingAlerts": 3,
-  "qualifyingByCondition": {
-    "veryGood": 3
-  },
-  "deliveredAlerts": 3,
-  "deliveredByCondition": {
-    "veryGood": 3
-  },
+  "catalogMarkers": 0,
+  "catalogItems": 0,
+  "candidateItems": 0,
+  "freshItems": 0,
+  "qualifyingAlerts": 0,
+  "qualifyingByCondition": {},
+  "deliveredAlerts": 0,
+  "deliveredByCondition": {},
   "duplicateSuppressed": 0,
   "discordFailures": 0,
   "discordRoutes": [],
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 8,
-  "rejects": {
-    "stale": 112,
-    "size": 3,
-    "price": 4,
-    "seller-risk": 1,
-    "weak-margin": 2,
-    "condition": 8,
-    "seller-check-failed": 1
-  },
+  "detailFetches": 0,
+  "rejects": {},
   "failures": {
-    "Nike Air Force 1::primary": "Vinted guard cooldown active for 44s"
+    "Nike Any Shoe Bargain::generic": "Vinted guard cooldown active for 43s"
   }
 }
