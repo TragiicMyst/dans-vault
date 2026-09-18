@@ -1,37 +1,37 @@
 {
-  "generatedAt": "2026-09-18T17:40:44.053Z",
-  "stateUpdatedAt": "2026-09-18T17:40:44.053Z",
-  "lastAttemptAt": "2026-09-18T17:40:44.053Z",
-  "lastScanAt": "2026-09-18T17:40:44.053Z",
+  "generatedAt": "2026-09-18T19:53:25.376Z",
+  "stateUpdatedAt": "2026-09-18T19:53:25.376Z",
+  "lastAttemptAt": "2026-09-18T19:53:25.376Z",
+  "lastScanAt": "2026-09-18T19:53:25.376Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Air Max Moto 2K::primary",
-    "Nike Metcon 10::primary",
-    "Nike Zoom Fly 6::primary",
-    "Nike Air Max Bargain::generic",
-    "Nike Running Trainer Bargain::generic",
-    "Nike Lifestyle Trainer Bargain::generic"
+    "Nike Football Boot Bargain::generic",
+    "Nike Basketball Shoe Bargain::generic",
+    "Nike SB Shoe Bargain::generic",
+    "Nike P-6000::primary",
+    "Nike V5 RNR::primary",
+    "Nike Vomero 5::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1343,
-  "catalogItems": 844,
-  "candidateItems": 426,
-  "freshItems": 152,
-  "qualifyingAlerts": 10,
+  "catalogMarkers": 1270,
+  "catalogItems": 799,
+  "candidateItems": 454,
+  "freshItems": 257,
+  "qualifyingAlerts": 4,
   "qualifyingByCondition": {
-    "veryGood": 8,
-    "newWithoutTags": 2
+    "newWithoutTags": 1,
+    "veryGood": 3
   },
-  "deliveredAlerts": 10,
+  "deliveredAlerts": 4,
   "deliveredByCondition": {
-    "veryGood": 8,
-    "newWithoutTags": 2
+    "newWithoutTags": 1,
+    "veryGood": 3
   },
-  "duplicateSuppressed": 35,
+  "duplicateSuppressed": 1,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,14 +67,14 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 239,
-    "condition": 18,
-    "keyword": 14,
-    "size": 2,
-    "detail-budget-exhausted": 26,
-    "seller-check-budget-exhausted": 62,
-    "weak-margin": 1,
-    "price": 19
+    "recovery-no-fresh-signal": 196,
+    "condition": 56,
+    "size": 8,
+    "price": 37,
+    "keyword": 13,
+    "seller-check-budget-exhausted": 73,
+    "detail-budget-exhausted": 60,
+    "weak-margin": 6
   },
   "failures": {}
 }
