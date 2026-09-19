@@ -1,39 +1,37 @@
 {
-  "generatedAt": "2026-09-19T14:50:20.408Z",
-  "stateUpdatedAt": "2026-09-19T14:50:20.408Z",
-  "lastAttemptAt": "2026-09-19T14:50:20.408Z",
-  "lastScanAt": "2026-09-19T14:50:20.408Z",
+  "generatedAt": "2026-09-19T16:36:18.876Z",
+  "stateUpdatedAt": "2026-09-19T16:36:18.876Z",
+  "lastAttemptAt": "2026-09-19T16:36:18.876Z",
+  "lastScanAt": "2026-09-19T16:36:18.876Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Windbreaker::nike windbreaker",
-    "Nike Anorak::nike anorak",
-    "Nike Rain Jacket::nike rain jacket",
-    "Nike Woven Jacket::nike woven jacket",
-    "Nike Bomber Jacket::nike bomber jacket",
-    "Nike Coat::nike coat"
+    "Nike Shorts::nike shorts",
+    "Nike Cargo Trousers::nike cargo trousers",
+    "Nike Track Pants::nike track pants",
+    "Nike Woven Trousers::nike woven trousers",
+    "Nike Tracksuit::nike tracksuit",
+    "Nike Vintage Clothing::vintage nike"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1343,
-  "catalogItems": 1101,
-  "candidateItems": 242,
-  "freshItems": 137,
-  "qualifyingAlerts": 52,
+  "catalogMarkers": 1344,
+  "catalogItems": 1100,
+  "candidateItems": 338,
+  "freshItems": 272,
+  "qualifyingAlerts": 82,
   "qualifyingByCondition": {
-    "veryGood": 46,
-    "newWithoutTags": 3,
-    "newWithTags": 3
+    "veryGood": 66,
+    "newWithoutTags": 16
   },
-  "deliveredAlerts": 52,
+  "deliveredAlerts": 82,
   "deliveredByCondition": {
-    "veryGood": 46,
-    "newWithoutTags": 3,
-    "newWithTags": 3
+    "veryGood": 66,
+    "newWithoutTags": 16
   },
-  "duplicateSuppressed": 13,
+  "duplicateSuppressed": 12,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,12 +67,12 @@
   "pendingDeliveries": 0,
   "detailFetches": 6,
   "rejects": {
-    "recovery-no-fresh-signal": 92,
-    "condition": 29,
-    "price": 36,
-    "keyword": 11,
-    "size": 5,
-    "detail-budget-exhausted": 4
+    "price": 106,
+    "condition": 53,
+    "recovery-no-fresh-signal": 54,
+    "size": 6,
+    "keyword": 13,
+    "detail-budget-exhausted": 12
   },
   "failures": {}
 }
