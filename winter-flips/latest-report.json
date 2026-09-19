@@ -2,29 +2,53 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-09-19T10:53:14.458Z",
+    "startedAt": "2026-09-19T14:06:08.442Z",
     "searchGroups": [
-      "tnf-baltoro:north-face-baltoro-jacket",
-      "tnf-summit-down:north-face-summit-series-down",
-      "rab-microlight:rab-microlight-alpine",
-      "rab-neutrino:rab-neutrino-pro",
-      "rab-electron:rab-electron-pro",
-      "patagonia-down-sweater:patagonia-down-sweater-jacket",
-      "patagonia-down-sweater:patagonia-down-sweater-hoody",
-      "patagonia-fitz-roy:patagonia-fitz-roy-down"
+      "hunter:rab-puffer",
+      "hunter:rab-down-jacket",
+      "hunter:patagonia-puffer",
+      "hunter:arcteryx-jacket",
+      "hunter:arc-teryx-puffer",
+      "hunter:ralph-lauren-puffer",
+      "hunter:polo-puffer-jacket",
+      "hunter:nike-puffer-jacket"
     ],
     "vintedItems": 280,
-    "freshItems": 0,
+    "freshItems": 23,
     "freshByAge": 0,
-    "freshByNewId": 0,
+    "freshByNewId": 23,
     "bootstrapBlocked": 0,
-    "staleBlocked": 2,
-    "candidates": 0,
-    "alerts": 0,
+    "staleBlocked": 0,
+    "candidates": 2,
+    "alerts": 1,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-09-19T14:06:25.275Z",
+      "platform": "VINTED",
+      "id": "10054796994",
+      "title": "nike puffer coat",
+      "url": "https://www.vinted.co.uk/items/10054796994-nike-puffer-coat",
+      "modelId": "nike-puffer",
+      "buyPrice": 30,
+      "estimatedNetProfit": 26.88,
+      "roi": 89.6,
+      "score": 87
+    },
+    {
+      "at": "2026-09-19T14:03:26.626Z",
+      "platform": "VINTED",
+      "id": "10055611907",
+      "title": "the north face summit series wind stopper soft shell jacket",
+      "url": "https://www.vinted.co.uk/items/10055611907-the-north-face-summit-series-wind-stopper-soft-shell-jacket",
+      "modelId": "tnf-summit-down",
+      "buyPrice": 52,
+      "estimatedNetProfit": 36.69,
+      "roi": 70.56,
+      "score": 80
+    },
     {
       "at": "2026-09-19T01:23:16.399Z",
       "platform": "VINTED",
@@ -240,30 +264,6 @@
       "estimatedNetProfit": 32.81,
       "roi": 164.05,
       "score": 91
-    },
-    {
-      "at": "2026-09-17T14:29:50.905Z",
-      "platform": "VINTED",
-      "id": "10032548969",
-      "title": "like new ralph lauren kids puffer jacket age 8 with drawstring bag",
-      "url": "https://www.vinted.co.uk/items/10032548969-like-new-ralph-lauren-kids-puffer-jacket-age-8-with-drawstring-bag",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 35,
-      "estimatedNetProfit": 27.73,
-      "roi": 79.23,
-      "score": 84
-    },
-    {
-      "at": "2026-09-17T14:26:49.213Z",
-      "platform": "VINTED",
-      "id": "10033070210",
-      "title": "brand new without tags north face royal blue jacketcoat summit series in pristine condition",
-      "url": "https://www.vinted.co.uk/items/10033070210-brand-new-without-tags-north-face-royal-blue-jacketcoat-summit-series-in-pristine-condition",
-      "modelId": "tnf-summit-down",
-      "buyPrice": 40,
-      "estimatedNetProfit": 48.71,
-      "roi": 121.78,
-      "score": 92
     }
   ]
 }
