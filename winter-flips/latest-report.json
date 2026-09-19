@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-09-19T19:24:28.169Z",
+    "startedAt": "2026-09-19T21:36:00.296Z",
     "searchGroups": [
-      "tnf-1996-nuptse:north-face-nuptse-700",
-      "tnf-1996-nuptse:north-face-1996-nuptse",
-      "tnf-himalayan:north-face-himalayan-puffer",
-      "tnf-himalayan:north-face-hmlyn-parka",
-      "tnf-baltoro:north-face-baltoro-jacket",
-      "tnf-summit-down:north-face-summit-series-down",
-      "rab-microlight:rab-microlight-alpine",
-      "rab-neutrino:rab-neutrino-pro"
+      "hunter:north-face-coat",
+      "hunter:north-face-puffer",
+      "hunter:north-face-700",
+      "hunter:mens-north-face-jacket",
+      "hunter:rab-puffer",
+      "hunter:rab-down-jacket",
+      "hunter:patagonia-puffer",
+      "hunter:arcteryx-jacket"
     ],
     "vintedItems": 280,
-    "freshItems": 2,
+    "freshItems": 42,
     "freshByAge": 0,
-    "freshByNewId": 2,
+    "freshByNewId": 42,
     "bootstrapBlocked": 0,
-    "staleBlocked": 0,
-    "candidates": 1,
+    "staleBlocked": 9,
+    "candidates": 2,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-09-19T21:33:03.197Z",
+      "platform": "VINTED",
+      "id": "10061781033",
+      "title": "ralph lauren quilted reversable puffer vest",
+      "url": "https://www.vinted.co.uk/items/10061781033-ralph-lauren-quilted-reversable-puffer-vest",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 30,
+      "estimatedNetProfit": 48.05,
+      "roi": 160.17,
+      "score": 96
+    },
     {
       "at": "2026-09-19T19:21:40.521Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 29.18,
       "roi": 116.72,
       "score": 84
-    },
-    {
-      "at": "2026-09-17T14:32:41.140Z",
-      "platform": "VINTED",
-      "id": "10032027657",
-      "title": "nike puffer jacket",
-      "url": "https://www.vinted.co.uk/items/10032027657-nike-puffer-jacket",
-      "modelId": "nike-puffer",
-      "buyPrice": 5,
-      "estimatedNetProfit": 41.31,
-      "roi": 826.2,
-      "score": 92
     }
   ]
 }
