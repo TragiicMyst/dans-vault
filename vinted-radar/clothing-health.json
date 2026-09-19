@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-09-19T20:31:45.647Z",
-  "stateUpdatedAt": "2026-09-19T20:31:45.647Z",
-  "lastAttemptAt": "2026-09-19T20:31:45.647Z",
-  "lastScanAt": "2026-09-19T20:31:45.647Z",
+  "generatedAt": "2026-09-19T21:22:54.767Z",
+  "stateUpdatedAt": "2026-09-19T21:22:54.767Z",
+  "lastAttemptAt": "2026-09-19T21:22:54.767Z",
+  "lastScanAt": "2026-09-19T21:22:54.767Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Puffer Jacket::nike puffer jacket",
-    "Nike NOCTA Track Jacket::nike nocta track jacket",
-    "Nike Miler Shorts::nike miler shorts",
-    "Nike Tech Fleece Full-Zip Hoodie::nike tech fleece full zip hoodie",
-    "Nike ACG Canwell Glacier Jacket::nike acg canwell glacier",
-    "Nike Strike Tracksuit::nike strike tracksuit"
+    "Nike Challenger Shorts::nike challenger shorts",
+    "Nike Tech Fleece Joggers::nike tech fleece joggers",
+    "Nike Storm-FIT Puffer::nike storm fit puffer",
+    "Nike Solo Swoosh Hoodie::nike solo swoosh hoodie",
+    "Nike Miler Running Top::nike miler running top",
+    "Nike Tech Fleece Open-Hem Trousers::nike tech fleece open hem trousers"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1486,
-  "catalogItems": 838,
-  "candidateItems": 236,
-  "freshItems": 91,
-  "qualifyingAlerts": 49,
+  "catalogMarkers": 1535,
+  "catalogItems": 822,
+  "candidateItems": 359,
+  "freshItems": 128,
+  "qualifyingAlerts": 55,
   "qualifyingByCondition": {
-    "veryGood": 41,
+    "veryGood": 42,
     "newWithTags": 4,
-    "newWithoutTags": 4
+    "newWithoutTags": 9
   },
-  "deliveredAlerts": 49,
+  "deliveredAlerts": 55,
   "deliveredByCondition": {
-    "veryGood": 41,
+    "veryGood": 42,
     "newWithTags": 4,
-    "newWithoutTags": 4
+    "newWithoutTags": 9
   },
-  "duplicateSuppressed": 39,
+  "duplicateSuppressed": 68,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,13 +67,14 @@
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 5,
+  "detailFetches": 2,
   "rejects": {
-    "condition": 13,
-    "price": 15,
-    "recovery-no-fresh-signal": 106,
-    "keyword": 8,
-    "weak-margin": 4,
+    "keyword": 7,
+    "recovery-no-fresh-signal": 163,
+    "weak-margin": 19,
+    "price": 20,
+    "condition": 22,
+    "clothing-variety-cap": 3,
     "size": 2
   },
   "failures": {}
