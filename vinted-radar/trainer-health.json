@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-09-19T16:40:09.578Z",
-  "stateUpdatedAt": "2026-09-19T16:40:09.578Z",
-  "lastAttemptAt": "2026-09-19T16:40:09.578Z",
-  "lastScanAt": "2026-09-19T16:40:09.578Z",
+  "generatedAt": "2026-09-19T18:47:22.549Z",
+  "stateUpdatedAt": "2026-09-19T18:47:22.549Z",
+  "lastAttemptAt": "2026-09-19T18:47:22.549Z",
+  "lastScanAt": "2026-09-19T18:47:22.549Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Vomero 18::primary",
-    "Nike Vomero Plus::primary",
-    "Nike Vomero Premium::primary",
-    "Nike Pegasus Premium::primary",
-    "Nike Pegasus Trail 5 GORE-TEX::primary",
-    "Nike TN::primary"
+    "Nike Air Max Plus 3::primary",
+    "Nike Air Max Plus VII::primary",
+    "Nike Air Max 95::primary",
+    "Nike Air Max 90::primary",
+    "Nike Air Max 90 Drift::primary",
+    "Nike Air Max 97::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1344,
-  "catalogItems": 778,
-  "candidateItems": 492,
-  "freshItems": 218,
-  "qualifyingAlerts": 8,
+  "catalogMarkers": 1342,
+  "catalogItems": 1049,
+  "candidateItems": 566,
+  "freshItems": 193,
+  "qualifyingAlerts": 9,
   "qualifyingByCondition": {
-    "newWithoutTags": 2,
-    "newWithTags": 3,
-    "veryGood": 3
+    "newWithoutTags": 1,
+    "veryGood": 5,
+    "newWithTags": 3
   },
-  "deliveredAlerts": 8,
+  "deliveredAlerts": 9,
   "deliveredByCondition": {
-    "newWithoutTags": 2,
-    "newWithTags": 3,
-    "veryGood": 3
+    "newWithoutTags": 1,
+    "veryGood": 5,
+    "newWithTags": 3
   },
-  "duplicateSuppressed": 27,
+  "duplicateSuppressed": 54,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,15 +69,15 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 247,
-    "keyword": 7,
-    "price": 27,
+    "recovery-no-fresh-signal": 319,
+    "price": 19,
+    "condition": 46,
+    "weak-margin": 10,
     "score": 1,
-    "size": 3,
-    "weak-margin": 13,
-    "condition": 25,
-    "detail-budget-exhausted": 37,
-    "seller-check-budget-exhausted": 97
+    "keyword": 9,
+    "size": 2,
+    "seller-check-budget-exhausted": 66,
+    "detail-budget-exhausted": 31
   },
   "failures": {}
 }
