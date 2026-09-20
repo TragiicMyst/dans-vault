@@ -1,39 +1,37 @@
 {
-  "generatedAt": "2026-09-20T14:59:29.466Z",
-  "stateUpdatedAt": "2026-09-20T14:59:29.466Z",
-  "lastAttemptAt": "2026-09-20T14:59:29.466Z",
-  "lastScanAt": "2026-09-20T14:59:29.466Z",
+  "generatedAt": "2026-09-20T17:31:53.951Z",
+  "stateUpdatedAt": "2026-09-20T17:31:53.951Z",
+  "lastAttemptAt": "2026-09-20T17:31:53.951Z",
+  "lastScanAt": "2026-09-20T17:31:53.951Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Tracksuit::nike tracksuit",
-    "Nike Vintage Clothing::vintage nike",
-    "Nike SB Clothing::nike sb clothing",
-    "Nike Vest::nike vest",
-    "Nike Air Max Hoodie::nike air max hoodie",
-    "Nike Zip Hoodie::nike zip hoodie"
+    "Nike Hoodie::nike hoodie",
+    "Nike Sweatshirt::nike sweatshirt",
+    "Nike Track Jacket::nike track jacket",
+    "Nike Joggers::nike joggers",
+    "Nike Trousers::nike trousers",
+    "Nike Sportswear Hoodie::nike sportswear hoodie"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1343,
-  "catalogItems": 1062,
-  "candidateItems": 284,
-  "freshItems": 228,
-  "qualifyingAlerts": 94,
+  "catalogMarkers": 1344,
+  "catalogItems": 1092,
+  "candidateItems": 269,
+  "freshItems": 225,
+  "qualifyingAlerts": 101,
   "qualifyingByCondition": {
-    "veryGood": 84,
-    "newWithoutTags": 6,
-    "newWithTags": 4
+    "veryGood": 92,
+    "newWithoutTags": 9
   },
-  "deliveredAlerts": 94,
+  "deliveredAlerts": 101,
   "deliveredByCondition": {
-    "veryGood": 84,
-    "newWithoutTags": 6,
-    "newWithTags": 4
+    "veryGood": 92,
+    "newWithoutTags": 9
   },
-  "duplicateSuppressed": 7,
+  "duplicateSuppressed": 4,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,12 +67,12 @@
   "pendingDeliveries": 0,
   "detailFetches": 6,
   "rejects": {
-    "price": 37,
-    "keyword": 13,
-    "recovery-no-fresh-signal": 49,
-    "size": 6,
     "condition": 55,
-    "detail-budget-exhausted": 22,
+    "price": 46,
+    "keyword": 10,
+    "recovery-no-fresh-signal": 40,
+    "size": 3,
+    "detail-budget-exhausted": 9,
     "weak-margin": 1
   },
   "failures": {}
