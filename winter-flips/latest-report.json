@@ -2,29 +2,53 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-09-20T15:02:55.053Z",
+    "startedAt": "2026-09-20T18:15:06.018Z",
     "searchGroups": [
-      "hunter:patagonia-puffer",
-      "hunter:arcteryx-jacket",
-      "hunter:arc-teryx-puffer",
-      "hunter:ralph-lauren-puffer",
-      "hunter:polo-puffer-jacket",
-      "hunter:nike-puffer-jacket",
-      "hunter:berghaus-puffer",
-      "hunter:napapijri-jacket"
+      "ralph-lauren-puffer:ralph-lauren-puffer-jacket",
+      "ralph-lauren-puffer:polo-ralph-lauren-down-jacket",
+      "nike-puffer:nike-puffer-jacket-mens",
+      "nike-puffer:nike-down-jacket",
+      "berghaus-down:berghaus-down-jacket",
+      "berghaus-down:berghaus-puffer-jacket",
+      "napapijri-skidoo:napapijri-skidoo-jacket",
+      "napapijri-skidoo:napapijri-rainforest-winter"
     ],
     "vintedItems": 280,
-    "freshItems": 18,
+    "freshItems": 37,
     "freshByAge": 0,
-    "freshByNewId": 18,
+    "freshByNewId": 37,
     "bootstrapBlocked": 0,
-    "staleBlocked": 1,
-    "candidates": 2,
-    "alerts": 0,
+    "staleBlocked": 0,
+    "candidates": 19,
+    "alerts": 2,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-09-20T18:15:18.569Z",
+      "platform": "VINTED",
+      "id": "10073800989",
+      "title": "blue berghaus puffer jacket",
+      "url": "https://www.vinted.co.uk/items/10073800989-blue-berghaus-puffer-jacket",
+      "modelId": "berghaus-down",
+      "buyPrice": 25,
+      "estimatedNetProfit": 35.47,
+      "roi": 141.88,
+      "score": 92
+    },
+    {
+      "at": "2026-09-20T18:15:09.240Z",
+      "platform": "VINTED",
+      "id": "10073621316",
+      "title": "ladies puffer ralph lauren jacket 12 m",
+      "url": "https://www.vinted.co.uk/items/10073621316-ladies-puffer-ralph-lauren-jacket-12-m",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 40,
+      "estimatedNetProfit": 31.37,
+      "roi": 78.43,
+      "score": 84
+    },
     {
       "at": "2026-09-20T14:57:17.077Z",
       "platform": "VINTED",
@@ -240,30 +264,6 @@
       "estimatedNetProfit": 42.7,
       "roi": 284.67,
       "score": 91
-    },
-    {
-      "at": "2026-09-18T11:42:23.737Z",
-      "platform": "VINTED",
-      "id": "10040657912",
-      "title": "ralph lauren puffer jacket age 12 14",
-      "url": "https://www.vinted.co.uk/items/10040657912-ralph-lauren-puffer-jacket-age-12-14",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 40,
-      "estimatedNetProfit": 33.59,
-      "roi": 83.98,
-      "score": 81
-    },
-    {
-      "at": "2026-09-18T11:42:22.732Z",
-      "platform": "VINTED",
-      "id": "10040726256",
-      "title": "ralph polo lauren jacket",
-      "url": "https://www.vinted.co.uk/items/10040726256-ralph-polo-lauren-jacket",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 30,
-      "estimatedNetProfit": 44.14,
-      "roi": 147.13,
-      "score": 88
     }
   ]
 }
