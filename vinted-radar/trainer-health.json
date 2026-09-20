@@ -1,35 +1,39 @@
 {
-  "generatedAt": "2026-09-20T22:59:09.234Z",
-  "stateUpdatedAt": "2026-09-20T22:59:09.234Z",
-  "lastAttemptAt": "2026-09-20T22:59:09.234Z",
-  "lastScanAt": "2026-09-20T22:59:09.234Z",
+  "generatedAt": "2026-09-20T23:04:09.433Z",
+  "stateUpdatedAt": "2026-09-20T23:04:09.433Z",
+  "lastAttemptAt": "2026-09-20T23:04:09.433Z",
+  "lastScanAt": "2026-09-20T23:04:09.433Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Air Force 1::primary",
-    "Nike Dunk Low::primary",
-    "Air Jordan 1 Low::primary",
-    "Air Jordan 1 Mid::primary",
-    "Air Jordan 4::primary",
-    "Nike Initiator::primary"
+    "Nike Air Max Moto 2K::primary",
+    "Nike Metcon 10::primary",
+    "Nike Zoom Fly 6::primary",
+    "Nike Air Max Bargain::generic",
+    "Nike Running Trainer Bargain::generic",
+    "Nike Lifestyle Trainer Bargain::generic"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 976,
-  "candidateItems": 673,
-  "freshItems": 263,
-  "qualifyingAlerts": 1,
+  "catalogItems": 840,
+  "candidateItems": 410,
+  "freshItems": 99,
+  "qualifyingAlerts": 8,
   "qualifyingByCondition": {
-    "veryGood": 1
+    "newWithTags": 1,
+    "newWithoutTags": 1,
+    "veryGood": 6
   },
-  "deliveredAlerts": 1,
+  "deliveredAlerts": 8,
   "deliveredByCondition": {
-    "veryGood": 1
+    "newWithTags": 1,
+    "newWithoutTags": 1,
+    "veryGood": 6
   },
-  "duplicateSuppressed": 14,
+  "duplicateSuppressed": 59,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -43,12 +47,12 @@
     },
     {
       "configuredAs": "newWithTags",
-      "webhookId": null,
-      "channelId": null,
-      "guildId": null,
-      "webhookName": null,
-      "detectedCondition": null,
-      "inspectionError": "could not inspect webhook destination: fetch failed"
+      "webhookId": "1541040362997547048",
+      "channelId": "1541040152372183140",
+      "guildId": "1540743210488430592",
+      "webhookName": "Dan's New With Tags Bot",
+      "detectedCondition": "newWithTags",
+      "inspectionError": null
     },
     {
       "configuredAs": "veryGood",
@@ -61,21 +65,19 @@
     }
   ],
   "discordRouteAutoCorrected": false,
-  "discordRouteWarnings": [
-    "newWithTags: could not inspect webhook destination: fetch failed"
-  ],
+  "discordRouteWarnings": [],
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "recovery-no-fresh-signal": 396,
-    "price": 15,
-    "size": 7,
-    "condition": 55,
-    "keyword": 21,
-    "seller-risk": 4,
-    "detail-budget-exhausted": 68,
-    "seller-check-budget-exhausted": 91,
-    "weak-margin": 1
+    "stale": 252,
+    "size": 3,
+    "weak-margin": 2,
+    "price": 16,
+    "seller-risk": 1,
+    "seller-check-budget-exhausted": 30,
+    "detail-budget-exhausted": 25,
+    "condition": 11,
+    "keyword": 3
   },
   "failures": {}
 }
