@@ -2,29 +2,77 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-09-20T18:15:06.018Z",
+    "startedAt": "2026-09-20T20:52:24.394Z",
     "searchGroups": [
-      "ralph-lauren-puffer:ralph-lauren-puffer-jacket",
-      "ralph-lauren-puffer:polo-ralph-lauren-down-jacket",
-      "nike-puffer:nike-puffer-jacket-mens",
-      "nike-puffer:nike-down-jacket",
-      "berghaus-down:berghaus-down-jacket",
-      "berghaus-down:berghaus-puffer-jacket",
-      "napapijri-skidoo:napapijri-skidoo-jacket",
-      "napapijri-skidoo:napapijri-rainforest-winter"
+      "tnf-himalayan:north-face-himalayan-puffer",
+      "tnf-himalayan:north-face-hmlyn-parka",
+      "tnf-baltoro:north-face-baltoro-jacket",
+      "tnf-summit-down:north-face-summit-series-down",
+      "rab-microlight:rab-microlight-alpine",
+      "rab-neutrino:rab-neutrino-pro",
+      "rab-electron:rab-electron-pro",
+      "patagonia-down-sweater:patagonia-down-sweater-jacket"
     ],
     "vintedItems": 280,
-    "freshItems": 37,
+    "freshItems": 1,
     "freshByAge": 0,
-    "freshByNewId": 37,
+    "freshByNewId": 1,
     "bootstrapBlocked": 0,
-    "staleBlocked": 0,
-    "candidates": 19,
-    "alerts": 2,
+    "staleBlocked": 3,
+    "candidates": 1,
+    "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-09-20T20:49:37.805Z",
+      "platform": "VINTED",
+      "id": "10074163385",
+      "title": "nike puffer coat",
+      "url": "https://www.vinted.co.uk/items/10074163385-nike-puffer-coat",
+      "modelId": "nike-puffer",
+      "buyPrice": 30,
+      "estimatedNetProfit": 26.88,
+      "roi": 89.6,
+      "score": 87
+    },
+    {
+      "at": "2026-09-20T20:49:36.392Z",
+      "platform": "VINTED",
+      "id": "10075477419",
+      "title": "nike puffer jacket blue black white size 15 16",
+      "url": "https://www.vinted.co.uk/items/10075477419-nike-puffer-jacket-blue-black-white-size-15-16",
+      "modelId": "nike-puffer",
+      "buyPrice": 25,
+      "estimatedNetProfit": 27.53,
+      "roi": 110.12,
+      "score": 85
+    },
+    {
+      "at": "2026-09-20T20:49:35.295Z",
+      "platform": "VINTED",
+      "id": "10075223651",
+      "title": "new nike puffer jacket age 13 15 158 170cm",
+      "url": "https://www.vinted.co.uk/items/10075223651-new-nike-puffer-jacket-age-13-15-158-170cm",
+      "modelId": "nike-puffer",
+      "buyPrice": 20,
+      "estimatedNetProfit": 32.81,
+      "roi": 164.05,
+      "score": 91
+    },
+    {
+      "at": "2026-09-20T20:49:34.120Z",
+      "platform": "VINTED",
+      "id": "10077060296",
+      "title": "black nike puffer jacket xl boys",
+      "url": "https://www.vinted.co.uk/items/10077060296-black-nike-puffer-jacket-xl-boys",
+      "modelId": "nike-puffer",
+      "buyPrice": 30,
+      "estimatedNetProfit": 26.88,
+      "roi": 89.6,
+      "score": 87
+    },
     {
       "at": "2026-09-20T18:15:18.569Z",
       "platform": "VINTED",
@@ -216,54 +264,6 @@
       "estimatedNetProfit": 47.81,
       "roi": 136.6,
       "score": 88
-    },
-    {
-      "at": "2026-09-18T21:12:41.153Z",
-      "platform": "VINTED",
-      "id": "10049231799",
-      "title": "polo ralph lauren puffer jacket",
-      "url": "https://www.vinted.co.uk/items/10049231799-polo-ralph-lauren-puffer-jacket",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 40,
-      "estimatedNetProfit": 32.29,
-      "roi": 80.73,
-      "score": 84
-    },
-    {
-      "at": "2026-09-18T18:29:35.441Z",
-      "platform": "VINTED",
-      "id": "10046725649",
-      "title": "black nike puffer",
-      "url": "https://www.vinted.co.uk/items/10046725649-black-nike-puffer",
-      "modelId": "nike-puffer",
-      "buyPrice": 20,
-      "estimatedNetProfit": 31.27,
-      "roi": 156.35,
-      "score": 95
-    },
-    {
-      "at": "2026-09-18T18:29:33.335Z",
-      "platform": "VINTED",
-      "id": "10047825139",
-      "title": "nike puffer junior l",
-      "url": "https://www.vinted.co.uk/items/10047825139-nike-puffer-junior-l",
-      "modelId": "nike-puffer",
-      "buyPrice": 25,
-      "estimatedNetProfit": 32.15,
-      "roi": 128.6,
-      "score": 92
-    },
-    {
-      "at": "2026-09-18T15:09:39.474Z",
-      "platform": "VINTED",
-      "id": "10043764117",
-      "title": "nike puffer coat brand new",
-      "url": "https://www.vinted.co.uk/items/10043764117-nike-puffer-coat-brand-new",
-      "modelId": "nike-puffer",
-      "buyPrice": 15,
-      "estimatedNetProfit": 42.7,
-      "roi": 284.67,
-      "score": 91
     }
   ]
 }
