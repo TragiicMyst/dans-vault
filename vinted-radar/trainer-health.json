@@ -1,39 +1,35 @@
 {
-  "generatedAt": "2026-09-20T21:08:58.794Z",
-  "stateUpdatedAt": "2026-09-20T21:08:58.794Z",
-  "lastAttemptAt": "2026-09-20T21:08:58.794Z",
-  "lastScanAt": "2026-09-20T21:08:58.794Z",
+  "generatedAt": "2026-09-20T22:59:09.234Z",
+  "stateUpdatedAt": "2026-09-20T22:59:09.234Z",
+  "lastAttemptAt": "2026-09-20T22:59:09.234Z",
+  "lastScanAt": "2026-09-20T22:59:09.234Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Air Max 270::primary",
-    "Nike Air Max Dn::primary",
-    "Nike Air Max 1::primary",
-    "Nike Shox TL::primary",
-    "Nike Shox R4::primary",
-    "Nike Shox Ride 2::primary"
+    "Nike Air Force 1::primary",
+    "Nike Dunk Low::primary",
+    "Air Jordan 1 Low::primary",
+    "Air Jordan 1 Mid::primary",
+    "Air Jordan 4::primary",
+    "Nike Initiator::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 898,
-  "candidateItems": 405,
-  "freshItems": 172,
-  "qualifyingAlerts": 6,
+  "catalogItems": 976,
+  "candidateItems": 673,
+  "freshItems": 263,
+  "qualifyingAlerts": 1,
   "qualifyingByCondition": {
-    "veryGood": 4,
-    "newWithTags": 1,
-    "newWithoutTags": 1
+    "veryGood": 1
   },
-  "deliveredAlerts": 6,
+  "deliveredAlerts": 1,
   "deliveredByCondition": {
-    "veryGood": 4,
-    "newWithTags": 1,
-    "newWithoutTags": 1
+    "veryGood": 1
   },
-  "duplicateSuppressed": 24,
+  "duplicateSuppressed": 14,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -47,12 +43,12 @@
     },
     {
       "configuredAs": "newWithTags",
-      "webhookId": "1541040362997547048",
-      "channelId": "1541040152372183140",
-      "guildId": "1540743210488430592",
-      "webhookName": "Dan's New With Tags Bot",
-      "detectedCondition": "newWithTags",
-      "inspectionError": null
+      "webhookId": null,
+      "channelId": null,
+      "guildId": null,
+      "webhookName": null,
+      "detectedCondition": null,
+      "inspectionError": "could not inspect webhook destination: fetch failed"
     },
     {
       "configuredAs": "veryGood",
@@ -65,19 +61,21 @@
     }
   ],
   "discordRouteAutoCorrected": false,
-  "discordRouteWarnings": [],
+  "discordRouteWarnings": [
+    "newWithTags: could not inspect webhook destination: fetch failed"
+  ],
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 209,
-    "keyword": 8,
-    "price": 5,
-    "size": 4,
-    "condition": 15,
-    "seller-risk": 2,
-    "weak-margin": 2,
-    "detail-budget-exhausted": 50,
-    "seller-check-budget-exhausted": 80
+    "recovery-no-fresh-signal": 396,
+    "price": 15,
+    "size": 7,
+    "condition": 55,
+    "keyword": 21,
+    "seller-risk": 4,
+    "detail-budget-exhausted": 68,
+    "seller-check-budget-exhausted": 91,
+    "weak-margin": 1
   },
   "failures": {}
 }
