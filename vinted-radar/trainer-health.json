@@ -1,35 +1,39 @@
 {
-  "generatedAt": "2026-09-20T01:20:56.634Z",
-  "stateUpdatedAt": "2026-09-20T01:20:56.634Z",
-  "lastAttemptAt": "2026-09-20T01:20:56.634Z",
-  "lastScanAt": "2026-09-20T01:20:56.634Z",
+  "generatedAt": "2026-09-20T01:23:49.916Z",
+  "stateUpdatedAt": "2026-09-20T01:23:49.916Z",
+  "lastAttemptAt": "2026-09-20T01:23:49.916Z",
+  "lastScanAt": "2026-09-20T01:23:49.916Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Air Force 1::primary",
-    "Nike Dunk Low::primary",
-    "Air Jordan 1 Low::primary",
-    "Air Jordan 1 Mid::primary",
-    "Air Jordan 4::primary",
-    "Nike Initiator::primary"
+    "Nike Air Max Moto 2K::primary",
+    "Nike Metcon 10::primary",
+    "Nike Zoom Fly 6::primary",
+    "Nike Air Max Bargain::generic",
+    "Nike Running Trainer Bargain::generic",
+    "Nike Lifestyle Trainer Bargain::generic"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 980,
-  "candidateItems": 657,
-  "freshItems": 158,
-  "qualifyingAlerts": 3,
+  "catalogItems": 847,
+  "candidateItems": 434,
+  "freshItems": 72,
+  "qualifyingAlerts": 8,
   "qualifyingByCondition": {
-    "veryGood": 3
+    "newWithoutTags": 1,
+    "newWithTags": 1,
+    "veryGood": 6
   },
-  "deliveredAlerts": 3,
+  "deliveredAlerts": 8,
   "deliveredByCondition": {
-    "veryGood": 3
+    "newWithoutTags": 1,
+    "newWithTags": 1,
+    "veryGood": 6
   },
-  "duplicateSuppressed": 26,
+  "duplicateSuppressed": 55,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -65,15 +69,14 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "price": 14,
-    "recovery-no-fresh-signal": 473,
-    "size": 8,
-    "condition": 24,
-    "keyword": 18,
-    "seller-risk": 1,
-    "weak-margin": 2,
-    "seller-check-budget-exhausted": 54,
-    "detail-budget-exhausted": 34
+    "stale": 307,
+    "size": 1,
+    "condition": 2,
+    "seller-risk": 3,
+    "seller-check-budget-exhausted": 31,
+    "detail-budget-exhausted": 19,
+    "keyword": 5,
+    "price": 3
   },
   "failures": {}
 }
