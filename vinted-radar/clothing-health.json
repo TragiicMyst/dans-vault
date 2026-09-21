@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-09-21T10:49:31.493Z",
-  "stateUpdatedAt": "2026-09-21T10:49:31.493Z",
-  "lastAttemptAt": "2026-09-21T10:49:31.493Z",
-  "lastScanAt": "2026-09-21T10:49:31.493Z",
+  "generatedAt": "2026-09-21T13:00:06.732Z",
+  "stateUpdatedAt": "2026-09-21T13:00:06.732Z",
+  "lastAttemptAt": "2026-09-21T13:00:06.732Z",
+  "lastScanAt": "2026-09-21T13:00:06.732Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Dri-FIT Top::nike dri fit top",
-    "Nike Quarter Zip::nike quarter zip",
-    "Nike Fleece::nike fleece",
-    "Nike Gilet::nike gilet",
-    "Nike Windbreaker::nike windbreaker",
-    "Nike Anorak::nike anorak"
+    "Nike Rain Jacket::nike rain jacket",
+    "Nike Woven Jacket::nike woven jacket",
+    "Nike Bomber Jacket::nike bomber jacket",
+    "Nike Coat::nike coat",
+    "Nike Shorts::nike shorts",
+    "Nike Cargo Trousers::nike cargo trousers"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 1033,
-  "candidateItems": 278,
-  "freshItems": 198,
-  "qualifyingAlerts": 85,
+  "catalogItems": 1105,
+  "candidateItems": 302,
+  "freshItems": 194,
+  "qualifyingAlerts": 81,
   "qualifyingByCondition": {
-    "veryGood": 76,
-    "newWithoutTags": 6,
-    "newWithTags": 3
+    "veryGood": 66,
+    "newWithoutTags": 13,
+    "newWithTags": 2
   },
-  "deliveredAlerts": 85,
+  "deliveredAlerts": 81,
   "deliveredByCondition": {
-    "veryGood": 76,
-    "newWithoutTags": 6,
-    "newWithTags": 3
+    "veryGood": 66,
+    "newWithoutTags": 13,
+    "newWithTags": 2
   },
-  "duplicateSuppressed": 7,
+  "duplicateSuppressed": 16,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,12 +69,12 @@
   "pendingDeliveries": 0,
   "detailFetches": 6,
   "rejects": {
-    "keyword": 11,
-    "price": 50,
-    "recovery-no-fresh-signal": 73,
-    "condition": 38,
+    "condition": 34,
+    "price": 57,
+    "recovery-no-fresh-signal": 92,
     "size": 4,
-    "detail-budget-exhausted": 10
+    "keyword": 7,
+    "detail-budget-exhausted": 11
   },
   "failures": {}
 }
