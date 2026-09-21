@@ -1,35 +1,37 @@
 {
-  "generatedAt": "2026-09-21T06:30:44.284Z",
-  "stateUpdatedAt": "2026-09-21T06:30:44.284Z",
-  "lastAttemptAt": "2026-09-21T06:30:44.284Z",
-  "lastScanAt": "2026-09-21T06:30:44.284Z",
+  "generatedAt": "2026-09-21T13:00:03.554Z",
+  "stateUpdatedAt": "2026-09-21T13:00:03.554Z",
+  "lastAttemptAt": "2026-09-21T13:00:03.554Z",
+  "lastScanAt": "2026-09-21T13:00:03.554Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Air Max 270::primary",
-    "Nike Air Max Dn::primary",
-    "Nike Air Max 1::primary",
-    "Nike Shox TL::primary",
-    "Nike Shox R4::primary",
-    "Nike Shox Ride 2::primary"
+    "Nike Air Force 1::primary",
+    "Nike Dunk Low::primary",
+    "Air Jordan 1 Low::primary",
+    "Air Jordan 1 Mid::primary",
+    "Air Jordan 4::primary",
+    "Nike Initiator::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 898,
-  "candidateItems": 427,
-  "freshItems": 121,
+  "catalogItems": 977,
+  "candidateItems": 665,
+  "freshItems": 310,
   "qualifyingAlerts": 3,
   "qualifyingByCondition": {
-    "veryGood": 3
+    "veryGood": 2,
+    "newWithTags": 1
   },
   "deliveredAlerts": 3,
   "deliveredByCondition": {
-    "veryGood": 3
+    "veryGood": 2,
+    "newWithTags": 1
   },
-  "duplicateSuppressed": 32,
+  "duplicateSuppressed": 11,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -65,13 +67,15 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 274,
-    "price": 3,
-    "condition": 3,
-    "keyword": 2,
-    "size": 9,
-    "seller-check-budget-exhausted": 67,
-    "detail-budget-exhausted": 34
+    "size": 8,
+    "keyword": 38,
+    "recovery-no-fresh-signal": 344,
+    "condition": 65,
+    "price": 14,
+    "seller-risk": 1,
+    "detail-budget-exhausted": 60,
+    "seller-check-budget-exhausted": 115,
+    "weak-margin": 6
   },
   "failures": {}
 }
