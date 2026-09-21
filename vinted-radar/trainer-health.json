@@ -1,37 +1,37 @@
 {
-  "generatedAt": "2026-09-21T13:15:26.336Z",
-  "stateUpdatedAt": "2026-09-21T13:15:26.336Z",
-  "lastAttemptAt": "2026-09-21T13:15:26.336Z",
-  "lastScanAt": "2026-09-21T13:15:26.336Z",
+  "generatedAt": "2026-09-21T13:20:26.288Z",
+  "stateUpdatedAt": "2026-09-21T13:20:26.288Z",
+  "lastAttemptAt": "2026-09-21T13:20:26.288Z",
+  "lastScanAt": "2026-09-21T13:20:26.288Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Vomero 18::primary",
-    "Nike Vomero Plus::primary",
-    "Nike Vomero Premium::primary",
-    "Nike Pegasus Premium::primary",
-    "Nike Pegasus Trail 5 GORE-TEX::primary",
-    "Nike TN::primary"
+    "Nike Air Max Plus 3::primary",
+    "Nike Air Max Plus VII::primary",
+    "Nike Air Max 95::primary",
+    "Nike Air Max 90::primary",
+    "Nike Air Max 90 Drift::primary",
+    "Nike Air Max 97::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1344,
-  "catalogItems": 783,
-  "candidateItems": 470,
-  "freshItems": 182,
+  "catalogMarkers": 1342,
+  "catalogItems": 1046,
+  "candidateItems": 561,
+  "freshItems": 164,
   "qualifyingAlerts": 6,
   "qualifyingByCondition": {
-    "newWithTags": 2,
+    "newWithoutTags": 2,
     "veryGood": 4
   },
   "deliveredAlerts": 6,
   "deliveredByCondition": {
-    "newWithTags": 2,
+    "newWithoutTags": 2,
     "veryGood": 4
   },
-  "duplicateSuppressed": 33,
+  "duplicateSuppressed": 61,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,14 +67,15 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 255,
-    "size": 6,
-    "price": 16,
-    "weak-margin": 5,
-    "condition": 23,
-    "seller-check-budget-exhausted": 84,
-    "detail-budget-exhausted": 39,
-    "keyword": 3
+    "size": 4,
+    "stale": 336,
+    "keyword": 12,
+    "price": 15,
+    "condition": 33,
+    "seller-risk": 2,
+    "weak-margin": 3,
+    "detail-budget-exhausted": 29,
+    "seller-check-budget-exhausted": 60
   },
   "failures": {}
 }
