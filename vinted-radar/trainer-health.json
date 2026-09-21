@@ -1,35 +1,37 @@
 {
-  "generatedAt": "2026-09-20T23:16:16.171Z",
-  "stateUpdatedAt": "2026-09-20T23:16:16.171Z",
-  "lastAttemptAt": "2026-09-20T23:16:16.171Z",
-  "lastScanAt": "2026-09-20T23:16:16.171Z",
+  "generatedAt": "2026-09-21T01:01:05.076Z",
+  "stateUpdatedAt": "2026-09-21T01:01:05.076Z",
+  "lastAttemptAt": "2026-09-21T01:01:05.076Z",
+  "lastScanAt": "2026-09-21T01:01:05.076Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Air Max Plus 3::primary",
-    "Nike Air Max Plus VII::primary",
-    "Nike Air Max 95::primary",
-    "Nike Air Max 90::primary",
-    "Nike Air Max 90 Drift::primary",
-    "Nike Air Max 97::primary"
+    "Nike Air Max 270::primary",
+    "Nike Air Max Dn::primary",
+    "Nike Air Max 1::primary",
+    "Nike Shox TL::primary",
+    "Nike Shox R4::primary",
+    "Nike Shox Ride 2::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1343,
-  "catalogItems": 1043,
-  "candidateItems": 589,
-  "freshItems": 125,
-  "qualifyingAlerts": 8,
+  "catalogItems": 901,
+  "candidateItems": 428,
+  "freshItems": 139,
+  "qualifyingAlerts": 5,
   "qualifyingByCondition": {
-    "veryGood": 8
+    "veryGood": 2,
+    "newWithoutTags": 3
   },
-  "deliveredAlerts": 8,
+  "deliveredAlerts": 5,
   "deliveredByCondition": {
-    "veryGood": 8
+    "veryGood": 2,
+    "newWithoutTags": 3
   },
-  "duplicateSuppressed": 65,
+  "duplicateSuppressed": 30,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -65,14 +67,14 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "price": 9,
-    "stale": 399,
-    "size": 3,
+    "recovery-no-fresh-signal": 259,
+    "price": 2,
+    "keyword": 6,
+    "condition": 4,
+    "size": 6,
     "seller-risk": 1,
-    "seller-check-budget-exhausted": 76,
-    "keyword": 1,
-    "detail-budget-exhausted": 24,
-    "condition": 3
+    "seller-check-budget-exhausted": 74,
+    "detail-budget-exhausted": 41
   },
   "failures": {}
 }
