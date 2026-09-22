@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-09-22T22:08:49.695Z",
-  "stateUpdatedAt": "2026-09-22T22:08:49.695Z",
-  "lastAttemptAt": "2026-09-22T22:08:49.695Z",
-  "lastScanAt": "2026-09-22T22:08:49.695Z",
+  "generatedAt": "2026-09-22T22:13:49.411Z",
+  "stateUpdatedAt": "2026-09-22T22:13:49.411Z",
+  "lastAttemptAt": "2026-09-22T22:13:49.411Z",
+  "lastScanAt": "2026-09-22T22:13:49.411Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Air Max 270::primary",
-    "Nike Air Max Dn::primary",
-    "Nike Air Max 1::primary",
-    "Nike Shox TL::primary",
-    "Nike Shox R4::primary",
-    "Nike Shox Ride 2::primary"
+    "Nike Air Force 1::primary",
+    "Nike Dunk Low::primary",
+    "Air Jordan 1 Low::primary",
+    "Air Jordan 1 Mid::primary",
+    "Air Jordan 4::primary",
+    "Nike Initiator::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 906,
-  "candidateItems": 395,
-  "freshItems": 179,
-  "qualifyingAlerts": 3,
+  "catalogItems": 982,
+  "candidateItems": 636,
+  "freshItems": 273,
+  "qualifyingAlerts": 5,
   "qualifyingByCondition": {
-    "veryGood": 3
+    "veryGood": 5
   },
-  "deliveredAlerts": 3,
+  "deliveredAlerts": 5,
   "deliveredByCondition": {
-    "veryGood": 3
+    "veryGood": 5
   },
-  "duplicateSuppressed": 17,
+  "duplicateSuppressed": 12,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -65,15 +65,15 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "recovery-no-fresh-signal": 199,
-    "keyword": 15,
-    "price": 9,
-    "size": 8,
-    "score": 1,
-    "condition": 15,
-    "detail-budget-exhausted": 42,
-    "seller-check-budget-exhausted": 78,
-    "weak-margin": 8
+    "stale": 351,
+    "price": 10,
+    "condition": 48,
+    "seller-risk": 4,
+    "size": 3,
+    "detail-budget-exhausted": 79,
+    "seller-check-budget-exhausted": 103,
+    "keyword": 20,
+    "weak-margin": 1
   },
   "failures": {}
 }
