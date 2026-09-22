@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-09-22T05:52:07.421Z",
-  "stateUpdatedAt": "2026-09-22T05:52:07.421Z",
-  "lastAttemptAt": "2026-09-22T05:52:07.421Z",
-  "lastScanAt": "2026-09-22T05:52:07.421Z",
+  "generatedAt": "2026-09-22T05:57:07.463Z",
+  "stateUpdatedAt": "2026-09-22T05:57:07.463Z",
+  "lastAttemptAt": "2026-09-22T05:57:07.463Z",
+  "lastScanAt": "2026-09-22T05:57:07.463Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Football Boot Bargain::generic",
-    "Nike Basketball Shoe Bargain::generic",
-    "Nike SB Shoe Bargain::generic",
-    "Nike P-6000::primary",
-    "Nike V5 RNR::primary",
-    "Nike Vomero 5::primary"
+    "Nike Vomero 18::primary",
+    "Nike Vomero Plus::primary",
+    "Nike Vomero Premium::primary",
+    "Nike Pegasus Premium::primary",
+    "Nike Pegasus Trail 5 GORE-TEX::primary",
+    "Nike TN::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1267,
+  "catalogMarkers": 1344,
   "catalogItems": 801,
-  "candidateItems": 445,
-  "freshItems": 155,
-  "qualifyingAlerts": 3,
+  "candidateItems": 448,
+  "freshItems": 158,
+  "qualifyingAlerts": 8,
   "qualifyingByCondition": {
-    "veryGood": 3
+    "veryGood": 8
   },
-  "deliveredAlerts": 3,
+  "deliveredAlerts": 8,
   "deliveredByCondition": {
-    "veryGood": 3
+    "veryGood": 8
   },
-  "duplicateSuppressed": 1,
+  "duplicateSuppressed": 28,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -65,14 +65,13 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "recovery-no-fresh-signal": 289,
-    "size": 6,
-    "price": 18,
-    "condition": 19,
-    "keyword": 9,
-    "seller-risk": 3,
-    "seller-check-budget-exhausted": 54,
-    "detail-budget-exhausted": 43
+    "stale": 262,
+    "keyword": 1,
+    "size": 4,
+    "price": 2,
+    "weak-margin": 2,
+    "seller-check-budget-exhausted": 106,
+    "detail-budget-exhausted": 35
   },
   "failures": {}
 }
