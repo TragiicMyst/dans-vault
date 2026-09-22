@@ -1,39 +1,37 @@
 {
-  "generatedAt": "2026-09-22T19:12:10.118Z",
-  "stateUpdatedAt": "2026-09-22T19:12:10.118Z",
-  "lastAttemptAt": "2026-09-22T19:12:10.118Z",
-  "lastScanAt": "2026-09-22T19:12:10.118Z",
+  "generatedAt": "2026-09-22T21:26:27.598Z",
+  "stateUpdatedAt": "2026-09-22T21:26:27.598Z",
+  "lastAttemptAt": "2026-09-22T21:26:27.598Z",
+  "lastScanAt": "2026-09-22T21:26:27.598Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Shorts::nike shorts",
-    "Nike Cargo Trousers::nike cargo trousers",
-    "Nike Track Pants::nike track pants",
-    "Nike Woven Trousers::nike woven trousers",
-    "Nike Tracksuit::nike tracksuit",
-    "Nike Vintage Clothing::vintage nike"
+    "Nike SB Clothing::nike sb clothing",
+    "Nike Vest::nike vest",
+    "Nike Air Max Hoodie::nike air max hoodie",
+    "Nike Zip Hoodie::nike zip hoodie",
+    "Nike Hoodie::nike hoodie",
+    "Nike Sweatshirt::nike sweatshirt"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 1086,
-  "candidateItems": 350,
-  "freshItems": 283,
-  "qualifyingAlerts": 82,
+  "catalogItems": 1067,
+  "candidateItems": 270,
+  "freshItems": 195,
+  "qualifyingAlerts": 66,
   "qualifyingByCondition": {
-    "veryGood": 74,
-    "newWithoutTags": 4,
-    "newWithTags": 4
+    "veryGood": 63,
+    "newWithoutTags": 3
   },
-  "deliveredAlerts": 82,
+  "deliveredAlerts": 66,
   "deliveredByCondition": {
-    "veryGood": 74,
-    "newWithoutTags": 4,
-    "newWithTags": 4
+    "veryGood": 63,
+    "newWithoutTags": 3
   },
-  "duplicateSuppressed": 4,
+  "duplicateSuppressed": 5,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,13 +67,13 @@
   "pendingDeliveries": 0,
   "detailFetches": 6,
   "rejects": {
-    "condition": 66,
-    "price": 105,
-    "recovery-no-fresh-signal": 63,
+    "price": 58,
     "size": 5,
-    "keyword": 9,
-    "detail-budget-exhausted": 15,
-    "score": 1
+    "condition": 54,
+    "recovery-no-fresh-signal": 70,
+    "keyword": 8,
+    "detail-budget-exhausted": 3,
+    "weak-margin": 1
   },
   "failures": {}
 }
