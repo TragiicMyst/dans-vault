@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-09-22T18:09:39.619Z",
+    "startedAt": "2026-09-22T21:19:06.199Z",
     "searchGroups": [
-      "tnf-1996-nuptse:north-face-nuptse-700",
-      "tnf-1996-nuptse:north-face-1996-nuptse",
-      "tnf-himalayan:north-face-himalayan-puffer",
-      "tnf-himalayan:north-face-hmlyn-parka",
-      "tnf-baltoro:north-face-baltoro-jacket",
-      "tnf-summit-down:north-face-summit-series-down",
-      "rab-microlight:rab-microlight-alpine",
-      "rab-neutrino:rab-neutrino-pro"
+      "hunter:north-face-coat",
+      "hunter:north-face-puffer",
+      "hunter:north-face-700",
+      "hunter:mens-north-face-jacket",
+      "hunter:rab-puffer",
+      "hunter:rab-down-jacket",
+      "hunter:patagonia-puffer",
+      "hunter:arcteryx-jacket"
     ],
     "vintedItems": 280,
-    "freshItems": 3,
+    "freshItems": 70,
     "freshByAge": 0,
-    "freshByNewId": 3,
+    "freshByNewId": 70,
     "bootstrapBlocked": 0,
-    "staleBlocked": 3,
-    "candidates": 0,
+    "staleBlocked": 18,
+    "candidates": 6,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-09-22T21:16:08.786Z",
+      "platform": "VINTED",
+      "id": "10100907088",
+      "title": "ralph lauren puffer jacket",
+      "url": "https://www.vinted.co.uk/items/10100907088-ralph-lauren-puffer-jacket",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 45,
+      "estimatedNetProfit": 30.23,
+      "roi": 67.18,
+      "score": 78
+    },
     {
       "at": "2026-09-22T18:06:54.006Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 38.08,
       "roi": 253.87,
       "score": 86
-    },
-    {
-      "at": "2026-09-21T16:57:18.058Z",
-      "platform": "VINTED",
-      "id": "10085422839",
-      "title": "boys polo ralph lauren black hooded puffer jacket size 7",
-      "url": "https://www.vinted.co.uk/items/10085422839-boys-polo-ralph-lauren-black-hooded-puffer-jacket-size-7",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 25,
-      "estimatedNetProfit": 45.88,
-      "roi": 183.52,
-      "score": 93
     }
   ]
 }
