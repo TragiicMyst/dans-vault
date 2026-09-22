@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-09-22T05:57:09.603Z",
-  "stateUpdatedAt": "2026-09-22T05:57:09.603Z",
-  "lastAttemptAt": "2026-09-22T05:57:09.603Z",
-  "lastScanAt": "2026-09-22T05:57:09.603Z",
+  "generatedAt": "2026-09-22T09:30:37.966Z",
+  "stateUpdatedAt": "2026-09-22T09:30:37.966Z",
+  "lastAttemptAt": "2026-09-22T09:30:37.966Z",
+  "lastScanAt": "2026-09-22T09:30:37.966Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Miler Challenger Running Set::nike miler challenger set",
-    "Nike Football Tech Fleece::nike football tech fleece",
-    "Nike ACG GORE-TEX Jacket::nike acg gore tex jacket",
-    "Nike Club Fleece Full-Zip Hoodie::nike club fleece full zip hoodie",
-    "Nike Strike Top Shorts Set::nike strike top shorts set",
-    "Nike Club Fleece Joggers::nike club fleece joggers"
+    "Nike Sportswear Winterised Jacket::nike sportswear winterised jacket",
+    "Nike NOCTA Joggers::nike nocta joggers",
+    "Nike ACG Fleece::nike acg fleece",
+    "Nike Club Fleece Open-Hem Trousers::nike club fleece open hem trousers",
+    "Nike Trail Repel Jacket::nike trail repel jacket",
+    "Jordan Flight Fleece Hoodie::jordan flight fleece hoodie"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1824,
-  "catalogItems": 927,
-  "candidateItems": 346,
+  "catalogMarkers": 1344,
+  "catalogItems": 853,
+  "candidateItems": 191,
   "freshItems": 30,
   "qualifyingAlerts": 18,
   "qualifyingByCondition": {
-    "veryGood": 15,
+    "veryGood": 14,
     "newWithTags": 2,
-    "newWithoutTags": 1
+    "newWithoutTags": 2
   },
   "deliveredAlerts": 18,
   "deliveredByCondition": {
-    "veryGood": 15,
+    "veryGood": 14,
     "newWithTags": 2,
-    "newWithoutTags": 1
+    "newWithoutTags": 2
   },
-  "duplicateSuppressed": 80,
+  "duplicateSuppressed": 55,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,11 +69,10 @@
   "pendingDeliveries": 0,
   "detailFetches": 0,
   "rejects": {
-    "recovery-no-fresh-signal": 236,
-    "price": 3,
-    "condition": 7,
+    "price": 5,
+    "recovery-no-fresh-signal": 106,
     "keyword": 1,
-    "weak-margin": 1
+    "condition": 6
   },
   "failures": {}
 }
