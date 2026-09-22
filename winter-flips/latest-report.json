@@ -2,29 +2,53 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-09-22T00:04:30.663Z",
+    "startedAt": "2026-09-22T04:26:39.812Z",
     "searchGroups": [
-      "nike-puffer:nike-puffer-jacket-mens",
-      "nike-puffer:nike-down-jacket",
-      "berghaus-down:berghaus-down-jacket",
-      "berghaus-down:berghaus-puffer-jacket",
-      "napapijri-skidoo:napapijri-skidoo-jacket",
-      "napapijri-skidoo:napapijri-rainforest-winter",
-      "hunter:north-face-coat",
-      "hunter:north-face-puffer"
+      "tnf-baltoro:north-face-baltoro-jacket",
+      "tnf-summit-down:north-face-summit-series-down",
+      "rab-microlight:rab-microlight-alpine",
+      "rab-neutrino:rab-neutrino-pro",
+      "rab-electron:rab-electron-pro",
+      "patagonia-down-sweater:patagonia-down-sweater-jacket",
+      "patagonia-down-sweater:patagonia-down-sweater-hoody",
+      "patagonia-fitz-roy:patagonia-fitz-roy-down"
     ],
     "vintedItems": 280,
-    "freshItems": 25,
+    "freshItems": 0,
     "freshByAge": 0,
-    "freshByNewId": 25,
+    "freshByNewId": 0,
     "bootstrapBlocked": 0,
-    "staleBlocked": 21,
-    "candidates": 1,
+    "staleBlocked": 0,
+    "candidates": 0,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-09-22T04:23:43.716Z",
+      "platform": "VINTED",
+      "id": "10089469255",
+      "title": "nike therma fit puffer coat",
+      "url": "https://www.vinted.co.uk/items/10089469255-nike-therma-fit-puffer-coat",
+      "modelId": "nike-puffer",
+      "buyPrice": 20,
+      "estimatedNetProfit": 32.81,
+      "roi": 164.05,
+      "score": 91
+    },
+    {
+      "at": "2026-09-22T04:23:42.824Z",
+      "platform": "VINTED",
+      "id": "10090148952",
+      "title": "nike puffer coat brand new",
+      "url": "https://www.vinted.co.uk/items/10090148952-nike-puffer-coat-brand-new",
+      "modelId": "nike-puffer",
+      "buyPrice": 25,
+      "estimatedNetProfit": 32.15,
+      "roi": 128.6,
+      "score": 92
+    },
     {
       "at": "2026-09-21T21:01:37.183Z",
       "platform": "VINTED",
@@ -240,30 +264,6 @@
       "estimatedNetProfit": 33.94,
       "roi": 84.85,
       "score": 80
-    },
-    {
-      "at": "2026-09-20T11:52:22.559Z",
-      "platform": "VINTED",
-      "id": "10066204062",
-      "title": "boys coat",
-      "url": "https://www.vinted.co.uk/items/10066204062-boys-coat",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 40,
-      "estimatedNetProfit": 33.94,
-      "roi": 84.85,
-      "score": 80
-    },
-    {
-      "at": "2026-09-20T11:52:21.154Z",
-      "platform": "VINTED",
-      "id": "10067538098",
-      "title": "ralph lauren puffer age 8",
-      "url": "https://www.vinted.co.uk/items/10067538098-ralph-lauren-puffer-age-8",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 30,
-      "estimatedNetProfit": 41.39,
-      "roi": 137.97,
-      "score": 89
     }
   ]
 }
