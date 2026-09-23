@@ -1,35 +1,37 @@
 {
-  "generatedAt": "2026-09-23T05:17:21.937Z",
-  "stateUpdatedAt": "2026-09-23T05:17:21.937Z",
-  "lastAttemptAt": "2026-09-23T05:17:21.937Z",
-  "lastScanAt": "2026-09-23T05:17:21.937Z",
+  "generatedAt": "2026-09-23T05:22:22.362Z",
+  "stateUpdatedAt": "2026-09-23T05:22:22.362Z",
+  "lastAttemptAt": "2026-09-23T05:22:22.362Z",
+  "lastScanAt": "2026-09-23T05:22:22.362Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Air Force 1::primary",
-    "Nike Dunk Low::primary",
-    "Air Jordan 1 Low::primary",
-    "Air Jordan 1 Mid::primary",
-    "Air Jordan 4::primary",
-    "Nike Initiator::primary"
+    "Nike Air Max Moto 2K::primary",
+    "Nike Metcon 10::primary",
+    "Nike Zoom Fly 6::primary",
+    "Nike Air Max Bargain::generic",
+    "Nike Running Trainer Bargain::generic",
+    "Nike Lifestyle Trainer Bargain::generic"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1344,
-  "catalogItems": 974,
-  "candidateItems": 678,
-  "freshItems": 80,
-  "qualifyingAlerts": 7,
+  "catalogMarkers": 1342,
+  "catalogItems": 844,
+  "candidateItems": 410,
+  "freshItems": 16,
+  "qualifyingAlerts": 4,
   "qualifyingByCondition": {
-    "veryGood": 7
+    "newWithTags": 1,
+    "veryGood": 3
   },
-  "deliveredAlerts": 7,
+  "deliveredAlerts": 4,
   "deliveredByCondition": {
-    "veryGood": 7
+    "newWithTags": 1,
+    "veryGood": 3
   },
-  "duplicateSuppressed": 10,
+  "duplicateSuppressed": 74,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -63,14 +65,14 @@
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 12,
+  "detailFetches": 11,
   "rejects": {
-    "stale": 588,
-    "condition": 3,
-    "size": 5,
-    "price": 2,
-    "seller-check-budget-exhausted": 45,
-    "detail-budget-exhausted": 18
+    "stale": 320,
+    "seller-risk": 2,
+    "price": 1,
+    "keyword": 2,
+    "condition": 2,
+    "size": 5
   },
   "failures": {}
 }
