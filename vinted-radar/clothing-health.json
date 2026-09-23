@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-09-23T19:00:12.275Z",
-  "stateUpdatedAt": "2026-09-23T19:00:12.275Z",
-  "lastAttemptAt": "2026-09-23T19:00:12.275Z",
-  "lastScanAt": "2026-09-23T19:00:12.275Z",
+  "generatedAt": "2026-09-23T21:26:01.807Z",
+  "stateUpdatedAt": "2026-09-23T21:26:01.807Z",
+  "lastAttemptAt": "2026-09-23T21:26:01.807Z",
+  "lastScanAt": "2026-09-23T21:26:01.807Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Fleece::nike fleece",
-    "Nike Gilet::nike gilet",
-    "Nike Windbreaker::nike windbreaker",
-    "Nike Anorak::nike anorak",
-    "Nike Rain Jacket::nike rain jacket",
-    "Nike Woven Jacket::nike woven jacket"
+    "Nike Bomber Jacket::nike bomber jacket",
+    "Nike Coat::nike coat",
+    "Nike Shorts::nike shorts",
+    "Nike Cargo Trousers::nike cargo trousers",
+    "Nike Track Pants::nike track pants",
+    "Nike Woven Trousers::nike woven trousers"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1341,
-  "catalogItems": 1102,
-  "candidateItems": 273,
-  "freshItems": 183,
-  "qualifyingAlerts": 58,
+  "catalogMarkers": 1333,
+  "catalogItems": 1098,
+  "candidateItems": 300,
+  "freshItems": 218,
+  "qualifyingAlerts": 65,
   "qualifyingByCondition": {
-    "veryGood": 49,
+    "veryGood": 55,
     "newWithTags": 2,
-    "newWithoutTags": 7
+    "newWithoutTags": 8
   },
-  "deliveredAlerts": 58,
+  "deliveredAlerts": 65,
   "deliveredByCondition": {
-    "veryGood": 49,
+    "veryGood": 55,
     "newWithTags": 2,
-    "newWithoutTags": 7
+    "newWithoutTags": 8
   },
-  "duplicateSuppressed": 8,
+  "duplicateSuppressed": 5,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,12 +69,12 @@
   "pendingDeliveries": 0,
   "detailFetches": 6,
   "rejects": {
-    "condition": 38,
-    "recovery-no-fresh-signal": 82,
-    "price": 68,
+    "price": 99,
+    "condition": 34,
+    "recovery-no-fresh-signal": 77,
+    "keyword": 9,
     "size": 5,
-    "keyword": 6,
-    "detail-budget-exhausted": 8
+    "detail-budget-exhausted": 6
   },
   "failures": {}
 }
