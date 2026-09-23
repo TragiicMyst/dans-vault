@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-09-23T01:52:50.207Z",
+    "startedAt": "2026-09-23T06:52:47.303Z",
     "searchGroups": [
-      "hunter:polo-puffer-jacket",
-      "hunter:nike-puffer-jacket",
-      "hunter:berghaus-puffer",
-      "hunter:napapijri-jacket",
-      "tnf-1996-nuptse:north-face-nuptse-700",
-      "tnf-1996-nuptse:north-face-1996-nuptse",
-      "tnf-himalayan:north-face-himalayan-puffer",
-      "tnf-himalayan:north-face-hmlyn-parka"
+      "berghaus-down:berghaus-down-jacket",
+      "berghaus-down:berghaus-puffer-jacket",
+      "napapijri-skidoo:napapijri-skidoo-jacket",
+      "napapijri-skidoo:napapijri-rainforest-winter",
+      "hunter:north-face-coat",
+      "hunter:north-face-puffer",
+      "hunter:north-face-700",
+      "hunter:mens-north-face-jacket"
     ],
     "vintedItems": 280,
-    "freshItems": 1,
+    "freshItems": 10,
     "freshByAge": 0,
-    "freshByNewId": 1,
+    "freshByNewId": 10,
     "bootstrapBlocked": 0,
-    "staleBlocked": 5,
-    "candidates": 0,
+    "staleBlocked": 63,
+    "candidates": 2,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-09-23T06:50:00.271Z",
+      "platform": "VINTED",
+      "id": "10102967233",
+      "title": "mens nike therma fit puffer jacket coat navy large",
+      "url": "https://www.vinted.co.uk/items/10102967233-mens-nike-therma-fit-puffer-jacket-coat-navy-large",
+      "modelId": "nike-puffer",
+      "buyPrice": 30,
+      "estimatedNetProfit": 26.88,
+      "roi": 89.6,
+      "score": 88
+    },
     {
       "at": "2026-09-22T23:36:29.752Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 30.67,
       "roi": 153.35,
       "score": 93
-    },
-    {
-      "at": "2026-09-21T16:57:29.799Z",
-      "platform": "VINTED",
-      "id": "10082002579",
-      "title": "berghaus puffer jacket age 14 15 small mens",
-      "url": "https://www.vinted.co.uk/items/10082002579-berghaus-puffer-jacket-age-14-15-small-mens",
-      "modelId": "berghaus-down",
-      "buyPrice": 22,
-      "estimatedNetProfit": 22.69,
-      "roi": 103.14,
-      "score": 87
     }
   ]
 }
