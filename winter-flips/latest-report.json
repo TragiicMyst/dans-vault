@@ -2,29 +2,65 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-09-23T06:52:47.303Z",
+    "startedAt": "2026-09-23T12:25:15.817Z",
     "searchGroups": [
-      "berghaus-down:berghaus-down-jacket",
-      "berghaus-down:berghaus-puffer-jacket",
-      "napapijri-skidoo:napapijri-skidoo-jacket",
-      "napapijri-skidoo:napapijri-rainforest-winter",
-      "hunter:north-face-coat",
-      "hunter:north-face-puffer",
-      "hunter:north-face-700",
-      "hunter:mens-north-face-jacket"
+      "rab-microlight:rab-microlight-alpine",
+      "rab-neutrino:rab-neutrino-pro",
+      "rab-electron:rab-electron-pro",
+      "patagonia-down-sweater:patagonia-down-sweater-jacket",
+      "patagonia-down-sweater:patagonia-down-sweater-hoody",
+      "patagonia-fitz-roy:patagonia-fitz-roy-down",
+      "arcteryx-cerium:arcteryx-cerium-jacket",
+      "arcteryx-cerium:arc-teryx-cerium"
     ],
     "vintedItems": 280,
-    "freshItems": 10,
+    "freshItems": 0,
     "freshByAge": 0,
-    "freshByNewId": 10,
+    "freshByNewId": 0,
     "bootstrapBlocked": 0,
-    "staleBlocked": 63,
-    "candidates": 2,
+    "staleBlocked": 1,
+    "candidates": 0,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-09-23T12:19:36.427Z",
+      "platform": "VINTED",
+      "id": "10106122289",
+      "title": "nike puffer jacket age 6 7",
+      "url": "https://www.vinted.co.uk/items/10106122289-nike-puffer-jacket-age-6-7",
+      "modelId": "nike-puffer",
+      "buyPrice": 20,
+      "estimatedNetProfit": 35.12,
+      "roi": 175.6,
+      "score": 92
+    },
+    {
+      "at": "2026-09-23T12:19:35.094Z",
+      "platform": "VINTED",
+      "id": "10106330759",
+      "title": "nike puffer coat",
+      "url": "https://www.vinted.co.uk/items/10106330759-nike-puffer-coat",
+      "modelId": "nike-puffer",
+      "buyPrice": 10,
+      "estimatedNetProfit": 43.36,
+      "roi": 433.6,
+      "score": 87
+    },
+    {
+      "at": "2026-09-23T12:19:29.724Z",
+      "platform": "VINTED",
+      "id": "10106143374",
+      "title": "ralph lauren lightweight puffer jacket",
+      "url": "https://www.vinted.co.uk/items/10106143374-ralph-lauren-lightweight-puffer-jacket",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 35,
+      "estimatedNetProfit": 30.21,
+      "roi": 86.31,
+      "score": 87
+    },
     {
       "at": "2026-09-23T06:50:00.271Z",
       "platform": "VINTED",
@@ -228,42 +264,6 @@
       "estimatedNetProfit": 32.15,
       "roi": 128.6,
       "score": 92
-    },
-    {
-      "at": "2026-09-21T21:01:37.183Z",
-      "platform": "VINTED",
-      "id": "10086631180",
-      "title": "nike puffer coat",
-      "url": "https://www.vinted.co.uk/items/10086631180-nike-puffer-coat",
-      "modelId": "nike-puffer",
-      "buyPrice": 22,
-      "estimatedNetProfit": 30.7,
-      "roi": 139.55,
-      "score": 88
-    },
-    {
-      "at": "2026-09-21T20:58:38.062Z",
-      "platform": "VINTED",
-      "id": "10087910743",
-      "title": "polo ralph lauren the pima sweater size l grey v neck jumper new with tags",
-      "url": "https://www.vinted.co.uk/items/10087910743-polo-ralph-lauren-the-pima-sweater-size-l-grey-v-neck-jumper-new-with-tags",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 40,
-      "estimatedNetProfit": 41.65,
-      "roi": 104.13,
-      "score": 90
-    },
-    {
-      "at": "2026-09-21T20:55:38.899Z",
-      "platform": "VINTED",
-      "id": "10088239389",
-      "title": "womans berghaus puffer",
-      "url": "https://www.vinted.co.uk/items/10088239389-womans-berghaus-puffer",
-      "modelId": "berghaus-down",
-      "buyPrice": 20,
-      "estimatedNetProfit": 30.67,
-      "roi": 153.35,
-      "score": 93
     }
   ]
 }
