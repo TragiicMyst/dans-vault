@@ -2,29 +2,65 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-09-23T12:25:15.817Z",
+    "startedAt": "2026-09-23T17:20:29.411Z",
     "searchGroups": [
-      "rab-microlight:rab-microlight-alpine",
-      "rab-neutrino:rab-neutrino-pro",
-      "rab-electron:rab-electron-pro",
-      "patagonia-down-sweater:patagonia-down-sweater-jacket",
-      "patagonia-down-sweater:patagonia-down-sweater-hoody",
-      "patagonia-fitz-roy:patagonia-fitz-roy-down",
-      "arcteryx-cerium:arcteryx-cerium-jacket",
-      "arcteryx-cerium:arc-teryx-cerium"
+      "hunter:patagonia-puffer",
+      "hunter:arcteryx-jacket",
+      "hunter:arc-teryx-puffer",
+      "hunter:ralph-lauren-puffer",
+      "hunter:polo-puffer-jacket",
+      "hunter:nike-puffer-jacket",
+      "hunter:berghaus-puffer",
+      "hunter:napapijri-jacket"
     ],
     "vintedItems": 280,
-    "freshItems": 0,
+    "freshItems": 25,
     "freshByAge": 0,
-    "freshByNewId": 0,
+    "freshByNewId": 25,
     "bootstrapBlocked": 0,
-    "staleBlocked": 1,
-    "candidates": 0,
+    "staleBlocked": 0,
+    "candidates": 1,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-09-23T17:14:42.337Z",
+      "platform": "VINTED",
+      "id": "10107152911",
+      "title": "mens nike puffer coat uk xxl new excellent condition",
+      "url": "https://www.vinted.co.uk/items/10107152911-mens-nike-puffer-coat-uk-xxl-new-excellent-condition",
+      "modelId": "nike-puffer",
+      "buyPrice": 20,
+      "estimatedNetProfit": 31.27,
+      "roi": 156.35,
+      "score": 95
+    },
+    {
+      "at": "2026-09-23T17:14:37.219Z",
+      "platform": "VINTED",
+      "id": "10106582353",
+      "title": "body warmer",
+      "url": "https://www.vinted.co.uk/items/10106582353-body-warmer",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 39.99,
+      "estimatedNetProfit": 35.74,
+      "roi": 89.37,
+      "score": 87
+    },
+    {
+      "at": "2026-09-23T17:14:36.043Z",
+      "platform": "VINTED",
+      "id": "10108818624",
+      "title": "polo ralph lauren puffer jacket matt black 13 years 147158cm",
+      "url": "https://www.vinted.co.uk/items/10108818624-polo-ralph-lauren-puffer-jacket-matt-black-13-years-147158cm",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 42,
+      "estimatedNetProfit": 30.9,
+      "roi": 73.57,
+      "score": 82
+    },
     {
       "at": "2026-09-23T12:19:36.427Z",
       "platform": "VINTED",
@@ -228,42 +264,6 @@
       "estimatedNetProfit": 30.45,
       "roi": 60.9,
       "score": 70
-    },
-    {
-      "at": "2026-09-22T09:23:03.778Z",
-      "platform": "VINTED",
-      "id": "10091713604",
-      "title": "ralph lauren reversible coat",
-      "url": "https://www.vinted.co.uk/items/10091713604-ralph-lauren-reversible-coat",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 35,
-      "estimatedNetProfit": 43.05,
-      "roi": 123,
-      "score": 87
-    },
-    {
-      "at": "2026-09-22T04:23:43.716Z",
-      "platform": "VINTED",
-      "id": "10089469255",
-      "title": "nike therma fit puffer coat",
-      "url": "https://www.vinted.co.uk/items/10089469255-nike-therma-fit-puffer-coat",
-      "modelId": "nike-puffer",
-      "buyPrice": 20,
-      "estimatedNetProfit": 32.81,
-      "roi": 164.05,
-      "score": 91
-    },
-    {
-      "at": "2026-09-22T04:23:42.824Z",
-      "platform": "VINTED",
-      "id": "10090148952",
-      "title": "nike puffer coat brand new",
-      "url": "https://www.vinted.co.uk/items/10090148952-nike-puffer-coat-brand-new",
-      "modelId": "nike-puffer",
-      "buyPrice": 25,
-      "estimatedNetProfit": 32.15,
-      "roi": 128.6,
-      "score": 92
     }
   ]
 }
