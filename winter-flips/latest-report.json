@@ -2,31 +2,53 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-09-24T06:22:09.377Z",
+    "startedAt": "2026-09-24T12:04:12.231Z",
     "searchGroups": [
-      "arcteryx-cerium:arcteryx-cerium-jacket",
-      "arcteryx-cerium:arc-teryx-cerium",
-      "arcteryx-thorium:arcteryx-thorium-jacket",
-      "arcteryx-thorium:arc-teryx-thorium",
-      "ralph-lauren-puffer:ralph-lauren-puffer-jacket",
-      "ralph-lauren-puffer:polo-ralph-lauren-down-jacket",
-      "nike-puffer:nike-puffer-jacket-mens",
-      "nike-puffer:nike-down-jacket"
+      "hunter:berghaus-puffer",
+      "hunter:napapijri-jacket",
+      "tnf-1996-nuptse:north-face-nuptse-700",
+      "tnf-1996-nuptse:north-face-1996-nuptse",
+      "tnf-himalayan:north-face-himalayan-puffer",
+      "tnf-himalayan:north-face-hmlyn-parka",
+      "tnf-baltoro:north-face-baltoro-jacket",
+      "tnf-summit-down:north-face-summit-series-down"
     ],
-    "vintedItems": 245,
-    "freshItems": 1,
+    "vintedItems": 280,
+    "freshItems": 4,
     "freshByAge": 0,
-    "freshByNewId": 1,
+    "freshByNewId": 4,
     "bootstrapBlocked": 0,
-    "staleBlocked": 5,
-    "candidates": 1,
+    "staleBlocked": 2,
+    "candidates": 0,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
-    "failures": [
-      "Vinted arc teryx thorium: Vinted HTTP 500"
-    ]
+    "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-09-24T12:01:29.609Z",
+      "platform": "VINTED",
+      "id": "10116392677",
+      "title": "mens nike puffer jacket",
+      "url": "https://www.vinted.co.uk/items/10116392677-mens-nike-puffer-jacket",
+      "modelId": "nike-puffer",
+      "buyPrice": 25,
+      "estimatedNetProfit": 25.99,
+      "roi": 103.96,
+      "score": 89
+    },
+    {
+      "at": "2026-09-24T12:01:23.614Z",
+      "platform": "VINTED",
+      "id": "10116085492",
+      "title": "polo ralph lauren burgundy metallic look down filled autumn bomber jacket size",
+      "url": "https://www.vinted.co.uk/items/10116085492-polo-ralph-lauren-burgundy-metallic-look-down-filled-autumn-bomber-jacket-size",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 37,
+      "estimatedNetProfit": 38.82,
+      "roi": 104.92,
+      "score": 90
+    },
     {
       "at": "2026-09-24T01:25:00.343Z",
       "platform": "VINTED",
@@ -242,30 +264,6 @@
       "estimatedNetProfit": 30.85,
       "roi": 205.67,
       "score": 98
-    },
-    {
-      "at": "2026-09-22T14:11:45.351Z",
-      "platform": "VINTED",
-      "id": "10093970159",
-      "title": "bnwt polo ralph lauren quilted jacket blue age 6 years",
-      "url": "https://www.vinted.co.uk/items/10093970159-bnwt-polo-ralph-lauren-quilted-jacket-blue-age-6-years",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 36,
-      "estimatedNetProfit": 44.86,
-      "roi": 124.61,
-      "score": 87
-    },
-    {
-      "at": "2026-09-22T14:11:44.003Z",
-      "platform": "VINTED",
-      "id": "10094903019",
-      "title": "ladies ralph lauren puffer jacket size 12 14 like new",
-      "url": "https://www.vinted.co.uk/items/10094903019-ladies-ralph-lauren-puffer-jacket-size-12-14-like-new",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 35,
-      "estimatedNetProfit": 40.78,
-      "roi": 116.51,
-      "score": 91
     }
   ]
 }
