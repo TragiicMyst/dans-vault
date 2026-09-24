@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-09-24T12:04:12.231Z",
+    "startedAt": "2026-09-24T17:01:06.802Z",
     "searchGroups": [
-      "hunter:berghaus-puffer",
-      "hunter:napapijri-jacket",
-      "tnf-1996-nuptse:north-face-nuptse-700",
-      "tnf-1996-nuptse:north-face-1996-nuptse",
-      "tnf-himalayan:north-face-himalayan-puffer",
-      "tnf-himalayan:north-face-hmlyn-parka",
-      "tnf-baltoro:north-face-baltoro-jacket",
-      "tnf-summit-down:north-face-summit-series-down"
+      "napapijri-skidoo:napapijri-skidoo-jacket",
+      "napapijri-skidoo:napapijri-rainforest-winter",
+      "hunter:north-face-coat",
+      "hunter:north-face-puffer",
+      "hunter:north-face-700",
+      "hunter:mens-north-face-jacket",
+      "hunter:rab-puffer",
+      "hunter:rab-down-jacket"
     ],
     "vintedItems": 280,
-    "freshItems": 4,
+    "freshItems": 70,
     "freshByAge": 0,
-    "freshByNewId": 4,
+    "freshByNewId": 70,
     "bootstrapBlocked": 0,
-    "staleBlocked": 2,
-    "candidates": 0,
+    "staleBlocked": 3,
+    "candidates": 5,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-09-24T16:58:14.592Z",
+      "platform": "VINTED",
+      "id": "10120935274",
+      "title": "polo ralph lauren featherweight mesh shirt",
+      "url": "https://www.vinted.co.uk/items/10120935274-polo-ralph-lauren-featherweight-mesh-shirt",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 38,
+      "estimatedNetProfit": 43.95,
+      "roi": 115.66,
+      "score": 91
+    },
     {
       "at": "2026-09-24T12:01:29.609Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 37.95,
       "roi": 108.43,
       "score": 85
-    },
-    {
-      "at": "2026-09-22T14:11:50.454Z",
-      "platform": "VINTED",
-      "id": "10093334732",
-      "title": "brown nike puffer coat",
-      "url": "https://www.vinted.co.uk/items/10093334732-brown-nike-puffer-coat",
-      "modelId": "nike-puffer",
-      "buyPrice": 15,
-      "estimatedNetProfit": 30.85,
-      "roi": 205.67,
-      "score": 98
     }
   ]
 }
