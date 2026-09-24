@@ -1,39 +1,37 @@
 {
-  "generatedAt": "2026-09-24T19:23:07.212Z",
-  "stateUpdatedAt": "2026-09-24T19:23:07.212Z",
-  "lastAttemptAt": "2026-09-24T19:23:07.212Z",
-  "lastScanAt": "2026-09-24T19:23:07.212Z",
+  "generatedAt": "2026-09-24T21:51:23.601Z",
+  "stateUpdatedAt": "2026-09-24T21:51:23.601Z",
+  "lastAttemptAt": "2026-09-24T21:51:23.601Z",
+  "lastScanAt": "2026-09-24T21:51:23.601Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Stride Running Jacket::nike stride running jacket",
-    "Nike T-Shirt::nike t shirt",
-    "Nike Long Sleeve Top::nike long sleeve top",
-    "Nike Polo::nike polo",
-    "Nike Football Shirt::nike football shirt",
-    "Nike Training Top::nike training top"
+    "Nike Dri-FIT Top::nike dri fit top",
+    "Nike Quarter Zip::nike quarter zip",
+    "Nike Fleece::nike fleece",
+    "Nike Gilet::nike gilet",
+    "Nike Windbreaker::nike windbreaker",
+    "Nike Anorak::nike anorak"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1344,
-  "catalogItems": 1017,
-  "candidateItems": 322,
-  "freshItems": 217,
-  "qualifyingAlerts": 106,
+  "catalogMarkers": 1341,
+  "catalogItems": 1039,
+  "candidateItems": 292,
+  "freshItems": 210,
+  "qualifyingAlerts": 78,
   "qualifyingByCondition": {
-    "newWithTags": 4,
-    "veryGood": 90,
-    "newWithoutTags": 12
+    "veryGood": 70,
+    "newWithoutTags": 8
   },
-  "deliveredAlerts": 106,
+  "deliveredAlerts": 78,
   "deliveredByCondition": {
-    "newWithTags": 4,
-    "veryGood": 90,
-    "newWithoutTags": 12
+    "veryGood": 70,
+    "newWithoutTags": 8
   },
-  "duplicateSuppressed": 15,
+  "duplicateSuppressed": 8,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,13 +67,12 @@
   "pendingDeliveries": 0,
   "detailFetches": 6,
   "rejects": {
-    "price": 56,
-    "recovery-no-fresh-signal": 90,
+    "keyword": 10,
+    "price": 71,
+    "recovery-no-fresh-signal": 74,
     "size": 5,
-    "condition": 32,
-    "keyword": 7,
-    "weak-margin": 3,
-    "detail-budget-exhausted": 8
+    "condition": 35,
+    "detail-budget-exhausted": 11
   },
   "failures": {}
 }
