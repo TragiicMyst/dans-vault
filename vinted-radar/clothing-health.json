@@ -1,37 +1,39 @@
 {
-  "generatedAt": "2026-09-24T21:51:23.601Z",
-  "stateUpdatedAt": "2026-09-24T21:51:23.601Z",
-  "lastAttemptAt": "2026-09-24T21:51:23.601Z",
-  "lastScanAt": "2026-09-24T21:51:23.601Z",
+  "generatedAt": "2026-09-24T22:39:03.366Z",
+  "stateUpdatedAt": "2026-09-24T22:39:03.366Z",
+  "lastAttemptAt": "2026-09-24T22:39:03.366Z",
+  "lastScanAt": "2026-09-24T22:39:03.366Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Dri-FIT Top::nike dri fit top",
-    "Nike Quarter Zip::nike quarter zip",
-    "Nike Fleece::nike fleece",
-    "Nike Gilet::nike gilet",
-    "Nike Windbreaker::nike windbreaker",
-    "Nike Anorak::nike anorak"
+    "Nike Rain Jacket::nike rain jacket",
+    "Nike Woven Jacket::nike woven jacket",
+    "Nike Bomber Jacket::nike bomber jacket",
+    "Nike Coat::nike coat",
+    "Nike Shorts::nike shorts",
+    "Nike Cargo Trousers::nike cargo trousers"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1341,
-  "catalogItems": 1039,
-  "candidateItems": 292,
-  "freshItems": 210,
+  "catalogMarkers": 1344,
+  "catalogItems": 1107,
+  "candidateItems": 301,
+  "freshItems": 192,
   "qualifyingAlerts": 78,
   "qualifyingByCondition": {
-    "veryGood": 70,
-    "newWithoutTags": 8
+    "veryGood": 67,
+    "newWithTags": 4,
+    "newWithoutTags": 7
   },
   "deliveredAlerts": 78,
   "deliveredByCondition": {
-    "veryGood": 70,
-    "newWithoutTags": 8
+    "veryGood": 67,
+    "newWithTags": 4,
+    "newWithoutTags": 7
   },
-  "duplicateSuppressed": 8,
+  "duplicateSuppressed": 18,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,12 +69,13 @@
   "pendingDeliveries": 0,
   "detailFetches": 6,
   "rejects": {
-    "keyword": 10,
-    "price": 71,
-    "recovery-no-fresh-signal": 74,
-    "size": 5,
-    "condition": 35,
-    "detail-budget-exhausted": 11
+    "recovery-no-fresh-signal": 91,
+    "condition": 33,
+    "price": 62,
+    "size": 6,
+    "score": 1,
+    "keyword": 5,
+    "detail-budget-exhausted": 7
   },
   "failures": {}
 }
