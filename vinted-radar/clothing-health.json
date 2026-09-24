@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-09-24T18:37:39.506Z",
-  "stateUpdatedAt": "2026-09-24T18:37:39.506Z",
-  "lastAttemptAt": "2026-09-24T18:37:39.506Z",
-  "lastScanAt": "2026-09-24T18:37:39.506Z",
+  "generatedAt": "2026-09-24T19:23:07.212Z",
+  "stateUpdatedAt": "2026-09-24T19:23:07.212Z",
+  "lastAttemptAt": "2026-09-24T19:23:07.212Z",
+  "lastScanAt": "2026-09-24T19:23:07.212Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Running Division Jacket::nike running division jacket",
-    "Jordan Flight Fleece Joggers::jordan flight fleece joggers",
-    "Nike ACG Tuff Fleece::nike acg tuff fleece",
-    "Nike Solo Swoosh Crew::nike solo swoosh sweatshirt",
-    "Nike Miler Repel Jacket::nike miler repel jacket",
-    "Nike Solo Swoosh Joggers::nike solo swoosh joggers"
+    "Nike Stride Running Jacket::nike stride running jacket",
+    "Nike T-Shirt::nike t shirt",
+    "Nike Long Sleeve Top::nike long sleeve top",
+    "Nike Polo::nike polo",
+    "Nike Football Shirt::nike football shirt",
+    "Nike Training Top::nike training top"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 749,
-  "candidateItems": 308,
-  "freshItems": 31,
-  "qualifyingAlerts": 18,
+  "catalogItems": 1017,
+  "candidateItems": 322,
+  "freshItems": 217,
+  "qualifyingAlerts": 106,
   "qualifyingByCondition": {
-    "veryGood": 12,
     "newWithTags": 4,
-    "newWithoutTags": 2
+    "veryGood": 90,
+    "newWithoutTags": 12
   },
-  "deliveredAlerts": 18,
+  "deliveredAlerts": 106,
   "deliveredByCondition": {
-    "veryGood": 12,
     "newWithTags": 4,
-    "newWithoutTags": 2
+    "veryGood": 90,
+    "newWithoutTags": 12
   },
-  "duplicateSuppressed": 117,
+  "duplicateSuppressed": 15,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,11 +67,15 @@
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 1,
+  "detailFetches": 6,
   "rejects": {
-    "condition": 5,
-    "recovery-no-fresh-signal": 160,
-    "price": 8
+    "price": 56,
+    "recovery-no-fresh-signal": 90,
+    "size": 5,
+    "condition": 32,
+    "keyword": 7,
+    "weak-margin": 3,
+    "detail-budget-exhausted": 8
   },
   "failures": {}
 }
