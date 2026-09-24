@@ -2,29 +2,77 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-09-24T17:01:06.802Z",
+    "startedAt": "2026-09-24T20:26:04.272Z",
     "searchGroups": [
-      "napapijri-skidoo:napapijri-skidoo-jacket",
-      "napapijri-skidoo:napapijri-rainforest-winter",
-      "hunter:north-face-coat",
-      "hunter:north-face-puffer",
-      "hunter:north-face-700",
-      "hunter:mens-north-face-jacket",
-      "hunter:rab-puffer",
-      "hunter:rab-down-jacket"
+      "rab-electron:rab-electron-pro",
+      "patagonia-down-sweater:patagonia-down-sweater-jacket",
+      "patagonia-down-sweater:patagonia-down-sweater-hoody",
+      "patagonia-fitz-roy:patagonia-fitz-roy-down",
+      "arcteryx-cerium:arcteryx-cerium-jacket",
+      "arcteryx-cerium:arc-teryx-cerium",
+      "arcteryx-thorium:arcteryx-thorium-jacket",
+      "arcteryx-thorium:arc-teryx-thorium"
     ],
     "vintedItems": 280,
-    "freshItems": 70,
+    "freshItems": 1,
     "freshByAge": 0,
-    "freshByNewId": 70,
+    "freshByNewId": 1,
     "bootstrapBlocked": 0,
-    "staleBlocked": 3,
-    "candidates": 5,
+    "staleBlocked": 1,
+    "candidates": 0,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-09-24T20:23:10.710Z",
+      "platform": "VINTED",
+      "id": "10121577208",
+      "title": "the north face himalayan insulated parka jacket in black",
+      "url": "https://www.vinted.co.uk/items/10121577208-the-north-face-himalayan-insulated-parka-jacket-in-black",
+      "modelId": "tnf-himalayan",
+      "buyPrice": 50,
+      "estimatedNetProfit": 49.62,
+      "roi": 99.24,
+      "score": 89
+    },
+    {
+      "at": "2026-09-24T20:20:22.447Z",
+      "platform": "VINTED",
+      "id": "10121870684",
+      "title": "a nike puffer jacket",
+      "url": "https://www.vinted.co.uk/items/10121870684-a-nike-puffer-jacket",
+      "modelId": "nike-puffer",
+      "buyPrice": 30,
+      "estimatedNetProfit": 26.88,
+      "roi": 89.6,
+      "score": 87
+    },
+    {
+      "at": "2026-09-24T20:20:21.070Z",
+      "platform": "VINTED",
+      "id": "10123626554",
+      "title": "nike puffer",
+      "url": "https://www.vinted.co.uk/items/10123626554-nike-puffer",
+      "modelId": "nike-puffer",
+      "buyPrice": 20,
+      "estimatedNetProfit": 23.55,
+      "roi": 117.75,
+      "score": 91
+    },
+    {
+      "at": "2026-09-24T20:20:15.582Z",
+      "platform": "VINTED",
+      "id": "10123502500",
+      "title": "polo ralph lauren navy puffer jacket age 14 16 brand new",
+      "url": "https://www.vinted.co.uk/items/10123502500-polo-ralph-lauren-navy-puffer-jacket-age-14-16-brand-new",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 50,
+      "estimatedNetProfit": 30.57,
+      "roi": 61.14,
+      "score": 72
+    },
     {
       "at": "2026-09-24T16:58:14.592Z",
       "platform": "VINTED",
@@ -216,54 +264,6 @@
       "estimatedNetProfit": 30.23,
       "roi": 67.18,
       "score": 78
-    },
-    {
-      "at": "2026-09-22T18:06:54.006Z",
-      "platform": "VINTED",
-      "id": "10098675031",
-      "title": "nike puffer jacket",
-      "url": "https://www.vinted.co.uk/items/10098675031-nike-puffer-jacket",
-      "modelId": "nike-puffer",
-      "buyPrice": 20,
-      "estimatedNetProfit": 37.43,
-      "roi": 187.15,
-      "score": 97
-    },
-    {
-      "at": "2026-09-22T18:06:49.851Z",
-      "platform": "VINTED",
-      "id": "10096282756",
-      "title": "ralph lauren girls coat",
-      "url": "https://www.vinted.co.uk/items/10096282756-ralph-lauren-girls-coat",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 40,
-      "estimatedNetProfit": 35.86,
-      "roi": 89.65,
-      "score": 83
-    },
-    {
-      "at": "2026-09-22T18:06:48.358Z",
-      "platform": "VINTED",
-      "id": "10096915417",
-      "title": "ralph lauren gilet",
-      "url": "https://www.vinted.co.uk/items/10096915417-ralph-lauren-gilet",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 40,
-      "estimatedNetProfit": 35.86,
-      "roi": 89.65,
-      "score": 83
-    },
-    {
-      "at": "2026-09-22T18:06:47.239Z",
-      "platform": "VINTED",
-      "id": "10098693916",
-      "title": "polo ralph lauren quilted barn jacket in excellent condition",
-      "url": "https://www.vinted.co.uk/items/10098693916-polo-ralph-lauren-quilted-barn-jacket-in-excellent-condition",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 35,
-      "estimatedNetProfit": 37.95,
-      "roi": 108.43,
-      "score": 85
     }
   ]
 }
