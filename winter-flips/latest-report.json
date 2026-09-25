@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-09-25T20:36:07.947Z",
+    "startedAt": "2026-09-25T23:34:03.991Z",
     "searchGroups": [
-      "tnf-1996-nuptse:north-face-nuptse-700",
-      "tnf-1996-nuptse:north-face-1996-nuptse",
-      "tnf-himalayan:north-face-himalayan-puffer",
-      "tnf-himalayan:north-face-hmlyn-parka",
-      "tnf-baltoro:north-face-baltoro-jacket",
-      "tnf-summit-down:north-face-summit-series-down",
-      "rab-microlight:rab-microlight-alpine",
-      "rab-neutrino:rab-neutrino-pro"
+      "hunter:north-face-coat",
+      "hunter:north-face-puffer",
+      "hunter:north-face-700",
+      "hunter:mens-north-face-jacket",
+      "hunter:rab-puffer",
+      "hunter:rab-down-jacket",
+      "hunter:patagonia-puffer",
+      "hunter:arcteryx-jacket"
     ],
     "vintedItems": 280,
-    "freshItems": 1,
+    "freshItems": 27,
     "freshByAge": 0,
-    "freshByNewId": 1,
+    "freshByNewId": 27,
     "bootstrapBlocked": 0,
-    "staleBlocked": 2,
-    "candidates": 0,
-    "alerts": 0,
+    "staleBlocked": 25,
+    "candidates": 2,
+    "alerts": 1,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-09-25T23:34:12.088Z",
+      "platform": "VINTED",
+      "id": "10134803641",
+      "title": "the north face summit series zip up jumper",
+      "url": "https://www.vinted.co.uk/items/10134803641-the-north-face-summit-series-zip-up-jumper",
+      "modelId": "tnf-summit-down",
+      "buyPrice": 30,
+      "estimatedNetProfit": 53.09,
+      "roi": 176.97,
+      "score": 97
+    },
     {
       "at": "2026-09-25T20:33:15.280Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 31.27,
       "roi": 156.35,
       "score": 95
-    },
-    {
-      "at": "2026-09-23T17:14:37.219Z",
-      "platform": "VINTED",
-      "id": "10106582353",
-      "title": "body warmer",
-      "url": "https://www.vinted.co.uk/items/10106582353-body-warmer",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 39.99,
-      "estimatedNetProfit": 35.74,
-      "roi": 89.37,
-      "score": 87
     }
   ]
 }
