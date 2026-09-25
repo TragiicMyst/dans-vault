@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-09-25T15:30:25.047Z",
-  "stateUpdatedAt": "2026-09-25T15:30:25.047Z",
-  "lastAttemptAt": "2026-09-25T15:30:25.047Z",
-  "lastScanAt": "2026-09-25T15:30:25.047Z",
+  "generatedAt": "2026-09-25T15:35:27.180Z",
+  "stateUpdatedAt": "2026-09-25T15:35:27.180Z",
+  "lastAttemptAt": "2026-09-25T15:35:27.180Z",
+  "lastScanAt": "2026-09-25T15:35:27.180Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Air Max Moto 2K::primary",
-    "Nike Metcon 10::primary",
-    "Nike Zoom Fly 6::primary",
-    "Nike Air Max Bargain::generic",
-    "Nike Running Trainer Bargain::generic",
-    "Nike Lifestyle Trainer Bargain::generic"
+    "Nike Football Boot Bargain::generic",
+    "Nike Basketball Shoe Bargain::generic",
+    "Nike SB Shoe Bargain::generic",
+    "Nike P-6000::primary",
+    "Nike V5 RNR::primary",
+    "Nike Vomero 5::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1342,
-  "catalogItems": 844,
-  "candidateItems": 417,
-  "freshItems": 112,
+  "catalogMarkers": 1262,
+  "catalogItems": 792,
+  "candidateItems": 435,
+  "freshItems": 230,
   "qualifyingAlerts": 6,
   "qualifyingByCondition": {
+    "veryGood": 1,
     "newWithTags": 2,
-    "newWithoutTags": 1,
-    "veryGood": 3
+    "newWithoutTags": 3
   },
   "deliveredAlerts": 6,
   "deliveredByCondition": {
+    "veryGood": 1,
     "newWithTags": 2,
-    "newWithoutTags": 1,
-    "veryGood": 3
+    "newWithoutTags": 3
   },
-  "duplicateSuppressed": 65,
+  "duplicateSuppressed": 0,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,14 +69,15 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 240,
-    "size": 4,
-    "score": 2,
-    "seller-check-budget-exhausted": 27,
-    "price": 19,
-    "detail-budget-exhausted": 18,
-    "condition": 18,
-    "keyword": 18
+    "stale": 205,
+    "size": 5,
+    "price": 34,
+    "seller-risk": 1,
+    "condition": 43,
+    "keyword": 24,
+    "detail-budget-exhausted": 56,
+    "seller-check-budget-exhausted": 60,
+    "weak-margin": 1
   },
   "failures": {}
 }
