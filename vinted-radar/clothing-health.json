@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-09-25T22:46:48.088Z",
-  "stateUpdatedAt": "2026-09-25T22:46:48.088Z",
-  "lastAttemptAt": "2026-09-25T22:46:48.088Z",
-  "lastScanAt": "2026-09-25T22:46:48.088Z",
+  "generatedAt": "2026-09-25T22:56:52.741Z",
+  "stateUpdatedAt": "2026-09-25T22:56:52.741Z",
+  "lastAttemptAt": "2026-09-25T22:56:52.741Z",
+  "lastScanAt": "2026-09-25T22:56:52.741Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Miler Repel Jacket::nike miler repel jacket",
-    "Nike Solo Swoosh Joggers::nike solo swoosh joggers",
-    "Nike Stride Running Jacket::nike stride running jacket",
-    "Nike T-Shirt::nike t shirt",
-    "Nike Long Sleeve Top::nike long sleeve top",
-    "Nike Polo::nike polo"
+    "Nike Football Shirt::nike football shirt",
+    "Nike Training Top::nike training top",
+    "Nike Dri-FIT Top::nike dri fit top",
+    "Nike Quarter Zip::nike quarter zip",
+    "Nike Fleece::nike fleece",
+    "Nike Gilet::nike gilet"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1343,
-  "catalogItems": 905,
-  "candidateItems": 339,
-  "freshItems": 143,
+  "catalogMarkers": 1344,
+  "catalogItems": 1006,
+  "candidateItems": 330,
+  "freshItems": 200,
   "qualifyingAlerts": 81,
   "qualifyingByCondition": {
-    "newWithoutTags": 10,
     "veryGood": 69,
-    "newWithTags": 2
+    "newWithoutTags": 8,
+    "newWithTags": 4
   },
   "deliveredAlerts": 81,
   "deliveredByCondition": {
-    "newWithoutTags": 10,
     "veryGood": 69,
-    "newWithTags": 2
+    "newWithoutTags": 8,
+    "newWithTags": 4
   },
-  "duplicateSuppressed": 63,
+  "duplicateSuppressed": 15,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,14 +69,14 @@
   "pendingDeliveries": 0,
   "detailFetches": 6,
   "rejects": {
-    "keyword": 4,
-    "price": 26,
-    "condition": 15,
-    "recovery-no-fresh-signal": 133,
-    "score": 1,
-    "weak-margin": 2,
+    "stale": 115,
+    "price": 61,
+    "keyword": 12,
+    "condition": 29,
     "size": 4,
-    "detail-budget-exhausted": 10
+    "weak-margin": 1,
+    "detail-budget-exhausted": 11,
+    "score": 1
   },
   "failures": {}
 }
