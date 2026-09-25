@@ -2,29 +2,53 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-09-25T12:20:13.325Z",
+    "startedAt": "2026-09-25T17:19:08.892Z",
     "searchGroups": [
-      "hunter:rab-puffer",
-      "hunter:rab-down-jacket",
-      "hunter:patagonia-puffer",
-      "hunter:arcteryx-jacket",
-      "hunter:arc-teryx-puffer",
-      "hunter:ralph-lauren-puffer",
-      "hunter:polo-puffer-jacket",
-      "hunter:nike-puffer-jacket"
+      "arcteryx-thorium:arcteryx-thorium-jacket",
+      "arcteryx-thorium:arc-teryx-thorium",
+      "ralph-lauren-puffer:ralph-lauren-puffer-jacket",
+      "ralph-lauren-puffer:polo-ralph-lauren-down-jacket",
+      "nike-puffer:nike-puffer-jacket-mens",
+      "nike-puffer:nike-down-jacket",
+      "berghaus-down:berghaus-down-jacket",
+      "berghaus-down:berghaus-puffer-jacket"
     ],
     "vintedItems": 280,
-    "freshItems": 8,
+    "freshItems": 23,
     "freshByAge": 0,
-    "freshByNewId": 8,
+    "freshByNewId": 23,
     "bootstrapBlocked": 0,
-    "staleBlocked": 6,
-    "candidates": 2,
-    "alerts": 1,
+    "staleBlocked": 1,
+    "candidates": 15,
+    "alerts": 2,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-09-25T17:19:19.048Z",
+      "platform": "VINTED",
+      "id": "10132163365",
+      "title": "nike puffer jacket",
+      "url": "https://www.vinted.co.uk/items/10132163365-nike-puffer-jacket",
+      "modelId": "nike-puffer",
+      "buyPrice": 20,
+      "estimatedNetProfit": 28.33,
+      "roi": 141.65,
+      "score": 93
+    },
+    {
+      "at": "2026-09-25T17:19:15.201Z",
+      "platform": "VINTED",
+      "id": "10131767083",
+      "title": "ralph lauren quilted jacket girls age 14 16 new",
+      "url": "https://www.vinted.co.uk/items/10131767083-ralph-lauren-quilted-jacket-girls-age-14-16-new",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 49,
+      "estimatedNetProfit": 30.19,
+      "roi": 61.61,
+      "score": 67
+    },
     {
       "at": "2026-09-25T12:20:28.809Z",
       "platform": "VINTED",
@@ -240,30 +264,6 @@
       "estimatedNetProfit": 30.9,
       "roi": 73.57,
       "score": 82
-    },
-    {
-      "at": "2026-09-23T12:19:36.427Z",
-      "platform": "VINTED",
-      "id": "10106122289",
-      "title": "nike puffer jacket age 6 7",
-      "url": "https://www.vinted.co.uk/items/10106122289-nike-puffer-jacket-age-6-7",
-      "modelId": "nike-puffer",
-      "buyPrice": 20,
-      "estimatedNetProfit": 35.12,
-      "roi": 175.6,
-      "score": 92
-    },
-    {
-      "at": "2026-09-23T12:19:35.094Z",
-      "platform": "VINTED",
-      "id": "10106330759",
-      "title": "nike puffer coat",
-      "url": "https://www.vinted.co.uk/items/10106330759-nike-puffer-coat",
-      "modelId": "nike-puffer",
-      "buyPrice": 10,
-      "estimatedNetProfit": 43.36,
-      "roi": 433.6,
-      "score": 87
     }
   ]
 }
