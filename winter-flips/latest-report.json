@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-09-25T17:19:08.892Z",
+    "startedAt": "2026-09-25T20:36:07.947Z",
     "searchGroups": [
-      "arcteryx-thorium:arcteryx-thorium-jacket",
-      "arcteryx-thorium:arc-teryx-thorium",
-      "ralph-lauren-puffer:ralph-lauren-puffer-jacket",
-      "ralph-lauren-puffer:polo-ralph-lauren-down-jacket",
-      "nike-puffer:nike-puffer-jacket-mens",
-      "nike-puffer:nike-down-jacket",
-      "berghaus-down:berghaus-down-jacket",
-      "berghaus-down:berghaus-puffer-jacket"
+      "tnf-1996-nuptse:north-face-nuptse-700",
+      "tnf-1996-nuptse:north-face-1996-nuptse",
+      "tnf-himalayan:north-face-himalayan-puffer",
+      "tnf-himalayan:north-face-hmlyn-parka",
+      "tnf-baltoro:north-face-baltoro-jacket",
+      "tnf-summit-down:north-face-summit-series-down",
+      "rab-microlight:rab-microlight-alpine",
+      "rab-neutrino:rab-neutrino-pro"
     ],
     "vintedItems": 280,
-    "freshItems": 23,
+    "freshItems": 1,
     "freshByAge": 0,
-    "freshByNewId": 23,
+    "freshByNewId": 1,
     "bootstrapBlocked": 0,
-    "staleBlocked": 1,
-    "candidates": 15,
-    "alerts": 2,
+    "staleBlocked": 2,
+    "candidates": 0,
+    "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-09-25T20:33:15.280Z",
+      "platform": "VINTED",
+      "id": "10133963356",
+      "title": "ralph lauren puffer coat",
+      "url": "https://www.vinted.co.uk/items/10133963356-ralph-lauren-puffer-coat",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 35,
+      "estimatedNetProfit": 44.96,
+      "roi": 128.46,
+      "score": 88
+    },
     {
       "at": "2026-09-25T17:19:19.048Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 35.74,
       "roi": 89.37,
       "score": 87
-    },
-    {
-      "at": "2026-09-23T17:14:36.043Z",
-      "platform": "VINTED",
-      "id": "10108818624",
-      "title": "polo ralph lauren puffer jacket matt black 13 years 147158cm",
-      "url": "https://www.vinted.co.uk/items/10108818624-polo-ralph-lauren-puffer-jacket-matt-black-13-years-147158cm",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 42,
-      "estimatedNetProfit": 30.9,
-      "roi": 73.57,
-      "score": 82
     }
   ]
 }
