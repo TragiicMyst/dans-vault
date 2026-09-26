@@ -1,37 +1,35 @@
 {
-  "generatedAt": "2026-09-26T06:44:26.575Z",
-  "stateUpdatedAt": "2026-09-26T06:44:26.575Z",
-  "lastAttemptAt": "2026-09-26T06:44:26.575Z",
-  "lastScanAt": "2026-09-26T06:44:26.575Z",
+  "generatedAt": "2026-09-26T10:51:06.241Z",
+  "stateUpdatedAt": "2026-09-26T10:51:06.241Z",
+  "lastAttemptAt": "2026-09-26T10:51:06.241Z",
+  "lastScanAt": "2026-09-26T10:51:06.241Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Air Max Plus 3::primary",
-    "Nike Air Max Plus VII::primary",
-    "Nike Air Max 95::primary",
-    "Nike Air Max 90::primary",
-    "Nike Air Max 90 Drift::primary",
-    "Nike Air Max 97::primary"
+    "Nike Air Max 270::primary",
+    "Nike Air Max Dn::primary",
+    "Nike Air Max 1::primary",
+    "Nike Shox TL::primary",
+    "Nike Shox R4::primary",
+    "Nike Shox Ride 2::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1344,
-  "catalogItems": 1051,
-  "candidateItems": 604,
-  "freshItems": 92,
-  "qualifyingAlerts": 4,
+  "catalogMarkers": 1343,
+  "catalogItems": 902,
+  "candidateItems": 376,
+  "freshItems": 155,
+  "qualifyingAlerts": 2,
   "qualifyingByCondition": {
-    "newWithoutTags": 2,
     "veryGood": 2
   },
-  "deliveredAlerts": 4,
+  "deliveredAlerts": 2,
   "deliveredByCondition": {
-    "newWithoutTags": 2,
     "veryGood": 2
   },
-  "duplicateSuppressed": 70,
+  "duplicateSuppressed": 24,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,15 +65,15 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 442,
-    "price": 1,
-    "condition": 3,
-    "keyword": 2,
-    "seller-risk": 3,
-    "score": 2,
-    "size": 3,
-    "detail-budget-exhausted": 17,
-    "seller-check-budget-exhausted": 57
+    "recovery-no-fresh-signal": 197,
+    "keyword": 17,
+    "size": 9,
+    "price": 6,
+    "condition": 20,
+    "seller-risk": 1,
+    "weak-margin": 3,
+    "seller-check-budget-exhausted": 60,
+    "detail-budget-exhausted": 37
   },
   "failures": {}
 }
