@@ -2,29 +2,53 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-09-26T06:48:55.473Z",
+    "startedAt": "2026-09-26T11:55:27.720Z",
     "searchGroups": [
-      "hunter:polo-puffer-jacket",
-      "hunter:nike-puffer-jacket",
-      "hunter:berghaus-puffer",
-      "hunter:napapijri-jacket",
-      "tnf-1996-nuptse:north-face-nuptse-700",
-      "tnf-1996-nuptse:north-face-1996-nuptse",
-      "tnf-himalayan:north-face-himalayan-puffer",
-      "tnf-himalayan:north-face-hmlyn-parka"
+      "berghaus-down:berghaus-down-jacket",
+      "berghaus-down:berghaus-puffer-jacket",
+      "napapijri-skidoo:napapijri-skidoo-jacket",
+      "napapijri-skidoo:napapijri-rainforest-winter",
+      "hunter:north-face-coat",
+      "hunter:north-face-puffer",
+      "hunter:north-face-700",
+      "hunter:mens-north-face-jacket"
     ],
     "vintedItems": 280,
-    "freshItems": 3,
+    "freshItems": 61,
     "freshByAge": 0,
-    "freshByNewId": 3,
+    "freshByNewId": 61,
     "bootstrapBlocked": 0,
-    "staleBlocked": 4,
-    "candidates": 0,
+    "staleBlocked": 19,
+    "candidates": 5,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-09-26T11:52:38.050Z",
+      "platform": "VINTED",
+      "id": "10137290097",
+      "title": "ralph lauren coat",
+      "url": "https://www.vinted.co.uk/items/10137290097-ralph-lauren-coat",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 30,
+      "estimatedNetProfit": 44.23,
+      "roi": 147.43,
+      "score": 95
+    },
+    {
+      "at": "2026-09-26T11:52:37.062Z",
+      "platform": "VINTED",
+      "id": "10138248177",
+      "title": "ralph lauren kids coat",
+      "url": "https://www.vinted.co.uk/items/10138248177-ralph-lauren-kids-coat",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 25,
+      "estimatedNetProfit": 49.51,
+      "roi": 198.04,
+      "score": 93
+    },
     {
       "at": "2026-09-26T01:52:06.232Z",
       "platform": "VINTED",
@@ -240,30 +264,6 @@
       "estimatedNetProfit": 38.82,
       "roi": 104.92,
       "score": 90
-    },
-    {
-      "at": "2026-09-24T01:25:00.343Z",
-      "platform": "VINTED",
-      "id": "10113528522",
-      "title": "berghaus puffer coat",
-      "url": "https://www.vinted.co.uk/items/10113528522-berghaus-puffer-coat",
-      "modelId": "berghaus-down",
-      "buyPrice": 12,
-      "estimatedNetProfit": 41.06,
-      "roi": 342.17,
-      "score": 85
-    },
-    {
-      "at": "2026-09-23T23:08:05.606Z",
-      "platform": "VINTED",
-      "id": "10113201775",
-      "title": "polo ralph lauren jacket",
-      "url": "https://www.vinted.co.uk/items/10113201775-polo-ralph-lauren-jacket",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 29,
-      "estimatedNetProfit": 45.55,
-      "roi": 157.07,
-      "score": 91
     }
   ]
 }
