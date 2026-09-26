@@ -2,29 +2,77 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-09-26T11:55:27.720Z",
+    "startedAt": "2026-09-26T15:14:43.093Z",
     "searchGroups": [
-      "berghaus-down:berghaus-down-jacket",
-      "berghaus-down:berghaus-puffer-jacket",
-      "napapijri-skidoo:napapijri-skidoo-jacket",
-      "napapijri-skidoo:napapijri-rainforest-winter",
-      "hunter:north-face-coat",
-      "hunter:north-face-puffer",
-      "hunter:north-face-700",
-      "hunter:mens-north-face-jacket"
+      "rab-microlight:rab-microlight-alpine",
+      "rab-neutrino:rab-neutrino-pro",
+      "rab-electron:rab-electron-pro",
+      "patagonia-down-sweater:patagonia-down-sweater-jacket",
+      "patagonia-down-sweater:patagonia-down-sweater-hoody",
+      "patagonia-fitz-roy:patagonia-fitz-roy-down",
+      "arcteryx-cerium:arcteryx-cerium-jacket",
+      "arcteryx-cerium:arc-teryx-cerium"
     ],
     "vintedItems": 280,
-    "freshItems": 61,
+    "freshItems": 0,
     "freshByAge": 0,
-    "freshByNewId": 61,
+    "freshByNewId": 0,
     "bootstrapBlocked": 0,
-    "staleBlocked": 19,
-    "candidates": 5,
+    "staleBlocked": 0,
+    "candidates": 0,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-09-26T15:11:49.824Z",
+      "platform": "VINTED",
+      "id": "10141415585",
+      "title": "north face mens 700 1996 retro nuptse vest size m",
+      "url": "https://www.vinted.co.uk/items/10141415585-north-face-mens-700-1996-retro-nuptse-vest-size-m",
+      "modelId": "tnf-1996-nuptse",
+      "buyPrice": 40,
+      "estimatedNetProfit": 40.22,
+      "roi": 100.55,
+      "score": 83
+    },
+    {
+      "at": "2026-09-26T15:09:03.216Z",
+      "platform": "VINTED",
+      "id": "10140834256",
+      "title": "girls 12m nike puffer jacket",
+      "url": "https://www.vinted.co.uk/items/10140834256-girls-12m-nike-puffer-jacket",
+      "modelId": "nike-puffer",
+      "buyPrice": 11,
+      "estimatedNetProfit": 44.62,
+      "roi": 405.64,
+      "score": 87
+    },
+    {
+      "at": "2026-09-26T15:09:02.064Z",
+      "platform": "VINTED",
+      "id": "10141963845",
+      "title": "mens nike puffer",
+      "url": "https://www.vinted.co.uk/items/10141963845-mens-nike-puffer",
+      "modelId": "nike-puffer",
+      "buyPrice": 28,
+      "estimatedNetProfit": 22.89,
+      "roi": 81.75,
+      "score": 85
+    },
+    {
+      "at": "2026-09-26T15:08:56.443Z",
+      "platform": "VINTED",
+      "id": "10141190914",
+      "title": "ralph lauren girls gilet age 12 14",
+      "url": "https://www.vinted.co.uk/items/10141190914-ralph-lauren-girls-gilet-age-12-14",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 40,
+      "estimatedNetProfit": 32.67,
+      "roi": 81.68,
+      "score": 80
+    },
     {
       "at": "2026-09-26T11:52:38.050Z",
       "platform": "VINTED",
@@ -216,54 +264,6 @@
       "estimatedNetProfit": 23.55,
       "roi": 117.75,
       "score": 91
-    },
-    {
-      "at": "2026-09-24T20:20:15.582Z",
-      "platform": "VINTED",
-      "id": "10123502500",
-      "title": "polo ralph lauren navy puffer jacket age 14 16 brand new",
-      "url": "https://www.vinted.co.uk/items/10123502500-polo-ralph-lauren-navy-puffer-jacket-age-14-16-brand-new",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 50,
-      "estimatedNetProfit": 30.57,
-      "roi": 61.14,
-      "score": 72
-    },
-    {
-      "at": "2026-09-24T16:58:14.592Z",
-      "platform": "VINTED",
-      "id": "10120935274",
-      "title": "polo ralph lauren featherweight mesh shirt",
-      "url": "https://www.vinted.co.uk/items/10120935274-polo-ralph-lauren-featherweight-mesh-shirt",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 38,
-      "estimatedNetProfit": 43.95,
-      "roi": 115.66,
-      "score": 91
-    },
-    {
-      "at": "2026-09-24T12:01:29.609Z",
-      "platform": "VINTED",
-      "id": "10116392677",
-      "title": "mens nike puffer jacket",
-      "url": "https://www.vinted.co.uk/items/10116392677-mens-nike-puffer-jacket",
-      "modelId": "nike-puffer",
-      "buyPrice": 25,
-      "estimatedNetProfit": 25.99,
-      "roi": 103.96,
-      "score": 89
-    },
-    {
-      "at": "2026-09-24T12:01:23.614Z",
-      "platform": "VINTED",
-      "id": "10116085492",
-      "title": "polo ralph lauren burgundy metallic look down filled autumn bomber jacket size",
-      "url": "https://www.vinted.co.uk/items/10116085492-polo-ralph-lauren-burgundy-metallic-look-down-filled-autumn-bomber-jacket-size",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 37,
-      "estimatedNetProfit": 38.82,
-      "roi": 104.92,
-      "score": 90
     }
   ]
 }
