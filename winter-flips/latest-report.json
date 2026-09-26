@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-09-25T23:34:03.991Z",
+    "startedAt": "2026-09-26T01:57:58.563Z",
     "searchGroups": [
-      "hunter:north-face-coat",
-      "hunter:north-face-puffer",
-      "hunter:north-face-700",
-      "hunter:mens-north-face-jacket",
-      "hunter:rab-puffer",
-      "hunter:rab-down-jacket",
-      "hunter:patagonia-puffer",
-      "hunter:arcteryx-jacket"
+      "patagonia-down-sweater:patagonia-down-sweater-hoody",
+      "patagonia-fitz-roy:patagonia-fitz-roy-down",
+      "arcteryx-cerium:arcteryx-cerium-jacket",
+      "arcteryx-cerium:arc-teryx-cerium",
+      "arcteryx-thorium:arcteryx-thorium-jacket",
+      "arcteryx-thorium:arc-teryx-thorium",
+      "ralph-lauren-puffer:ralph-lauren-puffer-jacket",
+      "ralph-lauren-puffer:polo-ralph-lauren-down-jacket"
     ],
     "vintedItems": 280,
-    "freshItems": 27,
+    "freshItems": 0,
     "freshByAge": 0,
-    "freshByNewId": 27,
+    "freshByNewId": 0,
     "bootstrapBlocked": 0,
-    "staleBlocked": 25,
-    "candidates": 2,
-    "alerts": 1,
+    "staleBlocked": 3,
+    "candidates": 0,
+    "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-09-26T01:52:06.232Z",
+      "platform": "VINTED",
+      "id": "10134916830",
+      "title": "nike puffer jacket",
+      "url": "https://www.vinted.co.uk/items/10134916830-nike-puffer-jacket",
+      "modelId": "nike-puffer",
+      "buyPrice": 8,
+      "estimatedNetProfit": 45.47,
+      "roi": 568.38,
+      "score": 87
+    },
     {
       "at": "2026-09-25T23:34:12.088Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 45.55,
       "roi": 157.07,
       "score": 91
-    },
-    {
-      "at": "2026-09-23T17:14:42.337Z",
-      "platform": "VINTED",
-      "id": "10107152911",
-      "title": "mens nike puffer coat uk xxl new excellent condition",
-      "url": "https://www.vinted.co.uk/items/10107152911-mens-nike-puffer-coat-uk-xxl-new-excellent-condition",
-      "modelId": "nike-puffer",
-      "buyPrice": 20,
-      "estimatedNetProfit": 31.27,
-      "roi": 156.35,
-      "score": 95
     }
   ]
 }
