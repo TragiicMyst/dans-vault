@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-09-26T21:39:44.303Z",
+    "startedAt": "2026-09-26T23:56:25.725Z",
     "searchGroups": [
-      "ralph-lauren-puffer:ralph-lauren-puffer-jacket",
-      "ralph-lauren-puffer:polo-ralph-lauren-down-jacket",
-      "nike-puffer:nike-puffer-jacket-mens",
-      "nike-puffer:nike-down-jacket",
-      "berghaus-down:berghaus-down-jacket",
-      "berghaus-down:berghaus-puffer-jacket",
-      "napapijri-skidoo:napapijri-skidoo-jacket",
-      "napapijri-skidoo:napapijri-rainforest-winter"
+      "tnf-himalayan:north-face-himalayan-puffer",
+      "tnf-himalayan:north-face-hmlyn-parka",
+      "tnf-baltoro:north-face-baltoro-jacket",
+      "tnf-summit-down:north-face-summit-series-down",
+      "rab-microlight:rab-microlight-alpine",
+      "rab-neutrino:rab-neutrino-pro",
+      "rab-electron:rab-electron-pro",
+      "patagonia-down-sweater:patagonia-down-sweater-jacket"
     ],
     "vintedItems": 280,
-    "freshItems": 13,
+    "freshItems": 0,
     "freshByAge": 0,
-    "freshByNewId": 13,
+    "freshByNewId": 0,
     "bootstrapBlocked": 0,
-    "staleBlocked": 3,
-    "candidates": 8,
-    "alerts": 1,
+    "staleBlocked": 1,
+    "candidates": 0,
+    "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-09-26T23:53:32.674Z",
+      "platform": "VINTED",
+      "id": "10145954622",
+      "title": "nike puffer coat",
+      "url": "https://www.vinted.co.uk/items/10145954622-nike-puffer-coat",
+      "modelId": "nike-puffer",
+      "buyPrice": 25,
+      "estimatedNetProfit": 27.53,
+      "roi": 110.12,
+      "score": 85
+    },
     {
       "at": "2026-09-26T21:39:47.003Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 49.94,
       "roi": 142.69,
       "score": 94
-    },
-    {
-      "at": "2026-09-24T23:15:42.496Z",
-      "platform": "VINTED",
-      "id": "10123831556",
-      "title": "ralph lauren kids coat",
-      "url": "https://www.vinted.co.uk/items/10123831556-ralph-lauren-kids-coat",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 30,
-      "estimatedNetProfit": 47.82,
-      "roi": 159.4,
-      "score": 90
     }
   ]
 }
