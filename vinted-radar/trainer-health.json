@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-09-27T04:40:29.757Z",
-  "stateUpdatedAt": "2026-09-27T04:40:29.757Z",
-  "lastAttemptAt": "2026-09-27T04:40:29.757Z",
-  "lastScanAt": "2026-09-27T04:40:29.757Z",
+  "generatedAt": "2026-09-27T04:45:29.508Z",
+  "stateUpdatedAt": "2026-09-27T04:45:29.508Z",
+  "lastAttemptAt": "2026-09-27T04:45:29.508Z",
+  "lastScanAt": "2026-09-27T04:45:29.508Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Air Force 1::primary",
-    "Nike Dunk Low::primary",
-    "Air Jordan 1 Low::primary",
-    "Air Jordan 1 Mid::primary",
-    "Air Jordan 4::primary",
-    "Nike Initiator::primary"
+    "Nike Air Max Moto 2K::primary",
+    "Nike Metcon 10::primary",
+    "Nike Zoom Fly 6::primary",
+    "Nike Air Max Bargain::generic",
+    "Nike Running Trainer Bargain::generic",
+    "Nike Lifestyle Trainer Bargain::generic"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1343,
-  "catalogItems": 991,
-  "candidateItems": 660,
-  "freshItems": 108,
-  "qualifyingAlerts": 5,
+  "catalogMarkers": 1342,
+  "catalogItems": 855,
+  "candidateItems": 439,
+  "freshItems": 4,
+  "qualifyingAlerts": 1,
   "qualifyingByCondition": {
-    "veryGood": 5
+    "veryGood": 1
   },
-  "deliveredAlerts": 5,
+  "deliveredAlerts": 1,
   "deliveredByCondition": {
-    "veryGood": 5
+    "veryGood": 1
   },
-  "duplicateSuppressed": 5,
+  "duplicateSuppressed": 82,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -63,17 +63,11 @@
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 12,
+  "detailFetches": 1,
   "rejects": {
-    "stale": 547,
-    "condition": 3,
+    "stale": 353,
     "price": 2,
-    "seller-risk": 3,
-    "size": 4,
-    "seller-check-budget-exhausted": 55,
-    "detail-budget-exhausted": 34,
-    "weak-margin": 1,
-    "keyword": 1
+    "condition": 1
   },
   "failures": {}
 }
