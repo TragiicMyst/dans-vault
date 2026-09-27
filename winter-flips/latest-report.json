@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-09-27T21:17:05.815Z",
+    "startedAt": "2026-09-27T23:54:50.539Z",
     "searchGroups": [
-      "rab-electron:rab-electron-pro",
-      "patagonia-down-sweater:patagonia-down-sweater-jacket",
-      "patagonia-down-sweater:patagonia-down-sweater-hoody",
-      "patagonia-fitz-roy:patagonia-fitz-roy-down",
-      "arcteryx-cerium:arcteryx-cerium-jacket",
-      "arcteryx-cerium:arc-teryx-cerium",
-      "arcteryx-thorium:arcteryx-thorium-jacket",
-      "arcteryx-thorium:arc-teryx-thorium"
+      "hunter:arc-teryx-puffer",
+      "hunter:ralph-lauren-puffer",
+      "hunter:polo-puffer-jacket",
+      "hunter:nike-puffer-jacket",
+      "hunter:berghaus-puffer",
+      "hunter:napapijri-jacket",
+      "tnf-1996-nuptse:north-face-nuptse-700",
+      "tnf-1996-nuptse:north-face-1996-nuptse"
     ],
     "vintedItems": 280,
-    "freshItems": 3,
+    "freshItems": 5,
     "freshByAge": 0,
-    "freshByNewId": 3,
+    "freshByNewId": 5,
     "bootstrapBlocked": 0,
-    "staleBlocked": 2,
+    "staleBlocked": 1,
     "candidates": 0,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-09-27T23:48:55.485Z",
+      "platform": "VINTED",
+      "id": "10162200855",
+      "title": "polo ralph lauren reversable down gilet black and red",
+      "url": "https://www.vinted.co.uk/items/10162200855-polo-ralph-lauren-reversable-down-gilet-black-and-red",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 40,
+      "estimatedNetProfit": 30.84,
+      "roi": 77.1,
+      "score": 83
+    },
     {
       "at": "2026-09-27T21:11:21.276Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 44.62,
       "roi": 405.64,
       "score": 87
-    },
-    {
-      "at": "2026-09-26T15:09:02.064Z",
-      "platform": "VINTED",
-      "id": "10141963845",
-      "title": "mens nike puffer",
-      "url": "https://www.vinted.co.uk/items/10141963845-mens-nike-puffer",
-      "modelId": "nike-puffer",
-      "buyPrice": 28,
-      "estimatedNetProfit": 22.89,
-      "roi": 81.75,
-      "score": 85
     }
   ]
 }
