@@ -1,37 +1,37 @@
 {
-  "generatedAt": "2026-09-27T22:13:15.514Z",
-  "stateUpdatedAt": "2026-09-27T22:13:15.514Z",
-  "lastAttemptAt": "2026-09-27T22:13:15.514Z",
-  "lastScanAt": "2026-09-27T22:13:15.514Z",
+  "generatedAt": "2026-09-27T23:39:45.658Z",
+  "stateUpdatedAt": "2026-09-27T23:39:45.658Z",
+  "lastAttemptAt": "2026-09-27T23:39:45.658Z",
+  "lastScanAt": "2026-09-27T23:39:45.658Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Air Max Moto 2K::primary",
-    "Nike Metcon 10::primary",
-    "Nike Zoom Fly 6::primary",
-    "Nike Air Max Bargain::generic",
-    "Nike Running Trainer Bargain::generic",
-    "Nike Lifestyle Trainer Bargain::generic"
+    "Nike Football Boot Bargain::generic",
+    "Nike Basketball Shoe Bargain::generic",
+    "Nike SB Shoe Bargain::generic",
+    "Nike P-6000::primary",
+    "Nike V5 RNR::primary",
+    "Nike Vomero 5::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1342,
-  "catalogItems": 850,
-  "candidateItems": 456,
-  "freshItems": 76,
-  "qualifyingAlerts": 11,
+  "catalogMarkers": 1261,
+  "catalogItems": 796,
+  "candidateItems": 460,
+  "freshItems": 195,
+  "qualifyingAlerts": 4,
   "qualifyingByCondition": {
-    "newWithTags": 5,
-    "veryGood": 6
+    "newWithoutTags": 1,
+    "veryGood": 3
   },
-  "deliveredAlerts": 11,
+  "deliveredAlerts": 4,
   "deliveredByCondition": {
-    "newWithTags": 5,
-    "veryGood": 6
+    "newWithoutTags": 1,
+    "veryGood": 3
   },
-  "duplicateSuppressed": 74,
+  "duplicateSuppressed": 2,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,14 +67,14 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 306,
-    "condition": 13,
-    "weak-margin": 1,
-    "price": 10,
+    "recovery-no-fresh-signal": 263,
+    "price": 27,
+    "size": 7,
+    "keyword": 8,
     "seller-risk": 1,
-    "seller-check-budget-exhausted": 12,
-    "detail-budget-exhausted": 17,
-    "keyword": 11
+    "condition": 16,
+    "seller-check-budget-exhausted": 81,
+    "detail-budget-exhausted": 51
   },
   "failures": {}
 }
