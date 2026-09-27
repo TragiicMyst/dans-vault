@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-09-27T15:20:58.764Z",
-  "stateUpdatedAt": "2026-09-27T15:20:58.764Z",
-  "lastAttemptAt": "2026-09-27T15:20:58.764Z",
-  "lastScanAt": "2026-09-27T15:20:58.764Z",
+  "generatedAt": "2026-09-27T19:00:29.624Z",
+  "stateUpdatedAt": "2026-09-27T19:00:29.624Z",
+  "lastAttemptAt": "2026-09-27T19:00:29.624Z",
+  "lastScanAt": "2026-09-27T19:00:29.624Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Tracksuit::nike tracksuit",
-    "Nike Vintage Clothing::vintage nike",
-    "Nike SB Clothing::nike sb clothing",
-    "Nike Vest::nike vest",
-    "Nike Air Max Hoodie::nike air max hoodie",
-    "Nike Zip Hoodie::nike zip hoodie"
+    "Nike Hoodie::nike hoodie",
+    "Nike Sweatshirt::nike sweatshirt",
+    "Nike Track Jacket::nike track jacket",
+    "Nike Joggers::nike joggers",
+    "Nike Trousers::nike trousers",
+    "Nike Sportswear Hoodie::nike sportswear hoodie"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1344,
-  "catalogItems": 1060,
-  "candidateItems": 295,
-  "freshItems": 237,
-  "qualifyingAlerts": 79,
+  "catalogMarkers": 1342,
+  "catalogItems": 1079,
+  "candidateItems": 246,
+  "freshItems": 202,
+  "qualifyingAlerts": 92,
   "qualifyingByCondition": {
-    "veryGood": 78,
-    "newWithTags": 1
+    "newWithoutTags": 7,
+    "veryGood": 85
   },
-  "deliveredAlerts": 79,
+  "deliveredAlerts": 92,
   "deliveredByCondition": {
-    "veryGood": 78,
-    "newWithTags": 1
+    "newWithoutTags": 7,
+    "veryGood": 85
   },
   "duplicateSuppressed": 2,
   "discordFailures": 0,
@@ -67,13 +67,13 @@
   "pendingDeliveries": 0,
   "detailFetches": 6,
   "rejects": {
-    "stale": 56,
-    "size": 5,
-    "price": 56,
-    "condition": 62,
+    "price": 41,
     "keyword": 14,
-    "detail-budget-exhausted": 19,
-    "weak-margin": 2
+    "recovery-no-fresh-signal": 42,
+    "condition": 41,
+    "size": 6,
+    "detail-budget-exhausted": 7,
+    "weak-margin": 1
   },
   "failures": {}
 }
