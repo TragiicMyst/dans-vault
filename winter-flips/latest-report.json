@@ -2,29 +2,65 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-09-28T08:42:43.908Z",
+    "startedAt": "2026-09-28T17:06:07.739Z",
     "searchGroups": [
-      "tnf-baltoro:north-face-baltoro-jacket",
-      "tnf-summit-down:north-face-summit-series-down",
-      "rab-microlight:rab-microlight-alpine",
-      "rab-neutrino:rab-neutrino-pro",
-      "rab-electron:rab-electron-pro",
-      "patagonia-down-sweater:patagonia-down-sweater-jacket",
-      "patagonia-down-sweater:patagonia-down-sweater-hoody",
-      "patagonia-fitz-roy:patagonia-fitz-roy-down"
+      "hunter:rab-puffer",
+      "hunter:rab-down-jacket",
+      "hunter:patagonia-puffer",
+      "hunter:arcteryx-jacket",
+      "hunter:arc-teryx-puffer",
+      "hunter:ralph-lauren-puffer",
+      "hunter:polo-puffer-jacket",
+      "hunter:nike-puffer-jacket"
     ],
     "vintedItems": 280,
-    "freshItems": 1,
+    "freshItems": 39,
     "freshByAge": 0,
-    "freshByNewId": 1,
+    "freshByNewId": 39,
     "bootstrapBlocked": 0,
-    "staleBlocked": 0,
-    "candidates": 0,
-    "alerts": 0,
+    "staleBlocked": 4,
+    "candidates": 6,
+    "alerts": 2,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-09-28T17:06:24.847Z",
+      "platform": "VINTED",
+      "id": "10171227040",
+      "title": "black nike puffer jacket 9 months",
+      "url": "https://www.vinted.co.uk/items/10171227040-black-nike-puffer-jacket-9-months",
+      "modelId": "nike-puffer",
+      "buyPrice": 10,
+      "estimatedNetProfit": 43.36,
+      "roi": 433.6,
+      "score": 87
+    },
+    {
+      "at": "2026-09-28T17:06:20.930Z",
+      "platform": "VINTED",
+      "id": "10170658878",
+      "title": "us polo puffer jacket",
+      "url": "https://www.vinted.co.uk/items/10170658878-us-polo-puffer-jacket",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 40,
+      "estimatedNetProfit": 34.89,
+      "roi": 87.23,
+      "score": 88
+    },
+    {
+      "at": "2026-09-28T17:00:19.436Z",
+      "platform": "VINTED",
+      "id": "10165273561",
+      "title": "polo floral zipped jacket waterproof",
+      "url": "https://www.vinted.co.uk/items/10165273561-polo-floral-zipped-jacket-waterproof",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 39.9,
+      "estimatedNetProfit": 32.13,
+      "roi": 80.53,
+      "score": 78
+    },
     {
       "at": "2026-09-28T08:39:47.632Z",
       "platform": "VINTED",
@@ -228,42 +264,6 @@
       "estimatedNetProfit": 41.11,
       "roi": 128.47,
       "score": 88
-    },
-    {
-      "at": "2026-09-26T18:35:24.465Z",
-      "platform": "VINTED",
-      "id": "10143288525",
-      "title": "berghaus puffer showerproof jacket",
-      "url": "https://www.vinted.co.uk/items/10143288525-berghaus-puffer-showerproof-jacket",
-      "modelId": "berghaus-down",
-      "buyPrice": 25,
-      "estimatedNetProfit": 28.15,
-      "roi": 112.6,
-      "score": 88
-    },
-    {
-      "at": "2026-09-26T18:35:15.618Z",
-      "platform": "VINTED",
-      "id": "10143905157",
-      "title": "interchangeable",
-      "url": "https://www.vinted.co.uk/items/10143905157-interchangeable",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 25,
-      "estimatedNetProfit": 48.5,
-      "roi": 194,
-      "score": 92
-    },
-    {
-      "at": "2026-09-26T15:11:49.824Z",
-      "platform": "VINTED",
-      "id": "10141415585",
-      "title": "north face mens 700 1996 retro nuptse vest size m",
-      "url": "https://www.vinted.co.uk/items/10141415585-north-face-mens-700-1996-retro-nuptse-vest-size-m",
-      "modelId": "tnf-1996-nuptse",
-      "buyPrice": 40,
-      "estimatedNetProfit": 40.22,
-      "roi": 100.55,
-      "score": 83
     }
   ]
 }
