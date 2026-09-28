@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-09-28T02:06:48.598Z",
+    "startedAt": "2026-09-28T08:42:43.908Z",
     "searchGroups": [
-      "nike-puffer:nike-puffer-jacket-mens",
-      "nike-puffer:nike-down-jacket",
-      "berghaus-down:berghaus-down-jacket",
-      "berghaus-down:berghaus-puffer-jacket",
-      "napapijri-skidoo:napapijri-skidoo-jacket",
-      "napapijri-skidoo:napapijri-rainforest-winter",
-      "hunter:north-face-coat",
-      "hunter:north-face-puffer"
+      "tnf-baltoro:north-face-baltoro-jacket",
+      "tnf-summit-down:north-face-summit-series-down",
+      "rab-microlight:rab-microlight-alpine",
+      "rab-neutrino:rab-neutrino-pro",
+      "rab-electron:rab-electron-pro",
+      "patagonia-down-sweater:patagonia-down-sweater-jacket",
+      "patagonia-down-sweater:patagonia-down-sweater-hoody",
+      "patagonia-fitz-roy:patagonia-fitz-roy-down"
     ],
     "vintedItems": 280,
-    "freshItems": 2,
+    "freshItems": 1,
     "freshByAge": 0,
-    "freshByNewId": 2,
+    "freshByNewId": 1,
     "bootstrapBlocked": 0,
-    "staleBlocked": 14,
+    "staleBlocked": 0,
     "candidates": 0,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-09-28T08:39:47.632Z",
+      "platform": "VINTED",
+      "id": "10165194739",
+      "title": "nike puffer coat",
+      "url": "https://www.vinted.co.uk/items/10165194739-nike-puffer-coat",
+      "modelId": "nike-puffer",
+      "buyPrice": 20,
+      "estimatedNetProfit": 32.81,
+      "roi": 164.05,
+      "score": 91
+    },
     {
       "at": "2026-09-27T23:48:55.485Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 40.22,
       "roi": 100.55,
       "score": 83
-    },
-    {
-      "at": "2026-09-26T15:09:03.216Z",
-      "platform": "VINTED",
-      "id": "10140834256",
-      "title": "girls 12m nike puffer jacket",
-      "url": "https://www.vinted.co.uk/items/10140834256-girls-12m-nike-puffer-jacket",
-      "modelId": "nike-puffer",
-      "buyPrice": 11,
-      "estimatedNetProfit": 44.62,
-      "roi": 405.64,
-      "score": 87
     }
   ]
 }
