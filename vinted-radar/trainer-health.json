@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-09-28T00:44:37.582Z",
-  "stateUpdatedAt": "2026-09-28T00:44:37.582Z",
-  "lastAttemptAt": "2026-09-28T00:44:37.582Z",
-  "lastScanAt": "2026-09-28T00:44:37.582Z",
+  "generatedAt": "2026-09-28T00:49:37.391Z",
+  "stateUpdatedAt": "2026-09-28T00:49:37.391Z",
+  "lastAttemptAt": "2026-09-28T00:49:37.391Z",
+  "lastScanAt": "2026-09-28T00:49:37.391Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Air Force 1::primary",
-    "Nike Dunk Low::primary",
-    "Air Jordan 1 Low::primary",
-    "Air Jordan 1 Mid::primary",
-    "Air Jordan 4::primary",
-    "Nike Initiator::primary"
+    "Nike Air Max Moto 2K::primary",
+    "Nike Metcon 10::primary",
+    "Nike Zoom Fly 6::primary",
+    "Nike Air Max Bargain::generic",
+    "Nike Running Trainer Bargain::generic",
+    "Nike Lifestyle Trainer Bargain::generic"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1343,
-  "catalogItems": 911,
-  "candidateItems": 635,
-  "freshItems": 174,
-  "qualifyingAlerts": 2,
+  "catalogMarkers": 1342,
+  "catalogItems": 854,
+  "candidateItems": 437,
+  "freshItems": 33,
+  "qualifyingAlerts": 5,
   "qualifyingByCondition": {
-    "veryGood": 2
+    "veryGood": 5
   },
-  "deliveredAlerts": 2,
+  "deliveredAlerts": 5,
   "deliveredByCondition": {
-    "veryGood": 2
+    "veryGood": 5
   },
-  "duplicateSuppressed": 8,
+  "duplicateSuppressed": 85,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -65,14 +65,14 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 453,
-    "keyword": 12,
-    "size": 8,
-    "condition": 12,
-    "seller-risk": 2,
-    "seller-check-budget-exhausted": 83,
-    "detail-budget-exhausted": 51,
-    "price": 4
+    "stale": 319,
+    "size": 6,
+    "price": 8,
+    "condition": 7,
+    "seller-risk": 1,
+    "keyword": 4,
+    "seller-check-budget-exhausted": 1,
+    "detail-budget-exhausted": 1
   },
   "failures": {}
 }
