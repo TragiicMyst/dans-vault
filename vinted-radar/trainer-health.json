@@ -1,35 +1,37 @@
 {
-  "generatedAt": "2026-09-29T12:49:42.734Z",
-  "stateUpdatedAt": "2026-09-29T12:49:42.734Z",
-  "lastAttemptAt": "2026-09-29T12:49:42.734Z",
-  "lastScanAt": "2026-09-29T12:49:42.734Z",
+  "generatedAt": "2026-09-29T12:54:42.369Z",
+  "stateUpdatedAt": "2026-09-29T12:54:42.369Z",
+  "lastAttemptAt": "2026-09-29T12:54:42.369Z",
+  "lastScanAt": "2026-09-29T12:54:42.369Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Pegasus Trail 5 GORE-TEX::primary",
-    "Nike TN::primary",
-    "Nike Air Max Plus 3::primary",
-    "Nike Air Max Plus VII::primary",
-    "Nike Air Max 95::primary",
-    "Nike Air Max 90::primary"
+    "Nike Air Max 90 Drift::primary",
+    "Nike Air Max 97::primary",
+    "Nike Air Max 270::primary",
+    "Nike Air Max Dn::primary",
+    "Nike Air Max 1::primary",
+    "Nike Shox TL::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 1092,
-  "candidateItems": 521,
-  "freshItems": 175,
-  "qualifyingAlerts": 4,
+  "catalogItems": 993,
+  "candidateItems": 496,
+  "freshItems": 159,
+  "qualifyingAlerts": 11,
   "qualifyingByCondition": {
-    "veryGood": 4
+    "veryGood": 10,
+    "newWithTags": 1
   },
-  "deliveredAlerts": 4,
+  "deliveredAlerts": 11,
   "deliveredByCondition": {
-    "veryGood": 4
+    "veryGood": 10,
+    "newWithTags": 1
   },
-  "duplicateSuppressed": 58,
+  "duplicateSuppressed": 32,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -65,15 +67,14 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 288,
-    "price": 10,
-    "size": 6,
-    "score": 2,
-    "seller-check-budget-exhausted": 67,
-    "detail-budget-exhausted": 30,
-    "condition": 37,
-    "keyword": 17,
-    "weak-margin": 2
+    "stale": 305,
+    "weak-margin": 3,
+    "condition": 35,
+    "price": 12,
+    "size": 1,
+    "detail-budget-exhausted": 35,
+    "seller-check-budget-exhausted": 51,
+    "keyword": 11
   },
   "failures": {}
 }
