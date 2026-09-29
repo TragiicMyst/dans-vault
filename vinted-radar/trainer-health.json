@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-09-29T06:07:25.987Z",
-  "stateUpdatedAt": "2026-09-29T06:07:25.987Z",
-  "lastAttemptAt": "2026-09-29T06:07:25.987Z",
-  "lastScanAt": "2026-09-29T06:07:25.987Z",
+  "generatedAt": "2026-09-29T06:12:26.692Z",
+  "stateUpdatedAt": "2026-09-29T06:12:26.692Z",
+  "lastAttemptAt": "2026-09-29T06:12:26.692Z",
+  "lastScanAt": "2026-09-29T06:12:26.692Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Pegasus Trail 5 GORE-TEX::primary",
-    "Nike TN::primary",
-    "Nike Air Max Plus 3::primary",
-    "Nike Air Max Plus VII::primary",
-    "Nike Air Max 95::primary",
-    "Nike Air Max 90::primary"
+    "Nike Air Max 90 Drift::primary",
+    "Nike Air Max 97::primary",
+    "Nike Air Max 270::primary",
+    "Nike Air Max Dn::primary",
+    "Nike Air Max 1::primary",
+    "Nike Shox TL::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1344,
-  "catalogItems": 1096,
-  "candidateItems": 508,
-  "freshItems": 103,
-  "qualifyingAlerts": 6,
+  "catalogMarkers": 1342,
+  "catalogItems": 919,
+  "candidateItems": 443,
+  "freshItems": 111,
+  "qualifyingAlerts": 9,
   "qualifyingByCondition": {
-    "newWithTags": 2,
-    "newWithoutTags": 1,
-    "veryGood": 3
+    "newWithTags": 5,
+    "newWithoutTags": 2,
+    "veryGood": 2
   },
-  "deliveredAlerts": 6,
+  "deliveredAlerts": 9,
   "deliveredByCondition": {
-    "newWithTags": 2,
-    "newWithoutTags": 1,
-    "veryGood": 3
+    "newWithTags": 5,
+    "newWithoutTags": 2,
+    "veryGood": 2
   },
-  "duplicateSuppressed": 55,
+  "duplicateSuppressed": 22,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,13 +69,12 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 350,
-    "size": 5,
-    "seller-risk": 1,
-    "seller-check-budget-exhausted": 54,
-    "detail-budget-exhausted": 28,
-    "price": 5,
-    "condition": 3,
+    "stale": 310,
+    "score": 1,
+    "size": 2,
+    "seller-check-budget-exhausted": 64,
+    "condition": 2,
+    "detail-budget-exhausted": 32,
     "keyword": 1
   },
   "failures": {}
