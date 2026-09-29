@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-09-28T22:35:24.346Z",
+    "startedAt": "2026-09-29T02:19:23.408Z",
     "searchGroups": [
-      "arcteryx-thorium:arcteryx-thorium-jacket",
-      "arcteryx-thorium:arc-teryx-thorium",
-      "ralph-lauren-puffer:ralph-lauren-puffer-jacket",
-      "ralph-lauren-puffer:polo-ralph-lauren-down-jacket",
-      "nike-puffer:nike-puffer-jacket-mens",
-      "nike-puffer:nike-down-jacket",
-      "berghaus-down:berghaus-down-jacket",
-      "berghaus-down:berghaus-puffer-jacket"
+      "tnf-1996-nuptse:north-face-nuptse-700",
+      "tnf-1996-nuptse:north-face-1996-nuptse",
+      "tnf-himalayan:north-face-himalayan-puffer",
+      "tnf-himalayan:north-face-hmlyn-parka",
+      "tnf-baltoro:north-face-baltoro-jacket",
+      "tnf-summit-down:north-face-summit-series-down",
+      "rab-microlight:rab-microlight-alpine",
+      "rab-neutrino:rab-neutrino-pro"
     ],
     "vintedItems": 280,
-    "freshItems": 27,
+    "freshItems": 0,
     "freshByAge": 0,
-    "freshByNewId": 27,
+    "freshByNewId": 0,
     "bootstrapBlocked": 0,
-    "staleBlocked": 7,
-    "candidates": 15,
+    "staleBlocked": 0,
+    "candidates": 0,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-09-29T02:16:31.463Z",
+      "platform": "VINTED",
+      "id": "10174885144",
+      "title": "ralph lauren gilet",
+      "url": "https://www.vinted.co.uk/items/10174885144-ralph-lauren-gilet",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 40,
+      "estimatedNetProfit": 31.79,
+      "roi": 79.47,
+      "score": 80
+    },
     {
       "at": "2026-09-28T17:06:24.847Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 27.53,
       "roi": 110.12,
       "score": 85
-    },
-    {
-      "at": "2026-09-26T21:39:47.003Z",
-      "platform": "VINTED",
-      "id": "10146928593",
-      "title": "reversible ralph lauren jacket new",
-      "url": "https://www.vinted.co.uk/items/10146928593-reversible-ralph-lauren-jacket-new",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 32,
-      "estimatedNetProfit": 41.11,
-      "roi": 128.47,
-      "score": 88
     }
   ]
 }
