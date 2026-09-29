@@ -1,37 +1,35 @@
 {
-  "generatedAt": "2026-09-29T23:43:32.493Z",
-  "stateUpdatedAt": "2026-09-29T23:43:32.493Z",
-  "lastAttemptAt": "2026-09-29T23:43:32.493Z",
-  "lastScanAt": "2026-09-29T23:43:32.493Z",
+  "generatedAt": "2026-09-29T23:48:32.119Z",
+  "stateUpdatedAt": "2026-09-29T23:48:32.119Z",
+  "lastAttemptAt": "2026-09-29T23:48:32.119Z",
+  "lastScanAt": "2026-09-29T23:48:32.119Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Shox R4::primary",
-    "Nike Shox Ride 2::primary",
-    "Nike Air Force 1::primary",
-    "Nike Dunk Low::primary",
-    "Air Jordan 1 Low::primary",
-    "Air Jordan 1 Mid::primary"
+    "Air Jordan 4::primary",
+    "Nike Initiator::primary",
+    "Nike Air Max Moto 2K::primary",
+    "Nike Metcon 10::primary",
+    "Nike Zoom Fly 6::primary",
+    "Nike Air Max Bargain::generic"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 880,
-  "candidateItems": 588,
-  "freshItems": 192,
-  "qualifyingAlerts": 7,
+  "catalogItems": 850,
+  "candidateItems": 478,
+  "freshItems": 87,
+  "qualifyingAlerts": 8,
   "qualifyingByCondition": {
-    "newWithTags": 2,
-    "veryGood": 5
+    "veryGood": 8
   },
-  "deliveredAlerts": 7,
+  "deliveredAlerts": 8,
   "deliveredByCondition": {
-    "newWithTags": 2,
-    "veryGood": 5
+    "veryGood": 8
   },
-  "duplicateSuppressed": 21,
+  "duplicateSuppressed": 70,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,14 +65,15 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "recovery-no-fresh-signal": 375,
-    "keyword": 13,
-    "size": 5,
-    "price": 17,
-    "seller-check-budget-exhausted": 87,
-    "weak-margin": 4,
-    "condition": 24,
-    "detail-budget-exhausted": 35
+    "stale": 321,
+    "size": 3,
+    "condition": 14,
+    "seller-risk": 1,
+    "detail-budget-exhausted": 16,
+    "seller-check-budget-exhausted": 38,
+    "weak-margin": 2,
+    "price": 3,
+    "keyword": 2
   },
   "failures": {}
 }
