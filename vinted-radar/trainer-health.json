@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-09-30T19:20:19.215Z",
-  "stateUpdatedAt": "2026-09-30T19:20:19.215Z",
-  "lastAttemptAt": "2026-09-30T19:20:19.215Z",
-  "lastScanAt": "2026-09-30T19:20:19.215Z",
+  "generatedAt": "2026-09-30T20:18:45.405Z",
+  "stateUpdatedAt": "2026-09-30T20:18:45.405Z",
+  "lastAttemptAt": "2026-09-30T20:18:45.405Z",
+  "lastScanAt": "2026-09-30T20:18:45.405Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Air Max 90 Drift::primary",
-    "Nike Air Max 97::primary",
-    "Nike Air Max 270::primary",
-    "Nike Air Max Dn::primary",
-    "Nike Air Max 1::primary",
-    "Nike Shox TL::primary"
+    "Nike Shox R4::primary",
+    "Nike Shox Ride 2::primary",
+    "Nike Air Force 1::primary",
+    "Nike Dunk Low::primary",
+    "Air Jordan 1 Low::primary",
+    "Air Jordan 1 Mid::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 997,
-  "candidateItems": 451,
-  "freshItems": 171,
-  "qualifyingAlerts": 6,
+  "catalogItems": 878,
+  "candidateItems": 605,
+  "freshItems": 284,
+  "qualifyingAlerts": 4,
   "qualifyingByCondition": {
-    "newWithTags": 1,
-    "newWithoutTags": 2,
-    "veryGood": 3
+    "veryGood": 2,
+    "newWithoutTags": 1,
+    "newWithTags": 1
   },
-  "deliveredAlerts": 6,
+  "deliveredAlerts": 4,
   "deliveredByCondition": {
-    "newWithTags": 1,
-    "newWithoutTags": 2,
-    "veryGood": 3
+    "veryGood": 2,
+    "newWithoutTags": 1,
+    "newWithTags": 1
   },
-  "duplicateSuppressed": 40,
+  "duplicateSuppressed": 35,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,15 +69,16 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 240,
-    "price": 10,
-    "weak-margin": 6,
-    "size": 5,
-    "condition": 19,
-    "keyword": 9,
-    "seller-risk": 1,
-    "detail-budget-exhausted": 43,
-    "seller-check-budget-exhausted": 72
+    "recovery-no-fresh-signal": 286,
+    "size": 6,
+    "price": 18,
+    "score": 1,
+    "condition": 50,
+    "weak-margin": 4,
+    "model-cooldown": 1,
+    "detail-budget-exhausted": 69,
+    "keyword": 29,
+    "seller-check-budget-exhausted": 102
   },
   "failures": {}
 }
