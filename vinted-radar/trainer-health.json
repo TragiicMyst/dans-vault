@@ -1,37 +1,35 @@
 {
-  "generatedAt": "2026-09-30T01:39:09.096Z",
-  "stateUpdatedAt": "2026-09-30T01:39:09.096Z",
-  "lastAttemptAt": "2026-09-30T01:39:09.096Z",
-  "lastScanAt": "2026-09-30T01:39:09.096Z",
+  "generatedAt": "2026-09-30T02:26:12.224Z",
+  "stateUpdatedAt": "2026-09-30T02:26:12.224Z",
+  "lastAttemptAt": "2026-09-30T02:26:12.224Z",
+  "lastScanAt": "2026-09-30T02:26:12.224Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Air Max 90 Drift::primary",
-    "Nike Air Max 97::primary",
-    "Nike Air Max 270::primary",
-    "Nike Air Max Dn::primary",
-    "Nike Air Max 1::primary",
-    "Nike Shox TL::primary"
+    "Nike Shox R4::primary",
+    "Nike Shox Ride 2::primary",
+    "Nike Air Force 1::primary",
+    "Nike Dunk Low::primary",
+    "Air Jordan 1 Low::primary",
+    "Air Jordan 1 Mid::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 999,
-  "candidateItems": 457,
-  "freshItems": 87,
-  "qualifyingAlerts": 4,
+  "catalogItems": 875,
+  "candidateItems": 562,
+  "freshItems": 73,
+  "qualifyingAlerts": 7,
   "qualifyingByCondition": {
-    "veryGood": 3,
-    "newWithTags": 1
+    "veryGood": 7
   },
-  "deliveredAlerts": 4,
+  "deliveredAlerts": 7,
   "deliveredByCondition": {
-    "veryGood": 3,
-    "newWithTags": 1
+    "veryGood": 7
   },
-  "duplicateSuppressed": 41,
+  "duplicateSuppressed": 28,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,15 +65,14 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 329,
     "price": 2,
-    "weak-margin": 1,
+    "recovery-no-fresh-signal": 461,
+    "size": 4,
+    "score": 1,
+    "keyword": 3,
     "condition": 6,
-    "size": 7,
-    "keyword": 4,
-    "seller-risk": 1,
-    "seller-check-budget-exhausted": 37,
-    "detail-budget-exhausted": 25
+    "seller-check-budget-exhausted": 30,
+    "detail-budget-exhausted": 20
   },
   "failures": {}
 }
