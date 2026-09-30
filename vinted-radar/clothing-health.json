@@ -1,39 +1,37 @@
 {
-  "generatedAt": "2026-09-30T08:41:31.834Z",
-  "stateUpdatedAt": "2026-09-30T08:41:31.834Z",
-  "lastAttemptAt": "2026-09-30T08:41:31.834Z",
-  "lastScanAt": "2026-09-30T08:41:31.834Z",
+  "generatedAt": "2026-09-30T14:00:38.216Z",
+  "stateUpdatedAt": "2026-09-30T14:00:38.216Z",
+  "lastAttemptAt": "2026-09-30T14:00:38.216Z",
+  "lastScanAt": "2026-09-30T14:00:38.216Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Shorts::nike shorts",
-    "Nike Cargo Trousers::nike cargo trousers",
-    "Nike Track Pants::nike track pants",
-    "Nike Woven Trousers::nike woven trousers",
-    "Nike Tracksuit::nike tracksuit",
-    "Nike Vintage Clothing::vintage nike"
+    "Nike SB Clothing::nike sb clothing",
+    "Nike Vest::nike vest",
+    "Nike Air Max Hoodie::nike air max hoodie",
+    "Nike Zip Hoodie::nike zip hoodie",
+    "Nike Hoodie::nike hoodie",
+    "Nike Sweatshirt::nike sweatshirt"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1343,
-  "catalogItems": 1091,
-  "candidateItems": 328,
-  "freshItems": 185,
-  "qualifyingAlerts": 41,
+  "catalogMarkers": 1344,
+  "catalogItems": 1061,
+  "candidateItems": 232,
+  "freshItems": 181,
+  "qualifyingAlerts": 69,
   "qualifyingByCondition": {
-    "veryGood": 34,
-    "newWithTags": 2,
-    "newWithoutTags": 5
+    "veryGood": 63,
+    "newWithoutTags": 6
   },
-  "deliveredAlerts": 41,
+  "deliveredAlerts": 69,
   "deliveredByCondition": {
-    "veryGood": 34,
-    "newWithTags": 2,
-    "newWithoutTags": 5
+    "veryGood": 63,
+    "newWithoutTags": 6
   },
-  "duplicateSuppressed": 5,
+  "duplicateSuppressed": 3,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,13 +67,13 @@
   "pendingDeliveries": 0,
   "detailFetches": 6,
   "rejects": {
-    "price": 72,
-    "recovery-no-fresh-signal": 138,
-    "keyword": 16,
-    "size": 5,
-    "condition": 36,
-    "detail-budget-exhausted": 14,
-    "score": 1
+    "price": 40,
+    "condition": 51,
+    "recovery-no-fresh-signal": 48,
+    "keyword": 4,
+    "size": 6,
+    "detail-budget-exhausted": 9,
+    "weak-margin": 2
   },
   "failures": {}
 }
