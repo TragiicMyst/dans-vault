@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-09-29T23:40:46.866Z",
+    "startedAt": "2026-09-30T02:28:48.571Z",
     "searchGroups": [
-      "berghaus-down:berghaus-down-jacket",
-      "berghaus-down:berghaus-puffer-jacket",
-      "napapijri-skidoo:napapijri-skidoo-jacket",
-      "napapijri-skidoo:napapijri-rainforest-winter",
-      "hunter:north-face-coat",
-      "hunter:north-face-puffer",
-      "hunter:north-face-700",
-      "hunter:mens-north-face-jacket"
+      "rab-microlight:rab-microlight-alpine",
+      "rab-neutrino:rab-neutrino-pro",
+      "rab-electron:rab-electron-pro",
+      "patagonia-down-sweater:patagonia-down-sweater-jacket",
+      "patagonia-down-sweater:patagonia-down-sweater-hoody",
+      "patagonia-fitz-roy:patagonia-fitz-roy-down",
+      "arcteryx-cerium:arcteryx-cerium-jacket",
+      "arcteryx-cerium:arc-teryx-cerium"
     ],
     "vintedItems": 280,
-    "freshItems": 55,
+    "freshItems": 0,
     "freshByAge": 0,
-    "freshByNewId": 55,
+    "freshByNewId": 0,
     "bootstrapBlocked": 0,
-    "staleBlocked": 21,
-    "candidates": 6,
+    "staleBlocked": 5,
+    "candidates": 0,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-09-30T02:23:03.112Z",
+      "platform": "VINTED",
+      "id": "10185988373",
+      "title": "green nike puffer",
+      "url": "https://www.vinted.co.uk/items/10185988373-green-nike-puffer",
+      "modelId": "nike-puffer",
+      "buyPrice": 15,
+      "estimatedNetProfit": 38.12,
+      "roi": 254.13,
+      "score": 91
+    },
     {
       "at": "2026-09-29T23:38:00.809Z",
       "platform": "VINTED",
@@ -251,18 +263,6 @@
       "buyPrice": 39.9,
       "estimatedNetProfit": 33.54,
       "roi": 84.06,
-      "score": 86
-    },
-    {
-      "at": "2026-09-27T18:00:15.584Z",
-      "platform": "VINTED",
-      "id": "10157124501",
-      "title": "ralph lauren detroit jacket 103828 j001 j97 style blanket lined duck canvas mens",
-      "url": "https://www.vinted.co.uk/items/10157124501-ralph-lauren-detroit-jacket-103828-j001-j97-style-blanket-lined-duck-canvas-mens",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 39.99,
-      "estimatedNetProfit": 33.45,
-      "roi": 83.65,
       "score": 86
     }
   ]
