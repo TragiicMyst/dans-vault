@@ -2,16 +2,16 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-09-30T02:28:48.571Z",
+    "startedAt": "2026-09-30T08:52:28.456Z",
     "searchGroups": [
-      "rab-microlight:rab-microlight-alpine",
-      "rab-neutrino:rab-neutrino-pro",
-      "rab-electron:rab-electron-pro",
-      "patagonia-down-sweater:patagonia-down-sweater-jacket",
-      "patagonia-down-sweater:patagonia-down-sweater-hoody",
-      "patagonia-fitz-roy:patagonia-fitz-roy-down",
-      "arcteryx-cerium:arcteryx-cerium-jacket",
-      "arcteryx-cerium:arc-teryx-cerium"
+      "hunter:patagonia-puffer",
+      "hunter:arcteryx-jacket",
+      "hunter:arc-teryx-puffer",
+      "hunter:ralph-lauren-puffer",
+      "hunter:polo-puffer-jacket",
+      "hunter:nike-puffer-jacket",
+      "hunter:berghaus-puffer",
+      "hunter:napapijri-jacket"
     ],
     "vintedItems": 280,
     "freshItems": 0,
@@ -25,6 +25,18 @@
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-09-30T08:46:35.225Z",
+      "platform": "VINTED",
+      "id": "10188383619",
+      "title": "ralph lauren puffer jacket age 12 14",
+      "url": "https://www.vinted.co.uk/items/10188383619-ralph-lauren-puffer-jacket-age-12-14",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 40,
+      "estimatedNetProfit": 34.51,
+      "roi": 86.28,
+      "score": 82
+    },
     {
       "at": "2026-09-30T02:23:03.112Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 34.75,
       "roi": 86.9,
       "score": 87
-    },
-    {
-      "at": "2026-09-27T18:00:17.038Z",
-      "platform": "VINTED",
-      "id": "10157047935",
-      "title": "ralph lauren detroit jacket 103828 j001 j97 style blanket lined duck canvas mens",
-      "url": "https://www.vinted.co.uk/items/10157047935-ralph-lauren-detroit-jacket-103828-j001-j97-style-blanket-lined-duck-canvas-mens",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 39.9,
-      "estimatedNetProfit": 33.54,
-      "roi": 84.06,
-      "score": 86
     }
   ]
 }
