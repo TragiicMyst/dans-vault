@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-09-30T15:23:11.148Z",
-  "stateUpdatedAt": "2026-09-30T15:23:11.148Z",
-  "lastAttemptAt": "2026-09-30T15:23:11.148Z",
-  "lastScanAt": "2026-09-30T15:23:11.148Z",
+  "generatedAt": "2026-09-30T19:10:20.457Z",
+  "stateUpdatedAt": "2026-09-30T19:10:20.457Z",
+  "lastAttemptAt": "2026-09-30T19:10:20.457Z",
+  "lastScanAt": "2026-09-30T19:10:20.457Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Track Jacket::nike track jacket",
-    "Nike Joggers::nike joggers",
-    "Nike Trousers::nike trousers",
-    "Nike Sportswear Hoodie::nike sportswear hoodie",
-    "Nike Sportswear Jacket::nike sportswear jacket",
-    "Nike Tech Fleece Windrunner::nike tech fleece windrunner"
+    "Nike Puffer Jacket::nike puffer jacket",
+    "Nike NOCTA Track Jacket::nike nocta track jacket",
+    "Nike Miler Shorts::nike miler shorts",
+    "Nike Tech Fleece Full-Zip Hoodie::nike tech fleece full zip hoodie",
+    "Nike ACG Canwell Glacier Jacket::nike acg canwell glacier",
+    "Nike Strike Tracksuit::nike strike tracksuit"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1439,
-  "catalogItems": 1000,
-  "candidateItems": 264,
-  "freshItems": 158,
-  "qualifyingAlerts": 62,
+  "catalogMarkers": 1490,
+  "catalogItems": 854,
+  "candidateItems": 239,
+  "freshItems": 111,
+  "qualifyingAlerts": 53,
   "qualifyingByCondition": {
-    "veryGood": 52,
+    "veryGood": 47,
     "newWithoutTags": 5,
-    "newWithTags": 5
+    "newWithTags": 1
   },
-  "deliveredAlerts": 62,
+  "deliveredAlerts": 53,
   "deliveredByCondition": {
-    "veryGood": 52,
+    "veryGood": 47,
     "newWithoutTags": 5,
-    "newWithTags": 5
+    "newWithTags": 1
   },
-  "duplicateSuppressed": 22,
+  "duplicateSuppressed": 33,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,14 +67,15 @@
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 2,
+  "detailFetches": 3,
   "rejects": {
-    "price": 46,
-    "recovery-no-fresh-signal": 84,
-    "condition": 38,
-    "size": 2,
-    "keyword": 7,
-    "weak-margin": 3
+    "condition": 17,
+    "recovery-no-fresh-signal": 95,
+    "keyword": 10,
+    "price": 24,
+    "size": 3,
+    "weak-margin": 2,
+    "clothing-variety-cap": 2
   },
   "failures": {}
 }
