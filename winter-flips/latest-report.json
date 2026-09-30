@@ -2,29 +2,53 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-09-30T08:52:28.456Z",
+    "startedAt": "2026-09-30T15:29:35.350Z",
     "searchGroups": [
-      "hunter:patagonia-puffer",
-      "hunter:arcteryx-jacket",
-      "hunter:arc-teryx-puffer",
-      "hunter:ralph-lauren-puffer",
-      "hunter:polo-puffer-jacket",
-      "hunter:nike-puffer-jacket",
-      "hunter:berghaus-puffer",
-      "hunter:napapijri-jacket"
+      "ralph-lauren-puffer:ralph-lauren-puffer-jacket",
+      "ralph-lauren-puffer:polo-ralph-lauren-down-jacket",
+      "nike-puffer:nike-puffer-jacket-mens",
+      "nike-puffer:nike-down-jacket",
+      "berghaus-down:berghaus-down-jacket",
+      "berghaus-down:berghaus-puffer-jacket",
+      "napapijri-skidoo:napapijri-skidoo-jacket",
+      "napapijri-skidoo:napapijri-rainforest-winter"
     ],
     "vintedItems": 280,
-    "freshItems": 0,
+    "freshItems": 31,
     "freshByAge": 0,
-    "freshByNewId": 0,
+    "freshByNewId": 31,
     "bootstrapBlocked": 0,
-    "staleBlocked": 5,
-    "candidates": 0,
-    "alerts": 0,
+    "staleBlocked": 4,
+    "candidates": 14,
+    "alerts": 2,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-09-30T15:29:43.509Z",
+      "platform": "VINTED",
+      "id": "10193485909",
+      "title": "blue nike puffer jacket",
+      "url": "https://www.vinted.co.uk/items/10193485909-blue-nike-puffer-jacket",
+      "modelId": "nike-puffer",
+      "buyPrice": 22,
+      "estimatedNetProfit": 41.52,
+      "roi": 188.73,
+      "score": 98
+    },
+    {
+      "at": "2026-09-30T15:29:37.840Z",
+      "platform": "VINTED",
+      "id": "10191125560",
+      "title": "authentic ralph lauren kids puffer jacket size 2 3years",
+      "url": "https://www.vinted.co.uk/items/10191125560-authentic-ralph-lauren-kids-puffer-jacket-size-2-3years",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 43,
+      "estimatedNetProfit": 32.27,
+      "roi": 75.05,
+      "score": 77
+    },
     {
       "at": "2026-09-30T08:46:35.225Z",
       "platform": "VINTED",
@@ -240,30 +264,6 @@
       "estimatedNetProfit": 31.68,
       "roi": 79.2,
       "score": 84
-    },
-    {
-      "at": "2026-09-27T21:11:12.845Z",
-      "platform": "VINTED",
-      "id": "10161556265",
-      "title": "boys luke coat",
-      "url": "https://www.vinted.co.uk/items/10161556265-boys-luke-coat",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 25,
-      "estimatedNetProfit": 48.8,
-      "roi": 195.2,
-      "score": 92
-    },
-    {
-      "at": "2026-09-27T18:00:18.231Z",
-      "platform": "VINTED",
-      "id": "10157016245",
-      "title": "ralph lauren detroit jacket 103828 j001 j97 style blanket lined duck canvas mens",
-      "url": "https://www.vinted.co.uk/items/10157016245-ralph-lauren-detroit-jacket-103828-j001-j97-style-blanket-lined-duck-canvas-mens",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 39.99,
-      "estimatedNetProfit": 34.75,
-      "roi": 86.9,
-      "score": 87
     }
   ]
 }
