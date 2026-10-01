@@ -2,29 +2,53 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-10-01T09:26:44.655Z",
+    "startedAt": "2026-10-01T16:38:49.770Z",
     "searchGroups": [
-      "hunter:berghaus-puffer",
-      "hunter:napapijri-jacket",
-      "tnf-1996-nuptse:north-face-nuptse-700",
-      "tnf-1996-nuptse:north-face-1996-nuptse",
-      "tnf-himalayan:north-face-himalayan-puffer",
-      "tnf-himalayan:north-face-hmlyn-parka",
-      "tnf-baltoro:north-face-baltoro-jacket",
-      "tnf-summit-down:north-face-summit-series-down"
+      "napapijri-skidoo:napapijri-skidoo-jacket",
+      "napapijri-skidoo:napapijri-rainforest-winter",
+      "hunter:north-face-coat",
+      "hunter:north-face-puffer",
+      "hunter:north-face-700",
+      "hunter:mens-north-face-jacket",
+      "hunter:rab-puffer",
+      "hunter:rab-down-jacket"
     ],
     "vintedItems": 280,
-    "freshItems": 0,
+    "freshItems": 78,
     "freshByAge": 0,
-    "freshByNewId": 0,
+    "freshByNewId": 78,
     "bootstrapBlocked": 0,
-    "staleBlocked": 0,
-    "candidates": 0,
+    "staleBlocked": 1,
+    "candidates": 6,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-10-01T16:36:05.528Z",
+      "platform": "VINTED",
+      "id": "10204483736",
+      "title": "berghaus puffer jacket boys 13",
+      "url": "https://www.vinted.co.uk/items/10204483736-berghaus-puffer-jacket-boys-13",
+      "modelId": "berghaus-down",
+      "buyPrice": 25,
+      "estimatedNetProfit": 27.35,
+      "roi": 109.4,
+      "score": 83
+    },
+    {
+      "at": "2026-10-01T16:35:55.555Z",
+      "platform": "VINTED",
+      "id": "10202111713",
+      "title": "authentic polo ralph lauren big pony down puffer jacket age 2 bnwt",
+      "url": "https://www.vinted.co.uk/items/10202111713-authentic-polo-ralph-lauren-big-pony-down-puffer-jacket-age-2-bnwt",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 40,
+      "estimatedNetProfit": 36.81,
+      "roi": 92.03,
+      "score": 83
+    },
     {
       "at": "2026-09-30T20:13:33.449Z",
       "platform": "VINTED",
@@ -240,30 +264,6 @@
       "estimatedNetProfit": 34.89,
       "roi": 87.23,
       "score": 88
-    },
-    {
-      "at": "2026-09-28T17:00:19.436Z",
-      "platform": "VINTED",
-      "id": "10165273561",
-      "title": "polo floral zipped jacket waterproof",
-      "url": "https://www.vinted.co.uk/items/10165273561-polo-floral-zipped-jacket-waterproof",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 39.9,
-      "estimatedNetProfit": 32.13,
-      "roi": 80.53,
-      "score": 78
-    },
-    {
-      "at": "2026-09-28T08:39:47.632Z",
-      "platform": "VINTED",
-      "id": "10165194739",
-      "title": "nike puffer coat",
-      "url": "https://www.vinted.co.uk/items/10165194739-nike-puffer-coat",
-      "modelId": "nike-puffer",
-      "buyPrice": 20,
-      "estimatedNetProfit": 32.81,
-      "roi": 164.05,
-      "score": 91
     }
   ]
 }
