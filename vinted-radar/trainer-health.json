@@ -1,37 +1,39 @@
 {
-  "generatedAt": "2026-10-01T21:02:42.616Z",
-  "stateUpdatedAt": "2026-10-01T21:02:42.616Z",
-  "lastAttemptAt": "2026-10-01T21:02:42.616Z",
-  "lastScanAt": "2026-10-01T21:02:42.616Z",
+  "generatedAt": "2026-10-01T22:55:05.769Z",
+  "stateUpdatedAt": "2026-10-01T22:55:05.769Z",
+  "lastAttemptAt": "2026-10-01T22:55:05.769Z",
+  "lastScanAt": "2026-10-01T22:55:05.769Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Air Jordan 4::primary",
-    "Nike Initiator::primary",
-    "Nike Air Max Moto 2K::primary",
-    "Nike Metcon 10::primary",
-    "Nike Zoom Fly 6::primary",
-    "Nike Air Max Bargain::generic"
+    "Nike Running Trainer Bargain::generic",
+    "Nike Lifestyle Trainer Bargain::generic",
+    "Nike Football Boot Bargain::generic",
+    "Nike Basketball Shoe Bargain::generic",
+    "Nike SB Shoe Bargain::generic",
+    "Nike P-6000::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 854,
-  "candidateItems": 487,
-  "freshItems": 145,
-  "qualifyingAlerts": 4,
+  "catalogItems": 878,
+  "candidateItems": 386,
+  "freshItems": 163,
+  "qualifyingAlerts": 5,
   "qualifyingByCondition": {
-    "veryGood": 3,
-    "newWithTags": 1
+    "veryGood": 2,
+    "newWithTags": 2,
+    "newWithoutTags": 1
   },
-  "deliveredAlerts": 4,
+  "deliveredAlerts": 5,
   "deliveredByCondition": {
-    "veryGood": 3,
-    "newWithTags": 1
+    "veryGood": 2,
+    "newWithTags": 2,
+    "newWithoutTags": 1
   },
-  "duplicateSuppressed": 57,
+  "duplicateSuppressed": 4,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,14 +69,15 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 285,
-    "size": 8,
-    "condition": 17,
-    "keyword": 11,
-    "weak-margin": 4,
-    "seller-check-budget-exhausted": 55,
-    "detail-budget-exhausted": 30,
-    "price": 16
+    "price": 45,
+    "recovery-no-fresh-signal": 219,
+    "condition": 37,
+    "size": 6,
+    "keyword": 10,
+    "seller-risk": 1,
+    "detail-budget-exhausted": 20,
+    "seller-check-budget-exhausted": 36,
+    "weak-margin": 3
   },
   "failures": {}
 }
