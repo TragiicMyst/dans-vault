@@ -1,37 +1,37 @@
 {
-  "generatedAt": "2026-10-01T00:03:16.318Z",
-  "stateUpdatedAt": "2026-10-01T00:03:16.318Z",
-  "lastAttemptAt": "2026-10-01T00:03:16.318Z",
-  "lastScanAt": "2026-10-01T00:03:16.318Z",
+  "generatedAt": "2026-10-01T00:08:16.300Z",
+  "stateUpdatedAt": "2026-10-01T00:08:16.300Z",
+  "lastAttemptAt": "2026-10-01T00:08:16.300Z",
+  "lastScanAt": "2026-10-01T00:08:16.300Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Air Max 90 Drift::primary",
-    "Nike Air Max 97::primary",
-    "Nike Air Max 270::primary",
-    "Nike Air Max Dn::primary",
-    "Nike Air Max 1::primary",
-    "Nike Shox TL::primary"
+    "Nike Shox R4::primary",
+    "Nike Shox Ride 2::primary",
+    "Nike Air Force 1::primary",
+    "Nike Dunk Low::primary",
+    "Air Jordan 1 Low::primary",
+    "Air Jordan 1 Mid::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 999,
-  "candidateItems": 478,
-  "freshItems": 141,
-  "qualifyingAlerts": 5,
+  "catalogItems": 885,
+  "candidateItems": 620,
+  "freshItems": 170,
+  "qualifyingAlerts": 6,
   "qualifyingByCondition": {
-    "newWithTags": 2,
-    "veryGood": 3
+    "newWithTags": 1,
+    "veryGood": 5
   },
-  "deliveredAlerts": 5,
+  "deliveredAlerts": 6,
   "deliveredByCondition": {
-    "newWithTags": 2,
-    "veryGood": 3
+    "newWithTags": 1,
+    "veryGood": 5
   },
-  "duplicateSuppressed": 39,
+  "duplicateSuppressed": 35,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,16 +67,15 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "recovery-no-fresh-signal": 298,
-    "weak-margin": 4,
-    "size": 4,
-    "score": 1,
-    "condition": 16,
-    "keyword": 8,
-    "seller-risk": 2,
-    "detail-budget-exhausted": 41,
-    "seller-check-budget-exhausted": 58,
-    "price": 2
+    "stale": 415,
+    "keyword": 14,
+    "condition": 30,
+    "price": 7,
+    "weak-margin": 2,
+    "size": 5,
+    "seller-risk": 1,
+    "detail-budget-exhausted": 48,
+    "seller-check-budget-exhausted": 57
   },
   "failures": {}
 }
