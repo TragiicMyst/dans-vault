@@ -1,80 +1,39 @@
 {
-  "generatedAt": "2026-10-01T12:34:07.529Z",
-  "stateUpdatedAt": "2026-10-01T12:34:07.529Z",
-  "lastAttemptAt": "2026-10-01T12:34:07.529Z",
+  "generatedAt": "2026-10-01T12:39:07.296Z",
+  "stateUpdatedAt": "2026-10-01T12:39:07.296Z",
+  "lastAttemptAt": "2026-10-01T12:39:07.296Z",
   "lastScanAt": "2026-10-01T12:34:07.529Z",
-  "cooldownUntil": null,
-  "healthyScan": true,
-  "healthReason": "all-selected-searches-completed",
+  "cooldownUntil": "2026-10-01T12:40:24.771Z",
+  "healthyScan": false,
+  "healthReason": "vinted-block-or-challenge",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Shox R4::primary",
-    "Nike Shox Ride 2::primary",
-    "Nike Air Force 1::primary",
-    "Nike Dunk Low::primary",
-    "Air Jordan 1 Low::primary",
-    "Air Jordan 1 Mid::primary"
+    "Air Jordan 4::primary",
+    "Nike Initiator::primary",
+    "Nike Air Max Moto 2K::primary",
+    "Nike Metcon 10::primary",
+    "Nike Zoom Fly 6::primary",
+    "Nike Air Max Bargain::generic"
   ],
-  "successfulSearches": 7,
-  "failedSearches": 0,
-  "catalogMarkers": 1344,
-  "catalogItems": 878,
-  "candidateItems": 615,
-  "freshItems": 206,
-  "qualifyingAlerts": 8,
-  "qualifyingByCondition": {
-    "veryGood": 7,
-    "newWithoutTags": 1
-  },
-  "deliveredAlerts": 8,
-  "deliveredByCondition": {
-    "veryGood": 7,
-    "newWithoutTags": 1
-  },
-  "duplicateSuppressed": 39,
+  "successfulSearches": 0,
+  "failedSearches": 1,
+  "catalogMarkers": 0,
+  "catalogItems": 0,
+  "candidateItems": 0,
+  "freshItems": 0,
+  "qualifyingAlerts": 0,
+  "qualifyingByCondition": {},
+  "deliveredAlerts": 0,
+  "deliveredByCondition": {},
+  "duplicateSuppressed": 0,
   "discordFailures": 0,
-  "discordRoutes": [
-    {
-      "configuredAs": "newWithoutTags",
-      "webhookId": "1541037387969462303",
-      "channelId": "1541036356384329819",
-      "guildId": "1540743210488430592",
-      "webhookName": "Dan's NWOT Bot",
-      "detectedCondition": "newWithoutTags",
-      "inspectionError": null
-    },
-    {
-      "configuredAs": "newWithTags",
-      "webhookId": "1541040362997547048",
-      "channelId": "1541040152372183140",
-      "guildId": "1540743210488430592",
-      "webhookName": "Dan's New With Tags Bot",
-      "detectedCondition": "newWithTags",
-      "inspectionError": null
-    },
-    {
-      "configuredAs": "veryGood",
-      "webhookId": "1541040545483198516",
-      "channelId": "1541040213780992171",
-      "guildId": "1540743210488430592",
-      "webhookName": "Dan's Very Good Condition Bot",
-      "detectedCondition": "veryGood",
-      "inspectionError": null
-    }
-  ],
+  "discordRoutes": [],
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 12,
-  "rejects": {
-    "stale": 370,
-    "condition": 46,
-    "price": 14,
-    "keyword": 22,
-    "size": 4,
-    "detail-budget-exhausted": 52,
-    "seller-check-budget-exhausted": 59,
-    "weak-margin": 1
-  },
-  "failures": {}
+  "detailFetches": 0,
+  "rejects": {},
+  "failures": {
+    "Nike Any Shoe Bargain::generic": "Vinted guard cooldown active for 43s"
+  }
 }
