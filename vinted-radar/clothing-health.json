@@ -1,37 +1,39 @@
 {
-  "generatedAt": "2026-10-01T08:50:53.869Z",
-  "stateUpdatedAt": "2026-10-01T08:50:53.869Z",
-  "lastAttemptAt": "2026-10-01T08:50:53.869Z",
-  "lastScanAt": "2026-10-01T08:50:53.869Z",
+  "generatedAt": "2026-10-01T11:51:11.279Z",
+  "stateUpdatedAt": "2026-10-01T11:51:11.279Z",
+  "lastAttemptAt": "2026-10-01T11:51:11.279Z",
+  "lastScanAt": "2026-10-01T11:51:11.279Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Trail Repel Jacket::nike trail repel jacket",
-    "Jordan Flight Fleece Hoodie::jordan flight fleece hoodie",
-    "Nike ACG Wolf Tree::nike acg wolf tree",
-    "Nike Club Fleece Crew::nike club fleece crew",
-    "Nike Running Division Jacket::nike running division jacket",
-    "Jordan Flight Fleece Joggers::jordan flight fleece joggers"
+    "Nike ACG Tuff Fleece::nike acg tuff fleece",
+    "Nike Solo Swoosh Crew::nike solo swoosh sweatshirt",
+    "Nike Miler Repel Jacket::nike miler repel jacket",
+    "Nike Solo Swoosh Joggers::nike solo swoosh joggers",
+    "Nike Stride Running Jacket::nike stride running jacket",
+    "Nike T-Shirt::nike t shirt"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1248,
-  "catalogItems": 791,
-  "candidateItems": 262,
-  "freshItems": 12,
-  "qualifyingAlerts": 7,
+  "catalogMarkers": 1440,
+  "catalogItems": 844,
+  "candidateItems": 327,
+  "freshItems": 91,
+  "qualifyingAlerts": 47,
   "qualifyingByCondition": {
-    "veryGood": 6,
-    "newWithoutTags": 1
+    "newWithTags": 4,
+    "veryGood": 39,
+    "newWithoutTags": 4
   },
-  "deliveredAlerts": 7,
+  "deliveredAlerts": 47,
   "deliveredByCondition": {
-    "veryGood": 6,
-    "newWithoutTags": 1
+    "newWithTags": 4,
+    "veryGood": 39,
+    "newWithoutTags": 4
   },
-  "duplicateSuppressed": 101,
+  "duplicateSuppressed": 92,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,9 +69,13 @@
   "pendingDeliveries": 0,
   "detailFetches": 2,
   "rejects": {
-    "price": 3,
-    "recovery-no-fresh-signal": 149,
-    "size": 2
+    "price": 16,
+    "keyword": 4,
+    "size": 2,
+    "recovery-no-fresh-signal": 144,
+    "condition": 19,
+    "score": 2,
+    "weak-margin": 1
   },
   "failures": {}
 }
