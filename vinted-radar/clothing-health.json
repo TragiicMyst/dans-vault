@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-10-01T18:22:51.665Z",
-  "stateUpdatedAt": "2026-10-01T18:22:51.665Z",
-  "lastAttemptAt": "2026-10-01T18:22:51.665Z",
-  "lastScanAt": "2026-10-01T18:22:51.665Z",
+  "generatedAt": "2026-10-01T20:52:46.125Z",
+  "stateUpdatedAt": "2026-10-01T20:52:46.125Z",
+  "lastAttemptAt": "2026-10-01T20:52:46.125Z",
+  "lastScanAt": "2026-10-01T20:52:46.125Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Fleece::nike fleece",
-    "Nike Gilet::nike gilet",
-    "Nike Windbreaker::nike windbreaker",
-    "Nike Anorak::nike anorak",
-    "Nike Rain Jacket::nike rain jacket",
-    "Nike Woven Jacket::nike woven jacket"
+    "Nike Bomber Jacket::nike bomber jacket",
+    "Nike Coat::nike coat",
+    "Nike Shorts::nike shorts",
+    "Nike Cargo Trousers::nike cargo trousers",
+    "Nike Track Pants::nike track pants",
+    "Nike Woven Trousers::nike woven trousers"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 1104,
-  "candidateItems": 305,
-  "freshItems": 223,
-  "qualifyingAlerts": 67,
+  "catalogItems": 1103,
+  "candidateItems": 314,
+  "freshItems": 236,
+  "qualifyingAlerts": 73,
   "qualifyingByCondition": {
-    "veryGood": 53,
-    "newWithoutTags": 13,
-    "newWithTags": 1
+    "veryGood": 66,
+    "newWithTags": 2,
+    "newWithoutTags": 5
   },
-  "deliveredAlerts": 67,
+  "deliveredAlerts": 73,
   "deliveredByCondition": {
-    "veryGood": 53,
-    "newWithoutTags": 13,
-    "newWithTags": 1
+    "veryGood": 66,
+    "newWithTags": 2,
+    "newWithoutTags": 5
   },
-  "duplicateSuppressed": 4,
+  "duplicateSuppressed": 0,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,13 +69,12 @@
   "pendingDeliveries": 0,
   "detailFetches": 6,
   "rejects": {
-    "price": 104,
+    "price": 98,
+    "condition": 30,
     "recovery-no-fresh-signal": 78,
-    "condition": 36,
-    "keyword": 10,
-    "size": 3,
-    "detail-budget-exhausted": 2,
-    "score": 1
+    "keyword": 18,
+    "size": 5,
+    "detail-budget-exhausted": 12
   },
   "failures": {}
 }
