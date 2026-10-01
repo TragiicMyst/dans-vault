@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-10-01T15:54:17.741Z",
-  "stateUpdatedAt": "2026-10-01T15:54:17.741Z",
-  "lastAttemptAt": "2026-10-01T15:54:17.741Z",
-  "lastScanAt": "2026-10-01T15:54:17.741Z",
+  "generatedAt": "2026-10-01T18:22:51.665Z",
+  "stateUpdatedAt": "2026-10-01T18:22:51.665Z",
+  "lastAttemptAt": "2026-10-01T18:22:51.665Z",
+  "lastScanAt": "2026-10-01T18:22:51.665Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Long Sleeve Top::nike long sleeve top",
-    "Nike Polo::nike polo",
-    "Nike Football Shirt::nike football shirt",
-    "Nike Training Top::nike training top",
-    "Nike Dri-FIT Top::nike dri fit top",
-    "Nike Quarter Zip::nike quarter zip"
+    "Nike Fleece::nike fleece",
+    "Nike Gilet::nike gilet",
+    "Nike Windbreaker::nike windbreaker",
+    "Nike Anorak::nike anorak",
+    "Nike Rain Jacket::nike rain jacket",
+    "Nike Woven Jacket::nike woven jacket"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 1012,
-  "candidateItems": 291,
-  "freshItems": 231,
-  "qualifyingAlerts": 124,
+  "catalogItems": 1104,
+  "candidateItems": 305,
+  "freshItems": 223,
+  "qualifyingAlerts": 67,
   "qualifyingByCondition": {
-    "veryGood": 100,
-    "newWithoutTags": 16,
-    "newWithTags": 8
+    "veryGood": 53,
+    "newWithoutTags": 13,
+    "newWithTags": 1
   },
-  "deliveredAlerts": 124,
+  "deliveredAlerts": 67,
   "deliveredByCondition": {
-    "veryGood": 100,
-    "newWithoutTags": 16,
-    "newWithTags": 8
+    "veryGood": 53,
+    "newWithoutTags": 13,
+    "newWithTags": 1
   },
-  "duplicateSuppressed": 9,
+  "duplicateSuppressed": 4,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,12 +69,13 @@
   "pendingDeliveries": 0,
   "detailFetches": 6,
   "rejects": {
-    "price": 40,
-    "recovery-no-fresh-signal": 51,
-    "size": 4,
-    "condition": 49,
-    "keyword": 9,
-    "detail-budget-exhausted": 5
+    "price": 104,
+    "recovery-no-fresh-signal": 78,
+    "condition": 36,
+    "keyword": 10,
+    "size": 3,
+    "detail-budget-exhausted": 2,
+    "score": 1
   },
   "failures": {}
 }
