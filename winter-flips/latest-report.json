@@ -2,27 +2,36 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-10-02T01:00:36.068Z",
+    "startedAt": "2026-10-02T06:57:48.249Z",
     "searchGroups": [
-      "hunter:arc-teryx-puffer",
-      "hunter:ralph-lauren-puffer",
-      "hunter:polo-puffer-jacket",
-      "hunter:nike-puffer-jacket",
-      "hunter:berghaus-puffer",
-      "hunter:napapijri-jacket",
-      "tnf-1996-nuptse:north-face-nuptse-700",
-      "tnf-1996-nuptse:north-face-1996-nuptse"
+      "nike-puffer:nike-puffer-jacket-mens",
+      "nike-puffer:nike-down-jacket",
+      "berghaus-down:berghaus-down-jacket",
+      "berghaus-down:berghaus-puffer-jacket",
+      "napapijri-skidoo:napapijri-skidoo-jacket",
+      "napapijri-skidoo:napapijri-rainforest-winter",
+      "hunter:north-face-coat",
+      "hunter:north-face-puffer"
     ],
-    "vintedItems": 280,
-    "freshItems": 5,
+    "vintedItems": 0,
+    "freshItems": 0,
     "freshByAge": 0,
-    "freshByNewId": 5,
+    "freshByNewId": 0,
     "bootstrapBlocked": 0,
-    "staleBlocked": 7,
+    "staleBlocked": 0,
     "candidates": 0,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
-    "failures": []
+    "failures": [
+      "Vinted nike puffer jacket mens: Vinted HTTP 403",
+      "Vinted nike down jacket: Vinted HTTP 403",
+      "Vinted berghaus down jacket: Vinted HTTP 403",
+      "Vinted berghaus puffer jacket: Vinted HTTP 403",
+      "Vinted napapijri skidoo jacket: Vinted HTTP 403",
+      "Vinted napapijri rainforest winter: Vinted HTTP 403",
+      "Vinted north face coat: Vinted HTTP 403",
+      "Vinted north face puffer: Vinted HTTP 403"
+    ]
   },
   "topRecent": [
     {
