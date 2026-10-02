@@ -1,39 +1,37 @@
 {
-  "generatedAt": "2026-10-02T23:17:33.065Z",
-  "stateUpdatedAt": "2026-10-02T23:17:33.065Z",
-  "lastAttemptAt": "2026-10-02T23:17:33.065Z",
-  "lastScanAt": "2026-10-02T23:17:33.065Z",
+  "generatedAt": "2026-10-02T23:22:33.912Z",
+  "stateUpdatedAt": "2026-10-02T23:22:33.912Z",
+  "lastAttemptAt": "2026-10-02T23:22:33.912Z",
+  "lastScanAt": "2026-10-02T23:22:33.912Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Air Jordan 4::primary",
-    "Nike Initiator::primary",
-    "Nike Air Max Moto 2K::primary",
-    "Nike Metcon 10::primary",
-    "Nike Zoom Fly 6::primary",
-    "Nike Air Max Bargain::generic"
+    "Nike Running Trainer Bargain::generic",
+    "Nike Lifestyle Trainer Bargain::generic",
+    "Nike Football Boot Bargain::generic",
+    "Nike Basketball Shoe Bargain::generic",
+    "Nike SB Shoe Bargain::generic",
+    "Nike P-6000::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 853,
-  "candidateItems": 484,
-  "freshItems": 132,
-  "qualifyingAlerts": 8,
+  "catalogItems": 891,
+  "candidateItems": 365,
+  "freshItems": 160,
+  "qualifyingAlerts": 3,
   "qualifyingByCondition": {
-    "veryGood": 3,
-    "newWithoutTags": 1,
-    "newWithTags": 4
+    "veryGood": 2,
+    "newWithoutTags": 1
   },
-  "deliveredAlerts": 8,
+  "deliveredAlerts": 3,
   "deliveredByCondition": {
-    "veryGood": 3,
-    "newWithoutTags": 1,
-    "newWithTags": 4
+    "veryGood": 2,
+    "newWithoutTags": 1
   },
-  "duplicateSuppressed": 62,
+  "duplicateSuppressed": 2,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,14 +67,14 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "recovery-no-fresh-signal": 290,
-    "keyword": 4,
-    "size": 3,
-    "seller-risk": 1,
-    "seller-check-budget-exhausted": 58,
-    "condition": 10,
-    "detail-budget-exhausted": 29,
-    "price": 17,
+    "price": 50,
+    "stale": 203,
+    "size": 7,
+    "condition": 39,
+    "keyword": 7,
+    "seller-risk": 2,
+    "seller-check-budget-exhausted": 33,
+    "detail-budget-exhausted": 17,
     "weak-margin": 2
   },
   "failures": {}
