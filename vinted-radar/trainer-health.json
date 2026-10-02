@@ -1,37 +1,35 @@
 {
-  "generatedAt": "2026-10-01T23:05:05.549Z",
-  "stateUpdatedAt": "2026-10-01T23:05:05.549Z",
-  "lastAttemptAt": "2026-10-01T23:05:05.549Z",
-  "lastScanAt": "2026-10-01T23:05:05.549Z",
+  "generatedAt": "2026-10-02T00:31:43.622Z",
+  "stateUpdatedAt": "2026-10-02T00:31:43.622Z",
+  "lastAttemptAt": "2026-10-02T00:31:43.622Z",
+  "lastScanAt": "2026-10-02T00:31:43.622Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Pegasus Trail 5 GORE-TEX::primary",
-    "Nike TN::primary",
-    "Nike Air Max Plus 3::primary",
-    "Nike Air Max Plus VII::primary",
-    "Nike Air Max 95::primary",
-    "Nike Air Max 90::primary"
+    "Nike Air Max 90 Drift::primary",
+    "Nike Air Max 97::primary",
+    "Nike Air Max 270::primary",
+    "Nike Air Max Dn::primary",
+    "Nike Air Max 1::primary",
+    "Nike Shox TL::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 1100,
-  "candidateItems": 511,
-  "freshItems": 157,
-  "qualifyingAlerts": 5,
+  "catalogItems": 1003,
+  "candidateItems": 495,
+  "freshItems": 119,
+  "qualifyingAlerts": 2,
   "qualifyingByCondition": {
-    "veryGood": 2,
-    "newWithoutTags": 3
+    "veryGood": 2
   },
-  "deliveredAlerts": 5,
+  "deliveredAlerts": 2,
   "deliveredByCondition": {
-    "veryGood": 2,
-    "newWithoutTags": 3
+    "veryGood": 2
   },
-  "duplicateSuppressed": 52,
+  "duplicateSuppressed": 35,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,15 +65,14 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 302,
-    "price": 13,
-    "condition": 23,
-    "size": 6,
-    "score": 1,
-    "keyword": 10,
-    "seller-check-budget-exhausted": 69,
-    "detail-budget-exhausted": 27,
-    "weak-margin": 3
+    "recovery-no-fresh-signal": 341,
+    "price": 5,
+    "condition": 7,
+    "keyword": 2,
+    "size": 9,
+    "seller-risk": 1,
+    "seller-check-budget-exhausted": 53,
+    "detail-budget-exhausted": 40
   },
   "failures": {}
 }
