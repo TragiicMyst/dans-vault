@@ -2,38 +2,53 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-10-02T06:57:48.249Z",
+    "startedAt": "2026-10-02T13:21:55.180Z",
     "searchGroups": [
-      "nike-puffer:nike-puffer-jacket-mens",
-      "nike-puffer:nike-down-jacket",
-      "berghaus-down:berghaus-down-jacket",
-      "berghaus-down:berghaus-puffer-jacket",
-      "napapijri-skidoo:napapijri-skidoo-jacket",
-      "napapijri-skidoo:napapijri-rainforest-winter",
-      "hunter:north-face-coat",
-      "hunter:north-face-puffer"
+      "tnf-baltoro:north-face-baltoro-jacket",
+      "tnf-summit-down:north-face-summit-series-down",
+      "rab-microlight:rab-microlight-alpine",
+      "rab-neutrino:rab-neutrino-pro",
+      "rab-electron:rab-electron-pro",
+      "patagonia-down-sweater:patagonia-down-sweater-jacket",
+      "patagonia-down-sweater:patagonia-down-sweater-hoody",
+      "patagonia-fitz-roy:patagonia-fitz-roy-down"
     ],
-    "vintedItems": 0,
-    "freshItems": 0,
+    "vintedItems": 280,
+    "freshItems": 5,
     "freshByAge": 0,
-    "freshByNewId": 0,
+    "freshByNewId": 5,
     "bootstrapBlocked": 0,
-    "staleBlocked": 0,
+    "staleBlocked": 6,
     "candidates": 0,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
-    "failures": [
-      "Vinted nike puffer jacket mens: Vinted HTTP 403",
-      "Vinted nike down jacket: Vinted HTTP 403",
-      "Vinted berghaus down jacket: Vinted HTTP 403",
-      "Vinted berghaus puffer jacket: Vinted HTTP 403",
-      "Vinted napapijri skidoo jacket: Vinted HTTP 403",
-      "Vinted napapijri rainforest winter: Vinted HTTP 403",
-      "Vinted north face coat: Vinted HTTP 403",
-      "Vinted north face puffer: Vinted HTTP 403"
-    ]
+    "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-10-02T13:18:59.222Z",
+      "platform": "VINTED",
+      "id": "10214646431",
+      "title": "nike puffer jacket",
+      "url": "https://www.vinted.co.uk/items/10214646431-nike-puffer-jacket",
+      "modelId": "nike-puffer",
+      "buyPrice": 8,
+      "estimatedNetProfit": 46.05,
+      "roi": 575.63,
+      "score": 87
+    },
+    {
+      "at": "2026-10-02T13:15:59.271Z",
+      "platform": "VINTED",
+      "id": "10213943415",
+      "title": "the north face summit series puffer jacket black xl",
+      "url": "https://www.vinted.co.uk/items/10213943415-the-north-face-summit-series-puffer-jacket-black-xl",
+      "modelId": "tnf-summit-down",
+      "buyPrice": 50,
+      "estimatedNetProfit": 35.08,
+      "roi": 70.16,
+      "score": 80
+    },
     {
       "at": "2026-10-01T21:19:40.018Z",
       "platform": "VINTED",
@@ -249,30 +264,6 @@
       "estimatedNetProfit": 47.17,
       "roi": 168.46,
       "score": 96
-    },
-    {
-      "at": "2026-09-29T19:59:29.915Z",
-      "platform": "VINTED",
-      "id": "10185025432",
-      "title": "patagonia fitz roy down hoody coat",
-      "url": "https://www.vinted.co.uk/items/10185025432-patagonia-fitz-roy-down-hoody-coat",
-      "modelId": "patagonia-fitz-roy",
-      "buyPrice": 73,
-      "estimatedNetProfit": 51.48,
-      "roi": 70.52,
-      "score": 80
-    },
-    {
-      "at": "2026-09-29T19:56:23.976Z",
-      "platform": "VINTED",
-      "id": "10183539233",
-      "title": "black nike puffer coat night 170 cm new",
-      "url": "https://www.vinted.co.uk/items/10183539233-black-nike-puffer-coat-night-170-cm-new",
-      "modelId": "nike-puffer",
-      "buyPrice": 20,
-      "estimatedNetProfit": 37.43,
-      "roi": 187.15,
-      "score": 97
     }
   ]
 }
