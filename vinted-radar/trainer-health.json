@@ -1,37 +1,37 @@
 {
-  "generatedAt": "2026-10-03T12:07:59.877Z",
-  "stateUpdatedAt": "2026-10-03T12:07:59.877Z",
-  "lastAttemptAt": "2026-10-03T12:07:59.877Z",
-  "lastScanAt": "2026-10-03T12:07:59.877Z",
+  "generatedAt": "2026-10-03T12:12:59.281Z",
+  "stateUpdatedAt": "2026-10-03T12:12:59.281Z",
+  "lastAttemptAt": "2026-10-03T12:12:59.281Z",
+  "lastScanAt": "2026-10-03T12:12:59.281Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Air Force 1::primary",
-    "Nike Dunk Low::primary",
-    "Air Jordan 1 Low::primary",
-    "Air Jordan 1 Mid::primary",
-    "Air Jordan 4::primary",
-    "Nike Initiator::primary"
+    "Nike Air Max Moto 2K::primary",
+    "Nike Metcon 10::primary",
+    "Nike Zoom Fly 6::primary",
+    "Nike Air Max Bargain::generic",
+    "Nike Running Trainer Bargain::generic",
+    "Nike Lifestyle Trainer Bargain::generic"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 978,
-  "candidateItems": 641,
-  "freshItems": 255,
-  "qualifyingAlerts": 5,
+  "catalogItems": 844,
+  "candidateItems": 456,
+  "freshItems": 168,
+  "qualifyingAlerts": 9,
   "qualifyingByCondition": {
-    "newWithTags": 1,
-    "veryGood": 4
+    "newWithTags": 4,
+    "veryGood": 5
   },
-  "deliveredAlerts": 5,
+  "deliveredAlerts": 9,
   "deliveredByCondition": {
-    "newWithTags": 1,
-    "veryGood": 4
+    "newWithTags": 4,
+    "veryGood": 5
   },
-  "duplicateSuppressed": 34,
+  "duplicateSuppressed": 43,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,15 +67,14 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 352,
-    "keyword": 33,
-    "size": 5,
+    "stale": 245,
+    "size": 3,
+    "detail-budget-exhausted": 46,
+    "seller-check-budget-exhausted": 55,
+    "condition": 22,
     "price": 14,
-    "condition": 65,
-    "seller-risk": 2,
-    "seller-check-budget-exhausted": 76,
-    "weak-margin": 4,
-    "detail-budget-exhausted": 51
+    "weak-margin": 1,
+    "keyword": 18
   },
   "failures": {}
 }
