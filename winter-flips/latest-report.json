@@ -2,29 +2,65 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-10-03T12:07:17.269Z",
+    "startedAt": "2026-10-03T16:14:30.294Z",
     "searchGroups": [
-      "patagonia-down-sweater:patagonia-down-sweater-hoody",
-      "patagonia-fitz-roy:patagonia-fitz-roy-down",
-      "arcteryx-cerium:arcteryx-cerium-jacket",
-      "arcteryx-cerium:arc-teryx-cerium",
-      "arcteryx-thorium:arcteryx-thorium-jacket",
-      "arcteryx-thorium:arc-teryx-thorium",
-      "ralph-lauren-puffer:ralph-lauren-puffer-jacket",
-      "ralph-lauren-puffer:polo-ralph-lauren-down-jacket"
+      "hunter:polo-puffer-jacket",
+      "hunter:nike-puffer-jacket",
+      "hunter:berghaus-puffer",
+      "hunter:napapijri-jacket",
+      "tnf-1996-nuptse:north-face-nuptse-700",
+      "tnf-1996-nuptse:north-face-1996-nuptse",
+      "tnf-himalayan:north-face-himalayan-puffer",
+      "tnf-himalayan:north-face-hmlyn-parka"
     ],
     "vintedItems": 280,
-    "freshItems": 2,
+    "freshItems": 23,
     "freshByAge": 0,
-    "freshByNewId": 2,
+    "freshByNewId": 23,
     "bootstrapBlocked": 0,
-    "staleBlocked": 1,
-    "candidates": 1,
-    "alerts": 0,
+    "staleBlocked": 0,
+    "candidates": 4,
+    "alerts": 1,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-10-03T16:14:33.699Z",
+      "platform": "VINTED",
+      "id": "10225820961",
+      "title": "brand new nike therma fit puffer jacket with original tags",
+      "url": "https://www.vinted.co.uk/items/10225820961-brand-new-nike-therma-fit-puffer-jacket-with-original-tags",
+      "modelId": "nike-puffer",
+      "buyPrice": 25,
+      "estimatedNetProfit": 28.24,
+      "roi": 112.96,
+      "score": 91
+    },
+    {
+      "at": "2026-10-03T16:11:44.907Z",
+      "platform": "VINTED",
+      "id": "10228769122",
+      "title": "ralph lauren puffer gilet",
+      "url": "https://www.vinted.co.uk/items/10228769122-ralph-lauren-puffer-gilet",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 39.99,
+      "estimatedNetProfit": 30.83,
+      "roi": 77.09,
+      "score": 83
+    },
+    {
+      "at": "2026-10-03T16:11:33.307Z",
+      "platform": "VINTED",
+      "id": "10225362272",
+      "title": "the north face 700 down puffer gilet bodywarmed",
+      "url": "https://www.vinted.co.uk/items/10225362272-the-north-face-700-down-puffer-gilet-bodywarmed",
+      "modelId": "tnf-1996-nuptse",
+      "buyPrice": 35,
+      "estimatedNetProfit": 48.25,
+      "roi": 137.86,
+      "score": 82
+    },
     {
       "at": "2026-10-03T12:01:36.650Z",
       "platform": "VINTED",
@@ -228,42 +264,6 @@
       "estimatedNetProfit": 31.99,
       "roi": 71.09,
       "score": 75
-    },
-    {
-      "at": "2026-10-01T16:36:05.528Z",
-      "platform": "VINTED",
-      "id": "10204483736",
-      "title": "berghaus puffer jacket boys 13",
-      "url": "https://www.vinted.co.uk/items/10204483736-berghaus-puffer-jacket-boys-13",
-      "modelId": "berghaus-down",
-      "buyPrice": 25,
-      "estimatedNetProfit": 27.35,
-      "roi": 109.4,
-      "score": 83
-    },
-    {
-      "at": "2026-10-01T16:35:55.555Z",
-      "platform": "VINTED",
-      "id": "10202111713",
-      "title": "authentic polo ralph lauren big pony down puffer jacket age 2 bnwt",
-      "url": "https://www.vinted.co.uk/items/10202111713-authentic-polo-ralph-lauren-big-pony-down-puffer-jacket-age-2-bnwt",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 40,
-      "estimatedNetProfit": 36.81,
-      "roi": 92.03,
-      "score": 83
-    },
-    {
-      "at": "2026-09-30T20:13:33.449Z",
-      "platform": "VINTED",
-      "id": "10194925978",
-      "title": "nike puffer coat",
-      "url": "https://www.vinted.co.uk/items/10194925978-nike-puffer-coat",
-      "modelId": "nike-puffer",
-      "buyPrice": 22.5,
-      "estimatedNetProfit": 21.48,
-      "roi": 95.47,
-      "score": 88
     }
   ]
 }
