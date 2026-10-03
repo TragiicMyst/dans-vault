@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-10-03T01:27:22.346Z",
+    "startedAt": "2026-10-03T06:44:33.519Z",
     "searchGroups": [
-      "tnf-1996-nuptse:north-face-nuptse-700",
-      "tnf-1996-nuptse:north-face-1996-nuptse",
-      "tnf-himalayan:north-face-himalayan-puffer",
-      "tnf-himalayan:north-face-hmlyn-parka",
-      "tnf-baltoro:north-face-baltoro-jacket",
-      "tnf-summit-down:north-face-summit-series-down",
-      "rab-microlight:rab-microlight-alpine",
-      "rab-neutrino:rab-neutrino-pro"
+      "hunter:north-face-coat",
+      "hunter:north-face-puffer",
+      "hunter:north-face-700",
+      "hunter:mens-north-face-jacket",
+      "hunter:rab-puffer",
+      "hunter:rab-down-jacket",
+      "hunter:patagonia-puffer",
+      "hunter:arcteryx-jacket"
     ],
     "vintedItems": 280,
-    "freshItems": 0,
+    "freshItems": 4,
     "freshByAge": 0,
-    "freshByNewId": 0,
+    "freshByNewId": 4,
     "bootstrapBlocked": 0,
-    "staleBlocked": 3,
+    "staleBlocked": 54,
     "candidates": 0,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-10-03T06:41:35.610Z",
+      "platform": "VINTED",
+      "id": "10221769273",
+      "title": "ralph",
+      "url": "https://www.vinted.co.uk/items/10221769273-ralph",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 40,
+      "estimatedNetProfit": 37.77,
+      "roi": 94.43,
+      "score": 82
+    },
     {
       "at": "2026-10-02T22:36:05.649Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 32.27,
       "roi": 75.05,
       "score": 77
-    },
-    {
-      "at": "2026-09-30T08:46:35.225Z",
-      "platform": "VINTED",
-      "id": "10188383619",
-      "title": "ralph lauren puffer jacket age 12 14",
-      "url": "https://www.vinted.co.uk/items/10188383619-ralph-lauren-puffer-jacket-age-12-14",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 40,
-      "estimatedNetProfit": 34.51,
-      "roi": 86.28,
-      "score": 82
     }
   ]
 }
