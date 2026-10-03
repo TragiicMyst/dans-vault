@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-10-03T19:18:04.331Z",
+    "startedAt": "2026-10-03T22:13:49.129Z",
     "searchGroups": [
-      "berghaus-down:berghaus-down-jacket",
-      "berghaus-down:berghaus-puffer-jacket",
-      "napapijri-skidoo:napapijri-skidoo-jacket",
-      "napapijri-skidoo:napapijri-rainforest-winter",
-      "hunter:north-face-coat",
-      "hunter:north-face-puffer",
-      "hunter:north-face-700",
-      "hunter:mens-north-face-jacket"
+      "rab-microlight:rab-microlight-alpine",
+      "rab-neutrino:rab-neutrino-pro",
+      "rab-electron:rab-electron-pro",
+      "patagonia-down-sweater:patagonia-down-sweater-jacket",
+      "patagonia-down-sweater:patagonia-down-sweater-hoody",
+      "patagonia-fitz-roy:patagonia-fitz-roy-down",
+      "arcteryx-cerium:arcteryx-cerium-jacket",
+      "arcteryx-cerium:arc-teryx-cerium"
     ],
     "vintedItems": 280,
-    "freshItems": 62,
+    "freshItems": 1,
     "freshByAge": 0,
-    "freshByNewId": 62,
+    "freshByNewId": 1,
     "bootstrapBlocked": 0,
-    "staleBlocked": 9,
-    "candidates": 4,
+    "staleBlocked": 2,
+    "candidates": 0,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-10-03T22:07:58.589Z",
+      "platform": "VINTED",
+      "id": "10229715182",
+      "title": "polo ralph lauren reversible down gilet youth l 12 14",
+      "url": "https://www.vinted.co.uk/items/10229715182-polo-ralph-lauren-reversible-down-gilet-youth-l-12-14",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 38,
+      "estimatedNetProfit": 40.53,
+      "roi": 106.66,
+      "score": 90
+    },
     {
       "at": "2026-10-03T19:15:13.224Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 43.36,
       "roi": 433.6,
       "score": 87
-    },
-    {
-      "at": "2026-10-01T21:16:47.138Z",
-      "platform": "VINTED",
-      "id": "10207150277",
-      "title": "10 12 boys ralph lauren puffer",
-      "url": "https://www.vinted.co.uk/items/10207150277-10-12-boys-ralph-lauren-puffer",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 45,
-      "estimatedNetProfit": 31.99,
-      "roi": 71.09,
-      "score": 75
     }
   ]
 }
