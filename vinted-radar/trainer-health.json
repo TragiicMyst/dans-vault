@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-10-03T01:22:44.516Z",
-  "stateUpdatedAt": "2026-10-03T01:22:44.516Z",
-  "lastAttemptAt": "2026-10-03T01:22:44.516Z",
-  "lastScanAt": "2026-10-03T01:22:44.516Z",
+  "generatedAt": "2026-10-03T02:12:45.538Z",
+  "stateUpdatedAt": "2026-10-03T02:12:45.538Z",
+  "lastAttemptAt": "2026-10-03T02:12:45.538Z",
+  "lastScanAt": "2026-10-03T02:12:45.538Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Air Max 90 Drift::primary",
-    "Nike Air Max 97::primary",
-    "Nike Air Max 270::primary",
-    "Nike Air Max Dn::primary",
-    "Nike Air Max 1::primary",
-    "Nike Shox TL::primary"
+    "Nike Shox R4::primary",
+    "Nike Shox Ride 2::primary",
+    "Nike Air Force 1::primary",
+    "Nike Dunk Low::primary",
+    "Air Jordan 1 Low::primary",
+    "Air Jordan 1 Mid::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 999,
-  "candidateItems": 468,
-  "freshItems": 118,
-  "qualifyingAlerts": 4,
+  "catalogItems": 873,
+  "candidateItems": 585,
+  "freshItems": 89,
+  "qualifyingAlerts": 6,
   "qualifyingByCondition": {
-    "veryGood": 4
+    "veryGood": 6
   },
-  "deliveredAlerts": 4,
+  "deliveredAlerts": 6,
   "deliveredByCondition": {
-    "veryGood": 4
+    "veryGood": 6
   },
-  "duplicateSuppressed": 35,
+  "duplicateSuppressed": 25,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -65,14 +65,14 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 315,
-    "size": 8,
-    "condition": 14,
-    "keyword": 7,
-    "detail-budget-exhausted": 33,
-    "seller-check-budget-exhausted": 47,
+    "recovery-no-fresh-signal": 471,
     "price": 3,
-    "weak-margin": 2
+    "condition": 11,
+    "keyword": 8,
+    "size": 5,
+    "seller-risk": 1,
+    "detail-budget-exhausted": 24,
+    "seller-check-budget-exhausted": 31
   },
   "failures": {}
 }
