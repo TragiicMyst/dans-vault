@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-10-03T02:22:45.720Z",
-  "stateUpdatedAt": "2026-10-03T02:22:45.720Z",
-  "lastAttemptAt": "2026-10-03T02:22:45.720Z",
-  "lastScanAt": "2026-10-03T02:22:45.720Z",
+  "generatedAt": "2026-10-03T06:37:04.722Z",
+  "stateUpdatedAt": "2026-10-03T06:37:04.722Z",
+  "lastAttemptAt": "2026-10-03T06:37:04.722Z",
+  "lastScanAt": "2026-10-03T06:37:04.722Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Rain Jacket::nike rain jacket",
-    "Nike Woven Jacket::nike woven jacket",
-    "Nike Bomber Jacket::nike bomber jacket",
-    "Nike Coat::nike coat",
-    "Nike Shorts::nike shorts",
-    "Nike Cargo Trousers::nike cargo trousers"
+    "Nike Track Pants::nike track pants",
+    "Nike Woven Trousers::nike woven trousers",
+    "Nike Tracksuit::nike tracksuit",
+    "Nike Vintage Clothing::vintage nike",
+    "Nike SB Clothing::nike sb clothing",
+    "Nike Vest::nike vest"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 1111,
-  "candidateItems": 280,
-  "freshItems": 124,
-  "qualifyingAlerts": 44,
+  "catalogItems": 1065,
+  "candidateItems": 326,
+  "freshItems": 154,
+  "qualifyingAlerts": 49,
   "qualifyingByCondition": {
-    "veryGood": 37,
+    "veryGood": 43,
     "newWithoutTags": 5,
-    "newWithTags": 2
+    "newWithTags": 1
   },
-  "deliveredAlerts": 44,
+  "deliveredAlerts": 49,
   "deliveredByCondition": {
-    "veryGood": 37,
+    "veryGood": 43,
     "newWithoutTags": 5,
-    "newWithTags": 2
+    "newWithTags": 1
   },
-  "duplicateSuppressed": 11,
+  "duplicateSuppressed": 10,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,12 +69,13 @@
   "pendingDeliveries": 0,
   "detailFetches": 6,
   "rejects": {
-    "recovery-no-fresh-signal": 145,
-    "price": 43,
-    "condition": 23,
-    "keyword": 10,
-    "size": 3,
-    "detail-budget-exhausted": 1
+    "recovery-no-fresh-signal": 162,
+    "price": 54,
+    "condition": 25,
+    "keyword": 6,
+    "size": 5,
+    "detail-budget-exhausted": 14,
+    "weak-margin": 1
   },
   "failures": {}
 }
