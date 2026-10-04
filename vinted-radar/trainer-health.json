@@ -1,37 +1,35 @@
 {
-  "generatedAt": "2026-10-04T02:48:54.213Z",
-  "stateUpdatedAt": "2026-10-04T02:48:54.213Z",
-  "lastAttemptAt": "2026-10-04T02:48:54.213Z",
-  "lastScanAt": "2026-10-04T02:48:54.213Z",
+  "generatedAt": "2026-10-04T06:26:46.051Z",
+  "stateUpdatedAt": "2026-10-04T06:26:46.051Z",
+  "lastAttemptAt": "2026-10-04T06:26:46.051Z",
+  "lastScanAt": "2026-10-04T06:26:46.051Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Air Max Plus 3::primary",
-    "Nike Air Max Plus VII::primary",
-    "Nike Air Max 95::primary",
-    "Nike Air Max 90::primary",
-    "Nike Air Max 90 Drift::primary",
-    "Nike Air Max 97::primary"
+    "Nike Air Max 270::primary",
+    "Nike Air Max Dn::primary",
+    "Nike Air Max 1::primary",
+    "Nike Shox TL::primary",
+    "Nike Shox R4::primary",
+    "Nike Shox Ride 2::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 1052,
-  "candidateItems": 587,
-  "freshItems": 98,
-  "qualifyingAlerts": 9,
+  "catalogItems": 909,
+  "candidateItems": 436,
+  "freshItems": 77,
+  "qualifyingAlerts": 5,
   "qualifyingByCondition": {
-    "newWithTags": 1,
-    "veryGood": 8
+    "veryGood": 5
   },
-  "deliveredAlerts": 9,
+  "deliveredAlerts": 5,
   "deliveredByCondition": {
-    "newWithTags": 1,
-    "veryGood": 8
+    "veryGood": 5
   },
-  "duplicateSuppressed": 55,
+  "duplicateSuppressed": 37,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,14 +65,11 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 434,
-    "size": 2,
-    "keyword": 3,
-    "condition": 2,
+    "recovery-no-fresh-signal": 322,
+    "size": 7,
     "weak-margin": 1,
-    "seller-risk": 1,
-    "detail-budget-exhausted": 33,
-    "seller-check-budget-exhausted": 47
+    "detail-budget-exhausted": 28,
+    "seller-check-budget-exhausted": 36
   },
   "failures": {}
 }
