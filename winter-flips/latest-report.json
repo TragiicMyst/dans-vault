@@ -2,29 +2,65 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-10-04T06:26:44.544Z",
+    "startedAt": "2026-10-04T12:39:54.238Z",
     "searchGroups": [
-      "ralph-lauren-puffer:ralph-lauren-puffer-jacket",
-      "ralph-lauren-puffer:polo-ralph-lauren-down-jacket",
-      "nike-puffer:nike-puffer-jacket-mens",
-      "nike-puffer:nike-down-jacket",
-      "berghaus-down:berghaus-down-jacket",
-      "berghaus-down:berghaus-puffer-jacket",
-      "napapijri-skidoo:napapijri-skidoo-jacket",
-      "napapijri-skidoo:napapijri-rainforest-winter"
+      "tnf-himalayan:north-face-himalayan-puffer",
+      "tnf-himalayan:north-face-hmlyn-parka",
+      "tnf-baltoro:north-face-baltoro-jacket",
+      "tnf-summit-down:north-face-summit-series-down",
+      "rab-microlight:rab-microlight-alpine",
+      "rab-neutrino:rab-neutrino-pro",
+      "rab-electron:rab-electron-pro",
+      "patagonia-down-sweater:patagonia-down-sweater-jacket"
     ],
     "vintedItems": 280,
-    "freshItems": 0,
+    "freshItems": 1,
     "freshByAge": 0,
-    "freshByNewId": 0,
+    "freshByNewId": 1,
     "bootstrapBlocked": 0,
-    "staleBlocked": 6,
+    "staleBlocked": 3,
     "candidates": 0,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-10-04T12:37:03.117Z",
+      "platform": "VINTED",
+      "id": "10239610891",
+      "title": "black nike puffer jacket with hood youth size m",
+      "url": "https://www.vinted.co.uk/items/10239610891-black-nike-puffer-jacket-with-hood-youth-size-m",
+      "modelId": "nike-puffer",
+      "buyPrice": 20,
+      "estimatedNetProfit": 31.27,
+      "roi": 156.35,
+      "score": 95
+    },
+    {
+      "at": "2026-10-04T12:37:02.220Z",
+      "platform": "VINTED",
+      "id": "10239653868",
+      "title": "mens nike puffer coat",
+      "url": "https://www.vinted.co.uk/items/10239653868-mens-nike-puffer-coat",
+      "modelId": "nike-puffer",
+      "buyPrice": 12,
+      "estimatedNetProfit": 45.87,
+      "roi": 382.25,
+      "score": 92
+    },
+    {
+      "at": "2026-10-04T12:36:58.265Z",
+      "platform": "VINTED",
+      "id": "10235333550",
+      "title": "ralph lauren puffer jacket age 12 14",
+      "url": "https://www.vinted.co.uk/items/10235333550-ralph-lauren-puffer-jacket-age-12-14",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 40,
+      "estimatedNetProfit": 31.75,
+      "roi": 79.38,
+      "score": 79
+    },
     {
       "at": "2026-10-04T00:35:36.094Z",
       "platform": "VINTED",
@@ -228,42 +264,6 @@
       "estimatedNetProfit": 42.36,
       "roi": 111.47,
       "score": 91
-    },
-    {
-      "at": "2026-10-02T13:18:59.222Z",
-      "platform": "VINTED",
-      "id": "10214646431",
-      "title": "nike puffer jacket",
-      "url": "https://www.vinted.co.uk/items/10214646431-nike-puffer-jacket",
-      "modelId": "nike-puffer",
-      "buyPrice": 8,
-      "estimatedNetProfit": 46.05,
-      "roi": 575.63,
-      "score": 87
-    },
-    {
-      "at": "2026-10-02T13:15:59.271Z",
-      "platform": "VINTED",
-      "id": "10213943415",
-      "title": "the north face summit series puffer jacket black xl",
-      "url": "https://www.vinted.co.uk/items/10213943415-the-north-face-summit-series-puffer-jacket-black-xl",
-      "modelId": "tnf-summit-down",
-      "buyPrice": 50,
-      "estimatedNetProfit": 35.08,
-      "roi": 70.16,
-      "score": 80
-    },
-    {
-      "at": "2026-10-01T21:19:40.018Z",
-      "platform": "VINTED",
-      "id": "10208990048",
-      "title": "north face 1996 retro nuptse gilet 700 body warmer black and blue",
-      "url": "https://www.vinted.co.uk/items/10208990048-north-face-1996-retro-nuptse-gilet-700-body-warmer-black-and-blue",
-      "modelId": "tnf-1996-nuptse",
-      "buyPrice": 44.99,
-      "estimatedNetProfit": 40.97,
-      "roi": 91.06,
-      "score": 82
     }
   ]
 }
