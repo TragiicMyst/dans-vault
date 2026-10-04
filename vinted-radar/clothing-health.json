@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-10-04T00:45:11.750Z",
-  "stateUpdatedAt": "2026-10-04T00:45:11.750Z",
-  "lastAttemptAt": "2026-10-04T00:45:11.750Z",
-  "lastScanAt": "2026-10-04T00:45:11.750Z",
+  "generatedAt": "2026-10-04T05:41:13.124Z",
+  "stateUpdatedAt": "2026-10-04T05:41:13.124Z",
+  "lastAttemptAt": "2026-10-04T05:41:13.124Z",
+  "lastScanAt": "2026-10-04T05:41:13.124Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Miler Repel Jacket::nike miler repel jacket",
-    "Nike Solo Swoosh Joggers::nike solo swoosh joggers",
-    "Nike Stride Running Jacket::nike stride running jacket",
-    "Nike T-Shirt::nike t shirt",
-    "Nike Long Sleeve Top::nike long sleeve top",
-    "Nike Polo::nike polo"
+    "Nike Football Shirt::nike football shirt",
+    "Nike Training Top::nike training top",
+    "Nike Dri-FIT Top::nike dri fit top",
+    "Nike Quarter Zip::nike quarter zip",
+    "Nike Fleece::nike fleece",
+    "Nike Gilet::nike gilet"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 911,
-  "candidateItems": 324,
-  "freshItems": 102,
-  "qualifyingAlerts": 52,
+  "catalogItems": 1018,
+  "candidateItems": 297,
+  "freshItems": 103,
+  "qualifyingAlerts": 46,
   "qualifyingByCondition": {
     "veryGood": 41,
-    "newWithTags": 5,
-    "newWithoutTags": 6
+    "newWithoutTags": 4,
+    "newWithTags": 1
   },
-  "deliveredAlerts": 52,
+  "deliveredAlerts": 46,
   "deliveredByCondition": {
     "veryGood": 41,
-    "newWithTags": 5,
-    "newWithoutTags": 6
+    "newWithoutTags": 4,
+    "newWithTags": 1
   },
-  "duplicateSuppressed": 61,
+  "duplicateSuppressed": 5,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,14 +69,13 @@
   "pendingDeliveries": 0,
   "detailFetches": 6,
   "rejects": {
-    "recovery-no-fresh-signal": 161,
     "price": 28,
-    "condition": 12,
-    "score": 1,
+    "recovery-no-fresh-signal": 189,
+    "condition": 13,
     "size": 4,
-    "weak-margin": 1,
-    "keyword": 3,
-    "detail-budget-exhausted": 1
+    "keyword": 7,
+    "detail-budget-exhausted": 4,
+    "score": 1
   },
   "failures": {}
 }
