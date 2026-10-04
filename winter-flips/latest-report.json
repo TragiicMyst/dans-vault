@@ -2,29 +2,53 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-10-04T20:06:10.668Z",
+    "startedAt": "2026-10-04T23:05:16.401Z",
     "searchGroups": [
-      "arcteryx-cerium:arcteryx-cerium-jacket",
-      "arcteryx-cerium:arc-teryx-cerium",
-      "arcteryx-thorium:arcteryx-thorium-jacket",
-      "arcteryx-thorium:arc-teryx-thorium",
-      "ralph-lauren-puffer:ralph-lauren-puffer-jacket",
-      "ralph-lauren-puffer:polo-ralph-lauren-down-jacket",
-      "nike-puffer:nike-puffer-jacket-mens",
-      "nike-puffer:nike-down-jacket"
+      "hunter:berghaus-puffer",
+      "hunter:napapijri-jacket",
+      "tnf-1996-nuptse:north-face-nuptse-700",
+      "tnf-1996-nuptse:north-face-1996-nuptse",
+      "tnf-himalayan:north-face-himalayan-puffer",
+      "tnf-himalayan:north-face-hmlyn-parka",
+      "tnf-baltoro:north-face-baltoro-jacket",
+      "tnf-summit-down:north-face-summit-series-down"
     ],
     "vintedItems": 280,
-    "freshItems": 12,
+    "freshItems": 3,
     "freshByAge": 0,
-    "freshByNewId": 12,
+    "freshByNewId": 3,
     "bootstrapBlocked": 0,
     "staleBlocked": 1,
-    "candidates": 9,
+    "candidates": 1,
     "alerts": 1,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-10-04T23:05:18.181Z",
+      "platform": "VINTED",
+      "id": "10248580813",
+      "title": "berghaus puffer vest",
+      "url": "https://www.vinted.co.uk/items/10248580813-berghaus-puffer-vest",
+      "modelId": "berghaus-down",
+      "buyPrice": 9,
+      "estimatedNetProfit": 44.23,
+      "roi": 491.44,
+      "score": 85
+    },
+    {
+      "at": "2026-10-04T23:02:25.032Z",
+      "platform": "VINTED",
+      "id": "10249339485",
+      "title": "girls ralph lauren gilet",
+      "url": "https://www.vinted.co.uk/items/10249339485-girls-ralph-lauren-gilet",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 28,
+      "estimatedNetProfit": 50.43,
+      "roi": 180.11,
+      "score": 93
+    },
     {
       "at": "2026-10-04T20:06:19.071Z",
       "platform": "VINTED",
@@ -240,30 +264,6 @@
       "estimatedNetProfit": 36.04,
       "roi": 72.08,
       "score": 70
-    },
-    {
-      "at": "2026-10-03T12:01:25.748Z",
-      "platform": "VINTED",
-      "id": "10222576336",
-      "title": "nike puffer jacket mini collectible display ornament gold",
-      "url": "https://www.vinted.co.uk/items/10222576336-nike-puffer-jacket-mini-collectible-display-ornament-gold",
-      "modelId": "nike-puffer",
-      "buyPrice": 5.6,
-      "estimatedNetProfit": 48,
-      "roi": 857.14,
-      "score": 87
-    },
-    {
-      "at": "2026-10-03T12:01:24.785Z",
-      "platform": "VINTED",
-      "id": "10222592407",
-      "title": "nike puffer jacket mini collectible display ornament gold",
-      "url": "https://www.vinted.co.uk/items/10222592407-nike-puffer-jacket-mini-collectible-display-ornament-gold",
-      "modelId": "nike-puffer",
-      "buyPrice": 5.6,
-      "estimatedNetProfit": 48,
-      "roi": 857.14,
-      "score": 87
     }
   ]
 }
