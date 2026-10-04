@@ -1,39 +1,35 @@
 {
-  "generatedAt": "2026-10-04T20:21:26.957Z",
-  "stateUpdatedAt": "2026-10-04T20:21:26.957Z",
-  "lastAttemptAt": "2026-10-04T20:21:26.957Z",
-  "lastScanAt": "2026-10-04T20:21:26.957Z",
+  "generatedAt": "2026-10-04T21:45:31.792Z",
+  "stateUpdatedAt": "2026-10-04T21:45:31.792Z",
+  "lastAttemptAt": "2026-10-04T21:45:31.792Z",
+  "lastScanAt": "2026-10-04T21:45:31.792Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Air Max Moto 2K::primary",
-    "Nike Metcon 10::primary",
-    "Nike Zoom Fly 6::primary",
-    "Nike Air Max Bargain::generic",
-    "Nike Running Trainer Bargain::generic",
-    "Nike Lifestyle Trainer Bargain::generic"
+    "Nike Football Boot Bargain::generic",
+    "Nike Basketball Shoe Bargain::generic",
+    "Nike SB Shoe Bargain::generic",
+    "Nike P-6000::primary",
+    "Nike V5 RNR::primary",
+    "Nike Vomero 5::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1344,
-  "catalogItems": 846,
-  "candidateItems": 474,
-  "freshItems": 117,
-  "qualifyingAlerts": 8,
+  "catalogMarkers": 1265,
+  "catalogItems": 804,
+  "candidateItems": 449,
+  "freshItems": 246,
+  "qualifyingAlerts": 3,
   "qualifyingByCondition": {
-    "veryGood": 5,
-    "newWithTags": 1,
-    "newWithoutTags": 2
+    "newWithoutTags": 3
   },
-  "deliveredAlerts": 8,
+  "deliveredAlerts": 3,
   "deliveredByCondition": {
-    "veryGood": 5,
-    "newWithTags": 1,
-    "newWithoutTags": 2
+    "newWithoutTags": 3
   },
-  "duplicateSuppressed": 67,
+  "duplicateSuppressed": 0,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,15 +65,15 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 290,
-    "price": 25,
-    "size": 3,
-    "score": 1,
-    "condition": 21,
-    "weak-margin": 1,
-    "seller-check-budget-exhausted": 30,
-    "detail-budget-exhausted": 21,
-    "keyword": 7
+    "recovery-no-fresh-signal": 203,
+    "condition": 36,
+    "price": 38,
+    "size": 6,
+    "seller-risk": 3,
+    "keyword": 16,
+    "seller-check-budget-exhausted": 71,
+    "detail-budget-exhausted": 72,
+    "weak-margin": 1
   },
   "failures": {}
 }
