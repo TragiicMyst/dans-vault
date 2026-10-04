@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-10-04T12:48:36.244Z",
-  "stateUpdatedAt": "2026-10-04T12:48:36.244Z",
-  "lastAttemptAt": "2026-10-04T12:48:36.244Z",
-  "lastScanAt": "2026-10-04T12:48:36.244Z",
+  "generatedAt": "2026-10-04T15:57:44.798Z",
+  "stateUpdatedAt": "2026-10-04T15:57:44.798Z",
+  "lastAttemptAt": "2026-10-04T15:57:44.798Z",
+  "lastScanAt": "2026-10-04T15:57:44.798Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike SB Clothing::nike sb clothing",
-    "Nike Vest::nike vest",
-    "Nike Air Max Hoodie::nike air max hoodie",
-    "Nike Zip Hoodie::nike zip hoodie",
-    "Nike Hoodie::nike hoodie",
-    "Nike Sweatshirt::nike sweatshirt"
+    "Nike Track Jacket::nike track jacket",
+    "Nike Joggers::nike joggers",
+    "Nike Trousers::nike trousers",
+    "Nike Sportswear Hoodie::nike sportswear hoodie",
+    "Nike Sportswear Jacket::nike sportswear jacket",
+    "Nike Tech Fleece Windrunner::nike tech fleece windrunner"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1343,
-  "catalogItems": 1063,
-  "candidateItems": 284,
-  "freshItems": 221,
-  "qualifyingAlerts": 80,
+  "catalogMarkers": 1440,
+  "catalogItems": 990,
+  "candidateItems": 268,
+  "freshItems": 181,
+  "qualifyingAlerts": 70,
   "qualifyingByCondition": {
-    "veryGood": 75,
-    "newWithTags": 2,
-    "newWithoutTags": 3
+    "veryGood": 67,
+    "newWithoutTags": 2,
+    "newWithTags": 1
   },
-  "deliveredAlerts": 80,
+  "deliveredAlerts": 70,
   "deliveredByCondition": {
-    "veryGood": 75,
-    "newWithTags": 2,
-    "newWithoutTags": 3
+    "veryGood": 67,
+    "newWithoutTags": 2,
+    "newWithTags": 1
   },
-  "duplicateSuppressed": 3,
+  "duplicateSuppressed": 21,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,13 +69,14 @@
   "pendingDeliveries": 0,
   "detailFetches": 6,
   "rejects": {
-    "condition": 52,
-    "price": 57,
-    "recovery-no-fresh-signal": 60,
-    "size": 6,
-    "keyword": 10,
-    "detail-budget-exhausted": 14,
-    "weak-margin": 2
+    "price": 44,
+    "size": 5,
+    "recovery-no-fresh-signal": 66,
+    "keyword": 15,
+    "condition": 39,
+    "weak-margin": 1,
+    "detail-budget-exhausted": 5,
+    "clothing-variety-cap": 2
   },
   "failures": {}
 }
