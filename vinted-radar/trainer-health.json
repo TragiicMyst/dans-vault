@@ -1,37 +1,35 @@
 {
-  "generatedAt": "2026-10-05T18:20:55.538Z",
-  "stateUpdatedAt": "2026-10-05T18:20:55.538Z",
-  "lastAttemptAt": "2026-10-05T18:20:55.538Z",
-  "lastScanAt": "2026-10-05T18:20:55.538Z",
+  "generatedAt": "2026-10-05T18:25:55.476Z",
+  "stateUpdatedAt": "2026-10-05T18:25:55.476Z",
+  "lastAttemptAt": "2026-10-05T18:25:55.476Z",
+  "lastScanAt": "2026-10-05T18:25:55.476Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Air Max Plus 3::primary",
-    "Nike Air Max Plus VII::primary",
-    "Nike Air Max 95::primary",
-    "Nike Air Max 90::primary",
-    "Nike Air Max 90 Drift::primary",
-    "Nike Air Max 97::primary"
+    "Nike Air Max 270::primary",
+    "Nike Air Max Dn::primary",
+    "Nike Air Max 1::primary",
+    "Nike Shox TL::primary",
+    "Nike Shox R4::primary",
+    "Nike Shox Ride 2::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 1050,
-  "candidateItems": 528,
-  "freshItems": 220,
+  "catalogItems": 911,
+  "candidateItems": 384,
+  "freshItems": 196,
   "qualifyingAlerts": 5,
   "qualifyingByCondition": {
-    "veryGood": 4,
-    "newWithTags": 1
+    "veryGood": 5
   },
   "deliveredAlerts": 5,
   "deliveredByCondition": {
-    "veryGood": 4,
-    "newWithTags": 1
+    "veryGood": 5
   },
-  "duplicateSuppressed": 31,
+  "duplicateSuppressed": 18,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,15 +65,14 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "recovery-no-fresh-signal": 277,
-    "condition": 45,
-    "size": 6,
-    "keyword": 16,
-    "score": 1,
-    "seller-check-budget-exhausted": 72,
-    "weak-margin": 8,
-    "detail-budget-exhausted": 49,
-    "price": 18
+    "stale": 170,
+    "condition": 23,
+    "keyword": 33,
+    "price": 7,
+    "size": 7,
+    "seller-check-budget-exhausted": 64,
+    "detail-budget-exhausted": 53,
+    "weak-margin": 4
   },
   "failures": {}
 }
