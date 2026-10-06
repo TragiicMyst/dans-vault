@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-10-05T22:44:40.564Z",
-  "stateUpdatedAt": "2026-10-05T22:44:40.564Z",
-  "lastAttemptAt": "2026-10-05T22:44:40.564Z",
-  "lastScanAt": "2026-10-05T22:44:40.564Z",
+  "generatedAt": "2026-10-06T00:13:37.484Z",
+  "stateUpdatedAt": "2026-10-06T00:13:37.484Z",
+  "lastAttemptAt": "2026-10-06T00:13:37.484Z",
+  "lastScanAt": "2026-10-06T00:13:37.484Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Tracksuit::nike tracksuit",
-    "Nike Vintage Clothing::vintage nike",
-    "Nike SB Clothing::nike sb clothing",
-    "Nike Vest::nike vest",
-    "Nike Air Max Hoodie::nike air max hoodie",
-    "Nike Zip Hoodie::nike zip hoodie"
+    "Nike Hoodie::nike hoodie",
+    "Nike Sweatshirt::nike sweatshirt",
+    "Nike Track Jacket::nike track jacket",
+    "Nike Joggers::nike joggers",
+    "Nike Trousers::nike trousers",
+    "Nike Sportswear Hoodie::nike sportswear hoodie"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 1065,
-  "candidateItems": 284,
-  "freshItems": 214,
-  "qualifyingAlerts": 85,
+  "catalogItems": 1085,
+  "candidateItems": 242,
+  "freshItems": 125,
+  "qualifyingAlerts": 55,
   "qualifyingByCondition": {
-    "veryGood": 80,
-    "newWithoutTags": 5
+    "veryGood": 49,
+    "newWithoutTags": 6
   },
-  "deliveredAlerts": 85,
+  "deliveredAlerts": 55,
   "deliveredByCondition": {
-    "veryGood": 80,
-    "newWithoutTags": 5
+    "veryGood": 49,
+    "newWithoutTags": 6
   },
   "duplicateSuppressed": 2,
   "discordFailures": 0,
@@ -67,13 +67,12 @@
   "pendingDeliveries": 0,
   "detailFetches": 6,
   "rejects": {
-    "condition": 44,
-    "recovery-no-fresh-signal": 68,
-    "size": 4,
-    "keyword": 11,
-    "price": 51,
-    "detail-budget-exhausted": 16,
-    "weak-margin": 3
+    "recovery-no-fresh-signal": 115,
+    "size": 6,
+    "condition": 24,
+    "price": 29,
+    "keyword": 9,
+    "weak-margin": 2
   },
   "failures": {}
 }
