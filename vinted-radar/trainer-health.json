@@ -1,37 +1,37 @@
 {
-  "generatedAt": "2026-10-06T00:18:31.619Z",
-  "stateUpdatedAt": "2026-10-06T00:18:31.619Z",
-  "lastAttemptAt": "2026-10-06T00:18:31.619Z",
-  "lastScanAt": "2026-10-06T00:18:31.619Z",
+  "generatedAt": "2026-10-06T00:23:31.190Z",
+  "stateUpdatedAt": "2026-10-06T00:23:31.190Z",
+  "lastAttemptAt": "2026-10-06T00:23:31.190Z",
+  "lastScanAt": "2026-10-06T00:23:31.190Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Football Boot Bargain::generic",
-    "Nike Basketball Shoe Bargain::generic",
-    "Nike SB Shoe Bargain::generic",
-    "Nike P-6000::primary",
-    "Nike V5 RNR::primary",
-    "Nike Vomero 5::primary"
+    "Nike Vomero 18::primary",
+    "Nike Vomero Plus::primary",
+    "Nike Vomero Premium::primary",
+    "Nike Pegasus Premium::primary",
+    "Nike Pegasus Trail 5 GORE-TEX::primary",
+    "Nike TN::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1266,
-  "catalogItems": 819,
-  "candidateItems": 447,
-  "freshItems": 246,
-  "qualifyingAlerts": 2,
+  "catalogMarkers": 1344,
+  "catalogItems": 728,
+  "candidateItems": 380,
+  "freshItems": 192,
+  "qualifyingAlerts": 8,
   "qualifyingByCondition": {
-    "veryGood": 1,
-    "newWithTags": 1
+    "newWithTags": 7,
+    "newWithoutTags": 1
   },
-  "deliveredAlerts": 2,
+  "deliveredAlerts": 8,
   "deliveredByCondition": {
-    "veryGood": 1,
-    "newWithTags": 1
+    "newWithTags": 7,
+    "newWithoutTags": 1
   },
-  "duplicateSuppressed": 0,
+  "duplicateSuppressed": 25,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,15 +67,15 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 201,
-    "price": 49,
-    "size": 6,
-    "seller-risk": 4,
-    "keyword": 25,
-    "condition": 49,
-    "seller-check-budget-exhausted": 56,
-    "detail-budget-exhausted": 52,
-    "weak-margin": 3
+    "stale": 163,
+    "price": 27,
+    "weak-margin": 13,
+    "size": 3,
+    "score": 1,
+    "condition": 15,
+    "seller-check-budget-exhausted": 91,
+    "keyword": 1,
+    "detail-budget-exhausted": 33
   },
   "failures": {}
 }
