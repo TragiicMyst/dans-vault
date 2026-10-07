@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-07T18:37:24.428Z",
-  "stateUpdatedAt": "2026-10-07T18:37:24.428Z",
-  "lastAttemptAt": "2026-10-07T18:37:24.428Z",
-  "lastScanAt": "2026-10-07T18:32:24.983Z",
-  "cooldownUntil": "2026-10-07T18:38:41.234Z",
-  "healthyScan": false,
-  "healthReason": "vinted-block-or-challenge",
+  "generatedAt": "2026-10-07T21:23:20.734Z",
+  "stateUpdatedAt": "2026-10-07T21:23:20.734Z",
+  "lastAttemptAt": "2026-10-07T21:23:20.734Z",
+  "lastScanAt": "2026-10-07T21:23:20.734Z",
+  "cooldownUntil": null,
+  "healthyScan": true,
+  "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
     "Nike Football Boot Bargain::generic",
@@ -15,25 +15,67 @@
     "Nike V5 RNR::primary",
     "Nike Vomero 5::primary"
   ],
-  "successfulSearches": 0,
-  "failedSearches": 1,
-  "catalogMarkers": 0,
-  "catalogItems": 0,
-  "candidateItems": 0,
-  "freshItems": 0,
-  "qualifyingAlerts": 0,
-  "qualifyingByCondition": {},
-  "deliveredAlerts": 0,
-  "deliveredByCondition": {},
-  "duplicateSuppressed": 0,
+  "successfulSearches": 7,
+  "failedSearches": 0,
+  "catalogMarkers": 1267,
+  "catalogItems": 791,
+  "candidateItems": 448,
+  "freshItems": 265,
+  "qualifyingAlerts": 4,
+  "qualifyingByCondition": {
+    "veryGood": 1,
+    "newWithTags": 3
+  },
+  "deliveredAlerts": 4,
+  "deliveredByCondition": {
+    "veryGood": 1,
+    "newWithTags": 3
+  },
+  "duplicateSuppressed": 1,
   "discordFailures": 0,
-  "discordRoutes": [],
+  "discordRoutes": [
+    {
+      "configuredAs": "newWithoutTags",
+      "webhookId": "1541037387969462303",
+      "channelId": "1541036356384329819",
+      "guildId": "1540743210488430592",
+      "webhookName": "Dan's NWOT Bot",
+      "detectedCondition": "newWithoutTags",
+      "inspectionError": null
+    },
+    {
+      "configuredAs": "newWithTags",
+      "webhookId": "1541040362997547048",
+      "channelId": "1541040152372183140",
+      "guildId": "1540743210488430592",
+      "webhookName": "Dan's New With Tags Bot",
+      "detectedCondition": "newWithTags",
+      "inspectionError": null
+    },
+    {
+      "configuredAs": "veryGood",
+      "webhookId": "1541040545483198516",
+      "channelId": "1541040213780992171",
+      "guildId": "1540743210488430592",
+      "webhookName": "Dan's Very Good Condition Bot",
+      "detectedCondition": "veryGood",
+      "inspectionError": null
+    }
+  ],
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 0,
-  "rejects": {},
-  "failures": {
-    "Nike Any Shoe Bargain::generic": "Vinted guard cooldown active for 44s"
-  }
+  "detailFetches": 12,
+  "rejects": {
+    "price": 74,
+    "recovery-no-fresh-signal": 182,
+    "size": 7,
+    "seller-risk": 1,
+    "condition": 42,
+    "keyword": 21,
+    "seller-check-budget-exhausted": 55,
+    "detail-budget-exhausted": 56,
+    "weak-margin": 5
+  },
+  "failures": {}
 }
