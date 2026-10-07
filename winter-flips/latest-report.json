@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-10-07T19:37:19.698Z",
+    "startedAt": "2026-10-07T23:50:11.704Z",
     "searchGroups": [
-      "berghaus-down:berghaus-down-jacket",
-      "berghaus-down:berghaus-puffer-jacket",
-      "napapijri-skidoo:napapijri-skidoo-jacket",
-      "napapijri-skidoo:napapijri-rainforest-winter",
-      "hunter:north-face-coat",
-      "hunter:north-face-puffer",
-      "hunter:north-face-700",
-      "hunter:mens-north-face-jacket"
+      "rab-microlight:rab-microlight-alpine",
+      "rab-neutrino:rab-neutrino-pro",
+      "rab-electron:rab-electron-pro",
+      "patagonia-down-sweater:patagonia-down-sweater-jacket",
+      "patagonia-down-sweater:patagonia-down-sweater-hoody",
+      "patagonia-fitz-roy:patagonia-fitz-roy-down",
+      "arcteryx-cerium:arcteryx-cerium-jacket",
+      "arcteryx-cerium:arc-teryx-cerium"
     ],
     "vintedItems": 280,
-    "freshItems": 90,
+    "freshItems": 3,
     "freshByAge": 0,
-    "freshByNewId": 90,
+    "freshByNewId": 3,
     "bootstrapBlocked": 0,
-    "staleBlocked": 6,
-    "candidates": 5,
+    "staleBlocked": 5,
+    "candidates": 0,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-10-07T23:44:20.137Z",
+      "platform": "VINTED",
+      "id": "10286567455",
+      "title": "girls ralph lauren padded coat",
+      "url": "https://www.vinted.co.uk/items/10286567455-girls-ralph-lauren-padded-coat",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 25,
+      "estimatedNetProfit": 48.08,
+      "roi": 192.32,
+      "score": 93
+    },
     {
       "at": "2026-10-07T19:34:39.887Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 31.12,
       "roi": 69.16,
       "score": 80
-    },
-    {
-      "at": "2026-10-05T22:58:10.382Z",
-      "platform": "VINTED",
-      "id": "10262126011",
-      "title": "the north face 700 fill down puffer gilet bodywarmer navy blue",
-      "url": "https://www.vinted.co.uk/items/10262126011-the-north-face-700-fill-down-puffer-gilet-bodywarmer-navy-blue",
-      "modelId": "tnf-1996-nuptse",
-      "buyPrice": 35,
-      "estimatedNetProfit": 42.74,
-      "roi": 122.11,
-      "score": 86
     }
   ]
 }
