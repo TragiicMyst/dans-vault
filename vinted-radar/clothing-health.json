@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-10-07T00:38:41.847Z",
-  "stateUpdatedAt": "2026-10-07T00:38:41.847Z",
-  "lastAttemptAt": "2026-10-07T00:38:41.847Z",
-  "lastScanAt": "2026-10-07T00:38:41.847Z",
+  "generatedAt": "2026-10-07T02:17:48.755Z",
+  "stateUpdatedAt": "2026-10-07T02:17:48.755Z",
+  "lastAttemptAt": "2026-10-07T02:17:48.755Z",
+  "lastScanAt": "2026-10-07T02:17:48.755Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Stride Running Jacket::nike stride running jacket",
-    "Nike T-Shirt::nike t shirt",
-    "Nike Long Sleeve Top::nike long sleeve top",
-    "Nike Polo::nike polo",
-    "Nike Football Shirt::nike football shirt",
-    "Nike Training Top::nike training top"
+    "Nike Dri-FIT Top::nike dri fit top",
+    "Nike Quarter Zip::nike quarter zip",
+    "Nike Fleece::nike fleece",
+    "Nike Gilet::nike gilet",
+    "Nike Windbreaker::nike windbreaker",
+    "Nike Anorak::nike anorak"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1343,
-  "catalogItems": 1032,
-  "candidateItems": 348,
-  "freshItems": 136,
-  "qualifyingAlerts": 64,
+  "catalogItems": 1058,
+  "candidateItems": 287,
+  "freshItems": 106,
+  "qualifyingAlerts": 44,
   "qualifyingByCondition": {
     "newWithTags": 2,
-    "veryGood": 52,
-    "newWithoutTags": 10
+    "newWithoutTags": 3,
+    "veryGood": 39
   },
-  "deliveredAlerts": 64,
+  "deliveredAlerts": 44,
   "deliveredByCondition": {
     "newWithTags": 2,
-    "veryGood": 52,
-    "newWithoutTags": 10
+    "newWithoutTags": 3,
+    "veryGood": 39
   },
-  "duplicateSuppressed": 15,
+  "duplicateSuppressed": 4,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,12 +69,13 @@
   "pendingDeliveries": 0,
   "detailFetches": 6,
   "rejects": {
-    "price": 36,
-    "recovery-no-fresh-signal": 197,
-    "condition": 27,
-    "size": 4,
+    "recovery-no-fresh-signal": 177,
+    "condition": 23,
+    "price": 27,
     "keyword": 4,
-    "detail-budget-exhausted": 1
+    "size": 4,
+    "score": 1,
+    "detail-budget-exhausted": 3
   },
   "failures": {}
 }
