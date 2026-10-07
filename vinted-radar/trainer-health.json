@@ -1,39 +1,37 @@
 {
-  "generatedAt": "2026-10-07T18:27:25.494Z",
-  "stateUpdatedAt": "2026-10-07T18:27:25.494Z",
-  "lastAttemptAt": "2026-10-07T18:27:25.494Z",
-  "lastScanAt": "2026-10-07T18:27:25.494Z",
+  "generatedAt": "2026-10-07T18:32:24.983Z",
+  "stateUpdatedAt": "2026-10-07T18:32:24.983Z",
+  "lastAttemptAt": "2026-10-07T18:32:24.983Z",
+  "lastScanAt": "2026-10-07T18:32:24.983Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Air Force 1::primary",
-    "Nike Dunk Low::primary",
-    "Air Jordan 1 Low::primary",
-    "Air Jordan 1 Mid::primary",
-    "Air Jordan 4::primary",
-    "Nike Initiator::primary"
+    "Nike Air Max Moto 2K::primary",
+    "Nike Metcon 10::primary",
+    "Nike Zoom Fly 6::primary",
+    "Nike Air Max Bargain::generic",
+    "Nike Running Trainer Bargain::generic",
+    "Nike Lifestyle Trainer Bargain::generic"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 985,
-  "candidateItems": 650,
-  "freshItems": 372,
-  "qualifyingAlerts": 3,
+  "catalogItems": 848,
+  "candidateItems": 450,
+  "freshItems": 132,
+  "qualifyingAlerts": 10,
   "qualifyingByCondition": {
-    "veryGood": 1,
-    "newWithTags": 1,
-    "newWithoutTags": 1
+    "newWithoutTags": 3,
+    "newWithTags": 7
   },
-  "deliveredAlerts": 3,
+  "deliveredAlerts": 10,
   "deliveredByCondition": {
-    "veryGood": 1,
-    "newWithTags": 1,
-    "newWithoutTags": 1
+    "newWithoutTags": 3,
+    "newWithTags": 7
   },
-  "duplicateSuppressed": 14,
+  "duplicateSuppressed": 66,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,16 +67,14 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "size": 7,
-    "recovery-no-fresh-signal": 264,
-    "condition": 80,
-    "price": 17,
-    "weak-margin": 6,
-    "model-cooldown": 1,
-    "keyword": 44,
-    "seller-risk": 1,
-    "seller-check-budget-exhausted": 129,
-    "detail-budget-exhausted": 84
+    "stale": 252,
+    "price": 29,
+    "weak-margin": 3,
+    "keyword": 19,
+    "size": 2,
+    "detail-budget-exhausted": 19,
+    "condition": 24,
+    "seller-check-budget-exhausted": 26
   },
   "failures": {}
 }
