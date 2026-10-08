@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-10-08T17:32:56.979Z",
+    "startedAt": "2026-10-08T22:25:57.077Z",
     "searchGroups": [
-      "tnf-himalayan:north-face-himalayan-puffer",
-      "tnf-himalayan:north-face-hmlyn-parka",
-      "tnf-baltoro:north-face-baltoro-jacket",
-      "tnf-summit-down:north-face-summit-series-down",
-      "rab-microlight:rab-microlight-alpine",
-      "rab-neutrino:rab-neutrino-pro",
-      "rab-electron:rab-electron-pro",
-      "patagonia-down-sweater:patagonia-down-sweater-jacket"
+      "hunter:north-face-700",
+      "hunter:mens-north-face-jacket",
+      "hunter:rab-puffer",
+      "hunter:rab-down-jacket",
+      "hunter:patagonia-puffer",
+      "hunter:arcteryx-jacket",
+      "hunter:arc-teryx-puffer",
+      "hunter:ralph-lauren-puffer"
     ],
     "vintedItems": 280,
-    "freshItems": 10,
+    "freshItems": 29,
     "freshByAge": 0,
-    "freshByNewId": 10,
+    "freshByNewId": 29,
     "bootstrapBlocked": 0,
-    "staleBlocked": 0,
-    "candidates": 1,
+    "staleBlocked": 1,
+    "candidates": 3,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-10-08T22:23:00.010Z",
+      "platform": "VINTED",
+      "id": "10297944096",
+      "title": "blue nike puffer jacket",
+      "url": "https://www.vinted.co.uk/items/10297944096-blue-nike-puffer-jacket",
+      "modelId": "nike-puffer",
+      "buyPrice": 22,
+      "estimatedNetProfit": 39.6,
+      "roi": 180,
+      "score": 97
+    },
     {
       "at": "2026-10-08T17:30:04.725Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 31.27,
       "roi": 156.35,
       "score": 95
-    },
-    {
-      "at": "2026-10-06T20:58:09.179Z",
-      "platform": "VINTED",
-      "id": "10270913223",
-      "title": "nike puffer",
-      "url": "https://www.vinted.co.uk/items/10270913223-nike-puffer",
-      "modelId": "nike-puffer",
-      "buyPrice": 15,
-      "estimatedNetProfit": 38.08,
-      "roi": 253.87,
-      "score": 86
     }
   ]
 }
