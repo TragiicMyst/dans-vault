@@ -1,35 +1,39 @@
 {
-  "generatedAt": "2026-10-08T02:48:30.161Z",
-  "stateUpdatedAt": "2026-10-08T02:48:30.161Z",
-  "lastAttemptAt": "2026-10-08T02:48:30.161Z",
-  "lastScanAt": "2026-10-08T02:48:30.161Z",
+  "generatedAt": "2026-10-08T02:53:29.917Z",
+  "stateUpdatedAt": "2026-10-08T02:53:29.917Z",
+  "lastAttemptAt": "2026-10-08T02:53:29.917Z",
+  "lastScanAt": "2026-10-08T02:53:29.917Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Air Max Plus 3::primary",
-    "Nike Air Max Plus VII::primary",
-    "Nike Air Max 95::primary",
-    "Nike Air Max 90::primary",
-    "Nike Air Max 90 Drift::primary",
-    "Nike Air Max 97::primary"
+    "Nike Air Max 270::primary",
+    "Nike Air Max Dn::primary",
+    "Nike Air Max 1::primary",
+    "Nike Shox TL::primary",
+    "Nike Shox R4::primary",
+    "Nike Shox Ride 2::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 1048,
-  "candidateItems": 551,
-  "freshItems": 86,
-  "qualifyingAlerts": 8,
+  "catalogItems": 912,
+  "candidateItems": 396,
+  "freshItems": 105,
+  "qualifyingAlerts": 7,
   "qualifyingByCondition": {
-    "veryGood": 8
+    "veryGood": 4,
+    "newWithTags": 1,
+    "newWithoutTags": 2
   },
-  "deliveredAlerts": 8,
+  "deliveredAlerts": 7,
   "deliveredByCondition": {
-    "veryGood": 8
+    "veryGood": 4,
+    "newWithTags": 1,
+    "newWithoutTags": 2
   },
-  "duplicateSuppressed": 42,
+  "duplicateSuppressed": 22,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -65,14 +69,10 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 423,
-    "price": 2,
-    "keyword": 3,
-    "condition": 3,
-    "seller-risk": 2,
-    "size": 2,
-    "seller-check-budget-exhausted": 43,
-    "detail-budget-exhausted": 23
+    "stale": 269,
+    "size": 5,
+    "seller-check-budget-exhausted": 61,
+    "detail-budget-exhausted": 32
   },
   "failures": {}
 }
