@@ -1,35 +1,37 @@
 {
-  "generatedAt": "2026-10-08T07:29:02.954Z",
-  "stateUpdatedAt": "2026-10-08T07:29:02.954Z",
-  "lastAttemptAt": "2026-10-08T07:29:02.954Z",
-  "lastScanAt": "2026-10-08T07:29:02.954Z",
+  "generatedAt": "2026-10-08T07:34:02.911Z",
+  "stateUpdatedAt": "2026-10-08T07:34:02.911Z",
+  "lastAttemptAt": "2026-10-08T07:34:02.911Z",
+  "lastScanAt": "2026-10-08T07:34:02.911Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Air Force 1::primary",
-    "Nike Dunk Low::primary",
-    "Air Jordan 1 Low::primary",
-    "Air Jordan 1 Mid::primary",
-    "Air Jordan 4::primary",
-    "Nike Initiator::primary"
+    "Nike Air Max Moto 2K::primary",
+    "Nike Metcon 10::primary",
+    "Nike Zoom Fly 6::primary",
+    "Nike Air Max Bargain::generic",
+    "Nike Running Trainer Bargain::generic",
+    "Nike Lifestyle Trainer Bargain::generic"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 988,
-  "candidateItems": 653,
-  "freshItems": 128,
-  "qualifyingAlerts": 3,
+  "catalogItems": 787,
+  "candidateItems": 405,
+  "freshItems": 42,
+  "qualifyingAlerts": 7,
   "qualifyingByCondition": {
-    "veryGood": 3
+    "veryGood": 4,
+    "newWithoutTags": 3
   },
-  "deliveredAlerts": 3,
+  "deliveredAlerts": 7,
   "deliveredByCondition": {
-    "veryGood": 3
+    "veryGood": 4,
+    "newWithoutTags": 3
   },
-  "duplicateSuppressed": 12,
+  "duplicateSuppressed": 80,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -65,15 +67,15 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "recovery-no-fresh-signal": 513,
-    "condition": 12,
-    "price": 5,
+    "stale": 283,
+    "seller-risk": 2,
+    "score": 1,
     "size": 2,
-    "seller-risk": 7,
-    "keyword": 6,
-    "seller-check-budget-exhausted": 60,
-    "detail-budget-exhausted": 31,
-    "weak-margin": 2
+    "price": 7,
+    "detail-budget-exhausted": 8,
+    "condition": 6,
+    "keyword": 3,
+    "seller-check-budget-exhausted": 6
   },
   "failures": {}
 }
