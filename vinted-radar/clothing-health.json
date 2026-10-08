@@ -1,80 +1,56 @@
 {
-  "generatedAt": "2026-10-07T21:23:28.879Z",
-  "stateUpdatedAt": "2026-10-07T21:23:28.879Z",
-  "lastAttemptAt": "2026-10-07T21:23:28.879Z",
+  "generatedAt": "2026-10-08T00:07:48.893Z",
+  "stateUpdatedAt": "2026-10-08T00:07:48.893Z",
+  "lastAttemptAt": "2026-10-08T00:07:48.893Z",
   "lastScanAt": "2026-10-07T21:23:28.879Z",
-  "cooldownUntil": null,
-  "healthyScan": true,
-  "healthReason": "all-selected-searches-completed",
+  "cooldownUntil": "2026-10-08T00:14:03.333Z",
+  "healthyScan": false,
+  "healthReason": "vinted-block-or-challenge",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Storm-FIT Puffer::nike storm fit puffer",
-    "Nike Solo Swoosh Hoodie::nike solo swoosh hoodie",
-    "Nike Miler Running Top::nike miler running top",
-    "Nike Tech Fleece Open-Hem Trousers::nike tech fleece open hem trousers",
-    "Nike ACG Lunar Lake Puffer::nike acg lunar lake",
-    "Nike Academy Tracksuit::nike academy tracksuit"
+    "Nike Dri-FIT Running Top::nike dri-fit running top",
+    "Nike Tech Fleece Shorts::nike tech fleece shorts",
+    "Nike Therma-FIT Jacket::nike therma fit jacket",
+    "Nike NOCTA Hoodie::nike nocta hoodie",
+    "Nike Stride Shorts::nike stride shorts",
+    "Nike Tech Fleece Tracksuit::nike tech fleece tracksuit"
   ],
-  "successfulSearches": 7,
-  "failedSearches": 0,
-  "catalogMarkers": 1474,
-  "catalogItems": 863,
-  "candidateItems": 271,
-  "freshItems": 70,
-  "qualifyingAlerts": 30,
+  "successfulSearches": 6,
+  "failedSearches": 1,
+  "catalogMarkers": 1536,
+  "catalogItems": 775,
+  "candidateItems": 401,
+  "freshItems": 203,
+  "qualifyingAlerts": 100,
   "qualifyingByCondition": {
-    "veryGood": 27,
-    "newWithTags": 2,
-    "newWithoutTags": 1
+    "veryGood": 83,
+    "newWithoutTags": 12,
+    "newWithTags": 5
   },
-  "deliveredAlerts": 30,
+  "deliveredAlerts": 100,
   "deliveredByCondition": {
-    "veryGood": 27,
-    "newWithTags": 2,
-    "newWithoutTags": 1
+    "veryGood": 83,
+    "newWithoutTags": 12,
+    "newWithTags": 5
   },
-  "duplicateSuppressed": 86,
+  "duplicateSuppressed": 55,
   "discordFailures": 0,
-  "discordRoutes": [
-    {
-      "configuredAs": "newWithoutTags",
-      "webhookId": "1541037387969462303",
-      "channelId": "1541036356384329819",
-      "guildId": "1540743210488430592",
-      "webhookName": "Dan's NWOT Bot",
-      "detectedCondition": "newWithoutTags",
-      "inspectionError": null
-    },
-    {
-      "configuredAs": "newWithTags",
-      "webhookId": "1541040362997547048",
-      "channelId": "1541040152372183140",
-      "guildId": "1540743210488430592",
-      "webhookName": "Dan's New With Tags Bot",
-      "detectedCondition": "newWithTags",
-      "inspectionError": null
-    },
-    {
-      "configuredAs": "veryGood",
-      "webhookId": "1541040545483198516",
-      "channelId": "1541040213780992171",
-      "guildId": "1540743210488430592",
-      "webhookName": "Dan's Very Good Condition Bot",
-      "detectedCondition": "veryGood",
-      "inspectionError": null
-    }
-  ],
+  "discordRoutes": [],
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 1,
+  "detailFetches": 4,
   "rejects": {
+    "condition": 38,
+    "size": 2,
     "keyword": 5,
-    "price": 19,
-    "recovery-no-fresh-signal": 115,
-    "condition": 8,
-    "weak-margin": 7,
-    "size": 1
+    "recovery-no-fresh-signal": 132,
+    "price": 27,
+    "weak-margin": 23,
+    "clothing-variety-cap": 7,
+    "detail-fetch-failed": 1
   },
-  "failures": {}
+  "failures": {
+    "Nike Tech Fleece Tracksuit::nike tech fleece tracksuit": "Vinted guard cooldown active for 44s"
+  }
 }
