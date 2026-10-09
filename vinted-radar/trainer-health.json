@@ -1,35 +1,37 @@
 {
-  "generatedAt": "2026-10-09T00:41:42.233Z",
-  "stateUpdatedAt": "2026-10-09T00:41:42.233Z",
-  "lastAttemptAt": "2026-10-09T00:41:42.233Z",
-  "lastScanAt": "2026-10-09T00:41:42.233Z",
+  "generatedAt": "2026-10-09T00:46:42.639Z",
+  "stateUpdatedAt": "2026-10-09T00:46:42.639Z",
+  "lastAttemptAt": "2026-10-09T00:46:42.639Z",
+  "lastScanAt": "2026-10-09T00:46:42.639Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Basketball Shoe Bargain::generic",
-    "Nike SB Shoe Bargain::generic",
-    "Nike P-6000::primary",
-    "Nike V5 RNR::primary",
-    "Nike Vomero 5::primary",
-    "Nike Vomero 18::primary"
+    "Nike Vomero Plus::primary",
+    "Nike Vomero Premium::primary",
+    "Nike Pegasus Premium::primary",
+    "Nike Pegasus Trail 5 GORE-TEX::primary",
+    "Nike TN::primary",
+    "Nike Air Max Plus 3::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1267,
-  "catalogItems": 759,
-  "candidateItems": 421,
-  "freshItems": 153,
+  "catalogMarkers": 1344,
+  "catalogItems": 874,
+  "candidateItems": 380,
+  "freshItems": 144,
   "qualifyingAlerts": 7,
   "qualifyingByCondition": {
-    "veryGood": 7
+    "newWithTags": 2,
+    "veryGood": 5
   },
   "deliveredAlerts": 7,
   "deliveredByCondition": {
-    "veryGood": 7
+    "newWithTags": 2,
+    "veryGood": 5
   },
-  "duplicateSuppressed": 5,
+  "duplicateSuppressed": 23,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -65,15 +67,15 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 263,
-    "price": 20,
-    "size": 3,
-    "condition": 11,
-    "seller-risk": 2,
-    "seller-check-budget-exhausted": 47,
-    "detail-budget-exhausted": 45,
-    "keyword": 6,
-    "weak-margin": 12
+    "stale": 213,
+    "condition": 10,
+    "price": 11,
+    "score": 1,
+    "size": 4,
+    "weak-margin": 5,
+    "seller-check-budget-exhausted": 84,
+    "detail-budget-exhausted": 21,
+    "keyword": 1
   },
   "failures": {}
 }
