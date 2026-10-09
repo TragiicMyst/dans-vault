@@ -1,37 +1,39 @@
 {
-  "generatedAt": "2026-10-09T01:45:00.735Z",
-  "stateUpdatedAt": "2026-10-09T01:45:00.735Z",
-  "lastAttemptAt": "2026-10-09T01:45:00.735Z",
-  "lastScanAt": "2026-10-09T01:45:00.735Z",
+  "generatedAt": "2026-10-09T01:50:00.676Z",
+  "stateUpdatedAt": "2026-10-09T01:50:00.676Z",
+  "lastAttemptAt": "2026-10-09T01:50:00.676Z",
+  "lastScanAt": "2026-10-09T01:50:00.676Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Air Max Plus VII::primary",
-    "Nike Air Max 95::primary",
-    "Nike Air Max 90::primary",
-    "Nike Air Max 90 Drift::primary",
-    "Nike Air Max 97::primary",
-    "Nike Air Max 270::primary"
+    "Nike Air Max Dn::primary",
+    "Nike Air Max 1::primary",
+    "Nike Shox TL::primary",
+    "Nike Shox R4::primary",
+    "Nike Shox Ride 2::primary",
+    "Nike Air Force 1::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 1051,
-  "candidateItems": 577,
-  "freshItems": 148,
-  "qualifyingAlerts": 7,
+  "catalogItems": 904,
+  "candidateItems": 444,
+  "freshItems": 158,
+  "qualifyingAlerts": 6,
   "qualifyingByCondition": {
+    "newWithTags": 2,
     "newWithoutTags": 1,
-    "veryGood": 6
+    "veryGood": 3
   },
-  "deliveredAlerts": 7,
+  "deliveredAlerts": 6,
   "deliveredByCondition": {
+    "newWithTags": 2,
     "newWithoutTags": 1,
-    "veryGood": 6
+    "veryGood": 3
   },
-  "duplicateSuppressed": 29,
+  "duplicateSuppressed": 7,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,15 +69,15 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "price": 8,
-    "recovery-no-fresh-signal": 400,
+    "stale": 279,
+    "keyword": 3,
+    "seller-risk": 2,
     "size": 4,
-    "score": 1,
-    "weak-margin": 3,
-    "keyword": 6,
-    "condition": 14,
-    "seller-check-budget-exhausted": 72,
-    "detail-budget-exhausted": 33
+    "seller-check-budget-exhausted": 85,
+    "detail-budget-exhausted": 50,
+    "weak-margin": 1,
+    "price": 3,
+    "condition": 4
   },
   "failures": {}
 }
