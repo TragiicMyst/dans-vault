@@ -1,39 +1,35 @@
 {
-  "generatedAt": "2026-10-09T01:50:00.676Z",
-  "stateUpdatedAt": "2026-10-09T01:50:00.676Z",
-  "lastAttemptAt": "2026-10-09T01:50:00.676Z",
-  "lastScanAt": "2026-10-09T01:50:00.676Z",
+  "generatedAt": "2026-10-09T01:55:00.316Z",
+  "stateUpdatedAt": "2026-10-09T01:55:00.316Z",
+  "lastAttemptAt": "2026-10-09T01:55:00.316Z",
+  "lastScanAt": "2026-10-09T01:55:00.316Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Air Max Dn::primary",
-    "Nike Air Max 1::primary",
-    "Nike Shox TL::primary",
-    "Nike Shox R4::primary",
-    "Nike Shox Ride 2::primary",
-    "Nike Air Force 1::primary"
+    "Nike Dunk Low::primary",
+    "Air Jordan 1 Low::primary",
+    "Air Jordan 1 Mid::primary",
+    "Air Jordan 4::primary",
+    "Nike Initiator::primary",
+    "Nike Air Max Moto 2K::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 904,
-  "candidateItems": 444,
-  "freshItems": 158,
-  "qualifyingAlerts": 6,
+  "catalogItems": 926,
+  "candidateItems": 578,
+  "freshItems": 109,
+  "qualifyingAlerts": 4,
   "qualifyingByCondition": {
-    "newWithTags": 2,
-    "newWithoutTags": 1,
-    "veryGood": 3
+    "veryGood": 4
   },
-  "deliveredAlerts": 6,
+  "deliveredAlerts": 4,
   "deliveredByCondition": {
-    "newWithTags": 2,
-    "newWithoutTags": 1,
-    "veryGood": 3
+    "veryGood": 4
   },
-  "duplicateSuppressed": 7,
+  "duplicateSuppressed": 49,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,15 +65,16 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 279,
-    "keyword": 3,
-    "seller-risk": 2,
+    "stale": 420,
+    "score": 1,
     "size": 4,
-    "seller-check-budget-exhausted": 85,
-    "detail-budget-exhausted": 50,
+    "condition": 9,
+    "keyword": 8,
+    "seller-risk": 3,
+    "seller-check-budget-exhausted": 53,
+    "detail-budget-exhausted": 25,
     "weak-margin": 1,
-    "price": 3,
-    "condition": 4
+    "price": 1
   },
   "failures": {}
 }
