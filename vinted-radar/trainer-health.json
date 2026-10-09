@@ -1,37 +1,35 @@
 {
-  "generatedAt": "2026-10-09T00:36:42.230Z",
-  "stateUpdatedAt": "2026-10-09T00:36:42.230Z",
-  "lastAttemptAt": "2026-10-09T00:36:42.230Z",
-  "lastScanAt": "2026-10-09T00:36:42.230Z",
+  "generatedAt": "2026-10-09T00:41:42.233Z",
+  "stateUpdatedAt": "2026-10-09T00:41:42.233Z",
+  "lastAttemptAt": "2026-10-09T00:41:42.233Z",
+  "lastScanAt": "2026-10-09T00:41:42.233Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Metcon 10::primary",
-    "Nike Zoom Fly 6::primary",
-    "Nike Air Max Bargain::generic",
-    "Nike Running Trainer Bargain::generic",
-    "Nike Lifestyle Trainer Bargain::generic",
-    "Nike Football Boot Bargain::generic"
+    "Nike Basketball Shoe Bargain::generic",
+    "Nike SB Shoe Bargain::generic",
+    "Nike P-6000::primary",
+    "Nike V5 RNR::primary",
+    "Nike Vomero 5::primary",
+    "Nike Vomero 18::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1344,
-  "catalogItems": 890,
-  "candidateItems": 463,
+  "catalogMarkers": 1267,
+  "catalogItems": 759,
+  "candidateItems": 421,
   "freshItems": 153,
-  "qualifyingAlerts": 8,
+  "qualifyingAlerts": 7,
   "qualifyingByCondition": {
-    "newWithTags": 1,
     "veryGood": 7
   },
-  "deliveredAlerts": 8,
+  "deliveredAlerts": 7,
   "deliveredByCondition": {
-    "newWithTags": 1,
     "veryGood": 7
   },
-  "duplicateSuppressed": 38,
+  "duplicateSuppressed": 5,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,16 +65,15 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "keyword": 8,
-    "recovery-no-fresh-signal": 272,
-    "price": 49,
-    "size": 1,
-    "condition": 28,
+    "stale": 263,
+    "price": 20,
+    "size": 3,
+    "condition": 11,
     "seller-risk": 2,
-    "weak-margin": 1,
-    "score": 1,
-    "seller-check-budget-exhausted": 32,
-    "detail-budget-exhausted": 23
+    "seller-check-budget-exhausted": 47,
+    "detail-budget-exhausted": 45,
+    "keyword": 6,
+    "weak-margin": 12
   },
   "failures": {}
 }
