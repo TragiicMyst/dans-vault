@@ -1,39 +1,35 @@
 {
-  "generatedAt": "2026-10-10T19:17:48.002Z",
-  "stateUpdatedAt": "2026-10-10T19:17:48.002Z",
-  "lastAttemptAt": "2026-10-10T19:17:48.002Z",
-  "lastScanAt": "2026-10-10T19:17:48.002Z",
+  "generatedAt": "2026-10-10T19:22:47.318Z",
+  "stateUpdatedAt": "2026-10-10T19:22:47.318Z",
+  "lastAttemptAt": "2026-10-10T19:22:47.318Z",
+  "lastScanAt": "2026-10-10T19:22:47.318Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Zoom Fly 6::primary",
-    "Nike Air Max Bargain::generic",
-    "Nike Running Trainer Bargain::generic",
-    "Nike Lifestyle Trainer Bargain::generic",
-    "Nike Football Boot Bargain::generic",
-    "Nike Basketball Shoe Bargain::generic"
+    "Nike SB Shoe Bargain::generic",
+    "Nike P-6000::primary",
+    "Nike V5 RNR::primary",
+    "Nike Vomero 5::primary",
+    "Nike Vomero 18::primary",
+    "Nike Vomero Plus::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1344,
-  "catalogItems": 945,
-  "candidateItems": 452,
-  "freshItems": 230,
-  "qualifyingAlerts": 5,
+  "catalogMarkers": 1268,
+  "catalogItems": 605,
+  "candidateItems": 408,
+  "freshItems": 251,
+  "qualifyingAlerts": 6,
   "qualifyingByCondition": {
-    "newWithTags": 1,
-    "veryGood": 3,
-    "newWithoutTags": 1
+    "veryGood": 6
   },
-  "deliveredAlerts": 5,
+  "deliveredAlerts": 6,
   "deliveredByCondition": {
-    "newWithTags": 1,
-    "veryGood": 3,
-    "newWithoutTags": 1
+    "veryGood": 6
   },
-  "duplicateSuppressed": 22,
+  "duplicateSuppressed": 5,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,16 +65,15 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "recovery-no-fresh-signal": 200,
-    "seller-risk": 4,
-    "price": 50,
-    "score": 1,
-    "weak-margin": 2,
-    "size": 1,
-    "condition": 53,
-    "keyword": 18,
-    "seller-check-budget-exhausted": 57,
-    "detail-budget-exhausted": 39
+    "stale": 152,
+    "price": 25,
+    "keyword": 11,
+    "condition": 23,
+    "size": 4,
+    "seller-risk": 2,
+    "seller-check-budget-exhausted": 110,
+    "detail-budget-exhausted": 47,
+    "weak-margin": 23
   },
   "failures": {}
 }
