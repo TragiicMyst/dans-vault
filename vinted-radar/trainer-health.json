@@ -1,37 +1,35 @@
 {
-  "generatedAt": "2026-10-10T06:02:00.934Z",
-  "stateUpdatedAt": "2026-10-10T06:02:00.934Z",
-  "lastAttemptAt": "2026-10-10T06:02:00.934Z",
-  "lastScanAt": "2026-10-10T06:02:00.934Z",
+  "generatedAt": "2026-10-10T08:55:02.426Z",
+  "stateUpdatedAt": "2026-10-10T08:55:02.426Z",
+  "lastAttemptAt": "2026-10-10T08:55:02.426Z",
+  "lastScanAt": "2026-10-10T08:55:02.426Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Air Max 95::primary",
-    "Nike Air Max 90::primary",
-    "Nike Air Max 90 Drift::primary",
-    "Nike Air Max 97::primary",
-    "Nike Air Max 270::primary",
-    "Nike Air Max Dn::primary"
+    "Nike Air Max 1::primary",
+    "Nike Shox TL::primary",
+    "Nike Shox R4::primary",
+    "Nike Shox Ride 2::primary",
+    "Nike Air Force 1::primary",
+    "Nike Dunk Low::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 996,
-  "candidateItems": 563,
-  "freshItems": 121,
-  "qualifyingAlerts": 8,
+  "catalogItems": 883,
+  "candidateItems": 485,
+  "freshItems": 172,
+  "qualifyingAlerts": 2,
   "qualifyingByCondition": {
-    "newWithoutTags": 1,
-    "veryGood": 7
+    "veryGood": 2
   },
-  "deliveredAlerts": 8,
+  "deliveredAlerts": 2,
   "deliveredByCondition": {
-    "newWithoutTags": 1,
-    "veryGood": 7
+    "veryGood": 2
   },
-  "duplicateSuppressed": 13,
+  "duplicateSuppressed": 9,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,16 +65,15 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 429,
+    "recovery-no-fresh-signal": 304,
+    "condition": 22,
     "price": 6,
+    "size": 9,
     "weak-margin": 1,
-    "size": 2,
-    "keyword": 1,
     "seller-risk": 1,
-    "score": 1,
-    "seller-check-budget-exhausted": 63,
-    "detail-budget-exhausted": 37,
-    "condition": 1
+    "detail-budget-exhausted": 50,
+    "seller-check-budget-exhausted": 70,
+    "keyword": 11
   },
   "failures": {}
 }
