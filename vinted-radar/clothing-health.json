@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-10-10T08:54:21.025Z",
-  "stateUpdatedAt": "2026-10-10T08:54:21.025Z",
-  "lastAttemptAt": "2026-10-10T08:54:21.025Z",
-  "lastScanAt": "2026-10-10T08:54:21.025Z",
+  "generatedAt": "2026-10-10T15:09:11.568Z",
+  "stateUpdatedAt": "2026-10-10T15:09:11.568Z",
+  "lastAttemptAt": "2026-10-10T15:09:11.568Z",
+  "lastScanAt": "2026-10-10T15:09:11.568Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike T-Shirt::nike t shirt",
-    "Nike Long Sleeve Top::nike long sleeve top",
-    "Nike Polo::nike polo",
-    "Nike Football Shirt::nike football shirt",
-    "Nike Training Top::nike training top",
-    "Nike Dri-FIT Top::nike dri fit top"
+    "Nike Quarter Zip::nike quarter zip",
+    "Nike Fleece::nike fleece",
+    "Nike Gilet::nike gilet",
+    "Nike Windbreaker::nike windbreaker",
+    "Nike Anorak::nike anorak",
+    "Nike Rain Jacket::nike rain jacket"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 1015,
-  "candidateItems": 322,
-  "freshItems": 171,
-  "qualifyingAlerts": 93,
+  "catalogItems": 1118,
+  "candidateItems": 274,
+  "freshItems": 214,
+  "qualifyingAlerts": 80,
   "qualifyingByCondition": {
-    "veryGood": 82,
-    "newWithoutTags": 8,
-    "newWithTags": 3
+    "veryGood": 73,
+    "newWithoutTags": 5,
+    "newWithTags": 2
   },
-  "deliveredAlerts": 93,
+  "deliveredAlerts": 80,
   "deliveredByCondition": {
-    "veryGood": 82,
-    "newWithoutTags": 8,
-    "newWithTags": 3
+    "veryGood": 73,
+    "newWithoutTags": 5,
+    "newWithTags": 2
   },
-  "duplicateSuppressed": 20,
+  "duplicateSuppressed": 4,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,13 +69,13 @@
   "pendingDeliveries": 0,
   "detailFetches": 6,
   "rejects": {
-    "condition": 33,
-    "recovery-no-fresh-signal": 131,
-    "price": 27,
+    "price": 73,
+    "condition": 36,
+    "keyword": 10,
+    "recovery-no-fresh-signal": 56,
     "size": 6,
-    "keyword": 8,
-    "weak-margin": 1,
-    "detail-budget-exhausted": 3
+    "detail-budget-exhausted": 8,
+    "score": 1
   },
   "failures": {}
 }
