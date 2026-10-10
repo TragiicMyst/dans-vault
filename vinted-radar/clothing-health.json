@@ -1,39 +1,37 @@
 {
-  "generatedAt": "2026-10-10T15:09:11.568Z",
-  "stateUpdatedAt": "2026-10-10T15:09:11.568Z",
-  "lastAttemptAt": "2026-10-10T15:09:11.568Z",
-  "lastScanAt": "2026-10-10T15:09:11.568Z",
+  "generatedAt": "2026-10-10T15:14:44.712Z",
+  "stateUpdatedAt": "2026-10-10T15:14:44.712Z",
+  "lastAttemptAt": "2026-10-10T15:14:44.712Z",
+  "lastScanAt": "2026-10-10T15:14:44.712Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Quarter Zip::nike quarter zip",
-    "Nike Fleece::nike fleece",
-    "Nike Gilet::nike gilet",
-    "Nike Windbreaker::nike windbreaker",
-    "Nike Anorak::nike anorak",
-    "Nike Rain Jacket::nike rain jacket"
+    "Nike Woven Jacket::nike woven jacket",
+    "Nike Bomber Jacket::nike bomber jacket",
+    "Nike Coat::nike coat",
+    "Nike Shorts::nike shorts",
+    "Nike Cargo Trousers::nike cargo trousers",
+    "Nike Track Pants::nike track pants"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 1118,
-  "candidateItems": 274,
-  "freshItems": 214,
-  "qualifyingAlerts": 80,
+  "catalogItems": 1069,
+  "candidateItems": 346,
+  "freshItems": 263,
+  "qualifyingAlerts": 89,
   "qualifyingByCondition": {
-    "veryGood": 73,
-    "newWithoutTags": 5,
-    "newWithTags": 2
+    "veryGood": 81,
+    "newWithoutTags": 8
   },
-  "deliveredAlerts": 80,
+  "deliveredAlerts": 89,
   "deliveredByCondition": {
-    "veryGood": 73,
-    "newWithoutTags": 5,
-    "newWithTags": 2
+    "veryGood": 81,
+    "newWithoutTags": 8
   },
-  "duplicateSuppressed": 4,
+  "duplicateSuppressed": 5,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,13 +67,12 @@
   "pendingDeliveries": 0,
   "detailFetches": 6,
   "rejects": {
-    "price": 73,
-    "condition": 36,
+    "stale": 78,
+    "condition": 49,
+    "price": 106,
+    "size": 5,
     "keyword": 10,
-    "recovery-no-fresh-signal": 56,
-    "size": 6,
-    "detail-budget-exhausted": 8,
-    "score": 1
+    "detail-budget-exhausted": 4
   },
   "failures": {}
 }
