@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-10-10T06:29:53.741Z",
+    "startedAt": "2026-10-10T12:53:36.636Z",
     "searchGroups": [
-      "nike-puffer:nike-puffer-jacket-mens",
-      "nike-puffer:nike-down-jacket",
-      "berghaus-down:berghaus-down-jacket",
-      "berghaus-down:berghaus-puffer-jacket",
-      "napapijri-skidoo:napapijri-skidoo-jacket",
-      "napapijri-skidoo:napapijri-rainforest-winter",
-      "hunter:north-face-coat",
-      "hunter:north-face-puffer"
+      "tnf-baltoro:north-face-baltoro-jacket",
+      "tnf-summit-down:north-face-summit-series-down",
+      "rab-microlight:rab-microlight-alpine",
+      "rab-neutrino:rab-neutrino-pro",
+      "rab-electron:rab-electron-pro",
+      "patagonia-down-sweater:patagonia-down-sweater-jacket",
+      "patagonia-down-sweater:patagonia-down-sweater-hoody",
+      "patagonia-fitz-roy:patagonia-fitz-roy-down"
     ],
     "vintedItems": 280,
-    "freshItems": 3,
+    "freshItems": 7,
     "freshByAge": 0,
-    "freshByNewId": 3,
+    "freshByNewId": 7,
     "bootstrapBlocked": 0,
-    "staleBlocked": 49,
+    "staleBlocked": 2,
     "candidates": 0,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-10-10T12:50:40.402Z",
+      "platform": "VINTED",
+      "id": "10315048400",
+      "title": "nike puffer",
+      "url": "https://www.vinted.co.uk/items/10315048400-nike-puffer",
+      "modelId": "nike-puffer",
+      "buyPrice": 24.99,
+      "estimatedNetProfit": 27.54,
+      "roi": 110.2,
+      "score": 85
+    },
     {
       "at": "2026-10-10T00:42:15.940Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 32.26,
       "roi": 80.65,
       "score": 85
-    },
-    {
-      "at": "2026-10-07T19:34:33.101Z",
-      "platform": "VINTED",
-      "id": "10283234070",
-      "title": "polo ralph lauren",
-      "url": "https://www.vinted.co.uk/items/10283234070-polo-ralph-lauren",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 30,
-      "estimatedNetProfit": 41.5,
-      "roi": 138.33,
-      "score": 94
     }
   ]
 }
