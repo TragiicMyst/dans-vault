@@ -1,39 +1,37 @@
 {
-  "generatedAt": "2026-10-10T22:43:04.463Z",
-  "stateUpdatedAt": "2026-10-10T22:43:04.463Z",
-  "lastAttemptAt": "2026-10-10T22:43:04.463Z",
-  "lastScanAt": "2026-10-10T22:43:04.463Z",
+  "generatedAt": "2026-10-10T22:53:23.600Z",
+  "stateUpdatedAt": "2026-10-10T22:53:23.600Z",
+  "lastAttemptAt": "2026-10-10T22:53:23.600Z",
+  "lastScanAt": "2026-10-10T22:53:23.600Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Zip Hoodie::nike zip hoodie",
-    "Nike Hoodie::nike hoodie",
-    "Nike Sweatshirt::nike sweatshirt",
-    "Nike Track Jacket::nike track jacket",
-    "Nike Joggers::nike joggers",
-    "Nike Trousers::nike trousers"
+    "Nike Sportswear Hoodie::nike sportswear hoodie",
+    "Nike Sportswear Jacket::nike sportswear jacket",
+    "Nike Tech Fleece Windrunner::nike tech fleece windrunner",
+    "Nike Puffer Jacket::nike puffer jacket",
+    "Nike NOCTA Track Jacket::nike nocta track jacket",
+    "Nike Miler Shorts::nike miler shorts"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1344,
-  "catalogItems": 1108,
-  "candidateItems": 257,
-  "freshItems": 169,
-  "qualifyingAlerts": 71,
+  "catalogMarkers": 1393,
+  "catalogItems": 870,
+  "candidateItems": 256,
+  "freshItems": 123,
+  "qualifyingAlerts": 50,
   "qualifyingByCondition": {
-    "veryGood": 61,
-    "newWithoutTags": 9,
-    "newWithTags": 1
+    "veryGood": 46,
+    "newWithoutTags": 4
   },
-  "deliveredAlerts": 71,
+  "deliveredAlerts": 50,
   "deliveredByCondition": {
-    "veryGood": 61,
-    "newWithoutTags": 9,
-    "newWithTags": 1
+    "veryGood": 46,
+    "newWithoutTags": 4
   },
-  "duplicateSuppressed": 6,
+  "duplicateSuppressed": 27,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,14 +65,15 @@
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 6,
+  "detailFetches": 5,
   "rejects": {
-    "condition": 36,
-    "recovery-no-fresh-signal": 82,
-    "keyword": 9,
-    "price": 38,
-    "size": 6,
-    "detail-budget-exhausted": 9
+    "stale": 106,
+    "keyword": 7,
+    "price": 37,
+    "condition": 19,
+    "size": 3,
+    "clothing-variety-cap": 1,
+    "weak-margin": 6
   },
   "failures": {}
 }
