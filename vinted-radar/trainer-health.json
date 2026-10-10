@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-10-10T08:55:02.426Z",
-  "stateUpdatedAt": "2026-10-10T08:55:02.426Z",
-  "lastAttemptAt": "2026-10-10T08:55:02.426Z",
-  "lastScanAt": "2026-10-10T08:55:02.426Z",
+  "generatedAt": "2026-10-10T09:00:02.385Z",
+  "stateUpdatedAt": "2026-10-10T09:00:02.385Z",
+  "lastAttemptAt": "2026-10-10T09:00:02.385Z",
+  "lastScanAt": "2026-10-10T09:00:02.385Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Air Max 1::primary",
-    "Nike Shox TL::primary",
-    "Nike Shox R4::primary",
-    "Nike Shox Ride 2::primary",
-    "Nike Air Force 1::primary",
-    "Nike Dunk Low::primary"
+    "Air Jordan 1 Low::primary",
+    "Air Jordan 1 Mid::primary",
+    "Air Jordan 4::primary",
+    "Nike Initiator::primary",
+    "Nike Air Max Moto 2K::primary",
+    "Nike Metcon 10::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1344,
-  "catalogItems": 883,
-  "candidateItems": 485,
-  "freshItems": 172,
-  "qualifyingAlerts": 2,
+  "catalogMarkers": 1343,
+  "catalogItems": 921,
+  "candidateItems": 539,
+  "freshItems": 114,
+  "qualifyingAlerts": 7,
   "qualifyingByCondition": {
-    "veryGood": 2
+    "veryGood": 7
   },
-  "deliveredAlerts": 2,
+  "deliveredAlerts": 7,
   "deliveredByCondition": {
-    "veryGood": 2
+    "veryGood": 7
   },
-  "duplicateSuppressed": 9,
+  "duplicateSuppressed": 41,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -65,15 +65,13 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "recovery-no-fresh-signal": 304,
-    "condition": 22,
-    "price": 6,
-    "size": 9,
-    "weak-margin": 1,
-    "seller-risk": 1,
-    "detail-budget-exhausted": 50,
-    "seller-check-budget-exhausted": 70,
-    "keyword": 11
+    "stale": 384,
+    "price": 2,
+    "size": 5,
+    "condition": 7,
+    "seller-check-budget-exhausted": 65,
+    "detail-budget-exhausted": 27,
+    "keyword": 1
   },
   "failures": {}
 }
