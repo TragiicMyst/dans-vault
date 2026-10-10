@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-10-09T21:08:06.805Z",
+    "startedAt": "2026-10-10T00:48:12.839Z",
     "searchGroups": [
-      "rab-electron:rab-electron-pro",
-      "patagonia-down-sweater:patagonia-down-sweater-jacket",
-      "patagonia-down-sweater:patagonia-down-sweater-hoody",
-      "patagonia-fitz-roy:patagonia-fitz-roy-down",
-      "arcteryx-cerium:arcteryx-cerium-jacket",
-      "arcteryx-cerium:arc-teryx-cerium",
-      "arcteryx-thorium:arcteryx-thorium-jacket",
-      "arcteryx-thorium:arc-teryx-thorium"
+      "hunter:arc-teryx-puffer",
+      "hunter:ralph-lauren-puffer",
+      "hunter:polo-puffer-jacket",
+      "hunter:nike-puffer-jacket",
+      "hunter:berghaus-puffer",
+      "hunter:napapijri-jacket",
+      "tnf-1996-nuptse:north-face-nuptse-700",
+      "tnf-1996-nuptse:north-face-1996-nuptse"
     ],
     "vintedItems": 280,
-    "freshItems": 4,
+    "freshItems": 10,
     "freshByAge": 0,
-    "freshByNewId": 4,
+    "freshByNewId": 10,
     "bootstrapBlocked": 0,
-    "staleBlocked": 7,
-    "candidates": 0,
+    "staleBlocked": 1,
+    "candidates": 1,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-10-10T00:42:15.940Z",
+      "platform": "VINTED",
+      "id": "10308572586",
+      "title": "polo ralph lauren navy blazer jacket size 4 made in italy",
+      "url": "https://www.vinted.co.uk/items/10308572586-polo-ralph-lauren-navy-blazer-jacket-size-4-made-in-italy",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 35,
+      "estimatedNetProfit": 41.62,
+      "roi": 118.91,
+      "score": 91
+    },
     {
       "at": "2026-10-09T21:02:15.021Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 41.5,
       "roi": 138.33,
       "score": 94
-    },
-    {
-      "at": "2026-10-07T19:34:31.969Z",
-      "platform": "VINTED",
-      "id": "10283988476",
-      "title": "ralph lauren jacket 14 16 years",
-      "url": "https://www.vinted.co.uk/items/10283988476-ralph-lauren-jacket-14-16-years",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 35,
-      "estimatedNetProfit": 37.53,
-      "roi": 107.23,
-      "score": 85
     }
   ]
 }
