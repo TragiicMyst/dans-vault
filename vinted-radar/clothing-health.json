@@ -1,35 +1,37 @@
 {
-  "generatedAt": "2026-10-10T15:14:44.712Z",
-  "stateUpdatedAt": "2026-10-10T15:14:44.712Z",
-  "lastAttemptAt": "2026-10-10T15:14:44.712Z",
-  "lastScanAt": "2026-10-10T15:14:44.712Z",
+  "generatedAt": "2026-10-10T19:17:46.604Z",
+  "stateUpdatedAt": "2026-10-10T19:17:46.604Z",
+  "lastAttemptAt": "2026-10-10T19:17:46.604Z",
+  "lastScanAt": "2026-10-10T19:17:46.604Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Woven Jacket::nike woven jacket",
-    "Nike Bomber Jacket::nike bomber jacket",
-    "Nike Coat::nike coat",
-    "Nike Shorts::nike shorts",
-    "Nike Cargo Trousers::nike cargo trousers",
-    "Nike Track Pants::nike track pants"
+    "Nike Woven Trousers::nike woven trousers",
+    "Nike Tracksuit::nike tracksuit",
+    "Nike Vintage Clothing::vintage nike",
+    "Nike SB Clothing::nike sb clothing",
+    "Nike Vest::nike vest",
+    "Nike Air Max Hoodie::nike air max hoodie"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 1069,
-  "candidateItems": 346,
-  "freshItems": 263,
-  "qualifyingAlerts": 89,
+  "catalogItems": 1057,
+  "candidateItems": 321,
+  "freshItems": 262,
+  "qualifyingAlerts": 94,
   "qualifyingByCondition": {
-    "veryGood": 81,
-    "newWithoutTags": 8
+    "veryGood": 86,
+    "newWithoutTags": 5,
+    "newWithTags": 3
   },
-  "deliveredAlerts": 89,
+  "deliveredAlerts": 94,
   "deliveredByCondition": {
-    "veryGood": 81,
-    "newWithoutTags": 8
+    "veryGood": 86,
+    "newWithoutTags": 5,
+    "newWithTags": 3
   },
   "duplicateSuppressed": 5,
   "discordFailures": 0,
@@ -67,12 +69,13 @@
   "pendingDeliveries": 0,
   "detailFetches": 6,
   "rejects": {
-    "stale": 78,
-    "condition": 49,
-    "price": 106,
-    "size": 5,
-    "keyword": 10,
-    "detail-budget-exhausted": 4
+    "price": 86,
+    "keyword": 15,
+    "recovery-no-fresh-signal": 54,
+    "condition": 40,
+    "size": 6,
+    "score": 1,
+    "detail-budget-exhausted": 20
   },
   "failures": {}
 }
