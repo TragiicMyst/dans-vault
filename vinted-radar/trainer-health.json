@@ -1,35 +1,37 @@
 {
-  "generatedAt": "2026-10-11T07:28:53.194Z",
-  "stateUpdatedAt": "2026-10-11T07:28:53.194Z",
-  "lastAttemptAt": "2026-10-11T07:28:53.194Z",
-  "lastScanAt": "2026-10-11T07:28:53.194Z",
+  "generatedAt": "2026-10-11T07:33:53.447Z",
+  "stateUpdatedAt": "2026-10-11T07:33:53.447Z",
+  "lastAttemptAt": "2026-10-11T07:33:53.447Z",
+  "lastScanAt": "2026-10-11T07:33:53.447Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Zoom Fly 6::primary",
-    "Nike Air Max Bargain::generic",
-    "Nike Running Trainer Bargain::generic",
-    "Nike Lifestyle Trainer Bargain::generic",
-    "Nike Football Boot Bargain::generic",
-    "Nike Basketball Shoe Bargain::generic"
+    "Nike SB Shoe Bargain::generic",
+    "Nike P-6000::primary",
+    "Nike V5 RNR::primary",
+    "Nike Vomero 5::primary",
+    "Nike Vomero 18::primary",
+    "Nike Vomero Plus::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1344,
-  "catalogItems": 889,
-  "candidateItems": 411,
-  "freshItems": 84,
-  "qualifyingAlerts": 1,
+  "catalogMarkers": 1267,
+  "catalogItems": 701,
+  "candidateItems": 447,
+  "freshItems": 155,
+  "qualifyingAlerts": 8,
   "qualifyingByCondition": {
-    "veryGood": 1
+    "veryGood": 6,
+    "newWithTags": 2
   },
-  "deliveredAlerts": 1,
+  "deliveredAlerts": 8,
   "deliveredByCondition": {
-    "veryGood": 1
+    "veryGood": 6,
+    "newWithTags": 2
   },
-  "duplicateSuppressed": 26,
+  "duplicateSuppressed": 9,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -65,13 +67,12 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "recovery-no-fresh-signal": 301,
-    "size": 11,
-    "price": 17,
-    "condition": 22,
-    "keyword": 7,
-    "detail-budget-exhausted": 9,
-    "seller-check-budget-exhausted": 17
+    "stale": 283,
+    "size": 4,
+    "keyword": 2,
+    "detail-budget-exhausted": 42,
+    "seller-check-budget-exhausted": 98,
+    "condition": 1
   },
   "failures": {}
 }
