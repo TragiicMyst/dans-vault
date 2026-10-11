@@ -2204977,7 +2204977,7 @@
       ]
     }
   },
-  "updatedAt": "2026-10-11T04:13:04.828Z",
+  "updatedAt": "2026-10-11T04:18:04.186Z",
   "cursor": 0,
   "lastRotation": {
     "bot": "trainers",
@@ -2205206,12 +2205206,12 @@
       }
     },
     "lastScanAt": "2026-10-11T04:08:04.672Z",
-    "lastAttemptAt": "2026-10-11T04:13:04.828Z"
+    "lastAttemptAt": "2026-10-11T04:18:04.186Z"
   },
   "diagnostics": {
     "bot": "trainers",
     "radarVersion": 6,
-    "lastRunAt": "2026-10-11T04:13:04.828Z",
+    "lastRunAt": "2026-10-11T04:18:04.186Z",
     "recoveryMode": false,
     "filterProfile": {
       "freshnessMinutes": 15,
@@ -2205249,7 +2205249,7 @@
     "pendingDeliveries": 0,
     "rejects": {},
     "failures": {
-      "Nike Any Shoe Bargain::generic": "Vinted guard cooldown active for 44s"
+      "Nike Any Shoe Bargain::generic": "Vinted guard cooldown active for 43s"
     },
     "healthyScan": false,
     "healthReason": "vinted-block-or-challenge"
@@ -2214117,5 +2214117,5 @@
     "10217377111": "2026-10-11T04:08:44.043Z",
     "10214468504": "2026-10-11T04:08:48.480Z"
   },
-  "cooldownUntil": "2026-10-11T04:14:21.620Z"
+  "cooldownUntil": "2026-10-11T04:19:21.357Z"
 }
