@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-10-11T02:22:30.986Z",
+    "startedAt": "2026-10-11T09:09:44.894Z",
     "searchGroups": [
-      "hunter:north-face-coat",
-      "hunter:north-face-puffer",
-      "hunter:north-face-700",
-      "hunter:mens-north-face-jacket",
-      "hunter:rab-puffer",
-      "hunter:rab-down-jacket",
-      "hunter:patagonia-puffer",
-      "hunter:arcteryx-jacket"
+      "patagonia-down-sweater:patagonia-down-sweater-hoody",
+      "patagonia-fitz-roy:patagonia-fitz-roy-down",
+      "arcteryx-cerium:arcteryx-cerium-jacket",
+      "arcteryx-cerium:arc-teryx-cerium",
+      "arcteryx-thorium:arcteryx-thorium-jacket",
+      "arcteryx-thorium:arc-teryx-thorium",
+      "ralph-lauren-puffer:ralph-lauren-puffer-jacket",
+      "ralph-lauren-puffer:polo-ralph-lauren-down-jacket"
     ],
     "vintedItems": 280,
     "freshItems": 2,
     "freshByAge": 0,
     "freshByNewId": 2,
     "bootstrapBlocked": 0,
-    "staleBlocked": 14,
-    "candidates": 0,
-    "alerts": 0,
+    "staleBlocked": 6,
+    "candidates": 1,
+    "alerts": 1,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-10-11T09:09:57.547Z",
+      "platform": "VINTED",
+      "id": "10326841568",
+      "title": "ralph lauren parka coat",
+      "url": "https://www.vinted.co.uk/items/10326841568-ralph-lauren-parka-coat",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 50,
+      "estimatedNetProfit": 30.62,
+      "roi": 61.24,
+      "score": 72
+    },
     {
       "at": "2026-10-10T17:35:50.811Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 37.95,
       "roi": 108.43,
       "score": 90
-    },
-    {
-      "at": "2026-10-08T17:27:02.220Z",
-      "platform": "VINTED",
-      "id": "10293718547",
-      "title": "north face nuptse gilet 700",
-      "url": "https://www.vinted.co.uk/items/10293718547-north-face-nuptse-gilet-700",
-      "modelId": "tnf-1996-nuptse",
-      "buyPrice": 35,
-      "estimatedNetProfit": 39.78,
-      "roi": 113.66,
-      "score": 84
     }
   ]
 }
