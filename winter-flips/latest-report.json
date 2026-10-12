@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-10-12T02:29:56.931Z",
+    "startedAt": "2026-10-12T09:36:39.487Z",
     "searchGroups": [
-      "hunter:patagonia-puffer",
-      "hunter:arcteryx-jacket",
-      "hunter:arc-teryx-puffer",
-      "hunter:ralph-lauren-puffer",
-      "hunter:polo-puffer-jacket",
-      "hunter:nike-puffer-jacket",
-      "hunter:berghaus-puffer",
-      "hunter:napapijri-jacket"
+      "ralph-lauren-puffer:ralph-lauren-puffer-jacket",
+      "ralph-lauren-puffer:polo-ralph-lauren-down-jacket",
+      "nike-puffer:nike-puffer-jacket-mens",
+      "nike-puffer:nike-down-jacket",
+      "berghaus-down:berghaus-down-jacket",
+      "berghaus-down:berghaus-puffer-jacket",
+      "napapijri-skidoo:napapijri-skidoo-jacket",
+      "napapijri-skidoo:napapijri-rainforest-winter"
     ],
     "vintedItems": 280,
-    "freshItems": 2,
+    "freshItems": 7,
     "freshByAge": 0,
-    "freshByNewId": 2,
+    "freshByNewId": 7,
     "bootstrapBlocked": 0,
-    "staleBlocked": 5,
-    "candidates": 0,
-    "alerts": 0,
+    "staleBlocked": 4,
+    "candidates": 3,
+    "alerts": 1,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-10-12T09:36:42.048Z",
+      "platform": "VINTED",
+      "id": "10344669036",
+      "title": "kids rally lauren",
+      "url": "https://www.vinted.co.uk/items/10344669036-kids-rally-lauren",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 35,
+      "estimatedNetProfit": 41.13,
+      "roi": 117.51,
+      "score": 85
+    },
     {
       "at": "2026-10-11T23:11:34.771Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 30.62,
       "roi": 61.24,
       "score": 72
-    },
-    {
-      "at": "2026-10-10T17:35:50.811Z",
-      "platform": "VINTED",
-      "id": "10318585288",
-      "title": "nike puffer",
-      "url": "https://www.vinted.co.uk/items/10318585288-nike-puffer",
-      "modelId": "nike-puffer",
-      "buyPrice": 24.99,
-      "estimatedNetProfit": 27.54,
-      "roi": 110.2,
-      "score": 85
     }
   ]
 }
