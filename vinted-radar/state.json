@@ -2248316,7 +2248316,7 @@
       ]
     }
   },
-  "updatedAt": "2026-10-12T02:05:33.952Z",
+  "updatedAt": "2026-10-12T02:10:33.914Z",
   "cursor": 0,
   "lastRotation": {
     "bot": "trainers",
@@ -2248545,12 +2248545,12 @@
       }
     },
     "lastScanAt": "2026-10-12T02:00:33.993Z",
-    "lastAttemptAt": "2026-10-12T02:05:33.952Z"
+    "lastAttemptAt": "2026-10-12T02:10:33.914Z"
   },
   "diagnostics": {
     "bot": "trainers",
     "radarVersion": 6,
-    "lastRunAt": "2026-10-12T02:05:33.952Z",
+    "lastRunAt": "2026-10-12T02:10:33.914Z",
     "recoveryMode": false,
     "filterProfile": {
       "freshnessMinutes": 15,
@@ -2248566,48 +2248566,31 @@
     "totalSearchGroups": 37,
     "selectedSearches": [
       "Nike Any Shoe Bargain::generic",
-      "Nike Air Max 1::primary",
       "Nike Shox TL::primary",
       "Nike Shox R4::primary",
       "Nike Shox Ride 2::primary",
       "Nike Air Force 1::primary",
-      "Nike Dunk Low::primary"
+      "Nike Dunk Low::primary",
+      "Air Jordan 1 Low::primary"
     ],
-    "successfulSearches": 2,
+    "successfulSearches": 0,
     "failedSearches": 1,
     "confirmedEmptySearches": 0,
-    "catalogMarkers": 576,
-    "catalogItems": 479,
-    "candidateItems": 195,
-    "freshItems": 10,
+    "catalogMarkers": 0,
+    "catalogItems": 0,
+    "candidateItems": 0,
+    "freshItems": 0,
     "freshByAge": 0,
-    "freshByNewId": 10,
-    "qualifyingAlerts": 5,
-    "deliveredAlerts": 5,
+    "freshByNewId": 0,
+    "qualifyingAlerts": 0,
+    "deliveredAlerts": 0,
     "discordFailures": 0,
     "pendingDeliveries": 0,
-    "rejects": {
-      "stale": 152,
-      "weak-margin": 1,
-      "size": 3,
-      "seller-check-failed": 1
-    },
+    "rejects": {},
     "failures": {
-      "Nike Shox TL::primary": "Vinted guard cooldown active for 43s"
+      "Nike Any Shoe Bargain::generic": "Vinted guard cooldown active for 44s"
     },
     "healthyScan": false,
-    "detailFetches": 9,
-    "duplicateSuppressed": 15,
-    "qualifyingByCondition": {
-      "newWithTags": 2,
-      "newWithoutTags": 1,
-      "veryGood": 2
-    },
-    "deliveredByCondition": {
-      "newWithTags": 2,
-      "newWithoutTags": 1,
-      "veryGood": 2
-    },
     "healthReason": "vinted-block-or-challenge"
   },
   "radarVersion": 6,
@@ -2257610,5 +2257593,5 @@
     "10340547394": "2026-10-12T02:06:14.350Z",
     "10339903797": "2026-10-12T02:06:19.445Z"
   },
-  "cooldownUntil": "2026-10-12T02:07:38.686Z"
+  "cooldownUntil": "2026-10-12T02:11:50.891Z"
 }
