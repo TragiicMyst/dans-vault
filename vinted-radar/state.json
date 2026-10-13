@@ -2298065,7 +2298065,7 @@
       ]
     }
   },
-  "updatedAt": "2026-10-13T17:41:01.802Z",
+  "updatedAt": "2026-10-13T17:46:02.214Z",
   "cursor": 0,
   "lastRotation": {
     "bot": "trainers",
@@ -2298294,12 +2298294,12 @@
       }
     },
     "lastScanAt": "2026-10-13T17:36:01.633Z",
-    "lastAttemptAt": "2026-10-13T17:41:01.802Z"
+    "lastAttemptAt": "2026-10-13T17:46:02.214Z"
   },
   "diagnostics": {
     "bot": "trainers",
     "radarVersion": 6,
-    "lastRunAt": "2026-10-13T17:41:01.802Z",
+    "lastRunAt": "2026-10-13T17:46:02.214Z",
     "recoveryMode": false,
     "filterProfile": {
       "freshnessMinutes": 15,
@@ -2298315,52 +2298315,31 @@
     "totalSearchGroups": 37,
     "selectedSearches": [
       "Nike Any Shoe Bargain::generic",
-      "Air Jordan 1 Mid::primary",
-      "Air Jordan 4::primary",
-      "Nike Initiator::primary",
-      "Nike Air Max Moto 2K::primary",
       "Nike Metcon 10::primary",
-      "Nike Zoom Fly 6::primary"
+      "Nike Zoom Fly 6::primary",
+      "Nike Air Max Bargain::generic",
+      "Nike Running Trainer Bargain::generic",
+      "Nike Lifestyle Trainer Bargain::generic",
+      "Nike Football Boot Bargain::generic"
     ],
-    "successfulSearches": 5,
+    "successfulSearches": 0,
     "failedSearches": 1,
     "confirmedEmptySearches": 0,
-    "catalogMarkers": 960,
-    "catalogItems": 710,
-    "candidateItems": 399,
-    "freshItems": 146,
+    "catalogMarkers": 0,
+    "catalogItems": 0,
+    "candidateItems": 0,
+    "freshItems": 0,
     "freshByAge": 0,
-    "freshByNewId": 146,
-    "qualifyingAlerts": 8,
-    "deliveredAlerts": 8,
+    "freshByNewId": 0,
+    "qualifyingAlerts": 0,
+    "deliveredAlerts": 0,
     "discordFailures": 0,
     "pendingDeliveries": 0,
-    "rejects": {
-      "stale": 247,
-      "price": 4,
-      "size": 4,
-      "condition": 22,
-      "keyword": 15,
-      "weak-margin": 2,
-      "seller-check-budget-exhausted": 64,
-      "detail-budget-exhausted": 27
-    },
+    "rejects": {},
     "failures": {
-      "Nike Metcon 10::primary": "Vinted guard cooldown active for 44s"
+      "Nike Any Shoe Bargain::generic": "Vinted guard cooldown active for 43s"
     },
     "healthyScan": false,
-    "detailFetches": 12,
-    "qualifyingByCondition": {
-      "newWithoutTags": 1,
-      "newWithTags": 3,
-      "veryGood": 4
-    },
-    "deliveredByCondition": {
-      "newWithoutTags": 1,
-      "newWithTags": 3,
-      "veryGood": 4
-    },
-    "duplicateSuppressed": 6,
     "healthReason": "vinted-block-or-challenge"
   },
   "radarVersion": 6,
@@ -2307531,5 +2307510,5 @@
     "10364526198": "2026-10-13T17:41:57.869Z",
     "10364268121": "2026-10-13T17:42:02.958Z"
   },
-  "cooldownUntil": "2026-10-13T17:43:36.884Z"
+  "cooldownUntil": "2026-10-13T17:47:19.391Z"
 }
