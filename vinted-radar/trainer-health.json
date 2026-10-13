@@ -1,39 +1,37 @@
 {
-  "generatedAt": "2026-10-12T22:02:19.216Z",
-  "stateUpdatedAt": "2026-10-12T22:02:19.216Z",
-  "lastAttemptAt": "2026-10-12T22:02:19.216Z",
-  "lastScanAt": "2026-10-12T22:02:19.216Z",
+  "generatedAt": "2026-10-13T01:16:20.754Z",
+  "stateUpdatedAt": "2026-10-13T01:16:20.754Z",
+  "lastAttemptAt": "2026-10-13T01:16:20.754Z",
+  "lastScanAt": "2026-10-13T01:16:20.754Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Pegasus Premium::primary",
-    "Nike Pegasus Trail 5 GORE-TEX::primary",
-    "Nike TN::primary",
-    "Nike Air Max Plus 3::primary",
-    "Nike Air Max Plus VII::primary",
-    "Nike Air Max 95::primary"
+    "Nike Air Max 90::primary",
+    "Nike Air Max 90 Drift::primary",
+    "Nike Air Max 97::primary",
+    "Nike Air Max 270::primary",
+    "Nike Air Max Dn::primary",
+    "Nike Air Max 1::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 1027,
-  "candidateItems": 424,
-  "freshItems": 177,
-  "qualifyingAlerts": 8,
+  "catalogItems": 1000,
+  "candidateItems": 517,
+  "freshItems": 188,
+  "qualifyingAlerts": 7,
   "qualifyingByCondition": {
-    "veryGood": 4,
-    "newWithTags": 3,
-    "newWithoutTags": 1
+    "newWithTags": 2,
+    "veryGood": 5
   },
-  "deliveredAlerts": 8,
+  "deliveredAlerts": 7,
   "deliveredByCondition": {
-    "veryGood": 4,
-    "newWithTags": 3,
-    "newWithoutTags": 1
+    "newWithTags": 2,
+    "veryGood": 5
   },
-  "duplicateSuppressed": 36,
+  "duplicateSuppressed": 9,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,15 +67,16 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "price": 23,
-    "stale": 211,
-    "score": 1,
-    "weak-margin": 14,
-    "size": 3,
-    "condition": 27,
-    "seller-check-budget-exhausted": 68,
-    "detail-budget-exhausted": 26,
-    "keyword": 7
+    "price": 16,
+    "recovery-no-fresh-signal": 320,
+    "seller-risk": 2,
+    "size": 1,
+    "weak-margin": 8,
+    "condition": 31,
+    "keyword": 19,
+    "score": 2,
+    "detail-budget-exhausted": 31,
+    "seller-check-budget-exhausted": 71
   },
   "failures": {}
 }
