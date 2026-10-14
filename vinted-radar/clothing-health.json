@@ -1,37 +1,39 @@
 {
-  "generatedAt": "2026-10-14T00:34:30.243Z",
-  "stateUpdatedAt": "2026-10-14T00:34:30.243Z",
-  "lastAttemptAt": "2026-10-14T00:34:30.243Z",
-  "lastScanAt": "2026-10-14T00:34:30.243Z",
+  "generatedAt": "2026-10-14T04:44:41.880Z",
+  "stateUpdatedAt": "2026-10-14T04:44:41.880Z",
+  "lastAttemptAt": "2026-10-14T04:44:41.880Z",
+  "lastScanAt": "2026-10-14T04:44:41.880Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Sweatshirt::nike sweatshirt",
-    "Nike Track Jacket::nike track jacket",
-    "Nike Joggers::nike joggers",
-    "Nike Trousers::nike trousers",
-    "Nike Sportswear Hoodie::nike sportswear hoodie",
-    "Nike Sportswear Jacket::nike sportswear jacket"
+    "Nike Tech Fleece Windrunner::nike tech fleece windrunner",
+    "Nike Puffer Jacket::nike puffer jacket",
+    "Nike NOCTA Track Jacket::nike nocta track jacket",
+    "Nike Miler Shorts::nike miler shorts",
+    "Nike Tech Fleece Full-Zip Hoodie::nike tech fleece full zip hoodie",
+    "Nike ACG Canwell Glacier Jacket::nike acg canwell glacier"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1344,
-  "catalogItems": 1093,
-  "candidateItems": 197,
-  "freshItems": 88,
-  "qualifyingAlerts": 33,
+  "catalogMarkers": 1573,
+  "catalogItems": 831,
+  "candidateItems": 247,
+  "freshItems": 101,
+  "qualifyingAlerts": 44,
   "qualifyingByCondition": {
-    "veryGood": 29,
-    "newWithoutTags": 4
+    "veryGood": 37,
+    "newWithTags": 4,
+    "newWithoutTags": 3
   },
-  "deliveredAlerts": 33,
+  "deliveredAlerts": 44,
   "deliveredByCondition": {
-    "veryGood": 29,
-    "newWithoutTags": 4
+    "veryGood": 37,
+    "newWithTags": 4,
+    "newWithoutTags": 3
   },
-  "duplicateSuppressed": 5,
+  "duplicateSuppressed": 26,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,11 +69,13 @@
   "pendingDeliveries": 0,
   "detailFetches": 5,
   "rejects": {
-    "recovery-no-fresh-signal": 104,
-    "condition": 17,
-    "size": 4,
-    "price": 28,
-    "keyword": 6
+    "condition": 15,
+    "price": 19,
+    "recovery-no-fresh-signal": 120,
+    "weak-margin": 6,
+    "size": 5,
+    "keyword": 11,
+    "clothing-variety-cap": 1
   },
   "failures": {}
 }
