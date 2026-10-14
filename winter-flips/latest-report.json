@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-10-13T21:18:56.575Z",
+    "startedAt": "2026-10-14T00:24:44.340Z",
     "searchGroups": [
-      "napapijri-skidoo:napapijri-skidoo-jacket",
-      "napapijri-skidoo:napapijri-rainforest-winter",
-      "hunter:north-face-coat",
-      "hunter:north-face-puffer",
-      "hunter:north-face-700",
-      "hunter:mens-north-face-jacket",
-      "hunter:rab-puffer",
-      "hunter:rab-down-jacket"
+      "rab-electron:rab-electron-pro",
+      "patagonia-down-sweater:patagonia-down-sweater-jacket",
+      "patagonia-down-sweater:patagonia-down-sweater-hoody",
+      "patagonia-fitz-roy:patagonia-fitz-roy-down",
+      "arcteryx-cerium:arcteryx-cerium-jacket",
+      "arcteryx-cerium:arc-teryx-cerium",
+      "arcteryx-thorium:arcteryx-thorium-jacket",
+      "arcteryx-thorium:arc-teryx-thorium"
     ],
     "vintedItems": 280,
-    "freshItems": 70,
+    "freshItems": 3,
     "freshByAge": 0,
-    "freshByNewId": 70,
+    "freshByNewId": 3,
     "bootstrapBlocked": 0,
-    "staleBlocked": 11,
-    "candidates": 4,
+    "staleBlocked": 20,
+    "candidates": 0,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-10-14T00:18:52.952Z",
+      "platform": "VINTED",
+      "id": "10368038725",
+      "title": "boys nike puffer coat",
+      "url": "https://www.vinted.co.uk/items/10368038725-boys-nike-puffer-coat",
+      "modelId": "nike-puffer",
+      "buyPrice": 12,
+      "estimatedNetProfit": 41.25,
+      "roi": 343.75,
+      "score": 87
+    },
     {
       "at": "2026-10-13T21:16:07.285Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 41.19,
       "roi": 167.51,
       "score": 96
-    },
-    {
-      "at": "2026-10-11T23:11:33.886Z",
-      "platform": "VINTED",
-      "id": "10341360076",
-      "title": "ralph lauren reversible puffer",
-      "url": "https://www.vinted.co.uk/items/10341360076-ralph-lauren-reversible-puffer",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 39.5,
-      "estimatedNetProfit": 37.64,
-      "roi": 95.29,
-      "score": 88
     }
   ]
 }
