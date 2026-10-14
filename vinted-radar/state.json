@@ -2318746,7 +2318746,7 @@
       ]
     }
   },
-  "updatedAt": "2026-10-14T04:49:40.850Z",
+  "updatedAt": "2026-10-14T04:54:40.272Z",
   "cursor": 0,
   "lastRotation": {
     "bot": "trainers",
@@ -2318975,12 +2318975,12 @@
       }
     },
     "lastScanAt": "2026-10-14T04:49:40.850Z",
-    "lastAttemptAt": "2026-10-14T04:49:40.850Z"
+    "lastAttemptAt": "2026-10-14T04:54:40.272Z"
   },
   "diagnostics": {
     "bot": "trainers",
     "radarVersion": 6,
-    "lastRunAt": "2026-10-14T04:49:40.850Z",
+    "lastRunAt": "2026-10-14T04:54:40.272Z",
     "recoveryMode": false,
     "filterProfile": {
       "freshnessMinutes": 15,
@@ -2318996,77 +2318996,32 @@
     "totalSearchGroups": 37,
     "selectedSearches": [
       "Nike Any Shoe Bargain::generic",
-      "Nike Shox R4::primary",
-      "Nike Shox Ride 2::primary",
-      "Nike Air Force 1::primary",
-      "Nike Dunk Low::primary",
-      "Air Jordan 1 Low::primary",
-      "Air Jordan 1 Mid::primary"
+      "Air Jordan 4::primary",
+      "Nike Initiator::primary",
+      "Nike Air Max Moto 2K::primary",
+      "Nike Metcon 10::primary",
+      "Nike Zoom Fly 6::primary",
+      "Nike Air Max Bargain::generic"
     ],
-    "successfulSearches": 7,
-    "failedSearches": 0,
+    "successfulSearches": 0,
+    "failedSearches": 1,
     "confirmedEmptySearches": 0,
-    "catalogMarkers": 1344,
-    "catalogItems": 900,
-    "candidateItems": 581,
-    "freshItems": 53,
+    "catalogMarkers": 0,
+    "catalogItems": 0,
+    "candidateItems": 0,
+    "freshItems": 0,
     "freshByAge": 0,
-    "freshByNewId": 53,
-    "qualifyingAlerts": 4,
-    "deliveredAlerts": 4,
+    "freshByNewId": 0,
+    "qualifyingAlerts": 0,
+    "deliveredAlerts": 0,
     "discordFailures": 0,
     "pendingDeliveries": 0,
-    "rejects": {
-      "stale": 512,
-      "size": 8,
-      "condition": 1,
-      "seller-check-budget-exhausted": 20,
-      "detail-budget-exhausted": 18,
-      "price": 1,
-      "weak-margin": 1
+    "rejects": {},
+    "failures": {
+      "Nike Any Shoe Bargain::generic": "Vinted guard cooldown active for 44s"
     },
-    "failures": {},
-    "healthyScan": true,
-    "detailFetches": 12,
-    "duplicateSuppressed": 16,
-    "qualifyingByCondition": {
-      "newWithTags": 4
-    },
-    "deliveredByCondition": {
-      "newWithTags": 4
-    },
-    "healthReason": "all-selected-searches-completed",
-    "discordRoutes": [
-      {
-        "configuredAs": "newWithoutTags",
-        "webhookId": "1541037387969462303",
-        "channelId": "1541036356384329819",
-        "guildId": "1540743210488430592",
-        "webhookName": "Dan's NWOT Bot",
-        "detectedCondition": "newWithoutTags",
-        "inspectionError": null
-      },
-      {
-        "configuredAs": "newWithTags",
-        "webhookId": "1541040362997547048",
-        "channelId": "1541040152372183140",
-        "guildId": "1540743210488430592",
-        "webhookName": "Dan's New With Tags Bot",
-        "detectedCondition": "newWithTags",
-        "inspectionError": null
-      },
-      {
-        "configuredAs": "veryGood",
-        "webhookId": "1541040545483198516",
-        "channelId": "1541040213780992171",
-        "guildId": "1540743210488430592",
-        "webhookName": "Dan's Very Good Condition Bot",
-        "detectedCondition": "veryGood",
-        "inspectionError": null
-      }
-    ],
-    "discordRouteAutoCorrected": false,
-    "discordRouteWarnings": []
+    "healthyScan": false,
+    "healthReason": "vinted-block-or-challenge"
   },
   "radarVersion": 6,
   "pendingDeliveries": {},
@@ -2328313,5 +2328268,6 @@
     "10362338533": "2026-10-14T04:50:05.819Z",
     "10361303315": "2026-10-14T04:50:14.791Z",
     "10336168657": "2026-10-14T04:50:27.722Z"
-  }
+  },
+  "cooldownUntil": "2026-10-14T04:55:56.950Z"
 }
