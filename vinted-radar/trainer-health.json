@@ -1,39 +1,35 @@
 {
-  "generatedAt": "2026-10-14T05:55:48.228Z",
-  "stateUpdatedAt": "2026-10-14T05:55:48.228Z",
-  "lastAttemptAt": "2026-10-14T05:55:48.228Z",
-  "lastScanAt": "2026-10-14T05:55:48.228Z",
+  "generatedAt": "2026-10-14T06:00:49.082Z",
+  "stateUpdatedAt": "2026-10-14T06:00:49.082Z",
+  "lastAttemptAt": "2026-10-14T06:00:49.082Z",
+  "lastScanAt": "2026-10-14T06:00:49.082Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Running Trainer Bargain::generic",
-    "Nike Lifestyle Trainer Bargain::generic",
-    "Nike Football Boot Bargain::generic",
-    "Nike Basketball Shoe Bargain::generic",
-    "Nike SB Shoe Bargain::generic",
-    "Nike P-6000::primary"
+    "Nike V5 RNR::primary",
+    "Nike Vomero 5::primary",
+    "Nike Vomero 18::primary",
+    "Nike Vomero Plus::primary",
+    "Nike Vomero Premium::primary",
+    "Nike Pegasus Premium::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1344,
-  "catalogItems": 910,
-  "candidateItems": 346,
-  "freshItems": 35,
-  "qualifyingAlerts": 6,
+  "catalogMarkers": 1265,
+  "catalogItems": 697,
+  "candidateItems": 463,
+  "freshItems": 125,
+  "qualifyingAlerts": 5,
   "qualifyingByCondition": {
-    "newWithoutTags": 1,
-    "newWithTags": 1,
-    "veryGood": 4
+    "veryGood": 5
   },
-  "deliveredAlerts": 6,
+  "deliveredAlerts": 5,
   "deliveredByCondition": {
-    "newWithoutTags": 1,
-    "newWithTags": 1,
-    "veryGood": 4
+    "veryGood": 5
   },
-  "duplicateSuppressed": 3,
+  "duplicateSuppressed": 30,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,13 +65,12 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "price": 3,
     "stale": 308,
-    "keyword": 1,
-    "size": 6,
-    "condition": 3,
-    "detail-budget-exhausted": 11,
-    "seller-check-budget-exhausted": 5
+    "weak-margin": 1,
+    "size": 7,
+    "seller-check-budget-exhausted": 74,
+    "detail-budget-exhausted": 37,
+    "condition": 1
   },
   "failures": {}
 }
