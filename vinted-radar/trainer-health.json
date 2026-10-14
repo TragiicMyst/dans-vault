@@ -1,35 +1,37 @@
 {
-  "generatedAt": "2026-10-14T01:06:27.139Z",
-  "stateUpdatedAt": "2026-10-14T01:06:27.139Z",
-  "lastAttemptAt": "2026-10-14T01:06:27.139Z",
-  "lastScanAt": "2026-10-14T01:06:27.139Z",
+  "generatedAt": "2026-10-14T04:44:40.614Z",
+  "stateUpdatedAt": "2026-10-14T04:44:40.614Z",
+  "lastAttemptAt": "2026-10-14T04:44:40.614Z",
+  "lastScanAt": "2026-10-14T04:44:40.614Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Pegasus Trail 5 GORE-TEX::primary",
-    "Nike TN::primary",
-    "Nike Air Max Plus 3::primary",
-    "Nike Air Max Plus VII::primary",
-    "Nike Air Max 95::primary",
-    "Nike Air Max 90::primary"
+    "Nike Air Max 90 Drift::primary",
+    "Nike Air Max 97::primary",
+    "Nike Air Max 270::primary",
+    "Nike Air Max Dn::primary",
+    "Nike Air Max 1::primary",
+    "Nike Shox TL::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 1079,
-  "candidateItems": 458,
-  "freshItems": 115,
-  "qualifyingAlerts": 6,
+  "catalogItems": 1001,
+  "candidateItems": 488,
+  "freshItems": 100,
+  "qualifyingAlerts": 10,
   "qualifyingByCondition": {
-    "veryGood": 6
+    "veryGood": 1,
+    "newWithTags": 9
   },
-  "deliveredAlerts": 6,
+  "deliveredAlerts": 10,
   "deliveredByCondition": {
-    "veryGood": 6
+    "veryGood": 1,
+    "newWithTags": 9
   },
-  "duplicateSuppressed": 34,
+  "duplicateSuppressed": 18,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -65,15 +67,14 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 309,
-    "price": 11,
-    "condition": 12,
-    "seller-risk": 2,
-    "size": 3,
-    "score": 1,
-    "detail-budget-exhausted": 17,
-    "seller-check-budget-exhausted": 58,
+    "recovery-no-fresh-signal": 370,
     "keyword": 4,
+    "size": 1,
+    "price": 1,
+    "score": 1,
+    "detail-budget-exhausted": 25,
+    "seller-check-budget-exhausted": 47,
+    "condition": 10,
     "weak-margin": 1
   },
   "failures": {}
