@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-10-14T22:23:34.689Z",
-  "stateUpdatedAt": "2026-10-14T22:23:34.689Z",
-  "lastAttemptAt": "2026-10-14T22:23:34.689Z",
-  "lastScanAt": "2026-10-14T22:23:34.689Z",
+  "generatedAt": "2026-10-14T23:04:31.721Z",
+  "stateUpdatedAt": "2026-10-14T23:04:31.721Z",
+  "lastAttemptAt": "2026-10-14T23:04:31.721Z",
+  "lastScanAt": "2026-10-14T23:04:31.721Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Shox R4::primary",
-    "Nike Shox Ride 2::primary",
-    "Nike Air Force 1::primary",
-    "Nike Dunk Low::primary",
-    "Air Jordan 1 Low::primary",
-    "Air Jordan 1 Mid::primary"
+    "Air Jordan 4::primary",
+    "Nike Initiator::primary",
+    "Nike Air Max Moto 2K::primary",
+    "Nike Metcon 10::primary",
+    "Nike Zoom Fly 6::primary",
+    "Nike Air Max Bargain::generic"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 891,
-  "candidateItems": 557,
-  "freshItems": 164,
-  "qualifyingAlerts": 9,
+  "catalogItems": 873,
+  "candidateItems": 433,
+  "freshItems": 94,
+  "qualifyingAlerts": 6,
   "qualifyingByCondition": {
-    "veryGood": 7,
-    "newWithTags": 1,
-    "newWithoutTags": 1
+    "veryGood": 1,
+    "newWithoutTags": 1,
+    "newWithTags": 4
   },
-  "deliveredAlerts": 9,
+  "deliveredAlerts": 6,
   "deliveredByCondition": {
-    "veryGood": 7,
-    "newWithTags": 1,
-    "newWithoutTags": 1
+    "veryGood": 1,
+    "newWithoutTags": 1,
+    "newWithTags": 4
   },
-  "duplicateSuppressed": 34,
+  "duplicateSuppressed": 43,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,14 +69,15 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 359,
-    "price": 14,
-    "size": 3,
-    "weak-margin": 3,
-    "condition": 38,
-    "keyword": 18,
-    "seller-check-budget-exhausted": 40,
-    "detail-budget-exhausted": 39
+    "recovery-no-fresh-signal": 296,
+    "price": 10,
+    "condition": 12,
+    "size": 4,
+    "seller-risk": 1,
+    "keyword": 1,
+    "score": 1,
+    "detail-budget-exhausted": 17,
+    "seller-check-budget-exhausted": 42
   },
   "failures": {}
 }
