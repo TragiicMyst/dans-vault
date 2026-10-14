@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-10-14T09:47:20.036Z",
-  "stateUpdatedAt": "2026-10-14T09:47:20.036Z",
-  "lastAttemptAt": "2026-10-14T09:47:20.036Z",
-  "lastScanAt": "2026-10-14T09:47:20.036Z",
+  "generatedAt": "2026-10-14T10:33:42.734Z",
+  "stateUpdatedAt": "2026-10-14T10:33:42.734Z",
+  "lastAttemptAt": "2026-10-14T10:33:42.734Z",
+  "lastScanAt": "2026-10-14T10:33:42.734Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Tech Fleece Open-Hem Trousers::nike tech fleece open hem trousers",
-    "Nike ACG Lunar Lake Puffer::nike acg lunar lake",
-    "Nike Academy Tracksuit::nike academy tracksuit",
-    "Nike Dri-FIT Running Top::nike dri-fit running top",
-    "Nike Tech Fleece Shorts::nike tech fleece shorts",
-    "Nike Therma-FIT Jacket::nike therma fit jacket"
+    "Nike NOCTA Hoodie::nike nocta hoodie",
+    "Nike Stride Shorts::nike stride shorts",
+    "Nike Tech Fleece Tracksuit::nike tech fleece tracksuit",
+    "Nike ACG Skull Peak Jacket::nike acg skull peak",
+    "Nike Club Fleece Pullover Hoodie::nike club fleece hoodie",
+    "Nike Unlimited Shorts::nike unlimited shorts"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1572,
-  "catalogItems": 811,
-  "candidateItems": 293,
-  "freshItems": 89,
-  "qualifyingAlerts": 52,
+  "catalogMarkers": 1632,
+  "catalogItems": 954,
+  "candidateItems": 287,
+  "freshItems": 90,
+  "qualifyingAlerts": 56,
   "qualifyingByCondition": {
-    "veryGood": 42,
-    "newWithTags": 7,
-    "newWithoutTags": 3
+    "veryGood": 43,
+    "newWithoutTags": 7,
+    "newWithTags": 6
   },
-  "deliveredAlerts": 52,
+  "deliveredAlerts": 56,
   "deliveredByCondition": {
-    "veryGood": 42,
-    "newWithTags": 7,
-    "newWithoutTags": 3
+    "veryGood": 43,
+    "newWithoutTags": 7,
+    "newWithTags": 6
   },
-  "duplicateSuppressed": 63,
+  "duplicateSuppressed": 44,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,13 +69,14 @@
   "pendingDeliveries": 0,
   "detailFetches": 3,
   "rejects": {
-    "price": 7,
-    "condition": 18,
-    "recovery-no-fresh-signal": 141,
-    "size": 3,
-    "weak-margin": 1,
-    "clothing-variety-cap": 7,
-    "keyword": 1
+    "price": 10,
+    "recovery-no-fresh-signal": 153,
+    "weak-margin": 3,
+    "condition": 10,
+    "clothing-variety-cap": 6,
+    "keyword": 3,
+    "score": 1,
+    "size": 1
   },
   "failures": {}
 }
