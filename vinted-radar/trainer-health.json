@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-14T00:10:13.167Z",
-  "stateUpdatedAt": "2026-10-14T00:10:13.167Z",
-  "lastAttemptAt": "2026-10-14T00:10:13.167Z",
-  "lastScanAt": "2026-10-14T00:00:12.935Z",
-  "cooldownUntil": "2026-10-14T00:11:30.335Z",
-  "healthyScan": false,
-  "healthReason": "vinted-block-or-challenge",
+  "generatedAt": "2026-10-14T00:56:27.177Z",
+  "stateUpdatedAt": "2026-10-14T00:56:27.177Z",
+  "lastAttemptAt": "2026-10-14T00:56:27.177Z",
+  "lastScanAt": "2026-10-14T00:56:27.177Z",
+  "cooldownUntil": null,
+  "healthyScan": true,
+  "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
     "Nike Running Trainer Bargain::generic",
@@ -15,25 +15,64 @@
     "Nike SB Shoe Bargain::generic",
     "Nike P-6000::primary"
   ],
-  "successfulSearches": 0,
-  "failedSearches": 1,
-  "catalogMarkers": 0,
-  "catalogItems": 0,
-  "candidateItems": 0,
-  "freshItems": 0,
-  "qualifyingAlerts": 0,
-  "qualifyingByCondition": {},
-  "deliveredAlerts": 0,
-  "deliveredByCondition": {},
-  "duplicateSuppressed": 0,
+  "successfulSearches": 7,
+  "failedSearches": 0,
+  "catalogMarkers": 1344,
+  "catalogItems": 898,
+  "candidateItems": 389,
+  "freshItems": 88,
+  "qualifyingAlerts": 2,
+  "qualifyingByCondition": {
+    "veryGood": 2
+  },
+  "deliveredAlerts": 2,
+  "deliveredByCondition": {
+    "veryGood": 2
+  },
+  "duplicateSuppressed": 4,
   "discordFailures": 0,
-  "discordRoutes": [],
+  "discordRoutes": [
+    {
+      "configuredAs": "newWithoutTags",
+      "webhookId": "1541037387969462303",
+      "channelId": "1541036356384329819",
+      "guildId": "1540743210488430592",
+      "webhookName": "Dan's NWOT Bot",
+      "detectedCondition": "newWithoutTags",
+      "inspectionError": null
+    },
+    {
+      "configuredAs": "newWithTags",
+      "webhookId": "1541040362997547048",
+      "channelId": "1541040152372183140",
+      "guildId": "1540743210488430592",
+      "webhookName": "Dan's New With Tags Bot",
+      "detectedCondition": "newWithTags",
+      "inspectionError": null
+    },
+    {
+      "configuredAs": "veryGood",
+      "webhookId": "1541040545483198516",
+      "channelId": "1541040213780992171",
+      "guildId": "1540743210488430592",
+      "webhookName": "Dan's Very Good Condition Bot",
+      "detectedCondition": "veryGood",
+      "inspectionError": null
+    }
+  ],
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 0,
-  "rejects": {},
-  "failures": {
-    "Nike Any Shoe Bargain::generic": "Vinted guard cooldown active for 43s"
-  }
+  "detailFetches": 12,
+  "rejects": {
+    "recovery-no-fresh-signal": 297,
+    "size": 6,
+    "price": 19,
+    "keyword": 9,
+    "seller-risk": 4,
+    "condition": 13,
+    "seller-check-budget-exhausted": 16,
+    "detail-budget-exhausted": 19
+  },
+  "failures": {}
 }
