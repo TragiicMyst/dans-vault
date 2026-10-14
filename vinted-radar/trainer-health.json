@@ -1,37 +1,35 @@
 {
-  "generatedAt": "2026-10-14T04:44:40.614Z",
-  "stateUpdatedAt": "2026-10-14T04:44:40.614Z",
-  "lastAttemptAt": "2026-10-14T04:44:40.614Z",
-  "lastScanAt": "2026-10-14T04:44:40.614Z",
+  "generatedAt": "2026-10-14T04:49:40.850Z",
+  "stateUpdatedAt": "2026-10-14T04:49:40.850Z",
+  "lastAttemptAt": "2026-10-14T04:49:40.850Z",
+  "lastScanAt": "2026-10-14T04:49:40.850Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Air Max 90 Drift::primary",
-    "Nike Air Max 97::primary",
-    "Nike Air Max 270::primary",
-    "Nike Air Max Dn::primary",
-    "Nike Air Max 1::primary",
-    "Nike Shox TL::primary"
+    "Nike Shox R4::primary",
+    "Nike Shox Ride 2::primary",
+    "Nike Air Force 1::primary",
+    "Nike Dunk Low::primary",
+    "Air Jordan 1 Low::primary",
+    "Air Jordan 1 Mid::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 1001,
-  "candidateItems": 488,
-  "freshItems": 100,
-  "qualifyingAlerts": 10,
+  "catalogItems": 900,
+  "candidateItems": 581,
+  "freshItems": 53,
+  "qualifyingAlerts": 4,
   "qualifyingByCondition": {
-    "veryGood": 1,
-    "newWithTags": 9
+    "newWithTags": 4
   },
-  "deliveredAlerts": 10,
+  "deliveredAlerts": 4,
   "deliveredByCondition": {
-    "veryGood": 1,
-    "newWithTags": 9
+    "newWithTags": 4
   },
-  "duplicateSuppressed": 18,
+  "duplicateSuppressed": 16,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,14 +65,12 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "recovery-no-fresh-signal": 370,
-    "keyword": 4,
-    "size": 1,
+    "stale": 512,
+    "size": 8,
+    "condition": 1,
+    "seller-check-budget-exhausted": 20,
+    "detail-budget-exhausted": 18,
     "price": 1,
-    "score": 1,
-    "detail-budget-exhausted": 25,
-    "seller-check-budget-exhausted": 47,
-    "condition": 10,
     "weak-margin": 1
   },
   "failures": {}
