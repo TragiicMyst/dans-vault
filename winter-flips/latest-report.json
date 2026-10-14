@@ -2,29 +2,53 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-10-14T15:11:57.439Z",
+    "startedAt": "2026-10-14T19:26:38.600Z",
     "searchGroups": [
-      "tnf-baltoro:north-face-baltoro-jacket",
-      "tnf-summit-down:north-face-summit-series-down",
-      "rab-microlight:rab-microlight-alpine",
-      "rab-neutrino:rab-neutrino-pro",
-      "rab-electron:rab-electron-pro",
-      "patagonia-down-sweater:patagonia-down-sweater-jacket",
-      "patagonia-down-sweater:patagonia-down-sweater-hoody",
-      "patagonia-fitz-roy:patagonia-fitz-roy-down"
+      "hunter:rab-puffer",
+      "hunter:rab-down-jacket",
+      "hunter:patagonia-puffer",
+      "hunter:arcteryx-jacket",
+      "hunter:arc-teryx-puffer",
+      "hunter:ralph-lauren-puffer",
+      "hunter:polo-puffer-jacket",
+      "hunter:nike-puffer-jacket"
     ],
     "vintedItems": 280,
-    "freshItems": 14,
+    "freshItems": 25,
     "freshByAge": 0,
-    "freshByNewId": 14,
+    "freshByNewId": 25,
     "bootstrapBlocked": 0,
-    "staleBlocked": 11,
-    "candidates": 0,
-    "alerts": 0,
+    "staleBlocked": 2,
+    "candidates": 4,
+    "alerts": 2,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-10-14T19:27:40.662Z",
+      "platform": "VINTED",
+      "id": "10378815910",
+      "title": "3d printed nike puffer jacket desk tidier",
+      "url": "https://www.vinted.co.uk/items/10378815910-3d-printed-nike-puffer-jacket-desk-tidier",
+      "modelId": "nike-puffer",
+      "buyPrice": 10,
+      "estimatedNetProfit": 43.36,
+      "roi": 433.6,
+      "score": 87
+    },
+    {
+      "at": "2026-10-14T19:27:24.019Z",
+      "platform": "VINTED",
+      "id": "10378523975",
+      "title": "vintage sleeveless ralph lauren puffer",
+      "url": "https://www.vinted.co.uk/items/10378523975-vintage-sleeveless-ralph-lauren-puffer",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 27,
+      "estimatedNetProfit": 37.26,
+      "roi": 138,
+      "score": 93
+    },
     {
       "at": "2026-10-14T15:09:00.917Z",
       "platform": "VINTED",
@@ -240,30 +264,6 @@
       "estimatedNetProfit": 29.64,
       "roi": 128.87,
       "score": 87
-    },
-    {
-      "at": "2026-10-12T19:19:16.420Z",
-      "platform": "VINTED",
-      "id": "10353736113",
-      "title": "nike puffer jacket pen pot",
-      "url": "https://www.vinted.co.uk/items/10353736113-nike-puffer-jacket-pen-pot",
-      "modelId": "nike-puffer",
-      "buyPrice": 5,
-      "estimatedNetProfit": 50.95,
-      "roi": 1019,
-      "score": 87
-    },
-    {
-      "at": "2026-10-12T19:19:13.037Z",
-      "platform": "VINTED",
-      "id": "10343744389",
-      "title": "kids ralph lauren authentic puffer",
-      "url": "https://www.vinted.co.uk/items/10343744389-kids-ralph-lauren-authentic-puffer",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 40,
-      "estimatedNetProfit": 36.58,
-      "roi": 91.45,
-      "score": 88
     }
   ]
 }
