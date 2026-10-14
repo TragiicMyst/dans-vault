@@ -1,52 +1,39 @@
 {
-  "generatedAt": "2026-10-14T00:05:12.724Z",
-  "stateUpdatedAt": "2026-10-14T00:05:12.724Z",
-  "lastAttemptAt": "2026-10-14T00:05:12.724Z",
+  "generatedAt": "2026-10-14T00:10:13.167Z",
+  "stateUpdatedAt": "2026-10-14T00:10:13.167Z",
+  "lastAttemptAt": "2026-10-14T00:10:13.167Z",
   "lastScanAt": "2026-10-14T00:00:12.935Z",
-  "cooldownUntil": "2026-10-14T00:07:35.752Z",
+  "cooldownUntil": "2026-10-14T00:11:30.335Z",
   "healthyScan": false,
   "healthReason": "vinted-block-or-challenge",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Metcon 10::primary",
-    "Nike Zoom Fly 6::primary",
-    "Nike Air Max Bargain::generic",
     "Nike Running Trainer Bargain::generic",
     "Nike Lifestyle Trainer Bargain::generic",
-    "Nike Football Boot Bargain::generic"
+    "Nike Football Boot Bargain::generic",
+    "Nike Basketball Shoe Bargain::generic",
+    "Nike SB Shoe Bargain::generic",
+    "Nike P-6000::primary"
   ],
-  "successfulSearches": 4,
+  "successfulSearches": 0,
   "failedSearches": 1,
-  "catalogMarkers": 768,
-  "catalogItems": 420,
-  "candidateItems": 218,
-  "freshItems": 54,
-  "qualifyingAlerts": 8,
-  "qualifyingByCondition": {
-    "veryGood": 8
-  },
-  "deliveredAlerts": 8,
-  "deliveredByCondition": {
-    "veryGood": 8
-  },
-  "duplicateSuppressed": 25,
+  "catalogMarkers": 0,
+  "catalogItems": 0,
+  "candidateItems": 0,
+  "freshItems": 0,
+  "qualifyingAlerts": 0,
+  "qualifyingByCondition": {},
+  "deliveredAlerts": 0,
+  "deliveredByCondition": {},
+  "duplicateSuppressed": 0,
   "discordFailures": 0,
   "discordRoutes": [],
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 12,
-  "rejects": {
-    "stale": 139,
-    "size": 3,
-    "seller-risk": 1,
-    "seller-check-budget-exhausted": 18,
-    "detail-budget-exhausted": 8,
-    "price": 7,
-    "keyword": 2,
-    "condition": 7
-  },
+  "detailFetches": 0,
+  "rejects": {},
   "failures": {
-    "Nike Running Trainer Bargain::generic": "Vinted guard cooldown active for 43s"
+    "Nike Any Shoe Bargain::generic": "Vinted guard cooldown active for 43s"
   }
 }
