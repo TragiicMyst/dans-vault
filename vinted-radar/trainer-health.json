@@ -1,35 +1,37 @@
 {
-  "generatedAt": "2026-10-15T00:45:29.446Z",
-  "stateUpdatedAt": "2026-10-15T00:45:29.446Z",
-  "lastAttemptAt": "2026-10-15T00:45:29.446Z",
-  "lastScanAt": "2026-10-15T00:45:29.446Z",
+  "generatedAt": "2026-10-15T01:28:25.470Z",
+  "stateUpdatedAt": "2026-10-15T01:28:25.470Z",
+  "lastAttemptAt": "2026-10-15T01:28:25.470Z",
+  "lastScanAt": "2026-10-15T01:28:25.470Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Shox R4::primary",
-    "Nike Shox Ride 2::primary",
-    "Nike Air Force 1::primary",
-    "Nike Dunk Low::primary",
-    "Air Jordan 1 Low::primary",
-    "Air Jordan 1 Mid::primary"
+    "Air Jordan 4::primary",
+    "Nike Initiator::primary",
+    "Nike Air Max Moto 2K::primary",
+    "Nike Metcon 10::primary",
+    "Nike Zoom Fly 6::primary",
+    "Nike Air Max Bargain::generic"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 886,
-  "candidateItems": 563,
-  "freshItems": 45,
-  "qualifyingAlerts": 3,
+  "catalogItems": 869,
+  "candidateItems": 458,
+  "freshItems": 62,
+  "qualifyingAlerts": 8,
   "qualifyingByCondition": {
-    "veryGood": 3
+    "newWithoutTags": 2,
+    "newWithTags": 6
   },
-  "deliveredAlerts": 3,
+  "deliveredAlerts": 8,
   "deliveredByCondition": {
-    "veryGood": 3
+    "newWithoutTags": 2,
+    "newWithTags": 6
   },
-  "duplicateSuppressed": 35,
+  "duplicateSuppressed": 51,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -65,14 +67,12 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 483,
-    "price": 1,
-    "keyword": 4,
-    "condition": 3,
-    "size": 6,
-    "seller-risk": 3,
-    "seller-check-budget-exhausted": 16,
-    "detail-budget-exhausted": 9
+    "recovery-no-fresh-signal": 345,
+    "price": 2,
+    "size": 4,
+    "seller-check-budget-exhausted": 32,
+    "detail-budget-exhausted": 13,
+    "condition": 3
   },
   "failures": {}
 }
