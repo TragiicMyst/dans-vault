@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-10-15T05:17:41.165Z",
+    "startedAt": "2026-10-15T10:00:12.847Z",
     "searchGroups": [
-      "hunter:north-face-coat",
-      "hunter:north-face-puffer",
-      "hunter:north-face-700",
-      "hunter:mens-north-face-jacket",
-      "hunter:rab-puffer",
-      "hunter:rab-down-jacket",
-      "hunter:patagonia-puffer",
-      "hunter:arcteryx-jacket"
+      "patagonia-down-sweater:patagonia-down-sweater-hoody",
+      "patagonia-fitz-roy:patagonia-fitz-roy-down",
+      "arcteryx-cerium:arcteryx-cerium-jacket",
+      "arcteryx-cerium:arc-teryx-cerium",
+      "arcteryx-thorium:arcteryx-thorium-jacket",
+      "arcteryx-thorium:arc-teryx-thorium",
+      "ralph-lauren-puffer:ralph-lauren-puffer-jacket",
+      "ralph-lauren-puffer:polo-ralph-lauren-down-jacket"
     ],
     "vintedItems": 280,
-    "freshItems": 5,
+    "freshItems": 6,
     "freshByAge": 0,
-    "freshByNewId": 5,
+    "freshByNewId": 6,
     "bootstrapBlocked": 0,
-    "staleBlocked": 56,
+    "staleBlocked": 5,
     "candidates": 1,
-    "alerts": 0,
+    "alerts": 1,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-10-15T10:00:15.114Z",
+      "platform": "VINTED",
+      "id": "10384335327",
+      "title": "new genuine patagonia wool beanie hat brown unisex fishermans jacket ralph lauren",
+      "url": "https://www.vinted.co.uk/items/10384335327-new-genuine-patagonia-wool-beanie-hat-brown-unisex-fishermans-jacket-ralph-lauren",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 29.99,
+      "estimatedNetProfit": 40.64,
+      "roi": 135.51,
+      "score": 89
+    },
     {
       "at": "2026-10-15T00:42:40.512Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 27.53,
       "roi": 110.12,
       "score": 91
-    },
-    {
-      "at": "2026-10-13T08:18:27.204Z",
-      "platform": "VINTED",
-      "id": "10356153296",
-      "title": "nike puffer coat",
-      "url": "https://www.vinted.co.uk/items/10356153296-nike-puffer-coat",
-      "modelId": "nike-puffer",
-      "buyPrice": 20,
-      "estimatedNetProfit": 24.65,
-      "roi": 123.25,
-      "score": 92
     }
   ]
 }
