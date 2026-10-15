@@ -1816416,7 +1816416,7 @@
       "url": "https://www.vinted.co.uk/items/10203628402-air-max-95-neon-green",
       "lastPrice": 50,
       "firstSeenAt": "2026-10-01T18:33:52.502Z",
-      "lastSeenAt": "2026-10-14T09:48:32.697Z",
+      "lastSeenAt": "2026-10-15T10:02:11.348Z",
       "sellerRisk": {
         "level": "MEDIUM",
         "note": "seller has only 1 review(s); price is at or below 40% of expected resale; seller identity could not be verified from listing metadata",
@@ -1867466,7 +1867466,7 @@
       "url": "https://www.vinted.co.uk/items/10194872568-nike-air-max-plus-drift-sneakers-cyber-baltic-blue",
       "lastPrice": 68.83,
       "firstSeenAt": "2026-10-03T01:18:17.108Z",
-      "lastSeenAt": "2026-10-15T05:13:11.859Z"
+      "lastSeenAt": "2026-10-15T10:01:46.892Z"
     },
     "10219745558": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -1886633,7 +1886633,7 @@
       "url": "https://www.vinted.co.uk/items/10224940124-nike-air-max-plus-tn-paradise-colourway-2015-release",
       "lastPrice": 75,
       "firstSeenAt": "2026-10-03T13:29:20.454Z",
-      "lastSeenAt": "2026-10-15T05:13:11.859Z"
+      "lastSeenAt": "2026-10-15T10:01:46.892Z"
     },
     "10224828304": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -1942925,7 +1942925,6 @@
       "lastSeenAt": "2026-10-04T14:44:08.878Z"
     },
     "10240175957": {
-      "blockedReason": "seller-check-budget-exhausted",
       "size": 8,
       "condition": "veryGood",
       "resale": 120,
@@ -1942935,7 +1942934,14 @@
       "url": "https://www.vinted.co.uk/items/10240175957-nike-air-max-plus-tn-yellowgreen",
       "lastPrice": 59,
       "firstSeenAt": "2026-10-04T14:44:08.878Z",
-      "lastSeenAt": "2026-10-15T05:13:11.860Z"
+      "lastSeenAt": "2026-10-15T10:01:55.592Z",
+      "buyScore": 79,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: price is at or below 50% of expected resale"
+      },
+      "lastAlertedAt": "2026-10-15T10:01:55.592Z",
+      "discordMessageId": "1560231240773148714"
     },
     "10240157667": {
       "blockedReason": "detail-budget-exhausted",
@@ -1956837,7 +1956843,7 @@
       "url": "https://www.vinted.co.uk/items/10244763777-nike-air-max-plus-3-tn3-laser-blue-mens-uk-9",
       "lastPrice": 95,
       "firstSeenAt": "2026-10-04T18:32:46.141Z",
-      "lastSeenAt": "2026-10-15T05:13:01.610Z"
+      "lastSeenAt": "2026-10-15T10:01:42.056Z"
     },
     "10246899711": {
       "size": 7,
@@ -1969045,7 +1969051,7 @@
       "url": "https://www.vinted.co.uk/items/10247894564-nike-air-max-90-bubble-pack-trainers",
       "lastPrice": 30,
       "firstSeenAt": "2026-10-04T21:56:36.557Z",
-      "lastSeenAt": "2026-10-15T05:13:22.728Z"
+      "lastSeenAt": "2026-10-15T10:02:17.481Z"
     },
     "10247815616": {
       "blockedReason": "seller-check-budget-exhausted",
@@ -1982088,7 +1982094,7 @@
       "url": "https://www.vinted.co.uk/items/10251493437-nike-air-max-95s",
       "lastPrice": 50,
       "firstSeenAt": "2026-10-05T09:01:20.968Z",
-      "lastSeenAt": "2026-10-15T05:13:17.266Z"
+      "lastSeenAt": "2026-10-15T10:02:11.352Z"
     },
     "10251474873": {
       "blockedReason": "seller-check-budget-exhausted",
@@ -1992776,7 +1992782,7 @@
       "url": "https://www.vinted.co.uk/items/10259514195-tns-nike-air-max-plus-3",
       "lastPrice": 23,
       "firstSeenAt": "2026-10-05T18:21:15.849Z",
-      "lastSeenAt": "2026-10-15T05:13:11.859Z"
+      "lastSeenAt": "2026-10-15T10:01:36.802Z"
     },
     "10258230677": {
       "size": 9,
@@ -1993105,7 +1993111,7 @@
       "url": "https://www.vinted.co.uk/items/10258884515-mens-nike-air-max-95",
       "lastPrice": 20,
       "firstSeenAt": "2026-10-05T18:21:56.660Z",
-      "lastSeenAt": "2026-10-15T05:13:17.264Z"
+      "lastSeenAt": "2026-10-15T10:02:11.348Z"
     },
     "10258882733": {
       "blockedReason": "condition",
@@ -1993339,7 +1993345,7 @@
       "url": "https://www.vinted.co.uk/items/10259063179-air-max-95-fresh-mint-uk-65",
       "lastPrice": 60,
       "firstSeenAt": "2026-10-05T18:21:56.661Z",
-      "lastSeenAt": "2026-10-15T05:13:17.266Z"
+      "lastSeenAt": "2026-10-15T10:02:11.352Z"
     },
     "10259041722": {
       "blockedReason": "seller-check-budget-exhausted",
@@ -1993680,7 +1993686,7 @@
       "url": "https://www.vinted.co.uk/items/10254280470-air-max-90-og-infrared-2015",
       "lastPrice": 45,
       "firstSeenAt": "2026-10-05T18:22:01.200Z",
-      "lastSeenAt": "2026-10-15T05:13:22.726Z"
+      "lastSeenAt": "2026-10-15T10:02:17.480Z"
     },
     "10217703118": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2006993,7 +2006999,7 @@
       "url": "https://www.vinted.co.uk/items/10261151017-nike-air-max-95-cream-pink-gum-uk-7",
       "lastPrice": 55,
       "firstSeenAt": "2026-10-06T01:41:04.474Z",
-      "lastSeenAt": "2026-10-15T05:13:17.264Z"
+      "lastSeenAt": "2026-10-15T10:02:11.348Z"
     },
     "10260514562": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2013375,9 +2013381,9 @@
       "blockedReason": "recovery-no-fresh-signal",
       "title": "size 8 nike air max plus drift midnight by navy dusty cactus total orange",
       "url": "https://www.vinted.co.uk/items/10233776738-size-8-nike-air-max-plus-drift-midnight-by-navy-dusty-cactus-total-orange",
-      "lastPrice": 34.34,
+      "lastPrice": 34.41,
       "firstSeenAt": "2026-10-06T06:32:29.795Z",
-      "lastSeenAt": "2026-10-15T00:36:39.856Z"
+      "lastSeenAt": "2026-10-15T10:01:55.592Z"
     },
     "10233775150": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2027039,7 +2027045,7 @@
       "url": "https://www.vinted.co.uk/items/10267443042-nike-air-max-95-premium-wheat-trainers",
       "lastPrice": 39,
       "firstSeenAt": "2026-10-06T15:17:56.053Z",
-      "lastSeenAt": "2026-10-15T05:13:17.264Z"
+      "lastSeenAt": "2026-10-15T10:02:11.348Z"
     },
     "10269067032": {
       "blockedReason": "detail-budget-exhausted",
@@ -2040486,7 +2040492,7 @@
       "url": "https://www.vinted.co.uk/items/10273085345-nike-air-max-95-ultra-medium-ash-particle-grey-uk-9-eu-44",
       "lastPrice": 55,
       "firstSeenAt": "2026-10-06T20:30:54.550Z",
-      "lastSeenAt": "2026-10-15T05:13:17.264Z"
+      "lastSeenAt": "2026-10-15T10:02:11.348Z"
     },
     "10272551691": {
       "blockedReason": "condition",
@@ -2040502,7 +2040508,7 @@
       "url": "https://www.vinted.co.uk/items/10272216775-nike-air-max-95-hyper-crimson-black-grey-mens-size-uk-6",
       "lastPrice": 30,
       "firstSeenAt": "2026-10-06T20:30:54.551Z",
-      "lastSeenAt": "2026-10-15T05:13:17.264Z"
+      "lastSeenAt": "2026-10-15T10:02:11.348Z"
     },
     "10273318102": {
       "blockedReason": "score",
@@ -2041055,7 +2041061,7 @@
       "url": "https://www.vinted.co.uk/items/10271105222-nike-air-max-90-lx-bubble-pack-uk-95",
       "lastPrice": 50,
       "firstSeenAt": "2026-10-06T20:31:26.831Z",
-      "lastSeenAt": "2026-10-15T05:13:22.726Z"
+      "lastSeenAt": "2026-10-15T10:02:17.480Z"
     },
     "10270926118": {
       "blockedReason": "condition",
@@ -2046454,7 +2046460,7 @@
       "url": "https://www.vinted.co.uk/items/10274312540-womens-nike-air-max-90-trainers-size-55",
       "lastPrice": 34,
       "firstSeenAt": "2026-10-06T23:11:57.348Z",
-      "lastSeenAt": "2026-10-15T05:13:22.725Z",
+      "lastSeenAt": "2026-10-15T10:02:17.480Z",
       "size": null
     },
     "10274305091": {
@@ -2049642,7 +2049648,7 @@
       "url": "https://www.vinted.co.uk/items/10274088569-mint-air-max-95s",
       "lastPrice": 60,
       "firstSeenAt": "2026-10-07T00:09:14.254Z",
-      "lastSeenAt": "2026-10-15T05:13:17.266Z"
+      "lastSeenAt": "2026-10-15T10:02:11.352Z"
     },
     "10274072037": {
       "blockedReason": "price",
@@ -2049663,7 +2049669,7 @@
       "url": "https://www.vinted.co.uk/items/10273945760-nike-air-max-95",
       "lastPrice": 27.5,
       "firstSeenAt": "2026-10-07T00:09:14.254Z",
-      "lastSeenAt": "2026-10-15T05:13:17.266Z"
+      "lastSeenAt": "2026-10-15T10:02:11.352Z"
     },
     "10273919756": {
       "blockedReason": "seller-check-budget-exhausted",
@@ -2055612,12 +2055618,12 @@
       "lastSeenAt": "2026-10-07T11:58:53.451Z"
     },
     "10246770940": {
-      "blockedReason": "stale-or-no-freshness-signal",
+      "blockedReason": "recovery-no-fresh-signal",
       "title": "nike air max plus",
       "url": "https://www.vinted.co.uk/items/10246770940-nike-air-max-plus",
-      "lastPrice": 38.15,
+      "lastPrice": 38.24,
       "firstSeenAt": "2026-10-07T05:12:25.810Z",
-      "lastSeenAt": "2026-10-07T11:58:53.451Z"
+      "lastSeenAt": "2026-10-15T10:01:51.670Z"
     },
     "10245743866": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -2056152,7 +2056158,7 @@
       "url": "https://www.vinted.co.uk/items/10274122165-nike-mint-air-max-95s",
       "lastPrice": 30,
       "firstSeenAt": "2026-10-07T08:55:30.776Z",
-      "lastSeenAt": "2026-10-15T05:13:17.264Z"
+      "lastSeenAt": "2026-10-15T10:02:11.348Z"
     },
     "10270629307": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -2081246,7 +2081252,7 @@
       "url": "https://www.vinted.co.uk/items/10282879908-nike-air-max-95-essential-grey-blue-trainers-uk-10-eu-45-sole-damage",
       "lastPrice": 12,
       "firstSeenAt": "2026-10-07T23:15:49.077Z",
-      "lastSeenAt": "2026-10-15T05:13:17.264Z"
+      "lastSeenAt": "2026-10-15T10:02:11.348Z"
     },
     "10256290678": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -2081888,7 +2081894,7 @@
       "url": "https://www.vinted.co.uk/items/10277928784-nike-air-max-90-se-social-fc-light-bone-summit-white-khaki-and-dune-red-trainers-size-uk13",
       "lastPrice": 70,
       "firstSeenAt": "2026-10-07T23:16:17.664Z",
-      "lastSeenAt": "2026-10-15T05:13:22.726Z"
+      "lastSeenAt": "2026-10-15T10:02:17.480Z"
     },
     "10277398260": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2082200,7 +2082206,7 @@
       "url": "https://www.vinted.co.uk/items/10256306891-womens-air-max-90-essential",
       "lastPrice": 19.12,
       "firstSeenAt": "2026-10-07T23:16:17.666Z",
-      "lastSeenAt": "2026-10-15T05:13:22.728Z"
+      "lastSeenAt": "2026-10-15T10:02:17.481Z"
     },
     "10255604630": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -2087726,7 +2087732,7 @@
       "url": "https://www.vinted.co.uk/items/10259349400-nike-air-max-90-anniversary",
       "lastPrice": 72.65,
       "firstSeenAt": "2026-10-08T01:12:48.679Z",
-      "lastSeenAt": "2026-10-15T05:13:22.726Z"
+      "lastSeenAt": "2026-10-15T10:02:17.480Z"
     },
     "10259322558": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2091094,7 +2091100,7 @@
       "url": "https://www.vinted.co.uk/items/10259801822-nike-air-max-90-bacon",
       "lastPrice": 84.13,
       "firstSeenAt": "2026-10-08T02:49:42.194Z",
-      "lastSeenAt": "2026-10-15T05:13:22.728Z"
+      "lastSeenAt": "2026-10-15T10:02:17.481Z"
     },
     "10259533607": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -2098658,7 +2098664,7 @@
       "url": "https://www.vinted.co.uk/items/10283588900-nike-air-max-95-grey-black-yellow-trainers-uk-4-youth",
       "lastPrice": 28,
       "firstSeenAt": "2026-10-08T14:53:43.595Z",
-      "lastSeenAt": "2026-10-15T05:13:17.264Z"
+      "lastSeenAt": "2026-10-15T10:02:11.348Z"
     },
     "10293408061": {
       "size": 8,
@@ -2099050,7 +2099056,7 @@
       "url": "https://www.vinted.co.uk/items/10291658602-nike-air-max-95-trooper-green-2017-uk-75",
       "lastPrice": 60,
       "firstSeenAt": "2026-10-08T14:53:52.149Z",
-      "lastSeenAt": "2026-10-15T05:13:17.266Z"
+      "lastSeenAt": "2026-10-15T10:02:11.352Z"
     },
     "10291557554": {
       "blockedReason": "seller-check-budget-exhausted",
@@ -2099084,7 +2099090,7 @@
       "url": "https://www.vinted.co.uk/items/10289401261-nike-air-max-95-hyper-turquoise-fv4710-100-uk-85-eur-43-grey-white-trainers-mens",
       "lastPrice": 70,
       "firstSeenAt": "2026-10-08T14:53:52.149Z",
-      "lastSeenAt": "2026-10-15T05:13:17.266Z"
+      "lastSeenAt": "2026-10-15T10:02:11.352Z"
     },
     "10289120647": {
       "blockedReason": "price",
@@ -2099276,7 +2099282,7 @@
       "url": "https://www.vinted.co.uk/items/10293134838-vintage-2007-nike-air-max-90-white-blue-trainers-uk-75-y2k",
       "lastPrice": 40,
       "firstSeenAt": "2026-10-08T14:53:57.635Z",
-      "lastSeenAt": "2026-10-15T05:13:22.726Z"
+      "lastSeenAt": "2026-10-15T10:02:17.480Z"
     },
     "10292870086": {
       "blockedReason": "condition",
@@ -2099731,7 +2099737,7 @@
       "url": "https://www.vinted.co.uk/items/10261708384-size-6-12-w-nike-air-max-90-multi-color",
       "lastPrice": 45.89,
       "firstSeenAt": "2026-10-08T14:53:57.640Z",
-      "lastSeenAt": "2026-10-15T05:13:22.728Z"
+      "lastSeenAt": "2026-10-15T10:02:17.481Z"
     },
     "10290911723": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -2111772,7 +2111778,7 @@
       "url": "https://www.vinted.co.uk/items/10287785096-nike-air-max-95-big-bubble-uk-65",
       "lastPrice": 140,
       "firstSeenAt": "2026-10-08T20:41:12.354Z",
-      "lastSeenAt": "2026-10-15T05:13:17.263Z"
+      "lastSeenAt": "2026-10-15T10:02:11.348Z"
     },
     "10297831087": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2111788,7 +2111794,7 @@
       "url": "https://www.vinted.co.uk/items/10297810249-air-max-95s",
       "lastPrice": 15,
       "firstSeenAt": "2026-10-08T20:41:12.354Z",
-      "lastSeenAt": "2026-10-15T05:13:17.264Z"
+      "lastSeenAt": "2026-10-15T10:02:11.348Z"
     },
     "10297763068": {
       "blockedReason": "condition",
@@ -2111937,13 +2111943,13 @@
       "size": 8,
       "condition": "veryGood",
       "resale": 125,
-      "netProfit": 69.2,
-      "roi": 125.82,
+      "netProfit": 74.2,
+      "roi": 148.4,
       "title": "nike air max 95og neutral oilmens size 8",
       "url": "https://www.vinted.co.uk/items/10297758681-nike-air-max-95og-neutral-oilmens-size-8",
-      "lastPrice": 55,
+      "lastPrice": 50,
       "firstSeenAt": "2026-10-08T20:41:16.233Z",
-      "lastSeenAt": "2026-10-15T05:13:17.266Z"
+      "lastSeenAt": "2026-10-15T10:02:11.351Z"
     },
     "10297749498": {
       "blockedReason": "seller-check-budget-exhausted",
@@ -2112358,7 +2112364,7 @@
       "url": "https://www.vinted.co.uk/items/10294456540-nike-air-max-95-baltic-blue-black-ib1667-001-uk-10",
       "lastPrice": 90,
       "firstSeenAt": "2026-10-08T20:41:16.236Z",
-      "lastSeenAt": "2026-10-15T05:13:17.266Z"
+      "lastSeenAt": "2026-10-15T10:02:11.351Z"
     },
     "10273279763": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2112407,7 +2112413,7 @@
       "url": "https://www.vinted.co.uk/items/10297342742-nike-air-max-90-eoi-uk95",
       "lastPrice": 120,
       "firstSeenAt": "2026-10-08T20:41:21.669Z",
-      "lastSeenAt": "2026-10-15T05:13:22.725Z"
+      "lastSeenAt": "2026-10-15T10:02:17.480Z"
     },
     "10296982900": {
       "blockedReason": "price",
@@ -2112680,7 +2112686,7 @@
       "url": "https://www.vinted.co.uk/items/10295619292-nike-air-max-90s",
       "lastPrice": 60,
       "firstSeenAt": "2026-10-08T20:41:21.671Z",
-      "lastSeenAt": "2026-10-15T05:13:22.728Z"
+      "lastSeenAt": "2026-10-15T10:02:17.481Z"
     },
     "10295468761": {
       "blockedReason": "seller-check-budget-exhausted",
@@ -2124324,7 +2124330,7 @@
       "url": "https://www.vinted.co.uk/items/10277920585-nike-air-max-plus-3-acid-wash-mens-us-10",
       "lastPrice": 37.23,
       "firstSeenAt": "2026-10-09T00:48:00.080Z",
-      "lastSeenAt": "2026-10-15T05:12:40.042Z"
+      "lastSeenAt": "2026-10-15T10:01:36.802Z"
     },
     "10294579156": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2125297,7 +2125303,7 @@
       "url": "https://www.vinted.co.uk/items/10268191327-nike-air-max-90",
       "lastPrice": 76.48,
       "firstSeenAt": "2026-10-09T01:46:08.083Z",
-      "lastSeenAt": "2026-10-15T05:13:22.728Z"
+      "lastSeenAt": "2026-10-15T10:02:17.481Z"
     },
     "10298323902": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -2131396,7 +2131402,7 @@
       "url": "https://www.vinted.co.uk/items/10274729017-nike-air-max-90-be-true-2019",
       "lastPrice": 95.6,
       "firstSeenAt": "2026-10-09T08:03:13.447Z",
-      "lastSeenAt": "2026-10-15T05:13:22.728Z"
+      "lastSeenAt": "2026-10-15T10:02:17.481Z"
     },
     "10274703938": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2136282,9 +2136288,9 @@
       "blockedReason": "recovery-no-fresh-signal",
       "title": "nike air max 95 anatomy of air",
       "url": "https://www.vinted.co.uk/items/10304306056-nike-air-max-95-anatomy-of-air",
-      "lastPrice": 135,
+      "lastPrice": 115,
       "firstSeenAt": "2026-10-09T13:57:19.114Z",
-      "lastSeenAt": "2026-10-15T05:13:17.266Z"
+      "lastSeenAt": "2026-10-15T10:02:11.351Z"
     },
     "10304295788": {
       "blockedReason": "detail-budget-exhausted",
@@ -2141206,7 +2141212,7 @@
       "url": "https://www.vinted.co.uk/items/10305070253-nike-blue-tn3",
       "lastPrice": 20,
       "firstSeenAt": "2026-10-09T15:19:30.693Z",
-      "lastSeenAt": "2026-10-15T05:12:40.042Z"
+      "lastSeenAt": "2026-10-15T10:01:36.802Z"
     },
     "10302422862": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -2141217,7 +2141223,6 @@
       "lastSeenAt": "2026-10-12T09:11:34.622Z"
     },
     "10303142282": {
-      "blockedReason": "seller-check-budget-exhausted",
       "size": 7.5,
       "condition": "veryGood",
       "resale": 115,
@@ -2141227,7 +2141232,14 @@
       "url": "https://www.vinted.co.uk/items/10303142282-nike-air-max-plus-3-tn-claystone-red-mens-uk-75",
       "lastPrice": 30,
       "firstSeenAt": "2026-10-09T15:19:30.694Z",
-      "lastSeenAt": "2026-10-15T00:36:34.608Z"
+      "lastSeenAt": "2026-10-15T10:01:42.056Z",
+      "buyScore": 98,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: price is at or below 30% of expected resale"
+      },
+      "lastAlertedAt": "2026-10-15T10:01:42.056Z",
+      "discordMessageId": "1560231183525224562"
     },
     "10271184318": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2141602,7 +2141614,7 @@
       "url": "https://www.vinted.co.uk/items/10302987714-nike-air-max-95-ultra-se-gris-volt",
       "lastPrice": 70,
       "firstSeenAt": "2026-10-09T15:23:26.951Z",
-      "lastSeenAt": "2026-10-15T05:13:17.264Z"
+      "lastSeenAt": "2026-10-15T10:02:11.348Z"
     },
     "10305642215": {
       "size": 7.5,
@@ -2154527,7 +2154539,7 @@
       "url": "https://www.vinted.co.uk/items/10307129848-nike-pegasus-trail-5-gtx-black-trainers-size-9-brand-new-in-box-5",
       "lastPrice": 84.99,
       "firstSeenAt": "2026-10-09T23:20:06.791Z",
-      "lastSeenAt": "2026-10-15T05:12:03.826Z"
+      "lastSeenAt": "2026-10-15T10:01:00.409Z"
     },
     "10310082207": {
       "blockedReason": "seller-check-budget-exhausted",
@@ -2155027,7 +2155039,7 @@
       "url": "https://www.vinted.co.uk/items/10307933936-custom-nike-air-max-plus-3-triple-white-restored-cw1417-100-uk-9",
       "lastPrice": 38.9,
       "firstSeenAt": "2026-10-09T23:20:16.973Z",
-      "lastSeenAt": "2026-10-15T05:12:40.042Z"
+      "lastSeenAt": "2026-10-15T10:01:36.802Z"
     },
     "10308987159": {
       "blockedReason": "seller-check-budget-exhausted",
@@ -2155537,7 +2155549,7 @@
       "url": "https://www.vinted.co.uk/items/10307156465-air-max-95-full-grey",
       "lastPrice": 25,
       "firstSeenAt": "2026-10-09T23:24:26.827Z",
-      "lastSeenAt": "2026-10-15T05:13:17.264Z"
+      "lastSeenAt": "2026-10-15T10:02:11.348Z"
     },
     "10310440696": {
       "size": 10,
@@ -2175878,7 +2175890,7 @@
       "url": "https://www.vinted.co.uk/items/10316057303-nike-air-max-90-multi-color-pastel",
       "lastPrice": 60,
       "firstSeenAt": "2026-10-10T15:10:06.647Z",
-      "lastSeenAt": "2026-10-15T05:13:22.725Z"
+      "lastSeenAt": "2026-10-15T10:02:17.480Z"
     },
     "10315185122": {
       "blockedReason": "detail-budget-exhausted",
@@ -2176129,7 +2176141,7 @@
       "url": "https://www.vinted.co.uk/items/10318320110-nike-air-max-90-trainers",
       "lastPrice": 34,
       "firstSeenAt": "2026-10-10T15:10:06.649Z",
-      "lastSeenAt": "2026-10-15T05:13:22.728Z"
+      "lastSeenAt": "2026-10-15T10:02:17.481Z"
     },
     "10318166004": {
       "blockedReason": "keyword",
@@ -2176374,7 +2176386,7 @@
       "url": "https://www.vinted.co.uk/items/10278605786-nike-air-max-90-uk3-rrpps13499",
       "lastPrice": 134.99,
       "firstSeenAt": "2026-10-10T15:10:06.650Z",
-      "lastSeenAt": "2026-10-15T05:13:22.728Z"
+      "lastSeenAt": "2026-10-15T10:02:17.481Z"
     },
     "10316702334": {
       "blockedReason": "detail-budget-exhausted",
@@ -2189535,7 +2189547,7 @@
       "url": "https://www.vinted.co.uk/items/10318885380-nike-reactx-pegasus-trail-5-goretex",
       "lastPrice": 65,
       "firstSeenAt": "2026-10-10T20:33:44.449Z",
-      "lastSeenAt": "2026-10-15T05:12:03.826Z"
+      "lastSeenAt": "2026-10-15T10:01:00.409Z"
     },
     "10299719440": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -2189857,12 +2189869,12 @@
       "lastSeenAt": "2026-10-10T20:33:49.970Z"
     },
     "10319239836": {
-      "blockedReason": "stale-or-no-freshness-signal",
+      "blockedReason": "recovery-no-fresh-signal",
       "title": "nike air max plus iii tn camoblackorange uk size 95",
       "url": "https://www.vinted.co.uk/items/10319239836-nike-air-max-plus-iii-tn-camoblackorange-uk-size-95",
       "lastPrice": 55,
       "firstSeenAt": "2026-10-10T20:33:49.970Z",
-      "lastSeenAt": "2026-10-14T01:07:27.111Z"
+      "lastSeenAt": "2026-10-15T10:01:36.802Z"
     },
     "10318531462": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2191130,7 +2191142,7 @@
       "url": "https://www.vinted.co.uk/items/10321262568-nike-air-max-95-wolf-grey-uk-10-fj4217-001",
       "lastPrice": 39.99,
       "firstSeenAt": "2026-10-10T20:38:21.055Z",
-      "lastSeenAt": "2026-10-15T05:13:17.266Z"
+      "lastSeenAt": "2026-10-15T10:02:11.351Z"
     },
     "10320839511": {
       "blockedReason": "seller-check-budget-exhausted",
@@ -2191483,7 +2191495,7 @@
       "url": "https://www.vinted.co.uk/items/10321584126-nike-air-max-90trainers",
       "lastPrice": 44,
       "firstSeenAt": "2026-10-10T20:38:28.085Z",
-      "lastSeenAt": "2026-10-13T21:58:50.691Z"
+      "lastSeenAt": "2026-10-15T10:02:17.481Z"
     },
     "10321520949": {
       "blockedReason": "detail-budget-exhausted",
@@ -2191628,7 +2191640,7 @@
       "url": "https://www.vinted.co.uk/items/10319912605-nike-air-max-90-air-sprung-iron-grey",
       "lastPrice": 40,
       "firstSeenAt": "2026-10-10T20:38:28.087Z",
-      "lastSeenAt": "2026-10-15T05:13:22.727Z"
+      "lastSeenAt": "2026-10-15T10:02:17.481Z"
     },
     "10318435312": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -2208708,7 +2208720,7 @@
       "url": "https://www.vinted.co.uk/items/10298614337-nike-air-max-plus",
       "lastPrice": 34.41,
       "firstSeenAt": "2026-10-11T10:50:20.821Z",
-      "lastSeenAt": "2026-10-15T05:13:11.860Z"
+      "lastSeenAt": "2026-10-15T10:01:51.670Z"
     },
     "10298585643": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2209754,7 +2209766,7 @@
       "url": "https://www.vinted.co.uk/items/10303697860-nike-air-max-95s",
       "lastPrice": 90,
       "firstSeenAt": "2026-10-11T10:55:13.479Z",
-      "lastSeenAt": "2026-10-15T00:36:44.531Z"
+      "lastSeenAt": "2026-10-15T10:02:11.351Z"
     },
     "10329307861": {
       "blockedReason": "price",
@@ -2210165,7 +2210177,7 @@
       "url": "https://www.vinted.co.uk/items/10299197124-nike-air-max-90",
       "lastPrice": 36.71,
       "firstSeenAt": "2026-10-11T10:55:18.477Z",
-      "lastSeenAt": "2026-10-15T05:13:22.728Z"
+      "lastSeenAt": "2026-10-15T10:02:17.481Z"
     },
     "10299140104": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -2216754,7 +2216766,7 @@
       "url": "https://www.vinted.co.uk/items/10330120504-nike-air-max-90",
       "lastPrice": 30,
       "firstSeenAt": "2026-10-11T14:26:16.014Z",
-      "lastSeenAt": "2026-10-15T05:13:22.727Z"
+      "lastSeenAt": "2026-10-15T10:02:17.481Z"
     },
     "10327421566": {
       "blockedReason": "price",
@@ -2222227,7 +2222239,7 @@
       "url": "https://www.vinted.co.uk/items/10333359900-mens-nike-pegasus-trail-5-gtx-size-14",
       "lastPrice": 40,
       "firstSeenAt": "2026-10-11T16:39:35.654Z",
-      "lastSeenAt": "2026-10-15T05:12:03.826Z"
+      "lastSeenAt": "2026-10-15T10:01:06.921Z"
     },
     "10333171054": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2222240,7 +2222252,7 @@
       "url": "https://www.vinted.co.uk/items/10333171054-nike-pegasus-trail-gtx-5-greenorange-size-9",
       "lastPrice": 75,
       "firstSeenAt": "2026-10-11T16:39:35.654Z",
-      "lastSeenAt": "2026-10-15T05:12:03.826Z",
+      "lastSeenAt": "2026-10-15T10:01:06.921Z",
       "buyScore": 53,
       "fakeRisk": {
         "level": "LOW",
@@ -2222314,7 +2222326,7 @@
       "url": "https://www.vinted.co.uk/items/10336406469-nike-air-max-plus",
       "lastPrice": 125,
       "firstSeenAt": "2026-10-11T16:39:39.508Z",
-      "lastSeenAt": "2026-10-15T05:13:11.859Z"
+      "lastSeenAt": "2026-10-15T10:01:46.892Z"
     },
     "10336175366": {
       "blockedReason": "price",
@@ -2222340,7 +2222352,7 @@
       "url": "https://www.vinted.co.uk/items/10335685326-nike-air-max-plus-tn-ashen-slate",
       "lastPrice": 99.95,
       "firstSeenAt": "2026-10-11T16:39:39.508Z",
-      "lastSeenAt": "2026-10-15T05:13:11.859Z"
+      "lastSeenAt": "2026-10-15T10:01:46.892Z"
     },
     "10335582909": {
       "blockedReason": "detail-budget-exhausted",
@@ -2222435,7 +2222447,7 @@
       "url": "https://www.vinted.co.uk/items/10330901003-nike-air-max-plus-tn-green-black-volt-trainers",
       "lastPrice": 125,
       "firstSeenAt": "2026-10-11T16:39:39.509Z",
-      "lastSeenAt": "2026-10-15T05:13:11.859Z"
+      "lastSeenAt": "2026-10-15T10:01:46.892Z"
     },
     "10330613897": {
       "blockedReason": "weak-margin",
@@ -2222865,7 +2222877,7 @@
       "url": "https://www.vinted.co.uk/items/10332292359-nike-air-max-plus",
       "lastPrice": 30,
       "firstSeenAt": "2026-10-11T16:39:39.511Z",
-      "lastSeenAt": "2026-10-15T05:13:11.860Z",
+      "lastSeenAt": "2026-10-15T10:01:51.670Z",
       "sellerRisk": {
         "level": "HIGH",
         "note": "seller has 0 recorded reviews; price is at or below 30% of expected resale; seller identity could not be verified from listing metadata",
@@ -2223040,7 +2223052,7 @@
       "url": "https://www.vinted.co.uk/items/10333969730-nike-tn-3s",
       "lastPrice": 20,
       "firstSeenAt": "2026-10-11T16:39:44.114Z",
-      "lastSeenAt": "2026-10-15T05:12:40.042Z"
+      "lastSeenAt": "2026-10-15T10:01:36.802Z"
     },
     "10336959553": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -2223598,7 +2223610,7 @@
       "url": "https://www.vinted.co.uk/items/10335690121-nike-air-max-95-nrg-recycled-canvas-vast-grey-barely-volt-ck6478-001",
       "lastPrice": 45,
       "firstSeenAt": "2026-10-11T16:44:03.438Z",
-      "lastSeenAt": "2026-10-15T05:13:17.264Z"
+      "lastSeenAt": "2026-10-15T10:02:11.348Z"
     },
     "10335501394": {
       "blockedReason": "condition",
@@ -2223909,7 +2223921,7 @@
       "url": "https://www.vinted.co.uk/items/10333333826-trainers-am95",
       "lastPrice": 45,
       "firstSeenAt": "2026-10-11T16:44:22.322Z",
-      "lastSeenAt": "2026-10-15T05:13:17.266Z"
+      "lastSeenAt": "2026-10-15T10:02:11.351Z"
     },
     "10333067975": {
       "blockedReason": "detail-budget-exhausted",
@@ -2223918,7 +2223930,7 @@
       "url": "https://www.vinted.co.uk/items/10333067975-nike-air-zoom-mercurial-vapor-16-elite-x-am95-se-air-max-95",
       "lastPrice": 55,
       "firstSeenAt": "2026-10-11T16:44:22.323Z",
-      "lastSeenAt": "2026-10-15T05:13:17.266Z"
+      "lastSeenAt": "2026-10-15T10:02:11.351Z"
     },
     "10336783043": {
       "blockedReason": "seller-check-budget-exhausted",
@@ -2224118,7 +2224130,7 @@
       "url": "https://www.vinted.co.uk/items/10334897518-air-max-90-be-true-2019-uk-45",
       "lastPrice": 265,
       "firstSeenAt": "2026-10-11T16:44:27.026Z",
-      "lastSeenAt": "2026-10-15T05:13:22.726Z"
+      "lastSeenAt": "2026-10-15T10:02:17.480Z"
     },
     "10334334107": {
       "blockedReason": "condition",
@@ -2224309,7 +2224321,7 @@
       "url": "https://www.vinted.co.uk/items/10335800396-nike-air-max-90",
       "lastPrice": 50,
       "firstSeenAt": "2026-10-11T16:44:27.027Z",
-      "lastSeenAt": "2026-10-15T05:13:22.727Z"
+      "lastSeenAt": "2026-10-15T10:02:17.481Z"
     },
     "10335784803": {
       "blockedReason": "seller-check-budget-exhausted",
@@ -2231078,7 +2231090,7 @@
       "url": "https://www.vinted.co.uk/items/10339566279-nike-air-max-95-neon",
       "lastPrice": 30,
       "firstSeenAt": "2026-10-11T19:15:32.497Z",
-      "lastSeenAt": "2026-10-15T05:13:17.264Z"
+      "lastSeenAt": "2026-10-15T10:02:11.348Z"
     },
     "10339506131": {
       "blockedReason": "condition",
@@ -2231864,12 +2231876,12 @@
       "lastSeenAt": "2026-10-11T20:45:13.174Z"
     },
     "10336632948": {
-      "blockedReason": "stale-or-no-freshness-signal",
+      "blockedReason": "recovery-no-fresh-signal",
       "title": "nike trainers",
       "url": "https://www.vinted.co.uk/items/10336632948-nike-trainers",
       "lastPrice": 10,
       "firstSeenAt": "2026-10-11T19:15:48.055Z",
-      "lastSeenAt": "2026-10-15T05:21:58.198Z"
+      "lastSeenAt": "2026-10-15T10:00:55.337Z"
     },
     "10335713406": {
       "blockedReason": "keyword",
@@ -2235955,7 +2235967,7 @@
       "url": "https://www.vinted.co.uk/items/10340581847-nike-pegasus-trail-5-gtx-brand-new-in-box",
       "lastPrice": 80,
       "firstSeenAt": "2026-10-11T20:40:43.627Z",
-      "lastSeenAt": "2026-10-15T05:12:03.826Z"
+      "lastSeenAt": "2026-10-15T10:01:00.409Z"
     },
     "10340476161": {
       "size": 7,
@@ -2235982,7 +2235994,7 @@
       "url": "https://www.vinted.co.uk/items/10339933574-nike-womens-pegasus-trail-3-gore-tex-waterproof-shoes-uk-5-eu-385",
       "lastPrice": 36,
       "firstSeenAt": "2026-10-11T20:40:51.969Z",
-      "lastSeenAt": "2026-10-15T05:12:03.826Z"
+      "lastSeenAt": "2026-10-15T10:01:06.921Z"
     },
     "10339090507": {
       "size": 7.5,
@@ -2236203,7 +2236215,7 @@
       "url": "https://www.vinted.co.uk/items/10340331213-nike-air-max-plus-tn-trainers-burgundy-crush-uk-size-65-with-box",
       "lastPrice": 120,
       "firstSeenAt": "2026-10-11T20:41:19.316Z",
-      "lastSeenAt": "2026-10-15T05:13:11.860Z"
+      "lastSeenAt": "2026-10-15T10:01:51.670Z"
     },
     "10340313581": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -2236875,9 +2236887,9 @@
       "blockedReason": "recovery-no-fresh-signal",
       "title": "nike air max 95 neon",
       "url": "https://www.vinted.co.uk/items/10340666887-nike-air-max-95-neon",
-      "lastPrice": 160,
+      "lastPrice": 140,
       "firstSeenAt": "2026-10-11T20:45:35.929Z",
-      "lastSeenAt": "2026-10-15T05:13:17.263Z"
+      "lastSeenAt": "2026-10-15T10:02:11.348Z"
     },
     "10340293580": {
       "blockedReason": "price",
@@ -2237396,7 +2237408,7 @@
       "url": "https://www.vinted.co.uk/items/10340942829-nike-air-max-90-smoke-grey-crocodile-coconut-milk-and-black-io4468-100-uk-95-brand-new-in-box",
       "lastPrice": 110,
       "firstSeenAt": "2026-10-11T20:46:19.226Z",
-      "lastSeenAt": "2026-10-15T05:13:22.725Z"
+      "lastSeenAt": "2026-10-15T10:02:17.480Z"
     },
     "10340890567": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2246588,7 +2246600,7 @@
       "url": "https://www.vinted.co.uk/items/10341640568-nike-pegasus-trail-5-gore-tex",
       "lastPrice": 38,
       "firstSeenAt": "2026-10-12T00:04:58.498Z",
-      "lastSeenAt": "2026-10-15T05:12:03.826Z"
+      "lastSeenAt": "2026-10-15T10:01:00.409Z"
     },
     "10320481573": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2246604,7 +2246616,7 @@
       "url": "https://www.vinted.co.uk/items/10342241161-nike-air-max-plus-new",
       "lastPrice": 120,
       "firstSeenAt": "2026-10-12T00:05:35.967Z",
-      "lastSeenAt": "2026-10-15T05:13:11.859Z"
+      "lastSeenAt": "2026-10-15T10:01:46.892Z"
     },
     "10341347699": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -2247197,7 +2247209,7 @@
       "url": "https://www.vinted.co.uk/items/10335387359-air-max-95s",
       "lastPrice": 60,
       "firstSeenAt": "2026-10-12T02:00:56.520Z",
-      "lastSeenAt": "2026-10-15T05:13:17.263Z"
+      "lastSeenAt": "2026-10-15T10:02:11.348Z"
     },
     "10342449310": {
       "blockedReason": "condition",
@@ -2247410,7 +2247422,7 @@
       "url": "https://www.vinted.co.uk/items/10331178693-nike-air-max-90",
       "lastPrice": 150,
       "firstSeenAt": "2026-10-12T02:01:27.685Z",
-      "lastSeenAt": "2026-10-15T05:13:22.725Z"
+      "lastSeenAt": "2026-10-15T10:02:17.480Z"
     },
     "10342862293": {
       "blockedReason": "condition",
@@ -2255717,7 +2255729,7 @@
       "url": "https://www.vinted.co.uk/items/10311049177-air-max-90",
       "lastPrice": 68.83,
       "firstSeenAt": "2026-10-12T13:32:53.350Z",
-      "lastSeenAt": "2026-10-15T05:13:22.725Z"
+      "lastSeenAt": "2026-10-15T10:02:17.480Z"
     },
     "10348384524": {
       "blockedReason": "condition",
@@ -2270016,7 +2270028,7 @@
       "url": "https://www.vinted.co.uk/items/10351632799-nike-react-sea-glass-purple-ink-pegasus-trail-4-gtx-v2-trainers",
       "lastPrice": 80,
       "firstSeenAt": "2026-10-12T22:03:25.633Z",
-      "lastSeenAt": "2026-10-15T05:12:03.826Z"
+      "lastSeenAt": "2026-10-15T10:01:00.409Z"
     },
     "10350684647": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2270029,7 +2270041,7 @@
       "url": "https://www.vinted.co.uk/items/10350684647-mens-nike-pegasus-trail-5-gtx",
       "lastPrice": 80,
       "firstSeenAt": "2026-10-12T22:03:25.633Z",
-      "lastSeenAt": "2026-10-15T05:12:03.826Z"
+      "lastSeenAt": "2026-10-15T10:01:00.409Z"
     },
     "10346324959": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2270042,15 +2270054,15 @@
       "url": "https://www.vinted.co.uk/items/10346324959-nike-pegasus-trail-5-gore-tex-womens-running-shoes-uk-6-brand-new",
       "lastPrice": 77,
       "firstSeenAt": "2026-10-12T22:03:25.633Z",
-      "lastSeenAt": "2026-10-15T05:12:03.826Z"
+      "lastSeenAt": "2026-10-15T10:01:00.409Z"
     },
     "10346780972": {
       "blockedReason": "recovery-no-fresh-signal",
       "title": "nike pegasus trail 5 gtx gortex",
       "url": "https://www.vinted.co.uk/items/10346780972-nike-pegasus-trail-5-gtx-gortex",
-      "lastPrice": 25,
+      "lastPrice": 22,
       "firstSeenAt": "2026-10-12T22:03:25.633Z",
-      "lastSeenAt": "2026-10-15T05:12:03.826Z"
+      "lastSeenAt": "2026-10-15T10:01:00.409Z"
     },
     "10353698562": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2270059,7 +2270071,7 @@
       "url": "https://www.vinted.co.uk/items/10353698562-nike-pegasus-trail-gore-tex-trainers",
       "lastPrice": 35,
       "firstSeenAt": "2026-10-12T22:03:25.633Z",
-      "lastSeenAt": "2026-10-15T05:12:03.826Z"
+      "lastSeenAt": "2026-10-15T10:01:06.921Z"
     },
     "10353676116": {
       "blockedReason": "size",
@@ -2270096,7 +2270108,7 @@
       "url": "https://www.vinted.co.uk/items/10350635327-nike-pegasus-trail-4-gore-tex-trainers",
       "lastPrice": 30,
       "firstSeenAt": "2026-10-12T22:03:25.634Z",
-      "lastSeenAt": "2026-10-15T05:12:03.826Z"
+      "lastSeenAt": "2026-10-15T10:01:06.921Z"
     },
     "10346284883": {
       "size": 9,
@@ -2270247,7 +2270259,7 @@
       "url": "https://www.vinted.co.uk/items/10354911006-nike-air-max-plus-tn-blue-gradient",
       "lastPrice": 60,
       "firstSeenAt": "2026-10-12T22:03:31.157Z",
-      "lastSeenAt": "2026-10-15T05:13:11.859Z"
+      "lastSeenAt": "2026-10-15T10:01:46.892Z"
     },
     "10354533385": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2270255,7 +2270267,7 @@
       "url": "https://www.vinted.co.uk/items/10354533385-nike-air-max-plus-tn-triple-black-uk-3",
       "lastPrice": 27,
       "firstSeenAt": "2026-10-12T22:03:31.157Z",
-      "lastSeenAt": "2026-10-15T05:12:40.042Z"
+      "lastSeenAt": "2026-10-15T10:01:36.802Z"
     },
     "10354317838": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -2270437,7 +2270449,7 @@
       "url": "https://www.vinted.co.uk/items/10353296378-nike-air-max-plus-tn-terrascape-sail-sea-glass-colourway-360-shox",
       "lastPrice": 90,
       "firstSeenAt": "2026-10-12T22:03:31.158Z",
-      "lastSeenAt": "2026-10-15T05:13:11.860Z",
+      "lastSeenAt": "2026-10-15T10:01:51.670Z",
       "buyScore": 51,
       "fakeRisk": {
         "level": "LOW",
@@ -2270638,7 +2270650,7 @@
       "url": "https://www.vinted.co.uk/items/10350588889-nike-air-max-plus-97-discover-your-air",
       "lastPrice": 50,
       "firstSeenAt": "2026-10-12T22:03:31.159Z",
-      "lastSeenAt": "2026-10-15T05:13:11.860Z",
+      "lastSeenAt": "2026-10-15T10:01:51.670Z",
       "sellerRisk": {
         "level": "MEDIUM",
         "note": "seller has 0 recorded reviews; price is at or below 50% of expected resale",
@@ -2270680,7 +2270692,7 @@
       "url": "https://www.vinted.co.uk/items/10349601035-nike-air-max-plus-3",
       "lastPrice": 150,
       "firstSeenAt": "2026-10-12T22:03:35.712Z",
-      "lastSeenAt": "2026-10-15T05:12:40.041Z"
+      "lastSeenAt": "2026-10-15T10:01:36.802Z"
     },
     "10351720914": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -2270697,7 +2270709,7 @@
       "url": "https://www.vinted.co.uk/items/10351605328-nike-air-max-plus-3-tn-black-smoke-grey-gum-trainer-size-55",
       "lastPrice": 44.99,
       "firstSeenAt": "2026-10-12T22:03:35.713Z",
-      "lastSeenAt": "2026-10-15T05:12:50.536Z"
+      "lastSeenAt": "2026-10-15T10:01:36.802Z"
     },
     "10351307812": {
       "size": 8,
@@ -2270742,7 +2270754,7 @@
       "url": "https://www.vinted.co.uk/items/10345855191-nike-tn-air-max-plus-violet-dusk-grey-size-uk-7",
       "lastPrice": 99.99,
       "firstSeenAt": "2026-10-12T22:03:40.297Z",
-      "lastSeenAt": "2026-10-15T05:13:11.859Z"
+      "lastSeenAt": "2026-10-15T10:01:46.892Z"
     },
     "10353523284": {
       "size": 11,
@@ -2270883,7 +2270895,7 @@
       "url": "https://www.vinted.co.uk/items/10354043036-nike-air-max-95-mints",
       "lastPrice": 75,
       "firstSeenAt": "2026-10-12T22:03:46.136Z",
-      "lastSeenAt": "2026-10-15T05:13:17.263Z"
+      "lastSeenAt": "2026-10-15T10:02:11.348Z"
     },
     "10350366078": {
       "blockedReason": "seller-check-budget-exhausted",
@@ -2270982,7 +2270994,7 @@
       "url": "https://www.vinted.co.uk/items/10350350327-nike-air-max-95-iron-grey-volt-uk-11",
       "lastPrice": 36.99,
       "firstSeenAt": "2026-10-12T22:03:46.137Z",
-      "lastSeenAt": "2026-10-15T05:13:17.264Z"
+      "lastSeenAt": "2026-10-15T10:02:11.348Z"
     },
     "10355129559": {
       "blockedReason": "seller-check-budget-exhausted",
@@ -2271248,7 +2271260,7 @@
       "url": "https://www.vinted.co.uk/items/10352810763-nike-air-max-95-neon-hm4740-001",
       "lastPrice": 195,
       "firstSeenAt": "2026-10-12T22:03:46.140Z",
-      "lastSeenAt": "2026-10-15T05:13:17.265Z"
+      "lastSeenAt": "2026-10-15T10:02:11.351Z"
     },
     "10352602321": {
       "blockedReason": "detail-budget-exhausted",
@@ -2271257,7 +2271269,7 @@
       "url": "https://www.vinted.co.uk/items/10352602321-nike-air-max-95-x-total-90-metallic-silver-ib6830-002",
       "lastPrice": 88,
       "firstSeenAt": "2026-10-12T22:03:46.140Z",
-      "lastSeenAt": "2026-10-15T05:13:17.265Z"
+      "lastSeenAt": "2026-10-15T10:02:11.351Z"
     },
     "10350426931": {
       "blockedReason": "seller-check-budget-exhausted",
@@ -2271270,7 +2271282,7 @@
       "url": "https://www.vinted.co.uk/items/10350426931-nike-air-max-95-hyper-crimson-uk-7-fv4710-002",
       "lastPrice": 39.99,
       "firstSeenAt": "2026-10-12T22:03:46.141Z",
-      "lastSeenAt": "2026-10-15T05:13:17.266Z"
+      "lastSeenAt": "2026-10-15T10:02:11.351Z"
     },
     "10349967191": {
       "blockedReason": "detail-budget-exhausted",
@@ -2271287,7 +2271299,7 @@
       "url": "https://www.vinted.co.uk/items/10349535281-nike-air-max-95",
       "lastPrice": 120,
       "firstSeenAt": "2026-10-12T22:03:46.141Z",
-      "lastSeenAt": "2026-10-15T05:13:17.266Z"
+      "lastSeenAt": "2026-10-15T10:02:11.351Z"
     },
     "10318583535": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -2271770,7 +2271782,7 @@
       "url": "https://www.vinted.co.uk/items/10352069087-nike-air-max-90-white-hyper-turquoise-trainers-mint-green-air-unit-sneakers-uk-95-ib7680-101",
       "lastPrice": 89,
       "firstSeenAt": "2026-10-13T01:16:45.614Z",
-      "lastSeenAt": "2026-10-15T05:13:22.725Z"
+      "lastSeenAt": "2026-10-15T10:02:17.480Z"
     },
     "10320680418": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2272192,7 +2272204,7 @@
       "url": "https://www.vinted.co.uk/items/10321639530-nike-air-max-90",
       "lastPrice": 30.59,
       "firstSeenAt": "2026-10-13T01:17:15.399Z",
-      "lastSeenAt": "2026-10-15T05:13:22.727Z"
+      "lastSeenAt": "2026-10-15T10:02:17.481Z"
     },
     "10321066968": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2272222,9 +2272234,9 @@
       "blockedReason": "recovery-no-fresh-signal",
       "title": "nike air max 90 ltr persian violet",
       "url": "https://www.vinted.co.uk/items/10318947232-nike-air-max-90-ltr-persian-violet",
-      "lastPrice": 45.79,
+      "lastPrice": 45.89,
       "firstSeenAt": "2026-10-13T01:17:15.399Z",
-      "lastSeenAt": "2026-10-14T19:00:17.371Z"
+      "lastSeenAt": "2026-10-15T10:02:17.481Z"
     },
     "10318585876": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2280565,7 +2280577,7 @@
       "url": "https://www.vinted.co.uk/items/10347330502-nike-tn-3",
       "lastPrice": 15,
       "firstSeenAt": "2026-10-13T03:01:42.839Z",
-      "lastSeenAt": "2026-10-15T05:12:40.042Z"
+      "lastSeenAt": "2026-10-15T10:01:36.802Z"
     },
     "10356543321": {
       "blockedReason": "price",
@@ -2285859,12 +2285871,12 @@
       "lastSeenAt": "2026-10-13T10:12:51.980Z"
     },
     "10359240832": {
-      "blockedReason": "size",
+      "blockedReason": "recovery-no-fresh-signal",
       "title": "nike air max plus 3 tn uk55 junior",
       "url": "https://www.vinted.co.uk/items/10359240832-nike-air-max-plus-3-tn-uk55-junior",
       "lastPrice": 38,
       "firstSeenAt": "2026-10-13T10:12:54.072Z",
-      "lastSeenAt": "2026-10-15T05:12:50.536Z",
+      "lastSeenAt": "2026-10-15T10:01:36.802Z",
       "size": null
     },
     "10359230874": {
@@ -2289629,7 +2289641,7 @@
       "url": "https://www.vinted.co.uk/items/10357896720-nike-trainers-size-9-mens-grey-react-pegasus-trail-5-gore-tex-running-shoes",
       "lastPrice": 49.99,
       "firstSeenAt": "2026-10-13T15:27:20.783Z",
-      "lastSeenAt": "2026-10-15T05:12:03.826Z"
+      "lastSeenAt": "2026-10-15T10:01:00.409Z"
     },
     "10354064519": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2289645,7 +2289657,7 @@
       "url": "https://www.vinted.co.uk/items/10328148032-nike-pegasus-trail-3-gore-tex-uk75-good-condition",
       "lastPrice": 30,
       "firstSeenAt": "2026-10-13T15:27:20.783Z",
-      "lastSeenAt": "2026-10-15T00:35:39.349Z"
+      "lastSeenAt": "2026-10-15T10:01:00.409Z"
     },
     "10362854550": {
       "size": 6.5,
@@ -2289680,7 +2289692,7 @@
       "url": "https://www.vinted.co.uk/items/10359987540-nike-pegasus-trail-4-gore-tex-hiking-trainers-uk-size-5",
       "lastPrice": 39.99,
       "firstSeenAt": "2026-10-13T15:27:30.027Z",
-      "lastSeenAt": "2026-10-15T05:12:03.826Z"
+      "lastSeenAt": "2026-10-15T10:01:06.921Z"
     },
     "10359337380": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2289693,7 +2289705,7 @@
       "url": "https://www.vinted.co.uk/items/10359337380-nike-reactx-pegasus-trail-5-goretex-uk-10",
       "lastPrice": 85,
       "firstSeenAt": "2026-10-13T15:27:30.027Z",
-      "lastSeenAt": "2026-10-15T05:12:03.826Z"
+      "lastSeenAt": "2026-10-15T10:01:06.921Z"
     },
     "10313398715": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2289802,7 +2289814,7 @@
       "url": "https://www.vinted.co.uk/items/10357008368-nike-air-max-plus-tn-size-7-brand-new-100-authentic",
       "lastPrice": 100,
       "firstSeenAt": "2026-10-13T15:27:39.713Z",
-      "lastSeenAt": "2026-10-15T05:13:11.859Z"
+      "lastSeenAt": "2026-10-15T10:01:46.892Z"
     },
     "10355324764": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2290310,7 +2290322,7 @@
       "url": "https://www.vinted.co.uk/items/10360190285-nike-air-max-plus-3-mens-trainers-size-uk-10",
       "lastPrice": 160,
       "firstSeenAt": "2026-10-13T15:27:49.448Z",
-      "lastSeenAt": "2026-10-15T05:12:35.933Z"
+      "lastSeenAt": "2026-10-15T10:01:36.802Z"
     },
     "10357642957": {
       "size": 6,
@@ -2290337,7 +2290349,7 @@
       "url": "https://www.vinted.co.uk/items/10343223097-nike-air-max-plus-3",
       "lastPrice": 74.45,
       "firstSeenAt": "2026-10-13T15:27:49.448Z",
-      "lastSeenAt": "2026-10-15T05:12:40.041Z"
+      "lastSeenAt": "2026-10-15T10:01:36.802Z"
     },
     "10267185319": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2290372,7 +2290384,7 @@
       "url": "https://www.vinted.co.uk/items/10363265971-nike-air-max-plus-3-triple-white-gs-uk45-cd6871-100-gb",
       "lastPrice": 24.99,
       "firstSeenAt": "2026-10-13T15:27:49.448Z",
-      "lastSeenAt": "2026-10-15T05:12:43.852Z"
+      "lastSeenAt": "2026-10-15T10:01:36.802Z"
     },
     "10363247489": {
       "size": 7.5,
@@ -2290399,7 +2290411,7 @@
       "url": "https://www.vinted.co.uk/items/10359875975-nike-air-max-plus-3-gs-tn-spirograph-volt-blackneon-yellow",
       "lastPrice": 50,
       "firstSeenAt": "2026-10-13T15:27:49.449Z",
-      "lastSeenAt": "2026-10-15T05:12:48.434Z"
+      "lastSeenAt": "2026-10-15T10:01:36.802Z"
     },
     "10358124219": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2290407,7 +2290419,7 @@
       "url": "https://www.vinted.co.uk/items/10358124219-nike-air-max-plus-all-day-hf3837-600-size-uk-7",
       "lastPrice": 40,
       "firstSeenAt": "2026-10-13T15:27:55.068Z",
-      "lastSeenAt": "2026-10-15T05:13:11.859Z"
+      "lastSeenAt": "2026-10-15T10:01:46.892Z"
     },
     "10363382233": {
       "blockedReason": "seller-check-budget-exhausted",
@@ -2290538,9 +2290550,9 @@
       "blockedReason": "recovery-no-fresh-signal",
       "title": "air max 95",
       "url": "https://www.vinted.co.uk/items/10298332534-air-max-95",
-      "lastPrice": 53.42,
+      "lastPrice": 53.53,
       "firstSeenAt": "2026-10-13T15:27:59.456Z",
-      "lastSeenAt": "2026-10-14T19:00:12.741Z"
+      "lastSeenAt": "2026-10-15T10:02:11.348Z"
     },
     "10363389308": {
       "blockedReason": "condition",
@@ -2290692,7 +2290704,7 @@
       "url": "https://www.vinted.co.uk/items/10338902540-nike-air-max-95-granite",
       "lastPrice": 55,
       "firstSeenAt": "2026-10-13T15:27:59.456Z",
-      "lastSeenAt": "2026-10-15T05:13:17.264Z"
+      "lastSeenAt": "2026-10-15T10:02:11.348Z"
     },
     "10363447058": {
       "blockedReason": "detail-budget-exhausted",
@@ -2291079,7 +2291091,7 @@
       "url": "https://www.vinted.co.uk/items/10357839314-am95-size-11",
       "lastPrice": 70,
       "firstSeenAt": "2026-10-13T15:27:59.459Z",
-      "lastSeenAt": "2026-10-15T05:13:17.265Z"
+      "lastSeenAt": "2026-10-15T10:02:11.351Z"
     },
     "10350603382": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2291087,7 +2291099,7 @@
       "url": "https://www.vinted.co.uk/items/10350603382-nike-air-max-95-og-big-bubble",
       "lastPrice": 140,
       "firstSeenAt": "2026-10-13T15:27:59.459Z",
-      "lastSeenAt": "2026-10-15T05:13:17.265Z"
+      "lastSeenAt": "2026-10-15T10:02:11.351Z"
     },
     "10342988508": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2291103,7 +2291115,7 @@
       "url": "https://www.vinted.co.uk/items/10324036240-nike-air-max-95",
       "lastPrice": 38.24,
       "firstSeenAt": "2026-10-13T15:27:59.460Z",
-      "lastSeenAt": "2026-10-15T05:13:17.266Z"
+      "lastSeenAt": "2026-10-15T10:02:11.351Z"
     },
     "10307959646": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2291111,7 +2291123,7 @@
       "url": "https://www.vinted.co.uk/items/10307959646-nike-air-max-95-og-neon-green",
       "lastPrice": 90,
       "firstSeenAt": "2026-10-13T15:27:59.460Z",
-      "lastSeenAt": "2026-10-15T05:13:17.266Z"
+      "lastSeenAt": "2026-10-15T10:02:11.351Z"
     },
     "10346594695": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -2291546,7 +2291558,7 @@
       "url": "https://www.vinted.co.uk/items/10362755926-nike-air-max-90-green",
       "lastPrice": 19,
       "firstSeenAt": "2026-10-13T15:32:06.352Z",
-      "lastSeenAt": "2026-10-15T05:13:22.726Z"
+      "lastSeenAt": "2026-10-15T10:02:17.480Z"
     },
     "10361725750": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2291634,7 +2291646,7 @@
       "url": "https://www.vinted.co.uk/items/10307243600-nike-air-max-90-dark-blue",
       "lastPrice": 35,
       "firstSeenAt": "2026-10-13T15:32:06.353Z",
-      "lastSeenAt": "2026-10-15T00:36:49.643Z"
+      "lastSeenAt": "2026-10-15T10:02:17.480Z"
     },
     "10363494034": {
       "blockedReason": "size",
@@ -2292075,7 +2292087,7 @@
       "url": "https://www.vinted.co.uk/items/10312381834-air-max-90-grapes",
       "lastPrice": 40,
       "firstSeenAt": "2026-10-13T15:32:38.001Z",
-      "lastSeenAt": "2026-10-15T05:13:22.728Z"
+      "lastSeenAt": "2026-10-15T10:02:17.481Z"
     },
     "9534896376": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -2298325,12 +2298337,12 @@
       "lastSeenAt": "2026-10-13T22:02:42.996Z"
     },
     "10365771873": {
-      "blockedReason": "stale-or-no-freshness-signal",
+      "blockedReason": "recovery-no-fresh-signal",
       "title": "nike air max plus tn trainers navy blue yellow uk 3",
       "url": "https://www.vinted.co.uk/items/10365771873-nike-air-max-plus-tn-trainers-navy-blue-yellow-uk-3",
       "lastPrice": 17.99,
       "firstSeenAt": "2026-10-13T20:48:28.325Z",
-      "lastSeenAt": "2026-10-15T06:22:57.753Z"
+      "lastSeenAt": "2026-10-15T10:01:36.802Z"
     },
     "10360575055": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -2304649,7 +2304661,7 @@
       "url": "https://www.vinted.co.uk/items/10352002354-nike-tn-air-max-plus",
       "lastPrice": 110,
       "firstSeenAt": "2026-10-13T20:59:42.489Z",
-      "lastSeenAt": "2026-10-15T05:13:11.859Z"
+      "lastSeenAt": "2026-10-15T10:01:46.892Z"
     },
     "10351850647": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -2304697,7 +2304709,7 @@
       "url": "https://www.vinted.co.uk/items/10364427667-nike-air-max-plus-tn-black-reflective-silver-uk-7",
       "lastPrice": 48,
       "firstSeenAt": "2026-10-13T20:59:42.489Z",
-      "lastSeenAt": "2026-10-15T05:13:11.859Z"
+      "lastSeenAt": "2026-10-15T10:01:46.892Z"
     },
     "10364337307": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -2304940,7 +2304952,7 @@
       "url": "https://www.vinted.co.uk/items/10364832759-kids-nike-air-max-plus",
       "lastPrice": 50,
       "firstSeenAt": "2026-10-13T20:59:42.492Z",
-      "lastSeenAt": "2026-10-15T05:12:40.042Z"
+      "lastSeenAt": "2026-10-15T10:01:36.802Z"
     },
     "10364808087": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -2305015,7 +2305027,7 @@
       "url": "https://www.vinted.co.uk/items/10364692584-nike-air-max-plus-3uk-size-6",
       "lastPrice": 100,
       "firstSeenAt": "2026-10-13T20:59:47.496Z",
-      "lastSeenAt": "2026-10-15T05:12:35.933Z"
+      "lastSeenAt": "2026-10-15T10:01:36.802Z"
     },
     "10363889748": {
       "size": 10,
@@ -2305090,7 +2305102,7 @@
       "url": "https://www.vinted.co.uk/items/10367830798-nike-air-max-plus-3-wolf-grey-black-uk-75",
       "lastPrice": 64,
       "firstSeenAt": "2026-10-13T21:58:02.686Z",
-      "lastSeenAt": "2026-10-15T05:13:11.859Z"
+      "lastSeenAt": "2026-10-15T10:01:46.892Z"
     },
     "10367786767": {
       "blockedReason": "seller-check-budget-exhausted",
@@ -2305211,7 +2305223,7 @@
       "url": "https://www.vinted.co.uk/items/10364209879-nike-air-max-95-liverpool-edition-uk-11",
       "lastPrice": 250,
       "firstSeenAt": "2026-10-13T21:58:45.178Z",
-      "lastSeenAt": "2026-10-15T05:13:17.263Z"
+      "lastSeenAt": "2026-10-15T10:02:11.347Z"
     },
     "10360264873": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2305808,9 +2305820,9 @@
       "blockedReason": "recovery-no-fresh-signal",
       "title": "air max 90 infrared 2012",
       "url": "https://www.vinted.co.uk/items/10364068659-air-max-90-infrared-2012",
-      "lastPrice": 10,
+      "lastPrice": 8,
       "firstSeenAt": "2026-10-13T21:58:50.689Z",
-      "lastSeenAt": "2026-10-15T05:13:22.726Z"
+      "lastSeenAt": "2026-10-15T10:02:17.480Z"
     },
     "10333357016": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -2305832,9 +2305844,9 @@
       "blockedReason": "recovery-no-fresh-signal",
       "title": "nike air max 90s",
       "url": "https://www.vinted.co.uk/items/10262165676-nike-air-max-90s",
-      "lastPrice": 19.92,
+      "lastPrice": 19.88,
       "firstSeenAt": "2026-10-13T21:58:50.689Z",
-      "lastSeenAt": "2026-10-13T21:58:50.689Z"
+      "lastSeenAt": "2026-10-15T10:02:17.480Z"
     },
     "10367744688": {
       "blockedReason": "seller-check-budget-exhausted",
@@ -2305847,7 +2305859,7 @@
       "url": "https://www.vinted.co.uk/items/10367744688-air-max-90s-ultra-br-in-volt-uk-size-9",
       "lastPrice": 45,
       "firstSeenAt": "2026-10-13T21:58:50.689Z",
-      "lastSeenAt": "2026-10-15T05:13:22.727Z"
+      "lastSeenAt": "2026-10-15T10:02:17.481Z"
     },
     "10367702805": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -2306015,7 +2306027,7 @@
       "url": "https://www.vinted.co.uk/items/10363682685-nike-air-max-90",
       "lastPrice": 65,
       "firstSeenAt": "2026-10-13T21:58:50.690Z",
-      "lastSeenAt": "2026-10-15T05:13:22.727Z"
+      "lastSeenAt": "2026-10-15T10:02:17.481Z"
     },
     "10362906135": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2306071,7 +2306083,7 @@
       "url": "https://www.vinted.co.uk/items/10330800631-nike-air-max-90-sneakers-black-gray",
       "lastPrice": 29.63,
       "firstSeenAt": "2026-10-13T21:58:50.690Z",
-      "lastSeenAt": "2026-10-15T05:13:22.727Z"
+      "lastSeenAt": "2026-10-15T10:02:17.481Z"
     },
     "10330527971": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -2306087,7 +2306099,7 @@
       "url": "https://www.vinted.co.uk/items/10309792102-nike-air-max-90-sneakers-cuban-link-obsidian-pink",
       "lastPrice": 52.77,
       "firstSeenAt": "2026-10-13T21:58:50.691Z",
-      "lastSeenAt": "2026-10-15T05:13:22.728Z"
+      "lastSeenAt": "2026-10-15T10:02:17.481Z"
     },
     "10289155403": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2306095,7 +2306107,7 @@
       "url": "https://www.vinted.co.uk/items/10289155403-nike-air-max-90",
       "lastPrice": 60,
       "firstSeenAt": "2026-10-13T21:58:50.691Z",
-      "lastSeenAt": "2026-10-15T05:13:22.728Z"
+      "lastSeenAt": "2026-10-15T10:02:17.481Z"
     },
     "9553986625": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -2311654,20 +2311666,20 @@
       "lastSeenAt": "2026-10-14T00:56:30.917Z"
     },
     "10335285698": {
-      "blockedReason": "stale-or-no-freshness-signal",
+      "blockedReason": "recovery-no-fresh-signal",
       "title": "nike sb zoom nyjah 4 shoes",
       "url": "https://www.vinted.co.uk/items/10335285698-nike-sb-zoom-nyjah-4-shoes",
       "lastPrice": 57.36,
       "firstSeenAt": "2026-10-14T00:56:30.917Z",
-      "lastSeenAt": "2026-10-15T05:21:58.198Z"
+      "lastSeenAt": "2026-10-15T10:00:55.336Z"
     },
     "10333198429": {
-      "blockedReason": "stale-or-no-freshness-signal",
+      "blockedReason": "recovery-no-fresh-signal",
       "title": "girls nike shoes",
       "url": "https://www.vinted.co.uk/items/10333198429-girls-nike-shoes",
       "lastPrice": 15.3,
       "firstSeenAt": "2026-10-14T00:56:30.917Z",
-      "lastSeenAt": "2026-10-15T05:21:58.198Z"
+      "lastSeenAt": "2026-10-15T10:00:55.336Z"
     },
     "10311803976": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -2311702,12 +2311714,12 @@
       "lastSeenAt": "2026-10-14T14:54:00.418Z"
     },
     "10363468291": {
-      "blockedReason": "stale-or-no-freshness-signal",
+      "blockedReason": "recovery-no-fresh-signal",
       "title": "nike trainers",
       "url": "https://www.vinted.co.uk/items/10363468291-nike-trainers",
       "lastPrice": 6,
       "firstSeenAt": "2026-10-14T00:56:30.918Z",
-      "lastSeenAt": "2026-10-15T05:21:58.198Z"
+      "lastSeenAt": "2026-10-15T10:00:55.337Z"
     },
     "10361777885": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -2311726,20 +2311738,20 @@
       "lastSeenAt": "2026-10-14T01:06:30.179Z"
     },
     "10359616533": {
-      "blockedReason": "stale-or-no-freshness-signal",
+      "blockedReason": "recovery-no-fresh-signal",
       "title": "nike air force 1 react dmsx white grey trainers uk 105",
       "url": "https://www.vinted.co.uk/items/10359616533-nike-air-force-1-react-dmsx-white-grey-trainers-uk-105",
       "lastPrice": 26,
       "firstSeenAt": "2026-10-14T00:56:30.918Z",
-      "lastSeenAt": "2026-10-15T05:21:58.198Z"
+      "lastSeenAt": "2026-10-15T10:00:55.337Z"
     },
     "10358493388": {
-      "blockedReason": "stale-or-no-freshness-signal",
+      "blockedReason": "recovery-no-fresh-signal",
       "title": "nike kids trainers",
       "url": "https://www.vinted.co.uk/items/10358493388-nike-kids-trainers",
       "lastPrice": 6,
       "firstSeenAt": "2026-10-14T00:56:30.918Z",
-      "lastSeenAt": "2026-10-15T05:21:58.198Z"
+      "lastSeenAt": "2026-10-15T10:00:55.337Z"
     },
     "10358465617": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -2311750,12 +2311762,12 @@
       "lastSeenAt": "2026-10-14T01:06:30.179Z"
     },
     "10357864181": {
-      "blockedReason": "stale-or-no-freshness-signal",
+      "blockedReason": "recovery-no-fresh-signal",
       "title": "nike trainers",
       "url": "https://www.vinted.co.uk/items/10357864181-nike-trainers",
       "lastPrice": 6,
       "firstSeenAt": "2026-10-14T00:56:30.918Z",
-      "lastSeenAt": "2026-10-15T05:21:58.198Z"
+      "lastSeenAt": "2026-10-15T10:00:55.337Z"
     },
     "10357454368": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2311766,12 +2311778,12 @@
       "lastSeenAt": "2026-10-14T00:56:30.918Z"
     },
     "10356281120": {
-      "blockedReason": "stale-or-no-freshness-signal",
+      "blockedReason": "recovery-no-fresh-signal",
       "title": "nike vapour max trainers",
       "url": "https://www.vinted.co.uk/items/10356281120-nike-vapour-max-trainers",
       "lastPrice": 18,
       "firstSeenAt": "2026-10-14T00:56:30.918Z",
-      "lastSeenAt": "2026-10-15T05:21:58.198Z"
+      "lastSeenAt": "2026-10-15T10:00:55.337Z"
     },
     "10355531622": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2311830,12 +2311842,12 @@
       "lastSeenAt": "2026-10-14T09:47:23.631Z"
     },
     "10317922539": {
-      "blockedReason": "stale-or-no-freshness-signal",
+      "blockedReason": "recovery-no-fresh-signal",
       "title": "nike womens sneaker trainers white size 4 ba88",
       "url": "https://www.vinted.co.uk/items/10317922539-nike-womens-sneaker-trainers-white-size-4-ba88",
       "lastPrice": 6.99,
       "firstSeenAt": "2026-10-14T00:56:30.918Z",
-      "lastSeenAt": "2026-10-15T05:21:58.198Z"
+      "lastSeenAt": "2026-10-15T10:00:55.337Z"
     },
     "10309172381": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2311902,20 +2311914,20 @@
       "lastSeenAt": "2026-10-14T00:56:32.831Z"
     },
     "10353436246": {
-      "blockedReason": "stale-or-no-freshness-signal",
+      "blockedReason": "recovery-no-fresh-signal",
       "title": "nike trainers",
       "url": "https://www.vinted.co.uk/items/10353436246-nike-trainers",
       "lastPrice": 12,
       "firstSeenAt": "2026-10-14T00:56:32.831Z",
-      "lastSeenAt": "2026-10-15T05:21:58.198Z"
+      "lastSeenAt": "2026-10-15T10:00:55.337Z"
     },
     "10351099593": {
-      "blockedReason": "stale-or-no-freshness-signal",
+      "blockedReason": "recovery-no-fresh-signal",
       "title": "nike air max 90 grey red reflective mens trainers uk 12",
       "url": "https://www.vinted.co.uk/items/10351099593-nike-air-max-90-grey-red-reflective-mens-trainers-uk-12",
       "lastPrice": 50,
       "firstSeenAt": "2026-10-14T00:56:32.831Z",
-      "lastSeenAt": "2026-10-15T05:21:58.198Z"
+      "lastSeenAt": "2026-10-15T10:00:55.337Z"
     },
     "10350683542": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -2311926,12 +2311938,12 @@
       "lastSeenAt": "2026-10-14T01:06:30.179Z"
     },
     "10350553770": {
-      "blockedReason": "stale-or-no-freshness-signal",
+      "blockedReason": "recovery-no-fresh-signal",
       "title": "kids nike hi top trainers size uk 12",
       "url": "https://www.vinted.co.uk/items/10350553770-kids-nike-hi-top-trainers-size-uk-12",
       "lastPrice": 6,
       "firstSeenAt": "2026-10-14T00:56:32.831Z",
-      "lastSeenAt": "2026-10-15T05:21:58.198Z"
+      "lastSeenAt": "2026-10-15T10:00:55.337Z"
     },
     "10347873748": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -2311958,12 +2311970,12 @@
       "lastSeenAt": "2026-10-14T01:06:30.179Z"
     },
     "10346918285": {
-      "blockedReason": "stale-or-no-freshness-signal",
+      "blockedReason": "recovery-no-fresh-signal",
       "title": "boys nike trainers",
       "url": "https://www.vinted.co.uk/items/10346918285-boys-nike-trainers",
       "lastPrice": 7,
       "firstSeenAt": "2026-10-14T00:56:32.831Z",
-      "lastSeenAt": "2026-10-15T05:21:58.198Z"
+      "lastSeenAt": "2026-10-15T10:00:55.337Z"
     },
     "10345383042": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -2311974,12 +2311986,12 @@
       "lastSeenAt": "2026-10-14T01:06:30.180Z"
     },
     "10344667484": {
-      "blockedReason": "stale-or-no-freshness-signal",
+      "blockedReason": "recovery-no-fresh-signal",
       "title": "high top trainers",
       "url": "https://www.vinted.co.uk/items/10344667484-high-top-trainers",
       "lastPrice": 12,
       "firstSeenAt": "2026-10-14T00:56:32.831Z",
-      "lastSeenAt": "2026-10-15T01:33:49.460Z"
+      "lastSeenAt": "2026-10-15T10:00:55.337Z"
     },
     "10340716447": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -2311998,20 +2312010,20 @@
       "lastSeenAt": "2026-10-14T00:56:32.831Z"
     },
     "10322531862": {
-      "blockedReason": "stale-or-no-freshness-signal",
+      "blockedReason": "recovery-no-fresh-signal",
       "title": "boys nike sneakers size 7",
       "url": "https://www.vinted.co.uk/items/10322531862-boys-nike-sneakers-size-7",
       "lastPrice": 15.3,
       "firstSeenAt": "2026-10-14T00:56:32.831Z",
-      "lastSeenAt": "2026-10-15T05:21:58.198Z"
+      "lastSeenAt": "2026-10-15T10:00:55.337Z"
     },
     "10322349994": {
-      "blockedReason": "stale-or-no-freshness-signal",
+      "blockedReason": "recovery-no-fresh-signal",
       "title": "boys blue nike shoes",
       "url": "https://www.vinted.co.uk/items/10322349994-boys-blue-nike-shoes",
       "lastPrice": 11.47,
       "firstSeenAt": "2026-10-14T00:56:32.831Z",
-      "lastSeenAt": "2026-10-15T05:21:58.198Z"
+      "lastSeenAt": "2026-10-15T10:00:55.337Z"
     },
     "10315824655": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -2312022,12 +2312034,12 @@
       "lastSeenAt": "2026-10-14T01:06:30.180Z"
     },
     "10314561244": {
-      "blockedReason": "stale-or-no-freshness-signal",
+      "blockedReason": "recovery-no-fresh-signal",
       "title": "womens nike sneakers",
       "url": "https://www.vinted.co.uk/items/10314561244-womens-nike-sneakers",
       "lastPrice": 9.94,
       "firstSeenAt": "2026-10-14T00:56:32.831Z",
-      "lastSeenAt": "2026-10-15T05:21:58.198Z"
+      "lastSeenAt": "2026-10-15T10:00:55.337Z"
     },
     "10310810993": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -2314431,7 +2314443,7 @@
       "url": "https://www.vinted.co.uk/items/10364218980-mens-nike-react-pegasus-trail-4-gore-tex-running-shoes-uk105us115",
       "lastPrice": 17.5,
       "firstSeenAt": "2026-10-14T01:06:35.024Z",
-      "lastSeenAt": "2026-10-15T00:35:39.348Z"
+      "lastSeenAt": "2026-10-15T10:01:00.409Z"
     },
     "10356458913": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -2314519,7 +2314531,7 @@
       "url": "https://www.vinted.co.uk/items/10347846177-nike-air-max-plus-vii-tns",
       "lastPrice": 79.77,
       "firstSeenAt": "2026-10-14T01:07:32.094Z",
-      "lastSeenAt": "2026-10-15T05:13:11.859Z"
+      "lastSeenAt": "2026-10-15T10:01:46.892Z"
     },
     "10368642086": {
       "blockedReason": "keyword",
@@ -2314907,7 +2314919,7 @@
       "url": "https://www.vinted.co.uk/items/10335427352-nike-air-max-90-winter-premium-pack",
       "lastPrice": 38.24,
       "firstSeenAt": "2026-10-14T01:07:43.547Z",
-      "lastSeenAt": "2026-10-15T05:13:22.726Z"
+      "lastSeenAt": "2026-10-15T10:02:17.480Z"
     },
     "10335153382": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -2315013,9 +2315025,9 @@
       "blockedReason": "recovery-no-fresh-signal",
       "title": "nike air max 90 essential",
       "url": "https://www.vinted.co.uk/items/10335294886-nike-air-max-90-essential",
-      "lastPrice": 41.97,
+      "lastPrice": 42.06,
       "firstSeenAt": "2026-10-14T01:07:43.549Z",
-      "lastSeenAt": "2026-10-14T19:00:17.371Z"
+      "lastSeenAt": "2026-10-15T10:02:17.481Z"
     },
     "10360298633": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -2319743,9 +2319755,9 @@
       "blockedReason": "recovery-no-fresh-signal",
       "title": "nike air max 95 city special nyc dh0143 700",
       "url": "https://www.vinted.co.uk/items/10342127638-nike-air-max-95-city-special-nyc-dh0143-700",
-      "lastPrice": 76.31,
+      "lastPrice": 76.48,
       "firstSeenAt": "2026-10-14T05:52:15.790Z",
-      "lastSeenAt": "2026-10-14T09:48:32.701Z"
+      "lastSeenAt": "2026-10-15T10:02:11.351Z"
     },
     "10342080220": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2321586,20 +2321598,20 @@
       "lastSeenAt": "2026-10-14T05:57:09.486Z"
     },
     "10341386074": {
-      "blockedReason": "stale-or-no-freshness-signal",
+      "blockedReason": "recovery-no-fresh-signal",
       "title": "steph curry shoes",
       "url": "https://www.vinted.co.uk/items/10341386074-steph-curry-shoes",
       "lastPrice": 30.59,
       "firstSeenAt": "2026-10-14T06:00:53.025Z",
-      "lastSeenAt": "2026-10-15T05:21:58.198Z"
+      "lastSeenAt": "2026-10-15T10:00:55.337Z"
     },
     "10340505485": {
-      "blockedReason": "stale-or-no-freshness-signal",
+      "blockedReason": "recovery-no-fresh-signal",
       "title": "vintage nike baby girl sneakers size 3c white pink",
       "url": "https://www.vinted.co.uk/items/10340505485-vintage-nike-baby-girl-sneakers-size-3c-white-pink",
       "lastPrice": 9.18,
       "firstSeenAt": "2026-10-14T06:00:53.025Z",
-      "lastSeenAt": "2026-10-15T05:21:58.198Z"
+      "lastSeenAt": "2026-10-15T10:00:55.337Z"
     },
     "10355054863": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -2321783,12 +2321795,12 @@
       "lastSeenAt": "2026-10-14T14:44:01.181Z"
     },
     "10370527924": {
-      "blockedReason": "stale-or-no-freshness-signal",
+      "blockedReason": "recovery-no-fresh-signal",
       "title": "bike slip on trainers girls junior",
       "url": "https://www.vinted.co.uk/items/10370527924-bike-slip-on-trainers-girls-junior",
       "lastPrice": 10,
       "firstSeenAt": "2026-10-14T09:47:23.630Z",
-      "lastSeenAt": "2026-10-15T05:21:58.198Z"
+      "lastSeenAt": "2026-10-15T10:00:55.337Z"
     },
     "10354245986": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -2321850,20 +2321862,20 @@
       "lastSeenAt": "2026-10-14T14:54:00.419Z"
     },
     "10342772830": {
-      "blockedReason": "stale-or-no-freshness-signal",
+      "blockedReason": "recovery-no-fresh-signal",
       "title": "nike downshifter running shoes size 95",
       "url": "https://www.vinted.co.uk/items/10342772830-nike-downshifter-running-shoes-size-95",
       "lastPrice": 10.71,
       "firstSeenAt": "2026-10-14T09:47:27.943Z",
-      "lastSeenAt": "2026-10-15T05:21:58.198Z"
+      "lastSeenAt": "2026-10-15T10:00:55.337Z"
     },
     "10342696076": {
-      "blockedReason": "stale-or-no-freshness-signal",
+      "blockedReason": "recovery-no-fresh-signal",
       "title": "nike shoes",
       "url": "https://www.vinted.co.uk/items/10342696076-nike-shoes",
       "lastPrice": 19.88,
       "firstSeenAt": "2026-10-14T09:47:27.943Z",
-      "lastSeenAt": "2026-10-15T05:21:58.198Z"
+      "lastSeenAt": "2026-10-15T10:00:55.337Z"
     },
     "10341764808": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -2321879,7 +2321891,7 @@
       "url": "https://www.vinted.co.uk/items/10340918116-nike-pegasus-trail-3-gtx",
       "lastPrice": 36.71,
       "firstSeenAt": "2026-10-14T09:47:33.356Z",
-      "lastSeenAt": "2026-10-15T05:12:03.826Z"
+      "lastSeenAt": "2026-10-15T10:01:00.409Z"
     },
     "10371822025": {
       "size": 11,
@@ -2321949,7 +2321961,7 @@
       "url": "https://www.vinted.co.uk/items/10371912652-nike-air-max-plus-tn-wheat-brown-black-golden-harvest-trainers-uk-7",
       "lastPrice": 58,
       "firstSeenAt": "2026-10-14T09:47:49.328Z",
-      "lastSeenAt": "2026-10-15T05:13:11.859Z"
+      "lastSeenAt": "2026-10-15T10:01:46.892Z"
     },
     "10371872210": {
       "blockedReason": "condition",
@@ -2322248,7 +2322260,7 @@
       "url": "https://www.vinted.co.uk/items/10370331561-nike-air-max-plus-tn-3-men-black-shoes-uk-size-7-used-good-condition",
       "lastPrice": 25,
       "firstSeenAt": "2026-10-14T09:48:23.225Z",
-      "lastSeenAt": "2026-10-15T05:13:11.860Z"
+      "lastSeenAt": "2026-10-15T10:01:51.670Z"
     },
     "10371993817": {
       "blockedReason": "price",
@@ -2322364,7 +2322376,7 @@
       "url": "https://www.vinted.co.uk/items/10370639553-whiteblack-air-max-95s",
       "lastPrice": 12.5,
       "firstSeenAt": "2026-10-14T09:48:32.697Z",
-      "lastSeenAt": "2026-10-15T05:13:17.263Z"
+      "lastSeenAt": "2026-10-15T10:02:11.348Z"
     },
     "10342346839": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2322970,9 +2322982,9 @@
       "blockedReason": "recovery-no-fresh-signal",
       "title": "air max 90 nike shoes",
       "url": "https://www.vinted.co.uk/items/10342525630-air-max-90-nike-shoes",
-      "lastPrice": 68.68,
+      "lastPrice": 68.83,
       "firstSeenAt": "2026-10-14T09:48:37.232Z",
-      "lastSeenAt": "2026-10-14T22:14:57.313Z"
+      "lastSeenAt": "2026-10-15T10:02:17.481Z"
     },
     "10340991117": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2330451,7 +2330463,7 @@
       "url": "https://www.vinted.co.uk/items/10375169944-nike-pegasus-trail-5-gtx-trainers-uk-9-blackblack-anthracite-fq0908-002",
       "lastPrice": 85,
       "firstSeenAt": "2026-10-14T14:44:09.553Z",
-      "lastSeenAt": "2026-10-15T05:12:03.826Z"
+      "lastSeenAt": "2026-10-15T10:01:00.409Z"
     },
     "10372899059": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2330469,7 +2330481,7 @@
       "url": "https://www.vinted.co.uk/items/10372899059-nike-pegasus-trail-4-gtx-v2-sea-glasspurple-ink-size-65-uk-hm9728-001",
       "lastPrice": 74.99,
       "firstSeenAt": "2026-10-14T14:44:11.492Z",
-      "lastSeenAt": "2026-10-15T05:12:03.826Z"
+      "lastSeenAt": "2026-10-15T10:01:00.409Z"
     },
     "10372771322": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2330487,7 +2330499,7 @@
       "url": "https://www.vinted.co.uk/items/10372771322-nike-react-pegasus-trail-gore-tex-uk85",
       "lastPrice": 75,
       "firstSeenAt": "2026-10-14T14:44:14.477Z",
-      "lastSeenAt": "2026-10-15T05:12:03.826Z"
+      "lastSeenAt": "2026-10-15T10:01:00.409Z"
     },
     "10373306361": {
       "blockedReason": "condition",
@@ -2330503,7 +2330515,7 @@
       "url": "https://www.vinted.co.uk/items/10372833138-nike-pegasus-trail-5-gtx-105",
       "lastPrice": 35,
       "firstSeenAt": "2026-10-14T14:44:14.477Z",
-      "lastSeenAt": "2026-10-15T05:12:03.826Z"
+      "lastSeenAt": "2026-10-15T10:01:00.409Z"
     },
     "10365986417": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2330671,7 +2330683,7 @@
       "url": "https://www.vinted.co.uk/items/10372640786-nike-tn-air-max-plus-italy-size-uk-7",
       "lastPrice": 108.99,
       "firstSeenAt": "2026-10-14T14:44:42.207Z",
-      "lastSeenAt": "2026-10-15T05:13:11.859Z",
+      "lastSeenAt": "2026-10-15T10:01:46.892Z",
       "size": 7,
       "condition": "newWithoutTags",
       "resale": 115,
@@ -2331041,7 +2331053,6 @@
       "lastSeenAt": "2026-10-14T14:44:51.440Z"
     },
     "10373047335": {
-      "blockedReason": "seller-check-budget-exhausted",
       "size": 7,
       "condition": "veryGood",
       "resale": 115,
@@ -2331051,7 +2331062,14 @@
       "url": "https://www.vinted.co.uk/items/10373047335-nike-air-max-plus-tn-black-gold-trainers",
       "lastPrice": 50,
       "firstSeenAt": "2026-10-14T14:44:51.440Z",
-      "lastSeenAt": "2026-10-15T05:13:11.860Z"
+      "lastSeenAt": "2026-10-15T10:01:51.670Z",
+      "buyScore": 84,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: price is at or below 50% of expected resale"
+      },
+      "lastAlertedAt": "2026-10-15T10:01:51.670Z",
+      "discordMessageId": "1560231220435222580"
     },
     "10373018584": {
       "blockedReason": "seller-check-budget-exhausted",
@@ -2331217,7 +2331235,7 @@
       "url": "https://www.vinted.co.uk/items/10372571283-nike-air-max-plus-tn-3-leather-black-uk-9-no-box",
       "lastPrice": 130,
       "firstSeenAt": "2026-10-14T14:44:56.564Z",
-      "lastSeenAt": "2026-10-15T05:12:40.042Z"
+      "lastSeenAt": "2026-10-15T10:01:36.802Z"
     },
     "10356782573": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2331233,7 +2331251,7 @@
       "url": "https://www.vinted.co.uk/items/10356769444-us105-nike-air-max-plus-3-black-red",
       "lastPrice": 85.09,
       "firstSeenAt": "2026-10-14T14:44:56.564Z",
-      "lastSeenAt": "2026-10-15T05:12:50.536Z"
+      "lastSeenAt": "2026-10-15T10:01:36.802Z"
     },
     "10375718620": {
       "blockedReason": "price",
@@ -2331464,7 +2331482,7 @@
       "url": "https://www.vinted.co.uk/items/10372197488-nike-air-max-95",
       "lastPrice": 19,
       "firstSeenAt": "2026-10-14T14:45:08.650Z",
-      "lastSeenAt": "2026-10-15T05:13:17.263Z"
+      "lastSeenAt": "2026-10-15T10:02:11.348Z"
     },
     "10375751248": {
       "blockedReason": "keyword",
@@ -2332231,7 +2332249,7 @@
       "url": "https://www.vinted.co.uk/items/10374662146-nike-air-max-90-betrue-gilbert-baker",
       "lastPrice": 100,
       "firstSeenAt": "2026-10-14T14:45:13.418Z",
-      "lastSeenAt": "2026-10-15T05:13:22.727Z"
+      "lastSeenAt": "2026-10-15T10:02:17.481Z"
     },
     "10374610042": {
       "blockedReason": "detail-budget-exhausted",
@@ -2333302,7 +2333320,7 @@
       "url": "https://www.vinted.co.uk/items/10375891706-air-max-1am90-treads-left-and-rights",
       "lastPrice": 7,
       "firstSeenAt": "2026-10-14T14:50:00.457Z",
-      "lastSeenAt": "2026-10-15T05:13:22.726Z"
+      "lastSeenAt": "2026-10-15T10:02:17.480Z"
     },
     "10374959181": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -2341956,7 +2341974,7 @@
       "url": "https://www.vinted.co.uk/items/10379122953-nike-reactx-pegasus-trail-goretex-khaki-trainers-size-5",
       "lastPrice": 77,
       "firstSeenAt": "2026-10-14T18:59:25.132Z",
-      "lastSeenAt": "2026-10-15T05:12:03.826Z"
+      "lastSeenAt": "2026-10-15T10:01:00.409Z"
     },
     "10377579844": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2341969,7 +2341987,7 @@
       "url": "https://www.vinted.co.uk/items/10377579844-nike-reactx-pegasus-trail-5-gore-tex-womens-trail-running-shoes-uk6",
       "lastPrice": 75,
       "firstSeenAt": "2026-10-14T18:59:25.132Z",
-      "lastSeenAt": "2026-10-15T05:12:03.826Z"
+      "lastSeenAt": "2026-10-15T10:01:00.409Z"
     },
     "10376928450": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2341987,7 +2342005,7 @@
       "url": "https://www.vinted.co.uk/items/10376928450-nike-pegasus-trail-5-gtx-brand-new-with-tags",
       "lastPrice": 80,
       "firstSeenAt": "2026-10-14T18:59:28.361Z",
-      "lastSeenAt": "2026-10-15T05:12:03.826Z"
+      "lastSeenAt": "2026-10-15T10:01:00.409Z"
     },
     "10376222233": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2341995,7 +2342013,7 @@
       "url": "https://www.vinted.co.uk/items/10376222233-nike-react-pegasus-trail-4-gore-tex-size-95",
       "lastPrice": 17,
       "firstSeenAt": "2026-10-14T18:59:28.361Z",
-      "lastSeenAt": "2026-10-15T05:12:03.826Z"
+      "lastSeenAt": "2026-10-15T10:01:00.409Z"
     },
     "10377968007": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2342013,7 +2342031,7 @@
       "url": "https://www.vinted.co.uk/items/10377968007-nike-pegasus-trail-5-gtx-brand-new",
       "lastPrice": 80,
       "firstSeenAt": "2026-10-14T18:59:30.036Z",
-      "lastSeenAt": "2026-10-15T05:12:03.826Z"
+      "lastSeenAt": "2026-10-15T10:01:06.921Z"
     },
     "10376376018": {
       "size": 7.5,
@@ -2342064,7 +2342082,7 @@
       "url": "https://www.vinted.co.uk/items/10379404802-nike-air-max-plus-tn-brazil-jamaica-brand-new",
       "lastPrice": 100,
       "firstSeenAt": "2026-10-14T18:59:45.782Z",
-      "lastSeenAt": "2026-10-15T05:12:08.805Z"
+      "lastSeenAt": "2026-10-15T10:01:11.096Z"
     },
     "10379384543": {
       "blockedReason": "size",
@@ -2342120,7 +2342138,7 @@
       "url": "https://www.vinted.co.uk/items/10378276960-new-nike-air-max-plus-tnt-triple-white-trainers",
       "lastPrice": 43.99,
       "firstSeenAt": "2026-10-14T18:59:52.769Z",
-      "lastSeenAt": "2026-10-15T05:12:08.805Z",
+      "lastSeenAt": "2026-10-15T10:01:11.096Z",
       "sellerRisk": {
         "level": "HIGH",
         "note": "seller has 0 recorded reviews; price is at or below 40% of expected resale; seller identity could not be verified from listing metadata",
@@ -2342233,7 +2342251,7 @@
       "url": "https://www.vinted.co.uk/items/10379013756-nike-air-max-plus-tn-grey-black-orange-size-uk-10",
       "lastPrice": 100,
       "firstSeenAt": "2026-10-14T18:59:52.770Z",
-      "lastSeenAt": "2026-10-15T05:12:08.805Z"
+      "lastSeenAt": "2026-10-15T10:01:11.096Z"
     },
     "10378830793": {
       "blockedReason": "condition",
@@ -2342255,9 +2342273,9 @@
       "blockedReason": "recovery-no-fresh-signal",
       "title": "nike air max plus tn triple white off white trainers",
       "url": "https://www.vinted.co.uk/items/10378348370-nike-air-max-plus-tn-triple-white-off-white-trainers",
-      "lastPrice": 10,
+      "lastPrice": 8,
       "firstSeenAt": "2026-10-14T18:59:52.770Z",
-      "lastSeenAt": "2026-10-15T05:12:08.805Z"
+      "lastSeenAt": "2026-10-15T10:01:11.096Z"
     },
     "10378091918": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2342318,7 +2342336,7 @@
       "url": "https://www.vinted.co.uk/items/10379078286-nike-air-max-plus-tn",
       "lastPrice": 100,
       "firstSeenAt": "2026-10-14T18:59:52.770Z",
-      "lastSeenAt": "2026-10-15T05:12:10.692Z"
+      "lastSeenAt": "2026-10-15T10:01:32.281Z"
     },
     "10379037719": {
       "size": 8.5,
@@ -2342502,7 +2342520,7 @@
       "url": "https://www.vinted.co.uk/items/10378197105-nike-air-max-plus-3",
       "lastPrice": 60,
       "firstSeenAt": "2026-10-14T18:59:58.585Z",
-      "lastSeenAt": "2026-10-15T05:12:40.041Z"
+      "lastSeenAt": "2026-10-15T10:01:36.802Z"
     },
     "10376881155": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2342510,7 +2342528,7 @@
       "url": "https://www.vinted.co.uk/items/10376881155-nike-air-max-plus-3-multi-swoosh",
       "lastPrice": 30,
       "firstSeenAt": "2026-10-14T18:59:58.585Z",
-      "lastSeenAt": "2026-10-15T05:12:40.042Z"
+      "lastSeenAt": "2026-10-15T10:01:36.802Z"
     },
     "10375466215": {
       "size": 9.5,
@@ -2342626,13 +2342644,13 @@
       "lastSeenAt": "2026-10-14T19:00:12.741Z"
     },
     "10377166018": {
-      "blockedReason": "detail-budget-exhausted",
+      "blockedReason": "size",
       "size": null,
       "title": "nike am95 swim shorts og neon l",
       "url": "https://www.vinted.co.uk/items/10377166018-nike-am95-swim-shorts-og-neon-l",
       "lastPrice": 29.99,
       "firstSeenAt": "2026-10-14T19:00:12.741Z",
-      "lastSeenAt": "2026-10-15T05:13:17.263Z"
+      "lastSeenAt": "2026-10-15T10:02:11.347Z"
     },
     "10372989522": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2342979,7 +2342997,7 @@
       "url": "https://www.vinted.co.uk/items/10378456682-nike-air-max-95-se-light-bone-habanero-red-double-swoosh-mens-uk-9-us-10",
       "lastPrice": 58,
       "firstSeenAt": "2026-10-14T19:00:12.743Z",
-      "lastSeenAt": "2026-10-15T05:13:17.265Z"
+      "lastSeenAt": "2026-10-15T10:02:11.351Z"
     },
     "10378423221": {
       "blockedReason": "detail-budget-exhausted",
@@ -2343245,7 +2343263,7 @@
       "url": "https://www.vinted.co.uk/items/10364060518-nike-air-max-90-jewel-light-smoke-grey-white-sneakers-trainers-mens-uk-115",
       "lastPrice": 12,
       "firstSeenAt": "2026-10-14T19:00:17.368Z",
-      "lastSeenAt": "2026-10-15T05:13:22.726Z"
+      "lastSeenAt": "2026-10-15T10:02:17.480Z"
     },
     "10362191608": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2343503,28 +2343521,28 @@
       "lastSeenAt": "2026-10-14T19:04:06.738Z"
     },
     "10349888628": {
-      "blockedReason": "stale-or-no-freshness-signal",
+      "blockedReason": "recovery-no-fresh-signal",
       "title": "mens nike reactx pegasus trail trainers",
       "url": "https://www.vinted.co.uk/items/10349888628-mens-nike-reactx-pegasus-trail-trainers",
       "lastPrice": 55,
       "firstSeenAt": "2026-10-14T19:04:06.738Z",
-      "lastSeenAt": "2026-10-15T05:21:58.198Z"
+      "lastSeenAt": "2026-10-15T10:00:55.336Z"
     },
     "10377913521": {
-      "blockedReason": "stale-or-no-freshness-signal",
+      "blockedReason": "recovery-no-fresh-signal",
       "title": "womens nike air max trainers 97s white",
       "url": "https://www.vinted.co.uk/items/10377913521-womens-nike-air-max-trainers-97s-white",
       "lastPrice": 10,
       "firstSeenAt": "2026-10-14T19:04:06.739Z",
-      "lastSeenAt": "2026-10-15T05:21:58.198Z"
+      "lastSeenAt": "2026-10-15T10:00:55.337Z"
     },
     "10374430680": {
-      "blockedReason": "stale-or-no-freshness-signal",
+      "blockedReason": "recovery-no-fresh-signal",
       "title": "boys 110 nike trainers",
       "url": "https://www.vinted.co.uk/items/10374430680-boys-110-nike-trainers",
       "lastPrice": 20,
       "firstSeenAt": "2026-10-14T19:04:06.739Z",
-      "lastSeenAt": "2026-10-15T05:21:58.198Z"
+      "lastSeenAt": "2026-10-15T10:00:55.337Z"
     },
     "10342789786": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2347896,12 +2347914,12 @@
       "lastSeenAt": "2026-10-14T20:08:48.082Z"
     },
     "10378339725": {
-      "blockedReason": "stale-or-no-freshness-signal",
+      "blockedReason": "recovery-no-fresh-signal",
       "title": "nike zoom fly 5 running shoes",
       "url": "https://www.vinted.co.uk/items/10378339725-nike-zoom-fly-5-running-shoes",
       "lastPrice": 40,
       "firstSeenAt": "2026-10-14T19:58:45.617Z",
-      "lastSeenAt": "2026-10-15T05:21:58.198Z"
+      "lastSeenAt": "2026-10-15T10:00:55.337Z"
     },
     "10375398820": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -2347920,12 +2347938,12 @@
       "lastSeenAt": "2026-10-14T20:08:48.082Z"
     },
     "10347722114": {
-      "blockedReason": "stale-or-no-freshness-signal",
+      "blockedReason": "recovery-no-fresh-signal",
       "title": "black nike shoes",
       "url": "https://www.vinted.co.uk/items/10347722114-black-nike-shoes",
       "lastPrice": 26.77,
       "firstSeenAt": "2026-10-14T19:58:45.617Z",
-      "lastSeenAt": "2026-10-15T05:21:58.198Z"
+      "lastSeenAt": "2026-10-15T10:00:55.337Z"
     },
     "10346593704": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2348597,7 +2348615,7 @@
       "url": "https://www.vinted.co.uk/items/10380127645-nike-air-max-95-triple-black-mens-trainers-size-uk-6-good-condition-authentic-am95-110s",
       "lastPrice": 30,
       "firstSeenAt": "2026-10-14T20:00:13.790Z",
-      "lastSeenAt": "2026-10-15T05:13:17.263Z"
+      "lastSeenAt": "2026-10-15T10:02:11.348Z"
     },
     "10380114275": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -2348765,7 +2348783,7 @@
       "url": "https://www.vinted.co.uk/items/10380196851-nike-air-max-tn-plus-luminous-yellow-trainers-uk-45",
       "lastPrice": 36,
       "firstSeenAt": "2026-10-14T20:00:13.792Z",
-      "lastSeenAt": "2026-10-15T05:12:10.692Z"
+      "lastSeenAt": "2026-10-15T10:01:32.281Z"
     },
     "10380194089": {
       "blockedReason": "keyword",
@@ -2352930,7 +2352948,7 @@
       "url": "https://www.vinted.co.uk/items/10381147245-nike-air-max-plus-tn-sunset",
       "lastPrice": 155,
       "firstSeenAt": "2026-10-14T22:13:55.293Z",
-      "lastSeenAt": "2026-10-15T05:12:08.805Z"
+      "lastSeenAt": "2026-10-15T10:01:11.096Z"
     },
     "10380846254": {
       "size": 6,
@@ -2352976,7 +2352994,7 @@
       "url": "https://www.vinted.co.uk/items/10349967157-air-max-plus",
       "lastPrice": 76.48,
       "firstSeenAt": "2026-10-14T22:14:22.066Z",
-      "lastSeenAt": "2026-10-15T05:12:08.805Z"
+      "lastSeenAt": "2026-10-15T10:01:11.096Z"
     },
     "10346570969": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2352984,7 +2353002,7 @@
       "url": "https://www.vinted.co.uk/items/10346570969-nike-air-max-plus-tn",
       "lastPrice": 38.24,
       "firstSeenAt": "2026-10-14T22:14:22.066Z",
-      "lastSeenAt": "2026-10-15T05:12:08.805Z"
+      "lastSeenAt": "2026-10-15T10:01:11.096Z"
     },
     "10380649039": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2352992,7 +2353010,7 @@
       "url": "https://www.vinted.co.uk/items/10380649039-nike-air-max-plus-tn-kids-size-15-uk-lemon-venom-hyper-crimson",
       "lastPrice": 22,
       "firstSeenAt": "2026-10-14T22:14:22.066Z",
-      "lastSeenAt": "2026-10-15T05:12:08.805Z"
+      "lastSeenAt": "2026-10-15T10:01:11.096Z"
     },
     "10380620325": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2353000,7 +2353018,7 @@
       "url": "https://www.vinted.co.uk/items/10380620325-nike-air-max-plus-tn-size-65",
       "lastPrice": 17,
       "firstSeenAt": "2026-10-14T22:14:22.066Z",
-      "lastSeenAt": "2026-10-15T05:12:08.805Z"
+      "lastSeenAt": "2026-10-15T10:01:36.802Z"
     },
     "10379995817": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2353008,7 +2353026,7 @@
       "url": "https://www.vinted.co.uk/items/10379995817-nike-air-max-terrascape-plus-tn",
       "lastPrice": 50,
       "firstSeenAt": "2026-10-14T22:14:22.066Z",
-      "lastSeenAt": "2026-10-15T05:12:08.805Z"
+      "lastSeenAt": "2026-10-15T10:01:11.096Z"
     },
     "10381391090": {
       "blockedReason": "size",
@@ -2353062,7 +2353080,7 @@
       "url": "https://www.vinted.co.uk/items/10381074738-nike-air-max-plus-tn-stargazing-size-uk-3",
       "lastPrice": 69,
       "firstSeenAt": "2026-10-14T22:14:35.802Z",
-      "lastSeenAt": "2026-10-15T05:12:40.042Z",
+      "lastSeenAt": "2026-10-15T10:01:36.802Z",
       "size": null
     },
     "10380845741": {
@@ -2353076,7 +2353094,7 @@
       "url": "https://www.vinted.co.uk/items/10380845741-nike-air-max-plus-tn-obsidian-blue-silver-opti-yellow-uk95-fz4622-001",
       "lastPrice": 50,
       "firstSeenAt": "2026-10-14T22:14:35.802Z",
-      "lastSeenAt": "2026-10-15T05:12:10.692Z",
+      "lastSeenAt": "2026-10-15T10:01:32.281Z",
       "sellerRisk": {
         "level": "MEDIUM",
         "note": "seller has 0 recorded reviews; price is at or below 50% of expected resale; seller identity could not be verified from listing metadata",
@@ -2353118,7 +2353136,7 @@
       "url": "https://www.vinted.co.uk/items/10380581917-nike-air-max-plus-utility-tns-white",
       "lastPrice": 35,
       "firstSeenAt": "2026-10-14T22:14:35.802Z",
-      "lastSeenAt": "2026-10-15T05:13:11.859Z",
+      "lastSeenAt": "2026-10-15T10:01:46.892Z",
       "sellerRisk": {
         "level": "MEDIUM",
         "note": "seller has 0 recorded reviews; price is at or below 40% of expected resale",
@@ -2353172,7 +2353190,7 @@
       "url": "https://www.vinted.co.uk/items/10349263607-nike-air-max-plus-97-miami-mens-whiteblue-gale-black-pink-av7936-101",
       "lastPrice": 87.95,
       "firstSeenAt": "2026-10-14T22:14:35.803Z",
-      "lastSeenAt": "2026-10-15T05:12:29.531Z"
+      "lastSeenAt": "2026-10-15T10:01:32.282Z"
     },
     "10381359686": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2357671,7 +2357689,7 @@
       "url": "https://www.vinted.co.uk/items/10381514030-mens-nike-air-max-plus-basketball-trainers-sneakers-shoes-black-red-size-uk-10-us-11-eu-45",
       "lastPrice": 100,
       "firstSeenAt": "2026-10-14T23:05:50.961Z",
-      "lastSeenAt": "2026-10-15T05:12:08.805Z",
+      "lastSeenAt": "2026-10-15T10:01:11.096Z",
       "size": 10,
       "condition": "newWithoutTags",
       "resale": 125,
@@ -2357826,7 +2357844,7 @@
       "url": "https://www.vinted.co.uk/items/10350567104-nike-air-max-plus",
       "lastPrice": 19.12,
       "firstSeenAt": "2026-10-14T23:05:50.963Z",
-      "lastSeenAt": "2026-10-15T05:12:08.805Z"
+      "lastSeenAt": "2026-10-15T10:01:11.096Z"
     },
     "10350022159": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2358017,7 +2358035,7 @@
       "url": "https://www.vinted.co.uk/items/10350694273-nike-air-max-plus-tn-womens-yellow",
       "lastPrice": 61.18,
       "firstSeenAt": "2026-10-14T23:05:50.965Z",
-      "lastSeenAt": "2026-10-15T05:12:29.531Z"
+      "lastSeenAt": "2026-10-15T10:01:32.282Z"
     },
     "10350689710": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2360980,7 +2360998,7 @@
       "url": "https://www.vinted.co.uk/items/10351513636-nike-react-sea-glass-purple-ink-pegasus-trail-4-gtx-v2-trainers",
       "lastPrice": 95,
       "firstSeenAt": "2026-10-15T00:35:39.348Z",
-      "lastSeenAt": "2026-10-15T05:12:03.826Z"
+      "lastSeenAt": "2026-10-15T10:01:00.409Z"
     },
     "10351122027": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2360988,7 +2361006,7 @@
       "url": "https://www.vinted.co.uk/items/10351122027-nike-react-pegasus-trail-5-gore-tex-size-65",
       "lastPrice": 91.77,
       "firstSeenAt": "2026-10-15T00:35:39.348Z",
-      "lastSeenAt": "2026-10-15T05:12:03.826Z"
+      "lastSeenAt": "2026-10-15T10:01:00.409Z"
     },
     "10351038355": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2360996,7 +2361014,7 @@
       "url": "https://www.vinted.co.uk/items/10351038355-nike-air-max-plus-gs-pure-platinum-tn-air-youth-sz-55-718071-001",
       "lastPrice": 42.06,
       "firstSeenAt": "2026-10-15T00:35:48.143Z",
-      "lastSeenAt": "2026-10-15T05:12:08.805Z"
+      "lastSeenAt": "2026-10-15T10:01:11.096Z"
     },
     "10382051120": {
       "size": 10,
@@ -2361023,7 +2361041,7 @@
       "url": "https://www.vinted.co.uk/items/10381862119-nike-air-max-plus-tn",
       "lastPrice": 45,
       "firstSeenAt": "2026-10-15T00:35:56.054Z",
-      "lastSeenAt": "2026-10-15T05:12:10.692Z"
+      "lastSeenAt": "2026-10-15T10:01:32.281Z"
     },
     "10381802446": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2361031,7 +2361049,7 @@
       "url": "https://www.vinted.co.uk/items/10381802446-nike-air-max-plus-tn-kids-size-13-black-volt-yellow",
       "lastPrice": 30,
       "firstSeenAt": "2026-10-15T00:35:56.054Z",
-      "lastSeenAt": "2026-10-15T05:12:10.692Z"
+      "lastSeenAt": "2026-10-15T10:01:32.281Z"
     },
     "10359094318": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2362261,12 +2362279,12 @@
       "lastSeenAt": "2026-10-15T00:46:21.371Z"
     },
     "10351280730": {
-      "blockedReason": "stale-or-no-freshness-signal",
+      "blockedReason": "recovery-no-fresh-signal",
       "title": "nike air force 1 low just do it ar7719 800 mens shoes 115",
       "url": "https://www.vinted.co.uk/items/10351280730-nike-air-force-1-low-just-do-it-ar7719-800-mens-shoes-115",
       "lastPrice": 36.71,
       "firstSeenAt": "2026-10-15T00:46:21.371Z",
-      "lastSeenAt": "2026-10-15T05:21:58.198Z"
+      "lastSeenAt": "2026-10-15T10:00:55.337Z"
     },
     "10351161738": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -2363325,12 +2363343,12 @@
       "lastSeenAt": "2026-10-15T01:28:30.205Z"
     },
     "10346614169": {
-      "blockedReason": "stale-or-no-freshness-signal",
+      "blockedReason": "recovery-no-fresh-signal",
       "title": "baby nike trainers blue 45",
       "url": "https://www.vinted.co.uk/items/10346614169-baby-nike-trainers-blue-45",
       "lastPrice": 4,
       "firstSeenAt": "2026-10-15T01:28:30.205Z",
-      "lastSeenAt": "2026-10-15T05:21:58.198Z"
+      "lastSeenAt": "2026-10-15T10:00:55.337Z"
     },
     "10325505096": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2363672,12 +2363690,12 @@
       "lastSeenAt": "2026-10-15T01:29:53.638Z"
     },
     "10382280469": {
-      "blockedReason": "condition",
+      "blockedReason": "recovery-no-fresh-signal",
       "title": "nike air max 90 ultra 20 flyknit trainers mens uk 8 triple white pure platinum",
       "url": "https://www.vinted.co.uk/items/10382280469-nike-air-max-90-ultra-20-flyknit-trainers-mens-uk-8-triple-white-pure-platinum",
       "lastPrice": 45,
       "firstSeenAt": "2026-10-15T01:29:53.638Z",
-      "lastSeenAt": "2026-10-15T05:13:22.726Z"
+      "lastSeenAt": "2026-10-15T10:02:17.480Z"
     },
     "10382257584": {
       "blockedReason": "condition",
@@ -2363789,7 +2363807,7 @@
       "url": "https://www.vinted.co.uk/items/10352546580-nike-air-max-plus-drift-light-smoke-grey-sneakers-trainers-85",
       "lastPrice": 38.24,
       "firstSeenAt": "2026-10-15T01:29:53.638Z",
-      "lastSeenAt": "2026-10-15T05:13:11.859Z"
+      "lastSeenAt": "2026-10-15T10:01:46.892Z"
     },
     "10352497863": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2363937,7 +2363955,7 @@
       "url": "https://www.vinted.co.uk/items/10352898695-air-max-plus-ps-black-active-pink-10c",
       "lastPrice": 9.94,
       "firstSeenAt": "2026-10-15T01:29:53.638Z",
-      "lastSeenAt": "2026-10-15T05:12:29.531Z"
+      "lastSeenAt": "2026-10-15T10:01:32.282Z"
     },
     "10352893771": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2365257,68 +2365275,68 @@
       "lastSeenAt": "2026-10-15T01:39:28.188Z"
     },
     "10343953503": {
-      "blockedReason": "stale-or-no-freshness-signal",
+      "blockedReason": "recovery-no-fresh-signal",
       "title": "nike trainers",
       "url": "https://www.vinted.co.uk/items/10343953503-nike-trainers",
       "lastPrice": 15,
       "firstSeenAt": "2026-10-15T05:11:59.217Z",
-      "lastSeenAt": "2026-10-15T05:21:58.198Z"
+      "lastSeenAt": "2026-10-15T10:00:55.337Z"
     },
     "10323115677": {
-      "blockedReason": "stale-or-no-freshness-signal",
+      "blockedReason": "recovery-no-fresh-signal",
       "title": "nike boy shoes 8 c",
       "url": "https://www.vinted.co.uk/items/10323115677-nike-boy-shoes-8-c",
       "lastPrice": 9.94,
       "firstSeenAt": "2026-10-15T05:11:59.217Z",
-      "lastSeenAt": "2026-10-15T05:21:58.198Z"
+      "lastSeenAt": "2026-10-15T10:00:55.337Z"
     },
     "10376340921": {
-      "blockedReason": "stale-or-no-freshness-signal",
+      "blockedReason": "recovery-no-fresh-signal",
       "title": "nike trainers size 6",
       "url": "https://www.vinted.co.uk/items/10376340921-nike-trainers-size-6",
       "lastPrice": 10,
       "firstSeenAt": "2026-10-15T05:11:59.217Z",
-      "lastSeenAt": "2026-10-15T05:21:58.198Z"
+      "lastSeenAt": "2026-10-15T10:00:55.337Z"
     },
     "10375610125": {
-      "blockedReason": "stale-or-no-freshness-signal",
+      "blockedReason": "recovery-no-fresh-signal",
       "title": "red nike running trainers",
       "url": "https://www.vinted.co.uk/items/10375610125-red-nike-running-trainers",
       "lastPrice": 19,
       "firstSeenAt": "2026-10-15T05:11:59.217Z",
-      "lastSeenAt": "2026-10-15T05:21:58.198Z"
+      "lastSeenAt": "2026-10-15T10:00:55.337Z"
     },
     "10373957390": {
-      "blockedReason": "stale-or-no-freshness-signal",
+      "blockedReason": "recovery-no-fresh-signal",
       "title": "boys nike trainers",
       "url": "https://www.vinted.co.uk/items/10373957390-boys-nike-trainers",
       "lastPrice": 15,
       "firstSeenAt": "2026-10-15T05:11:59.217Z",
-      "lastSeenAt": "2026-10-15T05:21:58.198Z"
+      "lastSeenAt": "2026-10-15T10:00:55.337Z"
     },
     "10365519721": {
-      "blockedReason": "stale-or-no-freshness-signal",
+      "blockedReason": "recovery-no-fresh-signal",
       "title": "kids trainers 45 and 5",
       "url": "https://www.vinted.co.uk/items/10365519721-kids-trainers-45-and-5",
       "lastPrice": 5.5,
       "firstSeenAt": "2026-10-15T05:11:59.217Z",
-      "lastSeenAt": "2026-10-15T05:21:58.198Z"
+      "lastSeenAt": "2026-10-15T10:00:55.337Z"
     },
     "10352399548": {
-      "blockedReason": "stale-or-no-freshness-signal",
+      "blockedReason": "recovery-no-fresh-signal",
       "title": "boys nike trainers",
       "url": "https://www.vinted.co.uk/items/10352399548-boys-nike-trainers",
       "lastPrice": 7,
       "firstSeenAt": "2026-10-15T05:11:59.217Z",
-      "lastSeenAt": "2026-10-15T05:21:58.198Z"
+      "lastSeenAt": "2026-10-15T10:00:55.337Z"
     },
     "10323169211": {
-      "blockedReason": "stale-or-no-freshness-signal",
+      "blockedReason": "recovery-no-fresh-signal",
       "title": "mens basketball shoes",
       "url": "https://www.vinted.co.uk/items/10323169211-mens-basketball-shoes",
       "lastPrice": 24.47,
       "firstSeenAt": "2026-10-15T05:11:59.217Z",
-      "lastSeenAt": "2026-10-15T05:21:58.198Z"
+      "lastSeenAt": "2026-10-15T10:00:55.337Z"
     },
     "10355557033": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2365326,7 +2365344,7 @@
       "url": "https://www.vinted.co.uk/items/10355557033-nike-air-max-plus-prm",
       "lastPrice": 42.06,
       "firstSeenAt": "2026-10-15T05:12:08.805Z",
-      "lastSeenAt": "2026-10-15T05:12:08.805Z"
+      "lastSeenAt": "2026-10-15T10:01:11.096Z"
     },
     "10355399870": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2365334,7 +2365352,7 @@
       "url": "https://www.vinted.co.uk/items/10355399870-nike-air-max-plus-sneakerssesame-womens-10",
       "lastPrice": 65.01,
       "firstSeenAt": "2026-10-15T05:12:08.805Z",
-      "lastSeenAt": "2026-10-15T05:12:08.805Z"
+      "lastSeenAt": "2026-10-15T10:01:11.096Z"
     },
     "10354909097": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2365342,7 +2365360,7 @@
       "url": "https://www.vinted.co.uk/items/10354909097-nike-air-max-plus-mens-size-12",
       "lastPrice": 11.47,
       "firstSeenAt": "2026-10-15T05:12:08.805Z",
-      "lastSeenAt": "2026-10-15T05:12:08.805Z"
+      "lastSeenAt": "2026-10-15T10:01:11.096Z"
     },
     "10354651928": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2365350,15 +2365368,15 @@
       "url": "https://www.vinted.co.uk/items/10354651928-nike-air-max-plus-iii-gs-in-blue-voidkinetic-green",
       "lastPrice": 22.94,
       "firstSeenAt": "2026-10-15T05:12:08.805Z",
-      "lastSeenAt": "2026-10-15T05:12:08.805Z"
+      "lastSeenAt": "2026-10-15T10:01:11.096Z"
     },
     "10382209096": {
-      "blockedReason": "size",
+      "blockedReason": "recovery-no-fresh-signal",
       "title": "nike air max plus celestine blue uk5 dm2362 101",
       "url": "https://www.vinted.co.uk/items/10382209096-nike-air-max-plus-celestine-blue-uk5-dm2362-101",
       "lastPrice": 30,
       "firstSeenAt": "2026-10-15T05:12:10.692Z",
-      "lastSeenAt": "2026-10-15T05:12:10.692Z"
+      "lastSeenAt": "2026-10-15T10:01:32.281Z"
     },
     "10353841290": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2365366,7 +2365384,7 @@
       "url": "https://www.vinted.co.uk/items/10353841290-nike-air-max-plus-gs-back-to-school",
       "lastPrice": 30.59,
       "firstSeenAt": "2026-10-15T05:12:29.531Z",
-      "lastSeenAt": "2026-10-15T05:12:29.531Z"
+      "lastSeenAt": "2026-10-15T10:01:32.282Z"
     },
     "10382722938": {
       "blockedReason": "price",
@@ -2365430,7 +2365448,7 @@
       "url": "https://www.vinted.co.uk/items/10353021664-nike-size-75-air-max-95-white-leather-mesh-sneakers-918413-102",
       "lastPrice": 30.58,
       "firstSeenAt": "2026-10-15T05:13:17.263Z",
-      "lastSeenAt": "2026-10-15T05:13:17.263Z"
+      "lastSeenAt": "2026-10-15T10:02:11.348Z"
     },
     "10355550254": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2368980,12 +2368998,23 @@
       "lastSeenAt": "2026-10-15T06:19:04.004Z"
     },
     "10383126425": {
-      "blockedReason": "price",
       "title": "nike air max 95",
       "url": "https://www.vinted.co.uk/items/10383126425-nike-air-max-95",
       "lastPrice": 65,
       "firstSeenAt": "2026-10-15T06:19:04.004Z",
-      "lastSeenAt": "2026-10-15T06:19:04.004Z"
+      "lastSeenAt": "2026-10-15T10:02:09.566Z",
+      "size": 7.5,
+      "condition": "newWithoutTags",
+      "resale": 125,
+      "netProfit": 59.2,
+      "roi": 91.08,
+      "buyScore": 78,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: seller has only 1 review(s); seller identity could not be verified from listing metadata"
+      },
+      "lastAlertedAt": "2026-10-15T10:02:09.566Z",
+      "discordMessageId": "1560231299040542721"
     },
     "10383074522": {
       "blockedReason": "price",
@@ -2369017,7 +2369046,7 @@
       "url": "https://www.vinted.co.uk/items/10372093427-nike-air-max-95110s-liverpool",
       "lastPrice": 220,
       "firstSeenAt": "2026-10-15T06:19:04.004Z",
-      "lastSeenAt": "2026-10-15T06:19:04.004Z"
+      "lastSeenAt": "2026-10-15T10:02:11.347Z"
     },
     "10356019632": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2369073,7 +2369102,7 @@
       "url": "https://www.vinted.co.uk/items/10355808174-nike-air-max-95-big-bubble-linen",
       "lastPrice": 114.72,
       "firstSeenAt": "2026-10-15T06:19:04.004Z",
-      "lastSeenAt": "2026-10-15T06:19:04.004Z"
+      "lastSeenAt": "2026-10-15T10:02:11.347Z"
     },
     "10355696782": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2369089,7 +2369118,7 @@
       "url": "https://www.vinted.co.uk/items/10355241449-nike-x-levis-air-max-95-denim-sneakers-mens-us-65-new-with-tags",
       "lastPrice": 91.77,
       "firstSeenAt": "2026-10-15T06:19:04.004Z",
-      "lastSeenAt": "2026-10-15T06:19:04.004Z"
+      "lastSeenAt": "2026-10-15T10:02:11.347Z"
     },
     "10355189908": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2369280,7 +2369309,7 @@
       "url": "https://www.vinted.co.uk/items/10355982747-nike-air-max-plus-tn-grayorange-sneakers-big-kids-5y-womens-65",
       "lastPrice": 22.94,
       "firstSeenAt": "2026-10-15T06:19:04.005Z",
-      "lastSeenAt": "2026-10-15T06:19:04.005Z"
+      "lastSeenAt": "2026-10-15T10:01:32.281Z"
     },
     "10355965706": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2369288,7 +2369317,7 @@
       "url": "https://www.vinted.co.uk/items/10355965706-nike-air-max-plus-tn-whitesage-green-sneakers-womens-size-7",
       "lastPrice": 22.94,
       "firstSeenAt": "2026-10-15T06:19:04.005Z",
-      "lastSeenAt": "2026-10-15T06:19:04.005Z"
+      "lastSeenAt": "2026-10-15T10:01:51.670Z"
     },
     "10355962001": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -2371518,6 +2371547,1033 @@
       "lastPrice": 76.45,
       "firstSeenAt": "2026-10-15T06:28:39.535Z",
       "lastSeenAt": "2026-10-15T06:28:39.535Z"
+    },
+    "10383608215": {
+      "blockedReason": "keyword",
+      "title": "nike trainers",
+      "url": "https://www.vinted.co.uk/items/10383608215-nike-trainers",
+      "lastPrice": 3,
+      "firstSeenAt": "2026-10-15T10:00:55.337Z",
+      "lastSeenAt": "2026-10-15T10:00:55.337Z"
+    },
+    "10377475054": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike react pegasus trail 4 gtx v2",
+      "url": "https://www.vinted.co.uk/items/10377475054-nike-react-pegasus-trail-4-gtx-v2",
+      "lastPrice": 80,
+      "firstSeenAt": "2026-10-15T10:01:00.409Z",
+      "lastSeenAt": "2026-10-15T10:01:00.409Z"
+    },
+    "10380495520": {
+      "size": 10,
+      "condition": "veryGood",
+      "resale": 100,
+      "netProfit": 49.2,
+      "roi": 98.4,
+      "buyScore": 78,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: price is at or below 50% of expected resale"
+      },
+      "lastAlertedAt": "2026-10-15T10:01:06.920Z",
+      "discordMessageId": "1560231035378081853",
+      "title": "nike pegasus trail gtx 10",
+      "url": "https://www.vinted.co.uk/items/10380495520-nike-pegasus-trail-gtx-10",
+      "lastPrice": 50,
+      "firstSeenAt": "2026-10-15T10:01:06.920Z",
+      "lastSeenAt": "2026-10-15T10:01:06.920Z"
+    },
+    "10384795252": {
+      "blockedReason": "keyword",
+      "title": "nike air max plus gs",
+      "url": "https://www.vinted.co.uk/items/10384795252-nike-air-max-plus-gs",
+      "lastPrice": 58,
+      "firstSeenAt": "2026-10-15T10:01:11.096Z",
+      "lastSeenAt": "2026-10-15T10:01:11.096Z"
+    },
+    "10374744398": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike air max plus",
+      "url": "https://www.vinted.co.uk/items/10374744398-nike-air-max-plus",
+      "lastPrice": 65,
+      "firstSeenAt": "2026-10-15T10:01:11.096Z",
+      "lastSeenAt": "2026-10-15T10:01:46.892Z"
+    },
+    "10356791026": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike air max plus tn triple white sneakers",
+      "url": "https://www.vinted.co.uk/items/10356791026-nike-air-max-plus-tn-triple-white-sneakers",
+      "lastPrice": 107.07,
+      "firstSeenAt": "2026-10-15T10:01:11.096Z",
+      "lastSeenAt": "2026-10-15T10:01:11.096Z"
+    },
+    "10370829993": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike air max plus tn kids low top lace up cushioned sneakers black multi",
+      "url": "https://www.vinted.co.uk/items/10370829993-nike-air-max-plus-tn-kids-low-top-lace-up-cushioned-sneakers-black-multi",
+      "lastPrice": 29.25,
+      "firstSeenAt": "2026-10-15T10:01:11.096Z",
+      "lastSeenAt": "2026-10-15T10:01:11.096Z"
+    },
+    "10384761214": {
+      "blockedReason": "price",
+      "title": "nike air max plus crater green",
+      "url": "https://www.vinted.co.uk/items/10384761214-nike-air-max-plus-crater-green",
+      "lastPrice": 150,
+      "firstSeenAt": "2026-10-15T10:01:11.097Z",
+      "lastSeenAt": "2026-10-15T10:01:46.892Z"
+    },
+    "10384750964": {
+      "blockedReason": "condition",
+      "title": "nike air max plus tuned 3 light smoke grey metallic silver uk 8 very good condition",
+      "url": "https://www.vinted.co.uk/items/10384750964-nike-air-max-plus-tuned-3-light-smoke-grey-metallic-silver-uk-8-very-good-condition",
+      "lastPrice": 50,
+      "firstSeenAt": "2026-10-15T10:01:11.097Z",
+      "lastSeenAt": "2026-10-15T10:01:36.802Z"
+    },
+    "10384748584": {
+      "size": 7,
+      "condition": "veryGood",
+      "resale": 110,
+      "netProfit": 84.2,
+      "roi": 336.8,
+      "buyScore": 100,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: price is at or below 30% of expected resale"
+      },
+      "lastAlertedAt": "2026-10-15T10:01:15.898Z",
+      "discordMessageId": "1560231074037235743",
+      "title": "nike air max plus psychic blue",
+      "url": "https://www.vinted.co.uk/items/10384748584-nike-air-max-plus-psychic-blue",
+      "lastPrice": 25,
+      "firstSeenAt": "2026-10-15T10:01:15.898Z",
+      "lastSeenAt": "2026-10-15T10:01:15.898Z"
+    },
+    "10384697703": {
+      "size": 6.5,
+      "condition": "veryGood",
+      "resale": 115,
+      "netProfit": 89.2,
+      "roi": 356.8,
+      "buyScore": 100,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: price is at or below 30% of expected resale"
+      },
+      "lastAlertedAt": "2026-10-15T10:01:20.903Z",
+      "discordMessageId": "1560231094509633589",
+      "title": "nike air max plus tn triple black uk 65 eur 405",
+      "url": "https://www.vinted.co.uk/items/10384697703-nike-air-max-plus-tn-triple-black-uk-65-eur-405",
+      "lastPrice": 25,
+      "firstSeenAt": "2026-10-15T10:01:20.903Z",
+      "lastSeenAt": "2026-10-15T10:01:20.903Z"
+    },
+    "10384518778": {
+      "size": 11,
+      "condition": "veryGood",
+      "resale": 125,
+      "netProfit": 59.2,
+      "roi": 91.08,
+      "buyScore": 78,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: seller identity could not be verified from listing metadata"
+      },
+      "lastAlertedAt": "2026-10-15T10:01:27.569Z",
+      "discordMessageId": "1560231122254823526",
+      "title": "nike air max plus tn spider man red blue black size uk 11 used 1420",
+      "url": "https://www.vinted.co.uk/items/10384518778-nike-air-max-plus-tn-spider-man-red-blue-black-size-uk-11-used-1420",
+      "lastPrice": 65,
+      "firstSeenAt": "2026-10-15T10:01:27.569Z",
+      "lastSeenAt": "2026-10-15T10:01:27.569Z"
+    },
+    "10384284136": {
+      "size": 8.5,
+      "condition": "veryGood",
+      "resale": 115,
+      "netProfit": 74.21,
+      "roi": 185.57,
+      "buyScore": 95,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: price is at or below 40% of expected resale"
+      },
+      "lastAlertedAt": "2026-10-15T10:01:32.281Z",
+      "discordMessageId": "1560231142106472540",
+      "title": "nike air max plus tuned universe 1 tn jcqrd trainers 845006 407 mens size 85 rare 2016",
+      "url": "https://www.vinted.co.uk/items/10384284136-nike-air-max-plus-tuned-universe-1-tn-jcqrd-trainers-845006-407-mens-size-85-rare-2016",
+      "lastPrice": 39.99,
+      "firstSeenAt": "2026-10-15T10:01:32.281Z",
+      "lastSeenAt": "2026-10-15T10:01:32.281Z"
+    },
+    "10356932512": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "ladies bjorndal tan suede look boots",
+      "url": "https://www.vinted.co.uk/items/10356932512-ladies-bjorndal-tan-suede-look-boots",
+      "lastPrice": 11.47,
+      "firstSeenAt": "2026-10-15T10:01:32.281Z",
+      "lastSeenAt": "2026-10-15T10:01:32.281Z"
+    },
+    "10356747784": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike air max plus tn se light photography blue old royal dz3531 400 mens size 9",
+      "url": "https://www.vinted.co.uk/items/10356747784-nike-air-max-plus-tn-se-light-photography-blue-old-royal-dz3531-400-mens-size-9",
+      "lastPrice": 61.18,
+      "firstSeenAt": "2026-10-15T10:01:32.281Z",
+      "lastSeenAt": "2026-10-15T10:01:32.281Z"
+    },
+    "10356607878": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "youth nike air max plus",
+      "url": "https://www.vinted.co.uk/items/10356607878-youth-nike-air-max-plus",
+      "lastPrice": 15.3,
+      "firstSeenAt": "2026-10-15T10:01:32.281Z",
+      "lastSeenAt": "2026-10-15T10:01:32.281Z"
+    },
+    "10220469461": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike air max plus tn atmos white hyper jade 2021 size uk 75",
+      "url": "https://www.vinted.co.uk/items/10220469461-nike-air-max-plus-tn-atmos-white-hyper-jade-2021-size-uk-75",
+      "lastPrice": 60,
+      "firstSeenAt": "2026-10-15T10:01:32.282Z",
+      "lastSeenAt": "2026-10-15T10:01:32.282Z"
+    },
+    "10384389995": {
+      "blockedReason": "price",
+      "title": "nike air max 95",
+      "url": "https://www.vinted.co.uk/items/10384389995-nike-air-max-95",
+      "lastPrice": 140,
+      "firstSeenAt": "2026-10-15T10:02:00.043Z",
+      "lastSeenAt": "2026-10-15T10:02:00.043Z"
+    },
+    "10384327394": {
+      "blockedReason": "price",
+      "title": "nike air max 95 og mens low top lace up trainers whitebluegrey uk 6",
+      "url": "https://www.vinted.co.uk/items/10384327394-nike-air-max-95-og-mens-low-top-lace-up-trainers-whitebluegrey-uk-6",
+      "lastPrice": 150,
+      "firstSeenAt": "2026-10-15T10:02:00.043Z",
+      "lastSeenAt": "2026-10-15T10:02:00.043Z"
+    },
+    "10384281924": {
+      "blockedReason": "price",
+      "title": "nike air max 95 og mens low top lace up trainers uk 7 eu 41 im7410 001",
+      "url": "https://www.vinted.co.uk/items/10384281924-nike-air-max-95-og-mens-low-top-lace-up-trainers-uk-7-eu-41-im7410-001",
+      "lastPrice": 150,
+      "firstSeenAt": "2026-10-15T10:02:00.043Z",
+      "lastSeenAt": "2026-10-15T10:02:00.043Z"
+    },
+    "10384173012": {
+      "blockedReason": "price",
+      "title": "nike air max 95 koi uk 9",
+      "url": "https://www.vinted.co.uk/items/10384173012-nike-air-max-95-koi-uk-9",
+      "lastPrice": 180,
+      "firstSeenAt": "2026-10-15T10:02:00.043Z",
+      "lastSeenAt": "2026-10-15T10:02:00.043Z"
+    },
+    "10384128039": {
+      "blockedReason": "price",
+      "title": "nike air max 95 pink foam 20252026",
+      "url": "https://www.vinted.co.uk/items/10384128039-nike-air-max-95-pink-foam-20252026",
+      "lastPrice": 150,
+      "firstSeenAt": "2026-10-15T10:02:00.043Z",
+      "lastSeenAt": "2026-10-15T10:02:00.043Z"
+    },
+    "10383805102": {
+      "blockedReason": "score",
+      "size": 6.5,
+      "condition": "newWithTags",
+      "resale": 125,
+      "netProfit": 24.2,
+      "roi": 24.2,
+      "buyScore": 50,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "No configured major authenticity red flags detected | Seller: seller has only 1 review(s); seller feedback reputation is poor"
+      },
+      "title": "nike air max 95 og big bubble granite",
+      "url": "https://www.vinted.co.uk/items/10383805102-nike-air-max-95-og-big-bubble-granite",
+      "lastPrice": 100,
+      "firstSeenAt": "2026-10-15T10:02:01.626Z",
+      "lastSeenAt": "2026-10-15T10:02:01.626Z"
+    },
+    "10383257159": {
+      "blockedReason": "score",
+      "size": 11,
+      "condition": "newWithoutTags",
+      "resale": 135,
+      "netProfit": 29.2,
+      "roi": 27.81,
+      "buyScore": 53,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: seller identity could not be verified from listing metadata"
+      },
+      "title": "nike air max 95 corteiz style trainers navy blue black pink details",
+      "url": "https://www.vinted.co.uk/items/10383257159-nike-air-max-95-corteiz-style-trainers-navy-blue-black-pink-details",
+      "lastPrice": 105,
+      "firstSeenAt": "2026-10-15T10:02:04.271Z",
+      "lastSeenAt": "2026-10-15T10:02:04.271Z"
+    },
+    "10377874344": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "air max 95 og smoke grey",
+      "url": "https://www.vinted.co.uk/items/10377874344-air-max-95-og-smoke-grey",
+      "lastPrice": 110,
+      "firstSeenAt": "2026-10-15T10:02:09.566Z",
+      "lastSeenAt": "2026-10-15T10:02:09.566Z"
+    },
+    "10376292111": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike air max 95 anatomy uk size 85 brand new with box",
+      "url": "https://www.vinted.co.uk/items/10376292111-nike-air-max-95-anatomy-uk-size-85-brand-new-with-box",
+      "lastPrice": 79.99,
+      "firstSeenAt": "2026-10-15T10:02:11.347Z",
+      "lastSeenAt": "2026-10-15T10:02:11.347Z"
+    },
+    "10374204009": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike air max 95 recraft black mens trainers uk 10",
+      "url": "https://www.vinted.co.uk/items/10374204009-nike-air-max-95-recraft-black-mens-trainers-uk-10",
+      "lastPrice": 60,
+      "firstSeenAt": "2026-10-15T10:02:11.347Z",
+      "lastSeenAt": "2026-10-15T10:02:11.347Z"
+    },
+    "10356703218": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike air max 95 recraft",
+      "url": "https://www.vinted.co.uk/items/10356703218-nike-air-max-95-recraft",
+      "lastPrice": 22.94,
+      "firstSeenAt": "2026-10-15T10:02:11.347Z",
+      "lastSeenAt": "2026-10-15T10:02:11.347Z"
+    },
+    "10356516166": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike air max 95 og size 9 men new",
+      "url": "https://www.vinted.co.uk/items/10356516166-nike-air-max-95-og-size-9-men-new",
+      "lastPrice": 72.65,
+      "firstSeenAt": "2026-10-15T10:02:11.347Z",
+      "lastSeenAt": "2026-10-15T10:02:11.347Z"
+    },
+    "10356343864": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "air max 95",
+      "url": "https://www.vinted.co.uk/items/10356343864-air-max-95",
+      "lastPrice": 38.24,
+      "firstSeenAt": "2026-10-15T10:02:11.347Z",
+      "lastSeenAt": "2026-10-15T10:02:11.347Z"
+    },
+    "10356183219": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike air max 95",
+      "url": "https://www.vinted.co.uk/items/10356183219-nike-air-max-95",
+      "lastPrice": 95.6,
+      "firstSeenAt": "2026-10-15T10:02:11.347Z",
+      "lastSeenAt": "2026-10-15T10:02:11.347Z"
+    },
+    "10384825597": {
+      "blockedReason": "condition",
+      "title": "air max 95s",
+      "url": "https://www.vinted.co.uk/items/10384825597-air-max-95s",
+      "lastPrice": 30,
+      "firstSeenAt": "2026-10-15T10:02:11.348Z",
+      "lastSeenAt": "2026-10-15T10:02:11.348Z"
+    },
+    "10384484638": {
+      "blockedReason": "keyword",
+      "title": "nike air max 95",
+      "url": "https://www.vinted.co.uk/items/10384484638-nike-air-max-95",
+      "lastPrice": 25,
+      "firstSeenAt": "2026-10-15T10:02:11.348Z",
+      "lastSeenAt": "2026-10-15T10:02:11.348Z"
+    },
+    "10384425980": {
+      "blockedReason": "condition",
+      "title": "nike air max 95 grey woven uk 9",
+      "url": "https://www.vinted.co.uk/items/10384425980-nike-air-max-95-grey-woven-uk-9",
+      "lastPrice": 100,
+      "firstSeenAt": "2026-10-15T10:02:11.348Z",
+      "lastSeenAt": "2026-10-15T10:02:11.348Z"
+    },
+    "10384383244": {
+      "blockedReason": "condition",
+      "title": "nike air max 95 boots size 7",
+      "url": "https://www.vinted.co.uk/items/10384383244-nike-air-max-95-boots-size-7",
+      "lastPrice": 50,
+      "firstSeenAt": "2026-10-15T10:02:11.348Z",
+      "lastSeenAt": "2026-10-15T10:02:11.348Z"
+    },
+    "10384058109": {
+      "blockedReason": "keyword",
+      "title": "kids nike air max 95",
+      "url": "https://www.vinted.co.uk/items/10384058109-kids-nike-air-max-95",
+      "lastPrice": 50,
+      "firstSeenAt": "2026-10-15T10:02:11.348Z",
+      "lastSeenAt": "2026-10-15T10:02:11.348Z"
+    },
+    "10383311969": {
+      "blockedReason": "condition",
+      "title": "nike air max 95",
+      "url": "https://www.vinted.co.uk/items/10383311969-nike-air-max-95",
+      "lastPrice": 30,
+      "firstSeenAt": "2026-10-15T10:02:11.348Z",
+      "lastSeenAt": "2026-10-15T10:02:11.348Z"
+    },
+    "10383224536": {
+      "blockedReason": "condition",
+      "title": "air max 95 grey size uk 9",
+      "url": "https://www.vinted.co.uk/items/10383224536-air-max-95-grey-size-uk-9",
+      "lastPrice": 15,
+      "firstSeenAt": "2026-10-15T10:02:11.348Z",
+      "lastSeenAt": "2026-10-15T10:02:11.348Z"
+    },
+    "10356158093": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike air max 95 camo sneakers 65y black gray orange 599234 001 retro",
+      "url": "https://www.vinted.co.uk/items/10356158093-nike-air-max-95-camo-sneakers-65y-black-gray-orange-599234-001-retro",
+      "lastPrice": 29.83,
+      "firstSeenAt": "2026-10-15T10:02:11.348Z",
+      "lastSeenAt": "2026-10-15T10:02:11.348Z"
+    },
+    "10384983591": {
+      "blockedReason": "seller-check-budget-exhausted",
+      "size": 6,
+      "condition": "veryGood",
+      "resale": 112,
+      "netProfit": 81.2,
+      "roi": 270.67,
+      "title": "nike air max 95 size uk 6",
+      "url": "https://www.vinted.co.uk/items/10384983591-nike-air-max-95-size-uk-6",
+      "lastPrice": 30,
+      "firstSeenAt": "2026-10-15T10:02:11.348Z",
+      "lastSeenAt": "2026-10-15T10:02:11.348Z"
+    },
+    "10384943326": {
+      "blockedReason": "seller-check-budget-exhausted",
+      "size": 6,
+      "condition": "veryGood",
+      "resale": 112,
+      "netProfit": 76.2,
+      "roi": 217.71,
+      "title": "nike air max 95 pale green",
+      "url": "https://www.vinted.co.uk/items/10384943326-nike-air-max-95-pale-green",
+      "lastPrice": 35,
+      "firstSeenAt": "2026-10-15T10:02:11.348Z",
+      "lastSeenAt": "2026-10-15T10:02:11.348Z"
+    },
+    "10384813161": {
+      "blockedReason": "detail-budget-exhausted",
+      "size": null,
+      "title": "nike air max 95 trainers size 4",
+      "url": "https://www.vinted.co.uk/items/10384813161-nike-air-max-95-trainers-size-4",
+      "lastPrice": 30,
+      "firstSeenAt": "2026-10-15T10:02:11.348Z",
+      "lastSeenAt": "2026-10-15T10:02:11.348Z"
+    },
+    "10384766675": {
+      "blockedReason": "detail-budget-exhausted",
+      "size": null,
+      "title": "nike air max 95",
+      "url": "https://www.vinted.co.uk/items/10384766675-nike-air-max-95",
+      "lastPrice": 30,
+      "firstSeenAt": "2026-10-15T10:02:11.348Z",
+      "lastSeenAt": "2026-10-15T10:02:11.348Z"
+    },
+    "10384755147": {
+      "blockedReason": "keyword",
+      "title": "toddler nike air max 95",
+      "url": "https://www.vinted.co.uk/items/10384755147-toddler-nike-air-max-95",
+      "lastPrice": 15,
+      "firstSeenAt": "2026-10-15T10:02:11.348Z",
+      "lastSeenAt": "2026-10-15T10:02:11.348Z"
+    },
+    "10384734369": {
+      "blockedReason": "seller-check-budget-exhausted",
+      "size": 7,
+      "condition": "veryGood",
+      "resale": 118,
+      "netProfit": 92.2,
+      "roi": 368.8,
+      "title": "nike air max 95 white",
+      "url": "https://www.vinted.co.uk/items/10384734369-nike-air-max-95-white",
+      "lastPrice": 25,
+      "firstSeenAt": "2026-10-15T10:02:11.349Z",
+      "lastSeenAt": "2026-10-15T10:02:11.349Z"
+    },
+    "10384676608": {
+      "blockedReason": "seller-check-budget-exhausted",
+      "size": 7,
+      "condition": "veryGood",
+      "resale": 118,
+      "netProfit": 67.2,
+      "roi": 134.4,
+      "title": "nike air max 95 hyper turquoise",
+      "url": "https://www.vinted.co.uk/items/10384676608-nike-air-max-95-hyper-turquoise",
+      "lastPrice": 50,
+      "firstSeenAt": "2026-10-15T10:02:11.349Z",
+      "lastSeenAt": "2026-10-15T10:02:11.349Z"
+    },
+    "10384663026": {
+      "blockedReason": "seller-check-budget-exhausted",
+      "size": 10,
+      "condition": "veryGood",
+      "resale": 135,
+      "netProfit": 99.2,
+      "roi": 283.43,
+      "title": "light blue with neon features air max 95",
+      "url": "https://www.vinted.co.uk/items/10384663026-light-blue-with-neon-features-air-max-95",
+      "lastPrice": 35,
+      "firstSeenAt": "2026-10-15T10:02:11.349Z",
+      "lastSeenAt": "2026-10-15T10:02:11.349Z"
+    },
+    "10384550275": {
+      "blockedReason": "seller-check-budget-exhausted",
+      "size": 9,
+      "condition": "veryGood",
+      "resale": 130,
+      "netProfit": 89.2,
+      "roi": 223,
+      "title": "mens nike air max 95 hyper turquoise",
+      "url": "https://www.vinted.co.uk/items/10384550275-mens-nike-air-max-95-hyper-turquoise",
+      "lastPrice": 40,
+      "firstSeenAt": "2026-10-15T10:02:11.349Z",
+      "lastSeenAt": "2026-10-15T10:02:11.349Z"
+    },
+    "10384546597": {
+      "blockedReason": "seller-check-budget-exhausted",
+      "size": 8.5,
+      "condition": "veryGood",
+      "resale": 125,
+      "netProfit": 74.2,
+      "roi": 148.4,
+      "title": "nike air max 95 brown white size uk 85 used 1408",
+      "url": "https://www.vinted.co.uk/items/10384546597-nike-air-max-95-brown-white-size-uk-85-used-1408",
+      "lastPrice": 50,
+      "firstSeenAt": "2026-10-15T10:02:11.349Z",
+      "lastSeenAt": "2026-10-15T10:02:11.349Z"
+    },
+    "10384535554": {
+      "blockedReason": "seller-check-budget-exhausted",
+      "size": 8.5,
+      "condition": "veryGood",
+      "resale": 125,
+      "netProfit": 54.2,
+      "roi": 77.43,
+      "title": "nike air max 95 solar red grey size uk 85 used 1410",
+      "url": "https://www.vinted.co.uk/items/10384535554-nike-air-max-95-solar-red-grey-size-uk-85-used-1410",
+      "lastPrice": 70,
+      "firstSeenAt": "2026-10-15T10:02:11.349Z",
+      "lastSeenAt": "2026-10-15T10:02:11.349Z"
+    },
+    "10384477363": {
+      "blockedReason": "seller-check-budget-exhausted",
+      "size": 8.5,
+      "condition": "veryGood",
+      "resale": 125,
+      "netProfit": 54.2,
+      "roi": 77.43,
+      "title": "air max 95",
+      "url": "https://www.vinted.co.uk/items/10384477363-air-max-95",
+      "lastPrice": 70,
+      "firstSeenAt": "2026-10-15T10:02:11.349Z",
+      "lastSeenAt": "2026-10-15T10:02:11.349Z"
+    },
+    "10384459848": {
+      "blockedReason": "seller-check-budget-exhausted",
+      "size": 8,
+      "condition": "veryGood",
+      "resale": 125,
+      "netProfit": 54.2,
+      "roi": 77.43,
+      "title": "air max 95 reverse neon",
+      "url": "https://www.vinted.co.uk/items/10384459848-air-max-95-reverse-neon",
+      "lastPrice": 70,
+      "firstSeenAt": "2026-10-15T10:02:11.349Z",
+      "lastSeenAt": "2026-10-15T10:02:11.349Z"
+    },
+    "10384444412": {
+      "blockedReason": "price",
+      "title": "nike air max 95 110 x carhartt wip camo 2018 uk 11 no box",
+      "url": "https://www.vinted.co.uk/items/10384444412-nike-air-max-95-110-x-carhartt-wip-camo-2018-uk-11-no-box",
+      "lastPrice": 130,
+      "firstSeenAt": "2026-10-15T10:02:11.349Z",
+      "lastSeenAt": "2026-10-15T10:02:11.349Z"
+    },
+    "10384338076": {
+      "blockedReason": "detail-budget-exhausted",
+      "size": null,
+      "title": "nike air max 95",
+      "url": "https://www.vinted.co.uk/items/10384338076-nike-air-max-95",
+      "lastPrice": 40,
+      "firstSeenAt": "2026-10-15T10:02:11.349Z",
+      "lastSeenAt": "2026-10-15T10:02:11.349Z"
+    },
+    "10384314545": {
+      "blockedReason": "detail-budget-exhausted",
+      "size": null,
+      "title": "nike air max 95 by you custom sneakers size uk 5 eu 385",
+      "url": "https://www.vinted.co.uk/items/10384314545-nike-air-max-95-by-you-custom-sneakers-size-uk-5-eu-385",
+      "lastPrice": 55,
+      "firstSeenAt": "2026-10-15T10:02:11.349Z",
+      "lastSeenAt": "2026-10-15T10:02:11.349Z"
+    },
+    "10384152412": {
+      "blockedReason": "detail-budget-exhausted",
+      "size": null,
+      "title": "nike air max 95 qs greedy 20 size 55",
+      "url": "https://www.vinted.co.uk/items/10384152412-nike-air-max-95-qs-greedy-20-size-55",
+      "lastPrice": 90,
+      "firstSeenAt": "2026-10-15T10:02:11.349Z",
+      "lastSeenAt": "2026-10-15T10:02:11.349Z"
+    },
+    "10384151772": {
+      "blockedReason": "seller-check-budget-exhausted",
+      "size": 9.5,
+      "condition": "veryGood",
+      "resale": 125,
+      "netProfit": 39.21,
+      "roi": 46.13,
+      "title": "nike air max 95 pink foam uk95 cj0588 001",
+      "url": "https://www.vinted.co.uk/items/10384151772-nike-air-max-95-pink-foam-uk95-cj0588-001",
+      "lastPrice": 84.99,
+      "firstSeenAt": "2026-10-15T10:02:11.350Z",
+      "lastSeenAt": "2026-10-15T10:02:11.350Z"
+    },
+    "10384105072": {
+      "blockedReason": "seller-check-budget-exhausted",
+      "size": 8,
+      "condition": "veryGood",
+      "resale": 125,
+      "netProfit": 79.2,
+      "roi": 176,
+      "title": "nike air max 95 ultra",
+      "url": "https://www.vinted.co.uk/items/10384105072-nike-air-max-95-ultra",
+      "lastPrice": 45,
+      "firstSeenAt": "2026-10-15T10:02:11.350Z",
+      "lastSeenAt": "2026-10-15T10:02:11.350Z"
+    },
+    "10384001461": {
+      "blockedReason": "seller-check-budget-exhausted",
+      "size": 6,
+      "condition": "veryGood",
+      "resale": 112,
+      "netProfit": 51.2,
+      "roi": 85.33,
+      "title": "nike air max 95 shoes",
+      "url": "https://www.vinted.co.uk/items/10384001461-nike-air-max-95-shoes",
+      "lastPrice": 60,
+      "firstSeenAt": "2026-10-15T10:02:11.350Z",
+      "lastSeenAt": "2026-10-15T10:02:11.350Z"
+    },
+    "10383998119": {
+      "blockedReason": "seller-check-budget-exhausted",
+      "size": 8,
+      "condition": "veryGood",
+      "resale": 125,
+      "netProfit": 99.2,
+      "roi": 396.8,
+      "title": "nike air max 95 ultra grey",
+      "url": "https://www.vinted.co.uk/items/10383998119-nike-air-max-95-ultra-grey",
+      "lastPrice": 25,
+      "firstSeenAt": "2026-10-15T10:02:11.350Z",
+      "lastSeenAt": "2026-10-15T10:02:11.350Z"
+    },
+    "10383967015": {
+      "blockedReason": "detail-budget-exhausted",
+      "size": null,
+      "title": "nike air max 95 white metallic silver white and sparkly silver glittermetallic upper",
+      "url": "https://www.vinted.co.uk/items/10383967015-nike-air-max-95-white-metallic-silver-white-and-sparkly-silver-glittermetallic-upper",
+      "lastPrice": 20,
+      "firstSeenAt": "2026-10-15T10:02:11.350Z",
+      "lastSeenAt": "2026-10-15T10:02:11.350Z"
+    },
+    "10383952383": {
+      "blockedReason": "seller-check-budget-exhausted",
+      "size": 9,
+      "condition": "veryGood",
+      "resale": 130,
+      "netProfit": 69.2,
+      "roi": 115.33,
+      "title": "nike air max 95 og granite mens size 9 110s",
+      "url": "https://www.vinted.co.uk/items/10383952383-nike-air-max-95-og-granite-mens-size-9-110s",
+      "lastPrice": 60,
+      "firstSeenAt": "2026-10-15T10:02:11.350Z",
+      "lastSeenAt": "2026-10-15T10:02:11.350Z"
+    },
+    "10383950570": {
+      "blockedReason": "seller-check-budget-exhausted",
+      "size": 7.5,
+      "condition": "veryGood",
+      "resale": 125,
+      "netProfit": 44.2,
+      "roi": 55.25,
+      "title": "air max 95 spark blue",
+      "url": "https://www.vinted.co.uk/items/10383950570-air-max-95-spark-blue",
+      "lastPrice": 80,
+      "firstSeenAt": "2026-10-15T10:02:11.350Z",
+      "lastSeenAt": "2026-10-15T10:02:11.350Z"
+    },
+    "10383801526": {
+      "blockedReason": "seller-check-budget-exhausted",
+      "size": 7.5,
+      "condition": "veryGood",
+      "resale": 125,
+      "netProfit": 69.2,
+      "roi": 125.82,
+      "title": "nike air max 95 black and red size uk 75",
+      "url": "https://www.vinted.co.uk/items/10383801526-nike-air-max-95-black-and-red-size-uk-75",
+      "lastPrice": 55,
+      "firstSeenAt": "2026-10-15T10:02:11.350Z",
+      "lastSeenAt": "2026-10-15T10:02:11.350Z"
+    },
+    "10383749456": {
+      "blockedReason": "seller-check-budget-exhausted",
+      "size": 9,
+      "condition": "veryGood",
+      "resale": 130,
+      "netProfit": 39.2,
+      "roi": 43.56,
+      "title": "nike air max 95 og big bubble black game royal blue grey size uk 9",
+      "url": "https://www.vinted.co.uk/items/10383749456-nike-air-max-95-og-big-bubble-black-game-royal-blue-grey-size-uk-9",
+      "lastPrice": 90,
+      "firstSeenAt": "2026-10-15T10:02:11.350Z",
+      "lastSeenAt": "2026-10-15T10:02:11.350Z"
+    },
+    "10383688931": {
+      "blockedReason": "price",
+      "title": "nike air max 95 greedy 30 uk 95",
+      "url": "https://www.vinted.co.uk/items/10383688931-nike-air-max-95-greedy-30-uk-95",
+      "lastPrice": 220,
+      "firstSeenAt": "2026-10-15T10:02:11.350Z",
+      "lastSeenAt": "2026-10-15T10:02:11.350Z"
+    },
+    "10383297110": {
+      "blockedReason": "seller-check-budget-exhausted",
+      "size": 8,
+      "condition": "veryGood",
+      "resale": 125,
+      "netProfit": 79.2,
+      "roi": 176,
+      "title": "air max 95",
+      "url": "https://www.vinted.co.uk/items/10383297110-air-max-95",
+      "lastPrice": 45,
+      "firstSeenAt": "2026-10-15T10:02:11.350Z",
+      "lastSeenAt": "2026-10-15T10:02:11.350Z"
+    },
+    "10383253653": {
+      "blockedReason": "seller-check-budget-exhausted",
+      "size": 9,
+      "condition": "veryGood",
+      "resale": 130,
+      "netProfit": 79.2,
+      "roi": 158.4,
+      "title": "nike air max 95",
+      "url": "https://www.vinted.co.uk/items/10383253653-nike-air-max-95",
+      "lastPrice": 50,
+      "firstSeenAt": "2026-10-15T10:02:11.351Z",
+      "lastSeenAt": "2026-10-15T10:02:11.351Z"
+    },
+    "10383025098": {
+      "blockedReason": "seller-check-budget-exhausted",
+      "size": 7,
+      "condition": "veryGood",
+      "resale": 118,
+      "netProfit": 97.2,
+      "roi": 486,
+      "title": "nike air max 95 black white tick",
+      "url": "https://www.vinted.co.uk/items/10383025098-nike-air-max-95-black-white-tick",
+      "lastPrice": 20,
+      "firstSeenAt": "2026-10-15T10:02:11.351Z",
+      "lastSeenAt": "2026-10-15T10:02:11.351Z"
+    },
+    "10381171413": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike air max 95 prep school trainers uk 10 grey green red gold",
+      "url": "https://www.vinted.co.uk/items/10381171413-nike-air-max-95-prep-school-trainers-uk-10-grey-green-red-gold",
+      "lastPrice": 45,
+      "firstSeenAt": "2026-10-15T10:02:11.351Z",
+      "lastSeenAt": "2026-10-15T10:02:11.351Z"
+    },
+    "10373436510": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "mens air max 95 footprint",
+      "url": "https://www.vinted.co.uk/items/10373436510-mens-air-max-95-footprint",
+      "lastPrice": 90,
+      "firstSeenAt": "2026-10-15T10:02:11.351Z",
+      "lastSeenAt": "2026-10-15T10:02:11.351Z"
+    },
+    "10373105188": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike air max 95",
+      "url": "https://www.vinted.co.uk/items/10373105188-nike-air-max-95",
+      "lastPrice": 50,
+      "firstSeenAt": "2026-10-15T10:02:11.351Z",
+      "lastSeenAt": "2026-10-15T10:02:11.351Z"
+    },
+    "10372733303": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "ladies nike air max 95 rose pink trainers size 7 worn once",
+      "url": "https://www.vinted.co.uk/items/10372733303-ladies-nike-air-max-95-rose-pink-trainers-size-7-worn-once",
+      "lastPrice": 30,
+      "firstSeenAt": "2026-10-15T10:02:11.351Z",
+      "lastSeenAt": "2026-10-15T10:02:11.351Z"
+    },
+    "10356696500": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike air max 95 lv8 blue glaze white black iridescent 55y",
+      "url": "https://www.vinted.co.uk/items/10356696500-nike-air-max-95-lv8-blue-glaze-white-black-iridescent-55y",
+      "lastPrice": 34.41,
+      "firstSeenAt": "2026-10-15T10:02:11.351Z",
+      "lastSeenAt": "2026-10-15T10:02:11.351Z"
+    },
+    "10356512124": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike air max 95 toddler",
+      "url": "https://www.vinted.co.uk/items/10356512124-nike-air-max-95-toddler",
+      "lastPrice": 30.59,
+      "firstSeenAt": "2026-10-15T10:02:11.351Z",
+      "lastSeenAt": "2026-10-15T10:02:11.351Z"
+    },
+    "10383579090": {
+      "blockedReason": "seller-check-budget-exhausted",
+      "size": 6.5,
+      "condition": "newWithoutTags",
+      "resale": 90,
+      "netProfit": 34.2,
+      "roi": 62.18,
+      "title": "nike air max 90 summit white silver sage size 65",
+      "url": "https://www.vinted.co.uk/items/10383579090-nike-air-max-90-summit-white-silver-sage-size-65",
+      "lastPrice": 55,
+      "firstSeenAt": "2026-10-15T10:02:17.479Z",
+      "lastSeenAt": "2026-10-15T10:02:17.479Z"
+    },
+    "10356666350": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "air max 90 qs viotech",
+      "url": "https://www.vinted.co.uk/items/10356666350-air-max-90-qs-viotech",
+      "lastPrice": 76.48,
+      "firstSeenAt": "2026-10-15T10:02:17.479Z",
+      "lastSeenAt": "2026-10-15T10:02:17.479Z"
+    },
+    "10356613988": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "new nike air max 90 easyon size 12c",
+      "url": "https://www.vinted.co.uk/items/10356613988-new-nike-air-max-90-easyon-size-12c",
+      "lastPrice": 34.41,
+      "firstSeenAt": "2026-10-15T10:02:17.479Z",
+      "lastSeenAt": "2026-10-15T10:02:17.479Z"
+    },
+    "10384294222": {
+      "blockedReason": "condition",
+      "title": "nike trainers size 65 womens white air max 90 athletic sports running shoes",
+      "url": "https://www.vinted.co.uk/items/10384294222-nike-trainers-size-65-womens-white-air-max-90-athletic-sports-running-shoes",
+      "lastPrice": 24.99,
+      "firstSeenAt": "2026-10-15T10:02:17.480Z",
+      "lastSeenAt": "2026-10-15T10:02:17.480Z"
+    },
+    "10384222147": {
+      "blockedReason": "condition",
+      "title": "nike air max 90 prm tape red camo pattern womens trainers size uk 7 eur 41",
+      "url": "https://www.vinted.co.uk/items/10384222147-nike-air-max-90-prm-tape-red-camo-pattern-womens-trainers-size-uk-7-eur-41",
+      "lastPrice": 21,
+      "firstSeenAt": "2026-10-15T10:02:17.480Z",
+      "lastSeenAt": "2026-10-15T10:02:17.480Z"
+    },
+    "10356845526": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike air max 90 golf nrg back home 2022 size 13 uk 12",
+      "url": "https://www.vinted.co.uk/items/10356845526-nike-air-max-90-golf-nrg-back-home-2022-size-13-uk-12",
+      "lastPrice": 42.06,
+      "firstSeenAt": "2026-10-15T10:02:17.480Z",
+      "lastSeenAt": "2026-10-15T10:02:17.480Z"
+    },
+    "10356747061": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike air max 90 toddler size 7c",
+      "url": "https://www.vinted.co.uk/items/10356747061-nike-air-max-90-toddler-size-7c",
+      "lastPrice": 9.18,
+      "firstSeenAt": "2026-10-15T10:02:17.480Z",
+      "lastSeenAt": "2026-10-15T10:02:17.480Z"
+    },
+    "10220488110": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike air max 90 light bone dutch green 2021 size uk",
+      "url": "https://www.vinted.co.uk/items/10220488110-nike-air-max-90-light-bone-dutch-green-2021-size-uk",
+      "lastPrice": 50,
+      "firstSeenAt": "2026-10-15T10:02:17.480Z",
+      "lastSeenAt": "2026-10-15T10:02:17.480Z"
+    },
+    "10384950629": {
+      "blockedReason": "seller-check-budget-exhausted",
+      "size": 7,
+      "condition": "veryGood",
+      "resale": 86,
+      "netProfit": 35.2,
+      "roi": 70.4,
+      "title": "nike air max 90 white starfish black",
+      "url": "https://www.vinted.co.uk/items/10384950629-nike-air-max-90-white-starfish-black",
+      "lastPrice": 50,
+      "firstSeenAt": "2026-10-15T10:02:17.480Z",
+      "lastSeenAt": "2026-10-15T10:02:17.480Z"
+    },
+    "10384713511": {
+      "blockedReason": "seller-check-budget-exhausted",
+      "size": 8,
+      "condition": "veryGood",
+      "resale": 90,
+      "netProfit": 54.2,
+      "roi": 154.86,
+      "title": "nike air max 90 obsidian iron grey",
+      "url": "https://www.vinted.co.uk/items/10384713511-nike-air-max-90-obsidian-iron-grey",
+      "lastPrice": 35,
+      "firstSeenAt": "2026-10-15T10:02:17.480Z",
+      "lastSeenAt": "2026-10-15T10:02:17.480Z"
+    },
+    "10384692793": {
+      "blockedReason": "price",
+      "title": "olive green air max 90s",
+      "url": "https://www.vinted.co.uk/items/10384692793-olive-green-air-max-90s",
+      "lastPrice": 90,
+      "firstSeenAt": "2026-10-15T10:02:17.480Z",
+      "lastSeenAt": "2026-10-15T10:02:17.480Z"
+    },
+    "10384665632": {
+      "blockedReason": "seller-check-budget-exhausted",
+      "size": 10,
+      "condition": "veryGood",
+      "resale": 97,
+      "netProfit": 59.2,
+      "roi": 160,
+      "title": "nike air max 90 all white",
+      "url": "https://www.vinted.co.uk/items/10384665632-nike-air-max-90-all-white",
+      "lastPrice": 37,
+      "firstSeenAt": "2026-10-15T10:02:17.480Z",
+      "lastSeenAt": "2026-10-15T10:02:17.480Z"
+    },
+    "10384629558": {
+      "blockedReason": "seller-check-budget-exhausted",
+      "size": 7,
+      "condition": "veryGood",
+      "resale": 86,
+      "netProfit": 52.2,
+      "roi": 158.18,
+      "title": "nike air max 90 whiteredblack",
+      "url": "https://www.vinted.co.uk/items/10384629558-nike-air-max-90-whiteredblack",
+      "lastPrice": 33,
+      "firstSeenAt": "2026-10-15T10:02:17.480Z",
+      "lastSeenAt": "2026-10-15T10:02:17.480Z"
+    },
+    "10384188944": {
+      "blockedReason": "price",
+      "title": "nike air max 90 candy cane christmas 2015",
+      "url": "https://www.vinted.co.uk/items/10384188944-nike-air-max-90-candy-cane-christmas-2015",
+      "lastPrice": 119.99,
+      "firstSeenAt": "2026-10-15T10:02:17.480Z",
+      "lastSeenAt": "2026-10-15T10:02:17.480Z"
+    },
+    "10384026898": {
+      "blockedReason": "seller-check-budget-exhausted",
+      "size": 8.5,
+      "condition": "veryGood",
+      "resale": 90,
+      "netProfit": 29.2,
+      "roi": 48.67,
+      "title": "nike air max 90 terrascape trainers uk 85 blackgreylime ice worn a few times",
+      "url": "https://www.vinted.co.uk/items/10384026898-nike-air-max-90-terrascape-trainers-uk-85-blackgreylime-ice-worn-a-few-times",
+      "lastPrice": 60,
+      "firstSeenAt": "2026-10-15T10:02:17.480Z",
+      "lastSeenAt": "2026-10-15T10:02:17.480Z"
+    },
+    "10383801298": {
+      "blockedReason": "keyword",
+      "title": "nike air max 90 black infant trainers size 45",
+      "url": "https://www.vinted.co.uk/items/10383801298-nike-air-max-90-black-infant-trainers-size-45",
+      "lastPrice": 8,
+      "firstSeenAt": "2026-10-15T10:02:17.480Z",
+      "lastSeenAt": "2026-10-15T10:02:17.480Z"
+    },
+    "10383774506": {
+      "blockedReason": "seller-check-budget-exhausted",
+      "size": 6,
+      "condition": "veryGood",
+      "resale": 82,
+      "netProfit": 65.7,
+      "roi": 423.87,
+      "title": "nike air max 90 white black trainers uk 6 eu 40",
+      "url": "https://www.vinted.co.uk/items/10383774506-nike-air-max-90-white-black-trainers-uk-6-eu-40",
+      "lastPrice": 15.5,
+      "firstSeenAt": "2026-10-15T10:02:17.480Z",
+      "lastSeenAt": "2026-10-15T10:02:17.480Z"
+    },
+    "10383731831": {
+      "blockedReason": "detail-budget-exhausted",
+      "size": null,
+      "title": "nike air max 90 size uk2 white",
+      "url": "https://www.vinted.co.uk/items/10383731831-nike-air-max-90-size-uk2-white",
+      "lastPrice": 15,
+      "firstSeenAt": "2026-10-15T10:02:17.481Z",
+      "lastSeenAt": "2026-10-15T10:02:17.481Z"
+    },
+    "10383535412": {
+      "blockedReason": "seller-check-budget-exhausted",
+      "size": 7,
+      "condition": "veryGood",
+      "resale": 86,
+      "netProfit": 35.21,
+      "roi": 70.43,
+      "title": "nike air max 90 hyper orange",
+      "url": "https://www.vinted.co.uk/items/10383535412-nike-air-max-90-hyper-orange",
+      "lastPrice": 49.99,
+      "firstSeenAt": "2026-10-15T10:02:17.481Z",
+      "lastSeenAt": "2026-10-15T10:02:17.481Z"
+    },
+    "10356907062": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike air max 90 premium cactus flower womens sz 6",
+      "url": "https://www.vinted.co.uk/items/10356907062-nike-air-max-90-premium-cactus-flower-womens-sz-6",
+      "lastPrice": 24.47,
+      "firstSeenAt": "2026-10-15T10:02:17.481Z",
+      "lastSeenAt": "2026-10-15T10:02:17.481Z"
+    },
+    "10356653628": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike air max 90 nrg bacon cu1816 100 size 95 men 11 women retro og",
+      "url": "https://www.vinted.co.uk/items/10356653628-nike-air-max-90-nrg-bacon-cu1816-100-size-95-men-11-women-retro-og",
+      "lastPrice": 95.6,
+      "firstSeenAt": "2026-10-15T10:02:17.481Z",
+      "lastSeenAt": "2026-10-15T10:02:17.481Z"
+    },
+    "10356651270": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike air max 90 sneakers in black gray airmax nike size4c",
+      "url": "https://www.vinted.co.uk/items/10356651270-nike-air-max-90-sneakers-in-black-gray-airmax-nike-size4c",
+      "lastPrice": 9.18,
+      "firstSeenAt": "2026-10-15T10:02:17.481Z",
+      "lastSeenAt": "2026-10-15T10:02:17.481Z"
+    },
+    "10356627190": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "mens nike air max 90 alchemy pink size 85",
+      "url": "https://www.vinted.co.uk/items/10356627190-mens-nike-air-max-90-alchemy-pink-size-85",
+      "lastPrice": 53.53,
+      "firstSeenAt": "2026-10-15T10:02:17.481Z",
+      "lastSeenAt": "2026-10-15T10:02:17.481Z"
+    },
+    "10356412813": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike air max 90 sneakers",
+      "url": "https://www.vinted.co.uk/items/10356412813-nike-air-max-90-sneakers",
+      "lastPrice": 68.83,
+      "firstSeenAt": "2026-10-15T10:02:17.481Z",
+      "lastSeenAt": "2026-10-15T10:02:17.481Z"
+    },
+    "10356295003": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "women air max 90 size 8 white lapis platinum color",
+      "url": "https://www.vinted.co.uk/items/10356295003-women-air-max-90-size-8-white-lapis-platinum-color",
+      "lastPrice": 61.18,
+      "firstSeenAt": "2026-10-15T10:02:17.481Z",
+      "lastSeenAt": "2026-10-15T10:02:17.481Z"
     }
   },
   "market": {
@@ -2371830,7 +2372886,7 @@
       ]
     }
   },
-  "updatedAt": "2026-10-15T06:27:36.175Z",
+  "updatedAt": "2026-10-15T10:00:52.315Z",
   "cursor": 0,
   "lastRotation": {
     "bot": "trainers",
@@ -2371922,16 +2372978,16 @@
         "updatedAt": "2026-10-15T06:22:37.057Z"
       },
       "Nike TN::primary": {
-        "maxId": "10382209096",
-        "updatedAt": "2026-10-15T05:11:55.057Z"
+        "maxId": "10384795252",
+        "updatedAt": "2026-10-15T10:00:52.315Z"
       },
       "Nike Shox TL::primary": {
         "maxId": "10383008215",
         "updatedAt": "2026-10-15T05:16:55.021Z"
       },
       "Nike Air Max 95::primary": {
-        "maxId": "10382722938",
-        "updatedAt": "2026-10-15T05:11:55.057Z"
+        "maxId": "10384983591",
+        "updatedAt": "2026-10-15T10:00:52.315Z"
       },
       "Nike Air Force 1::primary": {
         "maxId": "10382995226",
@@ -2371962,20 +2373018,20 @@
         "updatedAt": "2026-10-15T06:27:36.175Z"
       },
       "Nike Pegasus Trail 5 GORE-TEX::primary": {
-        "maxId": "10380339271",
-        "updatedAt": "2026-10-15T05:11:55.057Z"
+        "maxId": "10380495520",
+        "updatedAt": "2026-10-15T10:00:52.315Z"
       },
       "Nike Air Max Plus 3::primary": {
-        "maxId": "10381074738",
-        "updatedAt": "2026-10-15T05:11:55.057Z"
+        "maxId": "10384750964",
+        "updatedAt": "2026-10-15T10:00:52.315Z"
       },
       "Nike Air Max Plus VII::primary": {
-        "maxId": "10380581917",
-        "updatedAt": "2026-10-15T05:11:55.057Z"
+        "maxId": "10384761214",
+        "updatedAt": "2026-10-15T10:00:52.315Z"
       },
       "Nike Air Max 90::primary": {
-        "maxId": "10382280469",
-        "updatedAt": "2026-10-15T05:11:55.057Z"
+        "maxId": "10384950629",
+        "updatedAt": "2026-10-15T10:00:52.315Z"
       },
       "Nike Air Max 90 Drift::primary": {
         "maxId": "10379122230",
@@ -2372054,18 +2373110,18 @@
         "updatedAt": "2026-10-15T06:22:37.057Z"
       },
       "Nike Any Shoe Bargain::generic": {
-        "maxId": "10383141726",
-        "updatedAt": "2026-10-15T06:27:36.175Z"
+        "maxId": "10383608215",
+        "updatedAt": "2026-10-15T10:00:52.315Z"
       }
     },
-    "lastScanAt": "2026-10-15T06:27:36.175Z",
-    "lastAttemptAt": "2026-10-15T06:27:36.175Z"
+    "lastScanAt": "2026-10-15T10:00:52.315Z",
+    "lastAttemptAt": "2026-10-15T10:00:52.315Z"
   },
   "diagnostics": {
     "bot": "trainers",
     "radarVersion": 6,
-    "lastRunAt": "2026-10-15T06:27:36.175Z",
-    "recoveryMode": false,
+    "lastRunAt": "2026-10-15T10:00:52.315Z",
+    "recoveryMode": true,
     "filterProfile": {
       "freshnessMinutes": 15,
       "priceMultiplier": 1.4,
@@ -2372080,45 +2373136,48 @@
     "totalSearchGroups": 37,
     "selectedSearches": [
       "Nike Any Shoe Bargain::generic",
-      "Nike V5 RNR::primary",
-      "Nike Vomero 5::primary",
-      "Nike Vomero 18::primary",
-      "Nike Vomero Plus::primary",
-      "Nike Vomero Premium::primary",
-      "Nike Pegasus Premium::primary"
+      "Nike Pegasus Trail 5 GORE-TEX::primary",
+      "Nike TN::primary",
+      "Nike Air Max Plus 3::primary",
+      "Nike Air Max Plus VII::primary",
+      "Nike Air Max 95::primary",
+      "Nike Air Max 90::primary"
     ],
     "successfulSearches": 7,
     "failedSearches": 0,
     "confirmedEmptySearches": 0,
-    "catalogMarkers": 1269,
-    "catalogItems": 698,
-    "candidateItems": 462,
-    "freshItems": 107,
+    "catalogMarkers": 1344,
+    "catalogItems": 1006,
+    "candidateItems": 402,
+    "freshItems": 95,
     "freshByAge": 0,
-    "freshByNewId": 107,
-    "qualifyingAlerts": 5,
-    "deliveredAlerts": 5,
+    "freshByNewId": 95,
+    "qualifyingAlerts": 9,
+    "deliveredAlerts": 9,
     "discordFailures": 0,
     "pendingDeliveries": 0,
     "rejects": {
-      "stale": 311,
-      "keyword": 1,
-      "weak-margin": 1,
-      "seller-risk": 1,
-      "size": 6,
-      "detail-budget-exhausted": 26,
-      "seller-check-budget-exhausted": 67
+      "recovery-no-fresh-signal": 264,
+      "keyword": 6,
+      "price": 11,
+      "condition": 9,
+      "score": 2,
+      "size": 1,
+      "seller-check-budget-exhausted": 45,
+      "detail-budget-exhausted": 12
     },
     "failures": {},
     "healthyScan": true,
     "detailFetches": 12,
-    "duplicateSuppressed": 44,
     "qualifyingByCondition": {
-      "veryGood": 5
+      "veryGood": 8,
+      "newWithoutTags": 1
     },
     "deliveredByCondition": {
-      "veryGood": 5
+      "veryGood": 8,
+      "newWithoutTags": 1
     },
+    "duplicateSuppressed": 43,
     "healthReason": "all-selected-searches-completed",
     "discordRoutes": [
       {
@@ -2372154,7 +2373213,7 @@
   },
   "radarVersion": 6,
   "pendingDeliveries": {},
-  "rotationCursor": 7,
+  "rotationCursor": 13,
   "alertBalance": {
     "modelConditionLastSent": {
       "Nike Air Force 1::newWithTags": "2026-10-14T19:10:17.848Z"
@@ -2381610,6 +2382669,15 @@
     "10375964699": "2026-10-15T06:28:08.834Z",
     "10375205607": "2026-10-15T06:28:15.075Z",
     "10374793660": "2026-10-15T06:28:23.259Z",
-    "10372969892": "2026-10-15T06:28:31.310Z"
+    "10372969892": "2026-10-15T06:28:31.310Z",
+    "10380495520": "2026-10-15T10:01:06.920Z",
+    "10384748584": "2026-10-15T10:01:15.898Z",
+    "10384697703": "2026-10-15T10:01:20.903Z",
+    "10384518778": "2026-10-15T10:01:27.569Z",
+    "10384284136": "2026-10-15T10:01:32.281Z",
+    "10303142282": "2026-10-15T10:01:42.056Z",
+    "10373047335": "2026-10-15T10:01:51.670Z",
+    "10240175957": "2026-10-15T10:01:55.592Z",
+    "10383126425": "2026-10-15T10:02:09.566Z"
   }
 }
