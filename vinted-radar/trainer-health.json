@@ -1,37 +1,35 @@
 {
-  "generatedAt": "2026-10-15T01:28:25.470Z",
-  "stateUpdatedAt": "2026-10-15T01:28:25.470Z",
-  "lastAttemptAt": "2026-10-15T01:28:25.470Z",
-  "lastScanAt": "2026-10-15T01:28:25.470Z",
+  "generatedAt": "2026-10-15T01:33:25.688Z",
+  "stateUpdatedAt": "2026-10-15T01:33:25.688Z",
+  "lastAttemptAt": "2026-10-15T01:33:25.688Z",
+  "lastScanAt": "2026-10-15T01:33:25.688Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Air Jordan 4::primary",
-    "Nike Initiator::primary",
-    "Nike Air Max Moto 2K::primary",
-    "Nike Metcon 10::primary",
-    "Nike Zoom Fly 6::primary",
-    "Nike Air Max Bargain::generic"
+    "Nike Running Trainer Bargain::generic",
+    "Nike Lifestyle Trainer Bargain::generic",
+    "Nike Football Boot Bargain::generic",
+    "Nike Basketball Shoe Bargain::generic",
+    "Nike SB Shoe Bargain::generic",
+    "Nike P-6000::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 869,
-  "candidateItems": 458,
-  "freshItems": 62,
-  "qualifyingAlerts": 8,
+  "catalogItems": 816,
+  "candidateItems": 316,
+  "freshItems": 33,
+  "qualifyingAlerts": 4,
   "qualifyingByCondition": {
-    "newWithoutTags": 2,
-    "newWithTags": 6
+    "veryGood": 4
   },
-  "deliveredAlerts": 8,
+  "deliveredAlerts": 4,
   "deliveredByCondition": {
-    "newWithoutTags": 2,
-    "newWithTags": 6
+    "veryGood": 4
   },
-  "duplicateSuppressed": 51,
+  "duplicateSuppressed": 2,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,12 +65,14 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "recovery-no-fresh-signal": 345,
+    "stale": 281,
+    "keyword": 5,
     "price": 2,
-    "size": 4,
-    "seller-check-budget-exhausted": 32,
-    "detail-budget-exhausted": 13,
-    "condition": 3
+    "condition": 1,
+    "size": 5,
+    "seller-risk": 3,
+    "seller-check-budget-exhausted": 8,
+    "detail-budget-exhausted": 5
   },
   "failures": {}
 }
