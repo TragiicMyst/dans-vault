@@ -1,37 +1,39 @@
 {
-  "generatedAt": "2026-10-14T22:42:29.432Z",
-  "stateUpdatedAt": "2026-10-14T22:42:29.432Z",
-  "lastAttemptAt": "2026-10-14T22:42:29.432Z",
-  "lastScanAt": "2026-10-14T22:42:29.432Z",
+  "generatedAt": "2026-10-15T00:35:26.898Z",
+  "stateUpdatedAt": "2026-10-15T00:35:26.898Z",
+  "lastAttemptAt": "2026-10-15T00:35:26.898Z",
+  "lastScanAt": "2026-10-15T00:35:26.898Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Quarter Zip::nike quarter zip",
-    "Nike Fleece::nike fleece",
-    "Nike Gilet::nike gilet",
-    "Nike Windbreaker::nike windbreaker",
-    "Nike Anorak::nike anorak",
-    "Nike Rain Jacket::nike rain jacket"
+    "Nike Woven Jacket::nike woven jacket",
+    "Nike Bomber Jacket::nike bomber jacket",
+    "Nike Coat::nike coat",
+    "Nike Shorts::nike shorts",
+    "Nike Cargo Trousers::nike cargo trousers",
+    "Nike Track Pants::nike track pants"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 1117,
-  "candidateItems": 290,
-  "freshItems": 166,
-  "qualifyingAlerts": 60,
+  "catalogItems": 1101,
+  "candidateItems": 284,
+  "freshItems": 148,
+  "qualifyingAlerts": 44,
   "qualifyingByCondition": {
-    "veryGood": 52,
-    "newWithoutTags": 8
+    "veryGood": 36,
+    "newWithoutTags": 7,
+    "newWithTags": 1
   },
-  "deliveredAlerts": 60,
+  "deliveredAlerts": 44,
   "deliveredByCondition": {
-    "veryGood": 52,
-    "newWithoutTags": 8
+    "veryGood": 36,
+    "newWithoutTags": 7,
+    "newWithTags": 1
   },
-  "duplicateSuppressed": 6,
+  "duplicateSuppressed": 5,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,13 +69,12 @@
   "pendingDeliveries": 0,
   "detailFetches": 6,
   "rejects": {
-    "condition": 31,
-    "price": 55,
-    "recovery-no-fresh-signal": 118,
-    "keyword": 7,
-    "size": 4,
+    "recovery-no-fresh-signal": 131,
+    "price": 64,
+    "keyword": 10,
+    "size": 5,
     "score": 1,
-    "detail-budget-exhausted": 8
+    "condition": 24
   },
   "failures": {}
 }
