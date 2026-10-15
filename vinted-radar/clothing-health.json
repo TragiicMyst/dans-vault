@@ -1,39 +1,37 @@
 {
-  "generatedAt": "2026-10-15T00:35:26.898Z",
-  "stateUpdatedAt": "2026-10-15T00:35:26.898Z",
-  "lastAttemptAt": "2026-10-15T00:35:26.898Z",
-  "lastScanAt": "2026-10-15T00:35:26.898Z",
+  "generatedAt": "2026-10-15T00:58:10.449Z",
+  "stateUpdatedAt": "2026-10-15T00:58:10.449Z",
+  "lastAttemptAt": "2026-10-15T00:58:10.449Z",
+  "lastScanAt": "2026-10-15T00:58:10.449Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Woven Jacket::nike woven jacket",
-    "Nike Bomber Jacket::nike bomber jacket",
-    "Nike Coat::nike coat",
-    "Nike Shorts::nike shorts",
-    "Nike Cargo Trousers::nike cargo trousers",
-    "Nike Track Pants::nike track pants"
+    "Nike Woven Trousers::nike woven trousers",
+    "Nike Tracksuit::nike tracksuit",
+    "Nike Vintage Clothing::vintage nike",
+    "Nike SB Clothing::nike sb clothing",
+    "Nike Vest::nike vest",
+    "Nike Air Max Hoodie::nike air max hoodie"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 1101,
-  "candidateItems": 284,
-  "freshItems": 148,
-  "qualifyingAlerts": 44,
+  "catalogItems": 1052,
+  "candidateItems": 322,
+  "freshItems": 185,
+  "qualifyingAlerts": 61,
   "qualifyingByCondition": {
-    "veryGood": 36,
-    "newWithoutTags": 7,
-    "newWithTags": 1
+    "veryGood": 54,
+    "newWithoutTags": 7
   },
-  "deliveredAlerts": 44,
+  "deliveredAlerts": 61,
   "deliveredByCondition": {
-    "veryGood": 36,
-    "newWithoutTags": 7,
-    "newWithTags": 1
+    "veryGood": 54,
+    "newWithoutTags": 7
   },
-  "duplicateSuppressed": 5,
+  "duplicateSuppressed": 15,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,12 +67,12 @@
   "pendingDeliveries": 0,
   "detailFetches": 6,
   "rejects": {
-    "recovery-no-fresh-signal": 131,
-    "price": 64,
-    "keyword": 10,
+    "recovery-no-fresh-signal": 122,
+    "price": 71,
+    "condition": 38,
     "size": 5,
-    "score": 1,
-    "condition": 24
+    "keyword": 7,
+    "detail-budget-exhausted": 3
   },
   "failures": {}
 }
