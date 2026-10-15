@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-10-14T22:29:46.134Z",
+    "startedAt": "2026-10-15T00:45:30.091Z",
     "searchGroups": [
-      "arcteryx-thorium:arcteryx-thorium-jacket",
-      "arcteryx-thorium:arc-teryx-thorium",
-      "ralph-lauren-puffer:ralph-lauren-puffer-jacket",
-      "ralph-lauren-puffer:polo-ralph-lauren-down-jacket",
-      "nike-puffer:nike-puffer-jacket-mens",
-      "nike-puffer:nike-down-jacket",
-      "berghaus-down:berghaus-down-jacket",
-      "berghaus-down:berghaus-puffer-jacket"
+      "tnf-1996-nuptse:north-face-nuptse-700",
+      "tnf-1996-nuptse:north-face-1996-nuptse",
+      "tnf-himalayan:north-face-himalayan-puffer",
+      "tnf-himalayan:north-face-hmlyn-parka",
+      "tnf-baltoro:north-face-baltoro-jacket",
+      "tnf-summit-down:north-face-summit-series-down",
+      "rab-microlight:rab-microlight-alpine",
+      "rab-neutrino:rab-neutrino-pro"
     ],
     "vintedItems": 280,
-    "freshItems": 15,
+    "freshItems": 0,
     "freshByAge": 0,
-    "freshByNewId": 15,
+    "freshByNewId": 0,
     "bootstrapBlocked": 0,
-    "staleBlocked": 4,
-    "candidates": 9,
+    "staleBlocked": 3,
+    "candidates": 0,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-10-15T00:42:40.512Z",
+      "platform": "VINTED",
+      "id": "10380340311",
+      "title": "nike puffer jacket pencil holder",
+      "url": "https://www.vinted.co.uk/items/10380340311-nike-puffer-jacket-pencil-holder",
+      "modelId": "nike-puffer",
+      "buyPrice": 7.99,
+      "estimatedNetProfit": 45.48,
+      "roi": 569.21,
+      "score": 87
+    },
     {
       "at": "2026-10-14T19:27:40.662Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 24.65,
       "roi": 123.25,
       "score": 92
-    },
-    {
-      "at": "2026-10-12T19:19:17.227Z",
-      "platform": "VINTED",
-      "id": "10351616660",
-      "title": "nike puffer coat",
-      "url": "https://www.vinted.co.uk/items/10351616660-nike-puffer-coat",
-      "modelId": "nike-puffer",
-      "buyPrice": 23,
-      "estimatedNetProfit": 29.64,
-      "roi": 128.87,
-      "score": 87
     }
   ]
 }
