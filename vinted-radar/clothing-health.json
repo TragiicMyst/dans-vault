@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-10-15T15:42:39.571Z",
-  "stateUpdatedAt": "2026-10-15T15:42:39.571Z",
-  "lastAttemptAt": "2026-10-15T15:42:39.571Z",
-  "lastScanAt": "2026-10-15T15:42:39.571Z",
+  "generatedAt": "2026-10-15T18:59:07.861Z",
+  "stateUpdatedAt": "2026-10-15T18:59:07.861Z",
+  "lastAttemptAt": "2026-10-15T18:59:07.861Z",
+  "lastScanAt": "2026-10-15T18:59:07.861Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Club Fleece Pullover Hoodie::nike club fleece hoodie",
-    "Nike Unlimited Shorts::nike unlimited shorts",
-    "Nike Tech Fleece Colour-Block Windrunner::nike tech fleece colour block windrunner",
-    "Nike Windrunner Jacket::nike windrunner jacket",
-    "Nike NOCTA Tracksuit::nike nocta tracksuit",
-    "Nike Miler Challenger Running Set::nike miler challenger set"
+    "Nike Football Tech Fleece::nike football tech fleece",
+    "Nike ACG GORE-TEX Jacket::nike acg gore tex jacket",
+    "Nike Club Fleece Full-Zip Hoodie::nike club fleece full zip hoodie",
+    "Nike Strike Top Shorts Set::nike strike top shorts set",
+    "Nike Club Fleece Joggers::nike club fleece joggers",
+    "Nike Sportswear Winterised Jacket::nike sportswear winterised jacket"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1632,
-  "catalogItems": 910,
-  "candidateItems": 285,
-  "freshItems": 71,
-  "qualifyingAlerts": 37,
+  "catalogMarkers": 1728,
+  "catalogItems": 953,
+  "candidateItems": 222,
+  "freshItems": 33,
+  "qualifyingAlerts": 15,
   "qualifyingByCondition": {
-    "veryGood": 27,
-    "newWithTags": 4,
-    "newWithoutTags": 6
+    "veryGood": 13,
+    "newWithoutTags": 1,
+    "newWithTags": 1
   },
-  "deliveredAlerts": 37,
+  "deliveredAlerts": 15,
   "deliveredByCondition": {
-    "veryGood": 27,
-    "newWithTags": 4,
-    "newWithoutTags": 6
+    "veryGood": 13,
+    "newWithoutTags": 1,
+    "newWithTags": 1
   },
-  "duplicateSuppressed": 43,
+  "duplicateSuppressed": 54,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,14 +67,13 @@
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 0,
+  "detailFetches": 4,
   "rejects": {
-    "recovery-no-fresh-signal": 171,
-    "keyword": 5,
-    "condition": 10,
-    "price": 16,
-    "weak-margin": 2,
-    "score": 1
+    "price": 4,
+    "condition": 8,
+    "recovery-no-fresh-signal": 135,
+    "size": 4,
+    "keyword": 2
   },
   "failures": {}
 }
