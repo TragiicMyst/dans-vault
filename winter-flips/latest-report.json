@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-10-16T00:01:43.834Z",
+    "startedAt": "2026-10-16T04:10:09.133Z",
     "searchGroups": [
-      "hunter:patagonia-puffer",
-      "hunter:arcteryx-jacket",
-      "hunter:arc-teryx-puffer",
-      "hunter:ralph-lauren-puffer",
-      "hunter:polo-puffer-jacket",
-      "hunter:nike-puffer-jacket",
-      "hunter:berghaus-puffer",
-      "hunter:napapijri-jacket"
+      "ralph-lauren-puffer:ralph-lauren-puffer-jacket",
+      "ralph-lauren-puffer:polo-ralph-lauren-down-jacket",
+      "nike-puffer:nike-puffer-jacket-mens",
+      "nike-puffer:nike-down-jacket",
+      "berghaus-down:berghaus-down-jacket",
+      "berghaus-down:berghaus-puffer-jacket",
+      "napapijri-skidoo:napapijri-skidoo-jacket",
+      "napapijri-skidoo:napapijri-rainforest-winter"
     ],
     "vintedItems": 280,
-    "freshItems": 12,
+    "freshItems": 2,
     "freshByAge": 0,
-    "freshByNewId": 12,
+    "freshByNewId": 2,
     "bootstrapBlocked": 0,
-    "staleBlocked": 4,
-    "candidates": 1,
-    "alerts": 0,
+    "staleBlocked": 6,
+    "candidates": 2,
+    "alerts": 1,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-10-16T04:10:15.180Z",
+      "platform": "VINTED",
+      "id": "10394394261",
+      "title": "nike puffer jacket",
+      "url": "https://www.vinted.co.uk/items/10394394261-nike-puffer-jacket",
+      "modelId": "nike-puffer",
+      "buyPrice": 11,
+      "estimatedNetProfit": 35.07,
+      "roi": 318.82,
+      "score": 91
+    },
     {
       "at": "2026-10-15T23:55:51.951Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 41.25,
       "roi": 343.75,
       "score": 87
-    },
-    {
-      "at": "2026-10-13T21:16:07.285Z",
-      "platform": "VINTED",
-      "id": "10367494909",
-      "title": "black nike puffer jacket",
-      "url": "https://www.vinted.co.uk/items/10367494909-black-nike-puffer-jacket",
-      "modelId": "nike-puffer",
-      "buyPrice": 20,
-      "estimatedNetProfit": 24.65,
-      "roi": 123.25,
-      "score": 92
     }
   ]
 }
