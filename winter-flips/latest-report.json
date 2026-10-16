@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-10-16T17:48:51.795Z",
+    "startedAt": "2026-10-16T20:11:51.173Z",
     "searchGroups": [
-      "arcteryx-cerium:arcteryx-cerium-jacket",
-      "arcteryx-cerium:arc-teryx-cerium",
-      "arcteryx-thorium:arcteryx-thorium-jacket",
-      "arcteryx-thorium:arc-teryx-thorium",
-      "ralph-lauren-puffer:ralph-lauren-puffer-jacket",
-      "ralph-lauren-puffer:polo-ralph-lauren-down-jacket",
-      "nike-puffer:nike-puffer-jacket-mens",
-      "nike-puffer:nike-down-jacket"
+      "hunter:berghaus-puffer",
+      "hunter:napapijri-jacket",
+      "tnf-1996-nuptse:north-face-nuptse-700",
+      "tnf-1996-nuptse:north-face-1996-nuptse",
+      "tnf-himalayan:north-face-himalayan-puffer",
+      "tnf-himalayan:north-face-hmlyn-parka",
+      "tnf-baltoro:north-face-baltoro-jacket",
+      "tnf-summit-down:north-face-summit-series-down"
     ],
     "vintedItems": 280,
-    "freshItems": 15,
+    "freshItems": 2,
     "freshByAge": 0,
-    "freshByNewId": 15,
+    "freshByNewId": 2,
     "bootstrapBlocked": 0,
     "staleBlocked": 1,
-    "candidates": 9,
+    "candidates": 0,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-10-16T20:09:00.157Z",
+      "platform": "VINTED",
+      "id": "10402865761",
+      "title": "ralph lauren puffer jacket age 12 14",
+      "url": "https://www.vinted.co.uk/items/10402865761-ralph-lauren-puffer-jacket-age-12-14",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 39.5,
+      "estimatedNetProfit": 35.04,
+      "roi": 88.71,
+      "score": 82
+    },
     {
       "at": "2026-10-16T17:43:01.594Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 30.02,
       "roi": 75.05,
       "score": 77
-    },
-    {
-      "at": "2026-10-14T15:06:09.766Z",
-      "platform": "VINTED",
-      "id": "10374086393",
-      "title": "ralph lauren puffer gilet",
-      "url": "https://www.vinted.co.uk/items/10374086393-ralph-lauren-puffer-gilet",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 33,
-      "estimatedNetProfit": 40.01,
-      "roi": 121.24,
-      "score": 92
     }
   ]
 }
