@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-10-16T23:35:32.433Z",
-  "stateUpdatedAt": "2026-10-16T23:35:32.433Z",
-  "lastAttemptAt": "2026-10-16T23:35:32.433Z",
-  "lastScanAt": "2026-10-16T23:35:32.433Z",
+  "generatedAt": "2026-10-16T23:40:33.059Z",
+  "stateUpdatedAt": "2026-10-16T23:40:33.059Z",
+  "lastAttemptAt": "2026-10-16T23:40:33.059Z",
+  "lastScanAt": "2026-10-16T23:40:33.059Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Pegasus Trail 5 GORE-TEX::primary",
-    "Nike TN::primary",
-    "Nike Air Max Plus 3::primary",
-    "Nike Air Max Plus VII::primary",
-    "Nike Air Max 95::primary",
-    "Nike Air Max 90::primary"
+    "Nike Air Max 90 Drift::primary",
+    "Nike Air Max 97::primary",
+    "Nike Air Max 270::primary",
+    "Nike Air Max Dn::primary",
+    "Nike Air Max 1::primary",
+    "Nike Shox TL::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 1077,
-  "candidateItems": 476,
-  "freshItems": 108,
-  "qualifyingAlerts": 8,
+  "catalogItems": 1010,
+  "candidateItems": 487,
+  "freshItems": 101,
+  "qualifyingAlerts": 6,
   "qualifyingByCondition": {
-    "veryGood": 8
+    "veryGood": 6
   },
-  "deliveredAlerts": 8,
+  "deliveredAlerts": 6,
   "deliveredByCondition": {
-    "veryGood": 8
+    "veryGood": 6
   },
-  "duplicateSuppressed": 42,
+  "duplicateSuppressed": 27,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -65,15 +65,14 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "recovery-no-fresh-signal": 326,
-    "size": 3,
-    "price": 8,
-    "score": 1,
-    "keyword": 5,
-    "detail-budget-exhausted": 19,
+    "stale": 359,
+    "price": 3,
+    "size": 5,
+    "condition": 6,
+    "seller-risk": 1,
     "seller-check-budget-exhausted": 54,
-    "condition": 9,
-    "weak-margin": 1
+    "detail-budget-exhausted": 25,
+    "keyword": 1
   },
   "failures": {}
 }
