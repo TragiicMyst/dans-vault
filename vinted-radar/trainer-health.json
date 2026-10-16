@@ -1,35 +1,37 @@
 {
-  "generatedAt": "2026-10-16T00:25:48.312Z",
-  "stateUpdatedAt": "2026-10-16T00:25:48.312Z",
-  "lastAttemptAt": "2026-10-16T00:25:48.312Z",
-  "lastScanAt": "2026-10-16T00:25:48.312Z",
+  "generatedAt": "2026-10-16T00:30:48.938Z",
+  "stateUpdatedAt": "2026-10-16T00:30:48.938Z",
+  "lastAttemptAt": "2026-10-16T00:30:48.938Z",
+  "lastScanAt": "2026-10-16T00:30:48.938Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Pegasus Trail 5 GORE-TEX::primary",
-    "Nike TN::primary",
-    "Nike Air Max Plus 3::primary",
-    "Nike Air Max Plus VII::primary",
-    "Nike Air Max 95::primary",
-    "Nike Air Max 90::primary"
+    "Nike Air Max 90 Drift::primary",
+    "Nike Air Max 97::primary",
+    "Nike Air Max 270::primary",
+    "Nike Air Max Dn::primary",
+    "Nike Air Max 1::primary",
+    "Nike Shox TL::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 1089,
-  "candidateItems": 432,
-  "freshItems": 97,
+  "catalogItems": 1006,
+  "candidateItems": 464,
+  "freshItems": 83,
   "qualifyingAlerts": 7,
   "qualifyingByCondition": {
-    "veryGood": 7
+    "veryGood": 6,
+    "newWithTags": 1
   },
   "deliveredAlerts": 7,
   "deliveredByCondition": {
-    "veryGood": 7
+    "veryGood": 6,
+    "newWithTags": 1
   },
-  "duplicateSuppressed": 33,
+  "duplicateSuppressed": 27,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -65,14 +67,15 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "recovery-no-fresh-signal": 302,
-    "price": 3,
-    "condition": 3,
-    "score": 2,
-    "size": 3,
-    "seller-check-budget-exhausted": 53,
+    "stale": 354,
+    "size": 4,
+    "price": 2,
+    "condition": 1,
+    "keyword": 1,
+    "seller-risk": 1,
     "detail-budget-exhausted": 23,
-    "keyword": 3
+    "seller-check-budget-exhausted": 43,
+    "weak-margin": 1
   },
   "failures": {}
 }
