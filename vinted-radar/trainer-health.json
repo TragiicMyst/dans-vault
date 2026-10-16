@@ -1,35 +1,39 @@
 {
-  "generatedAt": "2026-10-16T05:02:51.510Z",
-  "stateUpdatedAt": "2026-10-16T05:02:51.510Z",
-  "lastAttemptAt": "2026-10-16T05:02:51.510Z",
-  "lastScanAt": "2026-10-16T05:02:51.510Z",
+  "generatedAt": "2026-10-16T05:52:18.051Z",
+  "stateUpdatedAt": "2026-10-16T05:52:18.051Z",
+  "lastAttemptAt": "2026-10-16T05:52:18.051Z",
+  "lastScanAt": "2026-10-16T05:52:18.051Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Shox R4::primary",
-    "Nike Shox Ride 2::primary",
-    "Nike Air Force 1::primary",
-    "Nike Dunk Low::primary",
-    "Air Jordan 1 Low::primary",
-    "Air Jordan 1 Mid::primary"
+    "Air Jordan 4::primary",
+    "Nike Initiator::primary",
+    "Nike Air Max Moto 2K::primary",
+    "Nike Metcon 10::primary",
+    "Nike Zoom Fly 6::primary",
+    "Nike Air Max Bargain::generic"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 898,
-  "candidateItems": 573,
-  "freshItems": 23,
-  "qualifyingAlerts": 3,
+  "catalogItems": 873,
+  "candidateItems": 423,
+  "freshItems": 38,
+  "qualifyingAlerts": 6,
   "qualifyingByCondition": {
-    "veryGood": 3
+    "veryGood": 4,
+    "newWithTags": 1,
+    "newWithoutTags": 1
   },
-  "deliveredAlerts": 3,
+  "deliveredAlerts": 6,
   "deliveredByCondition": {
-    "veryGood": 3
+    "veryGood": 4,
+    "newWithTags": 1,
+    "newWithoutTags": 1
   },
-  "duplicateSuppressed": 40,
+  "duplicateSuppressed": 64,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -65,12 +69,15 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 510,
-    "size": 8,
-    "seller-risk": 1,
-    "seller-check-budget-exhausted": 7,
-    "detail-budget-exhausted": 2,
-    "price": 2
+    "recovery-no-fresh-signal": 321,
+    "weak-margin": 2,
+    "keyword": 4,
+    "price": 4,
+    "score": 3,
+    "size": 2,
+    "seller-check-budget-exhausted": 8,
+    "detail-budget-exhausted": 5,
+    "condition": 4
   },
   "failures": {}
 }
