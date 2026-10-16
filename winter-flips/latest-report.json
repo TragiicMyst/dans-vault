@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-10-16T13:58:05.248Z",
+    "startedAt": "2026-10-16T17:48:51.795Z",
     "searchGroups": [
-      "hunter:north-face-700",
-      "hunter:mens-north-face-jacket",
-      "hunter:rab-puffer",
-      "hunter:rab-down-jacket",
-      "hunter:patagonia-puffer",
-      "hunter:arcteryx-jacket",
-      "hunter:arc-teryx-puffer",
-      "hunter:ralph-lauren-puffer"
+      "arcteryx-cerium:arcteryx-cerium-jacket",
+      "arcteryx-cerium:arc-teryx-cerium",
+      "arcteryx-thorium:arcteryx-thorium-jacket",
+      "arcteryx-thorium:arc-teryx-thorium",
+      "ralph-lauren-puffer:ralph-lauren-puffer-jacket",
+      "ralph-lauren-puffer:polo-ralph-lauren-down-jacket",
+      "nike-puffer:nike-puffer-jacket-mens",
+      "nike-puffer:nike-down-jacket"
     ],
     "vintedItems": 280,
-    "freshItems": 28,
+    "freshItems": 15,
     "freshByAge": 0,
-    "freshByNewId": 28,
+    "freshByNewId": 15,
     "bootstrapBlocked": 0,
-    "staleBlocked": 13,
-    "candidates": 5,
+    "staleBlocked": 1,
+    "candidates": 9,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-10-16T17:43:01.594Z",
+      "platform": "VINTED",
+      "id": "10399374896",
+      "title": "the north face retro 1996 nuptse puffer womens large hooded puffer jacket",
+      "url": "https://www.vinted.co.uk/items/10399374896-the-north-face-retro-1996-nuptse-puffer-womens-large-hooded-puffer-jacket",
+      "modelId": "tnf-1996-nuptse",
+      "buyPrice": 50,
+      "estimatedNetProfit": 39.74,
+      "roi": 79.48,
+      "score": 78
+    },
     {
       "at": "2026-10-16T13:55:09.045Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 40.01,
       "roi": 121.24,
       "score": 92
-    },
-    {
-      "at": "2026-10-14T15:06:09.053Z",
-      "platform": "VINTED",
-      "id": "10376056865",
-      "title": "mens polo ralph lauren brown padded puffer gilet",
-      "url": "https://www.vinted.co.uk/items/10376056865-mens-polo-ralph-lauren-brown-padded-puffer-gilet",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 30,
-      "estimatedNetProfit": 44.48,
-      "roi": 148.27,
-      "score": 95
     }
   ]
 }
