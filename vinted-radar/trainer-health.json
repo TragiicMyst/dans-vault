@@ -1,37 +1,37 @@
 {
-  "generatedAt": "2026-10-16T01:04:15.798Z",
-  "stateUpdatedAt": "2026-10-16T01:04:15.798Z",
-  "lastAttemptAt": "2026-10-16T01:04:15.798Z",
-  "lastScanAt": "2026-10-16T01:04:15.798Z",
+  "generatedAt": "2026-10-16T01:09:15.503Z",
+  "stateUpdatedAt": "2026-10-16T01:09:15.503Z",
+  "lastAttemptAt": "2026-10-16T01:09:15.503Z",
+  "lastScanAt": "2026-10-16T01:09:15.503Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Air Jordan 4::primary",
-    "Nike Initiator::primary",
-    "Nike Air Max Moto 2K::primary",
-    "Nike Metcon 10::primary",
-    "Nike Zoom Fly 6::primary",
-    "Nike Air Max Bargain::generic"
+    "Nike Running Trainer Bargain::generic",
+    "Nike Lifestyle Trainer Bargain::generic",
+    "Nike Football Boot Bargain::generic",
+    "Nike Basketball Shoe Bargain::generic",
+    "Nike SB Shoe Bargain::generic",
+    "Nike P-6000::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
   "catalogItems": 881,
-  "candidateItems": 431,
-  "freshItems": 42,
-  "qualifyingAlerts": 8,
+  "candidateItems": 389,
+  "freshItems": 57,
+  "qualifyingAlerts": 5,
   "qualifyingByCondition": {
-    "newWithTags": 1,
-    "veryGood": 7
+    "veryGood": 3,
+    "newWithTags": 2
   },
-  "deliveredAlerts": 8,
+  "deliveredAlerts": 5,
   "deliveredByCondition": {
-    "newWithTags": 1,
-    "veryGood": 7
+    "veryGood": 3,
+    "newWithTags": 2
   },
-  "duplicateSuppressed": 60,
+  "duplicateSuppressed": 7,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,13 +67,15 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "recovery-no-fresh-signal": 329,
-    "size": 4,
-    "price": 4,
+    "stale": 325,
+    "keyword": 2,
+    "seller-risk": 2,
+    "price": 7,
+    "size": 5,
     "condition": 1,
+    "detail-budget-exhausted": 17,
     "seller-check-budget-exhausted": 17,
-    "detail-budget-exhausted": 7,
-    "keyword": 1
+    "weak-margin": 1
   },
   "failures": {}
 }
