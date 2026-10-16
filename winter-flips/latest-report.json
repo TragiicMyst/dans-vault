@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-10-15T21:52:27.758Z",
+    "startedAt": "2026-10-16T00:01:43.834Z",
     "searchGroups": [
-      "rab-microlight:rab-microlight-alpine",
-      "rab-neutrino:rab-neutrino-pro",
-      "rab-electron:rab-electron-pro",
-      "patagonia-down-sweater:patagonia-down-sweater-jacket",
-      "patagonia-down-sweater:patagonia-down-sweater-hoody",
-      "patagonia-fitz-roy:patagonia-fitz-roy-down",
-      "arcteryx-cerium:arcteryx-cerium-jacket",
-      "arcteryx-cerium:arc-teryx-cerium"
+      "hunter:patagonia-puffer",
+      "hunter:arcteryx-jacket",
+      "hunter:arc-teryx-puffer",
+      "hunter:ralph-lauren-puffer",
+      "hunter:polo-puffer-jacket",
+      "hunter:nike-puffer-jacket",
+      "hunter:berghaus-puffer",
+      "hunter:napapijri-jacket"
     ],
     "vintedItems": 280,
-    "freshItems": 6,
+    "freshItems": 12,
     "freshByAge": 0,
-    "freshByNewId": 6,
+    "freshByNewId": 12,
     "bootstrapBlocked": 0,
-    "staleBlocked": 2,
+    "staleBlocked": 4,
     "candidates": 1,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-10-15T23:55:51.951Z",
+      "platform": "VINTED",
+      "id": "10393931981",
+      "title": "mens vintage nike puffer jacket xl",
+      "url": "https://www.vinted.co.uk/items/10393931981-mens-vintage-nike-puffer-jacket-xl",
+      "modelId": "nike-puffer",
+      "buyPrice": 21,
+      "estimatedNetProfit": 36.37,
+      "roi": 173.19,
+      "score": 96
+    },
     {
       "at": "2026-10-15T21:46:43.591Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 24.65,
       "roi": 123.25,
       "score": 92
-    },
-    {
-      "at": "2026-10-13T21:16:02.058Z",
-      "platform": "VINTED",
-      "id": "10364603212",
-      "title": "kids ralph lauren coat",
-      "url": "https://www.vinted.co.uk/items/10364603212-kids-ralph-lauren-coat",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 30,
-      "estimatedNetProfit": 47.04,
-      "roi": 156.8,
-      "score": 90
     }
   ]
 }
