@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-10-16T14:12:19.447Z",
-  "stateUpdatedAt": "2026-10-16T14:12:19.447Z",
-  "lastAttemptAt": "2026-10-16T14:12:19.447Z",
-  "lastScanAt": "2026-10-16T14:12:19.447Z",
+  "generatedAt": "2026-10-16T14:55:03.144Z",
+  "stateUpdatedAt": "2026-10-16T14:55:03.144Z",
+  "lastAttemptAt": "2026-10-16T14:55:03.144Z",
+  "lastScanAt": "2026-10-16T14:55:03.144Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Tech Fleece Joggers::nike tech fleece joggers",
-    "Nike Storm-FIT Puffer::nike storm fit puffer",
-    "Nike Solo Swoosh Hoodie::nike solo swoosh hoodie",
-    "Nike Miler Running Top::nike miler running top",
-    "Nike Tech Fleece Open-Hem Trousers::nike tech fleece open hem trousers",
-    "Nike ACG Lunar Lake Puffer::nike acg lunar lake"
+    "Nike Academy Tracksuit::nike academy tracksuit",
+    "Nike Dri-FIT Running Top::nike dri-fit running top",
+    "Nike Tech Fleece Shorts::nike tech fleece shorts",
+    "Nike Therma-FIT Jacket::nike therma fit jacket",
+    "Nike NOCTA Hoodie::nike nocta hoodie",
+    "Nike Stride Shorts::nike stride shorts"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1569,
-  "catalogItems": 897,
-  "candidateItems": 261,
-  "freshItems": 76,
-  "qualifyingAlerts": 33,
+  "catalogMarkers": 1440,
+  "catalogItems": 757,
+  "candidateItems": 339,
+  "freshItems": 102,
+  "qualifyingAlerts": 57,
   "qualifyingByCondition": {
-    "veryGood": 26,
-    "newWithTags": 3,
-    "newWithoutTags": 4
+    "veryGood": 44,
+    "newWithTags": 7,
+    "newWithoutTags": 6
   },
-  "deliveredAlerts": 33,
+  "deliveredAlerts": 57,
   "deliveredByCondition": {
-    "veryGood": 26,
-    "newWithTags": 3,
-    "newWithoutTags": 4
+    "veryGood": 44,
+    "newWithTags": 7,
+    "newWithoutTags": 6
   },
-  "duplicateSuppressed": 57,
+  "duplicateSuppressed": 70,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,13 +69,12 @@
   "pendingDeliveries": 0,
   "detailFetches": 4,
   "rejects": {
-    "condition": 21,
     "price": 14,
-    "recovery-no-fresh-signal": 128,
-    "weak-margin": 1,
-    "clothing-variety-cap": 2,
-    "keyword": 4,
-    "size": 1
+    "recovery-no-fresh-signal": 167,
+    "condition": 20,
+    "size": 1,
+    "weak-margin": 7,
+    "keyword": 3
   },
   "failures": {}
 }
