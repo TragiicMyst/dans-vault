@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-10-16T09:03:51.769Z",
+    "startedAt": "2026-10-16T13:58:05.248Z",
     "searchGroups": [
-      "tnf-himalayan:north-face-himalayan-puffer",
-      "tnf-himalayan:north-face-hmlyn-parka",
-      "tnf-baltoro:north-face-baltoro-jacket",
-      "tnf-summit-down:north-face-summit-series-down",
-      "rab-microlight:rab-microlight-alpine",
-      "rab-neutrino:rab-neutrino-pro",
-      "rab-electron:rab-electron-pro",
-      "patagonia-down-sweater:patagonia-down-sweater-jacket"
+      "hunter:north-face-700",
+      "hunter:mens-north-face-jacket",
+      "hunter:rab-puffer",
+      "hunter:rab-down-jacket",
+      "hunter:patagonia-puffer",
+      "hunter:arcteryx-jacket",
+      "hunter:arc-teryx-puffer",
+      "hunter:ralph-lauren-puffer"
     ],
     "vintedItems": 280,
-    "freshItems": 4,
+    "freshItems": 28,
     "freshByAge": 0,
-    "freshByNewId": 4,
+    "freshByNewId": 28,
     "bootstrapBlocked": 0,
-    "staleBlocked": 2,
-    "candidates": 0,
+    "staleBlocked": 13,
+    "candidates": 5,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-10-16T13:55:09.045Z",
+      "platform": "VINTED",
+      "id": "10397036118",
+      "title": "nike puffer xs",
+      "url": "https://www.vinted.co.uk/items/10397036118-nike-puffer-xs",
+      "modelId": "nike-puffer",
+      "buyPrice": 17.5,
+      "estimatedNetProfit": 41.64,
+      "roi": 237.94,
+      "score": 99
+    },
     {
       "at": "2026-10-16T09:00:55.027Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 44.48,
       "roi": 148.27,
       "score": 95
-    },
-    {
-      "at": "2026-10-14T10:10:25.999Z",
-      "platform": "VINTED",
-      "id": "10370254587",
-      "title": "girls nike down jacket",
-      "url": "https://www.vinted.co.uk/items/10370254587-girls-nike-down-jacket",
-      "modelId": "nike-puffer",
-      "buyPrice": 15,
-      "estimatedNetProfit": 42.7,
-      "roi": 284.67,
-      "score": 91
     }
   ]
 }
