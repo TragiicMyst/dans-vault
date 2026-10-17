@@ -2,29 +2,53 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-10-17T05:10:03.197Z",
+    "startedAt": "2026-10-17T09:19:41.750Z",
     "searchGroups": [
-      "hunter:arc-teryx-puffer",
-      "hunter:ralph-lauren-puffer",
-      "hunter:polo-puffer-jacket",
-      "hunter:nike-puffer-jacket",
-      "hunter:berghaus-puffer",
-      "hunter:napapijri-jacket",
-      "tnf-1996-nuptse:north-face-nuptse-700",
-      "tnf-1996-nuptse:north-face-1996-nuptse"
+      "nike-puffer:nike-puffer-jacket-mens",
+      "nike-puffer:nike-down-jacket",
+      "berghaus-down:berghaus-down-jacket",
+      "berghaus-down:berghaus-puffer-jacket",
+      "napapijri-skidoo:napapijri-skidoo-jacket",
+      "napapijri-skidoo:napapijri-rainforest-winter",
+      "hunter:north-face-coat",
+      "hunter:north-face-puffer"
     ],
     "vintedItems": 280,
-    "freshItems": 0,
+    "freshItems": 19,
     "freshByAge": 0,
-    "freshByNewId": 0,
+    "freshByNewId": 19,
     "bootstrapBlocked": 0,
-    "staleBlocked": 3,
-    "candidates": 0,
-    "alerts": 0,
+    "staleBlocked": 35,
+    "candidates": 3,
+    "alerts": 1,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-10-17T09:19:52.705Z",
+      "platform": "VINTED",
+      "id": "10407814306",
+      "title": "north face summit series raincoat size large",
+      "url": "https://www.vinted.co.uk/items/10407814306-north-face-summit-series-raincoat-size-large",
+      "modelId": "tnf-summit-down",
+      "buyPrice": 50,
+      "estimatedNetProfit": 42.01,
+      "roi": 84.02,
+      "score": 86
+    },
+    {
+      "at": "2026-10-17T09:16:52.994Z",
+      "platform": "VINTED",
+      "id": "10408025318",
+      "title": "polo ralph lauren jacket for kids",
+      "url": "https://www.vinted.co.uk/items/10408025318-polo-ralph-lauren-jacket-for-kids",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 35,
+      "estimatedNetProfit": 42.54,
+      "roi": 121.54,
+      "score": 87
+    },
     {
       "at": "2026-10-17T00:49:03.891Z",
       "platform": "VINTED",
@@ -240,30 +264,6 @@
       "estimatedNetProfit": 37.26,
       "roi": 138,
       "score": 93
-    },
-    {
-      "at": "2026-10-14T15:09:00.917Z",
-      "platform": "VINTED",
-      "id": "10375011156",
-      "title": "nike puffer jacket desk organiser",
-      "url": "https://www.vinted.co.uk/items/10375011156-nike-puffer-jacket-desk-organiser",
-      "modelId": "nike-puffer",
-      "buyPrice": 10,
-      "estimatedNetProfit": 43.36,
-      "roi": 433.6,
-      "score": 87
-    },
-    {
-      "at": "2026-10-14T15:06:12.209Z",
-      "platform": "VINTED",
-      "id": "10372285882",
-      "title": "polo ralph lauren reversible puffer jacket l 14 16 yrs blue red coat",
-      "url": "https://www.vinted.co.uk/items/10372285882-polo-ralph-lauren-reversible-puffer-jacket-l-14-16-yrs-blue-red-coat",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 40,
-      "estimatedNetProfit": 33.93,
-      "roi": 84.82,
-      "score": 87
     }
   ]
 }
