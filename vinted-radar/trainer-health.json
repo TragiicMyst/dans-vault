@@ -1,37 +1,37 @@
 {
-  "generatedAt": "2026-10-17T22:23:03.244Z",
-  "stateUpdatedAt": "2026-10-17T22:23:03.244Z",
-  "lastAttemptAt": "2026-10-17T22:23:03.244Z",
-  "lastScanAt": "2026-10-17T22:23:03.244Z",
+  "generatedAt": "2026-10-17T22:28:02.297Z",
+  "stateUpdatedAt": "2026-10-17T22:28:02.297Z",
+  "lastAttemptAt": "2026-10-17T22:28:02.297Z",
+  "lastScanAt": "2026-10-17T22:28:02.297Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Shox R4::primary",
-    "Nike Shox Ride 2::primary",
-    "Nike Air Force 1::primary",
-    "Nike Dunk Low::primary",
-    "Air Jordan 1 Low::primary",
-    "Air Jordan 1 Mid::primary"
+    "Air Jordan 4::primary",
+    "Nike Initiator::primary",
+    "Nike Air Max Moto 2K::primary",
+    "Nike Metcon 10::primary",
+    "Nike Zoom Fly 6::primary",
+    "Nike Air Max Bargain::generic"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 890,
-  "candidateItems": 541,
-  "freshItems": 144,
+  "catalogItems": 872,
+  "candidateItems": 439,
+  "freshItems": 85,
   "qualifyingAlerts": 7,
   "qualifyingByCondition": {
-    "newWithTags": 1,
-    "veryGood": 6
+    "veryGood": 3,
+    "newWithTags": 4
   },
   "deliveredAlerts": 7,
   "deliveredByCondition": {
-    "newWithTags": 1,
-    "veryGood": 6
+    "veryGood": 3,
+    "newWithTags": 4
   },
-  "duplicateSuppressed": 37,
+  "duplicateSuppressed": 58,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,15 +67,14 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "keyword": 10,
-    "stale": 360,
-    "price": 9,
-    "size": 4,
-    "weak-margin": 4,
-    "condition": 29,
-    "seller-risk": 1,
-    "detail-budget-exhausted": 31,
-    "seller-check-budget-exhausted": 49
+    "stale": 296,
+    "condition": 15,
+    "size": 2,
+    "seller-risk": 3,
+    "seller-check-budget-exhausted": 27,
+    "detail-budget-exhausted": 11,
+    "price": 18,
+    "keyword": 2
   },
   "failures": {}
 }
