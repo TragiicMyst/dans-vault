@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-10-16T22:55:10.755Z",
+    "startedAt": "2026-10-17T00:54:54.372Z",
     "searchGroups": [
-      "napapijri-skidoo:napapijri-skidoo-jacket",
-      "napapijri-skidoo:napapijri-rainforest-winter",
-      "hunter:north-face-coat",
-      "hunter:north-face-puffer",
-      "hunter:north-face-700",
-      "hunter:mens-north-face-jacket",
-      "hunter:rab-puffer",
-      "hunter:rab-down-jacket"
+      "rab-electron:rab-electron-pro",
+      "patagonia-down-sweater:patagonia-down-sweater-jacket",
+      "patagonia-down-sweater:patagonia-down-sweater-hoody",
+      "patagonia-fitz-roy:patagonia-fitz-roy-down",
+      "arcteryx-cerium:arcteryx-cerium-jacket",
+      "arcteryx-cerium:arc-teryx-cerium",
+      "arcteryx-thorium:arcteryx-thorium-jacket",
+      "arcteryx-thorium:arc-teryx-thorium"
     ],
     "vintedItems": 280,
-    "freshItems": 41,
+    "freshItems": 2,
     "freshByAge": 0,
-    "freshByNewId": 41,
+    "freshByNewId": 2,
     "bootstrapBlocked": 0,
-    "staleBlocked": 18,
-    "candidates": 1,
+    "staleBlocked": 4,
+    "candidates": 0,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-10-17T00:49:03.891Z",
+      "platform": "VINTED",
+      "id": "10405388314",
+      "title": "new nike puffer coat",
+      "url": "https://www.vinted.co.uk/items/10405388314-new-nike-puffer-coat",
+      "modelId": "nike-puffer",
+      "buyPrice": 20,
+      "estimatedNetProfit": 24.65,
+      "roi": 123.25,
+      "score": 92
+    },
     {
       "at": "2026-10-16T20:09:00.157Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 33.93,
       "roi": 84.82,
       "score": 87
-    },
-    {
-      "at": "2026-10-14T15:06:11.298Z",
-      "platform": "VINTED",
-      "id": "10373208040",
-      "title": "polo ralph lauren reversible puffer gilet navy red youth 10 12",
-      "url": "https://www.vinted.co.uk/items/10373208040-polo-ralph-lauren-reversible-puffer-gilet-navy-red-youth-10-12",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 40,
-      "estimatedNetProfit": 30.02,
-      "roi": 75.05,
-      "score": 77
     }
   ]
 }
