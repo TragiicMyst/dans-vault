@@ -2,29 +2,65 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-10-17T09:19:41.750Z",
+    "startedAt": "2026-10-17T13:05:18.772Z",
     "searchGroups": [
-      "nike-puffer:nike-puffer-jacket-mens",
-      "nike-puffer:nike-down-jacket",
-      "berghaus-down:berghaus-down-jacket",
-      "berghaus-down:berghaus-puffer-jacket",
-      "napapijri-skidoo:napapijri-skidoo-jacket",
-      "napapijri-skidoo:napapijri-rainforest-winter",
-      "hunter:north-face-coat",
-      "hunter:north-face-puffer"
+      "tnf-baltoro:north-face-baltoro-jacket",
+      "tnf-summit-down:north-face-summit-series-down",
+      "rab-microlight:rab-microlight-alpine",
+      "rab-neutrino:rab-neutrino-pro",
+      "rab-electron:rab-electron-pro",
+      "patagonia-down-sweater:patagonia-down-sweater-jacket",
+      "patagonia-down-sweater:patagonia-down-sweater-hoody",
+      "patagonia-fitz-roy:patagonia-fitz-roy-down"
     ],
     "vintedItems": 280,
-    "freshItems": 19,
+    "freshItems": 9,
     "freshByAge": 0,
-    "freshByNewId": 19,
+    "freshByNewId": 9,
     "bootstrapBlocked": 0,
-    "staleBlocked": 35,
-    "candidates": 3,
-    "alerts": 1,
+    "staleBlocked": 2,
+    "candidates": 1,
+    "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-10-17T12:59:32.071Z",
+      "platform": "VINTED",
+      "id": "10407957009",
+      "title": "ralph lauren reversible puffer gilet age 5 green purple",
+      "url": "https://www.vinted.co.uk/items/10407957009-ralph-lauren-reversible-puffer-gilet-age-5-green-purple",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 30,
+      "estimatedNetProfit": 42.3,
+      "roi": 141,
+      "score": 89
+    },
+    {
+      "at": "2026-10-17T12:59:31.202Z",
+      "platform": "VINTED",
+      "id": "10410569579",
+      "title": "polo ralph lauren mens terra or colden packable puffer giletvest in black",
+      "url": "https://www.vinted.co.uk/items/10410569579-polo-ralph-lauren-mens-terra-or-colden-packable-puffer-giletvest-in-black",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 40,
+      "estimatedNetProfit": 35.66,
+      "roi": 89.15,
+      "score": 88
+    },
+    {
+      "at": "2026-10-17T12:59:30.576Z",
+      "platform": "VINTED",
+      "id": "10411484445",
+      "title": "ralph lauren puffer m",
+      "url": "https://www.vinted.co.uk/items/10411484445-ralph-lauren-puffer-m",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 35,
+      "estimatedNetProfit": 35.72,
+      "roi": 102.06,
+      "score": 90
+    },
     {
       "at": "2026-10-17T09:19:52.705Z",
       "platform": "VINTED",
@@ -228,42 +264,6 @@
       "estimatedNetProfit": 40.64,
       "roi": 135.51,
       "score": 89
-    },
-    {
-      "at": "2026-10-15T00:42:40.512Z",
-      "platform": "VINTED",
-      "id": "10380340311",
-      "title": "nike puffer jacket pencil holder",
-      "url": "https://www.vinted.co.uk/items/10380340311-nike-puffer-jacket-pencil-holder",
-      "modelId": "nike-puffer",
-      "buyPrice": 7.99,
-      "estimatedNetProfit": 45.48,
-      "roi": 569.21,
-      "score": 87
-    },
-    {
-      "at": "2026-10-14T19:27:40.662Z",
-      "platform": "VINTED",
-      "id": "10378815910",
-      "title": "3d printed nike puffer jacket desk tidier",
-      "url": "https://www.vinted.co.uk/items/10378815910-3d-printed-nike-puffer-jacket-desk-tidier",
-      "modelId": "nike-puffer",
-      "buyPrice": 10,
-      "estimatedNetProfit": 43.36,
-      "roi": 433.6,
-      "score": 87
-    },
-    {
-      "at": "2026-10-14T19:27:24.019Z",
-      "platform": "VINTED",
-      "id": "10378523975",
-      "title": "vintage sleeveless ralph lauren puffer",
-      "url": "https://www.vinted.co.uk/items/10378523975-vintage-sleeveless-ralph-lauren-puffer",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 27,
-      "estimatedNetProfit": 37.26,
-      "roi": 138,
-      "score": 93
     }
   ]
 }
