@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-10-17T18:41:18.837Z",
+    "startedAt": "2026-10-17T21:03:56.709Z",
     "searchGroups": [
-      "arcteryx-thorium:arcteryx-thorium-jacket",
-      "arcteryx-thorium:arc-teryx-thorium",
-      "ralph-lauren-puffer:ralph-lauren-puffer-jacket",
-      "ralph-lauren-puffer:polo-ralph-lauren-down-jacket",
-      "nike-puffer:nike-puffer-jacket-mens",
-      "nike-puffer:nike-down-jacket",
-      "berghaus-down:berghaus-down-jacket",
-      "berghaus-down:berghaus-puffer-jacket"
+      "tnf-1996-nuptse:north-face-nuptse-700",
+      "tnf-1996-nuptse:north-face-1996-nuptse",
+      "tnf-himalayan:north-face-himalayan-puffer",
+      "tnf-himalayan:north-face-hmlyn-parka",
+      "tnf-baltoro:north-face-baltoro-jacket",
+      "tnf-summit-down:north-face-summit-series-down",
+      "rab-microlight:rab-microlight-alpine",
+      "rab-neutrino:rab-neutrino-pro"
     ],
     "vintedItems": 280,
-    "freshItems": 14,
+    "freshItems": 2,
     "freshByAge": 0,
-    "freshByNewId": 14,
+    "freshByNewId": 2,
     "bootstrapBlocked": 0,
     "staleBlocked": 1,
-    "candidates": 7,
-    "alerts": 1,
+    "candidates": 0,
+    "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-10-17T21:01:03.439Z",
+      "platform": "VINTED",
+      "id": "10418414971",
+      "title": "new ralph lauren teen girls small womens puffer coat pink 16yrs small womans",
+      "url": "https://www.vinted.co.uk/items/10418414971-new-ralph-lauren-teen-girls-small-womens-puffer-coat-pink-16yrs-small-womans",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 25,
+      "estimatedNetProfit": 43.62,
+      "roi": 174.48,
+      "score": 97
+    },
     {
       "at": "2026-10-17T18:41:25.055Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 35.48,
       "roi": 118.27,
       "score": 91
-    },
-    {
-      "at": "2026-10-15T21:46:37.334Z",
-      "platform": "VINTED",
-      "id": "10393037961",
-      "title": "polo ralph lauren navy puffer jacket hooded 14 years",
-      "url": "https://www.vinted.co.uk/items/10393037961-polo-ralph-lauren-navy-puffer-jacket-hooded-14-years",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 40,
-      "estimatedNetProfit": 34.51,
-      "roi": 86.28,
-      "score": 82
     }
   ]
 }
