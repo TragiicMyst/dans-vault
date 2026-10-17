@@ -2,29 +2,65 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-10-17T13:05:18.772Z",
+    "startedAt": "2026-10-17T16:21:46.448Z",
     "searchGroups": [
-      "tnf-baltoro:north-face-baltoro-jacket",
-      "tnf-summit-down:north-face-summit-series-down",
-      "rab-microlight:rab-microlight-alpine",
-      "rab-neutrino:rab-neutrino-pro",
-      "rab-electron:rab-electron-pro",
-      "patagonia-down-sweater:patagonia-down-sweater-jacket",
-      "patagonia-down-sweater:patagonia-down-sweater-hoody",
-      "patagonia-fitz-roy:patagonia-fitz-roy-down"
+      "hunter:rab-puffer",
+      "hunter:rab-down-jacket",
+      "hunter:patagonia-puffer",
+      "hunter:arcteryx-jacket",
+      "hunter:arc-teryx-puffer",
+      "hunter:ralph-lauren-puffer",
+      "hunter:polo-puffer-jacket",
+      "hunter:nike-puffer-jacket"
     ],
     "vintedItems": 280,
-    "freshItems": 9,
+    "freshItems": 31,
     "freshByAge": 0,
-    "freshByNewId": 9,
+    "freshByNewId": 31,
     "bootstrapBlocked": 0,
-    "staleBlocked": 2,
-    "candidates": 1,
-    "alerts": 0,
+    "staleBlocked": 1,
+    "candidates": 2,
+    "alerts": 2,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-10-17T16:21:59.271Z",
+      "platform": "VINTED",
+      "id": "10413647552",
+      "title": "nike puffer coat",
+      "url": "https://www.vinted.co.uk/items/10413647552-nike-puffer-coat",
+      "modelId": "nike-puffer",
+      "buyPrice": 30,
+      "estimatedNetProfit": 26.88,
+      "roi": 89.6,
+      "score": 87
+    },
+    {
+      "at": "2026-10-17T16:21:58.265Z",
+      "platform": "VINTED",
+      "id": "10414600900",
+      "title": "nike puffer jacket pencil holder",
+      "url": "https://www.vinted.co.uk/items/10414600900-nike-puffer-jacket-pencil-holder",
+      "modelId": "nike-puffer",
+      "buyPrice": 6,
+      "estimatedNetProfit": 47.58,
+      "roi": 793,
+      "score": 87
+    },
+    {
+      "at": "2026-10-17T16:18:55.939Z",
+      "platform": "VINTED",
+      "id": "10414640451",
+      "title": "north face kids 1996 retro nuptse jacket navy",
+      "url": "https://www.vinted.co.uk/items/10414640451-north-face-kids-1996-retro-nuptse-jacket-navy",
+      "modelId": "tnf-1996-nuptse",
+      "buyPrice": 40,
+      "estimatedNetProfit": 42.77,
+      "roi": 106.93,
+      "score": 79
+    },
     {
       "at": "2026-10-17T12:59:32.071Z",
       "platform": "VINTED",
@@ -228,42 +264,6 @@
       "estimatedNetProfit": 36.81,
       "roi": 92.03,
       "score": 83
-    },
-    {
-      "at": "2026-10-15T14:40:32.415Z",
-      "platform": "VINTED",
-      "id": "10387397680",
-      "title": "nike puffer jacket pencil holder",
-      "url": "https://www.vinted.co.uk/items/10387397680-nike-puffer-jacket-pencil-holder",
-      "modelId": "nike-puffer",
-      "buyPrice": 6,
-      "estimatedNetProfit": 47.58,
-      "roi": 793,
-      "score": 87
-    },
-    {
-      "at": "2026-10-15T14:34:31.109Z",
-      "platform": "VINTED",
-      "id": "10387563150",
-      "title": "black nike puffer coat",
-      "url": "https://www.vinted.co.uk/items/10387563150-black-nike-puffer-coat",
-      "modelId": "nike-puffer",
-      "buyPrice": 20,
-      "estimatedNetProfit": 37.43,
-      "roi": 187.15,
-      "score": 97
-    },
-    {
-      "at": "2026-10-15T10:00:15.114Z",
-      "platform": "VINTED",
-      "id": "10384335327",
-      "title": "new genuine patagonia wool beanie hat brown unisex fishermans jacket ralph lauren",
-      "url": "https://www.vinted.co.uk/items/10384335327-new-genuine-patagonia-wool-beanie-hat-brown-unisex-fishermans-jacket-ralph-lauren",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 29.99,
-      "estimatedNetProfit": 40.64,
-      "roi": 135.51,
-      "score": 89
     }
   ]
 }
