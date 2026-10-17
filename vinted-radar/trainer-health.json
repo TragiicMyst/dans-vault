@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-10-17T07:57:28.980Z",
-  "stateUpdatedAt": "2026-10-17T07:57:28.980Z",
-  "lastAttemptAt": "2026-10-17T07:57:28.980Z",
-  "lastScanAt": "2026-10-17T07:57:28.980Z",
+  "generatedAt": "2026-10-17T10:45:44.801Z",
+  "stateUpdatedAt": "2026-10-17T10:45:44.801Z",
+  "lastAttemptAt": "2026-10-17T10:45:44.801Z",
+  "lastScanAt": "2026-10-17T10:45:44.801Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Air Jordan 4::primary",
-    "Nike Initiator::primary",
-    "Nike Air Max Moto 2K::primary",
-    "Nike Metcon 10::primary",
-    "Nike Zoom Fly 6::primary",
-    "Nike Air Max Bargain::generic"
+    "Nike Running Trainer Bargain::generic",
+    "Nike Lifestyle Trainer Bargain::generic",
+    "Nike Football Boot Bargain::generic",
+    "Nike Basketball Shoe Bargain::generic",
+    "Nike SB Shoe Bargain::generic",
+    "Nike P-6000::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 862,
-  "candidateItems": 430,
-  "freshItems": 46,
-  "qualifyingAlerts": 2,
+  "catalogItems": 884,
+  "candidateItems": 376,
+  "freshItems": 154,
+  "qualifyingAlerts": 8,
   "qualifyingByCondition": {
-    "veryGood": 2
+    "veryGood": 8
   },
-  "deliveredAlerts": 2,
+  "deliveredAlerts": 8,
   "deliveredByCondition": {
-    "veryGood": 2
+    "veryGood": 8
   },
-  "duplicateSuppressed": 66,
+  "duplicateSuppressed": 0,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -65,14 +65,13 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 318,
-    "size": 7,
-    "condition": 9,
-    "seller-risk": 3,
-    "price": 10,
-    "keyword": 2,
-    "detail-budget-exhausted": 10,
-    "seller-check-budget-exhausted": 3
+    "recovery-no-fresh-signal": 222,
+    "price": 28,
+    "size": 4,
+    "condition": 42,
+    "keyword": 8,
+    "seller-check-budget-exhausted": 34,
+    "detail-budget-exhausted": 30
   },
   "failures": {}
 }
