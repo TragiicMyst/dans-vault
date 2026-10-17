@@ -1,37 +1,35 @@
 {
-  "generatedAt": "2026-10-17T01:42:41.300Z",
-  "stateUpdatedAt": "2026-10-17T01:42:41.300Z",
-  "lastAttemptAt": "2026-10-17T01:42:41.300Z",
-  "lastScanAt": "2026-10-17T01:42:41.300Z",
+  "generatedAt": "2026-10-17T03:04:50.469Z",
+  "stateUpdatedAt": "2026-10-17T03:04:50.469Z",
+  "lastAttemptAt": "2026-10-17T03:04:50.469Z",
+  "lastScanAt": "2026-10-17T03:04:50.469Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike Shox R4::primary",
-    "Nike Shox Ride 2::primary",
-    "Nike Air Force 1::primary",
-    "Nike Dunk Low::primary",
-    "Air Jordan 1 Low::primary",
-    "Air Jordan 1 Mid::primary"
+    "Air Jordan 4::primary",
+    "Nike Initiator::primary",
+    "Nike Air Max Moto 2K::primary",
+    "Nike Metcon 10::primary",
+    "Nike Zoom Fly 6::primary",
+    "Nike Air Max Bargain::generic"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 896,
-  "candidateItems": 566,
-  "freshItems": 60,
-  "qualifyingAlerts": 3,
+  "catalogItems": 870,
+  "candidateItems": 426,
+  "freshItems": 14,
+  "qualifyingAlerts": 5,
   "qualifyingByCondition": {
-    "newWithTags": 1,
-    "veryGood": 2
+    "veryGood": 5
   },
-  "deliveredAlerts": 3,
+  "deliveredAlerts": 5,
   "deliveredByCondition": {
-    "newWithTags": 1,
-    "veryGood": 2
+    "veryGood": 5
   },
-  "duplicateSuppressed": 35,
+  "duplicateSuppressed": 61,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -65,16 +63,14 @@
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 12,
+  "detailFetches": 7,
   "rejects": {
-    "stale": 471,
-    "price": 1,
-    "size": 7,
-    "keyword": 1,
-    "seller-risk": 2,
-    "detail-budget-exhausted": 19,
-    "seller-check-budget-exhausted": 25,
-    "condition": 2
+    "recovery-no-fresh-signal": 351,
+    "price": 3,
+    "keyword": 3,
+    "seller-risk": 1,
+    "condition": 1,
+    "size": 1
   },
   "failures": {}
 }
