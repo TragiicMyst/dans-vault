@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-10-18T21:29:11.428Z",
+    "startedAt": "2026-10-18T23:30:43.268Z",
     "searchGroups": [
-      "tnf-himalayan:north-face-himalayan-puffer",
-      "tnf-himalayan:north-face-hmlyn-parka",
-      "tnf-baltoro:north-face-baltoro-jacket",
-      "tnf-summit-down:north-face-summit-series-down",
-      "rab-microlight:rab-microlight-alpine",
-      "rab-neutrino:rab-neutrino-pro",
-      "rab-electron:rab-electron-pro",
-      "patagonia-down-sweater:patagonia-down-sweater-jacket"
+      "hunter:north-face-700",
+      "hunter:mens-north-face-jacket",
+      "hunter:rab-puffer",
+      "hunter:rab-down-jacket",
+      "hunter:patagonia-puffer",
+      "hunter:arcteryx-jacket",
+      "hunter:arc-teryx-puffer",
+      "hunter:ralph-lauren-puffer"
     ],
     "vintedItems": 280,
-    "freshItems": 3,
+    "freshItems": 5,
     "freshByAge": 0,
-    "freshByNewId": 3,
+    "freshByNewId": 5,
     "bootstrapBlocked": 0,
-    "staleBlocked": 6,
-    "candidates": 0,
-    "alerts": 0,
+    "staleBlocked": 9,
+    "candidates": 1,
+    "alerts": 1,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-10-18T23:30:55.851Z",
+      "platform": "VINTED",
+      "id": "10437534316",
+      "title": "ralph lauren quilted puffer gilet bodywarmer",
+      "url": "https://www.vinted.co.uk/items/10437534316-ralph-lauren-quilted-puffer-gilet-bodywarmer",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 30,
+      "estimatedNetProfit": 45.82,
+      "roi": 152.73,
+      "score": 95
+    },
     {
       "at": "2026-10-18T21:26:18.204Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 36.34,
       "roi": 90.85,
       "score": 83
-    },
-    {
-      "at": "2026-10-17T16:21:59.271Z",
-      "platform": "VINTED",
-      "id": "10413647552",
-      "title": "nike puffer coat",
-      "url": "https://www.vinted.co.uk/items/10413647552-nike-puffer-coat",
-      "modelId": "nike-puffer",
-      "buyPrice": 30,
-      "estimatedNetProfit": 26.88,
-      "roi": 89.6,
-      "score": 87
     }
   ]
 }
