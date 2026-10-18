@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-10-18T16:55:15.731Z",
+    "startedAt": "2026-10-18T19:07:04.423Z",
     "searchGroups": [
-      "hunter:patagonia-puffer",
-      "hunter:arcteryx-jacket",
-      "hunter:arc-teryx-puffer",
-      "hunter:ralph-lauren-puffer",
-      "hunter:polo-puffer-jacket",
-      "hunter:nike-puffer-jacket",
-      "hunter:berghaus-puffer",
-      "hunter:napapijri-jacket"
+      "ralph-lauren-puffer:ralph-lauren-puffer-jacket",
+      "ralph-lauren-puffer:polo-ralph-lauren-down-jacket",
+      "nike-puffer:nike-puffer-jacket-mens",
+      "nike-puffer:nike-down-jacket",
+      "berghaus-down:berghaus-down-jacket",
+      "berghaus-down:berghaus-puffer-jacket",
+      "napapijri-skidoo:napapijri-skidoo-jacket",
+      "napapijri-skidoo:napapijri-rainforest-winter"
     ],
     "vintedItems": 280,
-    "freshItems": 27,
+    "freshItems": 30,
     "freshByAge": 0,
-    "freshByNewId": 27,
+    "freshByNewId": 30,
     "bootstrapBlocked": 0,
-    "staleBlocked": 1,
-    "candidates": 5,
+    "staleBlocked": 3,
+    "candidates": 18,
     "alerts": 1,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-10-18T19:07:08.092Z",
+      "platform": "VINTED",
+      "id": "10433602696",
+      "title": "girls ralph lauren coat size 5 years",
+      "url": "https://www.vinted.co.uk/items/10433602696-girls-ralph-lauren-coat-size-5-years",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 45,
+      "estimatedNetProfit": 31.07,
+      "roi": 69.04,
+      "score": 74
+    },
     {
       "at": "2026-10-18T16:55:25.913Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 47.58,
       "roi": 793,
       "score": 87
-    },
-    {
-      "at": "2026-10-17T16:18:55.939Z",
-      "platform": "VINTED",
-      "id": "10414640451",
-      "title": "north face kids 1996 retro nuptse jacket navy",
-      "url": "https://www.vinted.co.uk/items/10414640451-north-face-kids-1996-retro-nuptse-jacket-navy",
-      "modelId": "tnf-1996-nuptse",
-      "buyPrice": 40,
-      "estimatedNetProfit": 42.77,
-      "roi": 106.93,
-      "score": 79
     }
   ]
 }
