@@ -1,35 +1,39 @@
 {
-  "generatedAt": "2026-10-18T06:30:10.688Z",
-  "stateUpdatedAt": "2026-10-18T06:30:10.688Z",
-  "lastAttemptAt": "2026-10-18T06:30:10.688Z",
-  "lastScanAt": "2026-10-18T06:30:10.688Z",
+  "generatedAt": "2026-10-18T06:35:11.057Z",
+  "stateUpdatedAt": "2026-10-18T06:35:11.057Z",
+  "lastAttemptAt": "2026-10-18T06:35:11.057Z",
+  "lastScanAt": "2026-10-18T06:35:11.057Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Shoe Bargain::generic",
-    "Nike V5 RNR::primary",
-    "Nike Vomero 5::primary",
-    "Nike Vomero 18::primary",
-    "Nike Vomero Plus::primary",
-    "Nike Vomero Premium::primary",
-    "Nike Pegasus Premium::primary"
+    "Nike Pegasus Trail 5 GORE-TEX::primary",
+    "Nike TN::primary",
+    "Nike Air Max Plus 3::primary",
+    "Nike Air Max Plus VII::primary",
+    "Nike Air Max 95::primary",
+    "Nike Air Max 90::primary"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1270,
-  "catalogItems": 638,
-  "candidateItems": 436,
-  "freshItems": 106,
+  "catalogMarkers": 1344,
+  "catalogItems": 1078,
+  "candidateItems": 463,
+  "freshItems": 58,
   "qualifyingAlerts": 10,
   "qualifyingByCondition": {
-    "newWithTags": 10
+    "veryGood": 8,
+    "newWithoutTags": 1,
+    "newWithTags": 1
   },
   "deliveredAlerts": 10,
   "deliveredByCondition": {
-    "newWithTags": 10
+    "veryGood": 8,
+    "newWithoutTags": 1,
+    "newWithTags": 1
   },
-  "duplicateSuppressed": 36,
+  "duplicateSuppressed": 51,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -65,11 +69,12 @@
   "pendingDeliveries": 0,
   "detailFetches": 12,
   "rejects": {
-    "stale": 294,
-    "size": 2,
-    "keyword": 1,
-    "seller-check-budget-exhausted": 80,
-    "detail-budget-exhausted": 13
+    "stale": 354,
+    "condition": 2,
+    "seller-risk": 1,
+    "size": 1,
+    "seller-check-budget-exhausted": 38,
+    "detail-budget-exhausted": 6
   },
   "failures": {}
 }
