@@ -1,37 +1,39 @@
 {
-  "generatedAt": "2026-10-17T23:23:27.550Z",
-  "stateUpdatedAt": "2026-10-17T23:23:27.550Z",
-  "lastAttemptAt": "2026-10-17T23:23:27.550Z",
-  "lastScanAt": "2026-10-17T23:23:27.550Z",
+  "generatedAt": "2026-10-18T00:56:56.541Z",
+  "stateUpdatedAt": "2026-10-18T00:56:56.541Z",
+  "lastAttemptAt": "2026-10-18T00:56:56.541Z",
+  "lastScanAt": "2026-10-18T00:56:56.541Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Woven Jacket::nike woven jacket",
-    "Nike Bomber Jacket::nike bomber jacket",
-    "Nike Coat::nike coat",
-    "Nike Shorts::nike shorts",
-    "Nike Cargo Trousers::nike cargo trousers",
-    "Nike Track Pants::nike track pants"
+    "Nike Woven Trousers::nike woven trousers",
+    "Nike Tracksuit::nike tracksuit",
+    "Nike Vintage Clothing::vintage nike",
+    "Nike SB Clothing::nike sb clothing",
+    "Nike Vest::nike vest",
+    "Nike Air Max Hoodie::nike air max hoodie"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 1096,
-  "candidateItems": 311,
-  "freshItems": 174,
+  "catalogItems": 1058,
+  "candidateItems": 294,
+  "freshItems": 164,
   "qualifyingAlerts": 56,
   "qualifyingByCondition": {
-    "veryGood": 52,
-    "newWithoutTags": 4
+    "newWithoutTags": 8,
+    "veryGood": 47,
+    "newWithTags": 1
   },
   "deliveredAlerts": 56,
   "deliveredByCondition": {
-    "veryGood": 52,
-    "newWithoutTags": 4
+    "newWithoutTags": 8,
+    "veryGood": 47,
+    "newWithTags": 1
   },
-  "duplicateSuppressed": 13,
+  "duplicateSuppressed": 9,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,13 +69,13 @@
   "pendingDeliveries": 0,
   "detailFetches": 6,
   "rejects": {
-    "recovery-no-fresh-signal": 124,
-    "price": 82,
-    "condition": 21,
-    "keyword": 6,
-    "score": 2,
-    "size": 5,
-    "detail-budget-exhausted": 2
+    "recovery-no-fresh-signal": 121,
+    "price": 46,
+    "condition": 28,
+    "keyword": 15,
+    "size": 6,
+    "detail-budget-exhausted": 11,
+    "weak-margin": 2
   },
   "failures": {}
 }
