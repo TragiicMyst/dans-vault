@@ -1,37 +1,39 @@
 {
-  "generatedAt": "2026-10-19T15:01:04.468Z",
-  "stateUpdatedAt": "2026-10-19T15:01:04.468Z",
-  "lastAttemptAt": "2026-10-19T15:01:04.468Z",
-  "lastScanAt": "2026-10-19T15:01:04.468Z",
+  "generatedAt": "2026-10-19T17:03:26.890Z",
+  "stateUpdatedAt": "2026-10-19T17:03:26.890Z",
+  "lastAttemptAt": "2026-10-19T17:03:26.890Z",
+  "lastScanAt": "2026-10-19T17:03:26.890Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike NOCTA Tracksuit::nike nocta tracksuit",
-    "Nike Miler Challenger Running Set::nike miler challenger set",
-    "Nike Football Tech Fleece::nike football tech fleece",
-    "Nike ACG GORE-TEX Jacket::nike acg gore tex jacket",
-    "Nike Club Fleece Full-Zip Hoodie::nike club fleece full zip hoodie",
-    "Nike Strike Top Shorts Set::nike strike top shorts set"
+    "Nike Club Fleece Joggers::nike club fleece joggers",
+    "Nike Sportswear Winterised Jacket::nike sportswear winterised jacket",
+    "Nike NOCTA Joggers::nike nocta joggers",
+    "Nike ACG Fleece::nike acg fleece",
+    "Nike Club Fleece Open-Hem Trousers::nike club fleece open hem trousers",
+    "Nike Trail Repel Jacket::nike trail repel jacket"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1728,
-  "catalogItems": 920,
-  "candidateItems": 254,
-  "freshItems": 23,
-  "qualifyingAlerts": 9,
+  "catalogMarkers": 1536,
+  "catalogItems": 919,
+  "candidateItems": 194,
+  "freshItems": 52,
+  "qualifyingAlerts": 28,
   "qualifyingByCondition": {
-    "veryGood": 8,
-    "newWithTags": 1
+    "veryGood": 23,
+    "newWithTags": 4,
+    "newWithoutTags": 1
   },
-  "deliveredAlerts": 9,
+  "deliveredAlerts": 28,
   "deliveredByCondition": {
-    "veryGood": 8,
-    "newWithTags": 1
+    "veryGood": 23,
+    "newWithTags": 4,
+    "newWithoutTags": 1
   },
-  "duplicateSuppressed": 77,
+  "duplicateSuppressed": 51,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,12 +69,11 @@
   "pendingDeliveries": 0,
   "detailFetches": 1,
   "rejects": {
-    "price": 6,
-    "keyword": 3,
-    "size": 1,
-    "condition": 3,
-    "recovery-no-fresh-signal": 154,
-    "weak-margin": 1
+    "price": 8,
+    "condition": 10,
+    "recovery-no-fresh-signal": 91,
+    "keyword": 5,
+    "size": 1
   },
   "failures": {}
 }
