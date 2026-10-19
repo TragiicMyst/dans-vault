@@ -2,29 +2,77 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-10-19T14:06:05.562Z",
+    "startedAt": "2026-10-19T19:52:19.060Z",
     "searchGroups": [
-      "napapijri-skidoo:napapijri-skidoo-jacket",
-      "napapijri-skidoo:napapijri-rainforest-winter",
-      "hunter:north-face-coat",
-      "hunter:north-face-puffer",
-      "hunter:north-face-700",
-      "hunter:mens-north-face-jacket",
-      "hunter:rab-puffer",
-      "hunter:rab-down-jacket"
+      "rab-electron:rab-electron-pro",
+      "patagonia-down-sweater:patagonia-down-sweater-jacket",
+      "patagonia-down-sweater:patagonia-down-sweater-hoody",
+      "patagonia-fitz-roy:patagonia-fitz-roy-down",
+      "arcteryx-cerium:arcteryx-cerium-jacket",
+      "arcteryx-cerium:arc-teryx-cerium",
+      "arcteryx-thorium:arcteryx-thorium-jacket",
+      "arcteryx-thorium:arc-teryx-thorium"
     ],
     "vintedItems": 280,
-    "freshItems": 80,
+    "freshItems": 12,
     "freshByAge": 0,
-    "freshByNewId": 80,
+    "freshByNewId": 12,
     "bootstrapBlocked": 0,
     "staleBlocked": 6,
-    "candidates": 6,
-    "alerts": 2,
+    "candidates": 0,
+    "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-10-19T19:46:33.788Z",
+      "platform": "VINTED",
+      "id": "10442485681",
+      "title": "nike puffer coat for kids",
+      "url": "https://www.vinted.co.uk/items/10442485681-nike-puffer-coat-for-kids",
+      "modelId": "nike-puffer",
+      "buyPrice": 16,
+      "estimatedNetProfit": 39.34,
+      "roi": 245.88,
+      "score": 94
+    },
+    {
+      "at": "2026-10-19T19:46:29.611Z",
+      "platform": "VINTED",
+      "id": "10446264798",
+      "title": "ralph lauren coat",
+      "url": "https://www.vinted.co.uk/items/10446264798-ralph-lauren-coat",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 40,
+      "estimatedNetProfit": 35.98,
+      "roi": 89.95,
+      "score": 82
+    },
+    {
+      "at": "2026-10-19T19:46:28.789Z",
+      "platform": "VINTED",
+      "id": "10447335933",
+      "title": "ralph lauren coat",
+      "url": "https://www.vinted.co.uk/items/10447335933-ralph-lauren-coat",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 45,
+      "estimatedNetProfit": 32.67,
+      "roi": 72.6,
+      "score": 81
+    },
+    {
+      "at": "2026-10-19T19:46:27.821Z",
+      "platform": "VINTED",
+      "id": "10447876338",
+      "title": "ralph lauren coat 12 14 years",
+      "url": "https://www.vinted.co.uk/items/10447876338-ralph-lauren-coat-12-14-years",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 35,
+      "estimatedNetProfit": 44.58,
+      "roi": 127.37,
+      "score": 88
+    },
     {
       "at": "2026-10-19T14:06:16.678Z",
       "platform": "VINTED",
@@ -216,54 +264,6 @@
       "estimatedNetProfit": 32.67,
       "roi": 81.68,
       "score": 85
-    },
-    {
-      "at": "2026-10-18T13:33:25.526Z",
-      "platform": "VINTED",
-      "id": "10427093534",
-      "title": "light pink nike puffer jacket",
-      "url": "https://www.vinted.co.uk/items/10427093534-light-pink-nike-puffer-jacket",
-      "modelId": "nike-puffer",
-      "buyPrice": 15,
-      "estimatedNetProfit": 29.02,
-      "roi": 193.47,
-      "score": 98
-    },
-    {
-      "at": "2026-10-18T13:33:24.508Z",
-      "platform": "VINTED",
-      "id": "10427890539",
-      "title": "nike puffer jacket",
-      "url": "https://www.vinted.co.uk/items/10427890539-nike-puffer-jacket",
-      "modelId": "nike-puffer",
-      "buyPrice": 13,
-      "estimatedNetProfit": 40.19,
-      "roi": 309.15,
-      "score": 91
-    },
-    {
-      "at": "2026-10-18T13:33:20.531Z",
-      "platform": "VINTED",
-      "id": "10427039242",
-      "title": "ralph lauren navy padded coat age 7 122cm",
-      "url": "https://www.vinted.co.uk/items/10427039242-ralph-lauren-navy-padded-coat-age-7-122cm",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 45,
-      "estimatedNetProfit": 32.5,
-      "roi": 72.22,
-      "score": 76
-    },
-    {
-      "at": "2026-10-18T13:33:19.298Z",
-      "platform": "VINTED",
-      "id": "10427739039",
-      "title": "ralph lauren jacket xs",
-      "url": "https://www.vinted.co.uk/items/10427739039-ralph-lauren-jacket-xs",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 32,
-      "estimatedNetProfit": 42.95,
-      "roi": 134.22,
-      "score": 93
     }
   ]
 }
