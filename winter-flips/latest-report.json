@@ -2,16 +2,16 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-10-19T01:39:11.122Z",
+    "startedAt": "2026-10-19T06:50:20.058Z",
     "searchGroups": [
-      "arcteryx-cerium:arcteryx-cerium-jacket",
-      "arcteryx-cerium:arc-teryx-cerium",
-      "arcteryx-thorium:arcteryx-thorium-jacket",
-      "arcteryx-thorium:arc-teryx-thorium",
-      "ralph-lauren-puffer:ralph-lauren-puffer-jacket",
-      "ralph-lauren-puffer:polo-ralph-lauren-down-jacket",
-      "nike-puffer:nike-puffer-jacket-mens",
-      "nike-puffer:nike-down-jacket"
+      "hunter:berghaus-puffer",
+      "hunter:napapijri-jacket",
+      "tnf-1996-nuptse:north-face-nuptse-700",
+      "tnf-1996-nuptse:north-face-1996-nuptse",
+      "tnf-himalayan:north-face-himalayan-puffer",
+      "tnf-himalayan:north-face-hmlyn-parka",
+      "tnf-baltoro:north-face-baltoro-jacket",
+      "tnf-summit-down:north-face-summit-series-down"
     ],
     "vintedItems": 280,
     "freshItems": 1,
@@ -25,6 +25,18 @@
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-10-19T06:47:29.250Z",
+      "platform": "VINTED",
+      "id": "10438965466",
+      "title": "ralph lauren coat",
+      "url": "https://www.vinted.co.uk/items/10438965466-ralph-lauren-coat",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 30,
+      "estimatedNetProfit": 43.22,
+      "roi": 144.07,
+      "score": 94
+    },
     {
       "at": "2026-10-18T23:30:55.851Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 43.62,
       "roi": 174.48,
       "score": 97
-    },
-    {
-      "at": "2026-10-17T18:41:25.055Z",
-      "platform": "VINTED",
-      "id": "10416067069",
-      "title": "ralph lauren kids puffer jacket",
-      "url": "https://www.vinted.co.uk/items/10416067069-ralph-lauren-kids-puffer-jacket",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 40,
-      "estimatedNetProfit": 36.34,
-      "roi": 90.85,
-      "score": 83
     }
   ]
 }
