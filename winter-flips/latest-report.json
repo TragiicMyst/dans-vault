@@ -2,29 +2,53 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-10-20T12:21:10.754Z",
+    "startedAt": "2026-10-20T17:26:14.759Z",
     "searchGroups": [
-      "hunter:rab-puffer",
-      "hunter:rab-down-jacket",
-      "hunter:patagonia-puffer",
-      "hunter:arcteryx-jacket",
-      "hunter:arc-teryx-puffer",
-      "hunter:ralph-lauren-puffer",
-      "hunter:polo-puffer-jacket",
-      "hunter:nike-puffer-jacket"
+      "arcteryx-thorium:arcteryx-thorium-jacket",
+      "arcteryx-thorium:arc-teryx-thorium",
+      "ralph-lauren-puffer:ralph-lauren-puffer-jacket",
+      "ralph-lauren-puffer:polo-ralph-lauren-down-jacket",
+      "nike-puffer:nike-puffer-jacket-mens",
+      "nike-puffer:nike-down-jacket",
+      "berghaus-down:berghaus-down-jacket",
+      "berghaus-down:berghaus-puffer-jacket"
     ],
     "vintedItems": 280,
-    "freshItems": 23,
+    "freshItems": 38,
     "freshByAge": 0,
-    "freshByNewId": 23,
+    "freshByNewId": 38,
     "bootstrapBlocked": 0,
-    "staleBlocked": 10,
-    "candidates": 3,
-    "alerts": 2,
+    "staleBlocked": 2,
+    "candidates": 28,
+    "alerts": 1,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-10-20T17:26:19.420Z",
+      "platform": "VINTED",
+      "id": "10456781540",
+      "title": "ralph lauren coat",
+      "url": "https://www.vinted.co.uk/items/10456781540-ralph-lauren-coat",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 35,
+      "estimatedNetProfit": 30.21,
+      "roi": 86.31,
+      "score": 87
+    },
+    {
+      "at": "2026-10-20T17:23:16.177Z",
+      "platform": "VINTED",
+      "id": "10456995643",
+      "title": "rab microlight womens down gilet navypink size 16",
+      "url": "https://www.vinted.co.uk/items/10456995643-rab-microlight-womens-down-gilet-navypink-size-16",
+      "modelId": "rab-microlight",
+      "buyPrice": 45,
+      "estimatedNetProfit": 31.84,
+      "roi": 70.76,
+      "score": 81
+    },
     {
       "at": "2026-10-20T12:21:25.711Z",
       "platform": "VINTED",
@@ -240,30 +264,6 @@
       "estimatedNetProfit": 27.35,
       "roi": 109.4,
       "score": 83
-    },
-    {
-      "at": "2026-10-18T19:07:08.092Z",
-      "platform": "VINTED",
-      "id": "10433602696",
-      "title": "girls ralph lauren coat size 5 years",
-      "url": "https://www.vinted.co.uk/items/10433602696-girls-ralph-lauren-coat-size-5-years",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 45,
-      "estimatedNetProfit": 31.07,
-      "roi": 69.04,
-      "score": 74
-    },
-    {
-      "at": "2026-10-18T16:55:25.913Z",
-      "platform": "VINTED",
-      "id": "10428373239",
-      "title": "genuine nike therma fit puffer coat",
-      "url": "https://www.vinted.co.uk/items/10428373239-genuine-nike-therma-fit-puffer-coat",
-      "modelId": "nike-puffer",
-      "buyPrice": 15,
-      "estimatedNetProfit": 36.54,
-      "roi": 243.6,
-      "score": 99
     }
   ]
 }
