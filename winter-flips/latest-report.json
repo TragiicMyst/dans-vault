@@ -2,29 +2,53 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-10-20T20:48:27.686Z",
+    "startedAt": "2026-10-20T23:31:18.165Z",
     "searchGroups": [
-      "tnf-1996-nuptse:north-face-nuptse-700",
-      "tnf-1996-nuptse:north-face-1996-nuptse",
-      "tnf-himalayan:north-face-himalayan-puffer",
-      "tnf-himalayan:north-face-hmlyn-parka",
-      "tnf-baltoro:north-face-baltoro-jacket",
-      "tnf-summit-down:north-face-summit-series-down",
-      "rab-microlight:rab-microlight-alpine",
-      "rab-neutrino:rab-neutrino-pro"
+      "hunter:north-face-coat",
+      "hunter:north-face-puffer",
+      "hunter:north-face-700",
+      "hunter:mens-north-face-jacket",
+      "hunter:rab-puffer",
+      "hunter:rab-down-jacket",
+      "hunter:patagonia-puffer",
+      "hunter:arcteryx-jacket"
     ],
     "vintedItems": 280,
-    "freshItems": 3,
+    "freshItems": 33,
     "freshByAge": 0,
-    "freshByNewId": 3,
+    "freshByNewId": 33,
     "bootstrapBlocked": 0,
-    "staleBlocked": 3,
+    "staleBlocked": 23,
     "candidates": 1,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-10-20T23:28:21.420Z",
+      "platform": "VINTED",
+      "id": "10464376553",
+      "title": "polo ralph lauren metallic silver ski club down filled puffer jacket size large",
+      "url": "https://www.vinted.co.uk/items/10464376553-polo-ralph-lauren-metallic-silver-ski-club-down-filled-puffer-jacket-size-large",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 40,
+      "estimatedNetProfit": 41.84,
+      "roi": 104.6,
+      "score": 90
+    },
+    {
+      "at": "2026-10-20T23:28:20.603Z",
+      "platform": "VINTED",
+      "id": "10465028803",
+      "title": "ralph lauren coat",
+      "url": "https://www.vinted.co.uk/items/10465028803-ralph-lauren-coat",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 23,
+      "estimatedNetProfit": 42.87,
+      "roi": 186.39,
+      "score": 97
+    },
     {
       "at": "2026-10-20T20:45:40.440Z",
       "platform": "VINTED",
@@ -240,30 +264,6 @@
       "estimatedNetProfit": 43.24,
       "roi": 288.27,
       "score": 91
-    },
-    {
-      "at": "2026-10-19T14:03:13.131Z",
-      "platform": "VINTED",
-      "id": "10440816839",
-      "title": "jacket",
-      "url": "https://www.vinted.co.uk/items/10440816839-jacket",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 25,
-      "estimatedNetProfit": 46.66,
-      "roi": 186.64,
-      "score": 91
-    },
-    {
-      "at": "2026-10-19T14:03:12.085Z",
-      "platform": "VINTED",
-      "id": "10442080435",
-      "title": "ralph lauren baby coat",
-      "url": "https://www.vinted.co.uk/items/10442080435-ralph-lauren-baby-coat",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 30,
-      "estimatedNetProfit": 41.39,
-      "roi": 137.97,
-      "score": 89
     }
   ]
 }
