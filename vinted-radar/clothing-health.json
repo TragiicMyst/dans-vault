@@ -1,39 +1,37 @@
 {
-  "generatedAt": "2026-10-21T00:50:49.925Z",
-  "stateUpdatedAt": "2026-10-21T00:50:49.925Z",
-  "lastAttemptAt": "2026-10-21T00:50:49.925Z",
-  "lastScanAt": "2026-10-21T00:50:49.925Z",
+  "generatedAt": "2026-10-21T05:16:34.528Z",
+  "stateUpdatedAt": "2026-10-21T05:16:34.528Z",
+  "lastAttemptAt": "2026-10-21T05:16:34.528Z",
+  "lastScanAt": "2026-10-21T05:16:34.528Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike T-Shirt::nike t shirt",
-    "Nike Long Sleeve Top::nike long sleeve top",
-    "Nike Polo::nike polo",
-    "Nike Football Shirt::nike football shirt",
-    "Nike Training Top::nike training top",
-    "Nike Dri-FIT Top::nike dri fit top"
+    "Nike Quarter Zip::nike quarter zip",
+    "Nike Fleece::nike fleece",
+    "Nike Gilet::nike gilet",
+    "Nike Windbreaker::nike windbreaker",
+    "Nike Anorak::nike anorak",
+    "Nike Rain Jacket::nike rain jacket"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 1031,
-  "candidateItems": 357,
-  "freshItems": 121,
-  "qualifyingAlerts": 54,
+  "catalogItems": 1106,
+  "candidateItems": 277,
+  "freshItems": 97,
+  "qualifyingAlerts": 30,
   "qualifyingByCondition": {
-    "newWithoutTags": 9,
-    "veryGood": 43,
+    "veryGood": 28,
     "newWithTags": 2
   },
-  "deliveredAlerts": 54,
+  "deliveredAlerts": 30,
   "deliveredByCondition": {
-    "newWithoutTags": 9,
-    "veryGood": 43,
+    "veryGood": 28,
     "newWithTags": 2
   },
-  "duplicateSuppressed": 8,
+  "duplicateSuppressed": 4,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,12 +67,13 @@
   "pendingDeliveries": 0,
   "detailFetches": 6,
   "rejects": {
-    "recovery-no-fresh-signal": 228,
-    "price": 29,
-    "condition": 21,
-    "keyword": 5,
-    "size": 4,
-    "detail-budget-exhausted": 8
+    "condition": 24,
+    "recovery-no-fresh-signal": 176,
+    "price": 31,
+    "keyword": 6,
+    "score": 2,
+    "size": 3,
+    "detail-budget-exhausted": 1
   },
   "failures": {}
 }
