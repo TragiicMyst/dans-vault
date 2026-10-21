@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-10-21T07:28:18.751Z",
+    "startedAt": "2026-10-21T13:07:39.492Z",
     "searchGroups": [
-      "hunter:polo-puffer-jacket",
-      "hunter:nike-puffer-jacket",
-      "hunter:berghaus-puffer",
-      "hunter:napapijri-jacket",
-      "tnf-1996-nuptse:north-face-nuptse-700",
-      "tnf-1996-nuptse:north-face-1996-nuptse",
-      "tnf-himalayan:north-face-himalayan-puffer",
-      "tnf-himalayan:north-face-hmlyn-parka"
+      "berghaus-down:berghaus-down-jacket",
+      "berghaus-down:berghaus-puffer-jacket",
+      "napapijri-skidoo:napapijri-skidoo-jacket",
+      "napapijri-skidoo:napapijri-rainforest-winter",
+      "hunter:north-face-coat",
+      "hunter:north-face-puffer",
+      "hunter:north-face-700",
+      "hunter:mens-north-face-jacket"
     ],
     "vintedItems": 280,
-    "freshItems": 2,
+    "freshItems": 67,
     "freshByAge": 0,
-    "freshByNewId": 2,
+    "freshByNewId": 67,
     "bootstrapBlocked": 0,
-    "staleBlocked": 6,
-    "candidates": 0,
+    "staleBlocked": 29,
+    "candidates": 5,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-10-21T13:04:47.616Z",
+      "platform": "VINTED",
+      "id": "10470751275",
+      "title": "bnwot ralph lauren kids quilted navy blue coat age 5",
+      "url": "https://www.vinted.co.uk/items/10470751275-bnwot-ralph-lauren-kids-quilted-navy-blue-coat-age-5",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 25,
+      "estimatedNetProfit": 48.65,
+      "roi": 194.6,
+      "score": 93
+    },
     {
       "at": "2026-10-20T23:28:21.420Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 31.16,
       "roi": 69.24,
       "score": 80
-    },
-    {
-      "at": "2026-10-19T14:03:17.535Z",
-      "platform": "VINTED",
-      "id": "10443544531",
-      "title": "orange mens nike puffer size m",
-      "url": "https://www.vinted.co.uk/items/10443544531-orange-mens-nike-puffer-size-m",
-      "modelId": "nike-puffer",
-      "buyPrice": 15,
-      "estimatedNetProfit": 43.24,
-      "roi": 288.27,
-      "score": 91
     }
   ]
 }
