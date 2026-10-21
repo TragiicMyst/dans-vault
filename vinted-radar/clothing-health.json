@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-21T22:47:17.049Z",
-  "stateUpdatedAt": "2026-10-21T22:47:17.049Z",
-  "lastAttemptAt": "2026-10-21T22:47:17.049Z",
-  "lastScanAt": "2026-10-21T22:47:17.049Z",
+  "generatedAt": "2026-10-21T22:50:18.981Z",
+  "stateUpdatedAt": "2026-10-21T22:50:18.981Z",
+  "lastAttemptAt": "2026-10-21T22:50:18.981Z",
+  "lastScanAt": "2026-10-21T22:50:18.981Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
@@ -18,22 +18,22 @@
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1475,
-  "catalogItems": 787,
-  "candidateItems": 226,
+  "catalogItems": 777,
+  "candidateItems": 228,
   "freshItems": 80,
-  "qualifyingAlerts": 39,
+  "qualifyingAlerts": 38,
   "qualifyingByCondition": {
-    "veryGood": 37,
+    "veryGood": 36,
     "newWithoutTags": 1,
     "newWithTags": 1
   },
-  "deliveredAlerts": 39,
+  "deliveredAlerts": 38,
   "deliveredByCondition": {
-    "veryGood": 37,
+    "veryGood": 36,
     "newWithoutTags": 1,
     "newWithTags": 1
   },
-  "duplicateSuppressed": 41,
+  "duplicateSuppressed": 37,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,10 +69,10 @@
   "pendingDeliveries": 0,
   "detailFetches": 6,
   "rejects": {
-    "recovery-no-fresh-signal": 105,
+    "price": 17,
+    "recovery-no-fresh-signal": 111,
     "condition": 13,
     "keyword": 2,
-    "price": 16,
     "weak-margin": 6,
     "size": 4
   },
