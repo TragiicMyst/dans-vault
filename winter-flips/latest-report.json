@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-10-21T13:07:39.492Z",
+    "startedAt": "2026-10-21T18:04:42.991Z",
     "searchGroups": [
-      "berghaus-down:berghaus-down-jacket",
-      "berghaus-down:berghaus-puffer-jacket",
-      "napapijri-skidoo:napapijri-skidoo-jacket",
-      "napapijri-skidoo:napapijri-rainforest-winter",
-      "hunter:north-face-coat",
-      "hunter:north-face-puffer",
-      "hunter:north-face-700",
-      "hunter:mens-north-face-jacket"
+      "rab-microlight:rab-microlight-alpine",
+      "rab-neutrino:rab-neutrino-pro",
+      "rab-electron:rab-electron-pro",
+      "patagonia-down-sweater:patagonia-down-sweater-jacket",
+      "patagonia-down-sweater:patagonia-down-sweater-hoody",
+      "patagonia-fitz-roy:patagonia-fitz-roy-down",
+      "arcteryx-cerium:arcteryx-cerium-jacket",
+      "arcteryx-cerium:arc-teryx-cerium"
     ],
     "vintedItems": 280,
-    "freshItems": 67,
+    "freshItems": 13,
     "freshByAge": 0,
-    "freshByNewId": 67,
+    "freshByNewId": 13,
     "bootstrapBlocked": 0,
-    "staleBlocked": 29,
-    "candidates": 5,
+    "staleBlocked": 5,
+    "candidates": 0,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-10-21T18:01:44.101Z",
+      "platform": "VINTED",
+      "id": "10474398500",
+      "title": "green berghaus puffer jacket",
+      "url": "https://www.vinted.co.uk/items/10474398500-green-berghaus-puffer-jacket",
+      "modelId": "berghaus-down",
+      "buyPrice": 25,
+      "estimatedNetProfit": 24.96,
+      "roi": 99.84,
+      "score": 82
+    },
     {
       "at": "2026-10-21T13:04:47.616Z",
       "platform": "VINTED",
@@ -251,18 +263,6 @@
       "buyPrice": 45,
       "estimatedNetProfit": 37.67,
       "roi": 83.71,
-      "score": 80
-    },
-    {
-      "at": "2026-10-19T14:06:15.560Z",
-      "platform": "VINTED",
-      "id": "10444263316",
-      "title": "north face himalayan light jacket",
-      "url": "https://www.vinted.co.uk/items/10444263316-north-face-himalayan-light-jacket",
-      "modelId": "tnf-himalayan",
-      "buyPrice": 45,
-      "estimatedNetProfit": 31.16,
-      "roi": 69.24,
       "score": 80
     }
   ]
