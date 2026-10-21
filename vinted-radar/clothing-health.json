@@ -1,37 +1,37 @@
 {
-  "generatedAt": "2026-10-21T10:19:26.278Z",
-  "stateUpdatedAt": "2026-10-21T10:19:26.278Z",
-  "lastAttemptAt": "2026-10-21T10:19:26.278Z",
-  "lastScanAt": "2026-10-21T10:19:26.278Z",
+  "generatedAt": "2026-10-21T10:36:32.289Z",
+  "stateUpdatedAt": "2026-10-21T10:36:32.289Z",
+  "lastAttemptAt": "2026-10-21T10:36:32.289Z",
+  "lastScanAt": "2026-10-21T10:36:32.289Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Woven Trousers::nike woven trousers",
-    "Nike Tracksuit::nike tracksuit",
-    "Nike Vintage Clothing::vintage nike",
-    "Nike SB Clothing::nike sb clothing",
-    "Nike Vest::nike vest",
-    "Nike Air Max Hoodie::nike air max hoodie"
+    "Nike Zip Hoodie::nike zip hoodie",
+    "Nike Hoodie::nike hoodie",
+    "Nike Sweatshirt::nike sweatshirt",
+    "Nike Track Jacket::nike track jacket",
+    "Nike Joggers::nike joggers",
+    "Nike Trousers::nike trousers"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 1059,
-  "candidateItems": 295,
-  "freshItems": 165,
-  "qualifyingAlerts": 63,
+  "catalogItems": 1100,
+  "candidateItems": 265,
+  "freshItems": 153,
+  "qualifyingAlerts": 71,
   "qualifyingByCondition": {
-    "veryGood": 58,
+    "veryGood": 66,
     "newWithoutTags": 5
   },
-  "deliveredAlerts": 63,
+  "deliveredAlerts": 71,
   "deliveredByCondition": {
-    "veryGood": 58,
+    "veryGood": 66,
     "newWithoutTags": 5
   },
-  "duplicateSuppressed": 8,
+  "duplicateSuppressed": 4,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,13 +67,12 @@
   "pendingDeliveries": 0,
   "detailFetches": 6,
   "rejects": {
-    "keyword": 8,
-    "recovery-no-fresh-signal": 122,
-    "price": 44,
-    "condition": 33,
-    "size": 5,
-    "detail-budget-exhausted": 11,
-    "weak-margin": 1
+    "size": 6,
+    "recovery-no-fresh-signal": 108,
+    "condition": 36,
+    "price": 27,
+    "keyword": 7,
+    "detail-budget-exhausted": 6
   },
   "failures": {}
 }
