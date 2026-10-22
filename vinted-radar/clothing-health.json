@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-10-22T11:43:38.196Z",
-  "stateUpdatedAt": "2026-10-22T11:43:38.196Z",
-  "lastAttemptAt": "2026-10-22T11:43:38.196Z",
-  "lastScanAt": "2026-10-22T11:43:38.196Z",
+  "generatedAt": "2026-10-22T12:22:10.783Z",
+  "stateUpdatedAt": "2026-10-22T12:22:10.783Z",
+  "lastAttemptAt": "2026-10-22T12:22:10.783Z",
+  "lastScanAt": "2026-10-22T12:22:10.783Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Club Fleece Crew::nike club fleece crew",
-    "Nike Running Division Jacket::nike running division jacket",
-    "Jordan Flight Fleece Joggers::jordan flight fleece joggers",
-    "Nike ACG Tuff Fleece::nike acg tuff fleece",
-    "Nike Solo Swoosh Crew::nike solo swoosh sweatshirt",
-    "Nike Miler Repel Jacket::nike miler repel jacket"
+    "Nike Solo Swoosh Joggers::nike solo swoosh joggers",
+    "Nike Stride Running Jacket::nike stride running jacket",
+    "Nike T-Shirt::nike t shirt",
+    "Nike Long Sleeve Top::nike long sleeve top",
+    "Nike Polo::nike polo",
+    "Nike Football Shirt::nike football shirt"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1440,
-  "catalogItems": 821,
-  "candidateItems": 204,
-  "freshItems": 25,
-  "qualifyingAlerts": 14,
+  "catalogMarkers": 1344,
+  "catalogItems": 971,
+  "candidateItems": 301,
+  "freshItems": 158,
+  "qualifyingAlerts": 75,
   "qualifyingByCondition": {
-    "newWithoutTags": 3,
-    "veryGood": 10,
-    "newWithTags": 1
+    "veryGood": 63,
+    "newWithTags": 3,
+    "newWithoutTags": 9
   },
-  "deliveredAlerts": 14,
+  "deliveredAlerts": 75,
   "deliveredByCondition": {
-    "newWithoutTags": 3,
-    "veryGood": 10,
-    "newWithTags": 1
+    "veryGood": 63,
+    "newWithTags": 3,
+    "newWithoutTags": 9
   },
-  "duplicateSuppressed": 72,
+  "duplicateSuppressed": 42,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,12 +67,14 @@
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 1,
+  "detailFetches": 6,
   "rejects": {
-    "keyword": 2,
-    "condition": 7,
-    "recovery-no-fresh-signal": 107,
-    "price": 2
+    "condition": 33,
+    "recovery-no-fresh-signal": 101,
+    "price": 37,
+    "size": 4,
+    "keyword": 4,
+    "detail-budget-exhausted": 5
   },
   "failures": {}
 }
