@@ -1,37 +1,37 @@
 {
-  "generatedAt": "2026-10-22T17:33:50.181Z",
-  "stateUpdatedAt": "2026-10-22T17:33:50.181Z",
-  "lastAttemptAt": "2026-10-22T17:33:50.181Z",
-  "lastScanAt": "2026-10-22T17:33:50.181Z",
+  "generatedAt": "2026-10-22T20:05:13.612Z",
+  "stateUpdatedAt": "2026-10-22T20:05:13.612Z",
+  "lastAttemptAt": "2026-10-22T20:05:13.612Z",
+  "lastScanAt": "2026-10-22T20:05:13.612Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Anorak::nike anorak",
-    "Nike Rain Jacket::nike rain jacket",
-    "Nike Woven Jacket::nike woven jacket",
-    "Nike Bomber Jacket::nike bomber jacket",
-    "Nike Coat::nike coat",
-    "Nike Shorts::nike shorts"
+    "Nike Cargo Trousers::nike cargo trousers",
+    "Nike Track Pants::nike track pants",
+    "Nike Woven Trousers::nike woven trousers",
+    "Nike Tracksuit::nike tracksuit",
+    "Nike Vintage Clothing::vintage nike",
+    "Nike SB Clothing::nike sb clothing"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1343,
-  "catalogItems": 1108,
-  "candidateItems": 286,
-  "freshItems": 193,
-  "qualifyingAlerts": 74,
+  "catalogMarkers": 1344,
+  "catalogItems": 1048,
+  "candidateItems": 320,
+  "freshItems": 246,
+  "qualifyingAlerts": 62,
   "qualifyingByCondition": {
-    "veryGood": 58,
-    "newWithoutTags": 12,
-    "newWithTags": 4
+    "veryGood": 56,
+    "newWithTags": 2,
+    "newWithoutTags": 4
   },
-  "deliveredAlerts": 74,
+  "deliveredAlerts": 62,
   "deliveredByCondition": {
-    "veryGood": 58,
-    "newWithoutTags": 12,
-    "newWithTags": 4
+    "veryGood": 56,
+    "newWithTags": 2,
+    "newWithoutTags": 4
   },
   "duplicateSuppressed": 4,
   "discordFailures": 0,
@@ -69,13 +69,12 @@
   "pendingDeliveries": 0,
   "detailFetches": 6,
   "rejects": {
-    "recovery-no-fresh-signal": 89,
-    "price": 59,
-    "condition": 41,
-    "size": 2,
-    "keyword": 5,
-    "detail-budget-exhausted": 11,
-    "weak-margin": 1
+    "price": 115,
+    "recovery-no-fresh-signal": 70,
+    "size": 5,
+    "condition": 42,
+    "keyword": 9,
+    "detail-budget-exhausted": 13
   },
   "failures": {}
 }
