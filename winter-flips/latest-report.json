@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-10-22T00:14:48.200Z",
+    "startedAt": "2026-10-22T04:43:55.557Z",
     "searchGroups": [
-      "ralph-lauren-puffer:ralph-lauren-puffer-jacket",
-      "ralph-lauren-puffer:polo-ralph-lauren-down-jacket",
-      "nike-puffer:nike-puffer-jacket-mens",
-      "nike-puffer:nike-down-jacket",
-      "berghaus-down:berghaus-down-jacket",
-      "berghaus-down:berghaus-puffer-jacket",
-      "napapijri-skidoo:napapijri-skidoo-jacket",
-      "napapijri-skidoo:napapijri-rainforest-winter"
+      "tnf-himalayan:north-face-himalayan-puffer",
+      "tnf-himalayan:north-face-hmlyn-parka",
+      "tnf-baltoro:north-face-baltoro-jacket",
+      "tnf-summit-down:north-face-summit-series-down",
+      "rab-microlight:rab-microlight-alpine",
+      "rab-neutrino:rab-neutrino-pro",
+      "rab-electron:rab-electron-pro",
+      "patagonia-down-sweater:patagonia-down-sweater-jacket"
     ],
     "vintedItems": 280,
-    "freshItems": 10,
+    "freshItems": 0,
     "freshByAge": 0,
-    "freshByNewId": 10,
+    "freshByNewId": 0,
     "bootstrapBlocked": 0,
-    "staleBlocked": 5,
-    "candidates": 7,
+    "staleBlocked": 4,
+    "candidates": 0,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-10-22T04:40:58.224Z",
+      "platform": "VINTED",
+      "id": "10478903257",
+      "title": "polo ralph lauren kids colden packable giletpuffer vest",
+      "url": "https://www.vinted.co.uk/items/10478903257-polo-ralph-lauren-kids-colden-packable-giletpuffer-vest",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 32,
+      "estimatedNetProfit": 42.95,
+      "roi": 134.22,
+      "score": 88
+    },
     {
       "at": "2026-10-21T21:28:49.087Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 39.78,
       "roi": 113.66,
       "score": 86
-    },
-    {
-      "at": "2026-10-19T19:46:33.788Z",
-      "platform": "VINTED",
-      "id": "10442485681",
-      "title": "nike puffer coat for kids",
-      "url": "https://www.vinted.co.uk/items/10442485681-nike-puffer-coat-for-kids",
-      "modelId": "nike-puffer",
-      "buyPrice": 16,
-      "estimatedNetProfit": 39.34,
-      "roi": 245.88,
-      "score": 94
     }
   ]
 }
