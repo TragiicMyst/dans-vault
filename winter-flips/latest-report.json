@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-10-22T18:55:15.532Z",
+    "startedAt": "2026-10-22T22:02:55.509Z",
     "searchGroups": [
-      "hunter:berghaus-puffer",
-      "hunter:napapijri-jacket",
-      "tnf-1996-nuptse:north-face-nuptse-700",
-      "tnf-1996-nuptse:north-face-1996-nuptse",
-      "tnf-himalayan:north-face-himalayan-puffer",
-      "tnf-himalayan:north-face-hmlyn-parka",
-      "tnf-baltoro:north-face-baltoro-jacket",
-      "tnf-summit-down:north-face-summit-series-down"
+      "napapijri-skidoo:napapijri-skidoo-jacket",
+      "napapijri-skidoo:napapijri-rainforest-winter",
+      "hunter:north-face-coat",
+      "hunter:north-face-puffer",
+      "hunter:north-face-700",
+      "hunter:mens-north-face-jacket",
+      "hunter:rab-puffer",
+      "hunter:rab-down-jacket"
     ],
     "vintedItems": 280,
-    "freshItems": 8,
+    "freshItems": 59,
     "freshByAge": 0,
-    "freshByNewId": 8,
+    "freshByNewId": 59,
     "bootstrapBlocked": 0,
-    "staleBlocked": 3,
-    "candidates": 0,
+    "staleBlocked": 17,
+    "candidates": 6,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-10-22T21:59:59.939Z",
+      "platform": "VINTED",
+      "id": "10489106935",
+      "title": "girls ralph lauren 70 down warm jacket age 14 new",
+      "url": "https://www.vinted.co.uk/items/10489106935-girls-ralph-lauren-70-down-warm-jacket-age-14-new",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 39.99,
+      "estimatedNetProfit": 36.35,
+      "roi": 90.9,
+      "score": 83
+    },
     {
       "at": "2026-10-22T18:52:24.679Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 32.08,
       "roi": 160.4,
       "score": 95
-    },
-    {
-      "at": "2026-10-20T20:45:36.315Z",
-      "platform": "VINTED",
-      "id": "10461257476",
-      "title": "boys ralph lauren jacket",
-      "url": "https://www.vinted.co.uk/items/10461257476-boys-ralph-lauren-jacket",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 30,
-      "estimatedNetProfit": 45.06,
-      "roi": 150.2,
-      "score": 90
     }
   ]
 }
