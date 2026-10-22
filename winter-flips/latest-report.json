@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-10-22T04:43:55.557Z",
+    "startedAt": "2026-10-22T09:43:50.946Z",
     "searchGroups": [
-      "tnf-himalayan:north-face-himalayan-puffer",
-      "tnf-himalayan:north-face-hmlyn-parka",
-      "tnf-baltoro:north-face-baltoro-jacket",
-      "tnf-summit-down:north-face-summit-series-down",
-      "rab-microlight:rab-microlight-alpine",
-      "rab-neutrino:rab-neutrino-pro",
-      "rab-electron:rab-electron-pro",
-      "patagonia-down-sweater:patagonia-down-sweater-jacket"
+      "hunter:north-face-700",
+      "hunter:mens-north-face-jacket",
+      "hunter:rab-puffer",
+      "hunter:rab-down-jacket",
+      "hunter:patagonia-puffer",
+      "hunter:arcteryx-jacket",
+      "hunter:arc-teryx-puffer",
+      "hunter:ralph-lauren-puffer"
     ],
     "vintedItems": 280,
-    "freshItems": 0,
+    "freshItems": 6,
     "freshByAge": 0,
-    "freshByNewId": 0,
+    "freshByNewId": 6,
     "bootstrapBlocked": 0,
-    "staleBlocked": 4,
+    "staleBlocked": 21,
     "candidates": 0,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-10-22T09:38:01.488Z",
+      "platform": "VINTED",
+      "id": "10480493432",
+      "title": "red polo puffer jacket",
+      "url": "https://www.vinted.co.uk/items/10480493432-red-polo-puffer-jacket",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 28,
+      "estimatedNetProfit": 42.68,
+      "roi": 152.43,
+      "score": 90
+    },
     {
       "at": "2026-10-22T04:40:58.224Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 33.2,
       "roi": 83,
       "score": 85
-    },
-    {
-      "at": "2026-10-19T23:08:39.145Z",
-      "platform": "VINTED",
-      "id": "10449986159",
-      "title": "hot pink ralph lauren jacket",
-      "url": "https://www.vinted.co.uk/items/10449986159-hot-pink-ralph-lauren-jacket",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 35,
-      "estimatedNetProfit": 39.78,
-      "roi": 113.66,
-      "score": 86
     }
   ]
 }
