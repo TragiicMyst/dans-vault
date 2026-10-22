@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-10-22T20:05:13.612Z",
-  "stateUpdatedAt": "2026-10-22T20:05:13.612Z",
-  "lastAttemptAt": "2026-10-22T20:05:13.612Z",
-  "lastScanAt": "2026-10-22T20:05:13.612Z",
+  "generatedAt": "2026-10-22T20:51:05.484Z",
+  "stateUpdatedAt": "2026-10-22T20:51:05.484Z",
+  "lastAttemptAt": "2026-10-22T20:51:05.484Z",
+  "lastScanAt": "2026-10-22T20:51:05.484Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Cargo Trousers::nike cargo trousers",
-    "Nike Track Pants::nike track pants",
-    "Nike Woven Trousers::nike woven trousers",
-    "Nike Tracksuit::nike tracksuit",
-    "Nike Vintage Clothing::vintage nike",
-    "Nike SB Clothing::nike sb clothing"
+    "Nike Vest::nike vest",
+    "Nike Air Max Hoodie::nike air max hoodie",
+    "Nike Zip Hoodie::nike zip hoodie",
+    "Nike Hoodie::nike hoodie",
+    "Nike Sweatshirt::nike sweatshirt",
+    "Nike Track Jacket::nike track jacket"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 1048,
-  "candidateItems": 320,
-  "freshItems": 246,
-  "qualifyingAlerts": 62,
+  "catalogItems": 1102,
+  "candidateItems": 260,
+  "freshItems": 201,
+  "qualifyingAlerts": 86,
   "qualifyingByCondition": {
-    "veryGood": 56,
-    "newWithTags": 2,
-    "newWithoutTags": 4
+    "veryGood": 77,
+    "newWithoutTags": 8,
+    "newWithTags": 1
   },
-  "deliveredAlerts": 62,
+  "deliveredAlerts": 86,
   "deliveredByCondition": {
-    "veryGood": 56,
-    "newWithTags": 2,
-    "newWithoutTags": 4
+    "veryGood": 77,
+    "newWithoutTags": 8,
+    "newWithTags": 1
   },
-  "duplicateSuppressed": 4,
+  "duplicateSuppressed": 6,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,12 +69,13 @@
   "pendingDeliveries": 0,
   "detailFetches": 6,
   "rejects": {
-    "price": 115,
-    "recovery-no-fresh-signal": 70,
+    "condition": 36,
+    "recovery-no-fresh-signal": 53,
+    "price": 54,
     "size": 5,
-    "condition": 42,
-    "keyword": 9,
-    "detail-budget-exhausted": 13
+    "keyword": 14,
+    "weak-margin": 3,
+    "detail-budget-exhausted": 3
   },
   "failures": {}
 }
