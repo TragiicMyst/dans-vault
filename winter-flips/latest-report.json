@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-10-23T05:19:48.460Z",
+    "startedAt": "2026-10-23T10:12:45.203Z",
     "searchGroups": [
-      "hunter:arc-teryx-puffer",
-      "hunter:ralph-lauren-puffer",
-      "hunter:polo-puffer-jacket",
-      "hunter:nike-puffer-jacket",
-      "hunter:berghaus-puffer",
-      "hunter:napapijri-jacket",
-      "tnf-1996-nuptse:north-face-nuptse-700",
-      "tnf-1996-nuptse:north-face-1996-nuptse"
+      "nike-puffer:nike-puffer-jacket-mens",
+      "nike-puffer:nike-down-jacket",
+      "berghaus-down:berghaus-down-jacket",
+      "berghaus-down:berghaus-puffer-jacket",
+      "napapijri-skidoo:napapijri-skidoo-jacket",
+      "napapijri-skidoo:napapijri-rainforest-winter",
+      "hunter:north-face-coat",
+      "hunter:north-face-puffer"
     ],
     "vintedItems": 280,
-    "freshItems": 2,
+    "freshItems": 44,
     "freshByAge": 0,
-    "freshByNewId": 2,
+    "freshByNewId": 44,
     "bootstrapBlocked": 0,
-    "staleBlocked": 7,
-    "candidates": 1,
-    "alerts": 0,
+    "staleBlocked": 31,
+    "candidates": 2,
+    "alerts": 1,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-10-23T10:12:49.134Z",
+      "platform": "VINTED",
+      "id": "10494727352",
+      "title": "nike puffer coat",
+      "url": "https://www.vinted.co.uk/items/10494727352-nike-puffer-coat",
+      "modelId": "nike-puffer",
+      "buyPrice": 20,
+      "estimatedNetProfit": 37.07,
+      "roi": 185.35,
+      "score": 92
+    },
     {
       "at": "2026-10-22T21:59:59.939Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 42.87,
       "roi": 186.39,
       "score": 97
-    },
-    {
-      "at": "2026-10-20T20:45:40.440Z",
-      "platform": "VINTED",
-      "id": "10462645446",
-      "title": "a medium kids nike puffer coat",
-      "url": "https://www.vinted.co.uk/items/10462645446-a-medium-kids-nike-puffer-coat",
-      "modelId": "nike-puffer",
-      "buyPrice": 20,
-      "estimatedNetProfit": 32.08,
-      "roi": 160.4,
-      "score": 95
     }
   ]
 }
