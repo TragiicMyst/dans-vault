@@ -1,37 +1,39 @@
 {
-  "generatedAt": "2026-10-24T19:24:33.873Z",
-  "stateUpdatedAt": "2026-10-24T19:24:33.873Z",
-  "lastAttemptAt": "2026-10-24T19:24:33.873Z",
-  "lastScanAt": "2026-10-24T19:24:33.873Z",
+  "generatedAt": "2026-10-24T20:38:45.154Z",
+  "stateUpdatedAt": "2026-10-24T20:38:45.154Z",
+  "lastAttemptAt": "2026-10-24T20:38:45.154Z",
+  "lastScanAt": "2026-10-24T20:38:45.154Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Quarter Zip::nike quarter zip",
-    "Nike Fleece::nike fleece",
-    "Nike Gilet::nike gilet",
-    "Nike Windbreaker::nike windbreaker",
-    "Nike Anorak::nike anorak",
-    "Nike Rain Jacket::nike rain jacket"
+    "Nike Woven Jacket::nike woven jacket",
+    "Nike Bomber Jacket::nike bomber jacket",
+    "Nike Coat::nike coat",
+    "Nike Shorts::nike shorts",
+    "Nike Cargo Trousers::nike cargo trousers",
+    "Nike Track Pants::nike track pants"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1344,
-  "catalogItems": 1119,
-  "candidateItems": 283,
-  "freshItems": 189,
-  "qualifyingAlerts": 70,
+  "catalogMarkers": 1343,
+  "catalogItems": 1094,
+  "candidateItems": 306,
+  "freshItems": 223,
+  "qualifyingAlerts": 71,
   "qualifyingByCondition": {
-    "veryGood": 66,
-    "newWithoutTags": 4
+    "veryGood": 61,
+    "newWithTags": 2,
+    "newWithoutTags": 8
   },
-  "deliveredAlerts": 70,
+  "deliveredAlerts": 71,
   "deliveredByCondition": {
-    "veryGood": 66,
-    "newWithoutTags": 4
+    "veryGood": 61,
+    "newWithTags": 2,
+    "newWithoutTags": 8
   },
-  "duplicateSuppressed": 1,
+  "duplicateSuppressed": 3,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,13 +69,12 @@
   "pendingDeliveries": 0,
   "detailFetches": 6,
   "rejects": {
-    "price": 71,
-    "condition": 32,
-    "recovery-no-fresh-signal": 93,
-    "keyword": 5,
-    "size": 4,
-    "score": 4,
-    "detail-budget-exhausted": 3
+    "price": 98,
+    "recovery-no-fresh-signal": 80,
+    "keyword": 11,
+    "size": 5,
+    "condition": 28,
+    "detail-budget-exhausted": 10
   },
   "failures": {}
 }
