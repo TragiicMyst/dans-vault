@@ -1,39 +1,37 @@
 {
-  "generatedAt": "2026-10-24T17:57:45.613Z",
-  "stateUpdatedAt": "2026-10-24T17:57:45.613Z",
-  "lastAttemptAt": "2026-10-24T17:57:45.613Z",
-  "lastScanAt": "2026-10-24T17:57:45.613Z",
+  "generatedAt": "2026-10-24T19:24:33.873Z",
+  "stateUpdatedAt": "2026-10-24T19:24:33.873Z",
+  "lastAttemptAt": "2026-10-24T19:24:33.873Z",
+  "lastScanAt": "2026-10-24T19:24:33.873Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike T-Shirt::nike t shirt",
-    "Nike Long Sleeve Top::nike long sleeve top",
-    "Nike Polo::nike polo",
-    "Nike Football Shirt::nike football shirt",
-    "Nike Training Top::nike training top",
-    "Nike Dri-FIT Top::nike dri fit top"
+    "Nike Quarter Zip::nike quarter zip",
+    "Nike Fleece::nike fleece",
+    "Nike Gilet::nike gilet",
+    "Nike Windbreaker::nike windbreaker",
+    "Nike Anorak::nike anorak",
+    "Nike Rain Jacket::nike rain jacket"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 1011,
-  "candidateItems": 308,
-  "freshItems": 246,
-  "qualifyingAlerts": 90,
+  "catalogItems": 1119,
+  "candidateItems": 283,
+  "freshItems": 189,
+  "qualifyingAlerts": 70,
   "qualifyingByCondition": {
-    "veryGood": 76,
-    "newWithoutTags": 10,
-    "newWithTags": 4
+    "veryGood": 66,
+    "newWithoutTags": 4
   },
-  "deliveredAlerts": 90,
+  "deliveredAlerts": 70,
   "deliveredByCondition": {
-    "veryGood": 76,
-    "newWithoutTags": 10,
-    "newWithTags": 4
+    "veryGood": 66,
+    "newWithoutTags": 4
   },
-  "duplicateSuppressed": 8,
+  "duplicateSuppressed": 1,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,12 +67,13 @@
   "pendingDeliveries": 0,
   "detailFetches": 6,
   "rejects": {
-    "price": 65,
-    "recovery-no-fresh-signal": 54,
-    "condition": 56,
-    "size": 6,
-    "keyword": 14,
-    "detail-budget-exhausted": 15
+    "price": 71,
+    "condition": 32,
+    "recovery-no-fresh-signal": 93,
+    "keyword": 5,
+    "size": 4,
+    "score": 4,
+    "detail-budget-exhausted": 3
   },
   "failures": {}
 }
