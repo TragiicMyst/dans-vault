@@ -2,38 +2,65 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-10-25T19:13:29.992Z",
+    "startedAt": "2026-10-25T21:50:16.950Z",
     "searchGroups": [
-      "napapijri-skidoo:napapijri-skidoo-jacket",
-      "napapijri-skidoo:napapijri-rainforest-winter",
-      "hunter:north-face-coat",
-      "hunter:north-face-puffer",
-      "hunter:north-face-700",
-      "hunter:mens-north-face-jacket",
-      "hunter:rab-puffer",
-      "hunter:rab-down-jacket"
+      "rab-electron:rab-electron-pro",
+      "patagonia-down-sweater:patagonia-down-sweater-jacket",
+      "patagonia-down-sweater:patagonia-down-sweater-hoody",
+      "patagonia-fitz-roy:patagonia-fitz-roy-down",
+      "arcteryx-cerium:arcteryx-cerium-jacket",
+      "arcteryx-cerium:arc-teryx-cerium",
+      "arcteryx-thorium:arcteryx-thorium-jacket",
+      "arcteryx-thorium:arc-teryx-thorium"
     ],
-    "vintedItems": 0,
-    "freshItems": 0,
+    "vintedItems": 280,
+    "freshItems": 32,
     "freshByAge": 0,
-    "freshByNewId": 0,
+    "freshByNewId": 32,
     "bootstrapBlocked": 0,
-    "staleBlocked": 0,
+    "staleBlocked": 4,
     "candidates": 0,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
-    "failures": [
-      "Vinted napapijri skidoo jacket: Vinted HTTP 403",
-      "Vinted napapijri rainforest winter: Vinted HTTP 403",
-      "Vinted north face coat: Vinted HTTP 403",
-      "Vinted north face puffer: Vinted HTTP 403",
-      "Vinted north face 700: Vinted HTTP 403",
-      "Vinted mens north face jacket: Vinted HTTP 403",
-      "Vinted rab puffer: Vinted HTTP 403",
-      "Vinted rab down jacket: Vinted HTTP 403"
-    ]
+    "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-10-25T21:47:20.989Z",
+      "platform": "VINTED",
+      "id": "10533200419",
+      "title": "north face black womens nuptse water resistant sleeveless down gilet",
+      "url": "https://www.vinted.co.uk/items/10533200419-north-face-black-womens-nuptse-water-resistant-sleeveless-down-gilet",
+      "modelId": "tnf-1996-nuptse",
+      "buyPrice": 45,
+      "estimatedNetProfit": 49.61,
+      "roi": 110.24,
+      "score": 84
+    },
+    {
+      "at": "2026-10-25T21:44:52.034Z",
+      "platform": "VINTED",
+      "id": "10535371410",
+      "title": "nike puffer jacket",
+      "url": "https://www.vinted.co.uk/items/10535371410-nike-puffer-jacket",
+      "modelId": "nike-puffer",
+      "buyPrice": 15,
+      "estimatedNetProfit": 38.08,
+      "roi": 253.87,
+      "score": 86
+    },
+    {
+      "at": "2026-10-25T21:44:33.421Z",
+      "platform": "VINTED",
+      "id": "10535769401",
+      "title": "ralph lauren graphic puffer jacket",
+      "url": "https://www.vinted.co.uk/items/10535769401-ralph-lauren-graphic-puffer-jacket",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 50,
+      "estimatedNetProfit": 30.09,
+      "roi": 60.18,
+      "score": 66
+    },
     {
       "at": "2026-10-25T16:20:36.759Z",
       "platform": "VINTED",
@@ -237,42 +264,6 @@
       "estimatedNetProfit": 42.36,
       "roi": 141.2,
       "score": 89
-    },
-    {
-      "at": "2026-10-23T10:12:49.134Z",
-      "platform": "VINTED",
-      "id": "10494727352",
-      "title": "nike puffer coat",
-      "url": "https://www.vinted.co.uk/items/10494727352-nike-puffer-coat",
-      "modelId": "nike-puffer",
-      "buyPrice": 20,
-      "estimatedNetProfit": 37.07,
-      "roi": 185.35,
-      "score": 92
-    },
-    {
-      "at": "2026-10-22T21:59:59.939Z",
-      "platform": "VINTED",
-      "id": "10489106935",
-      "title": "girls ralph lauren 70 down warm jacket age 14 new",
-      "url": "https://www.vinted.co.uk/items/10489106935-girls-ralph-lauren-70-down-warm-jacket-age-14-new",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 39.99,
-      "estimatedNetProfit": 36.35,
-      "roi": 90.9,
-      "score": 83
-    },
-    {
-      "at": "2026-10-22T18:52:24.679Z",
-      "platform": "VINTED",
-      "id": "10487031003",
-      "title": "polo ralph lauren kids corduroy sherpa trucker jacket tan size l 12 14",
-      "url": "https://www.vinted.co.uk/items/10487031003-polo-ralph-lauren-kids-corduroy-sherpa-trucker-jacket-tan-size-l-12-14",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 45,
-      "estimatedNetProfit": 36.57,
-      "roi": 81.27,
-      "score": 85
     }
   ]
 }
