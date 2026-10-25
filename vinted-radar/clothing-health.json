@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-10-24T22:44:46.608Z",
-  "stateUpdatedAt": "2026-10-24T22:44:46.608Z",
-  "lastAttemptAt": "2026-10-24T22:44:46.608Z",
-  "lastScanAt": "2026-10-24T22:44:46.608Z",
+  "generatedAt": "2026-10-25T00:14:26.313Z",
+  "stateUpdatedAt": "2026-10-25T00:14:26.313Z",
+  "lastAttemptAt": "2026-10-25T00:14:26.313Z",
+  "lastScanAt": "2026-10-25T00:14:26.313Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Zip Hoodie::nike zip hoodie",
-    "Nike Hoodie::nike hoodie",
-    "Nike Sweatshirt::nike sweatshirt",
-    "Nike Track Jacket::nike track jacket",
-    "Nike Joggers::nike joggers",
-    "Nike Trousers::nike trousers"
+    "Nike Sportswear Hoodie::nike sportswear hoodie",
+    "Nike Sportswear Jacket::nike sportswear jacket",
+    "Nike Tech Fleece Windrunner::nike tech fleece windrunner",
+    "Nike Puffer Jacket::nike puffer jacket",
+    "Nike NOCTA Track Jacket::nike nocta track jacket",
+    "Nike Miler Shorts::nike miler shorts"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1344,
-  "catalogItems": 1103,
-  "candidateItems": 249,
-  "freshItems": 158,
-  "qualifyingAlerts": 58,
+  "catalogMarkers": 1403,
+  "catalogItems": 871,
+  "candidateItems": 250,
+  "freshItems": 100,
+  "qualifyingAlerts": 39,
   "qualifyingByCondition": {
-    "veryGood": 49,
-    "newWithoutTags": 8,
-    "newWithTags": 1
+    "veryGood": 33,
+    "newWithTags": 2,
+    "newWithoutTags": 4
   },
-  "deliveredAlerts": 58,
+  "deliveredAlerts": 39,
   "deliveredByCondition": {
-    "veryGood": 49,
-    "newWithoutTags": 8,
-    "newWithTags": 1
+    "veryGood": 33,
+    "newWithTags": 2,
+    "newWithoutTags": 4
   },
-  "duplicateSuppressed": 1,
+  "duplicateSuppressed": 27,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,12 +69,13 @@
   "pendingDeliveries": 0,
   "detailFetches": 6,
   "rejects": {
-    "recovery-no-fresh-signal": 90,
-    "keyword": 16,
-    "size": 6,
-    "condition": 39,
-    "price": 28,
-    "detail-budget-exhausted": 8,
+    "condition": 20,
+    "recovery-no-fresh-signal": 123,
+    "price": 22,
+    "keyword": 10,
+    "clothing-variety-cap": 2,
+    "size": 3,
+    "score": 1,
     "weak-margin": 3
   },
   "failures": {}
