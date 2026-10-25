@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-10-24T23:48:53.175Z",
+    "startedAt": "2026-10-25T01:46:54.483Z",
     "searchGroups": [
-      "ralph-lauren-puffer:ralph-lauren-puffer-jacket",
-      "ralph-lauren-puffer:polo-ralph-lauren-down-jacket",
-      "nike-puffer:nike-puffer-jacket-mens",
-      "nike-puffer:nike-down-jacket",
-      "berghaus-down:berghaus-down-jacket",
-      "berghaus-down:berghaus-puffer-jacket",
-      "napapijri-skidoo:napapijri-skidoo-jacket",
-      "napapijri-skidoo:napapijri-rainforest-winter"
+      "tnf-himalayan:north-face-himalayan-puffer",
+      "tnf-himalayan:north-face-hmlyn-parka",
+      "tnf-baltoro:north-face-baltoro-jacket",
+      "tnf-summit-down:north-face-summit-series-down",
+      "rab-microlight:rab-microlight-alpine",
+      "rab-neutrino:rab-neutrino-pro",
+      "rab-electron:rab-electron-pro",
+      "patagonia-down-sweater:patagonia-down-sweater-jacket"
     ],
     "vintedItems": 280,
-    "freshItems": 10,
+    "freshItems": 1,
     "freshByAge": 0,
-    "freshByNewId": 10,
+    "freshByNewId": 1,
     "bootstrapBlocked": 0,
-    "staleBlocked": 4,
-    "candidates": 6,
+    "staleBlocked": 3,
+    "candidates": 0,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-10-25T01:44:00.559Z",
+      "platform": "VINTED",
+      "id": "10518535232",
+      "title": "kids berghaus puffer coat",
+      "url": "https://www.vinted.co.uk/items/10518535232-kids-berghaus-puffer-coat",
+      "modelId": "berghaus-down",
+      "buyPrice": 17,
+      "estimatedNetProfit": 35.79,
+      "roi": 210.53,
+      "score": 97
+    },
     {
       "at": "2026-10-24T21:35:39.076Z",
       "platform": "VINTED",
@@ -251,18 +263,6 @@
       "buyPrice": 35,
       "estimatedNetProfit": 30.21,
       "roi": 86.31,
-      "score": 85
-    },
-    {
-      "at": "2026-10-22T14:40:16.754Z",
-      "platform": "VINTED",
-      "id": "10483472749",
-      "title": "boys berghaus puffer jacket",
-      "url": "https://www.vinted.co.uk/items/10483472749-boys-berghaus-puffer-jacket",
-      "modelId": "berghaus-down",
-      "buyPrice": 12,
-      "estimatedNetProfit": 39.23,
-      "roi": 326.92,
       "score": 85
     }
   ]
