@@ -2,29 +2,65 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-10-25T12:17:30.032Z",
+    "startedAt": "2026-10-25T16:23:27.081Z",
     "searchGroups": [
-      "arcteryx-cerium:arcteryx-cerium-jacket",
-      "arcteryx-cerium:arc-teryx-cerium",
-      "arcteryx-thorium:arcteryx-thorium-jacket",
-      "arcteryx-thorium:arc-teryx-thorium",
-      "ralph-lauren-puffer:ralph-lauren-puffer-jacket",
-      "ralph-lauren-puffer:polo-ralph-lauren-down-jacket",
-      "nike-puffer:nike-puffer-jacket-mens",
-      "nike-puffer:nike-down-jacket"
+      "hunter:berghaus-puffer",
+      "hunter:napapijri-jacket",
+      "tnf-1996-nuptse:north-face-nuptse-700",
+      "tnf-1996-nuptse:north-face-1996-nuptse",
+      "tnf-himalayan:north-face-himalayan-puffer",
+      "tnf-himalayan:north-face-hmlyn-parka",
+      "tnf-baltoro:north-face-baltoro-jacket",
+      "tnf-summit-down:north-face-summit-series-down"
     ],
     "vintedItems": 280,
-    "freshItems": 15,
+    "freshItems": 23,
     "freshByAge": 0,
-    "freshByNewId": 15,
+    "freshByNewId": 23,
     "bootstrapBlocked": 0,
-    "staleBlocked": 9,
-    "candidates": 12,
+    "staleBlocked": 6,
+    "candidates": 5,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-10-25T16:20:36.759Z",
+      "platform": "VINTED",
+      "id": "10526849352",
+      "title": "boys ralph lauren jacket",
+      "url": "https://www.vinted.co.uk/items/10526849352-boys-ralph-lauren-jacket",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 40,
+      "estimatedNetProfit": 34.51,
+      "roi": 86.28,
+      "score": 82
+    },
+    {
+      "at": "2026-10-25T16:20:35.868Z",
+      "platform": "VINTED",
+      "id": "10529874248",
+      "title": "polo ralph lauren black puffer jacket size large",
+      "url": "https://www.vinted.co.uk/items/10529874248-polo-ralph-lauren-black-puffer-jacket-size-large",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 50,
+      "estimatedNetProfit": 31.29,
+      "roi": 62.58,
+      "score": 77
+    },
+    {
+      "at": "2026-10-25T16:17:33.379Z",
+      "platform": "VINTED",
+      "id": "10528076738",
+      "title": "napapijri mens rainforest winter anorak jacket dark navy size l",
+      "url": "https://www.vinted.co.uk/items/10528076738-napapijri-mens-rainforest-winter-anorak-jacket-dark-navy-size-l",
+      "modelId": "napapijri-skidoo",
+      "buyPrice": 35,
+      "estimatedNetProfit": 37.26,
+      "roi": 106.46,
+      "score": 89
+    },
     {
       "at": "2026-10-25T01:44:00.559Z",
       "platform": "VINTED",
@@ -227,42 +263,6 @@
       "buyPrice": 45,
       "estimatedNetProfit": 36.57,
       "roi": 81.27,
-      "score": 85
-    },
-    {
-      "at": "2026-10-22T18:49:17.540Z",
-      "platform": "VINTED",
-      "id": "10487778165",
-      "title": "berghaus puffer jacket new size 16",
-      "url": "https://www.vinted.co.uk/items/10487778165-berghaus-puffer-jacket-new-size-16",
-      "modelId": "berghaus-down",
-      "buyPrice": 30,
-      "estimatedNetProfit": 27.43,
-      "roi": 91.43,
-      "score": 86
-    },
-    {
-      "at": "2026-10-22T14:46:26.334Z",
-      "platform": "VINTED",
-      "id": "10485601403",
-      "title": "ladies nike down jacket uk10",
-      "url": "https://www.vinted.co.uk/items/10485601403-ladies-nike-down-jacket-uk10",
-      "modelId": "nike-puffer",
-      "buyPrice": 25,
-      "estimatedNetProfit": 26.82,
-      "roi": 107.28,
-      "score": 90
-    },
-    {
-      "at": "2026-10-22T14:46:17.208Z",
-      "platform": "VINTED",
-      "id": "10484875181",
-      "title": "jacket",
-      "url": "https://www.vinted.co.uk/items/10484875181-jacket",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 35,
-      "estimatedNetProfit": 30.21,
-      "roi": 86.31,
       "score": 85
     }
   ]
