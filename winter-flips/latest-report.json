@@ -2,27 +2,36 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-10-25T16:23:27.081Z",
+    "startedAt": "2026-10-25T19:13:29.992Z",
     "searchGroups": [
-      "hunter:berghaus-puffer",
-      "hunter:napapijri-jacket",
-      "tnf-1996-nuptse:north-face-nuptse-700",
-      "tnf-1996-nuptse:north-face-1996-nuptse",
-      "tnf-himalayan:north-face-himalayan-puffer",
-      "tnf-himalayan:north-face-hmlyn-parka",
-      "tnf-baltoro:north-face-baltoro-jacket",
-      "tnf-summit-down:north-face-summit-series-down"
+      "napapijri-skidoo:napapijri-skidoo-jacket",
+      "napapijri-skidoo:napapijri-rainforest-winter",
+      "hunter:north-face-coat",
+      "hunter:north-face-puffer",
+      "hunter:north-face-700",
+      "hunter:mens-north-face-jacket",
+      "hunter:rab-puffer",
+      "hunter:rab-down-jacket"
     ],
-    "vintedItems": 280,
-    "freshItems": 23,
+    "vintedItems": 0,
+    "freshItems": 0,
     "freshByAge": 0,
-    "freshByNewId": 23,
+    "freshByNewId": 0,
     "bootstrapBlocked": 0,
-    "staleBlocked": 6,
-    "candidates": 5,
+    "staleBlocked": 0,
+    "candidates": 0,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
-    "failures": []
+    "failures": [
+      "Vinted napapijri skidoo jacket: Vinted HTTP 403",
+      "Vinted napapijri rainforest winter: Vinted HTTP 403",
+      "Vinted north face coat: Vinted HTTP 403",
+      "Vinted north face puffer: Vinted HTTP 403",
+      "Vinted north face 700: Vinted HTTP 403",
+      "Vinted mens north face jacket: Vinted HTTP 403",
+      "Vinted rab puffer: Vinted HTTP 403",
+      "Vinted rab down jacket: Vinted HTTP 403"
+    ]
   },
   "topRecent": [
     {
