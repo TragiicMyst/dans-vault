@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-26T21:52:01.915Z",
-  "stateUpdatedAt": "2026-10-26T21:52:01.915Z",
-  "lastAttemptAt": "2026-10-26T21:52:01.915Z",
-  "lastScanAt": "2026-10-26T21:52:01.915Z",
+  "generatedAt": "2026-10-26T21:56:52.699Z",
+  "stateUpdatedAt": "2026-10-26T21:56:52.699Z",
+  "lastAttemptAt": "2026-10-26T21:56:52.699Z",
+  "lastScanAt": "2026-10-26T21:56:52.699Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
@@ -18,22 +18,22 @@
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1573,
-  "catalogItems": 859,
+  "catalogItems": 865,
   "candidateItems": 310,
-  "freshItems": 153,
-  "qualifyingAlerts": 80,
+  "freshItems": 151,
+  "qualifyingAlerts": 79,
   "qualifyingByCondition": {
-    "veryGood": 71,
+    "veryGood": 70,
     "newWithTags": 2,
     "newWithoutTags": 7
   },
-  "deliveredAlerts": 80,
+  "deliveredAlerts": 79,
   "deliveredByCondition": {
-    "veryGood": 71,
+    "veryGood": 70,
     "newWithTags": 2,
     "newWithoutTags": 7
   },
-  "duplicateSuppressed": 31,
+  "duplicateSuppressed": 32,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,13 +69,14 @@
   "pendingDeliveries": 0,
   "detailFetches": 6,
   "rejects": {
-    "price": 18,
+    "price": 17,
     "keyword": 9,
-    "recovery-no-fresh-signal": 126,
+    "recovery-no-fresh-signal": 127,
     "condition": 31,
     "clothing-variety-cap": 3,
-    "size": 4,
+    "size": 3,
     "weak-margin": 7,
+    "detail-budget-exhausted": 1,
     "score": 1
   },
   "failures": {}
