@@ -1,39 +1,37 @@
 {
-  "generatedAt": "2026-10-26T05:28:53.480Z",
-  "stateUpdatedAt": "2026-10-26T05:28:53.480Z",
-  "lastAttemptAt": "2026-10-26T05:28:53.480Z",
-  "lastScanAt": "2026-10-26T05:28:53.480Z",
+  "generatedAt": "2026-10-26T11:26:35.038Z",
+  "stateUpdatedAt": "2026-10-26T11:26:35.038Z",
+  "lastAttemptAt": "2026-10-26T11:26:35.038Z",
+  "lastScanAt": "2026-10-26T11:26:35.038Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Vest::nike vest",
-    "Nike Air Max Hoodie::nike air max hoodie",
-    "Nike Zip Hoodie::nike zip hoodie",
-    "Nike Hoodie::nike hoodie",
-    "Nike Sweatshirt::nike sweatshirt",
-    "Nike Track Jacket::nike track jacket"
+    "Nike Joggers::nike joggers",
+    "Nike Trousers::nike trousers",
+    "Nike Sportswear Hoodie::nike sportswear hoodie",
+    "Nike Sportswear Jacket::nike sportswear jacket",
+    "Nike Tech Fleece Windrunner::nike tech fleece windrunner",
+    "Nike Puffer Jacket::nike puffer jacket"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1344,
-  "catalogItems": 1108,
-  "candidateItems": 293,
-  "freshItems": 116,
-  "qualifyingAlerts": 54,
+  "catalogMarkers": 1437,
+  "catalogItems": 1005,
+  "candidateItems": 248,
+  "freshItems": 143,
+  "qualifyingAlerts": 57,
   "qualifyingByCondition": {
-    "veryGood": 48,
-    "newWithoutTags": 5,
-    "newWithTags": 1
+    "veryGood": 53,
+    "newWithoutTags": 4
   },
-  "deliveredAlerts": 54,
+  "deliveredAlerts": 57,
   "deliveredByCondition": {
-    "veryGood": 48,
-    "newWithoutTags": 5,
-    "newWithTags": 1
+    "veryGood": 53,
+    "newWithoutTags": 4
   },
-  "duplicateSuppressed": 4,
+  "duplicateSuppressed": 12,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,11 +67,14 @@
   "pendingDeliveries": 0,
   "detailFetches": 6,
   "rejects": {
-    "recovery-no-fresh-signal": 173,
-    "price": 26,
-    "keyword": 3,
-    "condition": 28,
-    "size": 5
+    "condition": 35,
+    "size": 5,
+    "price": 13,
+    "recovery-no-fresh-signal": 93,
+    "keyword": 14,
+    "weak-margin": 1,
+    "detail-budget-exhausted": 16,
+    "clothing-variety-cap": 2
   },
   "failures": {}
 }
