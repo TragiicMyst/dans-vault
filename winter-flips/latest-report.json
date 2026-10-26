@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-10-26T20:00:45.115Z",
+    "startedAt": "2026-10-26T23:46:11.061Z",
     "searchGroups": [
-      "arcteryx-thorium:arcteryx-thorium-jacket",
-      "arcteryx-thorium:arc-teryx-thorium",
-      "ralph-lauren-puffer:ralph-lauren-puffer-jacket",
-      "ralph-lauren-puffer:polo-ralph-lauren-down-jacket",
-      "nike-puffer:nike-puffer-jacket-mens",
-      "nike-puffer:nike-down-jacket",
-      "berghaus-down:berghaus-down-jacket",
-      "berghaus-down:berghaus-puffer-jacket"
+      "tnf-1996-nuptse:north-face-nuptse-700",
+      "tnf-1996-nuptse:north-face-1996-nuptse",
+      "tnf-himalayan:north-face-himalayan-puffer",
+      "tnf-himalayan:north-face-hmlyn-parka",
+      "tnf-baltoro:north-face-baltoro-jacket",
+      "tnf-summit-down:north-face-summit-series-down",
+      "rab-microlight:rab-microlight-alpine",
+      "rab-neutrino:rab-neutrino-pro"
     ],
     "vintedItems": 280,
-    "freshItems": 56,
+    "freshItems": 6,
     "freshByAge": 0,
-    "freshByNewId": 56,
+    "freshByNewId": 6,
     "bootstrapBlocked": 0,
     "staleBlocked": 6,
-    "candidates": 37,
-    "alerts": 5,
+    "candidates": 0,
+    "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-10-26T23:43:20.990Z",
+      "platform": "VINTED",
+      "id": "10550987736",
+      "title": "berghaus puffer jacket",
+      "url": "https://www.vinted.co.uk/items/10550987736-berghaus-puffer-jacket",
+      "modelId": "berghaus-down",
+      "buyPrice": 10,
+      "estimatedNetProfit": 40.6,
+      "roi": 406,
+      "score": 85
+    },
     {
       "at": "2026-10-26T20:01:06.166Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 30.09,
       "roi": 60.18,
       "score": 66
-    },
-    {
-      "at": "2026-10-25T16:20:36.759Z",
-      "platform": "VINTED",
-      "id": "10526849352",
-      "title": "boys ralph lauren jacket",
-      "url": "https://www.vinted.co.uk/items/10526849352-boys-ralph-lauren-jacket",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 40,
-      "estimatedNetProfit": 34.51,
-      "roi": 86.28,
-      "score": 82
     }
   ]
 }
