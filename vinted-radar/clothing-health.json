@@ -1,37 +1,37 @@
 {
-  "generatedAt": "2026-10-27T18:23:48.275Z",
-  "stateUpdatedAt": "2026-10-27T18:23:48.275Z",
-  "lastAttemptAt": "2026-10-27T18:23:48.275Z",
-  "lastScanAt": "2026-10-27T18:23:48.275Z",
+  "generatedAt": "2026-10-27T22:20:52.808Z",
+  "stateUpdatedAt": "2026-10-27T22:20:52.808Z",
+  "lastAttemptAt": "2026-10-27T22:20:52.808Z",
+  "lastScanAt": "2026-10-27T22:20:52.808Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Gilet::nike gilet",
-    "Nike Windbreaker::nike windbreaker",
-    "Nike Anorak::nike anorak",
-    "Nike Rain Jacket::nike rain jacket",
-    "Nike Woven Jacket::nike woven jacket",
-    "Nike Bomber Jacket::nike bomber jacket"
+    "Nike Coat::nike coat",
+    "Nike Shorts::nike shorts",
+    "Nike Cargo Trousers::nike cargo trousers",
+    "Nike Track Pants::nike track pants",
+    "Nike Woven Trousers::nike woven trousers",
+    "Nike Tracksuit::nike tracksuit"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 1103,
-  "candidateItems": 268,
-  "freshItems": 189,
-  "qualifyingAlerts": 76,
+  "catalogItems": 1094,
+  "candidateItems": 352,
+  "freshItems": 276,
+  "qualifyingAlerts": 66,
   "qualifyingByCondition": {
-    "veryGood": 69,
-    "newWithoutTags": 6,
-    "newWithTags": 1
+    "newWithoutTags": 11,
+    "newWithTags": 4,
+    "veryGood": 51
   },
-  "deliveredAlerts": 76,
+  "deliveredAlerts": 66,
   "deliveredByCondition": {
-    "veryGood": 69,
-    "newWithoutTags": 6,
-    "newWithTags": 1
+    "newWithoutTags": 11,
+    "newWithTags": 4,
+    "veryGood": 51
   },
   "duplicateSuppressed": 3,
   "discordFailures": 0,
@@ -69,12 +69,13 @@
   "pendingDeliveries": 0,
   "detailFetches": 6,
   "rejects": {
-    "stale": 76,
-    "price": 75,
-    "condition": 24,
-    "size": 5,
-    "keyword": 5,
-    "detail-budget-exhausted": 4
+    "price": 117,
+    "keyword": 21,
+    "recovery-no-fresh-signal": 73,
+    "size": 6,
+    "condition": 40,
+    "detail-budget-exhausted": 25,
+    "score": 1
   },
   "failures": {}
 }
