@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-10-27T12:46:35.745Z",
-  "stateUpdatedAt": "2026-10-27T12:46:35.745Z",
-  "lastAttemptAt": "2026-10-27T12:46:35.745Z",
-  "lastScanAt": "2026-10-27T12:46:35.745Z",
+  "generatedAt": "2026-10-27T18:12:03.519Z",
+  "stateUpdatedAt": "2026-10-27T18:12:03.519Z",
+  "lastAttemptAt": "2026-10-27T18:12:03.519Z",
+  "lastScanAt": "2026-10-27T18:12:03.519Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Solo Swoosh Crew::nike solo swoosh sweatshirt",
-    "Nike Miler Repel Jacket::nike miler repel jacket",
-    "Nike Solo Swoosh Joggers::nike solo swoosh joggers",
-    "Nike Stride Running Jacket::nike stride running jacket",
-    "Nike T-Shirt::nike t shirt",
-    "Nike Long Sleeve Top::nike long sleeve top"
+    "Nike Polo::nike polo",
+    "Nike Football Shirt::nike football shirt",
+    "Nike Training Top::nike training top",
+    "Nike Dri-FIT Top::nike dri fit top",
+    "Nike Quarter Zip::nike quarter zip",
+    "Nike Fleece::nike fleece"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1440,
-  "catalogItems": 888,
-  "candidateItems": 373,
-  "freshItems": 109,
-  "qualifyingAlerts": 50,
+  "catalogMarkers": 1344,
+  "catalogItems": 1023,
+  "candidateItems": 328,
+  "freshItems": 278,
+  "qualifyingAlerts": 117,
   "qualifyingByCondition": {
-    "veryGood": 43,
-    "newWithoutTags": 5,
+    "veryGood": 109,
+    "newWithoutTags": 6,
     "newWithTags": 2
   },
-  "deliveredAlerts": 50,
+  "deliveredAlerts": 117,
   "deliveredByCondition": {
-    "veryGood": 43,
-    "newWithoutTags": 5,
+    "veryGood": 109,
+    "newWithoutTags": 6,
     "newWithTags": 2
   },
-  "duplicateSuppressed": 93,
+  "duplicateSuppressed": 7,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,12 +69,13 @@
   "pendingDeliveries": 0,
   "detailFetches": 6,
   "rejects": {
-    "recovery-no-fresh-signal": 171,
-    "price": 28,
+    "price": 79,
     "size": 5,
-    "keyword": 5,
-    "condition": 20,
-    "detail-budget-exhausted": 1
+    "recovery-no-fresh-signal": 43,
+    "condition": 43,
+    "detail-budget-exhausted": 18,
+    "keyword": 14,
+    "weak-margin": 2
   },
   "failures": {}
 }
