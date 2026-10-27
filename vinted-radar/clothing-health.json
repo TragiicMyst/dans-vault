@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-10-26T21:56:52.699Z",
-  "stateUpdatedAt": "2026-10-26T21:56:52.699Z",
-  "lastAttemptAt": "2026-10-26T21:56:52.699Z",
-  "lastScanAt": "2026-10-26T21:56:52.699Z",
+  "generatedAt": "2026-10-27T01:04:30.118Z",
+  "stateUpdatedAt": "2026-10-27T01:04:30.118Z",
+  "lastAttemptAt": "2026-10-27T01:04:30.118Z",
+  "lastScanAt": "2026-10-27T01:04:30.118Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Tech Fleece Joggers::nike tech fleece joggers",
-    "Nike Storm-FIT Puffer::nike storm fit puffer",
-    "Nike Solo Swoosh Hoodie::nike solo swoosh hoodie",
-    "Nike Miler Running Top::nike miler running top",
-    "Nike Tech Fleece Open-Hem Trousers::nike tech fleece open hem trousers",
-    "Nike ACG Lunar Lake Puffer::nike acg lunar lake"
+    "Nike Academy Tracksuit::nike academy tracksuit",
+    "Nike Dri-FIT Running Top::nike dri-fit running top",
+    "Nike Tech Fleece Shorts::nike tech fleece shorts",
+    "Nike Therma-FIT Jacket::nike therma fit jacket",
+    "Nike NOCTA Hoodie::nike nocta hoodie",
+    "Nike Stride Shorts::nike stride shorts"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1573,
-  "catalogItems": 865,
-  "candidateItems": 310,
-  "freshItems": 151,
-  "qualifyingAlerts": 79,
+  "catalogMarkers": 1440,
+  "catalogItems": 750,
+  "candidateItems": 330,
+  "freshItems": 184,
+  "qualifyingAlerts": 88,
   "qualifyingByCondition": {
-    "veryGood": 70,
-    "newWithTags": 2,
-    "newWithoutTags": 7
+    "veryGood": 72,
+    "newWithoutTags": 10,
+    "newWithTags": 6
   },
-  "deliveredAlerts": 79,
+  "deliveredAlerts": 88,
   "deliveredByCondition": {
-    "veryGood": 70,
-    "newWithTags": 2,
-    "newWithoutTags": 7
+    "veryGood": 72,
+    "newWithoutTags": 10,
+    "newWithTags": 6
   },
-  "duplicateSuppressed": 32,
+  "duplicateSuppressed": 40,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,17 +67,15 @@
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 6,
+  "detailFetches": 0,
   "rejects": {
-    "price": 17,
-    "keyword": 9,
-    "recovery-no-fresh-signal": 127,
-    "condition": 31,
-    "clothing-variety-cap": 3,
-    "size": 3,
-    "weak-margin": 7,
-    "detail-budget-exhausted": 1,
-    "score": 1
+    "price": 27,
+    "keyword": 6,
+    "recovery-no-fresh-signal": 106,
+    "condition": 40,
+    "weak-margin": 15,
+    "clothing-variety-cap": 6,
+    "score": 2
   },
   "failures": {}
 }
