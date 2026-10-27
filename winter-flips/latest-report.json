@@ -2,29 +2,65 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-10-27T19:44:16.438Z",
+    "startedAt": "2026-10-27T23:16:30.294Z",
     "searchGroups": [
-      "berghaus-down:berghaus-down-jacket",
-      "berghaus-down:berghaus-puffer-jacket",
-      "napapijri-skidoo:napapijri-skidoo-jacket",
-      "napapijri-skidoo:napapijri-rainforest-winter",
-      "hunter:north-face-coat",
-      "hunter:north-face-puffer",
-      "hunter:north-face-700",
-      "hunter:mens-north-face-jacket"
+      "rab-microlight:rab-microlight-alpine",
+      "rab-neutrino:rab-neutrino-pro",
+      "rab-electron:rab-electron-pro",
+      "patagonia-down-sweater:patagonia-down-sweater-jacket",
+      "patagonia-down-sweater:patagonia-down-sweater-hoody",
+      "patagonia-fitz-roy:patagonia-fitz-roy-down",
+      "arcteryx-cerium:arcteryx-cerium-jacket",
+      "arcteryx-cerium:arc-teryx-cerium"
     ],
-    "vintedItems": 270,
-    "freshItems": 82,
+    "vintedItems": 159,
+    "freshItems": 0,
     "freshByAge": 0,
-    "freshByNewId": 82,
+    "freshByNewId": 0,
     "bootstrapBlocked": 0,
-    "staleBlocked": 8,
-    "candidates": 4,
+    "staleBlocked": 2,
+    "candidates": 0,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-10-27T23:10:40.943Z",
+      "platform": "VINTED",
+      "id": "10560428353",
+      "title": "womens retro butter yellow vintage nike puffer l",
+      "url": "https://www.vinted.co.uk/items/10560428353-womens-retro-butter-yellow-vintage-nike-puffer-l",
+      "modelId": "nike-puffer",
+      "buyPrice": 27,
+      "estimatedNetProfit": 30.04,
+      "roi": 111.26,
+      "score": 90
+    },
+    {
+      "at": "2026-10-27T23:10:40.305Z",
+      "platform": "VINTED",
+      "id": "10562887826",
+      "title": "mens retro nike puffer orange jacket xl",
+      "url": "https://www.vinted.co.uk/items/10562887826-mens-retro-nike-puffer-orange-jacket-xl",
+      "modelId": "nike-puffer",
+      "buyPrice": 25,
+      "estimatedNetProfit": 32.15,
+      "roi": 128.6,
+      "score": 92
+    },
+    {
+      "at": "2026-10-27T23:10:37.676Z",
+      "platform": "VINTED",
+      "id": "10559626179",
+      "title": "polo sport ralph lauren blue puffer gilet bodywarmer m vintage",
+      "url": "https://www.vinted.co.uk/items/10559626179-polo-sport-ralph-lauren-blue-puffer-gilet-bodywarmer-m-vintage",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 44.8,
+      "estimatedNetProfit": 30.44,
+      "roi": 67.95,
+      "score": 79
+    },
     {
       "at": "2026-10-27T19:41:23.994Z",
       "platform": "VINTED",
@@ -228,42 +264,6 @@
       "estimatedNetProfit": 46.52,
       "roi": 664.57,
       "score": 87
-    },
-    {
-      "at": "2026-10-26T14:12:40.323Z",
-      "platform": "VINTED",
-      "id": "10542237684",
-      "title": "kids nike puffer jacket",
-      "url": "https://www.vinted.co.uk/items/10542237684-kids-nike-puffer-jacket",
-      "modelId": "nike-puffer",
-      "buyPrice": 20,
-      "estimatedNetProfit": 32.81,
-      "roi": 164.05,
-      "score": 91
-    },
-    {
-      "at": "2026-10-26T14:12:39.518Z",
-      "platform": "VINTED",
-      "id": "10543114809",
-      "title": "nike puffer jacket",
-      "url": "https://www.vinted.co.uk/items/10543114809-nike-puffer-jacket",
-      "modelId": "nike-puffer",
-      "buyPrice": 25,
-      "estimatedNetProfit": 27.53,
-      "roi": 110.12,
-      "score": 85
-    },
-    {
-      "at": "2026-10-26T14:12:35.776Z",
-      "platform": "VINTED",
-      "id": "10538961145",
-      "title": "rl puffer gilet",
-      "url": "https://www.vinted.co.uk/items/10538961145-rl-puffer-gilet",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 35,
-      "estimatedNetProfit": 28.82,
-      "roi": 82.34,
-      "score": 83
     }
   ]
 }
