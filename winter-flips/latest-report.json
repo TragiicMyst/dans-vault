@@ -2,29 +2,53 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-10-28T08:42:40.412Z",
+    "startedAt": "2026-10-28T15:32:15.056Z",
     "searchGroups": [
-      "ralph-lauren-puffer:ralph-lauren-puffer-jacket",
-      "ralph-lauren-puffer:polo-ralph-lauren-down-jacket",
-      "nike-puffer:nike-puffer-jacket-mens",
-      "nike-puffer:nike-down-jacket",
-      "berghaus-down:berghaus-down-jacket",
-      "berghaus-down:berghaus-puffer-jacket",
-      "napapijri-skidoo:napapijri-skidoo-jacket",
-      "napapijri-skidoo:napapijri-rainforest-winter"
+      "tnf-himalayan:north-face-himalayan-puffer",
+      "tnf-himalayan:north-face-hmlyn-parka",
+      "tnf-baltoro:north-face-baltoro-jacket",
+      "tnf-summit-down:north-face-summit-series-down",
+      "rab-microlight:rab-microlight-alpine",
+      "rab-neutrino:rab-neutrino-pro",
+      "rab-electron:rab-electron-pro",
+      "patagonia-down-sweater:patagonia-down-sweater-jacket"
     ],
-    "vintedItems": 270,
-    "freshItems": 6,
+    "vintedItems": 178,
+    "freshItems": 1,
     "freshByAge": 0,
-    "freshByNewId": 6,
+    "freshByNewId": 1,
     "bootstrapBlocked": 0,
-    "staleBlocked": 8,
-    "candidates": 2,
+    "staleBlocked": 0,
+    "candidates": 1,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-10-28T15:29:22.295Z",
+      "platform": "VINTED",
+      "id": "10569944037",
+      "title": "nike puffer jacket coat toddler 36months baby",
+      "url": "https://www.vinted.co.uk/items/10569944037-nike-puffer-jacket-coat-toddler-36months-baby",
+      "modelId": "nike-puffer",
+      "buyPrice": 9.99,
+      "estimatedNetProfit": 43.95,
+      "roi": 439.94,
+      "score": 87
+    },
+    {
+      "at": "2026-10-28T15:29:18.915Z",
+      "platform": "VINTED",
+      "id": "10569149558",
+      "title": "short ralph lauren bubble jacket",
+      "url": "https://www.vinted.co.uk/items/10569149558-short-ralph-lauren-bubble-jacket",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 28,
+      "estimatedNetProfit": 47.17,
+      "roi": 168.46,
+      "score": 96
+    },
     {
       "at": "2026-10-28T02:20:04.330Z",
       "platform": "VINTED",
@@ -240,30 +264,6 @@
       "estimatedNetProfit": 36.34,
       "roi": 90.85,
       "score": 83
-    },
-    {
-      "at": "2026-10-26T20:00:57.462Z",
-      "platform": "VINTED",
-      "id": "10544693819",
-      "title": "boys coat",
-      "url": "https://www.vinted.co.uk/items/10544693819-boys-coat",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 40,
-      "estimatedNetProfit": 36.34,
-      "roi": 90.85,
-      "score": 81
-    },
-    {
-      "at": "2026-10-26T20:00:55.349Z",
-      "platform": "VINTED",
-      "id": "10548304331",
-      "title": "polo ralph lauren kids packable down puffer jacket navy yellow logo 14 16",
-      "url": "https://www.vinted.co.uk/items/10548304331-polo-ralph-lauren-kids-packable-down-puffer-jacket-navy-yellow-logo-14-16",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 35,
-      "estimatedNetProfit": 45.53,
-      "roi": 130.09,
-      "score": 93
     }
   ]
 }
