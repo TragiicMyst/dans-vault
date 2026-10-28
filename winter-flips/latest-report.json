@@ -2,29 +2,53 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-10-27T23:16:30.294Z",
+    "startedAt": "2026-10-28T02:19:55.217Z",
     "searchGroups": [
-      "rab-microlight:rab-microlight-alpine",
-      "rab-neutrino:rab-neutrino-pro",
-      "rab-electron:rab-electron-pro",
-      "patagonia-down-sweater:patagonia-down-sweater-jacket",
-      "patagonia-down-sweater:patagonia-down-sweater-hoody",
-      "patagonia-fitz-roy:patagonia-fitz-roy-down",
-      "arcteryx-cerium:arcteryx-cerium-jacket",
-      "arcteryx-cerium:arc-teryx-cerium"
+      "hunter:patagonia-puffer",
+      "hunter:arcteryx-jacket",
+      "hunter:arc-teryx-puffer",
+      "hunter:ralph-lauren-puffer",
+      "hunter:polo-puffer-jacket",
+      "hunter:nike-puffer-jacket",
+      "hunter:berghaus-puffer",
+      "hunter:napapijri-jacket"
     ],
-    "vintedItems": 159,
-    "freshItems": 0,
+    "vintedItems": 280,
+    "freshItems": 3,
     "freshByAge": 0,
-    "freshByNewId": 0,
+    "freshByNewId": 3,
     "bootstrapBlocked": 0,
-    "staleBlocked": 2,
-    "candidates": 0,
-    "alerts": 0,
+    "staleBlocked": 12,
+    "candidates": 2,
+    "alerts": 2,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-10-28T02:20:04.330Z",
+      "platform": "VINTED",
+      "id": "10564672611",
+      "title": "nike puffer coat thermal fit no sleeves",
+      "url": "https://www.vinted.co.uk/items/10564672611-nike-puffer-coat-thermal-fit-no-sleeves",
+      "modelId": "nike-puffer",
+      "buyPrice": 20,
+      "estimatedNetProfit": 35.12,
+      "roi": 175.6,
+      "score": 92
+    },
+    {
+      "at": "2026-10-28T02:20:03.611Z",
+      "platform": "VINTED",
+      "id": "10564837244",
+      "title": "nike therma fit puffer",
+      "url": "https://www.vinted.co.uk/items/10564837244-nike-therma-fit-puffer",
+      "modelId": "nike-puffer",
+      "buyPrice": 30,
+      "estimatedNetProfit": 24.57,
+      "roi": 81.9,
+      "score": 85
+    },
     {
       "at": "2026-10-27T23:10:40.943Z",
       "platform": "VINTED",
@@ -240,30 +264,6 @@
       "estimatedNetProfit": 45.53,
       "roi": 130.09,
       "score": 93
-    },
-    {
-      "at": "2026-10-26T19:54:54.077Z",
-      "platform": "VINTED",
-      "id": "10540171979",
-      "title": "the north face himalayan light synthetic hooded jacket",
-      "url": "https://www.vinted.co.uk/items/10540171979-the-north-face-himalayan-light-synthetic-hooded-jacket",
-      "modelId": "tnf-himalayan",
-      "buyPrice": 35,
-      "estimatedNetProfit": 65.45,
-      "roi": 187,
-      "score": 98
-    },
-    {
-      "at": "2026-10-26T14:12:40.892Z",
-      "platform": "VINTED",
-      "id": "10540967540",
-      "title": "yellow nike puffer jacket pen holder",
-      "url": "https://www.vinted.co.uk/items/10540967540-yellow-nike-puffer-jacket-pen-holder",
-      "modelId": "nike-puffer",
-      "buyPrice": 7,
-      "estimatedNetProfit": 46.52,
-      "roi": 664.57,
-      "score": 87
     }
   ]
 }
