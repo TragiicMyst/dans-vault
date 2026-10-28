@@ -1,37 +1,35 @@
 {
-  "generatedAt": "2026-10-27T22:34:01.326Z",
-  "stateUpdatedAt": "2026-10-27T22:34:01.326Z",
-  "lastAttemptAt": "2026-10-27T22:34:01.326Z",
-  "lastScanAt": "2026-10-27T22:34:01.326Z",
+  "generatedAt": "2026-10-28T01:31:48.976Z",
+  "stateUpdatedAt": "2026-10-28T01:31:48.976Z",
+  "lastAttemptAt": "2026-10-28T01:31:48.976Z",
+  "lastScanAt": "2026-10-28T01:31:48.976Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Vintage Clothing::vintage nike",
-    "Nike SB Clothing::nike sb clothing",
-    "Nike Vest::nike vest",
-    "Nike Air Max Hoodie::nike air max hoodie",
-    "Nike Zip Hoodie::nike zip hoodie",
-    "Nike Hoodie::nike hoodie"
+    "Nike Sweatshirt::nike sweatshirt",
+    "Nike Track Jacket::nike track jacket",
+    "Nike Joggers::nike joggers",
+    "Nike Trousers::nike trousers",
+    "Nike Sportswear Hoodie::nike sportswear hoodie",
+    "Nike Sportswear Jacket::nike sportswear jacket"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 1070,
-  "candidateItems": 290,
-  "freshItems": 202,
-  "qualifyingAlerts": 82,
+  "catalogItems": 1079,
+  "candidateItems": 183,
+  "freshItems": 92,
+  "qualifyingAlerts": 43,
   "qualifyingByCondition": {
-    "veryGood": 72,
-    "newWithoutTags": 9,
-    "newWithTags": 1
+    "veryGood": 37,
+    "newWithoutTags": 6
   },
-  "deliveredAlerts": 82,
+  "deliveredAlerts": 43,
   "deliveredByCondition": {
-    "veryGood": 72,
-    "newWithoutTags": 9,
-    "newWithTags": 1
+    "veryGood": 37,
+    "newWithoutTags": 6
   },
   "duplicateSuppressed": 2,
   "discordFailures": 0,
@@ -69,13 +67,12 @@
   "pendingDeliveries": 0,
   "detailFetches": 6,
   "rejects": {
-    "price": 52,
-    "condition": 43,
-    "stale": 86,
-    "keyword": 10,
-    "size": 6,
-    "weak-margin": 2,
-    "detail-budget-exhausted": 7
+    "recovery-no-fresh-signal": 89,
+    "condition": 18,
+    "keyword": 6,
+    "price": 20,
+    "weak-margin": 1,
+    "size": 4
   },
   "failures": {}
 }
