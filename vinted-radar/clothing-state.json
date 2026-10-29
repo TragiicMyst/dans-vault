@@ -1442125,7 +1442125,7 @@
       "url": "https://www.vinted.co.uk/items/10536251193-nike-cargo-trousers",
       "lastPrice": 18,
       "firstSeenAt": "2026-10-26T00:45:34.946Z",
-      "lastSeenAt": "2026-10-27T12:46:39.475Z"
+      "lastSeenAt": "2026-10-29T06:22:57.220Z"
     },
     "10535889592": {
       "blockedReason": "price",
@@ -1461433,7 +1461433,7 @@
       "url": "https://www.vinted.co.uk/items/10541920299-nike-dri-fit-shorts",
       "lastPrice": 7,
       "firstSeenAt": "2026-10-27T12:26:23.846Z",
-      "lastSeenAt": "2026-10-28T01:31:52.186Z"
+      "lastSeenAt": "2026-10-29T06:25:09.146Z"
     },
     "10536095849": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -1461449,7 +1461449,7 @@
       "url": "https://www.vinted.co.uk/items/10535142796-boys-nike-joggers",
       "lastPrice": 2,
       "firstSeenAt": "2026-10-27T12:26:23.846Z",
-      "lastSeenAt": "2026-10-27T12:26:23.846Z"
+      "lastSeenAt": "2026-10-29T06:22:57.220Z"
     },
     "10531235209": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -1469893,20 +1469893,20 @@
       "lastSeenAt": "2026-10-27T18:26:46.262Z"
     },
     "10560628749": {
-      "blockedReason": "price",
+      "blockedReason": "recovery-no-fresh-signal",
       "title": "nike sportswear tech pack mens woven jacket medium",
       "url": "https://www.vinted.co.uk/items/10560628749-nike-sportswear-tech-pack-mens-woven-jacket-medium",
       "lastPrice": 50,
       "firstSeenAt": "2026-10-27T18:26:51.377Z",
-      "lastSeenAt": "2026-10-27T18:26:51.377Z"
+      "lastSeenAt": "2026-10-29T06:23:15.299Z"
     },
     "10559981734": {
-      "blockedReason": "price",
+      "blockedReason": "recovery-no-fresh-signal",
       "title": "nike air woven jacket size medium",
       "url": "https://www.vinted.co.uk/items/10559981734-nike-air-woven-jacket-size-medium",
       "lastPrice": 40,
       "firstSeenAt": "2026-10-27T18:26:51.377Z",
-      "lastSeenAt": "2026-10-27T18:26:51.377Z"
+      "lastSeenAt": "2026-10-29T06:23:15.299Z"
     },
     "10559887361": {
       "size": "S",
@@ -1469928,12 +1469928,12 @@
       "lastSeenAt": "2026-10-27T18:26:54.492Z"
     },
     "10559186968": {
-      "blockedReason": "price",
+      "blockedReason": "recovery-no-fresh-signal",
       "title": "mens nike woven tech jacket size xl",
       "url": "https://www.vinted.co.uk/items/10559186968-mens-nike-woven-tech-jacket-size-xl",
       "lastPrice": 27,
       "firstSeenAt": "2026-10-27T18:26:54.493Z",
-      "lastSeenAt": "2026-10-27T18:26:54.493Z"
+      "lastSeenAt": "2026-10-29T06:23:15.299Z"
     },
     "10559019017": {
       "blockedReason": "price",
@@ -1475742,12 +1475742,12 @@
       "lastSeenAt": "2026-10-27T22:36:07.565Z"
     },
     "10542931187": {
-      "blockedReason": "price",
+      "blockedReason": "recovery-no-fresh-signal",
       "title": "vintage 00s nike gilet puffer mens small navy blue vest swoosh y2k 956",
       "url": "https://www.vinted.co.uk/items/10542931187-vintage-00s-nike-gilet-puffer-mens-small-navy-blue-vest-swoosh-y2k-956",
       "lastPrice": 40,
       "firstSeenAt": "2026-10-27T22:36:07.565Z",
-      "lastSeenAt": "2026-10-27T22:36:07.565Z"
+      "lastSeenAt": "2026-10-29T06:22:57.220Z"
     },
     "10529056612": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -1478913,7 +1478913,7 @@
       "url": "https://www.vinted.co.uk/items/10562477001-nike-sportswear-shox-woven-half-zip-hooded-jacket-m",
       "lastPrice": 69,
       "firstSeenAt": "2026-10-28T01:34:25.720Z",
-      "lastSeenAt": "2026-10-28T01:34:25.720Z"
+      "lastSeenAt": "2026-10-29T06:23:15.299Z"
     },
     "10562396262": {
       "blockedReason": "condition",
@@ -1482308,12 +1482308,23 @@
       "lastSeenAt": "2026-10-28T08:18:23.634Z"
     },
     "10564651544": {
-      "blockedReason": "recovery-no-fresh-signal",
       "title": "nike woven jacket grey size small",
       "url": "https://www.vinted.co.uk/items/10564651544-nike-woven-jacket-grey-size-small",
       "lastPrice": 13,
       "firstSeenAt": "2026-10-28T08:18:23.635Z",
-      "lastSeenAt": "2026-10-28T19:40:28.243Z"
+      "lastSeenAt": "2026-10-29T06:23:15.299Z",
+      "size": "S",
+      "condition": "veryGood",
+      "resale": 34,
+      "netProfit": 20.2,
+      "roi": 155.38,
+      "buyScore": 88,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-10-29T06:23:15.299Z",
+      "discordMessageId": "1565249640134352987"
     },
     "10563104857": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -1488855,7 +1488866,7 @@
       "url": "https://www.vinted.co.uk/items/10570665948-vintage-nike-acg-therma-fleece-full-zip-bomber-jacket-y2k-outdoors-retro-2000s",
       "lastPrice": 20,
       "firstSeenAt": "2026-10-28T19:42:31.194Z",
-      "lastSeenAt": "2026-10-28T19:42:31.194Z"
+      "lastSeenAt": "2026-10-29T06:23:41.767Z"
     },
     "10570421527": {
       "size": "S",
@@ -1489488,7 +1489499,7 @@
       "url": "https://www.vinted.co.uk/items/10577062030-fab-nike-sportswear-club-fleece-tracksuit-set-hoodie-joggers-black-size-l",
       "lastPrice": 55,
       "firstSeenAt": "2026-10-28T23:36:12.023Z",
-      "lastSeenAt": "2026-10-29T02:52:40.734Z"
+      "lastSeenAt": "2026-10-29T06:22:57.219Z"
     },
     "10576841701": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -1489496,7 +1489507,7 @@
       "url": "https://www.vinted.co.uk/items/10576841701-nike-black-quarter-zip-sweatshirt-size-l-bnwt",
       "lastPrice": 40,
       "firstSeenAt": "2026-10-28T23:36:12.024Z",
-      "lastSeenAt": "2026-10-29T02:52:40.734Z"
+      "lastSeenAt": "2026-10-29T06:22:57.219Z"
     },
     "10576444277": {
       "blockedReason": "keyword",
@@ -1489745,7 +1489756,7 @@
       "lastSeenAt": "2026-10-28T23:36:38.404Z"
     },
     "10577125842": {
-      "blockedReason": "score",
+      "blockedReason": "price",
       "size": "S",
       "condition": "veryGood",
       "resale": 52.25,
@@ -1489760,7 +1489771,7 @@
       "url": "https://www.vinted.co.uk/items/10577125842-nike-nrg-solo-swoosh-baggy-wide-leg-cargo-trousers",
       "lastPrice": 42,
       "firstSeenAt": "2026-10-28T23:36:43.024Z",
-      "lastSeenAt": "2026-10-28T23:36:43.024Z"
+      "lastSeenAt": "2026-10-29T06:25:13.756Z"
     },
     "10576380729": {
       "size": "S",
@@ -1491664,7 +1491675,7 @@
       "url": "https://www.vinted.co.uk/items/10577467830-mens-nike-golf-polo-shirt-size-l",
       "lastPrice": 5,
       "firstSeenAt": "2026-10-29T00:21:42.135Z",
-      "lastSeenAt": "2026-10-29T00:21:42.135Z"
+      "lastSeenAt": "2026-10-29T06:22:57.219Z"
     },
     "10577466260": {
       "blockedReason": "price",
@@ -1494372,7 +1494383,7 @@
       "url": "https://www.vinted.co.uk/items/10565316840-nike-tech-fleece-track-pants-kids",
       "lastPrice": 5.36,
       "firstSeenAt": "2026-10-29T02:53:06.414Z",
-      "lastSeenAt": "2026-10-29T02:53:06.414Z"
+      "lastSeenAt": "2026-10-29T06:25:49.534Z"
     },
     "10556017548": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -1494987,12 +1494998,12 @@
       "lastSeenAt": "2026-10-29T02:53:49.691Z"
     },
     "10574263388": {
-      "blockedReason": "condition",
+      "blockedReason": "recovery-no-fresh-signal",
       "title": "nike body warmer gilet black size m",
       "url": "https://www.vinted.co.uk/items/10574263388-nike-body-warmer-gilet-black-size-m",
       "lastPrice": 3,
       "firstSeenAt": "2026-10-29T02:53:49.692Z",
-      "lastSeenAt": "2026-10-29T02:53:49.692Z"
+      "lastSeenAt": "2026-10-29T06:22:57.219Z"
     },
     "10574242023": {
       "blockedReason": "price",
@@ -1495337,7 +1495348,7 @@
       "url": "https://www.vinted.co.uk/items/10578451418-women-nike-track-pants-snakeskin-windbreaker-joggers-size-s",
       "lastPrice": 25,
       "firstSeenAt": "2026-10-29T02:54:28.826Z",
-      "lastSeenAt": "2026-10-29T02:54:28.826Z"
+      "lastSeenAt": "2026-10-29T06:25:42.145Z"
     },
     "10578420718": {
       "blockedReason": "condition",
@@ -1495422,9 +1495433,9 @@
       "blockedReason": "recovery-no-fresh-signal",
       "title": "y2k nike navy blue windbreaker track pants",
       "url": "https://www.vinted.co.uk/items/10548695284-y2k-nike-navy-blue-windbreaker-track-pants",
-      "lastPrice": 21.3,
+      "lastPrice": 21.26,
       "firstSeenAt": "2026-10-29T02:54:32.623Z",
-      "lastSeenAt": "2026-10-29T02:54:32.623Z"
+      "lastSeenAt": "2026-10-29T06:25:49.534Z"
     },
     "10548690218": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -1496181,9 +1496192,9 @@
       "blockedReason": "recovery-no-fresh-signal",
       "title": "hooded nike rain coat",
       "url": "https://www.vinted.co.uk/items/10548272662-hooded-nike-rain-coat",
-      "lastPrice": 11.41,
+      "lastPrice": 11.39,
       "firstSeenAt": "2026-10-29T02:55:17.516Z",
-      "lastSeenAt": "2026-10-29T02:55:17.516Z"
+      "lastSeenAt": "2026-10-29T06:24:50.449Z"
     },
     "10546699103": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -1496296,6 +1496307,3061 @@
       "lastPrice": 25,
       "firstSeenAt": "2026-10-29T02:55:17.516Z",
       "lastSeenAt": "2026-10-29T02:55:17.516Z"
+    },
+    "10576701182": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike tech fleece jacket",
+      "url": "https://www.vinted.co.uk/items/10576701182-nike-tech-fleece-jacket",
+      "lastPrice": 25,
+      "firstSeenAt": "2026-10-29T06:22:57.219Z",
+      "lastSeenAt": "2026-10-29T06:22:57.219Z"
+    },
+    "10576141622": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "mens nike dri fit england tracksuit bottoms xl",
+      "url": "https://www.vinted.co.uk/items/10576141622-mens-nike-dri-fit-england-tracksuit-bottoms-xl",
+      "lastPrice": 15,
+      "firstSeenAt": "2026-10-29T06:22:57.219Z",
+      "lastSeenAt": "2026-10-29T06:22:57.219Z"
+    },
+    "10575140887": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "man city polo t shirt 17 18",
+      "url": "https://www.vinted.co.uk/items/10575140887-man-city-polo-t-shirt-17-18",
+      "lastPrice": 20,
+      "firstSeenAt": "2026-10-29T06:22:57.219Z",
+      "lastSeenAt": "2026-10-29T06:22:57.219Z"
+    },
+    "10574934584": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike dri fit tshirt sale united fc",
+      "url": "https://www.vinted.co.uk/items/10574934584-nike-dri-fit-tshirt-sale-united-fc",
+      "lastPrice": 10,
+      "firstSeenAt": "2026-10-29T06:22:57.219Z",
+      "lastSeenAt": "2026-10-29T06:22:57.219Z"
+    },
+    "10573600021": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "mens running top size m",
+      "url": "https://www.vinted.co.uk/items/10573600021-mens-running-top-size-m",
+      "lastPrice": 5,
+      "firstSeenAt": "2026-10-29T06:22:57.219Z",
+      "lastSeenAt": "2026-10-29T06:22:57.219Z"
+    },
+    "10573317286": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "boys nike joggers 147 158",
+      "url": "https://www.vinted.co.uk/items/10573317286-boys-nike-joggers-147-158",
+      "lastPrice": 4.5,
+      "firstSeenAt": "2026-10-29T06:22:57.219Z",
+      "lastSeenAt": "2026-10-29T06:22:57.219Z"
+    },
+    "10572312826": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike work out top",
+      "url": "https://www.vinted.co.uk/items/10572312826-nike-work-out-top",
+      "lastPrice": 10,
+      "firstSeenAt": "2026-10-29T06:22:57.219Z",
+      "lastSeenAt": "2026-10-29T06:22:57.219Z"
+    },
+    "10570167306": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike golf black polo",
+      "url": "https://www.vinted.co.uk/items/10570167306-nike-golf-black-polo",
+      "lastPrice": 10,
+      "firstSeenAt": "2026-10-29T06:22:57.219Z",
+      "lastSeenAt": "2026-10-29T06:22:57.219Z"
+    },
+    "10568543930": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "mens blue black nike tech fleece hoodie",
+      "url": "https://www.vinted.co.uk/items/10568543930-mens-blue-black-nike-tech-fleece-hoodie",
+      "lastPrice": 5,
+      "firstSeenAt": "2026-10-29T06:22:57.219Z",
+      "lastSeenAt": "2026-10-29T06:22:57.219Z"
+    },
+    "10567641664": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike kids windbreaker jacket",
+      "url": "https://www.vinted.co.uk/items/10567641664-nike-kids-windbreaker-jacket",
+      "lastPrice": 5,
+      "firstSeenAt": "2026-10-29T06:22:57.220Z",
+      "lastSeenAt": "2026-10-29T06:22:57.220Z"
+    },
+    "10564305104": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "mens nike climacool t shirt",
+      "url": "https://www.vinted.co.uk/items/10564305104-mens-nike-climacool-t-shirt",
+      "lastPrice": 4.5,
+      "firstSeenAt": "2026-10-29T06:22:57.220Z",
+      "lastSeenAt": "2026-10-29T06:22:57.220Z"
+    },
+    "10563366983": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike tshirt",
+      "url": "https://www.vinted.co.uk/items/10563366983-nike-tshirt",
+      "lastPrice": 2,
+      "firstSeenAt": "2026-10-29T06:22:57.220Z",
+      "lastSeenAt": "2026-10-29T06:22:57.220Z"
+    },
+    "10559862066": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "boys nike t shirt",
+      "url": "https://www.vinted.co.uk/items/10559862066-boys-nike-t-shirt",
+      "lastPrice": 2,
+      "firstSeenAt": "2026-10-29T06:22:57.220Z",
+      "lastSeenAt": "2026-10-29T06:22:57.220Z"
+    },
+    "10558780307": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike grey zip up jacket",
+      "url": "https://www.vinted.co.uk/items/10558780307-nike-grey-zip-up-jacket",
+      "lastPrice": 10,
+      "firstSeenAt": "2026-10-29T06:22:57.220Z",
+      "lastSeenAt": "2026-10-29T06:22:57.220Z"
+    },
+    "10557619348": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike dri fit quarter zip",
+      "url": "https://www.vinted.co.uk/items/10557619348-nike-dri-fit-quarter-zip",
+      "lastPrice": 12,
+      "firstSeenAt": "2026-10-29T06:22:57.220Z",
+      "lastSeenAt": "2026-10-29T06:22:57.220Z"
+    },
+    "10556163958": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike gym tshirt",
+      "url": "https://www.vinted.co.uk/items/10556163958-nike-gym-tshirt",
+      "lastPrice": 3,
+      "firstSeenAt": "2026-10-29T06:22:57.220Z",
+      "lastSeenAt": "2026-10-29T06:22:57.220Z"
+    },
+    "10554250068": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "girls nike cropped hoodie",
+      "url": "https://www.vinted.co.uk/items/10554250068-girls-nike-cropped-hoodie",
+      "lastPrice": 8,
+      "firstSeenAt": "2026-10-29T06:22:57.220Z",
+      "lastSeenAt": "2026-10-29T06:22:57.220Z"
+    },
+    "10553085474": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "202324 season chelsea fc home shirt for children",
+      "url": "https://www.vinted.co.uk/items/10553085474-202324-season-chelsea-fc-home-shirt-for-children",
+      "lastPrice": 15,
+      "firstSeenAt": "2026-10-29T06:22:57.220Z",
+      "lastSeenAt": "2026-10-29T06:22:57.220Z"
+    },
+    "10550989944": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike sportswear club bb script all over print hoodie white size xl",
+      "url": "https://www.vinted.co.uk/items/10550989944-nike-sportswear-club-bb-script-all-over-print-hoodie-white-size-xl",
+      "lastPrice": 15,
+      "firstSeenAt": "2026-10-29T06:22:57.220Z",
+      "lastSeenAt": "2026-10-29T06:22:57.220Z"
+    },
+    "10549613558": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike st louis cardinals zip up sweater",
+      "url": "https://www.vinted.co.uk/items/10549613558-nike-st-louis-cardinals-zip-up-sweater",
+      "lastPrice": 11.39,
+      "firstSeenAt": "2026-10-29T06:22:57.220Z",
+      "lastSeenAt": "2026-10-29T06:22:57.220Z"
+    },
+    "10549365274": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike hoodies size medium",
+      "url": "https://www.vinted.co.uk/items/10549365274-nike-hoodies-size-medium",
+      "lastPrice": 30,
+      "firstSeenAt": "2026-10-29T06:22:57.220Z",
+      "lastSeenAt": "2026-10-29T06:22:57.220Z"
+    },
+    "10548481701": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike run division top mid jacket black crop coat xs rrpps90",
+      "url": "https://www.vinted.co.uk/items/10548481701-nike-run-division-top-mid-jacket-black-crop-coat-xs-rrpps90",
+      "lastPrice": 90,
+      "firstSeenAt": "2026-10-29T06:22:57.220Z",
+      "lastSeenAt": "2026-10-29T06:22:57.220Z"
+    },
+    "10547995611": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "black nike tracksuit",
+      "url": "https://www.vinted.co.uk/items/10547995611-black-nike-tracksuit",
+      "lastPrice": 12,
+      "firstSeenAt": "2026-10-29T06:22:57.220Z",
+      "lastSeenAt": "2026-10-29T06:22:57.220Z"
+    },
+    "10545637205": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike running top",
+      "url": "https://www.vinted.co.uk/items/10545637205-nike-running-top",
+      "lastPrice": 4.5,
+      "firstSeenAt": "2026-10-29T06:22:57.220Z",
+      "lastSeenAt": "2026-10-29T06:22:57.220Z"
+    },
+    "10545424732": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike netherlands holland long sleeve training top royal blue womens medium bnwt",
+      "url": "https://www.vinted.co.uk/items/10545424732-nike-netherlands-holland-long-sleeve-training-top-royal-blue-womens-medium-bnwt",
+      "lastPrice": 13,
+      "firstSeenAt": "2026-10-29T06:22:57.220Z",
+      "lastSeenAt": "2026-10-29T06:22:57.220Z"
+    },
+    "10542329165": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike joggers",
+      "url": "https://www.vinted.co.uk/items/10542329165-nike-joggers",
+      "lastPrice": 8,
+      "firstSeenAt": "2026-10-29T06:22:57.220Z",
+      "lastSeenAt": "2026-10-29T06:22:57.220Z"
+    },
+    "10539081494": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike joggers",
+      "url": "https://www.vinted.co.uk/items/10539081494-nike-joggers",
+      "lastPrice": 7.5,
+      "firstSeenAt": "2026-10-29T06:22:57.220Z",
+      "lastSeenAt": "2026-10-29T06:22:57.220Z"
+    },
+    "10538282989": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "womens nike shorts",
+      "url": "https://www.vinted.co.uk/items/10538282989-womens-nike-shorts",
+      "lastPrice": 11.39,
+      "firstSeenAt": "2026-10-29T06:22:57.220Z",
+      "lastSeenAt": "2026-10-29T06:22:57.220Z"
+    },
+    "10537296133": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike cropped hoodie",
+      "url": "https://www.vinted.co.uk/items/10537296133-nike-cropped-hoodie",
+      "lastPrice": 22.78,
+      "firstSeenAt": "2026-10-29T06:22:57.220Z",
+      "lastSeenAt": "2026-10-29T06:22:57.220Z"
+    },
+    "10536154914": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike dri fit mens tracksuit jacket",
+      "url": "https://www.vinted.co.uk/items/10536154914-nike-dri-fit-mens-tracksuit-jacket",
+      "lastPrice": 10,
+      "firstSeenAt": "2026-10-29T06:22:57.220Z",
+      "lastSeenAt": "2026-10-29T06:22:57.220Z"
+    },
+    "10532782542": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike hoodie",
+      "url": "https://www.vinted.co.uk/items/10532782542-nike-hoodie",
+      "lastPrice": 9.11,
+      "firstSeenAt": "2026-10-29T06:22:57.220Z",
+      "lastSeenAt": "2026-10-29T06:22:57.220Z"
+    },
+    "10532236032": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike hoodie",
+      "url": "https://www.vinted.co.uk/items/10532236032-nike-hoodie",
+      "lastPrice": 3,
+      "firstSeenAt": "2026-10-29T06:22:57.220Z",
+      "lastSeenAt": "2026-10-29T06:22:57.220Z"
+    },
+    "10531728321": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "blue womens nike dri fit tank top size medium",
+      "url": "https://www.vinted.co.uk/items/10531728321-blue-womens-nike-dri-fit-tank-top-size-medium",
+      "lastPrice": 13.67,
+      "firstSeenAt": "2026-10-29T06:22:57.220Z",
+      "lastSeenAt": "2026-10-29T06:22:57.220Z"
+    },
+    "10518123715": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike dri fit full zip hoodie black mens large standard fit",
+      "url": "https://www.vinted.co.uk/items/10518123715-nike-dri-fit-full-zip-hoodie-black-mens-large-standard-fit",
+      "lastPrice": 34.17,
+      "firstSeenAt": "2026-10-29T06:22:57.220Z",
+      "lastSeenAt": "2026-10-29T06:22:57.220Z"
+    },
+    "10515750646": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike running dri fit element half zip hoodie teal warrior graphic mens medium gym fitness athletic",
+      "url": "https://www.vinted.co.uk/items/10515750646-nike-running-dri-fit-element-half-zip-hoodie-teal-warrior-graphic-mens-medium-gym-fitness-athletic",
+      "lastPrice": 9.11,
+      "firstSeenAt": "2026-10-29T06:22:57.220Z",
+      "lastSeenAt": "2026-10-29T06:22:57.220Z"
+    },
+    "10501736278": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "vintage nike windbreaker",
+      "url": "https://www.vinted.co.uk/items/10501736278-vintage-nike-windbreaker",
+      "lastPrice": 20.5,
+      "firstSeenAt": "2026-10-29T06:22:57.220Z",
+      "lastSeenAt": "2026-10-29T06:22:57.220Z"
+    },
+    "10576188882": {
+      "blockedReason": "price",
+      "title": "nike womens sportswear icon clash woven jacket black checker",
+      "url": "https://www.vinted.co.uk/items/10576188882-nike-womens-sportswear-icon-clash-woven-jacket-black-checker",
+      "lastPrice": 65,
+      "firstSeenAt": "2026-10-29T06:23:02.064Z",
+      "lastSeenAt": "2026-10-29T06:23:02.064Z"
+    },
+    "10574737980": {
+      "blockedReason": "price",
+      "title": "mens nike retro woven swoosh windbreaker jacket s",
+      "url": "https://www.vinted.co.uk/items/10574737980-mens-nike-retro-woven-swoosh-windbreaker-jacket-s",
+      "lastPrice": 27,
+      "firstSeenAt": "2026-10-29T06:23:02.064Z",
+      "lastSeenAt": "2026-10-29T06:23:02.064Z"
+    },
+    "10574053555": {
+      "size": "L",
+      "condition": "veryGood",
+      "resale": 37,
+      "netProfit": 14.2,
+      "roi": 64.55,
+      "buyScore": 62,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-10-29T06:23:06.249Z",
+      "discordMessageId": "1565249597268295681",
+      "title": "nike sportswear hooded woven track jacket blue navy orange white trim size l",
+      "url": "https://www.vinted.co.uk/items/10574053555-nike-sportswear-hooded-woven-track-jacket-blue-navy-orange-white-trim-size-l",
+      "lastPrice": 22,
+      "firstSeenAt": "2026-10-29T06:23:06.249Z",
+      "lastSeenAt": "2026-10-29T06:23:06.249Z"
+    },
+    "10573601240": {
+      "size": "S",
+      "condition": "veryGood",
+      "resale": 34,
+      "netProfit": 13.2,
+      "roi": 66,
+      "buyScore": 63,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-10-29T06:23:07.012Z",
+      "discordMessageId": "1565249605606711297",
+      "title": "nike woven jacket",
+      "url": "https://www.vinted.co.uk/items/10573601240-nike-woven-jacket",
+      "lastPrice": 20,
+      "firstSeenAt": "2026-10-29T06:23:07.012Z",
+      "lastSeenAt": "2026-10-29T06:23:07.012Z"
+    },
+    "10573545285": {
+      "blockedReason": "price",
+      "title": "nike dri fit woven unlimited jacket and trousers tracksuit set navy 2996",
+      "url": "https://www.vinted.co.uk/items/10573545285-nike-dri-fit-woven-unlimited-jacket-and-trousers-tracksuit-set-navy-2996",
+      "lastPrice": 70,
+      "firstSeenAt": "2026-10-29T06:23:07.012Z",
+      "lastSeenAt": "2026-10-29T06:23:07.012Z"
+    },
+    "10573514703": {
+      "blockedReason": "price",
+      "title": "nike zero fit woven unlimited jacket and trousers tracksuit set grey 3000",
+      "url": "https://www.vinted.co.uk/items/10573514703-nike-zero-fit-woven-unlimited-jacket-and-trousers-tracksuit-set-grey-3000",
+      "lastPrice": 70,
+      "firstSeenAt": "2026-10-29T06:23:07.012Z",
+      "lastSeenAt": "2026-10-29T06:23:07.012Z"
+    },
+    "10573170810": {
+      "blockedReason": "price",
+      "title": "nike air woven hooded track jacket",
+      "url": "https://www.vinted.co.uk/items/10573170810-nike-air-woven-hooded-track-jacket",
+      "lastPrice": 40,
+      "firstSeenAt": "2026-10-29T06:23:07.012Z",
+      "lastSeenAt": "2026-10-29T06:23:07.012Z"
+    },
+    "10572487736": {
+      "size": "L",
+      "condition": "veryGood",
+      "resale": 37,
+      "netProfit": 23.2,
+      "roi": 178.46,
+      "buyScore": 91,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-10-29T06:23:09.885Z",
+      "discordMessageId": "1565249617728241767",
+      "title": "nike icon woven basketball jacket",
+      "url": "https://www.vinted.co.uk/items/10572487736-nike-icon-woven-basketball-jacket",
+      "lastPrice": 13,
+      "firstSeenAt": "2026-10-29T06:23:09.885Z",
+      "lastSeenAt": "2026-10-29T06:23:09.885Z"
+    },
+    "10571735839": {
+      "blockedReason": "price",
+      "title": "nike windrunner womens loose uv woven full zip jacket small bnwt",
+      "url": "https://www.vinted.co.uk/items/10571735839-nike-windrunner-womens-loose-uv-woven-full-zip-jacket-small-bnwt",
+      "lastPrice": 50,
+      "firstSeenAt": "2026-10-29T06:23:09.885Z",
+      "lastSeenAt": "2026-10-29T06:23:09.885Z"
+    },
+    "10570107832": {
+      "blockedReason": "price",
+      "title": "nike running woven air run zip up lightweight windbreaker jacket in blue navy",
+      "url": "https://www.vinted.co.uk/items/10570107832-nike-running-woven-air-run-zip-up-lightweight-windbreaker-jacket-in-blue-navy",
+      "lastPrice": 30,
+      "firstSeenAt": "2026-10-29T06:23:09.885Z",
+      "lastSeenAt": "2026-10-29T06:23:09.885Z"
+    },
+    "10569962214": {
+      "blockedReason": "price",
+      "title": "nike france 2022 womens dri fit anthem jacket woven size xs 6 8 uk rrp ps75",
+      "url": "https://www.vinted.co.uk/items/10569962214-nike-france-2022-womens-dri-fit-anthem-jacket-woven-size-xs-6-8-uk-rrp-ps75",
+      "lastPrice": 75,
+      "firstSeenAt": "2026-10-29T06:23:09.885Z",
+      "lastSeenAt": "2026-10-29T06:23:09.885Z"
+    },
+    "10569059559": {
+      "blockedReason": "price",
+      "title": "nike life woven bomber jacket camo medium",
+      "url": "https://www.vinted.co.uk/items/10569059559-nike-life-woven-bomber-jacket-camo-medium",
+      "lastPrice": 39,
+      "firstSeenAt": "2026-10-29T06:23:09.885Z",
+      "lastSeenAt": "2026-10-29T06:23:50.250Z"
+    },
+    "10568121298": {
+      "blockedReason": "price",
+      "title": "nike air max woven jacket",
+      "url": "https://www.vinted.co.uk/items/10568121298-nike-air-max-woven-jacket",
+      "lastPrice": 65,
+      "firstSeenAt": "2026-10-29T06:23:09.885Z",
+      "lastSeenAt": "2026-10-29T06:23:09.885Z"
+    },
+    "10567010866": {
+      "size": "S",
+      "condition": "veryGood",
+      "resale": 34,
+      "netProfit": 21.2,
+      "roi": 176.67,
+      "buyScore": 91,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-10-29T06:23:13.184Z",
+      "discordMessageId": "1565249631338897460",
+      "title": "nike sportswear woven jacket navy blue hooded parka size s",
+      "url": "https://www.vinted.co.uk/items/10567010866-nike-sportswear-woven-jacket-navy-blue-hooded-parka-size-s",
+      "lastPrice": 12,
+      "firstSeenAt": "2026-10-29T06:23:13.184Z",
+      "lastSeenAt": "2026-10-29T06:23:13.184Z"
+    },
+    "10563038833": {
+      "blockedReason": "price",
+      "title": "nike woven jacket",
+      "url": "https://www.vinted.co.uk/items/10563038833-nike-woven-jacket",
+      "lastPrice": 39.99,
+      "firstSeenAt": "2026-10-29T06:23:15.299Z",
+      "lastSeenAt": "2026-10-29T06:23:15.299Z"
+    },
+    "10562803483": {
+      "blockedReason": "price",
+      "title": "nike sportswear basketball woven jacket black size l",
+      "url": "https://www.vinted.co.uk/items/10562803483-nike-sportswear-basketball-woven-jacket-black-size-l",
+      "lastPrice": 140,
+      "firstSeenAt": "2026-10-29T06:23:15.299Z",
+      "lastSeenAt": "2026-10-29T06:23:15.299Z"
+    },
+    "10546539837": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike tech woven jacket",
+      "url": "https://www.vinted.co.uk/items/10546539837-nike-tech-woven-jacket",
+      "lastPrice": 53.15,
+      "firstSeenAt": "2026-10-29T06:23:15.299Z",
+      "lastSeenAt": "2026-10-29T06:23:15.299Z"
+    },
+    "10545257885": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike essential repel woven jacket",
+      "url": "https://www.vinted.co.uk/items/10545257885-nike-essential-repel-woven-jacket",
+      "lastPrice": 20.5,
+      "firstSeenAt": "2026-10-29T06:23:15.299Z",
+      "lastSeenAt": "2026-10-29T06:23:15.299Z"
+    },
+    "10540493208": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike womens xs woven air max day jacket",
+      "url": "https://www.vinted.co.uk/items/10540493208-nike-womens-xs-woven-air-max-day-jacket",
+      "lastPrice": 13.94,
+      "firstSeenAt": "2026-10-29T06:23:15.299Z",
+      "lastSeenAt": "2026-10-29T06:23:15.299Z"
+    },
+    "10537909623": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike reissue 1993 woven track jacket size xl gray white black",
+      "url": "https://www.vinted.co.uk/items/10537909623-nike-reissue-1993-woven-track-jacket-size-xl-gray-white-black",
+      "lastPrice": 49.36,
+      "firstSeenAt": "2026-10-29T06:23:15.299Z",
+      "lastSeenAt": "2026-10-29T06:23:15.299Z"
+    },
+    "10537665757": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nwt nike sportswear indio woven lightweight jacket cucumber calm mint green size medium",
+      "url": "https://www.vinted.co.uk/items/10537665757-nwt-nike-sportswear-indio-woven-lightweight-jacket-cucumber-calm-mint-green-size-medium",
+      "lastPrice": 26.58,
+      "firstSeenAt": "2026-10-29T06:23:15.299Z",
+      "lastSeenAt": "2026-10-29T06:23:15.299Z"
+    },
+    "10537639185": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nwot nike sportswear reissue woven track jacket",
+      "url": "https://www.vinted.co.uk/items/10537639185-nwot-nike-sportswear-reissue-woven-track-jacket",
+      "lastPrice": 26.58,
+      "firstSeenAt": "2026-10-29T06:23:15.299Z",
+      "lastSeenAt": "2026-10-29T06:23:15.299Z"
+    },
+    "10537627733": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "genuine mens vintage y2k nike black and white woven track jacket size large",
+      "url": "https://www.vinted.co.uk/items/10537627733-genuine-mens-vintage-y2k-nike-black-and-white-woven-track-jacket-size-large",
+      "lastPrice": 25,
+      "firstSeenAt": "2026-10-29T06:23:15.299Z",
+      "lastSeenAt": "2026-10-29T06:23:15.299Z"
+    },
+    "10537329835": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike sport clash dri fit woven tracksuit set black red volt jacket xl pants l",
+      "url": "https://www.vinted.co.uk/items/10537329835-nike-sport-clash-dri-fit-woven-tracksuit-set-black-red-volt-jacket-xl-pants-l",
+      "lastPrice": 44.04,
+      "firstSeenAt": "2026-10-29T06:23:15.299Z",
+      "lastSeenAt": "2026-10-29T06:23:15.299Z"
+    },
+    "10536464600": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike air woven track top windbreaker whiteblack size s",
+      "url": "https://www.vinted.co.uk/items/10536464600-nike-air-woven-track-top-windbreaker-whiteblack-size-s",
+      "lastPrice": 56.95,
+      "firstSeenAt": "2026-10-29T06:23:15.299Z",
+      "lastSeenAt": "2026-10-29T06:23:15.299Z"
+    },
+    "10535387866": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike sb oversized woven twill jacket in maroon",
+      "url": "https://www.vinted.co.uk/items/10535387866-nike-sb-oversized-woven-twill-jacket-in-maroon",
+      "lastPrice": 45.56,
+      "firstSeenAt": "2026-10-29T06:23:15.299Z",
+      "lastSeenAt": "2026-10-29T06:23:15.299Z"
+    },
+    "10578781091": {
+      "size": "S",
+      "condition": "newWithoutTags",
+      "resale": 43,
+      "netProfit": 27.2,
+      "roi": 181.33,
+      "buyScore": 92,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-10-29T06:23:21.673Z",
+      "discordMessageId": "1565249667024031867",
+      "title": "nike tan bomber jacket",
+      "url": "https://www.vinted.co.uk/items/10578781091-nike-tan-bomber-jacket",
+      "lastPrice": 15,
+      "firstSeenAt": "2026-10-29T06:23:21.673Z",
+      "lastSeenAt": "2026-10-29T06:23:21.673Z"
+    },
+    "10577625466": {
+      "size": "M",
+      "condition": "veryGood",
+      "resale": 45,
+      "netProfit": 14.2,
+      "roi": 47.33,
+      "buyScore": 57,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-10-29T06:23:24.237Z",
+      "discordMessageId": "1565249677639688337",
+      "title": "nike bomber jacket with hood",
+      "url": "https://www.vinted.co.uk/items/10577625466-nike-bomber-jacket-with-hood",
+      "lastPrice": 30,
+      "firstSeenAt": "2026-10-29T06:23:24.237Z",
+      "lastSeenAt": "2026-10-29T06:23:24.237Z"
+    },
+    "10576101267": {
+      "blockedReason": "price",
+      "title": "nike 247 octa mens therma fit bomber jacket",
+      "url": "https://www.vinted.co.uk/items/10576101267-nike-247-octa-mens-therma-fit-bomber-jacket",
+      "lastPrice": 65,
+      "firstSeenAt": "2026-10-29T06:23:24.237Z",
+      "lastSeenAt": "2026-10-29T06:23:24.237Z"
+    },
+    "10575245491": {
+      "size": "S",
+      "condition": "veryGood",
+      "resale": 43,
+      "netProfit": 12.2,
+      "roi": 40.67,
+      "buyScore": 55,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-10-29T06:23:26.597Z",
+      "discordMessageId": "1565249687659880539",
+      "title": "nike temple owls full zip bomber jacket",
+      "url": "https://www.vinted.co.uk/items/10575245491-nike-temple-owls-full-zip-bomber-jacket",
+      "lastPrice": 30,
+      "firstSeenAt": "2026-10-29T06:23:26.597Z",
+      "lastSeenAt": "2026-10-29T06:23:26.597Z"
+    },
+    "10575111647": {
+      "size": "L",
+      "condition": "veryGood",
+      "resale": 48,
+      "netProfit": 31.2,
+      "roi": 195,
+      "buyScore": 98,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-10-29T06:23:28.636Z",
+      "discordMessageId": "1565249696287563806",
+      "title": "nike bomber jacket",
+      "url": "https://www.vinted.co.uk/items/10575111647-nike-bomber-jacket",
+      "lastPrice": 16,
+      "firstSeenAt": "2026-10-29T06:23:28.636Z",
+      "lastSeenAt": "2026-10-29T06:23:28.636Z"
+    },
+    "10574548998": {
+      "blockedReason": "condition",
+      "title": "nike bomber jacket size small",
+      "url": "https://www.vinted.co.uk/items/10574548998-nike-bomber-jacket-size-small",
+      "lastPrice": 7,
+      "firstSeenAt": "2026-10-29T06:23:28.637Z",
+      "lastSeenAt": "2026-10-29T06:23:28.637Z"
+    },
+    "10574059505": {
+      "blockedReason": "price",
+      "title": "vintage nike black bomber jacket mens large",
+      "url": "https://www.vinted.co.uk/items/10574059505-vintage-nike-black-bomber-jacket-mens-large",
+      "lastPrice": 39.99,
+      "firstSeenAt": "2026-10-29T06:23:28.637Z",
+      "lastSeenAt": "2026-10-29T06:23:28.637Z"
+    },
+    "10573097020": {
+      "size": "L",
+      "condition": "veryGood",
+      "resale": 48,
+      "netProfit": 28.2,
+      "roi": 148.42,
+      "buyScore": 86,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-10-29T06:23:31.109Z",
+      "discordMessageId": "1565249706710270023",
+      "title": "large black nike bomber jacket",
+      "url": "https://www.vinted.co.uk/items/10573097020-large-black-nike-bomber-jacket",
+      "lastPrice": 19,
+      "firstSeenAt": "2026-10-29T06:23:31.109Z",
+      "lastSeenAt": "2026-10-29T06:23:31.109Z"
+    },
+    "10572882682": {
+      "blockedReason": "price",
+      "title": "nike inter milan black bomber jacket retro football",
+      "url": "https://www.vinted.co.uk/items/10572882682-nike-inter-milan-black-bomber-jacket-retro-football",
+      "lastPrice": 70,
+      "firstSeenAt": "2026-10-29T06:23:31.109Z",
+      "lastSeenAt": "2026-10-29T06:23:31.109Z"
+    },
+    "10572843750": {
+      "size": "L",
+      "condition": "veryGood",
+      "resale": 48,
+      "netProfit": 27.2,
+      "roi": 136,
+      "buyScore": 84,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-10-29T06:23:33.813Z",
+      "discordMessageId": "1565249718060056688",
+      "title": "nike mens bomber",
+      "url": "https://www.vinted.co.uk/items/10572843750-nike-mens-bomber",
+      "lastPrice": 20,
+      "firstSeenAt": "2026-10-29T06:23:33.813Z",
+      "lastSeenAt": "2026-10-29T06:23:33.813Z"
+    },
+    "10571995761": {
+      "size": "M",
+      "condition": "veryGood",
+      "resale": 45,
+      "netProfit": 19.2,
+      "roi": 76.8,
+      "buyScore": 65,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-10-29T06:23:36.412Z",
+      "discordMessageId": "1565249728923435030",
+      "title": "nike aps repel versatile bomber jacket thunder blue size m",
+      "url": "https://www.vinted.co.uk/items/10571995761-nike-aps-repel-versatile-bomber-jacket-thunder-blue-size-m",
+      "lastPrice": 25,
+      "firstSeenAt": "2026-10-29T06:23:36.412Z",
+      "lastSeenAt": "2026-10-29T06:23:36.412Z"
+    },
+    "10571128557": {
+      "size": "M",
+      "condition": "veryGood",
+      "resale": 45,
+      "netProfit": 34.2,
+      "roi": 342,
+      "buyScore": 100,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-10-29T06:23:39.198Z",
+      "discordMessageId": "1565249740122234972",
+      "title": "black nike bomber jacket",
+      "url": "https://www.vinted.co.uk/items/10571128557-black-nike-bomber-jacket",
+      "lastPrice": 10,
+      "firstSeenAt": "2026-10-29T06:23:39.198Z",
+      "lastSeenAt": "2026-10-29T06:23:39.198Z"
+    },
+    "10570852794": {
+      "blockedReason": "price",
+      "title": "vintage nike sportswear faux suede destroyer varsity jacket 1 love old skool",
+      "url": "https://www.vinted.co.uk/items/10570852794-vintage-nike-sportswear-faux-suede-destroyer-varsity-jacket-1-love-old-skool",
+      "lastPrice": 90,
+      "firstSeenAt": "2026-10-29T06:23:39.198Z",
+      "lastSeenAt": "2026-10-29T06:23:39.198Z"
+    },
+    "10570826480": {
+      "size": "L",
+      "condition": "veryGood",
+      "resale": 48,
+      "netProfit": 32.2,
+      "roi": 214.67,
+      "buyScore": 99,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-10-29T06:23:41.766Z",
+      "discordMessageId": "1565249750905921540",
+      "title": "nike bomber jacket",
+      "url": "https://www.vinted.co.uk/items/10570826480-nike-bomber-jacket",
+      "lastPrice": 15,
+      "firstSeenAt": "2026-10-29T06:23:41.766Z",
+      "lastSeenAt": "2026-10-29T06:23:41.766Z"
+    },
+    "10570511245": {
+      "size": "L",
+      "condition": "veryGood",
+      "resale": 48,
+      "netProfit": 33.2,
+      "roi": 237.14,
+      "buyScore": 99,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-10-29T06:23:44.447Z",
+      "discordMessageId": "1565249762364756070",
+      "title": "reversible nike bomber",
+      "url": "https://www.vinted.co.uk/items/10570511245-reversible-nike-bomber",
+      "lastPrice": 14,
+      "firstSeenAt": "2026-10-29T06:23:44.447Z",
+      "lastSeenAt": "2026-10-29T06:23:44.447Z"
+    },
+    "10570475099": {
+      "blockedReason": "condition",
+      "title": "nike cord bomber jacket sports coat navy blue xl",
+      "url": "https://www.vinted.co.uk/items/10570475099-nike-cord-bomber-jacket-sports-coat-navy-blue-xl",
+      "lastPrice": 15,
+      "firstSeenAt": "2026-10-29T06:23:44.447Z",
+      "lastSeenAt": "2026-10-29T06:23:44.447Z"
+    },
+    "10570135330": {
+      "blockedReason": "condition",
+      "title": "retro nike bomber jacket",
+      "url": "https://www.vinted.co.uk/items/10570135330-retro-nike-bomber-jacket",
+      "lastPrice": 15,
+      "firstSeenAt": "2026-10-29T06:23:44.447Z",
+      "lastSeenAt": "2026-10-29T06:23:44.447Z"
+    },
+    "10569876396": {
+      "blockedReason": "price",
+      "title": "nike sportswear essential womens oversized bomber jacket size uk 10 rrp ps110",
+      "url": "https://www.vinted.co.uk/items/10569876396-nike-sportswear-essential-womens-oversized-bomber-jacket-size-uk-10-rrp-ps110",
+      "lastPrice": 110,
+      "firstSeenAt": "2026-10-29T06:23:44.448Z",
+      "lastSeenAt": "2026-10-29T06:23:44.448Z"
+    },
+    "10569871570": {
+      "size": "L",
+      "condition": "veryGood",
+      "resale": 48,
+      "netProfit": 22.2,
+      "roi": 88.8,
+      "buyScore": 75,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-10-29T06:23:47.054Z",
+      "discordMessageId": "1565249773110300776",
+      "title": "nike bomber",
+      "url": "https://www.vinted.co.uk/items/10569871570-nike-bomber",
+      "lastPrice": 25,
+      "firstSeenAt": "2026-10-29T06:23:47.054Z",
+      "lastSeenAt": "2026-10-29T06:23:47.054Z"
+    },
+    "10569657360": {
+      "size": "S",
+      "condition": "veryGood",
+      "resale": 43,
+      "netProfit": 17.2,
+      "roi": 68.8,
+      "buyScore": 63,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-10-29T06:23:50.250Z",
+      "discordMessageId": "1565249787010220033",
+      "title": "nike bomber jacket",
+      "url": "https://www.vinted.co.uk/items/10569657360-nike-bomber-jacket",
+      "lastPrice": 25,
+      "firstSeenAt": "2026-10-29T06:23:50.250Z",
+      "lastSeenAt": "2026-10-29T06:23:50.250Z"
+    },
+    "10569237194": {
+      "blockedReason": "condition",
+      "title": "vintage nike athletic bomber",
+      "url": "https://www.vinted.co.uk/items/10569237194-vintage-nike-athletic-bomber",
+      "lastPrice": 25,
+      "firstSeenAt": "2026-10-29T06:23:50.250Z",
+      "lastSeenAt": "2026-10-29T06:23:50.250Z"
+    },
+    "10569214236": {
+      "blockedReason": "price",
+      "title": "nike sportswear reversible swoosh synthetic fill therma fit bomber jacket medium",
+      "url": "https://www.vinted.co.uk/items/10569214236-nike-sportswear-reversible-swoosh-synthetic-fill-therma-fit-bomber-jacket-medium",
+      "lastPrice": 45,
+      "firstSeenAt": "2026-10-29T06:23:50.250Z",
+      "lastSeenAt": "2026-10-29T06:23:50.250Z"
+    },
+    "10568904139": {
+      "blockedReason": "condition",
+      "title": "nike golf full zip fleece wool bomber jacket grey womens size s 28",
+      "url": "https://www.vinted.co.uk/items/10568904139-nike-golf-full-zip-fleece-wool-bomber-jacket-grey-womens-size-s-28",
+      "lastPrice": 3.99,
+      "firstSeenAt": "2026-10-29T06:23:50.250Z",
+      "lastSeenAt": "2026-10-29T06:23:50.250Z"
+    },
+    "10566154063": {
+      "size": "L",
+      "condition": "veryGood",
+      "resale": 48,
+      "netProfit": 37.2,
+      "roi": 372,
+      "buyScore": 100,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-10-29T06:23:53.047Z",
+      "discordMessageId": "1565249798733307925",
+      "title": "nike cropped bomber shell jacket",
+      "url": "https://www.vinted.co.uk/items/10566154063-nike-cropped-bomber-shell-jacket",
+      "lastPrice": 10,
+      "firstSeenAt": "2026-10-29T06:23:53.047Z",
+      "lastSeenAt": "2026-10-29T06:23:53.047Z"
+    },
+    "10552763874": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike mens bomber jacket",
+      "url": "https://www.vinted.co.uk/items/10552763874-nike-mens-bomber-jacket",
+      "lastPrice": 6.97,
+      "firstSeenAt": "2026-10-29T06:23:53.047Z",
+      "lastSeenAt": "2026-10-29T06:23:53.047Z"
+    },
+    "10550808403": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike sportswear tech fleece aeroloft down bomber fill goose down insulation winter athletic",
+      "url": "https://www.vinted.co.uk/items/10550808403-nike-sportswear-tech-fleece-aeroloft-down-bomber-fill-goose-down-insulation-winter-athletic",
+      "lastPrice": 39.49,
+      "firstSeenAt": "2026-10-29T06:23:53.047Z",
+      "lastSeenAt": "2026-10-29T06:23:53.047Z"
+    },
+    "10550507001": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike sportswear jacket medium sherpa bomber varsity fleece black white panda",
+      "url": "https://www.vinted.co.uk/items/10550507001-nike-sportswear-jacket-medium-sherpa-bomber-varsity-fleece-black-white-panda",
+      "lastPrice": 37.21,
+      "firstSeenAt": "2026-10-29T06:23:53.047Z",
+      "lastSeenAt": "2026-10-29T06:23:53.047Z"
+    },
+    "10549218684": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike youth bomber jacket",
+      "url": "https://www.vinted.co.uk/items/10549218684-nike-youth-bomber-jacket",
+      "lastPrice": 26.58,
+      "firstSeenAt": "2026-10-29T06:23:53.047Z",
+      "lastSeenAt": "2026-10-29T06:23:53.047Z"
+    },
+    "10547991431": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike air jordan boys jumpman bomber jacket youth small ys excellet almost new condition",
+      "url": "https://www.vinted.co.uk/items/10547991431-nike-air-jordan-boys-jumpman-bomber-jacket-youth-small-ys-excellet-almost-new-condition",
+      "lastPrice": 16.71,
+      "firstSeenAt": "2026-10-29T06:23:53.047Z",
+      "lastSeenAt": "2026-10-29T06:23:53.047Z"
+    },
+    "10547976900": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "rare nike jordan mens leather wool varsity bomber jacket mens size large",
+      "url": "https://www.vinted.co.uk/items/10547976900-rare-nike-jordan-mens-leather-wool-varsity-bomber-jacket-mens-size-large",
+      "lastPrice": 94.92,
+      "firstSeenAt": "2026-10-29T06:23:53.047Z",
+      "lastSeenAt": "2026-10-29T06:23:53.047Z"
+    },
+    "10545589357": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike womens bomber jacket size large",
+      "url": "https://www.vinted.co.uk/items/10545589357-nike-womens-bomber-jacket-size-large",
+      "lastPrice": 15.19,
+      "firstSeenAt": "2026-10-29T06:23:53.047Z",
+      "lastSeenAt": "2026-10-29T06:23:53.047Z"
+    },
+    "10545115648": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike detroit lions salute to service bomber jacket medium nwt",
+      "url": "https://www.vinted.co.uk/items/10545115648-nike-detroit-lions-salute-to-service-bomber-jacket-medium-nwt",
+      "lastPrice": 113.9,
+      "firstSeenAt": "2026-10-29T06:23:53.047Z",
+      "lastSeenAt": "2026-10-29T06:23:53.047Z"
+    },
+    "10543800192": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike nfl san francisco 49ers varsity bomber jacket",
+      "url": "https://www.vinted.co.uk/items/10543800192-nike-nfl-san-francisco-49ers-varsity-bomber-jacket",
+      "lastPrice": 41.76,
+      "firstSeenAt": "2026-10-29T06:23:53.047Z",
+      "lastSeenAt": "2026-10-29T06:23:53.047Z"
+    },
+    "10541739733": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "girls xl nike bomber jacket",
+      "url": "https://www.vinted.co.uk/items/10541739733-girls-xl-nike-bomber-jacket",
+      "lastPrice": 37.97,
+      "firstSeenAt": "2026-10-29T06:23:53.047Z",
+      "lastSeenAt": "2026-10-29T06:23:53.047Z"
+    },
+    "10538182691": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike cropped bomber jacket",
+      "url": "https://www.vinted.co.uk/items/10538182691-nike-cropped-bomber-jacket",
+      "lastPrice": 26.58,
+      "firstSeenAt": "2026-10-29T06:23:53.047Z",
+      "lastSeenAt": "2026-10-29T06:23:53.047Z"
+    },
+    "10538158593": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike womens bomber jacket",
+      "url": "https://www.vinted.co.uk/items/10538158593-nike-womens-bomber-jacket",
+      "lastPrice": 37.21,
+      "firstSeenAt": "2026-10-29T06:23:53.047Z",
+      "lastSeenAt": "2026-10-29T06:23:53.047Z"
+    },
+    "10537673572": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike team womens oversized varsity bomber jacket lavender lilac light purple",
+      "url": "https://www.vinted.co.uk/items/10537673572-nike-team-womens-oversized-varsity-bomber-jacket-lavender-lilac-light-purple",
+      "lastPrice": 26.58,
+      "firstSeenAt": "2026-10-29T06:23:53.047Z",
+      "lastSeenAt": "2026-10-29T06:23:53.047Z"
+    },
+    "10537606810": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike black cropped bomber track jacket with white shoulder stripes",
+      "url": "https://www.vinted.co.uk/items/10537606810-nike-black-cropped-bomber-track-jacket-with-white-shoulder-stripes",
+      "lastPrice": 11.39,
+      "firstSeenAt": "2026-10-29T06:23:53.047Z",
+      "lastSeenAt": "2026-10-29T06:23:53.047Z"
+    },
+    "10537226369": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "bomber jacket",
+      "url": "https://www.vinted.co.uk/items/10537226369-bomber-jacket",
+      "lastPrice": 14.43,
+      "firstSeenAt": "2026-10-29T06:23:53.048Z",
+      "lastSeenAt": "2026-10-29T06:23:53.048Z"
+    },
+    "10537018752": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "kids nike bomber jacket",
+      "url": "https://www.vinted.co.uk/items/10537018752-kids-nike-bomber-jacket",
+      "lastPrice": 15.19,
+      "firstSeenAt": "2026-10-29T06:23:53.048Z",
+      "lastSeenAt": "2026-10-29T06:23:53.048Z"
+    },
+    "10535870699": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike dry fit bomber jacket",
+      "url": "https://www.vinted.co.uk/items/10535870699-nike-dry-fit-bomber-jacket",
+      "lastPrice": 11.39,
+      "firstSeenAt": "2026-10-29T06:23:53.048Z",
+      "lastSeenAt": "2026-10-29T06:23:53.048Z"
+    },
+    "10532600637": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike air modern satin bomber",
+      "url": "https://www.vinted.co.uk/items/10532600637-nike-air-modern-satin-bomber",
+      "lastPrice": 26.58,
+      "firstSeenAt": "2026-10-29T06:23:53.048Z",
+      "lastSeenAt": "2026-10-29T06:23:53.048Z"
+    },
+    "10578967175": {
+      "size": "L",
+      "condition": "veryGood",
+      "resale": 48,
+      "netProfit": 27.2,
+      "roi": 136,
+      "buyScore": 82,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-10-29T06:24:00.287Z",
+      "discordMessageId": "1565249828945137675",
+      "title": "nike coat girls l",
+      "url": "https://www.vinted.co.uk/items/10578967175-nike-coat-girls-l",
+      "lastPrice": 20,
+      "firstSeenAt": "2026-10-29T06:24:00.287Z",
+      "lastSeenAt": "2026-10-29T06:24:00.287Z"
+    },
+    "10578892512": {
+      "blockedReason": "size",
+      "title": "nike coat no arms",
+      "url": "https://www.vinted.co.uk/items/10578892512-nike-coat-no-arms",
+      "lastPrice": 10,
+      "firstSeenAt": "2026-10-29T06:24:02.107Z",
+      "lastSeenAt": "2026-10-29T06:24:02.107Z"
+    },
+    "10578204979": {
+      "blockedReason": "price",
+      "title": "nike x nocta sideline neg trench coat",
+      "url": "https://www.vinted.co.uk/items/10578204979-nike-x-nocta-sideline-neg-trench-coat",
+      "lastPrice": 85,
+      "firstSeenAt": "2026-10-29T06:24:02.107Z",
+      "lastSeenAt": "2026-10-29T06:24:02.107Z"
+    },
+    "10578051794": {
+      "blockedReason": "price",
+      "title": "nike coat",
+      "url": "https://www.vinted.co.uk/items/10578051794-nike-coat",
+      "lastPrice": 60,
+      "firstSeenAt": "2026-10-29T06:24:02.108Z",
+      "lastSeenAt": "2026-10-29T06:24:02.108Z"
+    },
+    "10578046110": {
+      "blockedReason": "condition",
+      "title": "nike coat",
+      "url": "https://www.vinted.co.uk/items/10578046110-nike-coat",
+      "lastPrice": 60,
+      "firstSeenAt": "2026-10-29T06:24:02.108Z",
+      "lastSeenAt": "2026-10-29T06:24:02.108Z"
+    },
+    "10578021621": {
+      "blockedReason": "condition",
+      "title": "nike puffer coat",
+      "url": "https://www.vinted.co.uk/items/10578021621-nike-puffer-coat",
+      "lastPrice": 74,
+      "firstSeenAt": "2026-10-29T06:24:02.108Z",
+      "lastSeenAt": "2026-10-29T06:24:02.108Z"
+    },
+    "10577959739": {
+      "size": "M",
+      "condition": "veryGood",
+      "resale": 45,
+      "netProfit": 24.2,
+      "roi": 121,
+      "buyScore": 80,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-10-29T06:24:05.131Z",
+      "discordMessageId": "1565249849010429996",
+      "title": "nike coat black medium mens",
+      "url": "https://www.vinted.co.uk/items/10577959739-nike-coat-black-medium-mens",
+      "lastPrice": 20,
+      "firstSeenAt": "2026-10-29T06:24:05.131Z",
+      "lastSeenAt": "2026-10-29T06:24:05.131Z"
+    },
+    "10577823051": {
+      "blockedReason": "price",
+      "title": "nike coat",
+      "url": "https://www.vinted.co.uk/items/10577823051-nike-coat",
+      "lastPrice": 40,
+      "firstSeenAt": "2026-10-29T06:24:05.131Z",
+      "lastSeenAt": "2026-10-29T06:24:05.131Z"
+    },
+    "10577818681": {
+      "size": "XL",
+      "condition": "veryGood",
+      "resale": 50,
+      "netProfit": 37.2,
+      "roi": 310,
+      "buyScore": 99,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-10-29T06:24:07.946Z",
+      "discordMessageId": "1565249860859465809",
+      "title": "nike coat body",
+      "url": "https://www.vinted.co.uk/items/10577818681-nike-coat-body",
+      "lastPrice": 12,
+      "firstSeenAt": "2026-10-29T06:24:07.946Z",
+      "lastSeenAt": "2026-10-29T06:24:07.946Z"
+    },
+    "10577667322": {
+      "blockedReason": "condition",
+      "title": "nike boys puffer jacket coat black hooded windrunner winter padded age 4 5 years",
+      "url": "https://www.vinted.co.uk/items/10577667322-nike-boys-puffer-jacket-coat-black-hooded-windrunner-winter-padded-age-4-5-years",
+      "lastPrice": 10,
+      "firstSeenAt": "2026-10-29T06:24:07.946Z",
+      "lastSeenAt": "2026-10-29T06:24:07.946Z"
+    },
+    "10577603233": {
+      "size": "M",
+      "condition": "veryGood",
+      "resale": 45,
+      "netProfit": 14.2,
+      "roi": 47.33,
+      "buyScore": 55,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-10-29T06:24:10.658Z",
+      "discordMessageId": "1565249872469168260",
+      "title": "nike coat jacket",
+      "url": "https://www.vinted.co.uk/items/10577603233-nike-coat-jacket",
+      "lastPrice": 30,
+      "firstSeenAt": "2026-10-29T06:24:10.658Z",
+      "lastSeenAt": "2026-10-29T06:24:10.658Z"
+    },
+    "10577577371": {
+      "size": "L",
+      "condition": "veryGood",
+      "resale": 48,
+      "netProfit": 28.2,
+      "roi": 148.42,
+      "buyScore": 84,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-10-29T06:24:12.791Z",
+      "discordMessageId": "1565249881495441509",
+      "title": "black nike coat windbreaker junior large 147 158cm",
+      "url": "https://www.vinted.co.uk/items/10577577371-black-nike-coat-windbreaker-junior-large-147-158cm",
+      "lastPrice": 19,
+      "firstSeenAt": "2026-10-29T06:24:12.791Z",
+      "lastSeenAt": "2026-10-29T06:24:12.791Z"
+    },
+    "10577553617": {
+      "size": "S",
+      "condition": "veryGood",
+      "resale": 43,
+      "netProfit": 24.7,
+      "roi": 141.14,
+      "buyScore": 83,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-10-29T06:24:15.105Z",
+      "discordMessageId": "1565249891209318431",
+      "title": "nike windbreaker coat mens size s small black",
+      "url": "https://www.vinted.co.uk/items/10577553617-nike-windbreaker-coat-mens-size-s-small-black",
+      "lastPrice": 17.5,
+      "firstSeenAt": "2026-10-29T06:24:15.105Z",
+      "lastSeenAt": "2026-10-29T06:24:15.105Z"
+    },
+    "10577528653": {
+      "size": "XS",
+      "condition": "veryGood",
+      "resale": 40,
+      "netProfit": 21.7,
+      "roi": 124,
+      "buyScore": 80,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-10-29T06:24:17.018Z",
+      "discordMessageId": "1565249899019247717",
+      "title": "nike coat",
+      "url": "https://www.vinted.co.uk/items/10577528653-nike-coat",
+      "lastPrice": 17.5,
+      "firstSeenAt": "2026-10-29T06:24:17.018Z",
+      "lastSeenAt": "2026-10-29T06:24:17.018Z"
+    },
+    "10577512433": {
+      "blockedReason": "keyword",
+      "title": "toddler nike coat",
+      "url": "https://www.vinted.co.uk/items/10577512433-toddler-nike-coat",
+      "lastPrice": 5,
+      "firstSeenAt": "2026-10-29T06:24:17.018Z",
+      "lastSeenAt": "2026-10-29T06:24:17.018Z"
+    },
+    "10577487328": {
+      "size": "S",
+      "condition": "veryGood",
+      "resale": 43,
+      "netProfit": 32.2,
+      "roi": 322,
+      "buyScore": 100,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-10-29T06:24:19.202Z",
+      "discordMessageId": "1565249908234129489",
+      "title": "boys nike coat",
+      "url": "https://www.vinted.co.uk/items/10577487328-boys-nike-coat",
+      "lastPrice": 10,
+      "firstSeenAt": "2026-10-29T06:24:19.202Z",
+      "lastSeenAt": "2026-10-29T06:24:19.202Z"
+    },
+    "10577487093": {
+      "size": "S",
+      "condition": "veryGood",
+      "resale": 43,
+      "netProfit": 22.2,
+      "roi": 111,
+      "buyScore": 78,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-10-29T06:24:21.131Z",
+      "discordMessageId": "1565249916471611514",
+      "title": "nike puffer coat",
+      "url": "https://www.vinted.co.uk/items/10577487093-nike-puffer-coat",
+      "lastPrice": 20,
+      "firstSeenAt": "2026-10-29T06:24:21.131Z",
+      "lastSeenAt": "2026-10-29T06:24:21.131Z"
+    },
+    "10577469393": {
+      "blockedReason": "size",
+      "title": "nike coat",
+      "url": "https://www.vinted.co.uk/items/10577469393-nike-coat",
+      "lastPrice": 11,
+      "firstSeenAt": "2026-10-29T06:24:23.707Z",
+      "lastSeenAt": "2026-10-29T06:24:23.707Z"
+    },
+    "10577451840": {
+      "size": "M",
+      "condition": "veryGood",
+      "resale": 45,
+      "netProfit": 14.2,
+      "roi": 47.33,
+      "buyScore": 55,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-10-29T06:24:26.012Z",
+      "discordMessageId": "1565249936503873617",
+      "title": "england nike official windbreaker coat",
+      "url": "https://www.vinted.co.uk/items/10577451840-england-nike-official-windbreaker-coat",
+      "lastPrice": 30,
+      "firstSeenAt": "2026-10-29T06:24:26.012Z",
+      "lastSeenAt": "2026-10-29T06:24:26.012Z"
+    },
+    "10577300625": {
+      "size": "M",
+      "condition": "veryGood",
+      "resale": 45,
+      "netProfit": 33.2,
+      "roi": 301.82,
+      "buyScore": 99,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-10-29T06:24:27.820Z",
+      "discordMessageId": "1565249944300814358",
+      "title": "black nike puffer jacket coat unisex",
+      "url": "https://www.vinted.co.uk/items/10577300625-black-nike-puffer-jacket-coat-unisex",
+      "lastPrice": 11,
+      "firstSeenAt": "2026-10-29T06:24:27.820Z",
+      "lastSeenAt": "2026-10-29T06:24:27.820Z"
+    },
+    "10577198636": {
+      "blockedReason": "condition",
+      "title": "nike bots coat size m",
+      "url": "https://www.vinted.co.uk/items/10577198636-nike-bots-coat-size-m",
+      "lastPrice": 5,
+      "firstSeenAt": "2026-10-29T06:24:27.821Z",
+      "lastSeenAt": "2026-10-29T06:24:27.821Z"
+    },
+    "10577160247": {
+      "blockedReason": "price",
+      "title": "brand new 9 12 months nike coat",
+      "url": "https://www.vinted.co.uk/items/10577160247-brand-new-9-12-months-nike-coat",
+      "lastPrice": 38,
+      "firstSeenAt": "2026-10-29T06:24:27.821Z",
+      "lastSeenAt": "2026-10-29T06:24:27.821Z"
+    },
+    "10577134597": {
+      "blockedReason": "condition",
+      "title": "boys nike puffer coat",
+      "url": "https://www.vinted.co.uk/items/10577134597-boys-nike-puffer-coat",
+      "lastPrice": 8,
+      "firstSeenAt": "2026-10-29T06:24:27.821Z",
+      "lastSeenAt": "2026-10-29T06:24:27.821Z"
+    },
+    "10577095821": {
+      "blockedReason": "size",
+      "title": "nike black coat pink logo 10 11 yrs 137 147cm",
+      "url": "https://www.vinted.co.uk/items/10577095821-nike-black-coat-pink-logo-10-11-yrs-137-147cm",
+      "lastPrice": 15,
+      "firstSeenAt": "2026-10-29T06:24:29.440Z",
+      "lastSeenAt": "2026-10-29T06:24:29.440Z"
+    },
+    "10577079530": {
+      "size": "XS",
+      "condition": "veryGood",
+      "resale": 40,
+      "netProfit": 27.2,
+      "roi": 226.67,
+      "buyScore": 93,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-10-29T06:24:32.743Z",
+      "discordMessageId": "1565249964878069864",
+      "title": "boys nike coat xs",
+      "url": "https://www.vinted.co.uk/items/10577079530-boys-nike-coat-xs",
+      "lastPrice": 12,
+      "firstSeenAt": "2026-10-29T06:24:32.743Z",
+      "lastSeenAt": "2026-10-29T06:24:32.743Z"
+    },
+    "10576874098": {
+      "blockedReason": "keyword",
+      "title": "baby boy nike coat",
+      "url": "https://www.vinted.co.uk/items/10576874098-baby-boy-nike-coat",
+      "lastPrice": 20,
+      "firstSeenAt": "2026-10-29T06:24:32.743Z",
+      "lastSeenAt": "2026-10-29T06:24:32.743Z"
+    },
+    "10576858751": {
+      "blockedReason": "price",
+      "title": "womens nike coat",
+      "url": "https://www.vinted.co.uk/items/10576858751-womens-nike-coat",
+      "lastPrice": 40,
+      "firstSeenAt": "2026-10-29T06:24:32.743Z",
+      "lastSeenAt": "2026-10-29T06:24:32.743Z"
+    },
+    "10576825342": {
+      "blockedReason": "price",
+      "title": "nike raincoat",
+      "url": "https://www.vinted.co.uk/items/10576825342-nike-raincoat",
+      "lastPrice": 60,
+      "firstSeenAt": "2026-10-29T06:24:32.743Z",
+      "lastSeenAt": "2026-10-29T06:24:32.743Z"
+    },
+    "10576819212": {
+      "blockedReason": "condition",
+      "title": "reversible nike coat",
+      "url": "https://www.vinted.co.uk/items/10576819212-reversible-nike-coat",
+      "lastPrice": 8,
+      "firstSeenAt": "2026-10-29T06:24:32.743Z",
+      "lastSeenAt": "2026-10-29T06:24:32.743Z"
+    },
+    "10576768492": {
+      "blockedReason": "keyword",
+      "title": "nike coat for kids",
+      "url": "https://www.vinted.co.uk/items/10576768492-nike-coat-for-kids",
+      "lastPrice": 5,
+      "firstSeenAt": "2026-10-29T06:24:32.743Z",
+      "lastSeenAt": "2026-10-29T06:24:32.743Z"
+    },
+    "10576766495": {
+      "size": "XL",
+      "condition": "veryGood",
+      "resale": 50,
+      "netProfit": 33.2,
+      "roi": 207.5,
+      "buyScore": 97,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-10-29T06:24:34.895Z",
+      "discordMessageId": "1565249973686374462",
+      "title": "nike pufferwinter coat",
+      "url": "https://www.vinted.co.uk/items/10576766495-nike-pufferwinter-coat",
+      "lastPrice": 16,
+      "firstSeenAt": "2026-10-29T06:24:34.895Z",
+      "lastSeenAt": "2026-10-29T06:24:34.895Z"
+    },
+    "10576719260": {
+      "blockedReason": "size",
+      "title": "nike coat",
+      "url": "https://www.vinted.co.uk/items/10576719260-nike-coat",
+      "lastPrice": 11,
+      "firstSeenAt": "2026-10-29T06:24:36.725Z",
+      "lastSeenAt": "2026-10-29T06:24:36.725Z"
+    },
+    "10576686943": {
+      "blockedReason": "keyword",
+      "title": "nike baby boys black padded hooded puffer jacket winter coat 24 months 86 92cm",
+      "url": "https://www.vinted.co.uk/items/10576686943-nike-baby-boys-black-padded-hooded-puffer-jacket-winter-coat-24-months-86-92cm",
+      "lastPrice": 4,
+      "firstSeenAt": "2026-10-29T06:24:36.725Z",
+      "lastSeenAt": "2026-10-29T06:24:36.725Z"
+    },
+    "10576634751": {
+      "blockedReason": "size",
+      "title": "nike puffer coat",
+      "url": "https://www.vinted.co.uk/items/10576634751-nike-puffer-coat",
+      "lastPrice": 30,
+      "firstSeenAt": "2026-10-29T06:24:39.571Z",
+      "lastSeenAt": "2026-10-29T06:24:39.571Z"
+    },
+    "10576634029": {
+      "blockedReason": "size",
+      "title": "nike coat",
+      "url": "https://www.vinted.co.uk/items/10576634029-nike-coat",
+      "lastPrice": 18,
+      "firstSeenAt": "2026-10-29T06:24:42.229Z",
+      "lastSeenAt": "2026-10-29T06:24:42.229Z"
+    },
+    "10576606080": {
+      "blockedReason": "price",
+      "title": "nike boys therma puffer coat newtags 100 genuine guaranteed age 11 13 years",
+      "url": "https://www.vinted.co.uk/items/10576606080-nike-boys-therma-puffer-coat-newtags-100-genuine-guaranteed-age-11-13-years",
+      "lastPrice": 54.95,
+      "firstSeenAt": "2026-10-29T06:24:42.229Z",
+      "lastSeenAt": "2026-10-29T06:24:42.229Z"
+    },
+    "10576480038": {
+      "size": "M",
+      "condition": "veryGood",
+      "resale": 45,
+      "netProfit": 29.2,
+      "roi": 194.67,
+      "buyScore": 92,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-10-29T06:24:45.493Z",
+      "discordMessageId": "1565250018703573093",
+      "title": "nike coat",
+      "url": "https://www.vinted.co.uk/items/10576480038-nike-coat",
+      "lastPrice": 15,
+      "firstSeenAt": "2026-10-29T06:24:45.493Z",
+      "lastSeenAt": "2026-10-29T06:24:45.493Z"
+    },
+    "10576377653": {
+      "size": "XL",
+      "condition": "veryGood",
+      "resale": 50,
+      "netProfit": 19.2,
+      "roi": 64,
+      "buyScore": 60,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-10-29T06:24:47.332Z",
+      "discordMessageId": "1565250026433810564",
+      "title": "nike xl juniors coat",
+      "url": "https://www.vinted.co.uk/items/10576377653-nike-xl-juniors-coat",
+      "lastPrice": 30,
+      "firstSeenAt": "2026-10-29T06:24:47.332Z",
+      "lastSeenAt": "2026-10-29T06:24:47.332Z"
+    },
+    "10576268800": {
+      "blockedReason": "price",
+      "title": "nike insulated puffa coat navy",
+      "url": "https://www.vinted.co.uk/items/10576268800-nike-insulated-puffa-coat-navy",
+      "lastPrice": 40,
+      "firstSeenAt": "2026-10-29T06:24:47.332Z",
+      "lastSeenAt": "2026-10-29T06:24:47.333Z"
+    },
+    "10576069188": {
+      "size": "S",
+      "condition": "veryGood",
+      "resale": 43,
+      "netProfit": 22.2,
+      "roi": 111,
+      "buyScore": 78,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-10-29T06:24:50.449Z",
+      "discordMessageId": "1565250039486615634",
+      "title": "nike therma coat",
+      "url": "https://www.vinted.co.uk/items/10576069188-nike-therma-coat",
+      "lastPrice": 20,
+      "firstSeenAt": "2026-10-29T06:24:50.449Z",
+      "lastSeenAt": "2026-10-29T06:24:50.449Z"
+    },
+    "10575636172": {
+      "blockedReason": "price",
+      "title": "nike sportswear hybrid coat xxl",
+      "url": "https://www.vinted.co.uk/items/10575636172-nike-sportswear-hybrid-coat-xxl",
+      "lastPrice": 40,
+      "firstSeenAt": "2026-10-29T06:24:50.449Z",
+      "lastSeenAt": "2026-10-29T06:24:50.449Z"
+    },
+    "10575416749": {
+      "blockedReason": "detail-budget-exhausted",
+      "size": null,
+      "title": "nike coat",
+      "url": "https://www.vinted.co.uk/items/10575416749-nike-coat",
+      "lastPrice": 15,
+      "firstSeenAt": "2026-10-29T06:24:50.449Z",
+      "lastSeenAt": "2026-10-29T06:24:50.449Z"
+    },
+    "10570520712": {
+      "blockedReason": "price",
+      "title": "nike beige and orange sportswear therma fit repel hooded parka l large activewear winter",
+      "url": "https://www.vinted.co.uk/items/10570520712-nike-beige-and-orange-sportswear-therma-fit-repel-hooded-parka-l-large-activewear-winter",
+      "lastPrice": 55,
+      "firstSeenAt": "2026-10-29T06:24:50.449Z",
+      "lastSeenAt": "2026-10-29T06:24:50.449Z"
+    },
+    "10560382523": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike manchester city fc navy padded winter coat womans medium",
+      "url": "https://www.vinted.co.uk/items/10560382523-nike-manchester-city-fc-navy-padded-winter-coat-womans-medium",
+      "lastPrice": 25,
+      "firstSeenAt": "2026-10-29T06:24:50.449Z",
+      "lastSeenAt": "2026-10-29T06:24:50.449Z"
+    },
+    "10550877791": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike mens storm fit winter coat",
+      "url": "https://www.vinted.co.uk/items/10550877791-nike-mens-storm-fit-winter-coat",
+      "lastPrice": 26.58,
+      "firstSeenAt": "2026-10-29T06:24:50.449Z",
+      "lastSeenAt": "2026-10-29T06:24:50.449Z"
+    },
+    "10550752634": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike winter coat",
+      "url": "https://www.vinted.co.uk/items/10550752634-nike-winter-coat",
+      "lastPrice": 15.19,
+      "firstSeenAt": "2026-10-29T06:24:50.449Z",
+      "lastSeenAt": "2026-10-29T06:24:50.449Z"
+    },
+    "10550436795": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "boys nike puffer coat",
+      "url": "https://www.vinted.co.uk/items/10550436795-boys-nike-puffer-coat",
+      "lastPrice": 15.19,
+      "firstSeenAt": "2026-10-29T06:24:50.449Z",
+      "lastSeenAt": "2026-10-29T06:24:50.449Z"
+    },
+    "10550330377": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike toddler boy puffer jacketcoat whood",
+      "url": "https://www.vinted.co.uk/items/10550330377-nike-toddler-boy-puffer-jacketcoat-whood",
+      "lastPrice": 11.39,
+      "firstSeenAt": "2026-10-29T06:24:50.449Z",
+      "lastSeenAt": "2026-10-29T06:24:50.449Z"
+    },
+    "10549775012": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "ladies black rain coat",
+      "url": "https://www.vinted.co.uk/items/10549775012-ladies-black-rain-coat",
+      "lastPrice": 13.67,
+      "firstSeenAt": "2026-10-29T06:24:50.449Z",
+      "lastSeenAt": "2026-10-29T06:24:50.449Z"
+    },
+    "10549346613": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike 60 grey goose down puffer jacket yellow womens small retro ski coat",
+      "url": "https://www.vinted.co.uk/items/10549346613-nike-60-grey-goose-down-puffer-jacket-yellow-womens-small-retro-ski-coat",
+      "lastPrice": 91.12,
+      "firstSeenAt": "2026-10-29T06:24:50.449Z",
+      "lastSeenAt": "2026-10-29T06:24:50.449Z"
+    },
+    "10549250793": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "chargers mens size xl coat",
+      "url": "https://www.vinted.co.uk/items/10549250793-chargers-mens-size-xl-coat",
+      "lastPrice": 22.78,
+      "firstSeenAt": "2026-10-29T06:24:50.449Z",
+      "lastSeenAt": "2026-10-29T06:24:50.449Z"
+    },
+    "10547699744": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "mens coat",
+      "url": "https://www.vinted.co.uk/items/10547699744-mens-coat",
+      "lastPrice": 37.21,
+      "firstSeenAt": "2026-10-29T06:24:50.449Z",
+      "lastSeenAt": "2026-10-29T06:24:50.449Z"
+    },
+    "10546909818": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nwot nike life dark gray pink 3 in 1 therma fit detachable quilted liner parka coat",
+      "url": "https://www.vinted.co.uk/items/10546909818-nwot-nike-life-dark-gray-pink-3-in-1-therma-fit-detachable-quilted-liner-parka-coat",
+      "lastPrice": 79.73,
+      "firstSeenAt": "2026-10-29T06:24:50.449Z",
+      "lastSeenAt": "2026-10-29T06:24:50.449Z"
+    },
+    "10546244444": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "womens nike coat",
+      "url": "https://www.vinted.co.uk/items/10546244444-womens-nike-coat",
+      "lastPrice": 11.39,
+      "firstSeenAt": "2026-10-29T06:24:50.449Z",
+      "lastSeenAt": "2026-10-29T06:24:50.449Z"
+    },
+    "10545874054": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike nocta thermal trenchcoat jacket",
+      "url": "https://www.vinted.co.uk/items/10545874054-nike-nocta-thermal-trenchcoat-jacket",
+      "lastPrice": 91.12,
+      "firstSeenAt": "2026-10-29T06:24:50.449Z",
+      "lastSeenAt": "2026-10-29T06:24:50.449Z"
+    },
+    "10545505787": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "boys s 5 nike puffer jacket coat reversible",
+      "url": "https://www.vinted.co.uk/items/10545505787-boys-s-5-nike-puffer-jacket-coat-reversible",
+      "lastPrice": 9.11,
+      "firstSeenAt": "2026-10-29T06:24:50.449Z",
+      "lastSeenAt": "2026-10-29T06:24:50.449Z"
+    },
+    "10545345602": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "k state nike reversible coat",
+      "url": "https://www.vinted.co.uk/items/10545345602-k-state-nike-reversible-coat",
+      "lastPrice": 56.95,
+      "firstSeenAt": "2026-10-29T06:24:50.449Z",
+      "lastSeenAt": "2026-10-29T06:24:50.449Z"
+    },
+    "10544439310": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike therma fit long parka big kids size m",
+      "url": "https://www.vinted.co.uk/items/10544439310-nike-therma-fit-long-parka-big-kids-size-m",
+      "lastPrice": 83.53,
+      "firstSeenAt": "2026-10-29T06:24:50.449Z",
+      "lastSeenAt": "2026-10-29T06:24:50.449Z"
+    },
+    "10544430042": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike boys logo puffer coat",
+      "url": "https://www.vinted.co.uk/items/10544430042-nike-boys-logo-puffer-coat",
+      "lastPrice": 11.39,
+      "firstSeenAt": "2026-10-29T06:24:50.449Z",
+      "lastSeenAt": "2026-10-29T06:24:50.449Z"
+    },
+    "10543933434": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike raincoats",
+      "url": "https://www.vinted.co.uk/items/10543933434-nike-raincoats",
+      "lastPrice": 20.5,
+      "firstSeenAt": "2026-10-29T06:24:50.449Z",
+      "lastSeenAt": "2026-10-29T06:24:50.449Z"
+    },
+    "10579111710": {
+      "size": "L",
+      "condition": "veryGood",
+      "resale": 21,
+      "netProfit": 17.2,
+      "roi": 573.33,
+      "buyScore": 94,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-10-29T06:24:58.121Z",
+      "discordMessageId": "1565250071396753471",
+      "title": "lfc shorts",
+      "url": "https://www.vinted.co.uk/items/10579111710-lfc-shorts",
+      "lastPrice": 3,
+      "firstSeenAt": "2026-10-29T06:24:58.121Z",
+      "lastSeenAt": "2026-10-29T06:24:58.121Z"
+    },
+    "10579104214": {
+      "size": "L",
+      "condition": "veryGood",
+      "resale": 21,
+      "netProfit": 16.7,
+      "roi": 477.14,
+      "buyScore": 94,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-10-29T06:25:00.849Z",
+      "discordMessageId": "1565250082650198038",
+      "title": "nike dri fit shorts",
+      "url": "https://www.vinted.co.uk/items/10579104214-nike-dri-fit-shorts",
+      "lastPrice": 3.5,
+      "firstSeenAt": "2026-10-29T06:25:00.849Z",
+      "lastSeenAt": "2026-10-29T06:25:00.849Z"
+    },
+    "10579102576": {
+      "size": "M",
+      "condition": "veryGood",
+      "resale": 20,
+      "netProfit": 16.7,
+      "roi": 668,
+      "buyScore": 95,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-10-29T06:25:03.143Z",
+      "discordMessageId": "1565250092754145471",
+      "title": "mens medium blue nike shorts",
+      "url": "https://www.vinted.co.uk/items/10579102576-mens-medium-blue-nike-shorts",
+      "lastPrice": 2.5,
+      "firstSeenAt": "2026-10-29T06:25:03.143Z",
+      "lastSeenAt": "2026-10-29T06:25:03.143Z"
+    },
+    "10579073716": {
+      "blockedReason": "detail-budget-exhausted",
+      "size": null,
+      "title": "nike basketball shorts",
+      "url": "https://www.vinted.co.uk/items/10579073716-nike-basketball-shorts",
+      "lastPrice": 5,
+      "firstSeenAt": "2026-10-29T06:25:03.143Z",
+      "lastSeenAt": "2026-10-29T06:25:03.143Z"
+    },
+    "10579071257": {
+      "blockedReason": "condition",
+      "title": "nike dri fit shorts",
+      "url": "https://www.vinted.co.uk/items/10579071257-nike-dri-fit-shorts",
+      "lastPrice": 5,
+      "firstSeenAt": "2026-10-29T06:25:03.143Z",
+      "lastSeenAt": "2026-10-29T06:25:03.143Z"
+    },
+    "10579047869": {
+      "size": "M",
+      "condition": "veryGood",
+      "resale": 20,
+      "netProfit": 11.2,
+      "roi": 140,
+      "buyScore": 81,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-10-29T06:25:06.267Z",
+      "discordMessageId": "1565250105794232462",
+      "title": "nike basketball shorts",
+      "url": "https://www.vinted.co.uk/items/10579047869-nike-basketball-shorts",
+      "lastPrice": 8,
+      "firstSeenAt": "2026-10-29T06:25:06.267Z",
+      "lastSeenAt": "2026-10-29T06:25:06.267Z"
+    },
+    "10579029271": {
+      "blockedReason": "detail-budget-exhausted",
+      "size": null,
+      "title": "nike shorts",
+      "url": "https://www.vinted.co.uk/items/10579029271-nike-shorts",
+      "lastPrice": 1,
+      "firstSeenAt": "2026-10-29T06:25:06.267Z",
+      "lastSeenAt": "2026-10-29T06:25:06.267Z"
+    },
+    "10579013982": {
+      "blockedReason": "price",
+      "title": "mens nike sportsrunning shorts xl",
+      "url": "https://www.vinted.co.uk/items/10579013982-mens-nike-sportsrunning-shorts-xl",
+      "lastPrice": 15,
+      "firstSeenAt": "2026-10-29T06:25:06.267Z",
+      "lastSeenAt": "2026-10-29T06:25:06.267Z"
+    },
+    "10578988896": {
+      "size": "M",
+      "condition": "veryGood",
+      "resale": 20,
+      "netProfit": 16.2,
+      "roi": 540,
+      "buyScore": 94,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-10-29T06:25:09.145Z",
+      "discordMessageId": "1565250117714448526",
+      "title": "nike medium junior shorts",
+      "url": "https://www.vinted.co.uk/items/10578988896-nike-medium-junior-shorts",
+      "lastPrice": 3,
+      "firstSeenAt": "2026-10-29T06:25:09.145Z",
+      "lastSeenAt": "2026-10-29T06:25:09.145Z"
+    },
+    "10578892168": {
+      "blockedReason": "condition",
+      "title": "nike red swim shorts black drawstring",
+      "url": "https://www.vinted.co.uk/items/10578892168-nike-red-swim-shorts-black-drawstring",
+      "lastPrice": 7,
+      "firstSeenAt": "2026-10-29T06:25:09.145Z",
+      "lastSeenAt": "2026-10-29T06:25:09.145Z"
+    },
+    "10578265723": {
+      "blockedReason": "condition",
+      "title": "mens nike shorts",
+      "url": "https://www.vinted.co.uk/items/10578265723-mens-nike-shorts",
+      "lastPrice": 5,
+      "firstSeenAt": "2026-10-29T06:25:09.146Z",
+      "lastSeenAt": "2026-10-29T06:25:09.146Z"
+    },
+    "10578256125": {
+      "blockedReason": "condition",
+      "title": "mens nike shorts",
+      "url": "https://www.vinted.co.uk/items/10578256125-mens-nike-shorts",
+      "lastPrice": 5,
+      "firstSeenAt": "2026-10-29T06:25:09.146Z",
+      "lastSeenAt": "2026-10-29T06:25:09.146Z"
+    },
+    "10565914402": {
+      "blockedReason": "condition",
+      "title": "xs nike dri fit shorts and atmos and here sportsbra",
+      "url": "https://www.vinted.co.uk/items/10565914402-xs-nike-dri-fit-shorts-and-atmos-and-here-sportsbra",
+      "lastPrice": 8.04,
+      "firstSeenAt": "2026-10-29T06:25:09.146Z",
+      "lastSeenAt": "2026-10-29T06:25:09.146Z"
+    },
+    "10565891029": {
+      "blockedReason": "price",
+      "title": "nike dri fit shorts",
+      "url": "https://www.vinted.co.uk/items/10565891029-nike-dri-fit-shorts",
+      "lastPrice": 10.72,
+      "firstSeenAt": "2026-10-29T06:25:09.146Z",
+      "lastSeenAt": "2026-10-29T06:25:09.146Z"
+    },
+    "10550908068": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "mitchell ness red nba chicago bulls 1997 98 galaxy swingman shorts l",
+      "url": "https://www.vinted.co.uk/items/10550908068-mitchell-ness-red-nba-chicago-bulls-1997-98-galaxy-swingman-shorts-l",
+      "lastPrice": 17.46,
+      "firstSeenAt": "2026-10-29T06:25:09.146Z",
+      "lastSeenAt": "2026-10-29T06:25:09.146Z"
+    },
+    "10550906722": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike dri fit academy mens xl soccer shorts blue dv9280 455",
+      "url": "https://www.vinted.co.uk/items/10550906722-nike-dri-fit-academy-mens-xl-soccer-shorts-blue-dv9280-455",
+      "lastPrice": 16.71,
+      "firstSeenAt": "2026-10-29T06:25:09.146Z",
+      "lastSeenAt": "2026-10-29T06:25:09.146Z"
+    },
+    "10550906434": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "mens nike golf shorts",
+      "url": "https://www.vinted.co.uk/items/10550906434-mens-nike-golf-shorts",
+      "lastPrice": 11.39,
+      "firstSeenAt": "2026-10-29T06:25:09.146Z",
+      "lastSeenAt": "2026-10-29T06:25:09.146Z"
+    },
+    "10550900376": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "vtg nike shorts mens xl blue embroidered logo regular fit elastic waistband",
+      "url": "https://www.vinted.co.uk/items/10550900376-vtg-nike-shorts-mens-xl-blue-embroidered-logo-regular-fit-elastic-waistband",
+      "lastPrice": 20.49,
+      "firstSeenAt": "2026-10-29T06:25:09.146Z",
+      "lastSeenAt": "2026-10-29T06:25:09.146Z"
+    },
+    "10550893294": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "90s nike mens black athletic shorts xl nylon woven 6 inseam drawstring logo",
+      "url": "https://www.vinted.co.uk/items/10550893294-90s-nike-mens-black-athletic-shorts-xl-nylon-woven-6-inseam-drawstring-logo",
+      "lastPrice": 34.17,
+      "firstSeenAt": "2026-10-29T06:25:09.146Z",
+      "lastSeenAt": "2026-10-29T06:25:09.146Z"
+    },
+    "10550890276": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "kids beige basketball athletic shorts size large nwt",
+      "url": "https://www.vinted.co.uk/items/10550890276-kids-beige-basketball-athletic-shorts-size-large-nwt",
+      "lastPrice": 11.39,
+      "firstSeenAt": "2026-10-29T06:25:09.146Z",
+      "lastSeenAt": "2026-10-29T06:25:09.146Z"
+    },
+    "10550889501": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike running shorts",
+      "url": "https://www.vinted.co.uk/items/10550889501-nike-running-shorts",
+      "lastPrice": 10.63,
+      "firstSeenAt": "2026-10-29T06:25:09.146Z",
+      "lastSeenAt": "2026-10-29T06:25:09.146Z"
+    },
+    "10550873339": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike dri fit shorts",
+      "url": "https://www.vinted.co.uk/items/10550873339-nike-dri-fit-shorts",
+      "lastPrice": 10.63,
+      "firstSeenAt": "2026-10-29T06:25:09.146Z",
+      "lastSeenAt": "2026-10-29T06:25:09.146Z"
+    },
+    "10550866418": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike skims shorts",
+      "url": "https://www.vinted.co.uk/items/10550866418-nike-skims-shorts",
+      "lastPrice": 31.89,
+      "firstSeenAt": "2026-10-29T06:25:09.146Z",
+      "lastSeenAt": "2026-10-29T06:25:09.146Z"
+    },
+    "10550865784": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "black nike shorts sz l",
+      "url": "https://www.vinted.co.uk/items/10550865784-black-nike-shorts-sz-l",
+      "lastPrice": 15.95,
+      "firstSeenAt": "2026-10-29T06:25:09.146Z",
+      "lastSeenAt": "2026-10-29T06:25:09.146Z"
+    },
+    "10550854458": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "new nike womens running short size medium 8 10",
+      "url": "https://www.vinted.co.uk/items/10550854458-new-nike-womens-running-short-size-medium-8-10",
+      "lastPrice": 9.11,
+      "firstSeenAt": "2026-10-29T06:25:09.146Z",
+      "lastSeenAt": "2026-10-29T06:25:09.146Z"
+    },
+    "10550851817": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike dri fit mens large gray athletic training shorts grey nike",
+      "url": "https://www.vinted.co.uk/items/10550851817-nike-dri-fit-mens-large-gray-athletic-training-shorts-grey-nike",
+      "lastPrice": 18.98,
+      "firstSeenAt": "2026-10-29T06:25:09.146Z",
+      "lastSeenAt": "2026-10-29T06:25:09.146Z"
+    },
+    "10550842460": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike dri fit womens running shorts with liner dark blue teal white size s",
+      "url": "https://www.vinted.co.uk/items/10550842460-nike-dri-fit-womens-running-shorts-with-liner-dark-blue-teal-white-size-s",
+      "lastPrice": 14.43,
+      "firstSeenAt": "2026-10-29T06:25:09.146Z",
+      "lastSeenAt": "2026-10-29T06:25:09.146Z"
+    },
+    "10550842121": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike sabrina ionescu basketball shorts blue womens large",
+      "url": "https://www.vinted.co.uk/items/10550842121-nike-sabrina-ionescu-basketball-shorts-blue-womens-large",
+      "lastPrice": 18.98,
+      "firstSeenAt": "2026-10-29T06:25:09.146Z",
+      "lastSeenAt": "2026-10-29T06:25:09.146Z"
+    },
+    "10550825190": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "youth boys basketball shorts",
+      "url": "https://www.vinted.co.uk/items/10550825190-youth-boys-basketball-shorts",
+      "lastPrice": 15.19,
+      "firstSeenAt": "2026-10-29T06:25:09.146Z",
+      "lastSeenAt": "2026-10-29T06:25:09.146Z"
+    },
+    "10550817565": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "black running shorts",
+      "url": "https://www.vinted.co.uk/items/10550817565-black-running-shorts",
+      "lastPrice": 11.39,
+      "firstSeenAt": "2026-10-29T06:25:09.146Z",
+      "lastSeenAt": "2026-10-29T06:25:09.146Z"
+    },
+    "10550802065": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike shorts lot",
+      "url": "https://www.vinted.co.uk/items/10550802065-nike-shorts-lot",
+      "lastPrice": 9.11,
+      "firstSeenAt": "2026-10-29T06:25:09.146Z",
+      "lastSeenAt": "2026-10-29T06:25:09.146Z"
+    },
+    "10550777071": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike golf shorts",
+      "url": "https://www.vinted.co.uk/items/10550777071-nike-golf-shorts",
+      "lastPrice": 9.87,
+      "firstSeenAt": "2026-10-29T06:25:09.146Z",
+      "lastSeenAt": "2026-10-29T06:25:09.146Z"
+    },
+    "10550775389": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike shorts lot",
+      "url": "https://www.vinted.co.uk/items/10550775389-nike-shorts-lot",
+      "lastPrice": 9.11,
+      "firstSeenAt": "2026-10-29T06:25:09.146Z",
+      "lastSeenAt": "2026-10-29T06:25:09.146Z"
+    },
+    "10550768272": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike shorts",
+      "url": "https://www.vinted.co.uk/items/10550768272-nike-shorts",
+      "lastPrice": 22.78,
+      "firstSeenAt": "2026-10-29T06:25:09.146Z",
+      "lastSeenAt": "2026-10-29T06:25:09.146Z"
+    },
+    "10550768134": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike dri fit mens chino golf shorts flat front athletic stretch casual size 36",
+      "url": "https://www.vinted.co.uk/items/10550768134-nike-dri-fit-mens-chino-golf-shorts-flat-front-athletic-stretch-casual-size-36",
+      "lastPrice": 18.98,
+      "firstSeenAt": "2026-10-29T06:25:09.146Z",
+      "lastSeenAt": "2026-10-29T06:25:09.146Z"
+    },
+    "10550752052": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike shorts lot",
+      "url": "https://www.vinted.co.uk/items/10550752052-nike-shorts-lot",
+      "lastPrice": 9.11,
+      "firstSeenAt": "2026-10-29T06:25:09.146Z",
+      "lastSeenAt": "2026-10-29T06:25:09.146Z"
+    },
+    "10550741043": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "mens nike golf shorts size 42",
+      "url": "https://www.vinted.co.uk/items/10550741043-mens-nike-golf-shorts-size-42",
+      "lastPrice": 11.39,
+      "firstSeenAt": "2026-10-29T06:25:09.146Z",
+      "lastSeenAt": "2026-10-29T06:25:09.146Z"
+    },
+    "10550722692": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "womens nike dri fit running shorts size xl brand new",
+      "url": "https://www.vinted.co.uk/items/10550722692-womens-nike-dri-fit-running-shorts-size-xl-brand-new",
+      "lastPrice": 14.43,
+      "firstSeenAt": "2026-10-29T06:25:09.146Z",
+      "lastSeenAt": "2026-10-29T06:25:09.146Z"
+    },
+    "10550718872": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "womens nike dri fit running shorts size xl brand new",
+      "url": "https://www.vinted.co.uk/items/10550718872-womens-nike-dri-fit-running-shorts-size-xl-brand-new",
+      "lastPrice": 14.43,
+      "firstSeenAt": "2026-10-29T06:25:09.146Z",
+      "lastSeenAt": "2026-10-29T06:25:09.146Z"
+    },
+    "10550715126": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike womens s printed capri shorts purple orange pink abstract swim board",
+      "url": "https://www.vinted.co.uk/items/10550715126-nike-womens-s-printed-capri-shorts-purple-orange-pink-abstract-swim-board",
+      "lastPrice": 16.58,
+      "firstSeenAt": "2026-10-29T06:25:09.146Z",
+      "lastSeenAt": "2026-10-29T06:25:09.146Z"
+    },
+    "10550714133": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "womens nike dri fit running shorts size xl brand new",
+      "url": "https://www.vinted.co.uk/items/10550714133-womens-nike-dri-fit-running-shorts-size-xl-brand-new",
+      "lastPrice": 14.43,
+      "firstSeenAt": "2026-10-29T06:25:09.146Z",
+      "lastSeenAt": "2026-10-29T06:25:09.146Z"
+    },
+    "10550703640": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "dri fit shorts",
+      "url": "https://www.vinted.co.uk/items/10550703640-dri-fit-shorts",
+      "lastPrice": 11.39,
+      "firstSeenAt": "2026-10-29T06:25:09.146Z",
+      "lastSeenAt": "2026-10-29T06:25:09.146Z"
+    },
+    "10550702872": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike womens icon clash tempo running shorts small",
+      "url": "https://www.vinted.co.uk/items/10550702872-nike-womens-icon-clash-tempo-running-shorts-small",
+      "lastPrice": 9.87,
+      "firstSeenAt": "2026-10-29T06:25:09.146Z",
+      "lastSeenAt": "2026-10-29T06:25:09.146Z"
+    },
+    "10550696710": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike shorts",
+      "url": "https://www.vinted.co.uk/items/10550696710-nike-shorts",
+      "lastPrice": 18.98,
+      "firstSeenAt": "2026-10-29T06:25:09.146Z",
+      "lastSeenAt": "2026-10-29T06:25:09.146Z"
+    },
+    "10550692556": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike dri fit athletic shorts mens med",
+      "url": "https://www.vinted.co.uk/items/10550692556-nike-dri-fit-athletic-shorts-mens-med",
+      "lastPrice": 11.39,
+      "firstSeenAt": "2026-10-29T06:25:09.146Z",
+      "lastSeenAt": "2026-10-29T06:25:09.146Z"
+    },
+    "10550690641": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike xs dri fit shorts",
+      "url": "https://www.vinted.co.uk/items/10550690641-nike-xs-dri-fit-shorts",
+      "lastPrice": 11.39,
+      "firstSeenAt": "2026-10-29T06:25:09.146Z",
+      "lastSeenAt": "2026-10-29T06:25:09.146Z"
+    },
+    "10550686446": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike womens swim shorts",
+      "url": "https://www.vinted.co.uk/items/10550686446-nike-womens-swim-shorts",
+      "lastPrice": 9.49,
+      "firstSeenAt": "2026-10-29T06:25:09.146Z",
+      "lastSeenAt": "2026-10-29T06:25:09.146Z"
+    },
+    "10550664894": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike dri fit athletic shorts bundle size large 3 pairs",
+      "url": "https://www.vinted.co.uk/items/10550664894-nike-dri-fit-athletic-shorts-bundle-size-large-3-pairs",
+      "lastPrice": 15.19,
+      "firstSeenAt": "2026-10-29T06:25:09.146Z",
+      "lastSeenAt": "2026-10-29T06:25:09.146Z"
+    },
+    "10550663912": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike mens medium gray dri fit athletic running training performance shorts",
+      "url": "https://www.vinted.co.uk/items/10550663912-nike-mens-medium-gray-dri-fit-athletic-running-training-performance-shorts",
+      "lastPrice": 16.71,
+      "firstSeenAt": "2026-10-29T06:25:09.146Z",
+      "lastSeenAt": "2026-10-29T06:25:09.146Z"
+    },
+    "10550640014": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike acg cream color cargo shorts size m brand new adjustable waist",
+      "url": "https://www.vinted.co.uk/items/10550640014-nike-acg-cream-color-cargo-shorts-size-m-brand-new-adjustable-waist",
+      "lastPrice": 9.11,
+      "firstSeenAt": "2026-10-29T06:25:09.146Z",
+      "lastSeenAt": "2026-10-29T06:25:09.146Z"
+    },
+    "10550637233": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "dri fit shorts",
+      "url": "https://www.vinted.co.uk/items/10550637233-dri-fit-shorts",
+      "lastPrice": 12.15,
+      "firstSeenAt": "2026-10-29T06:25:09.146Z",
+      "lastSeenAt": "2026-10-29T06:25:09.146Z"
+    },
+    "10550610875": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike shorts bundle",
+      "url": "https://www.vinted.co.uk/items/10550610875-nike-shorts-bundle",
+      "lastPrice": 9.11,
+      "firstSeenAt": "2026-10-29T06:25:09.146Z",
+      "lastSeenAt": "2026-10-29T06:25:09.146Z"
+    },
+    "10550605100": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike dry fit tempo shorts",
+      "url": "https://www.vinted.co.uk/items/10550605100-nike-dry-fit-tempo-shorts",
+      "lastPrice": 9.11,
+      "firstSeenAt": "2026-10-29T06:25:09.146Z",
+      "lastSeenAt": "2026-10-29T06:25:09.146Z"
+    },
+    "10550602715": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike medium shorts",
+      "url": "https://www.vinted.co.uk/items/10550602715-nike-medium-shorts",
+      "lastPrice": 9.11,
+      "firstSeenAt": "2026-10-29T06:25:09.146Z",
+      "lastSeenAt": "2026-10-29T06:25:09.146Z"
+    },
+    "10550594856": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "xl nike mens swim shorts",
+      "url": "https://www.vinted.co.uk/items/10550594856-xl-nike-mens-swim-shorts",
+      "lastPrice": 11.39,
+      "firstSeenAt": "2026-10-29T06:25:09.146Z",
+      "lastSeenAt": "2026-10-29T06:25:09.146Z"
+    },
+    "10550587333": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "size s cotton big logo nike shorts",
+      "url": "https://www.vinted.co.uk/items/10550587333-size-s-cotton-big-logo-nike-shorts",
+      "lastPrice": 11.39,
+      "firstSeenAt": "2026-10-29T06:25:09.146Z",
+      "lastSeenAt": "2026-10-29T06:25:09.146Z"
+    },
+    "10550562151": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike shorts",
+      "url": "https://www.vinted.co.uk/items/10550562151-nike-shorts",
+      "lastPrice": 9.11,
+      "firstSeenAt": "2026-10-29T06:25:09.146Z",
+      "lastSeenAt": "2026-10-29T06:25:09.146Z"
+    },
+    "10550513784": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike shorts",
+      "url": "https://www.vinted.co.uk/items/10550513784-nike-shorts",
+      "lastPrice": 9.11,
+      "firstSeenAt": "2026-10-29T06:25:09.146Z",
+      "lastSeenAt": "2026-10-29T06:25:09.146Z"
+    },
+    "10550501833": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike shorts",
+      "url": "https://www.vinted.co.uk/items/10550501833-nike-shorts",
+      "lastPrice": 9.11,
+      "firstSeenAt": "2026-10-29T06:25:09.146Z",
+      "lastSeenAt": "2026-10-29T06:25:09.146Z"
+    },
+    "10550444598": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "kid shortshoodie combo",
+      "url": "https://www.vinted.co.uk/items/10550444598-kid-shortshoodie-combo",
+      "lastPrice": 15.19,
+      "firstSeenAt": "2026-10-29T06:25:09.146Z",
+      "lastSeenAt": "2026-10-29T06:25:09.146Z"
+    },
+    "10550424613": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike shorts 8 pairs size yl",
+      "url": "https://www.vinted.co.uk/items/10550424613-nike-shorts-8-pairs-size-yl",
+      "lastPrice": 15.19,
+      "firstSeenAt": "2026-10-29T06:25:09.146Z",
+      "lastSeenAt": "2026-10-29T06:25:09.146Z"
+    },
+    "10577898083": {
+      "blockedReason": "condition",
+      "title": "nike tech pack black woven cargo pants size l",
+      "url": "https://www.vinted.co.uk/items/10577898083-nike-tech-pack-black-woven-cargo-pants-size-l",
+      "lastPrice": 25,
+      "firstSeenAt": "2026-10-29T06:25:13.756Z",
+      "lastSeenAt": "2026-10-29T06:25:13.756Z"
+    },
+    "10577523014": {
+      "blockedReason": "price",
+      "title": "nike air black pantscargos m",
+      "url": "https://www.vinted.co.uk/items/10577523014-nike-air-black-pantscargos-m",
+      "lastPrice": 18,
+      "firstSeenAt": "2026-10-29T06:25:13.756Z",
+      "lastSeenAt": "2026-10-29T06:25:13.756Z"
+    },
+    "10577228141": {
+      "blockedReason": "price",
+      "title": "nike acg smith summit 2in1 cargo pantsshorts large sequoia olive convertible",
+      "url": "https://www.vinted.co.uk/items/10577228141-nike-acg-smith-summit-2in1-cargo-pantsshorts-large-sequoia-olive-convertible",
+      "lastPrice": 60,
+      "firstSeenAt": "2026-10-29T06:25:13.756Z",
+      "lastSeenAt": "2026-10-29T06:25:13.756Z"
+    },
+    "10577007825": {
+      "size": "M",
+      "condition": "newWithoutTags",
+      "resale": 30,
+      "netProfit": 18.2,
+      "roi": 165.45,
+      "buyScore": 90,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-10-29T06:25:15.980Z",
+      "discordMessageId": "1565250146542035005",
+      "title": "nike cargo trousers",
+      "url": "https://www.vinted.co.uk/items/10577007825-nike-cargo-trousers",
+      "lastPrice": 11,
+      "firstSeenAt": "2026-10-29T06:25:15.980Z",
+      "lastSeenAt": "2026-10-29T06:25:15.980Z"
+    },
+    "10576805700": {
+      "blockedReason": "price",
+      "title": "nike air max woven cargo trousers mens small",
+      "url": "https://www.vinted.co.uk/items/10576805700-nike-air-max-woven-cargo-trousers-mens-small",
+      "lastPrice": 40,
+      "firstSeenAt": "2026-10-29T06:25:15.980Z",
+      "lastSeenAt": "2026-10-29T06:25:15.980Z"
+    },
+    "10576598040": {
+      "size": "S",
+      "condition": "veryGood",
+      "resale": 29,
+      "netProfit": 14.2,
+      "roi": 101.43,
+      "buyScore": 80,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-10-29T06:25:18.848Z",
+      "discordMessageId": "1565250158172573713",
+      "title": "nike cargo trousers",
+      "url": "https://www.vinted.co.uk/items/10576598040-nike-cargo-trousers",
+      "lastPrice": 14,
+      "firstSeenAt": "2026-10-29T06:25:18.848Z",
+      "lastSeenAt": "2026-10-29T06:25:18.848Z"
+    },
+    "10576111912": {
+      "blockedReason": "keyword",
+      "title": "kids nike cargo trousers 8 10 years",
+      "url": "https://www.vinted.co.uk/items/10576111912-kids-nike-cargo-trousers-8-10-years",
+      "lastPrice": 4,
+      "firstSeenAt": "2026-10-29T06:25:18.849Z",
+      "lastSeenAt": "2026-10-29T06:25:18.849Z"
+    },
+    "10575479686": {
+      "size": "M",
+      "condition": "veryGood",
+      "resale": 30,
+      "netProfit": 17.2,
+      "roi": 143.33,
+      "buyScore": 87,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-10-29T06:25:21.789Z",
+      "discordMessageId": "1565250169526550629",
+      "title": "nike air cargo sweatpants black size m",
+      "url": "https://www.vinted.co.uk/items/10575479686-nike-air-cargo-sweatpants-black-size-m",
+      "lastPrice": 12,
+      "firstSeenAt": "2026-10-29T06:25:21.789Z",
+      "lastSeenAt": "2026-10-29T06:25:21.789Z"
+    },
+    "10575479662": {
+      "size": "M",
+      "condition": "veryGood",
+      "resale": 30,
+      "netProfit": 17.2,
+      "roi": 143.33,
+      "buyScore": 87,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-10-29T06:25:23.685Z",
+      "discordMessageId": "1565250178330398792",
+      "title": "nike air cargo sweatpants black size m",
+      "url": "https://www.vinted.co.uk/items/10575479662-nike-air-cargo-sweatpants-black-size-m",
+      "lastPrice": 12,
+      "firstSeenAt": "2026-10-29T06:25:23.685Z",
+      "lastSeenAt": "2026-10-29T06:25:23.685Z"
+    },
+    "10575241722": {
+      "blockedReason": "price",
+      "title": "nike cargo trousers black medium",
+      "url": "https://www.vinted.co.uk/items/10575241722-nike-cargo-trousers-black-medium",
+      "lastPrice": 25,
+      "firstSeenAt": "2026-10-29T06:25:23.686Z",
+      "lastSeenAt": "2026-10-29T06:25:23.686Z"
+    },
+    "10575160685": {
+      "blockedReason": "price",
+      "title": "vintage nike acg black cargo trousers",
+      "url": "https://www.vinted.co.uk/items/10575160685-vintage-nike-acg-black-cargo-trousers",
+      "lastPrice": 40,
+      "firstSeenAt": "2026-10-29T06:25:23.686Z",
+      "lastSeenAt": "2026-10-29T06:25:23.686Z"
+    },
+    "10575150847": {
+      "blockedReason": "detail-budget-exhausted",
+      "size": null,
+      "title": "girls junior nike cargo trousers",
+      "url": "https://www.vinted.co.uk/items/10575150847-girls-junior-nike-cargo-trousers",
+      "lastPrice": 6,
+      "firstSeenAt": "2026-10-29T06:25:23.686Z",
+      "lastSeenAt": "2026-10-29T06:25:23.686Z"
+    },
+    "10574632194": {
+      "blockedReason": "price",
+      "title": "nike acg smith summit cargo pants",
+      "url": "https://www.vinted.co.uk/items/10574632194-nike-acg-smith-summit-cargo-pants",
+      "lastPrice": 65,
+      "firstSeenAt": "2026-10-29T06:25:23.686Z",
+      "lastSeenAt": "2026-10-29T06:25:23.686Z"
+    },
+    "10573880881": {
+      "blockedReason": "price",
+      "title": "airborne black technical cargo pants windbreaker material size 13 year old",
+      "url": "https://www.vinted.co.uk/items/10573880881-airborne-black-technical-cargo-pants-windbreaker-material-size-13-year-old",
+      "lastPrice": 25,
+      "firstSeenAt": "2026-10-29T06:25:23.686Z",
+      "lastSeenAt": "2026-10-29T06:25:23.686Z"
+    },
+    "10572966985": {
+      "size": "S",
+      "condition": "veryGood",
+      "resale": 29,
+      "netProfit": 22.2,
+      "roi": 370,
+      "buyScore": 100,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-10-29T06:25:26.418Z",
+      "discordMessageId": "1565250190372245655",
+      "title": "boys nike cargo style trousers",
+      "url": "https://www.vinted.co.uk/items/10572966985-boys-nike-cargo-style-trousers",
+      "lastPrice": 6,
+      "firstSeenAt": "2026-10-29T06:25:26.418Z",
+      "lastSeenAt": "2026-10-29T06:25:26.418Z"
+    },
+    "10572261327": {
+      "blockedReason": "detail-budget-exhausted",
+      "size": null,
+      "title": "junior nike cargo trousers",
+      "url": "https://www.vinted.co.uk/items/10572261327-junior-nike-cargo-trousers",
+      "lastPrice": 5,
+      "firstSeenAt": "2026-10-29T06:25:26.418Z",
+      "lastSeenAt": "2026-10-29T06:25:26.418Z"
+    },
+    "10571527999": {
+      "blockedReason": "price",
+      "title": "nike cargo trousers",
+      "url": "https://www.vinted.co.uk/items/10571527999-nike-cargo-trousers",
+      "lastPrice": 30,
+      "firstSeenAt": "2026-10-29T06:25:26.419Z",
+      "lastSeenAt": "2026-10-29T06:25:26.419Z"
+    },
+    "10571261994": {
+      "blockedReason": "condition",
+      "title": "nike cargo style pants",
+      "url": "https://www.vinted.co.uk/items/10571261994-nike-cargo-style-pants",
+      "lastPrice": 4.5,
+      "firstSeenAt": "2026-10-29T06:25:26.419Z",
+      "lastSeenAt": "2026-10-29T06:25:26.419Z"
+    },
+    "10571172948": {
+      "size": "L",
+      "condition": "veryGood",
+      "resale": 32,
+      "netProfit": 26.2,
+      "roi": 524,
+      "buyScore": 100,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-10-29T06:25:28.659Z",
+      "discordMessageId": "1565250199100719187",
+      "title": "nike cargo trousers joggers size l 147 158cm",
+      "url": "https://www.vinted.co.uk/items/10571172948-nike-cargo-trousers-joggers-size-l-147-158cm",
+      "lastPrice": 5,
+      "firstSeenAt": "2026-10-29T06:25:28.659Z",
+      "lastSeenAt": "2026-10-29T06:25:28.659Z"
+    },
+    "10570997246": {
+      "blockedReason": "price",
+      "title": "nike shell cargo pants",
+      "url": "https://www.vinted.co.uk/items/10570997246-nike-shell-cargo-pants",
+      "lastPrice": 20,
+      "firstSeenAt": "2026-10-29T06:25:28.660Z",
+      "lastSeenAt": "2026-10-29T06:25:28.660Z"
+    },
+    "10569845258": {
+      "blockedReason": "price",
+      "title": "nike cargo trousers",
+      "url": "https://www.vinted.co.uk/items/10569845258-nike-cargo-trousers",
+      "lastPrice": 22,
+      "firstSeenAt": "2026-10-29T06:25:28.660Z",
+      "lastSeenAt": "2026-10-29T06:25:28.660Z"
+    },
+    "10569769944": {
+      "size": "M",
+      "condition": "veryGood",
+      "resale": 30,
+      "netProfit": 14.2,
+      "roi": 94.67,
+      "buyScore": 79,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-10-29T06:25:30.654Z",
+      "discordMessageId": "1565250208105762848",
+      "title": "nike windbreaker style cargo trousers",
+      "url": "https://www.vinted.co.uk/items/10569769944-nike-windbreaker-style-cargo-trousers",
+      "lastPrice": 15,
+      "firstSeenAt": "2026-10-29T06:25:30.654Z",
+      "lastSeenAt": "2026-10-29T06:25:30.654Z"
+    },
+    "10565257431": {
+      "blockedReason": "condition",
+      "title": "nike boys cargo pants",
+      "url": "https://www.vinted.co.uk/items/10565257431-nike-boys-cargo-pants",
+      "lastPrice": 5.36,
+      "firstSeenAt": "2026-10-29T06:25:30.654Z",
+      "lastSeenAt": "2026-10-29T06:25:30.654Z"
+    },
+    "10551291022": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike white cargo track trousers size xl approx 32 leg e",
+      "url": "https://www.vinted.co.uk/items/10551291022-nike-white-cargo-track-trousers-size-xl-approx-32-leg-e",
+      "lastPrice": 9,
+      "firstSeenAt": "2026-10-29T06:25:30.654Z",
+      "lastSeenAt": "2026-10-29T06:25:30.654Z"
+    },
+    "10550701915": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike sportswear mens navy cargo pants size 30 m 805110 451 tapered leg",
+      "url": "https://www.vinted.co.uk/items/10550701915-nike-sportswear-mens-navy-cargo-pants-size-30-m-805110-451-tapered-leg",
+      "lastPrice": 21.26,
+      "firstSeenAt": "2026-10-29T06:25:30.654Z",
+      "lastSeenAt": "2026-10-29T06:25:30.654Z"
+    },
+    "10547453014": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike sportswear khaki cargo pants small",
+      "url": "https://www.vinted.co.uk/items/10547453014-nike-sportswear-khaki-cargo-pants-small",
+      "lastPrice": 18.98,
+      "firstSeenAt": "2026-10-29T06:25:30.654Z",
+      "lastSeenAt": "2026-10-29T06:25:30.654Z"
+    },
+    "10546520604": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike cargo pants",
+      "url": "https://www.vinted.co.uk/items/10546520604-nike-cargo-pants",
+      "lastPrice": 15.19,
+      "firstSeenAt": "2026-10-29T06:25:30.655Z",
+      "lastSeenAt": "2026-10-29T06:25:30.655Z"
+    },
+    "10543643284": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "big kids nike cargo pants",
+      "url": "https://www.vinted.co.uk/items/10543643284-big-kids-nike-cargo-pants",
+      "lastPrice": 18.98,
+      "firstSeenAt": "2026-10-29T06:25:30.655Z",
+      "lastSeenAt": "2026-10-29T06:25:30.655Z"
+    },
+    "10579108833": {
+      "size": "S",
+      "condition": "veryGood",
+      "resale": 25,
+      "netProfit": 12.2,
+      "roi": 101.67,
+      "buyScore": 77,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-10-29T06:25:38.660Z",
+      "discordMessageId": "1565250241102479483",
+      "title": "nike dri fit scotland national team tracksuit bottoms joggers size small navy blue",
+      "url": "https://www.vinted.co.uk/items/10579108833-nike-dri-fit-scotland-national-team-tracksuit-bottoms-joggers-size-small-navy-blue",
+      "lastPrice": 12,
+      "firstSeenAt": "2026-10-29T06:25:38.660Z",
+      "lastSeenAt": "2026-10-29T06:25:38.660Z"
+    },
+    "10578892027": {
+      "size": "S",
+      "condition": "veryGood",
+      "resale": 25,
+      "netProfit": 10.2,
+      "roi": 72.86,
+      "buyScore": 68,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-10-29T06:25:42.144Z",
+      "discordMessageId": "1565250256273154199",
+      "title": "nike black lightweight track pants joggers size s straight leg",
+      "url": "https://www.vinted.co.uk/items/10578892027-nike-black-lightweight-track-pants-joggers-size-s-straight-leg",
+      "lastPrice": 14,
+      "firstSeenAt": "2026-10-29T06:25:42.145Z",
+      "lastSeenAt": "2026-10-29T06:25:42.145Z"
+    },
+    "10577948761": {
+      "blockedReason": "price",
+      "title": "psg tracksuit bottoms",
+      "url": "https://www.vinted.co.uk/items/10577948761-psg-tracksuit-bottoms",
+      "lastPrice": 18.5,
+      "firstSeenAt": "2026-10-29T06:25:42.145Z",
+      "lastSeenAt": "2026-10-29T06:25:42.145Z"
+    },
+    "10577735041": {
+      "blockedReason": "price",
+      "title": "nike womens woven joggers sze m blue nylon track pants mesh lined cuffed vintage",
+      "url": "https://www.vinted.co.uk/items/10577735041-nike-womens-woven-joggers-sze-m-blue-nylon-track-pants-mesh-lined-cuffed-vintage",
+      "lastPrice": 20,
+      "firstSeenAt": "2026-10-29T06:25:42.145Z",
+      "lastSeenAt": "2026-10-29T06:25:42.145Z"
+    },
+    "10577360313": {
+      "blockedReason": "detail-budget-exhausted",
+      "size": null,
+      "title": "uniqlo track pants x 2",
+      "url": "https://www.vinted.co.uk/items/10577360313-uniqlo-track-pants-x-2",
+      "lastPrice": 5,
+      "firstSeenAt": "2026-10-29T06:25:42.145Z",
+      "lastSeenAt": "2026-10-29T06:25:42.145Z"
+    },
+    "10577174881": {
+      "blockedReason": "price",
+      "title": "rare vintage y2k nike fit dry 2 in 1 convertible track pants capris s 4 6",
+      "url": "https://www.vinted.co.uk/items/10577174881-rare-vintage-y2k-nike-fit-dry-2-in-1-convertible-track-pants-capris-s-4-6",
+      "lastPrice": 50,
+      "firstSeenAt": "2026-10-29T06:25:42.145Z",
+      "lastSeenAt": "2026-10-29T06:25:42.145Z"
+    },
+    "10577146666": {
+      "size": "M",
+      "condition": "veryGood",
+      "resale": 26,
+      "netProfit": 12.2,
+      "roi": 93.85,
+      "buyScore": 75,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-10-29T06:25:43.510Z",
+      "discordMessageId": "1565250262082261003",
+      "title": "nike multi swoosh side tape track pants black",
+      "url": "https://www.vinted.co.uk/items/10577146666-nike-multi-swoosh-side-tape-track-pants-black",
+      "lastPrice": 13,
+      "firstSeenAt": "2026-10-29T06:25:43.510Z",
+      "lastSeenAt": "2026-10-29T06:25:43.510Z"
+    },
+    "10577047109": {
+      "size": "M",
+      "condition": "veryGood",
+      "resale": 26,
+      "netProfit": 11.2,
+      "roi": 80,
+      "buyScore": 73,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-10-29T06:25:45.574Z",
+      "discordMessageId": "1565250270659616909",
+      "title": "nike track pants joggers black dri fit white side stripe football polyester size m",
+      "url": "https://www.vinted.co.uk/items/10577047109-nike-track-pants-joggers-black-dri-fit-white-side-stripe-football-polyester-size-m",
+      "lastPrice": 14,
+      "firstSeenAt": "2026-10-29T06:25:45.574Z",
+      "lastSeenAt": "2026-10-29T06:25:45.574Z"
+    },
+    "10576829620": {
+      "blockedReason": "price",
+      "title": "vintage nike wide leg track pants szie l",
+      "url": "https://www.vinted.co.uk/items/10576829620-vintage-nike-wide-leg-track-pants-szie-l",
+      "lastPrice": 23.99,
+      "firstSeenAt": "2026-10-29T06:25:45.574Z",
+      "lastSeenAt": "2026-10-29T06:25:45.574Z"
+    },
+    "10576828858": {
+      "blockedReason": "price",
+      "title": "nike shield track pants size l",
+      "url": "https://www.vinted.co.uk/items/10576828858-nike-shield-track-pants-size-l",
+      "lastPrice": 22.5,
+      "firstSeenAt": "2026-10-29T06:25:45.574Z",
+      "lastSeenAt": "2026-10-29T06:25:45.574Z"
+    },
+    "10576828791": {
+      "blockedReason": "price",
+      "title": "vintage nike wide leg track pants size xl",
+      "url": "https://www.vinted.co.uk/items/10576828791-vintage-nike-wide-leg-track-pants-size-xl",
+      "lastPrice": 19.99,
+      "firstSeenAt": "2026-10-29T06:25:45.574Z",
+      "lastSeenAt": "2026-10-29T06:25:45.574Z"
+    },
+    "10576770044": {
+      "blockedReason": "condition",
+      "title": "nike vintage track pants y2k navy swoosh",
+      "url": "https://www.vinted.co.uk/items/10576770044-nike-vintage-track-pants-y2k-navy-swoosh",
+      "lastPrice": 18,
+      "firstSeenAt": "2026-10-29T06:25:45.574Z",
+      "lastSeenAt": "2026-10-29T06:25:45.574Z"
+    },
+    "10576674076": {
+      "blockedReason": "condition",
+      "title": "nike neymar dri fit junior track pants black age m",
+      "url": "https://www.vinted.co.uk/items/10576674076-nike-neymar-dri-fit-junior-track-pants-black-age-m",
+      "lastPrice": 12,
+      "firstSeenAt": "2026-10-29T06:25:45.574Z",
+      "lastSeenAt": "2026-10-29T06:25:45.574Z"
+    },
+    "10576357847": {
+      "blockedReason": "price",
+      "title": "nike blue baggy track pants xl joggers tracksuit bottoms winter streetwear",
+      "url": "https://www.vinted.co.uk/items/10576357847-nike-blue-baggy-track-pants-xl-joggers-tracksuit-bottoms-winter-streetwear",
+      "lastPrice": 24.99,
+      "firstSeenAt": "2026-10-29T06:25:45.574Z",
+      "lastSeenAt": "2026-10-29T06:25:45.574Z"
+    },
+    "10576357822": {
+      "blockedReason": "price",
+      "title": "nike black baggy track pants xxl joggers tracksuit bottoms winter streetwear",
+      "url": "https://www.vinted.co.uk/items/10576357822-nike-black-baggy-track-pants-xxl-joggers-tracksuit-bottoms-winter-streetwear",
+      "lastPrice": 24.99,
+      "firstSeenAt": "2026-10-29T06:25:45.574Z",
+      "lastSeenAt": "2026-10-29T06:25:45.574Z"
+    },
+    "10576357762": {
+      "blockedReason": "price",
+      "title": "nike navy double lined track pants l winter joggers tracksuit bottoms sportswear",
+      "url": "https://www.vinted.co.uk/items/10576357762-nike-navy-double-lined-track-pants-l-winter-joggers-tracksuit-bottoms-sportswear",
+      "lastPrice": 24.99,
+      "firstSeenAt": "2026-10-29T06:25:45.574Z",
+      "lastSeenAt": "2026-10-29T06:25:45.574Z"
+    },
+    "10576357744": {
+      "blockedReason": "price",
+      "title": "vintage nike black track pants xl joggers y2k retro tracksuit bottoms",
+      "url": "https://www.vinted.co.uk/items/10576357744-vintage-nike-black-track-pants-xl-joggers-y2k-retro-tracksuit-bottoms",
+      "lastPrice": 24.99,
+      "firstSeenAt": "2026-10-29T06:25:45.574Z",
+      "lastSeenAt": "2026-10-29T06:25:45.574Z"
+    },
+    "10576357717": {
+      "blockedReason": "price",
+      "title": "vintage nike grey track pants l retro joggers y2k tracksuit bottoms",
+      "url": "https://www.vinted.co.uk/items/10576357717-vintage-nike-grey-track-pants-l-retro-joggers-y2k-tracksuit-bottoms",
+      "lastPrice": 27.99,
+      "firstSeenAt": "2026-10-29T06:25:45.574Z",
+      "lastSeenAt": "2026-10-29T06:25:45.574Z"
+    },
+    "10576357686": {
+      "blockedReason": "price",
+      "title": "vintage nike track pants black xl w34 l32 retro sportswear trousers",
+      "url": "https://www.vinted.co.uk/items/10576357686-vintage-nike-track-pants-black-xl-w34-l32-retro-sportswear-trousers",
+      "lastPrice": 24.99,
+      "firstSeenAt": "2026-10-29T06:25:45.575Z",
+      "lastSeenAt": "2026-10-29T06:25:45.575Z"
+    },
+    "10576357640": {
+      "blockedReason": "price",
+      "title": "vintage nike track pants black l w30 l30 retro sportswear trousers",
+      "url": "https://www.vinted.co.uk/items/10576357640-vintage-nike-track-pants-black-l-w30-l30-retro-sportswear-trousers",
+      "lastPrice": 24.99,
+      "firstSeenAt": "2026-10-29T06:25:45.575Z",
+      "lastSeenAt": "2026-10-29T06:25:45.575Z"
+    },
+    "10576357615": {
+      "blockedReason": "price",
+      "title": "vintage nike track pants black xl w36 l30 retro sportswear trousers",
+      "url": "https://www.vinted.co.uk/items/10576357615-vintage-nike-track-pants-black-xl-w36-l30-retro-sportswear-trousers",
+      "lastPrice": 24.99,
+      "firstSeenAt": "2026-10-29T06:25:45.575Z",
+      "lastSeenAt": "2026-10-29T06:25:45.575Z"
+    },
+    "10576357595": {
+      "blockedReason": "price",
+      "title": "vintage nike track pants womens navy small retro tracksuit bottoms w33 l27",
+      "url": "https://www.vinted.co.uk/items/10576357595-vintage-nike-track-pants-womens-navy-small-retro-tracksuit-bottoms-w33-l27",
+      "lastPrice": 26.99,
+      "firstSeenAt": "2026-10-29T06:25:45.575Z",
+      "lastSeenAt": "2026-10-29T06:25:45.575Z"
+    },
+    "10576357578": {
+      "blockedReason": "price",
+      "title": "vintage nike track pants blue xl retro sportswear tracksuit bottoms w40 l32",
+      "url": "https://www.vinted.co.uk/items/10576357578-vintage-nike-track-pants-blue-xl-retro-sportswear-tracksuit-bottoms-w40-l32",
+      "lastPrice": 24.99,
+      "firstSeenAt": "2026-10-29T06:25:45.575Z",
+      "lastSeenAt": "2026-10-29T06:25:45.575Z"
+    },
+    "10576357548": {
+      "blockedReason": "price",
+      "title": "vintage nike track pants black xxl retro sportswear tracksuit bottoms w36 l29",
+      "url": "https://www.vinted.co.uk/items/10576357548-vintage-nike-track-pants-black-xxl-retro-sportswear-tracksuit-bottoms-w36-l29",
+      "lastPrice": 26.99,
+      "firstSeenAt": "2026-10-29T06:25:45.575Z",
+      "lastSeenAt": "2026-10-29T06:25:45.575Z"
+    },
+    "10576357514": {
+      "blockedReason": "price",
+      "title": "vintage nike track pants black xl retro sportswear tracksuit bottoms w30 l30",
+      "url": "https://www.vinted.co.uk/items/10576357514-vintage-nike-track-pants-black-xl-retro-sportswear-tracksuit-bottoms-w30-l30",
+      "lastPrice": 24.99,
+      "firstSeenAt": "2026-10-29T06:25:45.575Z",
+      "lastSeenAt": "2026-10-29T06:25:45.575Z"
+    },
+    "10576357476": {
+      "blockedReason": "price",
+      "title": "vintage nike track pants black 3xlt tall retro sportswear trousers w36 l37",
+      "url": "https://www.vinted.co.uk/items/10576357476-vintage-nike-track-pants-black-3xlt-tall-retro-sportswear-trousers-w36-l37",
+      "lastPrice": 24.99,
+      "firstSeenAt": "2026-10-29T06:25:45.575Z",
+      "lastSeenAt": "2026-10-29T06:25:45.575Z"
+    },
+    "10576357451": {
+      "blockedReason": "price",
+      "title": "vintage nike track pants black large retro sportswear tracksuit bottoms w38 l30",
+      "url": "https://www.vinted.co.uk/items/10576357451-vintage-nike-track-pants-black-large-retro-sportswear-tracksuit-bottoms-w38-l30",
+      "lastPrice": 24.99,
+      "firstSeenAt": "2026-10-29T06:25:45.575Z",
+      "lastSeenAt": "2026-10-29T06:25:45.575Z"
+    },
+    "10576357428": {
+      "blockedReason": "price",
+      "title": "vintage nike track pants grey xl retro sportswear tracksuit bottoms w34 l31",
+      "url": "https://www.vinted.co.uk/items/10576357428-vintage-nike-track-pants-grey-xl-retro-sportswear-tracksuit-bottoms-w34-l31",
+      "lastPrice": 24.99,
+      "firstSeenAt": "2026-10-29T06:25:45.575Z",
+      "lastSeenAt": "2026-10-29T06:25:45.575Z"
+    },
+    "10576357410": {
+      "blockedReason": "price",
+      "title": "vintage nike track pants black l w30 l36 retro sportswear trousers",
+      "url": "https://www.vinted.co.uk/items/10576357410-vintage-nike-track-pants-black-l-w30-l36-retro-sportswear-trousers",
+      "lastPrice": 24.99,
+      "firstSeenAt": "2026-10-29T06:25:45.575Z",
+      "lastSeenAt": "2026-10-29T06:25:45.575Z"
+    },
+    "10576357383": {
+      "blockedReason": "price",
+      "title": "vintage nike track pants grey l w32 l32 retro sportswear trousers",
+      "url": "https://www.vinted.co.uk/items/10576357383-vintage-nike-track-pants-grey-l-w32-l32-retro-sportswear-trousers",
+      "lastPrice": 24.99,
+      "firstSeenAt": "2026-10-29T06:25:45.575Z",
+      "lastSeenAt": "2026-10-29T06:25:45.575Z"
+    },
+    "10576357355": {
+      "blockedReason": "price",
+      "title": "vintage nike track pants navy blue m w30 l30 retro sportswear trousers",
+      "url": "https://www.vinted.co.uk/items/10576357355-vintage-nike-track-pants-navy-blue-m-w30-l30-retro-sportswear-trousers",
+      "lastPrice": 24.99,
+      "firstSeenAt": "2026-10-29T06:25:45.575Z",
+      "lastSeenAt": "2026-10-29T06:25:45.575Z"
+    },
+    "10576357283": {
+      "blockedReason": "price",
+      "title": "vintage nike track pants red s w28 l31 retro sportswear trousers",
+      "url": "https://www.vinted.co.uk/items/10576357283-vintage-nike-track-pants-red-s-w28-l31-retro-sportswear-trousers",
+      "lastPrice": 24.99,
+      "firstSeenAt": "2026-10-29T06:25:45.575Z",
+      "lastSeenAt": "2026-10-29T06:25:45.575Z"
+    },
+    "10576357210": {
+      "blockedReason": "price",
+      "title": "vintage nike track pants grey fits mens small w28 l27 retro sportswear",
+      "url": "https://www.vinted.co.uk/items/10576357210-vintage-nike-track-pants-grey-fits-mens-small-w28-l27-retro-sportswear",
+      "lastPrice": 24.99,
+      "firstSeenAt": "2026-10-29T06:25:45.575Z",
+      "lastSeenAt": "2026-10-29T06:25:45.575Z"
+    },
+    "10575469961": {
+      "size": "M",
+      "condition": "veryGood",
+      "resale": 26,
+      "netProfit": 12.7,
+      "roi": 101.6,
+      "buyScore": 77,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-10-29T06:25:48.001Z",
+      "discordMessageId": "1565250280168103947",
+      "title": "nike black woven track pants joggers sportswear size medium",
+      "url": "https://www.vinted.co.uk/items/10575469961-nike-black-woven-track-pants-joggers-sportswear-size-medium",
+      "lastPrice": 12.5,
+      "firstSeenAt": "2026-10-29T06:25:48.001Z",
+      "lastSeenAt": "2026-10-29T06:25:48.001Z"
+    },
+    "10565662354": {
+      "size": "M",
+      "condition": "veryGood",
+      "resale": 26,
+      "netProfit": 17.7,
+      "roi": 236,
+      "buyScore": 92,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-10-29T06:25:49.533Z",
+      "discordMessageId": "1565250287055142965",
+      "title": "nike track pantsjoggers mens medium",
+      "url": "https://www.vinted.co.uk/items/10565662354-nike-track-pantsjoggers-mens-medium",
+      "lastPrice": 7.5,
+      "firstSeenAt": "2026-10-29T06:25:49.533Z",
+      "lastSeenAt": "2026-10-29T06:25:49.533Z"
+    },
+    "10553754406": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike air max 95 track pants",
+      "url": "https://www.vinted.co.uk/items/10553754406-nike-air-max-95-track-pants",
+      "lastPrice": 48.24,
+      "firstSeenAt": "2026-10-29T06:25:49.534Z",
+      "lastSeenAt": "2026-10-29T06:25:49.534Z"
+    },
+    "10550807540": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "mens vintage y2k nike navy blue track pants",
+      "url": "https://www.vinted.co.uk/items/10550807540-mens-vintage-y2k-nike-navy-blue-track-pants",
+      "lastPrice": 18.98,
+      "firstSeenAt": "2026-10-29T06:25:49.534Z",
+      "lastSeenAt": "2026-10-29T06:25:49.534Z"
+    },
+    "10550704602": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike womens shiny black metallic track pants",
+      "url": "https://www.vinted.co.uk/items/10550704602-nike-womens-shiny-black-metallic-track-pants",
+      "lastPrice": 60.75,
+      "firstSeenAt": "2026-10-29T06:25:49.534Z",
+      "lastSeenAt": "2026-10-29T06:25:49.534Z"
+    },
+    "10550668244": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "relaxed fit brown cargo track pants by nike",
+      "url": "https://www.vinted.co.uk/items/10550668244-relaxed-fit-brown-cargo-track-pants-by-nike",
+      "lastPrice": 31.13,
+      "firstSeenAt": "2026-10-29T06:25:49.534Z",
+      "lastSeenAt": "2026-10-29T06:25:49.534Z"
+    },
+    "10550312469": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "vintage nike track pants mens xl gray lightweight windbreaker joggers y2k",
+      "url": "https://www.vinted.co.uk/items/10550312469-vintage-nike-track-pants-mens-xl-gray-lightweight-windbreaker-joggers-y2k",
+      "lastPrice": 30.37,
+      "firstSeenAt": "2026-10-29T06:25:49.534Z",
+      "lastSeenAt": "2026-10-29T06:25:49.534Z"
+    },
+    "10549422689": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike dri fit track pants youth size m blue",
+      "url": "https://www.vinted.co.uk/items/10549422689-nike-dri-fit-track-pants-youth-size-m-blue",
+      "lastPrice": 11.39,
+      "firstSeenAt": "2026-10-29T06:25:49.534Z",
+      "lastSeenAt": "2026-10-29T06:25:49.534Z"
+    },
+    "10549136909": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "womens nike track pant",
+      "url": "https://www.vinted.co.uk/items/10549136909-womens-nike-track-pant",
+      "lastPrice": 11.39,
+      "firstSeenAt": "2026-10-29T06:25:49.534Z",
+      "lastSeenAt": "2026-10-29T06:25:49.534Z"
+    },
+    "10549100111": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike vintage style track pants small",
+      "url": "https://www.vinted.co.uk/items/10549100111-nike-vintage-style-track-pants-small",
+      "lastPrice": 15.18,
+      "firstSeenAt": "2026-10-29T06:25:49.534Z",
+      "lastSeenAt": "2026-10-29T06:25:49.534Z"
+    },
+    "10548860358": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "y2k baggy nike track pants",
+      "url": "https://www.vinted.co.uk/items/10548860358-y2k-baggy-nike-track-pants",
+      "lastPrice": 15.19,
+      "firstSeenAt": "2026-10-29T06:25:49.534Z",
+      "lastSeenAt": "2026-10-29T06:25:49.534Z"
+    },
+    "10548855647": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "m nike nylon windbreaker track pants",
+      "url": "https://www.vinted.co.uk/items/10548855647-m-nike-nylon-windbreaker-track-pants",
+      "lastPrice": 45.56,
+      "firstSeenAt": "2026-10-29T06:25:49.534Z",
+      "lastSeenAt": "2026-10-29T06:25:49.534Z"
+    },
+    "10548591089": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "xs nike red track pants",
+      "url": "https://www.vinted.co.uk/items/10548591089-xs-nike-red-track-pants",
+      "lastPrice": 18.98,
+      "firstSeenAt": "2026-10-29T06:25:49.534Z",
+      "lastSeenAt": "2026-10-29T06:25:49.534Z"
+    },
+    "10548335581": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike y2k track pant medium",
+      "url": "https://www.vinted.co.uk/items/10548335581-nike-y2k-track-pant-medium",
+      "lastPrice": 22.77,
+      "firstSeenAt": "2026-10-29T06:25:49.534Z",
+      "lastSeenAt": "2026-10-29T06:25:49.534Z"
+    },
+    "10548311015": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike womens nylon track pants brown mesh lined joggers baggy streetwear size s short",
+      "url": "https://www.vinted.co.uk/items/10548311015-nike-womens-nylon-track-pants-brown-mesh-lined-joggers-baggy-streetwear-size-s-short",
+      "lastPrice": 16.71,
+      "firstSeenAt": "2026-10-29T06:25:49.534Z",
+      "lastSeenAt": "2026-10-29T06:25:49.534Z"
+    },
+    "10548280087": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "2000s nike mens xl blue nylon track pants drawstring elastic waist side stripe",
+      "url": "https://www.vinted.co.uk/items/10548280087-2000s-nike-mens-xl-blue-nylon-track-pants-drawstring-elastic-waist-side-stripe",
+      "lastPrice": 14.43,
+      "firstSeenAt": "2026-10-29T06:25:49.534Z",
+      "lastSeenAt": "2026-10-29T06:25:49.534Z"
+    },
+    "10547875468": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike track pants",
+      "url": "https://www.vinted.co.uk/items/10547875468-nike-track-pants",
+      "lastPrice": 11.39,
+      "firstSeenAt": "2026-10-29T06:25:49.534Z",
+      "lastSeenAt": "2026-10-29T06:25:49.534Z"
+    },
+    "10547652791": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike woven track pants black white swoosh baggy y2k xxl",
+      "url": "https://www.vinted.co.uk/items/10547652791-nike-woven-track-pants-black-white-swoosh-baggy-y2k-xxl",
+      "lastPrice": 15.19,
+      "firstSeenAt": "2026-10-29T06:25:49.534Z",
+      "lastSeenAt": "2026-10-29T06:25:49.534Z"
+    },
+    "10547205494": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike red and black track pants with embroidered swoosh and drawstring waist",
+      "url": "https://www.vinted.co.uk/items/10547205494-nike-red-and-black-track-pants-with-embroidered-swoosh-and-drawstring-waist",
+      "lastPrice": 50.88,
+      "firstSeenAt": "2026-10-29T06:25:49.534Z",
+      "lastSeenAt": "2026-10-29T06:25:49.534Z"
+    },
+    "10546631421": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "2000s nike black track pants size large",
+      "url": "https://www.vinted.co.uk/items/10546631421-2000s-nike-black-track-pants-size-large",
+      "lastPrice": 22.01,
+      "firstSeenAt": "2026-10-29T06:25:49.534Z",
+      "lastSeenAt": "2026-10-29T06:25:49.534Z"
+    },
+    "10545837082": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike sportswear mens colorblock utility cargo track pants size m",
+      "url": "https://www.vinted.co.uk/items/10545837082-nike-sportswear-mens-colorblock-utility-cargo-track-pants-size-m",
+      "lastPrice": 35.69,
+      "firstSeenAt": "2026-10-29T06:25:49.534Z",
+      "lastSeenAt": "2026-10-29T06:25:49.534Z"
+    },
+    "10544271350": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike black track pants",
+      "url": "https://www.vinted.co.uk/items/10544271350-nike-black-track-pants",
+      "lastPrice": 9.11,
+      "firstSeenAt": "2026-10-29T06:25:49.534Z",
+      "lastSeenAt": "2026-10-29T06:25:49.534Z"
+    },
+    "10544124162": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "black nike track pants",
+      "url": "https://www.vinted.co.uk/items/10544124162-black-nike-track-pants",
+      "lastPrice": 18.98,
+      "firstSeenAt": "2026-10-29T06:25:49.534Z",
+      "lastSeenAt": "2026-10-29T06:25:49.534Z"
+    },
+    "10544100864": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike dri fit colorblock track pants white light blue pink size medium",
+      "url": "https://www.vinted.co.uk/items/10544100864-nike-dri-fit-colorblock-track-pants-white-light-blue-pink-size-medium",
+      "lastPrice": 37.97,
+      "firstSeenAt": "2026-10-29T06:25:49.534Z",
+      "lastSeenAt": "2026-10-29T06:25:49.534Z"
+    },
+    "10543872664": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nwt nike mens black track pants with neon yellow piping 646676 011 size s",
+      "url": "https://www.vinted.co.uk/items/10543872664-nwt-nike-mens-black-track-pants-with-neon-yellow-piping-646676-011-size-s",
+      "lastPrice": 18.22,
+      "firstSeenAt": "2026-10-29T06:25:49.534Z",
+      "lastSeenAt": "2026-10-29T06:25:49.534Z"
     }
   },
   "market": {
@@ -1496401,7 +1499467,7 @@
   "sellers": {},
   "images": {},
   "cursor": 4,
-  "updatedAt": "2026-10-29T02:52:36.769Z",
+  "updatedAt": "2026-10-29T06:22:53.725Z",
   "lastRotation": {
     "bot": "clothing",
     "selected": [
@@ -1496689,8 +1499755,8 @@
         "updatedAt": "2026-10-28T01:31:48.976Z"
       },
       "Nike Any Clothing Bargain::nike": {
-        "maxId": "10577430791",
-        "updatedAt": "2026-10-29T02:52:36.769Z"
+        "maxId": "10577467830",
+        "updatedAt": "2026-10-29T06:22:53.725Z"
       },
       "Nike Accessories Bargain::nike accessories": {
         "maxId": "9761883863",
@@ -1496777,28 +1499843,28 @@
         "updatedAt": "2026-10-29T02:52:36.769Z"
       },
       "Nike Woven Jacket::nike woven jacket": {
-        "maxId": "10560628749",
-        "updatedAt": "2026-10-27T18:23:48.275Z"
+        "maxId": "10576188882",
+        "updatedAt": "2026-10-29T06:22:53.725Z"
       },
       "Nike Bomber Jacket::nike bomber jacket": {
-        "maxId": "10560665356",
-        "updatedAt": "2026-10-27T18:23:48.275Z"
+        "maxId": "10578781091",
+        "updatedAt": "2026-10-29T06:22:53.725Z"
       },
       "Nike Coat::nike coat": {
-        "maxId": "10563904692",
-        "updatedAt": "2026-10-27T22:20:52.808Z"
+        "maxId": "10578967175",
+        "updatedAt": "2026-10-29T06:22:53.725Z"
       },
       "Nike Shorts::nike shorts": {
-        "maxId": "10563966289",
-        "updatedAt": "2026-10-27T22:20:52.808Z"
+        "maxId": "10579111710",
+        "updatedAt": "2026-10-29T06:22:53.725Z"
       },
       "Nike Cargo Trousers::nike cargo trousers": {
-        "maxId": "10563827059",
-        "updatedAt": "2026-10-27T22:20:52.808Z"
+        "maxId": "10577898083",
+        "updatedAt": "2026-10-29T06:22:53.725Z"
       },
       "Nike Track Pants::nike track pants": {
-        "maxId": "10563706125",
-        "updatedAt": "2026-10-27T22:20:52.808Z"
+        "maxId": "10579108833",
+        "updatedAt": "2026-10-29T06:22:53.725Z"
       },
       "Nike Woven Trousers::nike woven trousers": {
         "maxId": "10563442472",
@@ -1496841,13 +1499907,13 @@
         "updatedAt": "2026-10-28T19:40:19.005Z"
       }
     },
-    "lastScanAt": "2026-10-29T02:52:36.769Z",
-    "lastAttemptAt": "2026-10-29T02:52:36.769Z"
+    "lastScanAt": "2026-10-29T06:22:53.725Z",
+    "lastAttemptAt": "2026-10-29T06:22:53.725Z"
   },
   "diagnostics": {
     "bot": "clothing",
     "radarVersion": 6,
-    "lastRunAt": "2026-10-29T02:52:36.769Z",
+    "lastRunAt": "2026-10-29T06:22:53.725Z",
     "recoveryMode": true,
     "filterProfile": {
       "freshnessMinutes": 15,
@@ -1496863,49 +1499929,46 @@
     "totalSearchGroups": 81,
     "selectedSearches": [
       "Nike Any Clothing Bargain::nike",
-      "Nike Quarter Zip::nike quarter zip",
-      "Nike Fleece::nike fleece",
-      "Nike Gilet::nike gilet",
-      "Nike Windbreaker::nike windbreaker",
-      "Nike Anorak::nike anorak",
-      "Nike Rain Jacket::nike rain jacket"
+      "Nike Woven Jacket::nike woven jacket",
+      "Nike Bomber Jacket::nike bomber jacket",
+      "Nike Coat::nike coat",
+      "Nike Shorts::nike shorts",
+      "Nike Cargo Trousers::nike cargo trousers",
+      "Nike Track Pants::nike track pants"
     ],
     "successfulSearches": 7,
     "failedSearches": 0,
     "confirmedEmptySearches": 0,
     "catalogMarkers": 1344,
-    "catalogItems": 1116,
-    "candidateItems": 293,
-    "freshItems": 125,
+    "catalogItems": 1109,
+    "candidateItems": 337,
+    "freshItems": 163,
     "freshByAge": 0,
-    "freshByNewId": 125,
-    "qualifyingAlerts": 48,
-    "deliveredAlerts": 48,
+    "freshByNewId": 163,
+    "qualifyingAlerts": 52,
+    "deliveredAlerts": 52,
     "discordFailures": 0,
     "pendingDeliveries": 0,
     "rejects": {
-      "recovery-no-fresh-signal": 161,
-      "condition": 26,
-      "size": 5,
-      "keyword": 5,
-      "price": 37,
-      "score": 1,
-      "detail-budget-exhausted": 3
+      "condition": 23,
+      "recovery-no-fresh-signal": 168,
+      "price": 70,
+      "size": 6,
+      "keyword": 6,
+      "detail-budget-exhausted": 6
     },
     "failures": {},
     "healthyScan": true,
     "detailFetches": 6,
-    "duplicateSuppressed": 7,
     "qualifyingByCondition": {
-      "veryGood": 41,
-      "newWithTags": 1,
-      "newWithoutTags": 6
+      "veryGood": 50,
+      "newWithoutTags": 2
     },
     "deliveredByCondition": {
-      "veryGood": 41,
-      "newWithTags": 1,
-      "newWithoutTags": 6
+      "veryGood": 50,
+      "newWithoutTags": 2
     },
+    "duplicateSuppressed": 6,
     "healthReason": "all-selected-searches-completed",
     "discordRoutes": [
       {
@@ -1496941,7 +1500004,7 @@
   },
   "radarVersion": 6,
   "pendingDeliveries": {},
-  "rotationCursor": 12,
+  "rotationCursor": 18,
   "alertedItemIds": {
     "9757757267": "2026-08-23T20:37:33.120Z",
     "9757864455": "2026-08-23T20:37:41.737Z",
@@ -1535266,6 +1538329,58 @@
     "10570597623": "2026-10-29T02:55:11.440Z",
     "10568966497": "2026-10-29T02:55:13.148Z",
     "10568086858": "2026-10-29T02:55:15.154Z",
-    "10568067834": "2026-10-29T02:55:17.516Z"
+    "10568067834": "2026-10-29T02:55:17.516Z",
+    "10574053555": "2026-10-29T06:23:06.249Z",
+    "10573601240": "2026-10-29T06:23:07.012Z",
+    "10572487736": "2026-10-29T06:23:09.885Z",
+    "10567010866": "2026-10-29T06:23:13.184Z",
+    "10564651544": "2026-10-29T06:23:15.299Z",
+    "10578781091": "2026-10-29T06:23:21.673Z",
+    "10577625466": "2026-10-29T06:23:24.237Z",
+    "10575245491": "2026-10-29T06:23:26.597Z",
+    "10575111647": "2026-10-29T06:23:28.636Z",
+    "10573097020": "2026-10-29T06:23:31.109Z",
+    "10572843750": "2026-10-29T06:23:33.812Z",
+    "10571995761": "2026-10-29T06:23:36.412Z",
+    "10571128557": "2026-10-29T06:23:39.198Z",
+    "10570826480": "2026-10-29T06:23:41.766Z",
+    "10570511245": "2026-10-29T06:23:44.447Z",
+    "10569871570": "2026-10-29T06:23:47.054Z",
+    "10569657360": "2026-10-29T06:23:50.250Z",
+    "10566154063": "2026-10-29T06:23:53.047Z",
+    "10578967175": "2026-10-29T06:24:00.287Z",
+    "10577959739": "2026-10-29T06:24:05.131Z",
+    "10577818681": "2026-10-29T06:24:07.945Z",
+    "10577603233": "2026-10-29T06:24:10.658Z",
+    "10577577371": "2026-10-29T06:24:12.791Z",
+    "10577553617": "2026-10-29T06:24:15.105Z",
+    "10577528653": "2026-10-29T06:24:17.018Z",
+    "10577487328": "2026-10-29T06:24:19.202Z",
+    "10577487093": "2026-10-29T06:24:21.131Z",
+    "10577451840": "2026-10-29T06:24:26.012Z",
+    "10577300625": "2026-10-29T06:24:27.820Z",
+    "10577079530": "2026-10-29T06:24:32.743Z",
+    "10576766495": "2026-10-29T06:24:34.895Z",
+    "10576480038": "2026-10-29T06:24:45.493Z",
+    "10576377653": "2026-10-29T06:24:47.332Z",
+    "10576069188": "2026-10-29T06:24:50.449Z",
+    "10579111710": "2026-10-29T06:24:58.121Z",
+    "10579104214": "2026-10-29T06:25:00.849Z",
+    "10579102576": "2026-10-29T06:25:03.143Z",
+    "10579047869": "2026-10-29T06:25:06.267Z",
+    "10578988896": "2026-10-29T06:25:09.145Z",
+    "10577007825": "2026-10-29T06:25:15.980Z",
+    "10576598040": "2026-10-29T06:25:18.848Z",
+    "10575479686": "2026-10-29T06:25:21.789Z",
+    "10575479662": "2026-10-29T06:25:23.685Z",
+    "10572966985": "2026-10-29T06:25:26.418Z",
+    "10571172948": "2026-10-29T06:25:28.659Z",
+    "10569769944": "2026-10-29T06:25:30.654Z",
+    "10579108833": "2026-10-29T06:25:38.660Z",
+    "10578892027": "2026-10-29T06:25:42.144Z",
+    "10577146666": "2026-10-29T06:25:43.510Z",
+    "10577047109": "2026-10-29T06:25:45.574Z",
+    "10575469961": "2026-10-29T06:25:48.001Z",
+    "10565662354": "2026-10-29T06:25:49.533Z"
   }
 }
