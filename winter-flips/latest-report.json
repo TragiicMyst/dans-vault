@@ -2,29 +2,53 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-10-29T12:54:49.049Z",
+    "startedAt": "2026-10-29T18:46:49.174Z",
     "searchGroups": [
-      "napapijri-skidoo:napapijri-skidoo-jacket",
-      "napapijri-skidoo:napapijri-rainforest-winter",
-      "hunter:north-face-coat",
-      "hunter:north-face-puffer",
-      "hunter:north-face-700",
-      "hunter:mens-north-face-jacket",
-      "hunter:rab-puffer",
-      "hunter:rab-down-jacket"
+      "rab-electron:rab-electron-pro",
+      "patagonia-down-sweater:patagonia-down-sweater-jacket",
+      "patagonia-down-sweater:patagonia-down-sweater-hoody",
+      "patagonia-fitz-roy:patagonia-fitz-roy-down",
+      "arcteryx-cerium:arcteryx-cerium-jacket",
+      "arcteryx-cerium:arc-teryx-cerium",
+      "arcteryx-thorium:arcteryx-thorium-jacket",
+      "arcteryx-thorium:arc-teryx-thorium"
     ],
-    "vintedItems": 270,
-    "freshItems": 62,
+    "vintedItems": 150,
+    "freshItems": 1,
     "freshByAge": 0,
-    "freshByNewId": 62,
+    "freshByNewId": 1,
     "bootstrapBlocked": 0,
-    "staleBlocked": 26,
-    "candidates": 3,
+    "staleBlocked": 0,
+    "candidates": 0,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-10-29T18:43:53.759Z",
+      "platform": "VINTED",
+      "id": "10585970246",
+      "title": "north face mens himalayan jacket",
+      "url": "https://www.vinted.co.uk/items/10585970246-north-face-mens-himalayan-jacket",
+      "modelId": "tnf-himalayan",
+      "buyPrice": 59,
+      "estimatedNetProfit": 40.13,
+      "roi": 68.02,
+      "score": 79
+    },
+    {
+      "at": "2026-10-29T18:40:59.135Z",
+      "platform": "VINTED",
+      "id": "10582734838",
+      "title": "berghaus puffer jacket",
+      "url": "https://www.vinted.co.uk/items/10582734838-berghaus-puffer-jacket",
+      "modelId": "berghaus-down",
+      "buyPrice": 20,
+      "estimatedNetProfit": 32.62,
+      "roi": 163.1,
+      "score": 89
+    },
     {
       "at": "2026-10-29T12:51:54.252Z",
       "platform": "VINTED",
@@ -240,30 +264,6 @@
       "estimatedNetProfit": 30.44,
       "roi": 67.95,
       "score": 79
-    },
-    {
-      "at": "2026-10-27T19:41:23.994Z",
-      "platform": "VINTED",
-      "id": "10559391411",
-      "title": "s childs ralph loren coat",
-      "url": "https://www.vinted.co.uk/items/10559391411-s-childs-ralph-loren-coat",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 35,
-      "estimatedNetProfit": 30.21,
-      "roi": 86.31,
-      "score": 85
-    },
-    {
-      "at": "2026-10-27T19:38:21.561Z",
-      "platform": "VINTED",
-      "id": "10562043025",
-      "title": "rab microlight alpine down jacket",
-      "url": "https://www.vinted.co.uk/items/10562043025-rab-microlight-alpine-down-jacket",
-      "modelId": "rab-microlight",
-      "buyPrice": 43,
-      "estimatedNetProfit": 32.34,
-      "roi": 75.21,
-      "score": 83
     }
   ]
 }
