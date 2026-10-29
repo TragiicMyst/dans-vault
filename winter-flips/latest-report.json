@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-10-29T06:06:34.403Z",
+    "startedAt": "2026-10-29T12:54:49.049Z",
     "searchGroups": [
-      "hunter:berghaus-puffer",
-      "hunter:napapijri-jacket",
-      "tnf-1996-nuptse:north-face-nuptse-700",
-      "tnf-1996-nuptse:north-face-1996-nuptse",
-      "tnf-himalayan:north-face-himalayan-puffer",
-      "tnf-himalayan:north-face-hmlyn-parka",
-      "tnf-baltoro:north-face-baltoro-jacket",
-      "tnf-summit-down:north-face-summit-series-down"
+      "napapijri-skidoo:napapijri-skidoo-jacket",
+      "napapijri-skidoo:napapijri-rainforest-winter",
+      "hunter:north-face-coat",
+      "hunter:north-face-puffer",
+      "hunter:north-face-700",
+      "hunter:mens-north-face-jacket",
+      "hunter:rab-puffer",
+      "hunter:rab-down-jacket"
     ],
-    "vintedItems": 234,
-    "freshItems": 0,
+    "vintedItems": 270,
+    "freshItems": 62,
     "freshByAge": 0,
-    "freshByNewId": 0,
+    "freshByNewId": 62,
     "bootstrapBlocked": 0,
-    "staleBlocked": 0,
-    "candidates": 0,
+    "staleBlocked": 26,
+    "candidates": 3,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-10-29T12:51:54.252Z",
+      "platform": "VINTED",
+      "id": "10581368313",
+      "title": "polo ralph lauren blue yellow quilted down puffer jacket size s perfect condition",
+      "url": "https://www.vinted.co.uk/items/10581368313-polo-ralph-lauren-blue-yellow-quilted-down-puffer-jacket-size-s-perfect-condition",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 35,
+      "estimatedNetProfit": 30.21,
+      "roi": 86.31,
+      "score": 87
+    },
     {
       "at": "2026-10-29T00:15:43.779Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 32.34,
       "roi": 75.21,
       "score": 83
-    },
-    {
-      "at": "2026-10-27T14:46:10.155Z",
-      "platform": "VINTED",
-      "id": "10555023598",
-      "title": "boys nike puffer jacket",
-      "url": "https://www.vinted.co.uk/items/10555023598-boys-nike-puffer-jacket",
-      "modelId": "nike-puffer",
-      "buyPrice": 30,
-      "estimatedNetProfit": 26.88,
-      "roi": 89.6,
-      "score": 87
     }
   ]
 }
