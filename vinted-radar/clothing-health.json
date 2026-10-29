@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-10-29T19:17:13.787Z",
-  "stateUpdatedAt": "2026-10-29T19:17:13.787Z",
-  "lastAttemptAt": "2026-10-29T19:17:13.787Z",
-  "lastScanAt": "2026-10-29T19:17:13.787Z",
+  "generatedAt": "2026-10-29T21:16:05.864Z",
+  "stateUpdatedAt": "2026-10-29T21:16:05.864Z",
+  "lastAttemptAt": "2026-10-29T21:16:05.864Z",
+  "lastScanAt": "2026-10-29T21:16:05.864Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Tech Fleece Full-Zip Hoodie::nike tech fleece full zip hoodie",
-    "Nike ACG Canwell Glacier Jacket::nike acg canwell glacier",
-    "Nike Strike Tracksuit::nike strike tracksuit",
-    "Nike Challenger Shorts::nike challenger shorts",
-    "Nike Tech Fleece Joggers::nike tech fleece joggers",
-    "Nike Storm-FIT Puffer::nike storm fit puffer"
+    "Nike Solo Swoosh Hoodie::nike solo swoosh hoodie",
+    "Nike Miler Running Top::nike miler running top",
+    "Nike Tech Fleece Open-Hem Trousers::nike tech fleece open hem trousers",
+    "Nike ACG Lunar Lake Puffer::nike acg lunar lake",
+    "Nike Academy Tracksuit::nike academy tracksuit",
+    "Nike Dri-FIT Running Top::nike dri-fit running top"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1372,
-  "catalogItems": 710,
-  "candidateItems": 351,
-  "freshItems": 176,
-  "qualifyingAlerts": 74,
+  "catalogMarkers": 1203,
+  "catalogItems": 612,
+  "candidateItems": 255,
+  "freshItems": 76,
+  "qualifyingAlerts": 36,
   "qualifyingByCondition": {
-    "veryGood": 63,
-    "newWithoutTags": 7,
-    "newWithTags": 4
+    "veryGood": 30,
+    "newWithTags": 4,
+    "newWithoutTags": 2
   },
-  "deliveredAlerts": 74,
+  "deliveredAlerts": 36,
   "deliveredByCondition": {
-    "veryGood": 63,
-    "newWithoutTags": 7,
-    "newWithTags": 4
+    "veryGood": 30,
+    "newWithTags": 4,
+    "newWithoutTags": 2
   },
-  "duplicateSuppressed": 59,
+  "duplicateSuppressed": 63,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,14 +67,12 @@
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 6,
+  "detailFetches": 0,
   "rejects": {
-    "price": 27,
-    "condition": 48,
+    "price": 19,
     "recovery-no-fresh-signal": 116,
-    "keyword": 11,
-    "clothing-variety-cap": 6,
-    "size": 4,
+    "condition": 7,
+    "keyword": 8,
     "weak-margin": 6
   },
   "failures": {}
