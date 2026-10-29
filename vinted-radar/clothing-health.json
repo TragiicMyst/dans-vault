@@ -1,39 +1,37 @@
 {
-  "generatedAt": "2026-10-29T13:38:29.312Z",
-  "stateUpdatedAt": "2026-10-29T13:38:29.312Z",
-  "lastAttemptAt": "2026-10-29T13:38:29.312Z",
-  "lastScanAt": "2026-10-29T13:38:29.312Z",
+  "generatedAt": "2026-10-29T16:18:43.981Z",
+  "stateUpdatedAt": "2026-10-29T16:18:43.981Z",
+  "lastAttemptAt": "2026-10-29T16:18:43.981Z",
+  "lastScanAt": "2026-10-29T16:18:43.981Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Zip Hoodie::nike zip hoodie",
-    "Nike Hoodie::nike hoodie",
-    "Nike Sweatshirt::nike sweatshirt",
-    "Nike Track Jacket::nike track jacket",
-    "Nike Joggers::nike joggers",
-    "Nike Trousers::nike trousers"
+    "Nike Sportswear Hoodie::nike sportswear hoodie",
+    "Nike Sportswear Jacket::nike sportswear jacket",
+    "Nike Tech Fleece Windrunner::nike tech fleece windrunner",
+    "Nike Puffer Jacket::nike puffer jacket",
+    "Nike NOCTA Track Jacket::nike nocta track jacket",
+    "Nike Miler Shorts::nike miler shorts"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1336,
-  "catalogItems": 1104,
-  "candidateItems": 246,
-  "freshItems": 187,
-  "qualifyingAlerts": 96,
+  "catalogMarkers": 1397,
+  "catalogItems": 868,
+  "candidateItems": 239,
+  "freshItems": 111,
+  "qualifyingAlerts": 43,
   "qualifyingByCondition": {
-    "veryGood": 89,
-    "newWithTags": 1,
-    "newWithoutTags": 6
+    "veryGood": 41,
+    "newWithoutTags": 2
   },
-  "deliveredAlerts": 96,
+  "deliveredAlerts": 43,
   "deliveredByCondition": {
-    "veryGood": 89,
-    "newWithTags": 1,
-    "newWithoutTags": 6
+    "veryGood": 41,
+    "newWithoutTags": 2
   },
-  "duplicateSuppressed": 3,
+  "duplicateSuppressed": 21,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,12 +67,13 @@
   "pendingDeliveries": 0,
   "detailFetches": 6,
   "rejects": {
-    "price": 31,
-    "condition": 40,
-    "recovery-no-fresh-signal": 56,
-    "keyword": 6,
-    "size": 4,
-    "detail-budget-exhausted": 10
+    "price": 33,
+    "recovery-no-fresh-signal": 107,
+    "condition": 18,
+    "keyword": 11,
+    "size": 3,
+    "clothing-variety-cap": 1,
+    "weak-margin": 2
   },
   "failures": {}
 }
