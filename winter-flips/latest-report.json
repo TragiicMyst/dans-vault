@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-10-30T20:08:31.770Z",
+    "startedAt": "2026-10-30T23:44:07.115Z",
     "searchGroups": [
-      "arcteryx-thorium:arcteryx-thorium-jacket",
-      "arcteryx-thorium:arc-teryx-thorium",
-      "ralph-lauren-puffer:ralph-lauren-puffer-jacket",
-      "ralph-lauren-puffer:polo-ralph-lauren-down-jacket",
-      "nike-puffer:nike-puffer-jacket-mens",
-      "nike-puffer:nike-down-jacket",
-      "berghaus-down:berghaus-down-jacket",
-      "berghaus-down:berghaus-puffer-jacket"
+      "tnf-1996-nuptse:north-face-nuptse-700",
+      "tnf-1996-nuptse:north-face-1996-nuptse",
+      "tnf-himalayan:north-face-himalayan-puffer",
+      "tnf-himalayan:north-face-hmlyn-parka",
+      "tnf-baltoro:north-face-baltoro-jacket",
+      "tnf-summit-down:north-face-summit-series-down",
+      "rab-microlight:rab-microlight-alpine",
+      "rab-neutrino:rab-neutrino-pro"
     ],
-    "vintedItems": 232,
-    "freshItems": 28,
+    "vintedItems": 193,
+    "freshItems": 0,
     "freshByAge": 0,
-    "freshByNewId": 28,
+    "freshByNewId": 0,
     "bootstrapBlocked": 0,
-    "staleBlocked": 1,
-    "candidates": 22,
-    "alerts": 4,
+    "staleBlocked": 0,
+    "candidates": 0,
+    "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-10-30T23:41:12.750Z",
+      "platform": "VINTED",
+      "id": "10600359640",
+      "title": "polo ralph lauren boys hooded puffer jacket size l14 16",
+      "url": "https://www.vinted.co.uk/items/10600359640-polo-ralph-lauren-boys-hooded-puffer-jacket-size-l14-16",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 50,
+      "estimatedNetProfit": 31.29,
+      "roi": 62.58,
+      "score": 77
+    },
     {
       "at": "2026-10-30T20:08:38.969Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 44.27,
       "roi": 177.08,
       "score": 92
-    },
-    {
-      "at": "2026-10-28T20:35:23.336Z",
-      "platform": "VINTED",
-      "id": "10574688445",
-      "title": "genuine polo ralph lauren grey reversible puffer gilet size xs",
-      "url": "https://www.vinted.co.uk/items/10574688445-genuine-polo-ralph-lauren-grey-reversible-puffer-gilet-size-xs",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 40,
-      "estimatedNetProfit": 34.51,
-      "roi": 86.28,
-      "score": 87
     }
   ]
 }
