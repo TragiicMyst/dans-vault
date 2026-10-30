@@ -2,29 +2,53 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-10-30T02:34:59.972Z",
+    "startedAt": "2026-10-30T08:59:29.817Z",
     "searchGroups": [
-      "nike-puffer:nike-puffer-jacket-mens",
-      "nike-puffer:nike-down-jacket",
-      "berghaus-down:berghaus-down-jacket",
-      "berghaus-down:berghaus-puffer-jacket",
-      "napapijri-skidoo:napapijri-skidoo-jacket",
-      "napapijri-skidoo:napapijri-rainforest-winter",
-      "hunter:north-face-coat",
-      "hunter:north-face-puffer"
+      "tnf-baltoro:north-face-baltoro-jacket",
+      "tnf-summit-down:north-face-summit-series-down",
+      "rab-microlight:rab-microlight-alpine",
+      "rab-neutrino:rab-neutrino-pro",
+      "rab-electron:rab-electron-pro",
+      "patagonia-down-sweater:patagonia-down-sweater-jacket",
+      "patagonia-down-sweater:patagonia-down-sweater-hoody",
+      "patagonia-fitz-roy:patagonia-fitz-roy-down"
     ],
-    "vintedItems": 270,
-    "freshItems": 17,
+    "vintedItems": 151,
+    "freshItems": 0,
     "freshByAge": 0,
-    "freshByNewId": 17,
+    "freshByNewId": 0,
     "bootstrapBlocked": 0,
-    "staleBlocked": 40,
+    "staleBlocked": 1,
     "candidates": 0,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-10-30T08:56:32.296Z",
+      "platform": "VINTED",
+      "id": "10592161238",
+      "title": "bnwt nike puffer navy boys 12 14 xl",
+      "url": "https://www.vinted.co.uk/items/10592161238-bnwt-nike-puffer-navy-boys-12-14-xl",
+      "modelId": "nike-puffer",
+      "buyPrice": 30,
+      "estimatedNetProfit": 29.38,
+      "roi": 97.93,
+      "score": 89
+    },
+    {
+      "at": "2026-10-30T08:53:40.601Z",
+      "platform": "VINTED",
+      "id": "10592138173",
+      "title": "ralph lauren navy coat",
+      "url": "https://www.vinted.co.uk/items/10592138173-ralph-lauren-navy-coat",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 30,
+      "estimatedNetProfit": 42.74,
+      "roi": 142.47,
+      "score": 94
+    },
     {
       "at": "2026-10-29T23:04:36.536Z",
       "platform": "VINTED",
@@ -240,30 +264,6 @@
       "estimatedNetProfit": 47.17,
       "roi": 168.46,
       "score": 96
-    },
-    {
-      "at": "2026-10-28T02:20:04.330Z",
-      "platform": "VINTED",
-      "id": "10564672611",
-      "title": "nike puffer coat thermal fit no sleeves",
-      "url": "https://www.vinted.co.uk/items/10564672611-nike-puffer-coat-thermal-fit-no-sleeves",
-      "modelId": "nike-puffer",
-      "buyPrice": 20,
-      "estimatedNetProfit": 35.12,
-      "roi": 175.6,
-      "score": 92
-    },
-    {
-      "at": "2026-10-28T02:20:03.611Z",
-      "platform": "VINTED",
-      "id": "10564837244",
-      "title": "nike therma fit puffer",
-      "url": "https://www.vinted.co.uk/items/10564837244-nike-therma-fit-puffer",
-      "modelId": "nike-puffer",
-      "buyPrice": 30,
-      "estimatedNetProfit": 24.57,
-      "roi": 81.9,
-      "score": 85
     }
   ]
 }
