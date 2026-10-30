@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-10-30T19:29:08.223Z",
-  "stateUpdatedAt": "2026-10-30T19:29:08.223Z",
-  "lastAttemptAt": "2026-10-30T19:29:08.223Z",
-  "lastScanAt": "2026-10-30T19:29:08.223Z",
+  "generatedAt": "2026-10-30T21:08:23.851Z",
+  "stateUpdatedAt": "2026-10-30T21:08:23.851Z",
+  "lastAttemptAt": "2026-10-30T21:08:23.851Z",
+  "lastScanAt": "2026-10-30T21:08:23.851Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Anorak::nike anorak",
-    "Nike Rain Jacket::nike rain jacket",
-    "Nike Woven Jacket::nike woven jacket",
-    "Nike Bomber Jacket::nike bomber jacket",
-    "Nike Coat::nike coat",
-    "Nike Shorts::nike shorts"
+    "Nike Cargo Trousers::nike cargo trousers",
+    "Nike Track Pants::nike track pants",
+    "Nike Woven Trousers::nike woven trousers",
+    "Nike Tracksuit::nike tracksuit",
+    "Nike Vintage Clothing::vintage nike",
+    "Nike SB Clothing::nike sb clothing"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1341,
-  "catalogItems": 1116,
-  "candidateItems": 277,
-  "freshItems": 174,
-  "qualifyingAlerts": 69,
+  "catalogMarkers": 1344,
+  "catalogItems": 1059,
+  "candidateItems": 324,
+  "freshItems": 243,
+  "qualifyingAlerts": 78,
   "qualifyingByCondition": {
-    "veryGood": 61,
-    "newWithoutTags": 6,
-    "newWithTags": 2
+    "veryGood": 68,
+    "newWithoutTags": 9,
+    "newWithTags": 1
   },
-  "deliveredAlerts": 69,
+  "deliveredAlerts": 78,
   "deliveredByCondition": {
-    "veryGood": 61,
-    "newWithoutTags": 6,
-    "newWithTags": 2
+    "veryGood": 68,
+    "newWithoutTags": 9,
+    "newWithTags": 1
   },
-  "duplicateSuppressed": 1,
+  "duplicateSuppressed": 8,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,13 +69,12 @@
   "pendingDeliveries": 0,
   "detailFetches": 6,
   "rejects": {
-    "price": 59,
-    "size": 3,
-    "condition": 30,
-    "recovery-no-fresh-signal": 102,
-    "score": 1,
-    "keyword": 6,
-    "detail-budget-exhausted": 6
+    "price": 88,
+    "recovery-no-fresh-signal": 73,
+    "size": 2,
+    "condition": 48,
+    "keyword": 10,
+    "detail-budget-exhausted": 17
   },
   "failures": {}
 }
