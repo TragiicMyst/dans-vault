@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-11-01T08:04:54.846Z",
+    "startedAt": "2026-11-01T14:59:14.947Z",
     "searchGroups": [
-      "ralph-lauren-puffer:ralph-lauren-puffer-jacket",
-      "ralph-lauren-puffer:polo-ralph-lauren-down-jacket",
-      "nike-puffer:nike-puffer-jacket-mens",
-      "nike-puffer:nike-down-jacket",
-      "berghaus-down:berghaus-down-jacket",
-      "berghaus-down:berghaus-puffer-jacket",
-      "napapijri-skidoo:napapijri-skidoo-jacket",
-      "napapijri-skidoo:napapijri-rainforest-winter"
+      "tnf-himalayan:north-face-himalayan-puffer",
+      "tnf-himalayan:north-face-hmlyn-parka",
+      "tnf-baltoro:north-face-baltoro-jacket",
+      "tnf-summit-down:north-face-summit-series-down",
+      "rab-microlight:rab-microlight-alpine",
+      "rab-neutrino:rab-neutrino-pro",
+      "rab-electron:rab-electron-pro",
+      "patagonia-down-sweater:patagonia-down-sweater-jacket"
     ],
-    "vintedItems": 270,
-    "freshItems": 6,
+    "vintedItems": 179,
+    "freshItems": 0,
     "freshByAge": 0,
-    "freshByNewId": 6,
+    "freshByNewId": 0,
     "bootstrapBlocked": 0,
-    "staleBlocked": 7,
-    "candidates": 2,
+    "staleBlocked": 0,
+    "candidates": 0,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-11-01T14:53:17.230Z",
+      "platform": "VINTED",
+      "id": "10618751688",
+      "title": "north face 700 nuptse puffer jacket medium",
+      "url": "https://www.vinted.co.uk/items/10618751688-north-face-700-nuptse-puffer-jacket-medium",
+      "modelId": "tnf-1996-nuptse",
+      "buyPrice": 50,
+      "estimatedNetProfit": 30.59,
+      "roi": 61.18,
+      "score": 70
+    },
     {
       "at": "2026-11-01T01:33:46.865Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 22.47,
       "roi": 74.9,
       "score": 82
-    },
-    {
-      "at": "2026-10-30T15:25:48.079Z",
-      "platform": "VINTED",
-      "id": "10593115541",
-      "title": "polo ralph lauren blue hooded puffer jacket size xl boys",
-      "url": "https://www.vinted.co.uk/items/10593115541-polo-ralph-lauren-blue-hooded-puffer-jacket-size-xl-boys",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 39.99,
-      "estimatedNetProfit": 37.12,
-      "roi": 92.82,
-      "score": 88
     }
   ]
 }
