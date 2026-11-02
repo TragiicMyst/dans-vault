@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-11-02T19:43:52.835Z",
-  "stateUpdatedAt": "2026-11-02T19:43:52.835Z",
-  "lastAttemptAt": "2026-11-02T19:43:52.835Z",
-  "lastScanAt": "2026-11-02T19:43:52.835Z",
+  "generatedAt": "2026-11-02T19:54:16.828Z",
+  "stateUpdatedAt": "2026-11-02T19:54:16.828Z",
+  "lastAttemptAt": "2026-11-02T19:54:16.828Z",
+  "lastScanAt": "2026-11-02T19:54:16.828Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Woven Jacket::nike woven jacket",
-    "Nike Bomber Jacket::nike bomber jacket",
-    "Nike Coat::nike coat",
-    "Nike Shorts::nike shorts",
-    "Nike Cargo Trousers::nike cargo trousers",
-    "Nike Track Pants::nike track pants"
+    "Nike Woven Trousers::nike woven trousers",
+    "Nike Tracksuit::nike tracksuit",
+    "Nike Vintage Clothing::vintage nike",
+    "Nike SB Clothing::nike sb clothing",
+    "Nike Vest::nike vest",
+    "Nike Air Max Hoodie::nike air max hoodie"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 1103,
-  "candidateItems": 310,
-  "freshItems": 240,
-  "qualifyingAlerts": 68,
+  "catalogItems": 1059,
+  "candidateItems": 306,
+  "freshItems": 256,
+  "qualifyingAlerts": 83,
   "qualifyingByCondition": {
-    "newWithoutTags": 7,
-    "veryGood": 60,
+    "veryGood": 76,
+    "newWithoutTags": 6,
     "newWithTags": 1
   },
-  "deliveredAlerts": 68,
+  "deliveredAlerts": 83,
   "deliveredByCondition": {
-    "newWithoutTags": 7,
-    "veryGood": 60,
+    "veryGood": 76,
+    "newWithoutTags": 6,
     "newWithTags": 1
   },
-  "duplicateSuppressed": 1,
+  "duplicateSuppressed": 6,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,13 +69,13 @@
   "pendingDeliveries": 0,
   "detailFetches": 6,
   "rejects": {
-    "keyword": 10,
-    "recovery-no-fresh-signal": 69,
-    "price": 107,
-    "condition": 37,
-    "weak-margin": 1,
-    "size": 5,
-    "detail-budget-exhausted": 12
+    "condition": 52,
+    "stale": 44,
+    "keyword": 12,
+    "price": 85,
+    "size": 4,
+    "detail-budget-exhausted": 19,
+    "weak-margin": 1
   },
   "failures": {}
 }
