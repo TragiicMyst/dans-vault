@@ -2,29 +2,53 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-11-03T01:58:19.732Z",
+    "startedAt": "2026-11-03T08:47:33.492Z",
     "searchGroups": [
-      "hunter:arc-teryx-puffer",
-      "hunter:ralph-lauren-puffer",
-      "hunter:polo-puffer-jacket",
-      "hunter:nike-puffer-jacket",
-      "hunter:berghaus-puffer",
-      "hunter:napapijri-jacket",
-      "tnf-1996-nuptse:north-face-nuptse-700",
-      "tnf-1996-nuptse:north-face-1996-nuptse"
+      "nike-puffer:nike-puffer-jacket-mens",
+      "nike-puffer:nike-down-jacket",
+      "berghaus-down:berghaus-down-jacket",
+      "berghaus-down:berghaus-puffer-jacket",
+      "napapijri-skidoo:napapijri-skidoo-jacket",
+      "napapijri-skidoo:napapijri-rainforest-winter",
+      "hunter:north-face-coat",
+      "hunter:north-face-puffer"
     ],
-    "vintedItems": 280,
-    "freshItems": 20,
+    "vintedItems": 271,
+    "freshItems": 19,
     "freshByAge": 0,
-    "freshByNewId": 20,
+    "freshByNewId": 19,
     "bootstrapBlocked": 0,
-    "staleBlocked": 5,
-    "candidates": 4,
+    "staleBlocked": 29,
+    "candidates": 1,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-11-03T08:44:44.664Z",
+      "platform": "VINTED",
+      "id": "10645514061",
+      "title": "puffer",
+      "url": "https://www.vinted.co.uk/items/10645514061-puffer",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 30,
+      "estimatedNetProfit": 42.12,
+      "roi": 140.4,
+      "score": 87
+    },
+    {
+      "at": "2026-11-03T08:44:43.720Z",
+      "platform": "VINTED",
+      "id": "10645878593",
+      "title": "ralph lauren bomber jacket boys xl",
+      "url": "https://www.vinted.co.uk/items/10645878593-ralph-lauren-bomber-jacket-boys-xl",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 40,
+      "estimatedNetProfit": 34.18,
+      "roi": 85.45,
+      "score": 87
+    },
     {
       "at": "2026-11-03T01:52:27.922Z",
       "platform": "VINTED",
@@ -240,30 +264,6 @@
       "estimatedNetProfit": 52.91,
       "roi": 188.96,
       "score": 98
-    },
-    {
-      "at": "2026-10-31T22:38:44.963Z",
-      "platform": "VINTED",
-      "id": "10613545712",
-      "title": "boys berghaus puffer jacket",
-      "url": "https://www.vinted.co.uk/items/10613545712-boys-berghaus-puffer-jacket",
-      "modelId": "berghaus-down",
-      "buyPrice": 20,
-      "estimatedNetProfit": 36.29,
-      "roi": 181.45,
-      "score": 90
-    },
-    {
-      "at": "2026-10-31T19:21:52.339Z",
-      "platform": "VINTED",
-      "id": "10610785848",
-      "title": "mens nike puffer jacket",
-      "url": "https://www.vinted.co.uk/items/10610785848-mens-nike-puffer-jacket",
-      "modelId": "nike-puffer",
-      "buyPrice": 25,
-      "estimatedNetProfit": 36.62,
-      "roi": 146.48,
-      "score": 94
     }
   ]
 }
