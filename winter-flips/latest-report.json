@@ -2,29 +2,65 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-11-03T08:47:33.492Z",
+    "startedAt": "2026-11-03T16:41:35.860Z",
     "searchGroups": [
-      "nike-puffer:nike-puffer-jacket-mens",
-      "nike-puffer:nike-down-jacket",
-      "berghaus-down:berghaus-down-jacket",
-      "berghaus-down:berghaus-puffer-jacket",
-      "napapijri-skidoo:napapijri-skidoo-jacket",
-      "napapijri-skidoo:napapijri-rainforest-winter",
-      "hunter:north-face-coat",
-      "hunter:north-face-puffer"
+      "tnf-baltoro:north-face-baltoro-jacket",
+      "tnf-summit-down:north-face-summit-series-down",
+      "rab-microlight:rab-microlight-alpine",
+      "rab-neutrino:rab-neutrino-pro",
+      "rab-electron:rab-electron-pro",
+      "patagonia-down-sweater:patagonia-down-sweater-jacket",
+      "patagonia-down-sweater:patagonia-down-sweater-hoody",
+      "patagonia-fitz-roy:patagonia-fitz-roy-down"
     ],
-    "vintedItems": 271,
-    "freshItems": 19,
+    "vintedItems": 158,
+    "freshItems": 0,
     "freshByAge": 0,
-    "freshByNewId": 19,
+    "freshByNewId": 0,
     "bootstrapBlocked": 0,
-    "staleBlocked": 29,
-    "candidates": 1,
+    "staleBlocked": 1,
+    "candidates": 0,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-11-03T16:38:41.941Z",
+      "platform": "VINTED",
+      "id": "10650553471",
+      "title": "napapijri rainforest winter 3 mens hooded jacket",
+      "url": "https://www.vinted.co.uk/items/10650553471-napapijri-rainforest-winter-3-mens-hooded-jacket",
+      "modelId": "napapijri-skidoo",
+      "buyPrice": 40,
+      "estimatedNetProfit": 31.75,
+      "roi": 79.38,
+      "score": 83
+    },
+    {
+      "at": "2026-11-03T16:38:38.243Z",
+      "platform": "VINTED",
+      "id": "10649001181",
+      "title": "nike puffer jacket",
+      "url": "https://www.vinted.co.uk/items/10649001181-nike-puffer-jacket",
+      "modelId": "nike-puffer",
+      "buyPrice": 25,
+      "estimatedNetProfit": 26.82,
+      "roi": 107.28,
+      "score": 90
+    },
+    {
+      "at": "2026-11-03T16:35:47.925Z",
+      "platform": "VINTED",
+      "id": "10651466447",
+      "title": "polo ralph lauren 4 years coat ski jacket",
+      "url": "https://www.vinted.co.uk/items/10651466447-polo-ralph-lauren-4-years-coat-ski-jacket",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 40,
+      "estimatedNetProfit": 34.71,
+      "roi": 86.78,
+      "score": 82
+    },
     {
       "at": "2026-11-03T08:44:44.664Z",
       "platform": "VINTED",
@@ -228,42 +264,6 @@
       "estimatedNetProfit": 30.59,
       "roi": 61.18,
       "score": 70
-    },
-    {
-      "at": "2026-11-01T01:33:46.865Z",
-      "platform": "VINTED",
-      "id": "10614220170",
-      "title": "nike puffer jacket",
-      "url": "https://www.vinted.co.uk/items/10614220170-nike-puffer-jacket",
-      "modelId": "nike-puffer",
-      "buyPrice": 20,
-      "estimatedNetProfit": 32.81,
-      "roi": 164.05,
-      "score": 91
-    },
-    {
-      "at": "2026-11-01T01:27:43.056Z",
-      "platform": "VINTED",
-      "id": "10614162701",
-      "title": "womens polo by ralph lauren puffer jacket m",
-      "url": "https://www.vinted.co.uk/items/10614162701-womens-polo-by-ralph-lauren-puffer-jacket-m",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 26,
-      "estimatedNetProfit": 49.81,
-      "roi": 191.58,
-      "score": 98
-    },
-    {
-      "at": "2026-11-01T01:27:42.272Z",
-      "platform": "VINTED",
-      "id": "10614225166",
-      "title": "womens lauren ralph lauren beige long down puffer coat l",
-      "url": "https://www.vinted.co.uk/items/10614225166-womens-lauren-ralph-lauren-beige-long-down-puffer-coat-l",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 28,
-      "estimatedNetProfit": 52.91,
-      "roi": 188.96,
-      "score": 98
     }
   ]
 }
