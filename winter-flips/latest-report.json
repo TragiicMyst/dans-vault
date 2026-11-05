@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-11-05T02:48:59.793Z",
+    "startedAt": "2026-11-05T09:57:21.092Z",
     "searchGroups": [
-      "hunter:polo-puffer-jacket",
-      "hunter:nike-puffer-jacket",
-      "hunter:berghaus-puffer",
-      "hunter:napapijri-jacket",
-      "tnf-1996-nuptse:north-face-nuptse-700",
-      "tnf-1996-nuptse:north-face-1996-nuptse",
-      "tnf-himalayan:north-face-himalayan-puffer",
-      "tnf-himalayan:north-face-hmlyn-parka"
+      "berghaus-down:berghaus-down-jacket",
+      "berghaus-down:berghaus-puffer-jacket",
+      "napapijri-skidoo:napapijri-skidoo-jacket",
+      "napapijri-skidoo:napapijri-rainforest-winter",
+      "hunter:north-face-coat",
+      "hunter:north-face-puffer",
+      "hunter:north-face-700",
+      "hunter:mens-north-face-jacket"
     ],
-    "vintedItems": 256,
-    "freshItems": 4,
+    "vintedItems": 272,
+    "freshItems": 19,
     "freshByAge": 0,
-    "freshByNewId": 4,
+    "freshByNewId": 19,
     "bootstrapBlocked": 0,
-    "staleBlocked": 4,
-    "candidates": 0,
+    "staleBlocked": 66,
+    "candidates": 1,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-11-05T09:54:27.490Z",
+      "platform": "VINTED",
+      "id": "10672463796",
+      "title": "ralph lauren puffer jacket",
+      "url": "https://www.vinted.co.uk/items/10672463796-ralph-lauren-puffer-jacket",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 35,
+      "estimatedNetProfit": 34.27,
+      "roi": 97.91,
+      "score": 84
+    },
     {
       "at": "2026-11-05T02:46:09.995Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 34.71,
       "roi": 86.78,
       "score": 82
-    },
-    {
-      "at": "2026-11-03T08:44:44.664Z",
-      "platform": "VINTED",
-      "id": "10645514061",
-      "title": "puffer",
-      "url": "https://www.vinted.co.uk/items/10645514061-puffer",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 30,
-      "estimatedNetProfit": 42.12,
-      "roi": 140.4,
-      "score": 87
     }
   ]
 }
