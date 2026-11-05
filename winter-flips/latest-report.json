@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-11-04T22:37:48.239Z",
+    "startedAt": "2026-11-05T02:48:59.793Z",
     "searchGroups": [
-      "patagonia-down-sweater:patagonia-down-sweater-hoody",
-      "patagonia-fitz-roy:patagonia-fitz-roy-down",
-      "arcteryx-cerium:arcteryx-cerium-jacket",
-      "arcteryx-cerium:arc-teryx-cerium",
-      "arcteryx-thorium:arcteryx-thorium-jacket",
-      "arcteryx-thorium:arc-teryx-thorium",
-      "ralph-lauren-puffer:ralph-lauren-puffer-jacket",
-      "ralph-lauren-puffer:polo-ralph-lauren-down-jacket"
+      "hunter:polo-puffer-jacket",
+      "hunter:nike-puffer-jacket",
+      "hunter:berghaus-puffer",
+      "hunter:napapijri-jacket",
+      "tnf-1996-nuptse:north-face-nuptse-700",
+      "tnf-1996-nuptse:north-face-1996-nuptse",
+      "tnf-himalayan:north-face-himalayan-puffer",
+      "tnf-himalayan:north-face-hmlyn-parka"
     ],
-    "vintedItems": 164,
-    "freshItems": 1,
+    "vintedItems": 256,
+    "freshItems": 4,
     "freshByAge": 0,
-    "freshByNewId": 1,
+    "freshByNewId": 4,
     "bootstrapBlocked": 0,
-    "staleBlocked": 0,
+    "staleBlocked": 4,
     "candidates": 0,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-11-05T02:46:09.995Z",
+      "platform": "VINTED",
+      "id": "10671004257",
+      "title": "jacket ralph lauren",
+      "url": "https://www.vinted.co.uk/items/10671004257-jacket-ralph-lauren",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 40,
+      "estimatedNetProfit": 31.75,
+      "roi": 79.38,
+      "score": 79
+    },
     {
       "at": "2026-11-04T22:31:57.030Z",
       "platform": "VINTED",
@@ -251,18 +263,6 @@
       "buyPrice": 30,
       "estimatedNetProfit": 42.12,
       "roi": 140.4,
-      "score": 87
-    },
-    {
-      "at": "2026-11-03T08:44:43.720Z",
-      "platform": "VINTED",
-      "id": "10645878593",
-      "title": "ralph lauren bomber jacket boys xl",
-      "url": "https://www.vinted.co.uk/items/10645878593-ralph-lauren-bomber-jacket-boys-xl",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 40,
-      "estimatedNetProfit": 34.18,
-      "roi": 85.45,
       "score": 87
     }
   ]
