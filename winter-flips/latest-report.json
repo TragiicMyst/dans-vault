@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-11-05T17:47:56.090Z",
+    "startedAt": "2026-11-05T22:58:51.205Z",
     "searchGroups": [
-      "rab-microlight:rab-microlight-alpine",
-      "rab-neutrino:rab-neutrino-pro",
-      "rab-electron:rab-electron-pro",
-      "patagonia-down-sweater:patagonia-down-sweater-jacket",
-      "patagonia-down-sweater:patagonia-down-sweater-hoody",
-      "patagonia-fitz-roy:patagonia-fitz-roy-down",
-      "arcteryx-cerium:arcteryx-cerium-jacket",
-      "arcteryx-cerium:arc-teryx-cerium"
+      "hunter:patagonia-puffer",
+      "hunter:arcteryx-jacket",
+      "hunter:arc-teryx-puffer",
+      "hunter:ralph-lauren-puffer",
+      "hunter:polo-puffer-jacket",
+      "hunter:nike-puffer-jacket",
+      "hunter:berghaus-puffer",
+      "hunter:napapijri-jacket"
     ],
-    "vintedItems": 158,
-    "freshItems": 0,
+    "vintedItems": 280,
+    "freshItems": 29,
     "freshByAge": 0,
-    "freshByNewId": 0,
+    "freshByNewId": 29,
     "bootstrapBlocked": 0,
-    "staleBlocked": 0,
-    "candidates": 0,
+    "staleBlocked": 4,
+    "candidates": 5,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-11-05T22:52:55.613Z",
+      "platform": "VINTED",
+      "id": "10682058046",
+      "title": "ralph lauren reversible jacket",
+      "url": "https://www.vinted.co.uk/items/10682058046-ralph-lauren-reversible-jacket",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 43,
+      "estimatedNetProfit": 37.48,
+      "roi": 87.16,
+      "score": 82
+    },
     {
       "at": "2026-11-05T17:42:10.873Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 31.75,
       "roi": 79.38,
       "score": 85
-    },
-    {
-      "at": "2026-11-03T21:59:51.564Z",
-      "platform": "VINTED",
-      "id": "10646794564",
-      "title": "polo ralph lauren tan quilted jacket size 6",
-      "url": "https://www.vinted.co.uk/items/10646794564-polo-ralph-lauren-tan-quilted-jacket-size-6",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 35,
-      "estimatedNetProfit": 42.54,
-      "roi": 121.54,
-      "score": 87
     }
   ]
 }
