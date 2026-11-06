@@ -2,29 +2,65 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-11-06T10:44:42.635Z",
+    "startedAt": "2026-11-06T17:46:45.927Z",
     "searchGroups": [
-      "tnf-himalayan:north-face-himalayan-puffer",
-      "tnf-himalayan:north-face-hmlyn-parka",
-      "tnf-baltoro:north-face-baltoro-jacket",
-      "tnf-summit-down:north-face-summit-series-down",
-      "rab-microlight:rab-microlight-alpine",
-      "rab-neutrino:rab-neutrino-pro",
-      "rab-electron:rab-electron-pro",
-      "patagonia-down-sweater:patagonia-down-sweater-jacket"
+      "hunter:north-face-700",
+      "hunter:mens-north-face-jacket",
+      "hunter:rab-puffer",
+      "hunter:rab-down-jacket",
+      "hunter:patagonia-puffer",
+      "hunter:arcteryx-jacket",
+      "hunter:arc-teryx-puffer",
+      "hunter:ralph-lauren-puffer"
     ],
-    "vintedItems": 178,
-    "freshItems": 0,
+    "vintedItems": 280,
+    "freshItems": 46,
     "freshByAge": 0,
-    "freshByNewId": 0,
+    "freshByNewId": 46,
     "bootstrapBlocked": 0,
-    "staleBlocked": 0,
-    "candidates": 0,
+    "staleBlocked": 9,
+    "candidates": 8,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-11-06T17:40:56.006Z",
+      "platform": "VINTED",
+      "id": "10687412978",
+      "title": "polo ralph lauren jacket new without tags",
+      "url": "https://www.vinted.co.uk/items/10687412978-polo-ralph-lauren-jacket-new-without-tags",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 30,
+      "estimatedNetProfit": 46.89,
+      "roi": 156.3,
+      "score": 90
+    },
+    {
+      "at": "2026-11-06T17:40:55.377Z",
+      "platform": "VINTED",
+      "id": "10687803190",
+      "title": "polo ralph lauren womens cropped down puffer jacket white size l",
+      "url": "https://www.vinted.co.uk/items/10687803190-polo-ralph-lauren-womens-cropped-down-puffer-jacket-white-size-l",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 35,
+      "estimatedNetProfit": 45.53,
+      "roi": 130.09,
+      "score": 93
+    },
+    {
+      "at": "2026-11-06T17:40:54.686Z",
+      "platform": "VINTED",
+      "id": "10691340718",
+      "title": "new ralph lauren down filled jacket size 10",
+      "url": "https://www.vinted.co.uk/items/10691340718-new-ralph-lauren-down-filled-jacket-size-10",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 30,
+      "estimatedNetProfit": 35.48,
+      "roi": 118.27,
+      "score": 91
+    },
     {
       "at": "2026-11-05T22:52:55.613Z",
       "platform": "VINTED",
@@ -228,42 +264,6 @@
       "estimatedNetProfit": 33.5,
       "roi": 74.44,
       "score": 77
-    },
-    {
-      "at": "2026-11-04T09:04:32.338Z",
-      "platform": "VINTED",
-      "id": "10657318530",
-      "title": "nike puffer jacket",
-      "url": "https://www.vinted.co.uk/items/10657318530-nike-puffer-jacket",
-      "modelId": "nike-puffer",
-      "buyPrice": 25,
-      "estimatedNetProfit": 27.53,
-      "roi": 110.12,
-      "score": 85
-    },
-    {
-      "at": "2026-11-04T09:04:31.506Z",
-      "platform": "VINTED",
-      "id": "10659283335",
-      "title": "nike puffer jacker medium",
-      "url": "https://www.vinted.co.uk/items/10659283335-nike-puffer-jacker-medium",
-      "modelId": "nike-puffer",
-      "buyPrice": 24.99,
-      "estimatedNetProfit": 26,
-      "roi": 104.04,
-      "score": 89
-    },
-    {
-      "at": "2026-11-04T09:04:19.214Z",
-      "platform": "VINTED",
-      "id": "10659021038",
-      "title": "polo ralph lauren jacket",
-      "url": "https://www.vinted.co.uk/items/10659021038-polo-ralph-lauren-jacket",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 40,
-      "estimatedNetProfit": 31.75,
-      "roi": 79.38,
-      "score": 85
     }
   ]
 }
