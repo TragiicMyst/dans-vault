@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-11-06T17:46:45.927Z",
+    "startedAt": "2026-11-06T22:29:47.348Z",
     "searchGroups": [
-      "hunter:north-face-700",
-      "hunter:mens-north-face-jacket",
-      "hunter:rab-puffer",
-      "hunter:rab-down-jacket",
-      "hunter:patagonia-puffer",
-      "hunter:arcteryx-jacket",
-      "hunter:arc-teryx-puffer",
-      "hunter:ralph-lauren-puffer"
+      "arcteryx-cerium:arcteryx-cerium-jacket",
+      "arcteryx-cerium:arc-teryx-cerium",
+      "arcteryx-thorium:arcteryx-thorium-jacket",
+      "arcteryx-thorium:arc-teryx-thorium",
+      "ralph-lauren-puffer:ralph-lauren-puffer-jacket",
+      "ralph-lauren-puffer:polo-ralph-lauren-down-jacket",
+      "nike-puffer:nike-puffer-jacket-mens",
+      "nike-puffer:nike-down-jacket"
     ],
-    "vintedItems": 280,
-    "freshItems": 46,
+    "vintedItems": 212,
+    "freshItems": 14,
     "freshByAge": 0,
-    "freshByNewId": 46,
+    "freshByNewId": 14,
     "bootstrapBlocked": 0,
-    "staleBlocked": 9,
-    "candidates": 8,
+    "staleBlocked": 1,
+    "candidates": 11,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-11-06T22:23:49.545Z",
+      "platform": "VINTED",
+      "id": "10693092363",
+      "title": "ralph lauren reversible jacket",
+      "url": "https://www.vinted.co.uk/items/10693092363-ralph-lauren-reversible-jacket",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 33,
+      "estimatedNetProfit": 36.38,
+      "roi": 110.24,
+      "score": 86
+    },
     {
       "at": "2026-11-06T17:40:56.006Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 40.75,
       "roi": 116.43,
       "score": 86
-    },
-    {
-      "at": "2026-11-04T17:05:35.647Z",
-      "platform": "VINTED",
-      "id": "10664333764",
-      "title": "polo ralph lauren girls jacket",
-      "url": "https://www.vinted.co.uk/items/10664333764-polo-ralph-lauren-girls-jacket",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 45,
-      "estimatedNetProfit": 33.5,
-      "roi": 74.44,
-      "score": 77
     }
   ]
 }
