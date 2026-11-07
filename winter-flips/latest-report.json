@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-11-07T02:11:51.096Z",
+    "startedAt": "2026-11-07T08:49:37.077Z",
     "searchGroups": [
-      "hunter:berghaus-puffer",
-      "hunter:napapijri-jacket",
-      "tnf-1996-nuptse:north-face-nuptse-700",
-      "tnf-1996-nuptse:north-face-1996-nuptse",
-      "tnf-himalayan:north-face-himalayan-puffer",
-      "tnf-himalayan:north-face-hmlyn-parka",
-      "tnf-baltoro:north-face-baltoro-jacket",
-      "tnf-summit-down:north-face-summit-series-down"
+      "napapijri-skidoo:napapijri-skidoo-jacket",
+      "napapijri-skidoo:napapijri-rainforest-winter",
+      "hunter:north-face-coat",
+      "hunter:north-face-puffer",
+      "hunter:north-face-700",
+      "hunter:mens-north-face-jacket",
+      "hunter:rab-puffer",
+      "hunter:rab-down-jacket"
     ],
-    "vintedItems": 234,
-    "freshItems": 1,
+    "vintedItems": 273,
+    "freshItems": 15,
     "freshByAge": 0,
-    "freshByNewId": 1,
+    "freshByNewId": 15,
     "bootstrapBlocked": 0,
-    "staleBlocked": 0,
+    "staleBlocked": 62,
     "candidates": 0,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-11-07T08:43:45.593Z",
+      "platform": "VINTED",
+      "id": "10668819991",
+      "title": "patagonia babies fitz roy patchwork reversible padded recycled down jacket size 3 6 months",
+      "url": "https://www.vinted.co.uk/items/10668819991-patagonia-babies-fitz-roy-patchwork-reversible-padded-recycled-down-jacket-size-3-6-months",
+      "modelId": "patagonia-fitz-roy",
+      "buyPrice": 75.74,
+      "estimatedNetProfit": 47.95,
+      "roi": 63.31,
+      "score": 71
+    },
     {
       "at": "2026-11-06T22:23:49.545Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 38.78,
       "roi": 96.97,
       "score": 82
-    },
-    {
-      "at": "2026-11-04T17:05:36.575Z",
-      "platform": "VINTED",
-      "id": "10661810261",
-      "title": "polo ralph lauren boys navy jacket",
-      "url": "https://www.vinted.co.uk/items/10661810261-polo-ralph-lauren-boys-navy-jacket",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 35,
-      "estimatedNetProfit": 40.75,
-      "roi": 116.43,
-      "score": 86
     }
   ]
 }
