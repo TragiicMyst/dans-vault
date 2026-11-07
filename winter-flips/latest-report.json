@@ -2,29 +2,65 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-11-07T08:49:37.077Z",
+    "startedAt": "2026-11-07T15:17:26.412Z",
     "searchGroups": [
-      "napapijri-skidoo:napapijri-skidoo-jacket",
-      "napapijri-skidoo:napapijri-rainforest-winter",
-      "hunter:north-face-coat",
-      "hunter:north-face-puffer",
-      "hunter:north-face-700",
-      "hunter:mens-north-face-jacket",
-      "hunter:rab-puffer",
-      "hunter:rab-down-jacket"
+      "rab-electron:rab-electron-pro",
+      "patagonia-down-sweater:patagonia-down-sweater-jacket",
+      "patagonia-down-sweater:patagonia-down-sweater-hoody",
+      "patagonia-fitz-roy:patagonia-fitz-roy-down",
+      "arcteryx-cerium:arcteryx-cerium-jacket",
+      "arcteryx-cerium:arc-teryx-cerium",
+      "arcteryx-thorium:arcteryx-thorium-jacket",
+      "arcteryx-thorium:arc-teryx-thorium"
     ],
-    "vintedItems": 273,
-    "freshItems": 15,
+    "vintedItems": 146,
+    "freshItems": 0,
     "freshByAge": 0,
-    "freshByNewId": 15,
+    "freshByNewId": 0,
     "bootstrapBlocked": 0,
-    "staleBlocked": 62,
+    "staleBlocked": 1,
     "candidates": 0,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-11-07T15:14:28.486Z",
+      "platform": "VINTED",
+      "id": "10698127736",
+      "title": "the north face kids toddlers 1996 retro nuptse down jacket",
+      "url": "https://www.vinted.co.uk/items/10698127736-the-north-face-kids-toddlers-1996-retro-nuptse-down-jacket",
+      "modelId": "tnf-1996-nuptse",
+      "buyPrice": 45,
+      "estimatedNetProfit": 47.3,
+      "roi": 105.11,
+      "score": 78
+    },
+    {
+      "at": "2026-11-07T15:11:35.731Z",
+      "platform": "VINTED",
+      "id": "10701138201",
+      "title": "nike puffer coat",
+      "url": "https://www.vinted.co.uk/items/10701138201-nike-puffer-coat",
+      "modelId": "nike-puffer",
+      "buyPrice": 25,
+      "estimatedNetProfit": 19.38,
+      "roi": 77.52,
+      "score": 83
+    },
+    {
+      "at": "2026-11-07T15:11:32.659Z",
+      "platform": "VINTED",
+      "id": "10699835809",
+      "title": "ralph lauren",
+      "url": "https://www.vinted.co.uk/items/10699835809-ralph-lauren",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 40,
+      "estimatedNetProfit": 35.86,
+      "roi": 89.65,
+      "score": 83
+    },
     {
       "at": "2026-11-07T08:43:45.593Z",
       "platform": "VINTED",
@@ -228,42 +264,6 @@
       "estimatedNetProfit": 31.14,
       "roi": 69.2,
       "score": 80
-    },
-    {
-      "at": "2026-11-04T17:08:36.775Z",
-      "platform": "VINTED",
-      "id": "10665268663",
-      "title": "the north face mens himalayan synthetic jacket grey medium new without tags",
-      "url": "https://www.vinted.co.uk/items/10665268663-the-north-face-mens-himalayan-synthetic-jacket-grey-medium-new-without-tags",
-      "modelId": "tnf-himalayan",
-      "buyPrice": 50,
-      "estimatedNetProfit": 36.62,
-      "roi": 73.24,
-      "score": 82
-    },
-    {
-      "at": "2026-11-04T17:05:40.938Z",
-      "platform": "VINTED",
-      "id": "10665478352",
-      "title": "nike puffer jacket",
-      "url": "https://www.vinted.co.uk/items/10665478352-nike-puffer-jacket",
-      "modelId": "nike-puffer",
-      "buyPrice": 10,
-      "estimatedNetProfit": 37.3,
-      "roi": 373,
-      "score": 92
-    },
-    {
-      "at": "2026-11-04T17:05:37.262Z",
-      "platform": "VINTED",
-      "id": "10663238503",
-      "title": "girls light weight jacket 78 years",
-      "url": "https://www.vinted.co.uk/items/10663238503-girls-light-weight-jacket-78-years",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 39.99,
-      "estimatedNetProfit": 38.78,
-      "roi": 96.97,
-      "score": 82
     }
   ]
 }
