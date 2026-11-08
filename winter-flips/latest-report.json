@@ -2,29 +2,65 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-11-08T09:06:06.770Z",
+    "startedAt": "2026-11-08T16:00:16.352Z",
     "searchGroups": [
-      "hunter:rab-puffer",
-      "hunter:rab-down-jacket",
-      "hunter:patagonia-puffer",
-      "hunter:arcteryx-jacket",
-      "hunter:arc-teryx-puffer",
-      "hunter:ralph-lauren-puffer",
-      "hunter:polo-puffer-jacket",
-      "hunter:nike-puffer-jacket"
+      "arcteryx-thorium:arcteryx-thorium-jacket",
+      "arcteryx-thorium:arc-teryx-thorium",
+      "ralph-lauren-puffer:ralph-lauren-puffer-jacket",
+      "ralph-lauren-puffer:polo-ralph-lauren-down-jacket",
+      "nike-puffer:nike-puffer-jacket-mens",
+      "nike-puffer:nike-down-jacket",
+      "berghaus-down:berghaus-down-jacket",
+      "berghaus-down:berghaus-puffer-jacket"
     ],
-    "vintedItems": 280,
-    "freshItems": 6,
+    "vintedItems": 226,
+    "freshItems": 50,
     "freshByAge": 0,
-    "freshByNewId": 6,
+    "freshByNewId": 50,
     "bootstrapBlocked": 0,
-    "staleBlocked": 11,
-    "candidates": 1,
-    "alerts": 1,
+    "staleBlocked": 10,
+    "candidates": 33,
+    "alerts": 2,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-11-08T16:00:21.414Z",
+      "platform": "VINTED",
+      "id": "10716526384",
+      "title": "ralph lauren cardiganjacket",
+      "url": "https://www.vinted.co.uk/items/10716526384-ralph-lauren-cardiganjacket",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 45,
+      "estimatedNetProfit": 35.37,
+      "roi": 78.6,
+      "score": 78
+    },
+    {
+      "at": "2026-11-08T16:00:20.744Z",
+      "platform": "VINTED",
+      "id": "10720045905",
+      "title": "ladies ralph lauren body warmer",
+      "url": "https://www.vinted.co.uk/items/10720045905-ladies-ralph-lauren-body-warmer",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 45,
+      "estimatedNetProfit": 37.27,
+      "roi": 82.82,
+      "score": 85
+    },
+    {
+      "at": "2026-11-08T15:54:18.990Z",
+      "platform": "VINTED",
+      "id": "10713369473",
+      "title": "girls berghaus puffer coat jacket age 5 6 years black pink new without tags",
+      "url": "https://www.vinted.co.uk/items/10713369473-girls-berghaus-puffer-coat-jacket-age-5-6-years-black-pink-new-without-tags",
+      "modelId": "berghaus-down",
+      "buyPrice": 20,
+      "estimatedNetProfit": 30.79,
+      "roi": 153.95,
+      "score": 88
+    },
     {
       "at": "2026-11-08T09:06:17.642Z",
       "platform": "VINTED",
@@ -228,42 +264,6 @@
       "estimatedNetProfit": 31.06,
       "roi": 97.06,
       "score": 88
-    },
-    {
-      "at": "2026-11-05T17:42:05.682Z",
-      "platform": "VINTED",
-      "id": "10675819516",
-      "title": "ralph lauren kids jacket",
-      "url": "https://www.vinted.co.uk/items/10675819516-ralph-lauren-kids-jacket",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 25,
-      "estimatedNetProfit": 47.58,
-      "roi": 190.32,
-      "score": 93
-    },
-    {
-      "at": "2026-11-05T09:54:27.490Z",
-      "platform": "VINTED",
-      "id": "10672463796",
-      "title": "ralph lauren puffer jacket",
-      "url": "https://www.vinted.co.uk/items/10672463796-ralph-lauren-puffer-jacket",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 35,
-      "estimatedNetProfit": 34.27,
-      "roi": 97.91,
-      "score": 84
-    },
-    {
-      "at": "2026-11-05T02:46:09.995Z",
-      "platform": "VINTED",
-      "id": "10671004257",
-      "title": "jacket ralph lauren",
-      "url": "https://www.vinted.co.uk/items/10671004257-jacket-ralph-lauren",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 40,
-      "estimatedNetProfit": 31.75,
-      "roi": 79.38,
-      "score": 79
     }
   ]
 }
