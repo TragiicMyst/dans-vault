@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-11-08T02:18:55.362Z",
+    "startedAt": "2026-11-08T09:06:06.770Z",
     "searchGroups": [
-      "tnf-baltoro:north-face-baltoro-jacket",
-      "tnf-summit-down:north-face-summit-series-down",
-      "rab-microlight:rab-microlight-alpine",
-      "rab-neutrino:rab-neutrino-pro",
-      "rab-electron:rab-electron-pro",
-      "patagonia-down-sweater:patagonia-down-sweater-jacket",
-      "patagonia-down-sweater:patagonia-down-sweater-hoody",
-      "patagonia-fitz-roy:patagonia-fitz-roy-down"
+      "hunter:rab-puffer",
+      "hunter:rab-down-jacket",
+      "hunter:patagonia-puffer",
+      "hunter:arcteryx-jacket",
+      "hunter:arc-teryx-puffer",
+      "hunter:ralph-lauren-puffer",
+      "hunter:polo-puffer-jacket",
+      "hunter:nike-puffer-jacket"
     ],
-    "vintedItems": 155,
-    "freshItems": 0,
+    "vintedItems": 280,
+    "freshItems": 6,
     "freshByAge": 0,
-    "freshByNewId": 0,
+    "freshByNewId": 6,
     "bootstrapBlocked": 0,
-    "staleBlocked": 0,
-    "candidates": 0,
-    "alerts": 0,
+    "staleBlocked": 11,
+    "candidates": 1,
+    "alerts": 1,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-11-08T09:06:17.642Z",
+      "platform": "VINTED",
+      "id": "10712457794",
+      "title": "3d nike puffer jacket pen holder",
+      "url": "https://www.vinted.co.uk/items/10712457794-3d-nike-puffer-jacket-pen-holder",
+      "modelId": "nike-puffer",
+      "buyPrice": 6,
+      "estimatedNetProfit": 47.58,
+      "roi": 793,
+      "score": 87
+    },
     {
       "at": "2026-11-08T02:15:58.809Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 31.75,
       "roi": 79.38,
       "score": 79
-    },
-    {
-      "at": "2026-11-04T22:31:57.030Z",
-      "platform": "VINTED",
-      "id": "10667419558",
-      "title": "nike puffer jacket",
-      "url": "https://www.vinted.co.uk/items/10667419558-nike-puffer-jacket",
-      "modelId": "nike-puffer",
-      "buyPrice": 22,
-      "estimatedNetProfit": 30.7,
-      "roi": 139.55,
-      "score": 88
     }
   ]
 }
