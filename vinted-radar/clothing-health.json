@@ -1,37 +1,37 @@
 {
-  "generatedAt": "2026-11-08T01:45:45.879Z",
-  "stateUpdatedAt": "2026-11-08T01:45:45.879Z",
-  "lastAttemptAt": "2026-11-08T01:45:45.879Z",
-  "lastScanAt": "2026-11-08T01:45:45.879Z",
+  "generatedAt": "2026-11-08T07:12:39.694Z",
+  "stateUpdatedAt": "2026-11-08T07:12:39.694Z",
+  "lastAttemptAt": "2026-11-08T07:12:39.694Z",
+  "lastScanAt": "2026-11-08T07:12:39.694Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Woven Jacket::nike woven jacket",
-    "Nike Bomber Jacket::nike bomber jacket",
-    "Nike Coat::nike coat",
-    "Nike Shorts::nike shorts",
-    "Nike Cargo Trousers::nike cargo trousers",
-    "Nike Track Pants::nike track pants"
+    "Nike Woven Trousers::nike woven trousers",
+    "Nike Tracksuit::nike tracksuit",
+    "Nike Vintage Clothing::vintage nike",
+    "Nike SB Clothing::nike sb clothing",
+    "Nike Vest::nike vest",
+    "Nike Air Max Hoodie::nike air max hoodie"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 1104,
+  "catalogItems": 1073,
   "candidateItems": 301,
-  "freshItems": 173,
-  "qualifyingAlerts": 42,
+  "freshItems": 124,
+  "qualifyingAlerts": 59,
   "qualifyingByCondition": {
-    "veryGood": 40,
-    "newWithoutTags": 2
+    "veryGood": 55,
+    "newWithoutTags": 4
   },
-  "deliveredAlerts": 42,
+  "deliveredAlerts": 59,
   "deliveredByCondition": {
-    "veryGood": 40,
-    "newWithoutTags": 2
+    "veryGood": 55,
+    "newWithoutTags": 4
   },
-  "duplicateSuppressed": 4,
+  "duplicateSuppressed": 22,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,12 +67,12 @@
   "pendingDeliveries": 0,
   "detailFetches": 6,
   "rejects": {
-    "price": 88,
-    "recovery-no-fresh-signal": 124,
+    "recovery-no-fresh-signal": 155,
+    "price": 33,
     "condition": 20,
-    "keyword": 7,
     "size": 5,
-    "detail-budget-exhausted": 11
+    "keyword": 6,
+    "detail-budget-exhausted": 1
   },
   "failures": {}
 }
