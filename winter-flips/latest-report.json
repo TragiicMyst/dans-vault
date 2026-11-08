@@ -2,29 +2,65 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-11-08T20:09:40.153Z",
+    "startedAt": "2026-11-08T23:44:51.942Z",
     "searchGroups": [
-      "tnf-1996-nuptse:north-face-nuptse-700",
-      "tnf-1996-nuptse:north-face-1996-nuptse",
-      "tnf-himalayan:north-face-himalayan-puffer",
-      "tnf-himalayan:north-face-hmlyn-parka",
-      "tnf-baltoro:north-face-baltoro-jacket",
-      "tnf-summit-down:north-face-summit-series-down",
-      "rab-microlight:rab-microlight-alpine",
-      "rab-neutrino:rab-neutrino-pro"
+      "hunter:north-face-coat",
+      "hunter:north-face-puffer",
+      "hunter:north-face-700",
+      "hunter:mens-north-face-jacket",
+      "hunter:rab-puffer",
+      "hunter:rab-down-jacket",
+      "hunter:patagonia-puffer",
+      "hunter:arcteryx-jacket"
     ],
-    "vintedItems": 198,
-    "freshItems": 2,
+    "vintedItems": 280,
+    "freshItems": 54,
     "freshByAge": 0,
-    "freshByNewId": 2,
+    "freshByNewId": 54,
     "bootstrapBlocked": 0,
-    "staleBlocked": 0,
-    "candidates": 1,
+    "staleBlocked": 28,
+    "candidates": 7,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-11-08T23:42:03.702Z",
+      "platform": "VINTED",
+      "id": "10728355160",
+      "title": "napapijri rainforest winter anorak jacket",
+      "url": "https://www.vinted.co.uk/items/10728355160-napapijri-rainforest-winter-anorak-jacket",
+      "modelId": "napapijri-skidoo",
+      "buyPrice": 20,
+      "estimatedNetProfit": 53.59,
+      "roi": 267.95,
+      "score": 85
+    },
+    {
+      "at": "2026-11-08T23:41:53.585Z",
+      "platform": "VINTED",
+      "id": "10727290453",
+      "title": "ralph lauren jacket",
+      "url": "https://www.vinted.co.uk/items/10727290453-ralph-lauren-jacket",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 30,
+      "estimatedNetProfit": 47.82,
+      "roi": 159.4,
+      "score": 90
+    },
+    {
+      "at": "2026-11-08T23:41:52.905Z",
+      "platform": "VINTED",
+      "id": "10728889562",
+      "title": "womens vintage ralph lauren coat puffer jacket s",
+      "url": "https://www.vinted.co.uk/items/10728889562-womens-vintage-ralph-lauren-coat-puffer-jacket-s",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 25,
+      "estimatedNetProfit": 40.76,
+      "roi": 163.04,
+      "score": 96
+    },
     {
       "at": "2026-11-08T20:06:51.028Z",
       "platform": "VINTED",
@@ -228,42 +264,6 @@
       "estimatedNetProfit": 36.38,
       "roi": 110.24,
       "score": 86
-    },
-    {
-      "at": "2026-11-06T17:40:56.006Z",
-      "platform": "VINTED",
-      "id": "10687412978",
-      "title": "polo ralph lauren jacket new without tags",
-      "url": "https://www.vinted.co.uk/items/10687412978-polo-ralph-lauren-jacket-new-without-tags",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 30,
-      "estimatedNetProfit": 46.89,
-      "roi": 156.3,
-      "score": 90
-    },
-    {
-      "at": "2026-11-06T17:40:55.377Z",
-      "platform": "VINTED",
-      "id": "10687803190",
-      "title": "polo ralph lauren womens cropped down puffer jacket white size l",
-      "url": "https://www.vinted.co.uk/items/10687803190-polo-ralph-lauren-womens-cropped-down-puffer-jacket-white-size-l",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 35,
-      "estimatedNetProfit": 45.53,
-      "roi": 130.09,
-      "score": 93
-    },
-    {
-      "at": "2026-11-06T17:40:54.686Z",
-      "platform": "VINTED",
-      "id": "10691340718",
-      "title": "new ralph lauren down filled jacket size 10",
-      "url": "https://www.vinted.co.uk/items/10691340718-new-ralph-lauren-down-filled-jacket-size-10",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 30,
-      "estimatedNetProfit": 35.48,
-      "roi": 118.27,
-      "score": 91
     }
   ]
 }
