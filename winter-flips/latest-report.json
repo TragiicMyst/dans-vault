@@ -2,29 +2,53 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-11-09T11:18:19.215Z",
+    "startedAt": "2026-11-09T21:32:20.033Z",
     "searchGroups": [
-      "hunter:polo-puffer-jacket",
-      "hunter:nike-puffer-jacket",
-      "hunter:berghaus-puffer",
-      "hunter:napapijri-jacket",
-      "tnf-1996-nuptse:north-face-nuptse-700",
-      "tnf-1996-nuptse:north-face-1996-nuptse",
-      "tnf-himalayan:north-face-himalayan-puffer",
-      "tnf-himalayan:north-face-hmlyn-parka"
+      "berghaus-down:berghaus-down-jacket",
+      "berghaus-down:berghaus-puffer-jacket",
+      "napapijri-skidoo:napapijri-skidoo-jacket",
+      "napapijri-skidoo:napapijri-rainforest-winter",
+      "hunter:north-face-coat",
+      "hunter:north-face-puffer",
+      "hunter:north-face-700",
+      "hunter:mens-north-face-jacket"
     ],
-    "vintedItems": 254,
-    "freshItems": 17,
+    "vintedItems": 273,
+    "freshItems": 80,
     "freshByAge": 0,
-    "freshByNewId": 17,
+    "freshByNewId": 80,
     "bootstrapBlocked": 0,
-    "staleBlocked": 7,
-    "candidates": 3,
-    "alerts": 0,
+    "staleBlocked": 14,
+    "candidates": 9,
+    "alerts": 1,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-11-09T21:32:31.848Z",
+      "platform": "VINTED",
+      "id": "10742075191",
+      "title": "new north face summit series gore windstopper windproof soft shell jacket black",
+      "url": "https://www.vinted.co.uk/items/10742075191-new-north-face-summit-series-gore-windstopper-windproof-soft-shell-jacket-black",
+      "modelId": "tnf-summit-down",
+      "buyPrice": 55,
+      "estimatedNetProfit": 38.08,
+      "roi": 69.24,
+      "score": 79
+    },
+    {
+      "at": "2026-11-09T21:29:31.865Z",
+      "platform": "VINTED",
+      "id": "10741924786",
+      "title": "nike puffer jacket new never worn size 18 months",
+      "url": "https://www.vinted.co.uk/items/10741924786-nike-puffer-jacket-new-never-worn-size-18-months",
+      "modelId": "nike-puffer",
+      "buyPrice": 15,
+      "estimatedNetProfit": 41.42,
+      "roi": 276.13,
+      "score": 86
+    },
     {
       "at": "2026-11-09T02:58:43.669Z",
       "platform": "VINTED",
@@ -240,30 +264,6 @@
       "estimatedNetProfit": 19.38,
       "roi": 77.52,
       "score": 83
-    },
-    {
-      "at": "2026-11-07T15:11:32.659Z",
-      "platform": "VINTED",
-      "id": "10699835809",
-      "title": "ralph lauren",
-      "url": "https://www.vinted.co.uk/items/10699835809-ralph-lauren",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 40,
-      "estimatedNetProfit": 35.86,
-      "roi": 89.65,
-      "score": 83
-    },
-    {
-      "at": "2026-11-07T08:43:45.593Z",
-      "platform": "VINTED",
-      "id": "10668819991",
-      "title": "patagonia babies fitz roy patchwork reversible padded recycled down jacket size 3 6 months",
-      "url": "https://www.vinted.co.uk/items/10668819991-patagonia-babies-fitz-roy-patchwork-reversible-padded-recycled-down-jacket-size-3-6-months",
-      "modelId": "patagonia-fitz-roy",
-      "buyPrice": 75.74,
-      "estimatedNetProfit": 47.95,
-      "roi": 63.31,
-      "score": 71
     }
   ]
 }
