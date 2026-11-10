@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-11-10T03:50:25.567Z",
+    "startedAt": "2026-11-10T11:57:54.565Z",
     "searchGroups": [
-      "rab-microlight:rab-microlight-alpine",
-      "rab-neutrino:rab-neutrino-pro",
-      "rab-electron:rab-electron-pro",
-      "patagonia-down-sweater:patagonia-down-sweater-jacket",
-      "patagonia-down-sweater:patagonia-down-sweater-hoody",
-      "patagonia-fitz-roy:patagonia-fitz-roy-down",
-      "arcteryx-cerium:arcteryx-cerium-jacket",
-      "arcteryx-cerium:arc-teryx-cerium"
+      "hunter:patagonia-puffer",
+      "hunter:arcteryx-jacket",
+      "hunter:arc-teryx-puffer",
+      "hunter:ralph-lauren-puffer",
+      "hunter:polo-puffer-jacket",
+      "hunter:nike-puffer-jacket",
+      "hunter:berghaus-puffer",
+      "hunter:napapijri-jacket"
     ],
-    "vintedItems": 166,
-    "freshItems": 0,
+    "vintedItems": 280,
+    "freshItems": 11,
     "freshByAge": 0,
-    "freshByNewId": 0,
+    "freshByNewId": 11,
     "bootstrapBlocked": 0,
-    "staleBlocked": 0,
-    "candidates": 0,
-    "alerts": 0,
+    "staleBlocked": 12,
+    "candidates": 1,
+    "alerts": 1,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-11-10T11:58:02.527Z",
+      "platform": "VINTED",
+      "id": "10747756480",
+      "title": "red nike puffer jacket pen holder",
+      "url": "https://www.vinted.co.uk/items/10747756480-red-nike-puffer-jacket-pen-holder",
+      "modelId": "nike-puffer",
+      "buyPrice": 10,
+      "estimatedNetProfit": 47.43,
+      "roi": 474.3,
+      "score": 87
+    },
     {
       "at": "2026-11-10T03:44:36.912Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 28.79,
       "roi": 110.73,
       "score": 91
-    },
-    {
-      "at": "2026-11-08T02:15:58.303Z",
-      "platform": "VINTED",
-      "id": "10708537048",
-      "title": "nike puffer jacket xl see size 150 170cm",
-      "url": "https://www.vinted.co.uk/items/10708537048-nike-puffer-jacket-xl-see-size-150-170cm",
-      "modelId": "nike-puffer",
-      "buyPrice": 30,
-      "estimatedNetProfit": 26.88,
-      "roi": 89.6,
-      "score": 87
     }
   ]
 }
