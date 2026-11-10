@@ -2,29 +2,77 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-11-09T21:32:20.033Z",
+    "startedAt": "2026-11-10T03:50:25.567Z",
     "searchGroups": [
-      "berghaus-down:berghaus-down-jacket",
-      "berghaus-down:berghaus-puffer-jacket",
-      "napapijri-skidoo:napapijri-skidoo-jacket",
-      "napapijri-skidoo:napapijri-rainforest-winter",
-      "hunter:north-face-coat",
-      "hunter:north-face-puffer",
-      "hunter:north-face-700",
-      "hunter:mens-north-face-jacket"
+      "rab-microlight:rab-microlight-alpine",
+      "rab-neutrino:rab-neutrino-pro",
+      "rab-electron:rab-electron-pro",
+      "patagonia-down-sweater:patagonia-down-sweater-jacket",
+      "patagonia-down-sweater:patagonia-down-sweater-hoody",
+      "patagonia-fitz-roy:patagonia-fitz-roy-down",
+      "arcteryx-cerium:arcteryx-cerium-jacket",
+      "arcteryx-cerium:arc-teryx-cerium"
     ],
-    "vintedItems": 273,
-    "freshItems": 80,
+    "vintedItems": 166,
+    "freshItems": 0,
     "freshByAge": 0,
-    "freshByNewId": 80,
+    "freshByNewId": 0,
     "bootstrapBlocked": 0,
-    "staleBlocked": 14,
-    "candidates": 9,
-    "alerts": 1,
+    "staleBlocked": 0,
+    "candidates": 0,
+    "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-11-10T03:44:36.912Z",
+      "platform": "VINTED",
+      "id": "10740613592",
+      "title": "nike puffer jacket in dark blue",
+      "url": "https://www.vinted.co.uk/items/10740613592-nike-puffer-jacket-in-dark-blue",
+      "modelId": "nike-puffer",
+      "buyPrice": 20,
+      "estimatedNetProfit": 34.31,
+      "roi": 171.55,
+      "score": 91
+    },
+    {
+      "at": "2026-11-10T03:44:33.996Z",
+      "platform": "VINTED",
+      "id": "10742098959",
+      "title": "womens retro polo ralph lauren puffer jacket s",
+      "url": "https://www.vinted.co.uk/items/10742098959-womens-retro-polo-ralph-lauren-puffer-jacket-s",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 24,
+      "estimatedNetProfit": 40.43,
+      "roi": 168.46,
+      "score": 96
+    },
+    {
+      "at": "2026-11-10T03:44:33.464Z",
+      "platform": "VINTED",
+      "id": "10742296946",
+      "title": "womens vintage ralph lauren padded coat s",
+      "url": "https://www.vinted.co.uk/items/10742296946-womens-vintage-ralph-lauren-padded-coat-s",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 28,
+      "estimatedNetProfit": 36.21,
+      "roi": 129.32,
+      "score": 93
+    },
+    {
+      "at": "2026-11-10T03:44:32.958Z",
+      "platform": "VINTED",
+      "id": "10742396397",
+      "title": "womens vintage ralph lauren quilted coat s",
+      "url": "https://www.vinted.co.uk/items/10742396397-womens-vintage-ralph-lauren-quilted-coat-s",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 25,
+      "estimatedNetProfit": 39.37,
+      "roi": 157.48,
+      "score": 95
+    },
     {
       "at": "2026-11-09T21:32:31.848Z",
       "platform": "VINTED",
@@ -216,54 +264,6 @@
       "estimatedNetProfit": 26.88,
       "roi": 89.6,
       "score": 87
-    },
-    {
-      "at": "2026-11-07T19:25:19.948Z",
-      "platform": "VINTED",
-      "id": "10705579243",
-      "title": "ralph lauren kids jacket",
-      "url": "https://www.vinted.co.uk/items/10705579243-ralph-lauren-kids-jacket",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 35,
-      "estimatedNetProfit": 39.78,
-      "roi": 113.66,
-      "score": 86
-    },
-    {
-      "at": "2026-11-07T19:25:19.288Z",
-      "platform": "VINTED",
-      "id": "10706875577",
-      "title": "ralph lauren snowsuit dungarees 12 months",
-      "url": "https://www.vinted.co.uk/items/10706875577-ralph-lauren-snowsuit-dungarees-12-months",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 40,
-      "estimatedNetProfit": 37.77,
-      "roi": 94.43,
-      "score": 83
-    },
-    {
-      "at": "2026-11-07T15:14:28.486Z",
-      "platform": "VINTED",
-      "id": "10698127736",
-      "title": "the north face kids toddlers 1996 retro nuptse down jacket",
-      "url": "https://www.vinted.co.uk/items/10698127736-the-north-face-kids-toddlers-1996-retro-nuptse-down-jacket",
-      "modelId": "tnf-1996-nuptse",
-      "buyPrice": 45,
-      "estimatedNetProfit": 47.3,
-      "roi": 105.11,
-      "score": 78
-    },
-    {
-      "at": "2026-11-07T15:11:35.731Z",
-      "platform": "VINTED",
-      "id": "10701138201",
-      "title": "nike puffer coat",
-      "url": "https://www.vinted.co.uk/items/10701138201-nike-puffer-coat",
-      "modelId": "nike-puffer",
-      "buyPrice": 25,
-      "estimatedNetProfit": 19.38,
-      "roi": 77.52,
-      "score": 83
     }
   ]
 }
