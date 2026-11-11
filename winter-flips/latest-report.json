@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-11-10T19:01:47.030Z",
+    "startedAt": "2026-11-11T00:03:46.436Z",
     "searchGroups": [
-      "ralph-lauren-puffer:ralph-lauren-puffer-jacket",
-      "ralph-lauren-puffer:polo-ralph-lauren-down-jacket",
-      "nike-puffer:nike-puffer-jacket-mens",
-      "nike-puffer:nike-down-jacket",
-      "berghaus-down:berghaus-down-jacket",
-      "berghaus-down:berghaus-puffer-jacket",
-      "napapijri-skidoo:napapijri-skidoo-jacket",
-      "napapijri-skidoo:napapijri-rainforest-winter"
+      "tnf-himalayan:north-face-himalayan-puffer",
+      "tnf-himalayan:north-face-hmlyn-parka",
+      "tnf-baltoro:north-face-baltoro-jacket",
+      "tnf-summit-down:north-face-summit-series-down",
+      "rab-microlight:rab-microlight-alpine",
+      "rab-neutrino:rab-neutrino-pro",
+      "rab-electron:rab-electron-pro",
+      "patagonia-down-sweater:patagonia-down-sweater-jacket"
     ],
-    "vintedItems": 273,
-    "freshItems": 15,
+    "vintedItems": 179,
+    "freshItems": 1,
     "freshByAge": 0,
-    "freshByNewId": 15,
+    "freshByNewId": 1,
     "bootstrapBlocked": 0,
-    "staleBlocked": 8,
-    "candidates": 6,
+    "staleBlocked": 1,
+    "candidates": 1,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-11-11T00:00:53.596Z",
+      "platform": "VINTED",
+      "id": "10749449693",
+      "title": "berghaus puffer gilet in black and green age 11 12",
+      "url": "https://www.vinted.co.uk/items/10749449693-berghaus-puffer-gilet-in-black-and-green-age-11-12",
+      "modelId": "berghaus-down",
+      "buyPrice": 25,
+      "estimatedNetProfit": 27.35,
+      "roi": 109.4,
+      "score": 83
+    },
     {
       "at": "2026-11-10T11:58:02.527Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 47.58,
       "roi": 793,
       "score": 87
-    },
-    {
-      "at": "2026-11-08T02:15:58.809Z",
-      "platform": "VINTED",
-      "id": "10708615598",
-      "title": "womens nike puffer gilet xs",
-      "url": "https://www.vinted.co.uk/items/10708615598-womens-nike-puffer-gilet-xs",
-      "modelId": "nike-puffer",
-      "buyPrice": 26,
-      "estimatedNetProfit": 28.79,
-      "roi": 110.73,
-      "score": 91
     }
   ]
 }
