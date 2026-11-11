@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-11-11T18:07:28.235Z",
-  "stateUpdatedAt": "2026-11-11T18:07:28.235Z",
-  "lastAttemptAt": "2026-11-11T18:07:28.235Z",
-  "lastScanAt": "2026-11-11T18:07:28.235Z",
+  "generatedAt": "2026-11-11T22:13:21.383Z",
+  "stateUpdatedAt": "2026-11-11T22:13:21.383Z",
+  "lastAttemptAt": "2026-11-11T22:13:21.383Z",
+  "lastScanAt": "2026-11-11T22:13:21.383Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Coat::nike coat",
-    "Nike Shorts::nike shorts",
-    "Nike Cargo Trousers::nike cargo trousers",
-    "Nike Track Pants::nike track pants",
-    "Nike Woven Trousers::nike woven trousers",
-    "Nike Tracksuit::nike tracksuit"
+    "Nike Vintage Clothing::vintage nike",
+    "Nike SB Clothing::nike sb clothing",
+    "Nike Vest::nike vest",
+    "Nike Air Max Hoodie::nike air max hoodie",
+    "Nike Zip Hoodie::nike zip hoodie",
+    "Nike Hoodie::nike hoodie"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1344,
-  "catalogItems": 1089,
-  "candidateItems": 366,
-  "freshItems": 291,
-  "qualifyingAlerts": 96,
+  "catalogMarkers": 1343,
+  "catalogItems": 1075,
+  "candidateItems": 304,
+  "freshItems": 227,
+  "qualifyingAlerts": 99,
   "qualifyingByCondition": {
-    "veryGood": 83,
-    "newWithoutTags": 11,
+    "veryGood": 91,
+    "newWithoutTags": 6,
     "newWithTags": 2
   },
-  "deliveredAlerts": 96,
+  "deliveredAlerts": 99,
   "deliveredByCondition": {
-    "veryGood": 83,
-    "newWithoutTags": 11,
+    "veryGood": 91,
+    "newWithoutTags": 6,
     "newWithTags": 2
   },
-  "duplicateSuppressed": 0,
+  "duplicateSuppressed": 7,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,13 +69,13 @@
   "pendingDeliveries": 0,
   "detailFetches": 6,
   "rejects": {
+    "condition": 47,
+    "recovery-no-fresh-signal": 70,
+    "price": 58,
     "size": 5,
-    "price": 108,
-    "recovery-no-fresh-signal": 75,
-    "condition": 45,
-    "keyword": 14,
-    "detail-budget-exhausted": 22,
-    "score": 1
+    "keyword": 11,
+    "detail-budget-exhausted": 6,
+    "weak-margin": 1
   },
   "failures": {}
 }
