@@ -1,37 +1,37 @@
 {
-  "generatedAt": "2026-11-11T15:26:21.499Z",
-  "stateUpdatedAt": "2026-11-11T15:26:21.499Z",
-  "lastAttemptAt": "2026-11-11T15:26:21.499Z",
-  "lastScanAt": "2026-11-11T15:26:21.499Z",
+  "generatedAt": "2026-11-11T18:07:28.235Z",
+  "stateUpdatedAt": "2026-11-11T18:07:28.235Z",
+  "lastAttemptAt": "2026-11-11T18:07:28.235Z",
+  "lastScanAt": "2026-11-11T18:07:28.235Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Gilet::nike gilet",
-    "Nike Windbreaker::nike windbreaker",
-    "Nike Anorak::nike anorak",
-    "Nike Rain Jacket::nike rain jacket",
-    "Nike Woven Jacket::nike woven jacket",
-    "Nike Bomber Jacket::nike bomber jacket"
+    "Nike Coat::nike coat",
+    "Nike Shorts::nike shorts",
+    "Nike Cargo Trousers::nike cargo trousers",
+    "Nike Track Pants::nike track pants",
+    "Nike Woven Trousers::nike woven trousers",
+    "Nike Tracksuit::nike tracksuit"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 1113,
-  "candidateItems": 264,
-  "freshItems": 178,
-  "qualifyingAlerts": 69,
+  "catalogItems": 1089,
+  "candidateItems": 366,
+  "freshItems": 291,
+  "qualifyingAlerts": 96,
   "qualifyingByCondition": {
-    "veryGood": 62,
-    "newWithoutTags": 6,
-    "newWithTags": 1
+    "veryGood": 83,
+    "newWithoutTags": 11,
+    "newWithTags": 2
   },
-  "deliveredAlerts": 69,
+  "deliveredAlerts": 96,
   "deliveredByCondition": {
-    "veryGood": 62,
-    "newWithoutTags": 6,
-    "newWithTags": 1
+    "veryGood": 83,
+    "newWithoutTags": 11,
+    "newWithTags": 2
   },
   "duplicateSuppressed": 0,
   "discordFailures": 0,
@@ -69,12 +69,12 @@
   "pendingDeliveries": 0,
   "detailFetches": 6,
   "rejects": {
-    "condition": 25,
-    "recovery-no-fresh-signal": 86,
-    "price": 61,
-    "keyword": 11,
     "size": 5,
-    "detail-budget-exhausted": 6,
+    "price": 108,
+    "recovery-no-fresh-signal": 75,
+    "condition": 45,
+    "keyword": 14,
+    "detail-budget-exhausted": 22,
     "score": 1
   },
   "failures": {}
