@@ -2,29 +2,65 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-11-11T20:11:38.693Z",
+    "startedAt": "2026-11-12T01:59:39.181Z",
     "searchGroups": [
-      "hunter:berghaus-puffer",
-      "hunter:napapijri-jacket",
-      "tnf-1996-nuptse:north-face-nuptse-700",
-      "tnf-1996-nuptse:north-face-1996-nuptse",
-      "tnf-himalayan:north-face-himalayan-puffer",
-      "tnf-himalayan:north-face-hmlyn-parka",
-      "tnf-baltoro:north-face-baltoro-jacket",
-      "tnf-summit-down:north-face-summit-series-down"
+      "napapijri-skidoo:napapijri-skidoo-jacket",
+      "napapijri-skidoo:napapijri-rainforest-winter",
+      "hunter:north-face-coat",
+      "hunter:north-face-puffer",
+      "hunter:north-face-700",
+      "hunter:mens-north-face-jacket",
+      "hunter:rab-puffer",
+      "hunter:rab-down-jacket"
     ],
-    "vintedItems": 233,
-    "freshItems": 15,
+    "vintedItems": 274,
+    "freshItems": 57,
     "freshByAge": 0,
-    "freshByNewId": 15,
+    "freshByNewId": 57,
     "bootstrapBlocked": 0,
-    "staleBlocked": 0,
-    "candidates": 6,
-    "alerts": 0,
+    "staleBlocked": 30,
+    "candidates": 7,
+    "alerts": 1,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-11-12T01:59:44.399Z",
+      "platform": "VINTED",
+      "id": "10770741410",
+      "title": "the north face himalayan synthetic insulated hooded jacket stoneblack mens xs",
+      "url": "https://www.vinted.co.uk/items/10770741410-the-north-face-himalayan-synthetic-insulated-hooded-jacket-stoneblack-mens-xs",
+      "modelId": "tnf-himalayan",
+      "buyPrice": 40,
+      "estimatedNetProfit": 48.71,
+      "roi": 121.78,
+      "score": 92
+    },
+    {
+      "at": "2026-11-12T01:56:44.534Z",
+      "platform": "VINTED",
+      "id": "10771216069",
+      "title": "womens vintage ralph lauren red jacket s",
+      "url": "https://www.vinted.co.uk/items/10771216069-womens-vintage-ralph-lauren-red-jacket-s",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 25,
+      "estimatedNetProfit": 40.76,
+      "roi": 163.04,
+      "score": 96
+    },
+    {
+      "at": "2026-11-12T01:56:43.831Z",
+      "platform": "VINTED",
+      "id": "10771277856",
+      "title": "polo ralph lauren girls pink packable puffer jacket with storage pouch size 5 years old",
+      "url": "https://www.vinted.co.uk/items/10771277856-polo-ralph-lauren-girls-pink-packable-puffer-jacket-with-storage-pouch-size-5-years-old",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 35,
+      "estimatedNetProfit": 42.54,
+      "roi": 121.54,
+      "score": 87
+    },
     {
       "at": "2026-11-11T20:08:53.498Z",
       "platform": "VINTED",
@@ -228,42 +264,6 @@
       "estimatedNetProfit": 33.01,
       "roi": 165.05,
       "score": 89
-    },
-    {
-      "at": "2026-11-08T23:42:03.702Z",
-      "platform": "VINTED",
-      "id": "10728355160",
-      "title": "napapijri rainforest winter anorak jacket",
-      "url": "https://www.vinted.co.uk/items/10728355160-napapijri-rainforest-winter-anorak-jacket",
-      "modelId": "napapijri-skidoo",
-      "buyPrice": 20,
-      "estimatedNetProfit": 53.59,
-      "roi": 267.95,
-      "score": 85
-    },
-    {
-      "at": "2026-11-08T23:41:53.585Z",
-      "platform": "VINTED",
-      "id": "10727290453",
-      "title": "ralph lauren jacket",
-      "url": "https://www.vinted.co.uk/items/10727290453-ralph-lauren-jacket",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 30,
-      "estimatedNetProfit": 47.82,
-      "roi": 159.4,
-      "score": 90
-    },
-    {
-      "at": "2026-11-08T23:41:52.905Z",
-      "platform": "VINTED",
-      "id": "10728889562",
-      "title": "womens vintage ralph lauren coat puffer jacket s",
-      "url": "https://www.vinted.co.uk/items/10728889562-womens-vintage-ralph-lauren-coat-puffer-jacket-s",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 25,
-      "estimatedNetProfit": 40.76,
-      "roi": 163.04,
-      "score": 96
     }
   ]
 }
