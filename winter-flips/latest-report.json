@@ -2,29 +2,53 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-11-12T01:59:39.181Z",
+    "startedAt": "2026-11-12T09:04:05.859Z",
     "searchGroups": [
-      "napapijri-skidoo:napapijri-skidoo-jacket",
-      "napapijri-skidoo:napapijri-rainforest-winter",
-      "hunter:north-face-coat",
-      "hunter:north-face-puffer",
-      "hunter:north-face-700",
-      "hunter:mens-north-face-jacket",
-      "hunter:rab-puffer",
-      "hunter:rab-down-jacket"
+      "rab-electron:rab-electron-pro",
+      "patagonia-down-sweater:patagonia-down-sweater-jacket",
+      "patagonia-down-sweater:patagonia-down-sweater-hoody",
+      "patagonia-fitz-roy:patagonia-fitz-roy-down",
+      "arcteryx-cerium:arcteryx-cerium-jacket",
+      "arcteryx-cerium:arc-teryx-cerium",
+      "arcteryx-thorium:arcteryx-thorium-jacket",
+      "arcteryx-thorium:arc-teryx-thorium"
     ],
-    "vintedItems": 274,
-    "freshItems": 57,
+    "vintedItems": 151,
+    "freshItems": 0,
     "freshByAge": 0,
-    "freshByNewId": 57,
+    "freshByNewId": 0,
     "bootstrapBlocked": 0,
-    "staleBlocked": 30,
-    "candidates": 7,
-    "alerts": 1,
+    "staleBlocked": 0,
+    "candidates": 0,
+    "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-11-12T08:58:15.265Z",
+      "platform": "VINTED",
+      "id": "10772147213",
+      "title": "womens vintage nike puffer khaki winter jacket s",
+      "url": "https://www.vinted.co.uk/items/10772147213-womens-vintage-nike-puffer-khaki-winter-jacket-s",
+      "modelId": "nike-puffer",
+      "buyPrice": 20,
+      "estimatedNetProfit": 23.55,
+      "roi": 117.75,
+      "score": 91
+    },
+    {
+      "at": "2026-11-12T08:58:13.067Z",
+      "platform": "VINTED",
+      "id": "10774018107",
+      "title": "us polo puffer 6 7y navy pink bnwt",
+      "url": "https://www.vinted.co.uk/items/10774018107-us-polo-puffer-6-7y-navy-pink-bnwt",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 34,
+      "estimatedNetProfit": 39.55,
+      "roi": 116.32,
+      "score": 87
+    },
     {
       "at": "2026-11-12T01:59:44.399Z",
       "platform": "VINTED",
@@ -240,30 +264,6 @@
       "estimatedNetProfit": 38.08,
       "roi": 69.24,
       "score": 79
-    },
-    {
-      "at": "2026-11-09T21:29:31.865Z",
-      "platform": "VINTED",
-      "id": "10741924786",
-      "title": "nike puffer jacket new never worn size 18 months",
-      "url": "https://www.vinted.co.uk/items/10741924786-nike-puffer-jacket-new-never-worn-size-18-months",
-      "modelId": "nike-puffer",
-      "buyPrice": 15,
-      "estimatedNetProfit": 41.42,
-      "roi": 276.13,
-      "score": 86
-    },
-    {
-      "at": "2026-11-09T02:58:43.669Z",
-      "platform": "VINTED",
-      "id": "10729218085",
-      "title": "bnwt berghaus puffer jacket",
-      "url": "https://www.vinted.co.uk/items/10729218085-bnwt-berghaus-puffer-jacket",
-      "modelId": "berghaus-down",
-      "buyPrice": 20,
-      "estimatedNetProfit": 33.01,
-      "roi": 165.05,
-      "score": 89
     }
   ]
 }
