@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-11-13T03:04:42.114Z",
+    "startedAt": "2026-11-13T10:51:31.069Z",
     "searchGroups": [
-      "tnf-baltoro:north-face-baltoro-jacket",
-      "tnf-summit-down:north-face-summit-series-down",
-      "rab-microlight:rab-microlight-alpine",
-      "rab-neutrino:rab-neutrino-pro",
-      "rab-electron:rab-electron-pro",
-      "patagonia-down-sweater:patagonia-down-sweater-jacket",
-      "patagonia-down-sweater:patagonia-down-sweater-hoody",
-      "patagonia-fitz-roy:patagonia-fitz-roy-down"
+      "hunter:rab-puffer",
+      "hunter:rab-down-jacket",
+      "hunter:patagonia-puffer",
+      "hunter:arcteryx-jacket",
+      "hunter:arc-teryx-puffer",
+      "hunter:ralph-lauren-puffer",
+      "hunter:polo-puffer-jacket",
+      "hunter:nike-puffer-jacket"
     ],
-    "vintedItems": 157,
-    "freshItems": 0,
+    "vintedItems": 246,
+    "freshItems": 20,
     "freshByAge": 0,
-    "freshByNewId": 0,
+    "freshByNewId": 20,
     "bootstrapBlocked": 0,
-    "staleBlocked": 0,
-    "candidates": 0,
-    "alerts": 0,
+    "staleBlocked": 15,
+    "candidates": 4,
+    "alerts": 1,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-11-13T10:51:38.915Z",
+      "platform": "VINTED",
+      "id": "10789171661",
+      "title": "ralph lauren reversible coat",
+      "url": "https://www.vinted.co.uk/items/10789171661-ralph-lauren-reversible-coat",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 25,
+      "estimatedNetProfit": 47.58,
+      "roi": 190.32,
+      "score": 93
+    },
     {
       "at": "2026-11-13T03:01:43.383Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 38.18,
       "roi": 141.41,
       "score": 94
-    },
-    {
-      "at": "2026-11-11T00:00:53.596Z",
-      "platform": "VINTED",
-      "id": "10749449693",
-      "title": "berghaus puffer gilet in black and green age 11 12",
-      "url": "https://www.vinted.co.uk/items/10749449693-berghaus-puffer-gilet-in-black-and-green-age-11-12",
-      "modelId": "berghaus-down",
-      "buyPrice": 25,
-      "estimatedNetProfit": 27.35,
-      "roi": 109.4,
-      "score": 83
     }
   ]
 }
