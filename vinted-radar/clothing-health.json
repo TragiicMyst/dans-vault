@@ -1,37 +1,37 @@
 {
-  "generatedAt": "2026-11-13T07:15:14.443Z",
-  "stateUpdatedAt": "2026-11-13T07:15:14.443Z",
-  "lastAttemptAt": "2026-11-13T07:15:14.443Z",
-  "lastScanAt": "2026-11-13T07:15:14.443Z",
+  "generatedAt": "2026-11-13T10:06:29.400Z",
+  "stateUpdatedAt": "2026-11-13T10:06:29.400Z",
+  "lastAttemptAt": "2026-11-13T10:06:29.400Z",
+  "lastScanAt": "2026-11-13T10:06:29.400Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike T-Shirt::nike t shirt",
-    "Nike Long Sleeve Top::nike long sleeve top",
-    "Nike Polo::nike polo",
-    "Nike Football Shirt::nike football shirt",
-    "Nike Training Top::nike training top",
-    "Nike Dri-FIT Top::nike dri fit top"
+    "Nike Quarter Zip::nike quarter zip",
+    "Nike Fleece::nike fleece",
+    "Nike Gilet::nike gilet",
+    "Nike Windbreaker::nike windbreaker",
+    "Nike Anorak::nike anorak",
+    "Nike Rain Jacket::nike rain jacket"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 1043,
-  "candidateItems": 383,
-  "freshItems": 93,
-  "qualifyingAlerts": 40,
+  "catalogItems": 1105,
+  "candidateItems": 244,
+  "freshItems": 104,
+  "qualifyingAlerts": 35,
   "qualifyingByCondition": {
-    "veryGood": 36,
-    "newWithoutTags": 2,
-    "newWithTags": 2
+    "veryGood": 26,
+    "newWithoutTags": 4,
+    "newWithTags": 5
   },
-  "deliveredAlerts": 40,
+  "deliveredAlerts": 35,
   "deliveredByCondition": {
-    "veryGood": 36,
-    "newWithoutTags": 2,
-    "newWithTags": 2
+    "veryGood": 26,
+    "newWithoutTags": 4,
+    "newWithTags": 5
   },
   "duplicateSuppressed": 1,
   "discordFailures": 0,
@@ -67,14 +67,14 @@
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 2,
+  "detailFetches": 6,
   "rejects": {
-    "price": 29,
-    "recovery-no-fresh-signal": 289,
-    "condition": 15,
-    "weak-margin": 1,
-    "size": 1,
-    "keyword": 7
+    "price": 33,
+    "recovery-no-fresh-signal": 139,
+    "condition": 19,
+    "size": 5,
+    "keyword": 11,
+    "score": 1
   },
   "failures": {}
 }
