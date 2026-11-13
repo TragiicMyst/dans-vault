@@ -1,37 +1,39 @@
 {
-  "generatedAt": "2026-11-13T02:46:17.617Z",
-  "stateUpdatedAt": "2026-11-13T02:46:17.617Z",
-  "lastAttemptAt": "2026-11-13T02:46:17.617Z",
-  "lastScanAt": "2026-11-13T02:46:17.617Z",
+  "generatedAt": "2026-11-13T07:15:14.443Z",
+  "stateUpdatedAt": "2026-11-13T07:15:14.443Z",
+  "lastAttemptAt": "2026-11-13T07:15:14.443Z",
+  "lastScanAt": "2026-11-13T07:15:14.443Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Jordan Flight Fleece Joggers::jordan flight fleece joggers",
-    "Nike ACG Tuff Fleece::nike acg tuff fleece",
-    "Nike Solo Swoosh Crew::nike solo swoosh sweatshirt",
-    "Nike Miler Repel Jacket::nike miler repel jacket",
-    "Nike Solo Swoosh Joggers::nike solo swoosh joggers",
-    "Nike Stride Running Jacket::nike stride running jacket"
+    "Nike T-Shirt::nike t shirt",
+    "Nike Long Sleeve Top::nike long sleeve top",
+    "Nike Polo::nike polo",
+    "Nike Football Shirt::nike football shirt",
+    "Nike Training Top::nike training top",
+    "Nike Dri-FIT Top::nike dri fit top"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1246,
-  "catalogItems": 692,
-  "candidateItems": 336,
-  "freshItems": 27,
-  "qualifyingAlerts": 15,
+  "catalogMarkers": 1344,
+  "catalogItems": 1043,
+  "candidateItems": 383,
+  "freshItems": 93,
+  "qualifyingAlerts": 40,
   "qualifyingByCondition": {
-    "veryGood": 11,
-    "newWithTags": 4
+    "veryGood": 36,
+    "newWithoutTags": 2,
+    "newWithTags": 2
   },
-  "deliveredAlerts": 15,
+  "deliveredAlerts": 40,
   "deliveredByCondition": {
-    "veryGood": 11,
-    "newWithTags": 4
+    "veryGood": 36,
+    "newWithoutTags": 2,
+    "newWithTags": 2
   },
-  "duplicateSuppressed": 111,
+  "duplicateSuppressed": 1,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -65,13 +67,14 @@
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 0,
+  "detailFetches": 2,
   "rejects": {
-    "recovery-no-fresh-signal": 198,
-    "price": 5,
-    "score": 2,
-    "condition": 4,
-    "weak-margin": 1
+    "price": 29,
+    "recovery-no-fresh-signal": 289,
+    "condition": 15,
+    "weak-margin": 1,
+    "size": 1,
+    "keyword": 7
   },
   "failures": {}
 }
