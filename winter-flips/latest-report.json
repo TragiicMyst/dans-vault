@@ -2,29 +2,77 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-11-14T03:35:20.213Z",
+    "startedAt": "2026-11-14T10:55:09.010Z",
     "searchGroups": [
-      "hunter:north-face-coat",
-      "hunter:north-face-puffer",
-      "hunter:north-face-700",
-      "hunter:mens-north-face-jacket",
-      "hunter:rab-puffer",
-      "hunter:rab-down-jacket",
-      "hunter:patagonia-puffer",
-      "hunter:arcteryx-jacket"
+      "patagonia-down-sweater:patagonia-down-sweater-hoody",
+      "patagonia-fitz-roy:patagonia-fitz-roy-down",
+      "arcteryx-cerium:arcteryx-cerium-jacket",
+      "arcteryx-cerium:arc-teryx-cerium",
+      "arcteryx-thorium:arcteryx-thorium-jacket",
+      "arcteryx-thorium:arc-teryx-thorium",
+      "ralph-lauren-puffer:ralph-lauren-puffer-jacket",
+      "ralph-lauren-puffer:polo-ralph-lauren-down-jacket"
     ],
-    "vintedItems": 280,
-    "freshItems": 9,
+    "vintedItems": 169,
+    "freshItems": 1,
     "freshByAge": 0,
-    "freshByNewId": 9,
+    "freshByNewId": 1,
     "bootstrapBlocked": 0,
-    "staleBlocked": 55,
-    "candidates": 0,
+    "staleBlocked": 0,
+    "candidates": 1,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-11-14T10:49:15.913Z",
+      "platform": "VINTED",
+      "id": "10801747685",
+      "title": "nike puffer jacket pen pot",
+      "url": "https://www.vinted.co.uk/items/10801747685-nike-puffer-jacket-pen-pot",
+      "modelId": "nike-puffer",
+      "buyPrice": 6,
+      "estimatedNetProfit": 50.5,
+      "roi": 841.67,
+      "score": 87
+    },
+    {
+      "at": "2026-11-14T10:49:15.257Z",
+      "platform": "VINTED",
+      "id": "10801668552",
+      "title": "grey nike puffer jacket",
+      "url": "https://www.vinted.co.uk/items/10801668552-grey-nike-puffer-jacket",
+      "modelId": "nike-puffer",
+      "buyPrice": 25,
+      "estimatedNetProfit": 32.15,
+      "roi": 128.6,
+      "score": 92
+    },
+    {
+      "at": "2026-11-14T10:49:13.499Z",
+      "platform": "VINTED",
+      "id": "10798648362",
+      "title": "us polo puffer 6 7y navy pink bnwt",
+      "url": "https://www.vinted.co.uk/items/10798648362-us-polo-puffer-6-7y-navy-pink-bnwt",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 32,
+      "estimatedNetProfit": 38.52,
+      "roi": 120.38,
+      "score": 87
+    },
+    {
+      "at": "2026-11-14T10:49:11.664Z",
+      "platform": "VINTED",
+      "id": "10800996198",
+      "title": "green ralph lauren snowsuit",
+      "url": "https://www.vinted.co.uk/items/10800996198-green-ralph-lauren-snowsuit",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 30,
+      "estimatedNetProfit": 42.15,
+      "roi": 140.5,
+      "score": 89
+    },
     {
       "at": "2026-11-13T23:33:10.402Z",
       "platform": "VINTED",
@@ -216,54 +264,6 @@
       "estimatedNetProfit": 39.55,
       "roi": 116.32,
       "score": 87
-    },
-    {
-      "at": "2026-11-12T01:59:44.399Z",
-      "platform": "VINTED",
-      "id": "10770741410",
-      "title": "the north face himalayan synthetic insulated hooded jacket stoneblack mens xs",
-      "url": "https://www.vinted.co.uk/items/10770741410-the-north-face-himalayan-synthetic-insulated-hooded-jacket-stoneblack-mens-xs",
-      "modelId": "tnf-himalayan",
-      "buyPrice": 40,
-      "estimatedNetProfit": 48.71,
-      "roi": 121.78,
-      "score": 92
-    },
-    {
-      "at": "2026-11-12T01:56:44.534Z",
-      "platform": "VINTED",
-      "id": "10771216069",
-      "title": "womens vintage ralph lauren red jacket s",
-      "url": "https://www.vinted.co.uk/items/10771216069-womens-vintage-ralph-lauren-red-jacket-s",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 25,
-      "estimatedNetProfit": 40.76,
-      "roi": 163.04,
-      "score": 96
-    },
-    {
-      "at": "2026-11-12T01:56:43.831Z",
-      "platform": "VINTED",
-      "id": "10771277856",
-      "title": "polo ralph lauren girls pink packable puffer jacket with storage pouch size 5 years old",
-      "url": "https://www.vinted.co.uk/items/10771277856-polo-ralph-lauren-girls-pink-packable-puffer-jacket-with-storage-pouch-size-5-years-old",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 35,
-      "estimatedNetProfit": 42.54,
-      "roi": 121.54,
-      "score": 87
-    },
-    {
-      "at": "2026-11-11T20:08:53.498Z",
-      "platform": "VINTED",
-      "id": "10765838009",
-      "title": "nike puffer coat",
-      "url": "https://www.vinted.co.uk/items/10765838009-nike-puffer-coat",
-      "modelId": "nike-puffer",
-      "buyPrice": 25,
-      "estimatedNetProfit": 32.15,
-      "roi": 128.6,
-      "score": 92
     }
   ]
 }
