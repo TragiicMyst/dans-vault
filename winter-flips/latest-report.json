@@ -2,29 +2,53 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-11-15T15:04:40.269Z",
+    "startedAt": "2026-11-15T20:21:11.023Z",
     "searchGroups": [
-      "ralph-lauren-puffer:ralph-lauren-puffer-jacket",
-      "ralph-lauren-puffer:polo-ralph-lauren-down-jacket",
-      "nike-puffer:nike-puffer-jacket-mens",
-      "nike-puffer:nike-down-jacket",
-      "berghaus-down:berghaus-down-jacket",
-      "berghaus-down:berghaus-puffer-jacket",
-      "napapijri-skidoo:napapijri-skidoo-jacket",
-      "napapijri-skidoo:napapijri-rainforest-winter"
+      "tnf-himalayan:north-face-himalayan-puffer",
+      "tnf-himalayan:north-face-hmlyn-parka",
+      "tnf-baltoro:north-face-baltoro-jacket",
+      "tnf-summit-down:north-face-summit-series-down",
+      "rab-microlight:rab-microlight-alpine",
+      "rab-neutrino:rab-neutrino-pro",
+      "rab-electron:rab-electron-pro",
+      "patagonia-down-sweater:patagonia-down-sweater-jacket"
     ],
-    "vintedItems": 275,
-    "freshItems": 64,
+    "vintedItems": 171,
+    "freshItems": 2,
     "freshByAge": 0,
-    "freshByNewId": 64,
+    "freshByNewId": 2,
     "bootstrapBlocked": 0,
-    "staleBlocked": 9,
-    "candidates": 27,
+    "staleBlocked": 0,
+    "candidates": 2,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-11-15T20:18:17.115Z",
+      "platform": "VINTED",
+      "id": "10825504188",
+      "title": "nike puffer double zipper",
+      "url": "https://www.vinted.co.uk/items/10825504188-nike-puffer-double-zipper",
+      "modelId": "nike-puffer",
+      "buyPrice": 15,
+      "estimatedNetProfit": 36.54,
+      "roi": 243.6,
+      "score": 99
+    },
+    {
+      "at": "2026-11-15T20:18:13.469Z",
+      "platform": "VINTED",
+      "id": "10830149122",
+      "title": "polo ralph lauren coat age 14 15 years",
+      "url": "https://www.vinted.co.uk/items/10830149122-polo-ralph-lauren-coat-age-14-15-years",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 25,
+      "estimatedNetProfit": 48.5,
+      "roi": 194,
+      "score": 93
+    },
     {
       "at": "2026-11-15T07:42:36.540Z",
       "platform": "VINTED",
@@ -240,30 +264,6 @@
       "estimatedNetProfit": 47.76,
       "roi": 159.2,
       "score": 90
-    },
-    {
-      "at": "2026-11-13T18:15:35.437Z",
-      "platform": "VINTED",
-      "id": "10789857011",
-      "title": "ralph lauren green jacket",
-      "url": "https://www.vinted.co.uk/items/10789857011-ralph-lauren-green-jacket",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 30,
-      "estimatedNetProfit": 35.48,
-      "roi": 118.27,
-      "score": 91
-    },
-    {
-      "at": "2026-11-13T18:15:34.684Z",
-      "platform": "VINTED",
-      "id": "10790334438",
-      "title": "gorgeous ralph lauren reversible water repellent padded jacket",
-      "url": "https://www.vinted.co.uk/items/10790334438-gorgeous-ralph-lauren-reversible-water-repellent-padded-jacket",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 30,
-      "estimatedNetProfit": 50.24,
-      "roi": 167.47,
-      "score": 91
     }
   ]
 }
