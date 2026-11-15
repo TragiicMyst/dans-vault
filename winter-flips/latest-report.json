@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-11-14T21:04:58.206Z",
+    "startedAt": "2026-11-15T01:01:08.470Z",
     "searchGroups": [
-      "berghaus-down:berghaus-down-jacket",
-      "berghaus-down:berghaus-puffer-jacket",
-      "napapijri-skidoo:napapijri-skidoo-jacket",
-      "napapijri-skidoo:napapijri-rainforest-winter",
-      "hunter:north-face-coat",
-      "hunter:north-face-puffer",
-      "hunter:north-face-700",
-      "hunter:mens-north-face-jacket"
+      "rab-microlight:rab-microlight-alpine",
+      "rab-neutrino:rab-neutrino-pro",
+      "rab-electron:rab-electron-pro",
+      "patagonia-down-sweater:patagonia-down-sweater-jacket",
+      "patagonia-down-sweater:patagonia-down-sweater-hoody",
+      "patagonia-fitz-roy:patagonia-fitz-roy-down",
+      "arcteryx-cerium:arcteryx-cerium-jacket",
+      "arcteryx-cerium:arc-teryx-cerium"
     ],
-    "vintedItems": 275,
-    "freshItems": 65,
+    "vintedItems": 161,
+    "freshItems": 0,
     "freshByAge": 0,
-    "freshByNewId": 65,
+    "freshByNewId": 0,
     "bootstrapBlocked": 0,
-    "staleBlocked": 15,
-    "candidates": 8,
+    "staleBlocked": 0,
+    "candidates": 0,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-11-15T00:55:19.094Z",
+      "platform": "VINTED",
+      "id": "10809612327",
+      "title": "baby nike puffer jacket",
+      "url": "https://www.vinted.co.uk/items/10809612327-baby-nike-puffer-jacket",
+      "modelId": "nike-puffer",
+      "buyPrice": 8,
+      "estimatedNetProfit": 45.47,
+      "roi": 568.38,
+      "score": 87
+    },
     {
       "at": "2026-11-14T21:02:04.883Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 47.58,
       "roi": 190.32,
       "score": 93
-    },
-    {
-      "at": "2026-11-13T03:01:43.383Z",
-      "platform": "VINTED",
-      "id": "10785212315",
-      "title": "polo puffer jackets kids",
-      "url": "https://www.vinted.co.uk/items/10785212315-polo-puffer-jackets-kids",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 37,
-      "estimatedNetProfit": 36.15,
-      "roi": 97.7,
-      "score": 84
     }
   ]
 }
