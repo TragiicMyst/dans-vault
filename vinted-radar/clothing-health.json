@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-11-16T06:10:46.533Z",
-  "stateUpdatedAt": "2026-11-16T06:10:46.533Z",
-  "lastAttemptAt": "2026-11-16T06:10:46.533Z",
-  "lastScanAt": "2026-11-16T06:10:46.533Z",
+  "generatedAt": "2026-11-16T06:24:12.077Z",
+  "stateUpdatedAt": "2026-11-16T06:24:12.077Z",
+  "lastAttemptAt": "2026-11-16T06:24:12.077Z",
+  "lastScanAt": "2026-11-16T06:24:12.077Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Club Fleece Joggers::nike club fleece joggers",
-    "Nike Sportswear Winterised Jacket::nike sportswear winterised jacket",
-    "Nike NOCTA Joggers::nike nocta joggers",
-    "Nike ACG Fleece::nike acg fleece",
-    "Nike Club Fleece Open-Hem Trousers::nike club fleece open hem trousers",
-    "Nike Trail Repel Jacket::nike trail repel jacket"
+    "Jordan Flight Fleece Hoodie::jordan flight fleece hoodie",
+    "Nike ACG Wolf Tree::nike acg wolf tree",
+    "Nike Club Fleece Crew::nike club fleece crew",
+    "Nike Running Division Jacket::nike running division jacket",
+    "Jordan Flight Fleece Joggers::jordan flight fleece joggers",
+    "Nike ACG Tuff Fleece::nike acg tuff fleece"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1076,
-  "catalogItems": 585,
-  "candidateItems": 245,
-  "freshItems": 67,
-  "qualifyingAlerts": 31,
+  "catalogMarkers": 1154,
+  "catalogItems": 702,
+  "candidateItems": 331,
+  "freshItems": 12,
+  "qualifyingAlerts": 5,
   "qualifyingByCondition": {
-    "veryGood": 28,
-    "newWithoutTags": 2,
+    "newWithoutTags": 1,
+    "veryGood": 3,
     "newWithTags": 1
   },
-  "deliveredAlerts": 31,
+  "deliveredAlerts": 5,
   "deliveredByCondition": {
-    "veryGood": 28,
-    "newWithoutTags": 2,
+    "newWithoutTags": 1,
+    "veryGood": 3,
     "newWithTags": 1
   },
-  "duplicateSuppressed": 50,
+  "duplicateSuppressed": 103,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,12 +69,11 @@
   "pendingDeliveries": 0,
   "detailFetches": 1,
   "rejects": {
-    "condition": 12,
-    "recovery-no-fresh-signal": 128,
-    "price": 14,
-    "keyword": 5,
-    "weak-margin": 3,
-    "score": 2
+    "stale": 216,
+    "condition": 3,
+    "score": 1,
+    "price": 2,
+    "size": 1
   },
   "failures": {}
 }
