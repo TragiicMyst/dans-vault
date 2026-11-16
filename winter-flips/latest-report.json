@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-11-16T00:07:34.970Z",
+    "startedAt": "2026-11-16T06:15:00.008Z",
     "searchGroups": [
-      "hunter:north-face-700",
-      "hunter:mens-north-face-jacket",
-      "hunter:rab-puffer",
-      "hunter:rab-down-jacket",
-      "hunter:patagonia-puffer",
-      "hunter:arcteryx-jacket",
-      "hunter:arc-teryx-puffer",
-      "hunter:ralph-lauren-puffer"
+      "arcteryx-cerium:arcteryx-cerium-jacket",
+      "arcteryx-cerium:arc-teryx-cerium",
+      "arcteryx-thorium:arcteryx-thorium-jacket",
+      "arcteryx-thorium:arc-teryx-thorium",
+      "ralph-lauren-puffer:ralph-lauren-puffer-jacket",
+      "ralph-lauren-puffer:polo-ralph-lauren-down-jacket",
+      "nike-puffer:nike-puffer-jacket-mens",
+      "nike-puffer:nike-down-jacket"
     ],
-    "vintedItems": 280,
-    "freshItems": 19,
+    "vintedItems": 212,
+    "freshItems": 2,
     "freshByAge": 0,
-    "freshByNewId": 19,
+    "freshByNewId": 2,
     "bootstrapBlocked": 0,
-    "staleBlocked": 10,
-    "candidates": 1,
+    "staleBlocked": 2,
+    "candidates": 2,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-11-16T06:12:02.269Z",
+      "platform": "VINTED",
+      "id": "10830817298",
+      "title": "the north face summit series gore tex down jacket womens medium",
+      "url": "https://www.vinted.co.uk/items/10830817298-the-north-face-summit-series-gore-tex-down-jacket-womens-medium",
+      "modelId": "tnf-summit-down",
+      "buyPrice": 60,
+      "estimatedNetProfit": 33.78,
+      "roi": 56.3,
+      "score": 68
+    },
     {
       "at": "2026-11-15T20:18:17.115Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 27.53,
       "roi": 110.12,
       "score": 85
-    },
-    {
-      "at": "2026-11-13T23:33:03.314Z",
-      "platform": "VINTED",
-      "id": "10796749701",
-      "title": "ralph lauren",
-      "url": "https://www.vinted.co.uk/items/10796749701-ralph-lauren",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 30,
-      "estimatedNetProfit": 47.76,
-      "roi": 159.2,
-      "score": 90
     }
   ]
 }
