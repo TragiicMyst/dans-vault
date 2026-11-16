@@ -2,29 +2,77 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-11-16T06:15:00.008Z",
+    "startedAt": "2026-11-16T15:42:44.736Z",
     "searchGroups": [
-      "arcteryx-cerium:arcteryx-cerium-jacket",
-      "arcteryx-cerium:arc-teryx-cerium",
-      "arcteryx-thorium:arcteryx-thorium-jacket",
-      "arcteryx-thorium:arc-teryx-thorium",
-      "ralph-lauren-puffer:ralph-lauren-puffer-jacket",
-      "ralph-lauren-puffer:polo-ralph-lauren-down-jacket",
-      "nike-puffer:nike-puffer-jacket-mens",
-      "nike-puffer:nike-down-jacket"
+      "hunter:berghaus-puffer",
+      "hunter:napapijri-jacket",
+      "tnf-1996-nuptse:north-face-nuptse-700",
+      "tnf-1996-nuptse:north-face-1996-nuptse",
+      "tnf-himalayan:north-face-himalayan-puffer",
+      "tnf-himalayan:north-face-hmlyn-parka",
+      "tnf-baltoro:north-face-baltoro-jacket",
+      "tnf-summit-down:north-face-summit-series-down"
     ],
-    "vintedItems": 212,
-    "freshItems": 2,
+    "vintedItems": 232,
+    "freshItems": 14,
     "freshByAge": 0,
-    "freshByNewId": 2,
+    "freshByNewId": 14,
     "bootstrapBlocked": 0,
-    "staleBlocked": 2,
-    "candidates": 2,
+    "staleBlocked": 0,
+    "candidates": 3,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-11-16T15:39:56.303Z",
+      "platform": "VINTED",
+      "id": "10839488889",
+      "title": "nike puffer jacket 24 months unisex",
+      "url": "https://www.vinted.co.uk/items/10839488889-nike-puffer-jacket-24-months-unisex",
+      "modelId": "nike-puffer",
+      "buyPrice": 22,
+      "estimatedNetProfit": 33.62,
+      "roi": 152.82,
+      "score": 90
+    },
+    {
+      "at": "2026-11-16T15:39:53.087Z",
+      "platform": "VINTED",
+      "id": "10837524199",
+      "title": "polo ralph lauren reversible puffer gilet bodywarmer red navy",
+      "url": "https://www.vinted.co.uk/items/10837524199-polo-ralph-lauren-reversible-puffer-gilet-bodywarmer-red-navy",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 45,
+      "estimatedNetProfit": 34.98,
+      "roi": 77.73,
+      "score": 83
+    },
+    {
+      "at": "2026-11-16T15:39:52.489Z",
+      "platform": "VINTED",
+      "id": "10839528137",
+      "title": "ralph lauren coat",
+      "url": "https://www.vinted.co.uk/items/10839528137-ralph-lauren-coat",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 30,
+      "estimatedNetProfit": 46.89,
+      "roi": 156.3,
+      "score": 90
+    },
+    {
+      "at": "2026-11-16T15:36:55.273Z",
+      "platform": "VINTED",
+      "id": "10835605668",
+      "title": "womens north face 700 puffer coat",
+      "url": "https://www.vinted.co.uk/items/10835605668-womens-north-face-700-puffer-coat",
+      "modelId": "tnf-1996-nuptse",
+      "buyPrice": 45,
+      "estimatedNetProfit": 37.7,
+      "roi": 83.78,
+      "score": 80
+    },
     {
       "at": "2026-11-16T06:12:02.269Z",
       "platform": "VINTED",
@@ -216,54 +264,6 @@
       "estimatedNetProfit": 42.15,
       "roi": 140.5,
       "score": 89
-    },
-    {
-      "at": "2026-11-13T23:33:10.402Z",
-      "platform": "VINTED",
-      "id": "10792483231",
-      "title": "nike puffer coat kidsjunior age 8 10 years",
-      "url": "https://www.vinted.co.uk/items/10792483231-nike-puffer-coat-kidsjunior-age-8-10-years",
-      "modelId": "nike-puffer",
-      "buyPrice": 20,
-      "estimatedNetProfit": 23.74,
-      "roi": 118.7,
-      "score": 91
-    },
-    {
-      "at": "2026-11-13T23:33:07.405Z",
-      "platform": "VINTED",
-      "id": "10793177519",
-      "title": "baby nike puffer",
-      "url": "https://www.vinted.co.uk/items/10793177519-baby-nike-puffer",
-      "modelId": "nike-puffer",
-      "buyPrice": 16.5,
-      "estimatedNetProfit": 36.5,
-      "roi": 221.21,
-      "score": 94
-    },
-    {
-      "at": "2026-11-13T23:33:06.796Z",
-      "platform": "VINTED",
-      "id": "10795759992",
-      "title": "girls pink leopard 18 months bnwt y2k nike puffer jacket gilet casual body warmer",
-      "url": "https://www.vinted.co.uk/items/10795759992-girls-pink-leopard-18-months-bnwt-y2k-nike-puffer-jacket-gilet-casual-body-warmer",
-      "modelId": "nike-puffer",
-      "buyPrice": 14,
-      "estimatedNetProfit": 41.45,
-      "roi": 296.07,
-      "score": 87
-    },
-    {
-      "at": "2026-11-13T23:33:06.194Z",
-      "platform": "VINTED",
-      "id": "10797694478",
-      "title": "nike puffer",
-      "url": "https://www.vinted.co.uk/items/10797694478-nike-puffer",
-      "modelId": "nike-puffer",
-      "buyPrice": 25,
-      "estimatedNetProfit": 27.53,
-      "roi": 110.12,
-      "score": 85
     }
   ]
 }
