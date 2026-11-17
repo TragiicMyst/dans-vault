@@ -2,29 +2,65 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-11-17T14:46:29.883Z",
+    "startedAt": "2026-11-17T22:44:58.359Z",
     "searchGroups": [
-      "hunter:arc-teryx-puffer",
-      "hunter:ralph-lauren-puffer",
-      "hunter:polo-puffer-jacket",
-      "hunter:nike-puffer-jacket",
-      "hunter:berghaus-puffer",
-      "hunter:napapijri-jacket",
-      "tnf-1996-nuptse:north-face-nuptse-700",
-      "tnf-1996-nuptse:north-face-1996-nuptse"
+      "nike-puffer:nike-puffer-jacket-mens",
+      "nike-puffer:nike-down-jacket",
+      "berghaus-down:berghaus-down-jacket",
+      "berghaus-down:berghaus-puffer-jacket",
+      "napapijri-skidoo:napapijri-skidoo-jacket",
+      "napapijri-skidoo:napapijri-rainforest-winter",
+      "hunter:north-face-coat",
+      "hunter:north-face-puffer"
     ],
-    "vintedItems": 280,
-    "freshItems": 25,
+    "vintedItems": 275,
+    "freshItems": 68,
     "freshByAge": 0,
-    "freshByNewId": 25,
+    "freshByNewId": 68,
     "bootstrapBlocked": 0,
-    "staleBlocked": 8,
-    "candidates": 3,
+    "staleBlocked": 14,
+    "candidates": 7,
     "alerts": 2,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-11-17T22:45:07.367Z",
+      "platform": "VINTED",
+      "id": "10860336622",
+      "title": "womens blue the north face summit series windstopper jacket s",
+      "url": "https://www.vinted.co.uk/items/10860336622-womens-blue-the-north-face-summit-series-windstopper-jacket-s",
+      "modelId": "tnf-summit-down",
+      "buyPrice": 25,
+      "estimatedNetProfit": 47.58,
+      "roi": 190.32,
+      "score": 98
+    },
+    {
+      "at": "2026-11-17T22:44:59.992Z",
+      "platform": "VINTED",
+      "id": "10854958664",
+      "title": "nike puffer coat size large mens",
+      "url": "https://www.vinted.co.uk/items/10854958664-nike-puffer-coat-size-large-mens",
+      "modelId": "nike-puffer",
+      "buyPrice": 29.99,
+      "estimatedNetProfit": 31.69,
+      "roi": 105.67,
+      "score": 89
+    },
+    {
+      "at": "2026-11-17T22:42:06.519Z",
+      "platform": "VINTED",
+      "id": "10861084231",
+      "title": "ralph lauren girls down coat",
+      "url": "https://www.vinted.co.uk/items/10861084231-ralph-lauren-girls-down-coat",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 45,
+      "estimatedNetProfit": 31.07,
+      "roi": 69.04,
+      "score": 74
+    },
     {
       "at": "2026-11-17T14:46:36.241Z",
       "platform": "VINTED",
@@ -228,42 +264,6 @@
       "estimatedNetProfit": 45.47,
       "roi": 568.38,
       "score": 87
-    },
-    {
-      "at": "2026-11-14T21:02:04.883Z",
-      "platform": "VINTED",
-      "id": "10810675887",
-      "title": "ralph lauren puffer jacket vest",
-      "url": "https://www.vinted.co.uk/items/10810675887-ralph-lauren-puffer-jacket-vest",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 35,
-      "estimatedNetProfit": 45.92,
-      "roi": 131.2,
-      "score": 88
-    },
-    {
-      "at": "2026-11-14T21:02:04.191Z",
-      "platform": "VINTED",
-      "id": "10811171985",
-      "title": "grey polo ralph lauren coat",
-      "url": "https://www.vinted.co.uk/items/10811171985-grey-polo-ralph-lauren-coat",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 50,
-      "estimatedNetProfit": 30.24,
-      "roi": 60.48,
-      "score": 71
-    },
-    {
-      "at": "2026-11-14T16:51:04.114Z",
-      "platform": "VINTED",
-      "id": "10805725419",
-      "title": "womens nike puffer coat",
-      "url": "https://www.vinted.co.uk/items/10805725419-womens-nike-puffer-coat",
-      "modelId": "nike-puffer",
-      "buyPrice": 15,
-      "estimatedNetProfit": 38.08,
-      "roi": 253.87,
-      "score": 91
     }
   ]
 }
