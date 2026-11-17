@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-11-16T23:56:19.365Z",
+    "startedAt": "2026-11-17T05:22:33.780Z",
     "searchGroups": [
-      "napapijri-skidoo:napapijri-skidoo-jacket",
-      "napapijri-skidoo:napapijri-rainforest-winter",
-      "hunter:north-face-coat",
-      "hunter:north-face-puffer",
-      "hunter:north-face-700",
-      "hunter:mens-north-face-jacket",
-      "hunter:rab-puffer",
-      "hunter:rab-down-jacket"
+      "rab-electron:rab-electron-pro",
+      "patagonia-down-sweater:patagonia-down-sweater-jacket",
+      "patagonia-down-sweater:patagonia-down-sweater-hoody",
+      "patagonia-fitz-roy:patagonia-fitz-roy-down",
+      "arcteryx-cerium:arcteryx-cerium-jacket",
+      "arcteryx-cerium:arc-teryx-cerium",
+      "arcteryx-thorium:arcteryx-thorium-jacket",
+      "arcteryx-thorium:arc-teryx-thorium"
     ],
-    "vintedItems": 275,
-    "freshItems": 72,
+    "vintedItems": 149,
+    "freshItems": 0,
     "freshByAge": 0,
-    "freshByNewId": 72,
+    "freshByNewId": 0,
     "bootstrapBlocked": 0,
-    "staleBlocked": 20,
-    "candidates": 4,
+    "staleBlocked": 0,
+    "candidates": 0,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-11-17T05:16:40.904Z",
+      "platform": "VINTED",
+      "id": "10846137866",
+      "title": "xl boys nike puffer",
+      "url": "https://www.vinted.co.uk/items/10846137866-xl-boys-nike-puffer",
+      "modelId": "nike-puffer",
+      "buyPrice": 30,
+      "estimatedNetProfit": 28.15,
+      "roi": 93.83,
+      "score": 88
+    },
     {
       "at": "2026-11-16T23:53:26.610Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 50.5,
       "roi": 841.67,
       "score": 87
-    },
-    {
-      "at": "2026-11-14T10:49:15.257Z",
-      "platform": "VINTED",
-      "id": "10801668552",
-      "title": "grey nike puffer jacket",
-      "url": "https://www.vinted.co.uk/items/10801668552-grey-nike-puffer-jacket",
-      "modelId": "nike-puffer",
-      "buyPrice": 25,
-      "estimatedNetProfit": 32.15,
-      "roi": 128.6,
-      "score": 92
     }
   ]
 }
