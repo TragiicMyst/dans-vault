@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-17T23:59:03.164Z",
-  "stateUpdatedAt": "2026-11-17T23:59:03.164Z",
-  "lastAttemptAt": "2026-11-17T23:59:03.164Z",
-  "lastScanAt": "2026-11-17T23:59:03.164Z",
+  "generatedAt": "2026-11-18T00:03:32.989Z",
+  "stateUpdatedAt": "2026-11-18T00:03:32.989Z",
+  "lastAttemptAt": "2026-11-18T00:03:32.989Z",
+  "lastScanAt": "2026-11-18T00:03:32.989Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
@@ -18,18 +18,18 @@
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 1063,
-  "candidateItems": 219,
-  "freshItems": 189,
-  "qualifyingAlerts": 76,
+  "catalogItems": 1062,
+  "candidateItems": 224,
+  "freshItems": 182,
+  "qualifyingAlerts": 75,
   "qualifyingByCondition": {
-    "veryGood": 67,
+    "veryGood": 66,
     "newWithTags": 4,
     "newWithoutTags": 5
   },
-  "deliveredAlerts": 76,
+  "deliveredAlerts": 75,
   "deliveredByCondition": {
-    "veryGood": 67,
+    "veryGood": 66,
     "newWithTags": 4,
     "newWithoutTags": 5
   },
@@ -69,13 +69,13 @@
   "pendingDeliveries": 0,
   "detailFetches": 6,
   "rejects": {
-    "condition": 36,
-    "price": 57,
-    "recovery-no-fresh-signal": 27,
+    "condition": 30,
+    "price": 56,
+    "recovery-no-fresh-signal": 39,
     "keyword": 11,
     "size": 6,
     "weak-margin": 2,
-    "detail-budget-exhausted": 1
+    "detail-budget-exhausted": 2
   },
   "failures": {}
 }
