@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-11-20T10:30:18.924Z",
-  "stateUpdatedAt": "2026-11-20T10:30:18.924Z",
-  "lastAttemptAt": "2026-11-20T10:30:18.924Z",
-  "lastScanAt": "2026-11-20T10:30:18.924Z",
+  "generatedAt": "2026-11-20T10:35:55.635Z",
+  "stateUpdatedAt": "2026-11-20T10:35:55.635Z",
+  "lastAttemptAt": "2026-11-20T10:35:55.635Z",
+  "lastScanAt": "2026-11-20T10:35:55.635Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Tracksuit::nike tracksuit",
-    "Nike Vintage Clothing::vintage nike",
-    "Nike SB Clothing::nike sb clothing",
-    "Nike Vest::nike vest",
-    "Nike Air Max Hoodie::nike air max hoodie",
-    "Nike Zip Hoodie::nike zip hoodie"
+    "Nike Hoodie::nike hoodie",
+    "Nike Sweatshirt::nike sweatshirt",
+    "Nike Track Jacket::nike track jacket",
+    "Nike Joggers::nike joggers",
+    "Nike Trousers::nike trousers",
+    "Nike Sportswear Hoodie::nike sportswear hoodie"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 978,
-  "candidateItems": 304,
-  "freshItems": 253,
-  "qualifyingAlerts": 74,
+  "catalogItems": 1090,
+  "candidateItems": 246,
+  "freshItems": 181,
+  "qualifyingAlerts": 83,
   "qualifyingByCondition": {
-    "veryGood": 64,
-    "newWithTags": 3,
-    "newWithoutTags": 7
+    "veryGood": 74,
+    "newWithoutTags": 3,
+    "newWithTags": 6
   },
-  "deliveredAlerts": 74,
+  "deliveredAlerts": 83,
   "deliveredByCondition": {
-    "veryGood": 64,
-    "newWithTags": 3,
-    "newWithoutTags": 7
+    "veryGood": 74,
+    "newWithoutTags": 3,
+    "newWithTags": 6
   },
-  "duplicateSuppressed": 2,
+  "duplicateSuppressed": 7,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,13 +69,13 @@
   "pendingDeliveries": 0,
   "detailFetches": 6,
   "rejects": {
-    "recovery-no-fresh-signal": 49,
-    "condition": 58,
-    "size": 5,
-    "keyword": 13,
-    "price": 75,
-    "detail-budget-exhausted": 25,
-    "weak-margin": 3
+    "condition": 43,
+    "stale": 58,
+    "keyword": 9,
+    "price": 33,
+    "weak-margin": 4,
+    "size": 3,
+    "detail-budget-exhausted": 6
   },
   "failures": {}
 }
