@@ -1801436,12 +1801436,12 @@
       "lastSeenAt": "2026-11-17T17:42:11.594Z"
     },
     "10815331890": {
-      "blockedReason": "price",
+      "blockedReason": "recovery-no-fresh-signal",
       "title": "nike sb hoodie",
       "url": "https://www.vinted.co.uk/items/10815331890-nike-sb-hoodie",
-      "lastPrice": 30.72,
+      "lastPrice": 30.8,
       "firstSeenAt": "2026-11-17T17:42:11.594Z",
-      "lastSeenAt": "2026-11-17T17:42:11.594Z"
+      "lastSeenAt": "2026-11-20T02:36:19.367Z"
     },
     "10815281986": {
       "blockedReason": "condition",
@@ -1808380,12 +1808380,12 @@
       "lastSeenAt": "2026-11-18T16:30:34.333Z"
     },
     "10865264319": {
-      "blockedReason": "price",
+      "blockedReason": "recovery-no-fresh-signal",
       "title": "vintage 90s nike team nfl denver broncos mesh jersey top navy orange mens m",
       "url": "https://www.vinted.co.uk/items/10865264319-vintage-90s-nike-team-nfl-denver-broncos-mesh-jersey-top-navy-orange-mens-m",
       "lastPrice": 18,
       "firstSeenAt": "2026-11-18T16:30:34.333Z",
-      "lastSeenAt": "2026-11-18T16:30:34.333Z"
+      "lastSeenAt": "2026-11-20T02:36:19.367Z"
     },
     "10864995316": {
       "size": "XL",
@@ -1808428,7 +1808428,7 @@
       "url": "https://www.vinted.co.uk/items/10860184472-u-mens-grey-hoodie-large-nike",
       "lastPrice": 5,
       "firstSeenAt": "2026-11-18T16:30:36.809Z",
-      "lastSeenAt": "2026-11-18T16:30:36.809Z"
+      "lastSeenAt": "2026-11-20T02:36:19.367Z"
     },
     "10858341376": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -1808468,7 +1808468,7 @@
       "url": "https://www.vinted.co.uk/items/10853022410-classic-nike-sweater",
       "lastPrice": 5,
       "firstSeenAt": "2026-11-18T16:30:36.809Z",
-      "lastSeenAt": "2026-11-18T16:30:36.809Z"
+      "lastSeenAt": "2026-11-20T02:36:19.367Z"
     },
     "10850855948": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -1808554,9 +1808554,9 @@
       "blockedReason": "recovery-no-fresh-signal",
       "title": "purple nike sweatshirt",
       "url": "https://www.vinted.co.uk/items/10834796076-purple-nike-sweatshirt",
-      "lastPrice": 9.2,
+      "lastPrice": 9.24,
       "firstSeenAt": "2026-11-18T16:30:36.809Z",
-      "lastSeenAt": "2026-11-18T16:30:36.809Z"
+      "lastSeenAt": "2026-11-20T02:36:19.367Z"
     },
     "10833946189": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -1808570,9 +1808570,9 @@
       "blockedReason": "recovery-no-fresh-signal",
       "title": "kids nike milwaukee brewers hoodie size xl 1820 blue baseball pullover",
       "url": "https://www.vinted.co.uk/items/10831372110-kids-nike-milwaukee-brewers-hoodie-size-xl-1820-blue-baseball-pullover",
-      "lastPrice": 19.16,
+      "lastPrice": 19.25,
       "firstSeenAt": "2026-11-18T16:30:36.809Z",
-      "lastSeenAt": "2026-11-18T16:30:36.809Z"
+      "lastSeenAt": "2026-11-20T02:36:19.367Z"
     },
     "10830831164": {
       "blockedReason": "recovery-no-fresh-signal",
@@ -1818119,20 +1818119,20 @@
       "lastSeenAt": "2026-11-19T04:15:20.909Z"
     },
     "10840571824": {
-      "blockedReason": "stale-or-no-freshness-signal",
+      "blockedReason": "recovery-no-fresh-signal",
       "title": "nike air jordan brooklyn fleece loose fit hoodie black xl",
       "url": "https://www.vinted.co.uk/items/10840571824-nike-air-jordan-brooklyn-fleece-loose-fit-hoodie-black-xl",
       "lastPrice": 30.8,
       "firstSeenAt": "2026-11-19T04:15:20.909Z",
-      "lastSeenAt": "2026-11-19T04:15:20.909Z"
+      "lastSeenAt": "2026-11-20T02:36:55.995Z"
     },
     "10835753797": {
-      "blockedReason": "stale-or-no-freshness-signal",
+      "blockedReason": "recovery-no-fresh-signal",
       "title": "nike sb x tennis fleece shorts black size l",
       "url": "https://www.vinted.co.uk/items/10835753797-nike-sb-x-tennis-fleece-shorts-black-size-l",
       "lastPrice": 19.25,
       "firstSeenAt": "2026-11-19T04:15:20.909Z",
-      "lastSeenAt": "2026-11-19T04:15:20.909Z"
+      "lastSeenAt": "2026-11-20T02:36:55.995Z"
     },
     "10834661427": {
       "blockedReason": "stale-or-no-freshness-signal",
@@ -1827990,6 +1827990,3029 @@
       "lastPrice": 30.8,
       "firstSeenAt": "2026-11-19T21:51:57.157Z",
       "lastSeenAt": "2026-11-19T21:51:57.157Z"
+    },
+    "10888797483": {
+      "size": "M",
+      "condition": "newWithoutTags",
+      "resale": 20,
+      "netProfit": 15.2,
+      "roi": 380,
+      "buyScore": 95,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:36:19.366Z",
+      "discordMessageId": "1573165063123243012",
+      "title": "nike light blue grey sports shorts",
+      "url": "https://www.vinted.co.uk/items/10888797483-nike-light-blue-grey-sports-shorts",
+      "lastPrice": 4,
+      "firstSeenAt": "2026-11-20T02:36:19.366Z",
+      "lastSeenAt": "2026-11-20T02:36:19.366Z"
+    },
+    "10888735484": {
+      "blockedReason": "price",
+      "title": "brand new nike repel miler run jacket grey mens xl",
+      "url": "https://www.vinted.co.uk/items/10888735484-brand-new-nike-repel-miler-run-jacket-grey-mens-xl",
+      "lastPrice": 40,
+      "firstSeenAt": "2026-11-20T02:36:19.367Z",
+      "lastSeenAt": "2026-11-20T02:36:19.367Z"
+    },
+    "10886252111": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike hoodie red",
+      "url": "https://www.vinted.co.uk/items/10886252111-nike-hoodie-red",
+      "lastPrice": 6,
+      "firstSeenAt": "2026-11-20T02:36:19.367Z",
+      "lastSeenAt": "2026-11-20T02:36:19.367Z"
+    },
+    "10885497114": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike tracksuit size xl",
+      "url": "https://www.vinted.co.uk/items/10885497114-nike-tracksuit-size-xl",
+      "lastPrice": 30,
+      "firstSeenAt": "2026-11-20T02:36:19.367Z",
+      "lastSeenAt": "2026-11-20T02:36:19.367Z"
+    },
+    "10882826391": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike grey shirt",
+      "url": "https://www.vinted.co.uk/items/10882826391-nike-grey-shirt",
+      "lastPrice": 2,
+      "firstSeenAt": "2026-11-20T02:36:19.367Z",
+      "lastSeenAt": "2026-11-20T02:36:19.367Z"
+    },
+    "10881683565": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "girls nike coat",
+      "url": "https://www.vinted.co.uk/items/10881683565-girls-nike-coat",
+      "lastPrice": 10,
+      "firstSeenAt": "2026-11-20T02:36:19.367Z",
+      "lastSeenAt": "2026-11-20T02:36:19.367Z"
+    },
+    "10880947156": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike boys coat",
+      "url": "https://www.vinted.co.uk/items/10880947156-nike-boys-coat",
+      "lastPrice": 20,
+      "firstSeenAt": "2026-11-20T02:36:19.367Z",
+      "lastSeenAt": "2026-11-20T02:36:19.367Z"
+    },
+    "10880110091": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "boys nike dri fit tshirt 7 8",
+      "url": "https://www.vinted.co.uk/items/10880110091-boys-nike-dri-fit-tshirt-7-8",
+      "lastPrice": 2,
+      "firstSeenAt": "2026-11-20T02:36:19.367Z",
+      "lastSeenAt": "2026-11-20T02:36:19.367Z"
+    },
+    "10878372347": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike sunderland afc boys football shorts size xl boys",
+      "url": "https://www.vinted.co.uk/items/10878372347-nike-sunderland-afc-boys-football-shorts-size-xl-boys",
+      "lastPrice": 10,
+      "firstSeenAt": "2026-11-20T02:36:19.367Z",
+      "lastSeenAt": "2026-11-20T02:36:19.367Z"
+    },
+    "10875666907": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "pink men nike top",
+      "url": "https://www.vinted.co.uk/items/10875666907-pink-men-nike-top",
+      "lastPrice": 3,
+      "firstSeenAt": "2026-11-20T02:36:19.367Z",
+      "lastSeenAt": "2026-11-20T02:36:19.367Z"
+    },
+    "10873142162": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike trousers",
+      "url": "https://www.vinted.co.uk/items/10873142162-nike-trousers",
+      "lastPrice": 3,
+      "firstSeenAt": "2026-11-20T02:36:19.367Z",
+      "lastSeenAt": "2026-11-20T02:36:19.367Z"
+    },
+    "10867430854": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike psg paris saint germain 201718 dri fit training top blue xl",
+      "url": "https://www.vinted.co.uk/items/10867430854-nike-psg-paris-saint-germain-201718-dri-fit-training-top-blue-xl",
+      "lastPrice": 11,
+      "firstSeenAt": "2026-11-20T02:36:19.367Z",
+      "lastSeenAt": "2026-11-20T02:36:19.367Z"
+    },
+    "10867406506": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike pink vest top",
+      "url": "https://www.vinted.co.uk/items/10867406506-nike-pink-vest-top",
+      "lastPrice": 3,
+      "firstSeenAt": "2026-11-20T02:36:19.367Z",
+      "lastSeenAt": "2026-11-20T02:36:19.367Z"
+    },
+    "10866968798": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike running dri fit quarter zip",
+      "url": "https://www.vinted.co.uk/items/10866968798-nike-running-dri-fit-quarter-zip",
+      "lastPrice": 10,
+      "firstSeenAt": "2026-11-20T02:36:19.367Z",
+      "lastSeenAt": "2026-11-20T02:36:19.367Z"
+    },
+    "10864580765": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike track pants uk large",
+      "url": "https://www.vinted.co.uk/items/10864580765-nike-track-pants-uk-large",
+      "lastPrice": 8.5,
+      "firstSeenAt": "2026-11-20T02:36:19.367Z",
+      "lastSeenAt": "2026-11-20T02:36:19.367Z"
+    },
+    "10856689327": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "high top nike",
+      "url": "https://www.vinted.co.uk/items/10856689327-high-top-nike",
+      "lastPrice": 19.25,
+      "firstSeenAt": "2026-11-20T02:36:19.367Z",
+      "lastSeenAt": "2026-11-20T02:36:19.367Z"
+    },
+    "10853405916": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "tampa bay buccaneers hoodie nfl nike cotton pullover fleece adult small",
+      "url": "https://www.vinted.co.uk/items/10853405916-tampa-bay-buccaneers-hoodie-nfl-nike-cotton-pullover-fleece-adult-small",
+      "lastPrice": 11.55,
+      "firstSeenAt": "2026-11-20T02:36:19.367Z",
+      "lastSeenAt": "2026-11-20T02:36:19.367Z"
+    },
+    "10852657826": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike fcb mens hoodie size m new with tags",
+      "url": "https://www.vinted.co.uk/items/10852657826-nike-fcb-mens-hoodie-size-m-new-with-tags",
+      "lastPrice": 27,
+      "firstSeenAt": "2026-11-20T02:36:19.367Z",
+      "lastSeenAt": "2026-11-20T02:36:19.367Z"
+    },
+    "10852341946": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike womens medium white hoodie fleece",
+      "url": "https://www.vinted.co.uk/items/10852341946-nike-womens-medium-white-hoodie-fleece",
+      "lastPrice": 5,
+      "firstSeenAt": "2026-11-20T02:36:19.367Z",
+      "lastSeenAt": "2026-11-20T02:36:19.367Z"
+    },
+    "10851439820": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike sportswear club fleece mens football crew neck sweatshirt m33778d white size medium",
+      "url": "https://www.vinted.co.uk/items/10851439820-nike-sportswear-club-fleece-mens-football-crew-neck-sweatshirt-m33778d-white-size-medium",
+      "lastPrice": 37.74,
+      "firstSeenAt": "2026-11-20T02:36:19.367Z",
+      "lastSeenAt": "2026-11-20T02:36:19.367Z"
+    },
+    "10847737527": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike ohio state mens hockey jersey",
+      "url": "https://www.vinted.co.uk/items/10847737527-nike-ohio-state-mens-hockey-jersey",
+      "lastPrice": 38.51,
+      "firstSeenAt": "2026-11-20T02:36:19.367Z",
+      "lastSeenAt": "2026-11-20T02:36:19.367Z"
+    },
+    "10847521047": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "freddie freeman 5 atlanta braves white baseball jersey",
+      "url": "https://www.vinted.co.uk/items/10847521047-freddie-freeman-5-atlanta-braves-white-baseball-jersey",
+      "lastPrice": 30.8,
+      "firstSeenAt": "2026-11-20T02:36:19.367Z",
+      "lastSeenAt": "2026-11-20T02:36:19.367Z"
+    },
+    "10833668629": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike blue hoodie in size small",
+      "url": "https://www.vinted.co.uk/items/10833668629-nike-blue-hoodie-in-size-small",
+      "lastPrice": 11.55,
+      "firstSeenAt": "2026-11-20T02:36:19.367Z",
+      "lastSeenAt": "2026-11-20T02:36:19.367Z"
+    },
+    "10833352002": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "michigan state quarter zip",
+      "url": "https://www.vinted.co.uk/items/10833352002-michigan-state-quarter-zip",
+      "lastPrice": 15.4,
+      "firstSeenAt": "2026-11-20T02:36:19.367Z",
+      "lastSeenAt": "2026-11-20T02:36:19.367Z"
+    },
+    "10833145256": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike drifit training hoodie full zip youth xl 0080",
+      "url": "https://www.vinted.co.uk/items/10833145256-nike-drifit-training-hoodie-full-zip-youth-xl-0080",
+      "lastPrice": 11.55,
+      "firstSeenAt": "2026-11-20T02:36:19.367Z",
+      "lastSeenAt": "2026-11-20T02:36:19.367Z"
+    },
+    "10833092375": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "white nike shorts",
+      "url": "https://www.vinted.co.uk/items/10833092375-white-nike-shorts",
+      "lastPrice": 9.63,
+      "firstSeenAt": "2026-11-20T02:36:19.367Z",
+      "lastSeenAt": "2026-11-20T02:36:19.367Z"
+    },
+    "10832593011": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike joggers",
+      "url": "https://www.vinted.co.uk/items/10832593011-nike-joggers",
+      "lastPrice": 9.24,
+      "firstSeenAt": "2026-11-20T02:36:19.367Z",
+      "lastSeenAt": "2026-11-20T02:36:19.367Z"
+    },
+    "10826183300": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nfl team apparel foco mens new york jets pullover hoodie black size s",
+      "url": "https://www.vinted.co.uk/items/10826183300-nfl-team-apparel-foco-mens-new-york-jets-pullover-hoodie-black-size-s",
+      "lastPrice": 19.21,
+      "firstSeenAt": "2026-11-20T02:36:19.367Z",
+      "lastSeenAt": "2026-11-20T02:36:19.367Z"
+    },
+    "10815597332": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike women dri fit top",
+      "url": "https://www.vinted.co.uk/items/10815597332-nike-women-dri-fit-top",
+      "lastPrice": 11.55,
+      "firstSeenAt": "2026-11-20T02:36:19.367Z",
+      "lastSeenAt": "2026-11-20T02:36:19.367Z"
+    },
+    "10889274121": {
+      "blockedReason": "price",
+      "title": "nike trouser fleece jogging bottom size m",
+      "url": "https://www.vinted.co.uk/items/10889274121-nike-trouser-fleece-jogging-bottom-size-m",
+      "lastPrice": 29.99,
+      "firstSeenAt": "2026-11-20T02:36:24.335Z",
+      "lastSeenAt": "2026-11-20T02:36:24.335Z"
+    },
+    "10889202587": {
+      "blockedReason": "condition",
+      "title": "nike tech fleece royal blue",
+      "url": "https://www.vinted.co.uk/items/10889202587-nike-tech-fleece-royal-blue",
+      "lastPrice": 35,
+      "firstSeenAt": "2026-11-20T02:36:24.335Z",
+      "lastSeenAt": "2026-11-20T02:36:24.335Z"
+    },
+    "10889154253": {
+      "blockedReason": "price",
+      "title": "nike fleece joggers pants navy m",
+      "url": "https://www.vinted.co.uk/items/10889154253-nike-fleece-joggers-pants-navy-m",
+      "lastPrice": 27.99,
+      "firstSeenAt": "2026-11-20T02:36:24.335Z",
+      "lastSeenAt": "2026-11-20T02:36:24.335Z"
+    },
+    "10889116217": {
+      "blockedReason": "price",
+      "title": "nike fleece trouser navy m",
+      "url": "https://www.vinted.co.uk/items/10889116217-nike-fleece-trouser-navy-m",
+      "lastPrice": 26.99,
+      "firstSeenAt": "2026-11-20T02:36:24.335Z",
+      "lastSeenAt": "2026-11-20T02:36:24.335Z"
+    },
+    "10889093237": {
+      "size": "M",
+      "condition": "veryGood",
+      "resale": 32,
+      "netProfit": 23.2,
+      "roi": 290,
+      "buyScore": 97,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:36:26.087Z",
+      "discordMessageId": "1573165092319662133",
+      "title": "nike fleece top",
+      "url": "https://www.vinted.co.uk/items/10889093237-nike-fleece-top",
+      "lastPrice": 8,
+      "firstSeenAt": "2026-11-20T02:36:26.087Z",
+      "lastSeenAt": "2026-11-20T02:36:26.087Z"
+    },
+    "10888964636": {
+      "blockedReason": "price",
+      "title": "nike tech fleece all black tracksuit set size xl slim fit",
+      "url": "https://www.vinted.co.uk/items/10888964636-nike-tech-fleece-all-black-tracksuit-set-size-xl-slim-fit",
+      "lastPrice": 79,
+      "firstSeenAt": "2026-11-20T02:36:26.087Z",
+      "lastSeenAt": "2026-11-20T02:36:26.087Z"
+    },
+    "10888893112": {
+      "blockedReason": "price",
+      "title": "nike men sportswear nsw fleece pullover hoodie bv4601 498",
+      "url": "https://www.vinted.co.uk/items/10888893112-nike-men-sportswear-nsw-fleece-pullover-hoodie-bv4601-498",
+      "lastPrice": 59.95,
+      "firstSeenAt": "2026-11-20T02:36:26.087Z",
+      "lastSeenAt": "2026-11-20T02:36:26.087Z"
+    },
+    "10888825538": {
+      "blockedReason": "price",
+      "title": "nike tech fleece hoodie",
+      "url": "https://www.vinted.co.uk/items/10888825538-nike-tech-fleece-hoodie",
+      "lastPrice": 38,
+      "firstSeenAt": "2026-11-20T02:36:26.087Z",
+      "lastSeenAt": "2026-11-20T02:36:26.087Z"
+    },
+    "10888813846": {
+      "blockedReason": "condition",
+      "title": "nike fleece jacket large grey polyester",
+      "url": "https://www.vinted.co.uk/items/10888813846-nike-fleece-jacket-large-grey-polyester",
+      "lastPrice": 44.99,
+      "firstSeenAt": "2026-11-20T02:36:26.087Z",
+      "lastSeenAt": "2026-11-20T02:36:26.087Z"
+    },
+    "10888651915": {
+      "blockedReason": "price",
+      "title": "black tech fleece reflective",
+      "url": "https://www.vinted.co.uk/items/10888651915-black-tech-fleece-reflective",
+      "lastPrice": 50,
+      "firstSeenAt": "2026-11-20T02:36:26.087Z",
+      "lastSeenAt": "2026-11-20T02:36:26.087Z"
+    },
+    "10885718900": {
+      "blockedReason": "price",
+      "title": "mens homme nike fleece track bottoms colour charcoal size xlarge",
+      "url": "https://www.vinted.co.uk/items/10885718900-mens-homme-nike-fleece-track-bottoms-colour-charcoal-size-xlarge",
+      "lastPrice": 34.99,
+      "firstSeenAt": "2026-11-20T02:36:26.087Z",
+      "lastSeenAt": "2026-11-20T02:36:26.087Z"
+    },
+    "10879899908": {
+      "blockedReason": "price",
+      "title": "nike fleece jumpersweatshirt small",
+      "url": "https://www.vinted.co.uk/items/10879899908-nike-fleece-jumpersweatshirt-small",
+      "lastPrice": 22,
+      "firstSeenAt": "2026-11-20T02:36:26.087Z",
+      "lastSeenAt": "2026-11-20T02:36:26.087Z"
+    },
+    "10858736399": {
+      "size": "L",
+      "condition": "veryGood",
+      "resale": 34,
+      "netProfit": 17.8,
+      "roi": 115.58,
+      "buyScore": 77,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:36:28.866Z",
+      "discordMessageId": "1573165103883358272",
+      "title": "nike club fleece jogger sweatpants brown large",
+      "url": "https://www.vinted.co.uk/items/10858736399-nike-club-fleece-jogger-sweatpants-brown-large",
+      "lastPrice": 15.4,
+      "firstSeenAt": "2026-11-20T02:36:28.866Z",
+      "lastSeenAt": "2026-11-20T02:36:28.866Z"
+    },
+    "10858647768": {
+      "blockedReason": "condition",
+      "title": "nike hoodie sweatshirt mens m red the ville jason pullover fleece",
+      "url": "https://www.vinted.co.uk/items/10858647768-nike-hoodie-sweatshirt-mens-m-red-the-ville-jason-pullover-fleece",
+      "lastPrice": 15.4,
+      "firstSeenAt": "2026-11-20T02:36:28.866Z",
+      "lastSeenAt": "2026-11-20T02:36:28.866Z"
+    },
+    "10858603212": {
+      "blockedReason": "price",
+      "title": "nike women tech fleece cropped hoodie olive green full zip m y2k m us 8 10",
+      "url": "https://www.vinted.co.uk/items/10858603212-nike-women-tech-fleece-cropped-hoodie-olive-green-full-zip-m-y2k-m-us-8-10",
+      "lastPrice": 23.1,
+      "firstSeenAt": "2026-11-20T02:36:28.866Z",
+      "lastSeenAt": "2026-11-20T02:36:28.866Z"
+    },
+    "10858517791": {
+      "blockedReason": "keyword",
+      "title": "kids nike fleece grey size 5",
+      "url": "https://www.vinted.co.uk/items/10858517791-kids-nike-fleece-grey-size-5",
+      "lastPrice": 11.55,
+      "firstSeenAt": "2026-11-20T02:36:28.866Z",
+      "lastSeenAt": "2026-11-20T02:36:28.866Z"
+    },
+    "10858319175": {
+      "size": "L",
+      "condition": "veryGood",
+      "resale": 34,
+      "netProfit": 23.96,
+      "roi": 259.31,
+      "buyScore": 96,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:36:31.833Z",
+      "discordMessageId": "1573165116340441180",
+      "title": "nike club fleece crewneck sweatshirt mens large tall",
+      "url": "https://www.vinted.co.uk/items/10858319175-nike-club-fleece-crewneck-sweatshirt-mens-large-tall",
+      "lastPrice": 9.24,
+      "firstSeenAt": "2026-11-20T02:36:31.834Z",
+      "lastSeenAt": "2026-11-20T02:36:31.834Z"
+    },
+    "10858302704": {
+      "size": "L",
+      "condition": "veryGood",
+      "resale": 34,
+      "netProfit": 21.65,
+      "roi": 187.45,
+      "buyScore": 93,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:36:34.602Z",
+      "discordMessageId": "1573165128029970433",
+      "title": "nike fleece training cropped sweatshirt size large",
+      "url": "https://www.vinted.co.uk/items/10858302704-nike-fleece-training-cropped-sweatshirt-size-large",
+      "lastPrice": 11.55,
+      "firstSeenAt": "2026-11-20T02:36:34.602Z",
+      "lastSeenAt": "2026-11-20T02:36:34.602Z"
+    },
+    "10858199645": {
+      "size": "XXL",
+      "condition": "veryGood",
+      "resale": 35,
+      "netProfit": 15.72,
+      "roi": 85.06,
+      "buyScore": 70,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:36:37.268Z",
+      "discordMessageId": "1573165139035693138",
+      "title": "nike womens sportswear club fleece hoodie funnel neck 2xl",
+      "url": "https://www.vinted.co.uk/items/10858199645-nike-womens-sportswear-club-fleece-hoodie-funnel-neck-2xl",
+      "lastPrice": 18.48,
+      "firstSeenAt": "2026-11-20T02:36:37.268Z",
+      "lastSeenAt": "2026-11-20T02:36:37.268Z"
+    },
+    "10858177735": {
+      "blockedReason": "price",
+      "title": "your air jordan fleece crewneck",
+      "url": "https://www.vinted.co.uk/items/10858177735-your-air-jordan-fleece-crewneck",
+      "lastPrice": 21.18,
+      "firstSeenAt": "2026-11-20T02:36:37.268Z",
+      "lastSeenAt": "2026-11-20T02:36:37.268Z"
+    },
+    "10858098478": {
+      "size": "L",
+      "condition": "veryGood",
+      "resale": 34,
+      "netProfit": 13.95,
+      "roi": 72.47,
+      "buyScore": 64,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:36:39.944Z",
+      "discordMessageId": "1573165150427684955",
+      "title": "womens white nike fleece hoodie",
+      "url": "https://www.vinted.co.uk/items/10858098478-womens-white-nike-fleece-hoodie",
+      "lastPrice": 19.25,
+      "firstSeenAt": "2026-11-20T02:36:39.944Z",
+      "lastSeenAt": "2026-11-20T02:36:39.944Z"
+    },
+    "10857910113": {
+      "blockedReason": "keyword",
+      "title": "vintage nike reversible colorblock windbreaker fleece jacket 1012 kids",
+      "url": "https://www.vinted.co.uk/items/10857910113-vintage-nike-reversible-colorblock-windbreaker-fleece-jacket-1012-kids",
+      "lastPrice": 19.25,
+      "firstSeenAt": "2026-11-20T02:36:39.944Z",
+      "lastSeenAt": "2026-11-20T02:38:26.730Z"
+    },
+    "10857845500": {
+      "blockedReason": "price",
+      "title": "nike solo swoosh fleece pullover hoodie mens small tough red nwt",
+      "url": "https://www.vinted.co.uk/items/10857845500-nike-solo-swoosh-fleece-pullover-hoodie-mens-small-tough-red-nwt",
+      "lastPrice": 20.79,
+      "firstSeenAt": "2026-11-20T02:36:39.944Z",
+      "lastSeenAt": "2026-11-20T02:36:39.944Z"
+    },
+    "10857818596": {
+      "blockedReason": "condition",
+      "title": "nike fleece pullover and sweat pants",
+      "url": "https://www.vinted.co.uk/items/10857818596-nike-fleece-pullover-and-sweat-pants",
+      "lastPrice": 8.47,
+      "firstSeenAt": "2026-11-20T02:36:39.944Z",
+      "lastSeenAt": "2026-11-20T02:36:39.944Z"
+    },
+    "10857719693": {
+      "size": "L",
+      "condition": "veryGood",
+      "resale": 34,
+      "netProfit": 13.95,
+      "roi": 72.47,
+      "buyScore": 64,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:36:42.762Z",
+      "discordMessageId": "1573165162171469825",
+      "title": "nike black fleece jogger sweatpants embroidered swoosh large",
+      "url": "https://www.vinted.co.uk/items/10857719693-nike-black-fleece-jogger-sweatpants-embroidered-swoosh-large",
+      "lastPrice": 19.25,
+      "firstSeenAt": "2026-11-20T02:36:42.762Z",
+      "lastSeenAt": "2026-11-20T02:36:42.762Z"
+    },
+    "10857708113": {
+      "blockedReason": "price",
+      "title": "nike air london garment dyed blue embroidered fleece crewneck sweatshirt hq1099 492",
+      "url": "https://www.vinted.co.uk/items/10857708113-nike-air-london-garment-dyed-blue-embroidered-fleece-crewneck-sweatshirt-hq1099-492",
+      "lastPrice": 41.59,
+      "firstSeenAt": "2026-11-20T02:36:42.762Z",
+      "lastSeenAt": "2026-11-20T02:36:42.762Z"
+    },
+    "10857695431": {
+      "blockedReason": "keyword",
+      "title": "nike baby boy puffer snowsuit bunting size 3m blue navy red fleece lined hooded",
+      "url": "https://www.vinted.co.uk/items/10857695431-nike-baby-boy-puffer-snowsuit-bunting-size-3m-blue-navy-red-fleece-lined-hooded",
+      "lastPrice": 9.24,
+      "firstSeenAt": "2026-11-20T02:36:42.762Z",
+      "lastSeenAt": "2026-11-20T02:36:42.762Z"
+    },
+    "10857544265": {
+      "blockedReason": "keyword",
+      "title": "nike fleece toddler jacket in 24m",
+      "url": "https://www.vinted.co.uk/items/10857544265-nike-fleece-toddler-jacket-in-24m",
+      "lastPrice": 9.24,
+      "firstSeenAt": "2026-11-20T02:36:42.762Z",
+      "lastSeenAt": "2026-11-20T02:36:42.762Z"
+    },
+    "10857541896": {
+      "blockedReason": "condition",
+      "title": "nike womens 2xs black solid fleece pullover hoodie logo hooded pockets",
+      "url": "https://www.vinted.co.uk/items/10857541896-nike-womens-2xs-black-solid-fleece-pullover-hoodie-logo-hooded-pockets",
+      "lastPrice": 9.24,
+      "firstSeenAt": "2026-11-20T02:36:42.762Z",
+      "lastSeenAt": "2026-11-20T02:36:42.762Z"
+    },
+    "10857508088": {
+      "blockedReason": "price",
+      "title": "nike therma fit navy blue pullover hoodie fleece graphic logo pockets mens m",
+      "url": "https://www.vinted.co.uk/items/10857508088-nike-therma-fit-navy-blue-pullover-hoodie-fleece-graphic-logo-pockets-mens-m",
+      "lastPrice": 26.18,
+      "firstSeenAt": "2026-11-20T02:36:42.762Z",
+      "lastSeenAt": "2026-11-20T02:36:42.762Z"
+    },
+    "10857487586": {
+      "blockedReason": "price",
+      "title": "nike sportswear cropped half zip fleece pullover blue navy orange 938963 010 xs",
+      "url": "https://www.vinted.co.uk/items/10857487586-nike-sportswear-cropped-half-zip-fleece-pullover-blue-navy-orange-938963-010-xs",
+      "lastPrice": 23.1,
+      "firstSeenAt": "2026-11-20T02:36:42.762Z",
+      "lastSeenAt": "2026-11-20T02:36:42.762Z"
+    },
+    "10857312632": {
+      "blockedReason": "size",
+      "title": "girls pink nike fleece set",
+      "url": "https://www.vinted.co.uk/items/10857312632-girls-pink-nike-fleece-set",
+      "lastPrice": 19.25,
+      "firstSeenAt": "2026-11-20T02:36:44.491Z",
+      "lastSeenAt": "2026-11-20T02:36:44.491Z"
+    },
+    "10857122032": {
+      "size": "M",
+      "condition": "veryGood",
+      "resale": 32,
+      "netProfit": 21.96,
+      "roi": 237.66,
+      "buyScore": 95,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:36:47.371Z",
+      "discordMessageId": "1573165181608001617",
+      "title": "boys navy nike club fleece pullover hoodie",
+      "url": "https://www.vinted.co.uk/items/10857122032-boys-navy-nike-club-fleece-pullover-hoodie",
+      "lastPrice": 9.24,
+      "firstSeenAt": "2026-11-20T02:36:47.371Z",
+      "lastSeenAt": "2026-11-20T02:36:47.371Z"
+    },
+    "10857094495": {
+      "size": "M",
+      "condition": "veryGood",
+      "resale": 32,
+      "netProfit": 17.34,
+      "roi": 125.11,
+      "buyScore": 78,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:36:49.709Z",
+      "discordMessageId": "1573165190953042001",
+      "title": "nike reversible jacket fleece full zip athletic blue black athletic size medium",
+      "url": "https://www.vinted.co.uk/items/10857094495-nike-reversible-jacket-fleece-full-zip-athletic-blue-black-athletic-size-medium",
+      "lastPrice": 13.86,
+      "firstSeenAt": "2026-11-20T02:36:49.709Z",
+      "lastSeenAt": "2026-11-20T02:36:49.709Z"
+    },
+    "10857028599": {
+      "blockedReason": "price",
+      "title": "nike sportswear tech fleece joggers mens size small marine blue black cu4495 491",
+      "url": "https://www.vinted.co.uk/items/10857028599-nike-sportswear-tech-fleece-joggers-mens-size-small-marine-blue-black-cu4495-491",
+      "lastPrice": 30.8,
+      "firstSeenAt": "2026-11-20T02:36:49.709Z",
+      "lastSeenAt": "2026-11-20T02:36:49.709Z"
+    },
+    "10856943388": {
+      "blockedReason": "price",
+      "title": "nike sportswear tech fleece joggers black mens size small hv0959 010",
+      "url": "https://www.vinted.co.uk/items/10856943388-nike-sportswear-tech-fleece-joggers-black-mens-size-small-hv0959-010",
+      "lastPrice": 30.8,
+      "firstSeenAt": "2026-11-20T02:36:49.709Z",
+      "lastSeenAt": "2026-11-20T02:36:49.709Z"
+    },
+    "10856847699": {
+      "blockedReason": "price",
+      "title": "mens greycementblack nike tech fleece zip up jacket size s",
+      "url": "https://www.vinted.co.uk/items/10856847699-mens-greycementblack-nike-tech-fleece-zip-up-jacket-size-s",
+      "lastPrice": 34.65,
+      "firstSeenAt": "2026-11-20T02:36:49.709Z",
+      "lastSeenAt": "2026-11-20T02:36:49.709Z"
+    },
+    "10856605912": {
+      "size": "L",
+      "condition": "veryGood",
+      "resale": 34,
+      "netProfit": 23.96,
+      "roi": 259.31,
+      "buyScore": 96,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:36:51.809Z",
+      "discordMessageId": "1573165200234778757",
+      "title": "womens nike fleece lined jacket",
+      "url": "https://www.vinted.co.uk/items/10856605912-womens-nike-fleece-lined-jacket",
+      "lastPrice": 9.24,
+      "firstSeenAt": "2026-11-20T02:36:51.809Z",
+      "lastSeenAt": "2026-11-20T02:36:51.809Z"
+    },
+    "10856538191": {
+      "size": "S",
+      "condition": "veryGood",
+      "resale": 31,
+      "netProfit": 14.8,
+      "roi": 96.1,
+      "buyScore": 73,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:36:54.387Z",
+      "discordMessageId": "1573165210531921981",
+      "title": "nike sportswear club fleece 12 zip pullover sweatshirt heather grey",
+      "url": "https://www.vinted.co.uk/items/10856538191-nike-sportswear-club-fleece-12-zip-pullover-sweatshirt-heather-grey",
+      "lastPrice": 15.4,
+      "firstSeenAt": "2026-11-20T02:36:54.387Z",
+      "lastSeenAt": "2026-11-20T02:36:54.387Z"
+    },
+    "10856473809": {
+      "blockedReason": "size",
+      "title": "2t nike soft fleece",
+      "url": "https://www.vinted.co.uk/items/10856473809-2t-nike-soft-fleece",
+      "lastPrice": 11.55,
+      "firstSeenAt": "2026-11-20T02:36:55.991Z",
+      "lastSeenAt": "2026-11-20T02:36:55.991Z"
+    },
+    "10856446195": {
+      "blockedReason": "condition",
+      "title": "nike womens tech fleece full zip jacket gray black asymmetrical zipper",
+      "url": "https://www.vinted.co.uk/items/10856446195-nike-womens-tech-fleece-full-zip-jacket-gray-black-asymmetrical-zipper",
+      "lastPrice": 15.4,
+      "firstSeenAt": "2026-11-20T02:36:55.991Z",
+      "lastSeenAt": "2026-11-20T02:36:55.991Z"
+    },
+    "10856362483": {
+      "blockedReason": "condition",
+      "title": "nike tech fleece joggers size xxl gray sweatpants cu4495 063",
+      "url": "https://www.vinted.co.uk/items/10856362483-nike-tech-fleece-joggers-size-xxl-gray-sweatpants-cu4495-063",
+      "lastPrice": 29.26,
+      "firstSeenAt": "2026-11-20T02:36:55.992Z",
+      "lastSeenAt": "2026-11-20T02:36:55.992Z"
+    },
+    "10856352702": {
+      "blockedReason": "price",
+      "title": "nike womens sweatshirt hoodie fleece red size medium",
+      "url": "https://www.vinted.co.uk/items/10856352702-nike-womens-sweatshirt-hoodie-fleece-red-size-medium",
+      "lastPrice": 26.95,
+      "firstSeenAt": "2026-11-20T02:36:55.992Z",
+      "lastSeenAt": "2026-11-20T02:36:55.992Z"
+    },
+    "10856325598": {
+      "blockedReason": "price",
+      "title": "nwt vtg 90s nike fleece lined full zip coat xl obsidian navy windbreaker",
+      "url": "https://www.vinted.co.uk/items/10856325598-nwt-vtg-90s-nike-fleece-lined-full-zip-coat-xl-obsidian-navy-windbreaker",
+      "lastPrice": 84.71,
+      "firstSeenAt": "2026-11-20T02:36:55.992Z",
+      "lastSeenAt": "2026-11-20T02:36:55.992Z"
+    },
+    "10773902658": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike solo swoosh fleece crewneck sweatshirt in teal sz xxl",
+      "url": "https://www.vinted.co.uk/items/10773902658-nike-solo-swoosh-fleece-crewneck-sweatshirt-in-teal-sz-xxl",
+      "lastPrice": 30.8,
+      "firstSeenAt": "2026-11-20T02:36:55.995Z",
+      "lastSeenAt": "2026-11-20T02:36:55.995Z"
+    },
+    "10889005824": {
+      "blockedReason": "condition",
+      "title": "nike body warmer",
+      "url": "https://www.vinted.co.uk/items/10889005824-nike-body-warmer",
+      "lastPrice": 5.5,
+      "firstSeenAt": "2026-11-20T02:37:01.627Z",
+      "lastSeenAt": "2026-11-20T02:37:01.627Z"
+    },
+    "10888987957": {
+      "size": "XL",
+      "condition": "veryGood",
+      "resale": 42,
+      "netProfit": 25.2,
+      "roi": 157.5,
+      "buyScore": 86,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:37:04.187Z",
+      "discordMessageId": "1573165251778711664",
+      "title": "nike 1972 sportwear vintage gilet",
+      "url": "https://www.vinted.co.uk/items/10888987957-nike-1972-sportwear-vintage-gilet",
+      "lastPrice": 16,
+      "firstSeenAt": "2026-11-20T02:37:04.187Z",
+      "lastSeenAt": "2026-11-20T02:37:04.187Z"
+    },
+    "10888522518": {
+      "blockedReason": "price",
+      "title": "nike thermal fit gilet",
+      "url": "https://www.vinted.co.uk/items/10888522518-nike-thermal-fit-gilet",
+      "lastPrice": 29.99,
+      "firstSeenAt": "2026-11-20T02:37:04.187Z",
+      "lastSeenAt": "2026-11-20T02:37:04.187Z"
+    },
+    "10888399173": {
+      "blockedReason": "price",
+      "title": "nike mens khaki green quilted gilet bodywarmer size m",
+      "url": "https://www.vinted.co.uk/items/10888399173-nike-mens-khaki-green-quilted-gilet-bodywarmer-size-m",
+      "lastPrice": 28,
+      "firstSeenAt": "2026-11-20T02:37:04.187Z",
+      "lastSeenAt": "2026-11-20T02:37:04.187Z"
+    },
+    "10888198092": {
+      "size": "XL",
+      "condition": "veryGood",
+      "resale": 42,
+      "netProfit": 26.2,
+      "roi": 174.67,
+      "buyScore": 89,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:37:06.211Z",
+      "discordMessageId": "1573165260448337923",
+      "title": "nike puffer gilet size xl",
+      "url": "https://www.vinted.co.uk/items/10888198092-nike-puffer-gilet-size-xl",
+      "lastPrice": 15,
+      "firstSeenAt": "2026-11-20T02:37:06.211Z",
+      "lastSeenAt": "2026-11-20T02:37:06.211Z"
+    },
+    "10888031738": {
+      "blockedReason": "price",
+      "title": "nike large gilet pre owned condition vintage retro large gilet",
+      "url": "https://www.vinted.co.uk/items/10888031738-nike-large-gilet-pre-owned-condition-vintage-retro-large-gilet",
+      "lastPrice": 44.99,
+      "firstSeenAt": "2026-11-20T02:37:06.211Z",
+      "lastSeenAt": "2026-11-20T02:37:06.211Z"
+    },
+    "10887882918": {
+      "blockedReason": "score",
+      "size": "S",
+      "condition": "veryGood",
+      "resale": 37,
+      "netProfit": 11.2,
+      "roi": 44.8,
+      "buyScore": 54,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "title": "nike reversible gilet",
+      "url": "https://www.vinted.co.uk/items/10887882918-nike-reversible-gilet",
+      "lastPrice": 25,
+      "firstSeenAt": "2026-11-20T02:37:06.211Z",
+      "lastSeenAt": "2026-11-20T02:37:06.211Z"
+    },
+    "10887854252": {
+      "blockedReason": "price",
+      "title": "ladies nike gilet size s",
+      "url": "https://www.vinted.co.uk/items/10887854252-ladies-nike-gilet-size-s",
+      "lastPrice": 35,
+      "firstSeenAt": "2026-11-20T02:37:06.211Z",
+      "lastSeenAt": "2026-11-20T02:37:06.211Z"
+    },
+    "10887493625": {
+      "blockedReason": "price",
+      "title": "nike running therma fit gilet",
+      "url": "https://www.vinted.co.uk/items/10887493625-nike-running-therma-fit-gilet",
+      "lastPrice": 50,
+      "firstSeenAt": "2026-11-20T02:37:06.211Z",
+      "lastSeenAt": "2026-11-20T02:37:06.211Z"
+    },
+    "10887191131": {
+      "blockedReason": "keyword",
+      "title": "kids nike gilet",
+      "url": "https://www.vinted.co.uk/items/10887191131-kids-nike-gilet",
+      "lastPrice": 9,
+      "firstSeenAt": "2026-11-20T02:37:06.211Z",
+      "lastSeenAt": "2026-11-20T02:37:06.211Z"
+    },
+    "10887130338": {
+      "blockedReason": "condition",
+      "title": "boys nike bodywarmer size large navy",
+      "url": "https://www.vinted.co.uk/items/10887130338-boys-nike-bodywarmer-size-large-navy",
+      "lastPrice": 4,
+      "firstSeenAt": "2026-11-20T02:37:06.211Z",
+      "lastSeenAt": "2026-11-20T02:37:06.211Z"
+    },
+    "10887123895": {
+      "blockedReason": "condition",
+      "title": "nike running padded vest gilet olive green m sports outdoor gorpcore 82",
+      "url": "https://www.vinted.co.uk/items/10887123895-nike-running-padded-vest-gilet-olive-green-m-sports-outdoor-gorpcore-82",
+      "lastPrice": 25,
+      "firstSeenAt": "2026-11-20T02:37:06.211Z",
+      "lastSeenAt": "2026-11-20T02:37:06.211Z"
+    },
+    "10887089817": {
+      "blockedReason": "condition",
+      "title": "boys nike bodywarmer navy xl",
+      "url": "https://www.vinted.co.uk/items/10887089817-boys-nike-bodywarmer-navy-xl",
+      "lastPrice": 5,
+      "firstSeenAt": "2026-11-20T02:37:06.211Z",
+      "lastSeenAt": "2026-11-20T02:37:06.211Z"
+    },
+    "10886891113": {
+      "blockedReason": "price",
+      "title": "nike grey white reversible gilet womens large vintage y2k puffer bodywarmer",
+      "url": "https://www.vinted.co.uk/items/10886891113-nike-grey-white-reversible-gilet-womens-large-vintage-y2k-puffer-bodywarmer",
+      "lastPrice": 40,
+      "firstSeenAt": "2026-11-20T02:37:06.211Z",
+      "lastSeenAt": "2026-11-20T02:37:06.211Z"
+    },
+    "10886631356": {
+      "blockedReason": "price",
+      "title": "green nike therma fit giletbodywarme",
+      "url": "https://www.vinted.co.uk/items/10886631356-green-nike-therma-fit-giletbodywarme",
+      "lastPrice": 35,
+      "firstSeenAt": "2026-11-20T02:37:06.211Z",
+      "lastSeenAt": "2026-11-20T02:37:06.211Z"
+    },
+    "10886561087": {
+      "blockedReason": "price",
+      "title": "vintage y2k nike acg technical white yellow grey 2 in 1 puffer jacket gilet size s",
+      "url": "https://www.vinted.co.uk/items/10886561087-vintage-y2k-nike-acg-technical-white-yellow-grey-2-in-1-puffer-jacket-gilet-size-s",
+      "lastPrice": 35,
+      "firstSeenAt": "2026-11-20T02:37:06.211Z",
+      "lastSeenAt": "2026-11-20T02:37:06.211Z"
+    },
+    "10886556234": {
+      "size": "M",
+      "condition": "veryGood",
+      "resale": 38,
+      "netProfit": 27.2,
+      "roi": 272,
+      "buyScore": 94,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:37:09.184Z",
+      "discordMessageId": "1573165272985108481",
+      "title": "nike acg womens padded quilted gilet size 14 red",
+      "url": "https://www.vinted.co.uk/items/10886556234-nike-acg-womens-padded-quilted-gilet-size-14-red",
+      "lastPrice": 10,
+      "firstSeenAt": "2026-11-20T02:37:09.184Z",
+      "lastSeenAt": "2026-11-20T02:37:09.184Z"
+    },
+    "10886501527": {
+      "size": "S",
+      "condition": "veryGood",
+      "resale": 37,
+      "netProfit": 23.2,
+      "roi": 178.46,
+      "buyScore": 89,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:37:11.703Z",
+      "discordMessageId": "1573165283231793249",
+      "title": "boys nike gilet size s",
+      "url": "https://www.vinted.co.uk/items/10886501527-boys-nike-gilet-size-s",
+      "lastPrice": 13,
+      "firstSeenAt": "2026-11-20T02:37:11.703Z",
+      "lastSeenAt": "2026-11-20T02:37:11.703Z"
+    },
+    "10886156321": {
+      "blockedReason": "price",
+      "title": "nike dri fit adv aeroloft insulated vest body warmer jacket gilet",
+      "url": "https://www.vinted.co.uk/items/10886156321-nike-dri-fit-adv-aeroloft-insulated-vest-body-warmer-jacket-gilet",
+      "lastPrice": 85,
+      "firstSeenAt": "2026-11-20T02:37:11.704Z",
+      "lastSeenAt": "2026-11-20T02:37:11.704Z"
+    },
+    "10886094668": {
+      "size": "L",
+      "condition": "veryGood",
+      "resale": 40,
+      "netProfit": 30.2,
+      "roi": 335.56,
+      "buyScore": 100,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:37:13.626Z",
+      "discordMessageId": "1573165291687383241",
+      "title": "nike body warmer",
+      "url": "https://www.vinted.co.uk/items/10886094668-nike-body-warmer",
+      "lastPrice": 9,
+      "firstSeenAt": "2026-11-20T02:37:13.626Z",
+      "lastSeenAt": "2026-11-20T02:37:13.626Z"
+    },
+    "10886049633": {
+      "blockedReason": "price",
+      "title": "nike dri fit adv aeroloft insulated vest body warmer jacket gilet",
+      "url": "https://www.vinted.co.uk/items/10886049633-nike-dri-fit-adv-aeroloft-insulated-vest-body-warmer-jacket-gilet",
+      "lastPrice": 85,
+      "firstSeenAt": "2026-11-20T02:37:13.627Z",
+      "lastSeenAt": "2026-11-20T02:37:13.627Z"
+    },
+    "10885962890": {
+      "blockedReason": "price",
+      "title": "large mens grey nike running aerolayer gilet bnwt",
+      "url": "https://www.vinted.co.uk/items/10885962890-large-mens-grey-nike-running-aerolayer-gilet-bnwt",
+      "lastPrice": 48,
+      "firstSeenAt": "2026-11-20T02:37:13.627Z",
+      "lastSeenAt": "2026-11-20T02:37:13.627Z"
+    },
+    "10885837419": {
+      "blockedReason": "price",
+      "title": "medium mens navythunder blue nike running therma fit reflective gilet",
+      "url": "https://www.vinted.co.uk/items/10885837419-medium-mens-navythunder-blue-nike-running-therma-fit-reflective-gilet",
+      "lastPrice": 38,
+      "firstSeenAt": "2026-11-20T02:37:13.627Z",
+      "lastSeenAt": "2026-11-20T02:37:13.627Z"
+    },
+    "10885810603": {
+      "blockedReason": "price",
+      "title": "medium mens grey nike running aerolayer reflective gilet",
+      "url": "https://www.vinted.co.uk/items/10885810603-medium-mens-grey-nike-running-aerolayer-reflective-gilet",
+      "lastPrice": 38,
+      "firstSeenAt": "2026-11-20T02:37:13.627Z",
+      "lastSeenAt": "2026-11-20T02:37:13.627Z"
+    },
+    "10885759800": {
+      "blockedReason": "score",
+      "size": "S",
+      "condition": "veryGood",
+      "resale": 37,
+      "netProfit": 11.2,
+      "roi": 44.8,
+      "buyScore": 54,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "title": "nike aerolayer womens running gilet jacket black full zip small bv3869 010l",
+      "url": "https://www.vinted.co.uk/items/10885759800-nike-aerolayer-womens-running-gilet-jacket-black-full-zip-small-bv3869-010l",
+      "lastPrice": 25,
+      "firstSeenAt": "2026-11-20T02:37:13.627Z",
+      "lastSeenAt": "2026-11-20T02:37:13.627Z"
+    },
+    "10885682645": {
+      "size": "L",
+      "condition": "veryGood",
+      "resale": 40,
+      "netProfit": 30.2,
+      "roi": 335.56,
+      "buyScore": 100,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:37:16.727Z",
+      "discordMessageId": "1573165304627069000",
+      "title": "nike gilete men large",
+      "url": "https://www.vinted.co.uk/items/10885682645-nike-gilete-men-large",
+      "lastPrice": 9,
+      "firstSeenAt": "2026-11-20T02:37:16.727Z",
+      "lastSeenAt": "2026-11-20T02:37:16.727Z"
+    },
+    "10885565374": {
+      "size": "XL",
+      "condition": "veryGood",
+      "resale": 42,
+      "netProfit": 21.2,
+      "roi": 106,
+      "buyScore": 77,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:37:18.735Z",
+      "discordMessageId": "1573165312935989333",
+      "title": "nike puffer gilet black xl",
+      "url": "https://www.vinted.co.uk/items/10885565374-nike-puffer-gilet-black-xl",
+      "lastPrice": 20,
+      "firstSeenAt": "2026-11-20T02:37:18.735Z",
+      "lastSeenAt": "2026-11-20T02:37:18.735Z"
+    },
+    "10885486383": {
+      "blockedReason": "price",
+      "title": "nike acg vintage 2005 thermal layer 2 jacketgilet deadstock",
+      "url": "https://www.vinted.co.uk/items/10885486383-nike-acg-vintage-2005-thermal-layer-2-jacketgilet-deadstock",
+      "lastPrice": 95,
+      "firstSeenAt": "2026-11-20T02:37:18.735Z",
+      "lastSeenAt": "2026-11-20T02:37:18.735Z"
+    },
+    "10885364607": {
+      "blockedReason": "price",
+      "title": "nike therma fit running gilet medium",
+      "url": "https://www.vinted.co.uk/items/10885364607-nike-therma-fit-running-gilet-medium",
+      "lastPrice": 65,
+      "firstSeenAt": "2026-11-20T02:37:18.735Z",
+      "lastSeenAt": "2026-11-20T02:37:18.735Z"
+    },
+    "10885233566": {
+      "size": "XS",
+      "condition": "veryGood",
+      "resale": 34,
+      "netProfit": 14.2,
+      "roi": 74.74,
+      "buyScore": 63,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:37:21.148Z",
+      "discordMessageId": "1573165323270488095",
+      "title": "nike khaki men xs gilet",
+      "url": "https://www.vinted.co.uk/items/10885233566-nike-khaki-men-xs-gilet",
+      "lastPrice": 19,
+      "firstSeenAt": "2026-11-20T02:37:21.148Z",
+      "lastSeenAt": "2026-11-20T02:37:21.148Z"
+    },
+    "10885114171": {
+      "size": "M",
+      "condition": "veryGood",
+      "resale": 38,
+      "netProfit": 24.2,
+      "roi": 186.15,
+      "buyScore": 91,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:37:23.463Z",
+      "discordMessageId": "1573165332829438063",
+      "title": "nike golf womens large dri fit tour performance black full zip gilet",
+      "url": "https://www.vinted.co.uk/items/10885114171-nike-golf-womens-large-dri-fit-tour-performance-black-full-zip-gilet",
+      "lastPrice": 13,
+      "firstSeenAt": "2026-11-20T02:37:23.463Z",
+      "lastSeenAt": "2026-11-20T02:37:23.463Z"
+    },
+    "10885105212": {
+      "size": "S",
+      "condition": "veryGood",
+      "resale": 37,
+      "netProfit": 26.2,
+      "roi": 262,
+      "buyScore": 94,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:37:25.561Z",
+      "discordMessageId": "1573165341801062491",
+      "title": "nike sportswear red padded puffer gilet vest womens uk 8 10",
+      "url": "https://www.vinted.co.uk/items/10885105212-nike-sportswear-red-padded-puffer-gilet-vest-womens-uk-8-10",
+      "lastPrice": 10,
+      "firstSeenAt": "2026-11-20T02:37:25.561Z",
+      "lastSeenAt": "2026-11-20T02:37:25.561Z"
+    },
+    "10884823652": {
+      "blockedReason": "score",
+      "size": "S",
+      "condition": "newWithoutTags",
+      "resale": 37,
+      "netProfit": 11.21,
+      "roi": 44.86,
+      "buyScore": 54,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "title": "nike sportswear thermore longline giletsleeveless jacket cu5845 318",
+      "url": "https://www.vinted.co.uk/items/10884823652-nike-sportswear-thermore-longline-giletsleeveless-jacket-cu5845-318",
+      "lastPrice": 24.99,
+      "firstSeenAt": "2026-11-20T02:37:25.562Z",
+      "lastSeenAt": "2026-11-20T02:37:25.562Z"
+    },
+    "10884668948": {
+      "blockedReason": "price",
+      "title": "blue nike mens puffer gilet medium",
+      "url": "https://www.vinted.co.uk/items/10884668948-blue-nike-mens-puffer-gilet-medium",
+      "lastPrice": 47.99,
+      "firstSeenAt": "2026-11-20T02:37:25.562Z",
+      "lastSeenAt": "2026-11-20T02:37:25.562Z"
+    },
+    "10884622147": {
+      "blockedReason": "condition",
+      "title": "vintage nike silver tag duck down gilet body warmer mens xl grey",
+      "url": "https://www.vinted.co.uk/items/10884622147-vintage-nike-silver-tag-duck-down-gilet-body-warmer-mens-xl-grey",
+      "lastPrice": 28,
+      "firstSeenAt": "2026-11-20T02:37:25.562Z",
+      "lastSeenAt": "2026-11-20T02:37:25.562Z"
+    },
+    "10884418925": {
+      "size": "M",
+      "condition": "veryGood",
+      "resale": 38,
+      "netProfit": 17.2,
+      "roi": 86,
+      "buyScore": 68,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:37:27.591Z",
+      "discordMessageId": "1573165349787148501",
+      "title": "nike black sportswear thermal hooded gilet boys size medium",
+      "url": "https://www.vinted.co.uk/items/10884418925-nike-black-sportswear-thermal-hooded-gilet-boys-size-medium",
+      "lastPrice": 20,
+      "firstSeenAt": "2026-11-20T02:37:27.591Z",
+      "lastSeenAt": "2026-11-20T02:37:27.591Z"
+    },
+    "10884302092": {
+      "blockedReason": "condition",
+      "title": "nike zip up hooded gilet light green",
+      "url": "https://www.vinted.co.uk/items/10884302092-nike-zip-up-hooded-gilet-light-green",
+      "lastPrice": 14,
+      "firstSeenAt": "2026-11-20T02:37:27.591Z",
+      "lastSeenAt": "2026-11-20T02:37:27.591Z"
+    },
+    "10884225826": {
+      "size": "XL",
+      "condition": "veryGood",
+      "resale": 42,
+      "netProfit": 16.2,
+      "roi": 64.8,
+      "buyScore": 60,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:37:29.840Z",
+      "discordMessageId": "1573165359782043719",
+      "title": "nike beige padded puffer gilet bodywarmer jacket size xl",
+      "url": "https://www.vinted.co.uk/items/10884225826-nike-beige-padded-puffer-gilet-bodywarmer-jacket-size-xl",
+      "lastPrice": 25,
+      "firstSeenAt": "2026-11-20T02:37:29.840Z",
+      "lastSeenAt": "2026-11-20T02:37:29.840Z"
+    },
+    "10884200674": {
+      "size": "S",
+      "condition": "veryGood",
+      "resale": 37,
+      "netProfit": 21.2,
+      "roi": 141.33,
+      "buyScore": 83,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:37:31.675Z",
+      "discordMessageId": "1573165367260614668",
+      "title": "nike gilet",
+      "url": "https://www.vinted.co.uk/items/10884200674-nike-gilet",
+      "lastPrice": 15,
+      "firstSeenAt": "2026-11-20T02:37:31.675Z",
+      "lastSeenAt": "2026-11-20T02:37:31.675Z"
+    },
+    "10883708837": {
+      "size": "XL",
+      "condition": "veryGood",
+      "resale": 42,
+      "netProfit": 29.2,
+      "roi": 243.33,
+      "buyScore": 93,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:37:33.845Z",
+      "discordMessageId": "1573165376303276215",
+      "title": "nike womens aerolayer running gilet vest xl",
+      "url": "https://www.vinted.co.uk/items/10883708837-nike-womens-aerolayer-running-gilet-vest-xl",
+      "lastPrice": 12,
+      "firstSeenAt": "2026-11-20T02:37:33.845Z",
+      "lastSeenAt": "2026-11-20T02:37:33.845Z"
+    },
+    "10883523608": {
+      "blockedReason": "price",
+      "title": "2017 nike heritage sherpa fleece bodywarmer gilet",
+      "url": "https://www.vinted.co.uk/items/10883523608-2017-nike-heritage-sherpa-fleece-bodywarmer-gilet",
+      "lastPrice": 42.18,
+      "firstSeenAt": "2026-11-20T02:37:33.845Z",
+      "lastSeenAt": "2026-11-20T02:37:33.845Z"
+    },
+    "10883216430": {
+      "blockedReason": "condition",
+      "title": "nike acg goose down 550 fil gilet",
+      "url": "https://www.vinted.co.uk/items/10883216430-nike-acg-goose-down-550-fil-gilet",
+      "lastPrice": 30,
+      "firstSeenAt": "2026-11-20T02:37:33.845Z",
+      "lastSeenAt": "2026-11-20T02:37:33.845Z"
+    },
+    "10883080767": {
+      "blockedReason": "keyword",
+      "title": "nike sportswear kids black puffer gilet vest age 12 13 l 147 158cm",
+      "url": "https://www.vinted.co.uk/items/10883080767-nike-sportswear-kids-black-puffer-gilet-vest-age-12-13-l-147-158cm",
+      "lastPrice": 16.5,
+      "firstSeenAt": "2026-11-20T02:37:33.845Z",
+      "lastSeenAt": "2026-11-20T02:37:33.845Z"
+    },
+    "10883042782": {
+      "blockedReason": "price",
+      "title": "mens vintage nike reversible gilet body warmer 90s",
+      "url": "https://www.vinted.co.uk/items/10883042782-mens-vintage-nike-reversible-gilet-body-warmer-90s",
+      "lastPrice": 75,
+      "firstSeenAt": "2026-11-20T02:37:33.845Z",
+      "lastSeenAt": "2026-11-20T02:37:33.845Z"
+    },
+    "10883007881": {
+      "blockedReason": "condition",
+      "title": "nike aero layer gilet",
+      "url": "https://www.vinted.co.uk/items/10883007881-nike-aero-layer-gilet",
+      "lastPrice": 12,
+      "firstSeenAt": "2026-11-20T02:37:33.845Z",
+      "lastSeenAt": "2026-11-20T02:37:33.845Z"
+    },
+    "10882939517": {
+      "size": "M",
+      "condition": "veryGood",
+      "resale": 38,
+      "netProfit": 12.2,
+      "roi": 48.8,
+      "buyScore": 56,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:37:35.753Z",
+      "discordMessageId": "1573165384075313158",
+      "title": "y2k vintage nike blue gilet sleeveless puffer jacket size m",
+      "url": "https://www.vinted.co.uk/items/10882939517-y2k-vintage-nike-blue-gilet-sleeveless-puffer-jacket-size-m",
+      "lastPrice": 25,
+      "firstSeenAt": "2026-11-20T02:37:35.753Z",
+      "lastSeenAt": "2026-11-20T02:37:35.753Z"
+    },
+    "10882873407": {
+      "blockedReason": "size",
+      "title": "boys nike gilet 2 3 years",
+      "url": "https://www.vinted.co.uk/items/10882873407-boys-nike-gilet-2-3-years",
+      "lastPrice": 6,
+      "firstSeenAt": "2026-11-20T02:37:37.610Z",
+      "lastSeenAt": "2026-11-20T02:37:37.610Z"
+    },
+    "10882559918": {
+      "blockedReason": "price",
+      "title": "vintage nike gilet puffer jacket 90s size xl",
+      "url": "https://www.vinted.co.uk/items/10882559918-vintage-nike-gilet-puffer-jacket-90s-size-xl",
+      "lastPrice": 75,
+      "firstSeenAt": "2026-11-20T02:37:37.610Z",
+      "lastSeenAt": "2026-11-20T02:37:37.610Z"
+    },
+    "10882444489": {
+      "size": "M",
+      "condition": "veryGood",
+      "resale": 38,
+      "netProfit": 27.21,
+      "roi": 272.37,
+      "buyScore": 94,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:37:40.726Z",
+      "discordMessageId": "1573165405105688670",
+      "title": "f2317 vintage y2k 90s nike mens full zip fleece gilet black m",
+      "url": "https://www.vinted.co.uk/items/10882444489-f2317-vintage-y2k-90s-nike-mens-full-zip-fleece-gilet-black-m",
+      "lastPrice": 9.99,
+      "firstSeenAt": "2026-11-20T02:37:40.726Z",
+      "lastSeenAt": "2026-11-20T02:37:40.726Z"
+    },
+    "10882407979": {
+      "blockedReason": "price",
+      "title": "womens nike gilet uk size s black",
+      "url": "https://www.vinted.co.uk/items/10882407979-womens-nike-gilet-uk-size-s-black",
+      "lastPrice": 40,
+      "firstSeenAt": "2026-11-20T02:37:40.726Z",
+      "lastSeenAt": "2026-11-20T02:37:40.726Z"
+    },
+    "10882277672": {
+      "blockedReason": "price",
+      "title": "nike running therma fit repel reflective gilet vest black",
+      "url": "https://www.vinted.co.uk/items/10882277672-nike-running-therma-fit-repel-reflective-gilet-vest-black",
+      "lastPrice": 60,
+      "firstSeenAt": "2026-11-20T02:37:40.726Z",
+      "lastSeenAt": "2026-11-20T02:37:40.726Z"
+    },
+    "10881497177": {
+      "size": "L",
+      "condition": "veryGood",
+      "resale": 40,
+      "netProfit": 24.2,
+      "roi": 161.33,
+      "buyScore": 87,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:37:42.840Z",
+      "discordMessageId": "1573165414270246996",
+      "title": "nike body warmer",
+      "url": "https://www.vinted.co.uk/items/10881497177-nike-body-warmer",
+      "lastPrice": 15,
+      "firstSeenAt": "2026-11-20T02:37:42.840Z",
+      "lastSeenAt": "2026-11-20T02:37:42.840Z"
+    },
+    "10881302126": {
+      "blockedReason": "price",
+      "title": "nike therma fit dark teal padded gilet size l sleeveless puffer bodywarmer",
+      "url": "https://www.vinted.co.uk/items/10881302126-nike-therma-fit-dark-teal-padded-gilet-size-l-sleeveless-puffer-bodywarmer",
+      "lastPrice": 30,
+      "firstSeenAt": "2026-11-20T02:37:42.840Z",
+      "lastSeenAt": "2026-11-20T02:37:42.840Z"
+    },
+    "10879771671": {
+      "blockedReason": "price",
+      "title": "nike gilet",
+      "url": "https://www.vinted.co.uk/items/10879771671-nike-gilet",
+      "lastPrice": 32,
+      "firstSeenAt": "2026-11-20T02:37:42.840Z",
+      "lastSeenAt": "2026-11-20T02:37:42.840Z"
+    },
+    "10879575624": {
+      "blockedReason": "price",
+      "title": "nike puffer gilet mens xxl grey quilted padded sleeveless bodywarmer swoosh",
+      "url": "https://www.vinted.co.uk/items/10879575624-nike-puffer-gilet-mens-xxl-grey-quilted-padded-sleeveless-bodywarmer-swoosh",
+      "lastPrice": 39,
+      "firstSeenAt": "2026-11-20T02:37:42.840Z",
+      "lastSeenAt": "2026-11-20T02:37:42.840Z"
+    },
+    "10874304434": {
+      "size": "M",
+      "condition": "veryGood",
+      "resale": 38,
+      "netProfit": 22.2,
+      "roi": 148,
+      "buyScore": 84,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:37:45.520Z",
+      "discordMessageId": "1573165425502461973",
+      "title": "womens nike 90s vintage green black lightweight gilet medium puffer vest",
+      "url": "https://www.vinted.co.uk/items/10874304434-womens-nike-90s-vintage-green-black-lightweight-gilet-medium-puffer-vest",
+      "lastPrice": 15,
+      "firstSeenAt": "2026-11-20T02:37:45.520Z",
+      "lastSeenAt": "2026-11-20T02:37:45.520Z"
+    },
+    "10871404761": {
+      "size": "M",
+      "condition": "veryGood",
+      "resale": 38,
+      "netProfit": 22.2,
+      "roi": 148,
+      "buyScore": 84,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:37:48.660Z",
+      "discordMessageId": "1573165438462992467",
+      "title": "nike storm fit gilet oregon state print black size medium mens",
+      "url": "https://www.vinted.co.uk/items/10871404761-nike-storm-fit-gilet-oregon-state-print-black-size-medium-mens",
+      "lastPrice": 15,
+      "firstSeenAt": "2026-11-20T02:37:48.660Z",
+      "lastSeenAt": "2026-11-20T02:37:48.660Z"
+    },
+    "10870348901": {
+      "blockedReason": "price",
+      "title": "nike thermafit gilet mens medium",
+      "url": "https://www.vinted.co.uk/items/10870348901-nike-thermafit-gilet-mens-medium",
+      "lastPrice": 39.99,
+      "firstSeenAt": "2026-11-20T02:37:48.660Z",
+      "lastSeenAt": "2026-11-20T02:37:48.660Z"
+    },
+    "10867432464": {
+      "blockedReason": "condition",
+      "title": "nike gilet 5 6 years",
+      "url": "https://www.vinted.co.uk/items/10867432464-nike-gilet-5-6-years",
+      "lastPrice": 5,
+      "firstSeenAt": "2026-11-20T02:37:48.660Z",
+      "lastSeenAt": "2026-11-20T02:37:48.660Z"
+    },
+    "10889321573": {
+      "size": "XS",
+      "condition": "veryGood",
+      "resale": 30,
+      "netProfit": 9.2,
+      "roi": 46,
+      "buyScore": 55,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:37:55.178Z",
+      "discordMessageId": "1573165465738412048",
+      "title": "nike windbreaker",
+      "url": "https://www.vinted.co.uk/items/10889321573-nike-windbreaker",
+      "lastPrice": 20,
+      "firstSeenAt": "2026-11-20T02:37:55.178Z",
+      "lastSeenAt": "2026-11-20T02:37:55.178Z"
+    },
+    "10889309949": {
+      "blockedReason": "size",
+      "title": "nike cc sports blue windbreaker",
+      "url": "https://www.vinted.co.uk/items/10889309949-nike-cc-sports-blue-windbreaker",
+      "lastPrice": 2.5,
+      "firstSeenAt": "2026-11-20T02:37:57.970Z",
+      "lastSeenAt": "2026-11-20T02:37:57.970Z"
+    },
+    "10889013115": {
+      "size": "M",
+      "condition": "newWithoutTags",
+      "resale": 34,
+      "netProfit": 18.2,
+      "roi": 121.33,
+      "buyScore": 76,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:38:00.637Z",
+      "discordMessageId": "1573165488731590809",
+      "title": "mens nike windbreaker",
+      "url": "https://www.vinted.co.uk/items/10889013115-mens-nike-windbreaker",
+      "lastPrice": 15,
+      "firstSeenAt": "2026-11-20T02:38:00.637Z",
+      "lastSeenAt": "2026-11-20T02:38:00.637Z"
+    },
+    "10889000181": {
+      "blockedReason": "price",
+      "title": "nike windbreaker",
+      "url": "https://www.vinted.co.uk/items/10889000181-nike-windbreaker",
+      "lastPrice": 25,
+      "firstSeenAt": "2026-11-20T02:38:00.637Z",
+      "lastSeenAt": "2026-11-20T02:38:00.637Z"
+    },
+    "10888980899": {
+      "size": "S",
+      "condition": "veryGood",
+      "resale": 33,
+      "netProfit": 16.2,
+      "roi": 101.25,
+      "buyScore": 72,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:38:03.545Z",
+      "discordMessageId": "1573165501121568869",
+      "title": "vintage nike full zip windbreaker track jacket royal blue white size s 4 6",
+      "url": "https://www.vinted.co.uk/items/10888980899-vintage-nike-full-zip-windbreaker-track-jacket-royal-blue-white-size-s-4-6",
+      "lastPrice": 16,
+      "firstSeenAt": "2026-11-20T02:38:03.545Z",
+      "lastSeenAt": "2026-11-20T02:38:03.545Z"
+    },
+    "10888975427": {
+      "blockedReason": "keyword",
+      "title": "nike kids windbreaker jacket age 4 5",
+      "url": "https://www.vinted.co.uk/items/10888975427-nike-kids-windbreaker-jacket-age-4-5",
+      "lastPrice": 5,
+      "firstSeenAt": "2026-11-20T02:38:03.545Z",
+      "lastSeenAt": "2026-11-20T02:38:03.545Z"
+    },
+    "10880924070": {
+      "blockedReason": "price",
+      "title": "nike windbreaker",
+      "url": "https://www.vinted.co.uk/items/10880924070-nike-windbreaker",
+      "lastPrice": 50,
+      "firstSeenAt": "2026-11-20T02:38:03.545Z",
+      "lastSeenAt": "2026-11-20T02:38:03.545Z"
+    },
+    "10876380521": {
+      "size": "XL",
+      "condition": "veryGood",
+      "resale": 38,
+      "netProfit": 16.62,
+      "roi": 80.76,
+      "buyScore": 67,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:38:06.528Z",
+      "discordMessageId": "1573165513486630984",
+      "title": "nike windbreaker",
+      "url": "https://www.vinted.co.uk/items/10876380521-nike-windbreaker",
+      "lastPrice": 20.58,
+      "firstSeenAt": "2026-11-20T02:38:06.528Z",
+      "lastSeenAt": "2026-11-20T02:38:06.528Z"
+    },
+    "10875915584": {
+      "size": "M",
+      "condition": "veryGood",
+      "resale": 34,
+      "netProfit": 22.91,
+      "roi": 222.64,
+      "buyScore": 94,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:38:08.411Z",
+      "discordMessageId": "1573165520948174961",
+      "title": "nike womens windbreaker medium",
+      "url": "https://www.vinted.co.uk/items/10875915584-nike-womens-windbreaker-medium",
+      "lastPrice": 10.29,
+      "firstSeenAt": "2026-11-20T02:38:08.411Z",
+      "lastSeenAt": "2026-11-20T02:38:08.411Z"
+    },
+    "10867904481": {
+      "size": "M",
+      "condition": "veryGood",
+      "resale": 34,
+      "netProfit": 18.2,
+      "roi": 121.33,
+      "buyScore": 76,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:38:10.305Z",
+      "discordMessageId": "1573165529206759496",
+      "title": "nike england mens blue hooded full zip windbreaker jacket size m dn1711 480",
+      "url": "https://www.vinted.co.uk/items/10867904481-nike-england-mens-blue-hooded-full-zip-windbreaker-jacket-size-m-dn1711-480",
+      "lastPrice": 15,
+      "firstSeenAt": "2026-11-20T02:38:10.305Z",
+      "lastSeenAt": "2026-11-20T02:38:10.305Z"
+    },
+    "10858660965": {
+      "size": "M",
+      "condition": "veryGood",
+      "resale": 34,
+      "netProfit": 23.19,
+      "roi": 231.67,
+      "buyScore": 93,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:38:12.570Z",
+      "discordMessageId": "1573165538803187837",
+      "title": "nike windbreaker",
+      "url": "https://www.vinted.co.uk/items/10858660965-nike-windbreaker",
+      "lastPrice": 10.01,
+      "firstSeenAt": "2026-11-20T02:38:12.570Z",
+      "lastSeenAt": "2026-11-20T02:38:12.570Z"
+    },
+    "10858410765": {
+      "size": "XL",
+      "condition": "veryGood",
+      "resale": 38,
+      "netProfit": 25.65,
+      "roi": 222.08,
+      "buyScore": 94,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:38:15.478Z",
+      "discordMessageId": "1573165551046365215",
+      "title": "nike windbreaker",
+      "url": "https://www.vinted.co.uk/items/10858410765-nike-windbreaker",
+      "lastPrice": 11.55,
+      "firstSeenAt": "2026-11-20T02:38:15.478Z",
+      "lastSeenAt": "2026-11-20T02:38:15.478Z"
+    },
+    "10858397914": {
+      "size": "M",
+      "condition": "veryGood",
+      "resale": 34,
+      "netProfit": 21.65,
+      "roi": 187.45,
+      "buyScore": 91,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:38:17.730Z",
+      "discordMessageId": "1573165559837884523",
+      "title": "nike windbreaker",
+      "url": "https://www.vinted.co.uk/items/10858397914-nike-windbreaker",
+      "lastPrice": 11.55,
+      "firstSeenAt": "2026-11-20T02:38:17.730Z",
+      "lastSeenAt": "2026-11-20T02:38:17.730Z"
+    },
+    "10858375111": {
+      "size": "XL",
+      "condition": "veryGood",
+      "resale": 38,
+      "netProfit": 25.65,
+      "roi": 222.08,
+      "buyScore": 94,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:38:19.987Z",
+      "discordMessageId": "1573165570084311041",
+      "title": "nike windbreaker",
+      "url": "https://www.vinted.co.uk/items/10858375111-nike-windbreaker",
+      "lastPrice": 11.55,
+      "firstSeenAt": "2026-11-20T02:38:19.987Z",
+      "lastSeenAt": "2026-11-20T02:38:19.987Z"
+    },
+    "10858359149": {
+      "blockedReason": "condition",
+      "title": "vintage 90s nike black track pants mens l windbreaker spellout ankle zip",
+      "url": "https://www.vinted.co.uk/items/10858359149-vintage-90s-nike-black-track-pants-mens-l-windbreaker-spellout-ankle-zip",
+      "lastPrice": 25.41,
+      "firstSeenAt": "2026-11-20T02:38:19.987Z",
+      "lastSeenAt": "2026-11-20T02:38:19.987Z"
+    },
+    "10858318329": {
+      "blockedReason": "price",
+      "title": "vintage 90s nike windbreaker jacket mens large black green full zip swoosh",
+      "url": "https://www.vinted.co.uk/items/10858318329-vintage-90s-nike-windbreaker-jacket-mens-large-black-green-full-zip-swoosh",
+      "lastPrice": 30.8,
+      "firstSeenAt": "2026-11-20T02:38:19.987Z",
+      "lastSeenAt": "2026-11-20T02:38:19.987Z"
+    },
+    "10858316113": {
+      "size": "XS",
+      "condition": "veryGood",
+      "resale": 30,
+      "netProfit": 13.8,
+      "roi": 89.61,
+      "buyScore": 69,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:38:22.064Z",
+      "discordMessageId": "1573165578305405032",
+      "title": "nike sportswear windrunner hooded windbreaker jacket black white",
+      "url": "https://www.vinted.co.uk/items/10858316113-nike-sportswear-windrunner-hooded-windbreaker-jacket-black-white",
+      "lastPrice": 15.4,
+      "firstSeenAt": "2026-11-20T02:38:22.064Z",
+      "lastSeenAt": "2026-11-20T02:38:22.064Z"
+    },
+    "10858303038": {
+      "blockedReason": "keyword",
+      "title": "youth nike yellow windbreaker",
+      "url": "https://www.vinted.co.uk/items/10858303038-youth-nike-yellow-windbreaker",
+      "lastPrice": 15.4,
+      "firstSeenAt": "2026-11-20T02:38:22.064Z",
+      "lastSeenAt": "2026-11-20T02:38:22.064Z"
+    },
+    "10858227794": {
+      "blockedReason": "size",
+      "title": "boys nike windbreaker size 3 4",
+      "url": "https://www.vinted.co.uk/items/10858227794-boys-nike-windbreaker-size-3-4",
+      "lastPrice": 10.01,
+      "firstSeenAt": "2026-11-20T02:38:24.759Z",
+      "lastSeenAt": "2026-11-20T02:38:24.759Z"
+    },
+    "10858216150": {
+      "blockedReason": "condition",
+      "title": "nike wind breaker",
+      "url": "https://www.vinted.co.uk/items/10858216150-nike-wind-breaker",
+      "lastPrice": 15.4,
+      "firstSeenAt": "2026-11-20T02:38:24.759Z",
+      "lastSeenAt": "2026-11-20T02:38:24.759Z"
+    },
+    "10858049471": {
+      "blockedReason": "condition",
+      "title": "vintage y2k nike team red track pants mens m windbreaker white stripe 203602",
+      "url": "https://www.vinted.co.uk/items/10858049471-vintage-y2k-nike-team-red-track-pants-mens-m-windbreaker-white-stripe-203602",
+      "lastPrice": 22.33,
+      "firstSeenAt": "2026-11-20T02:38:24.760Z",
+      "lastSeenAt": "2026-11-20T02:38:24.760Z"
+    },
+    "10857998582": {
+      "size": "M",
+      "condition": "veryGood",
+      "resale": 34,
+      "netProfit": 12.41,
+      "roi": 59.69,
+      "buyScore": 59,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:38:26.730Z",
+      "discordMessageId": "1573165598333210717",
+      "title": "vintage 80s colorblock bike windbreaker teal blue retro jacket mens medium",
+      "url": "https://www.vinted.co.uk/items/10857998582-vintage-80s-colorblock-bike-windbreaker-teal-blue-retro-jacket-mens-medium",
+      "lastPrice": 20.79,
+      "firstSeenAt": "2026-11-20T02:38:26.730Z",
+      "lastSeenAt": "2026-11-20T02:38:26.730Z"
+    },
+    "10857965601": {
+      "blockedReason": "condition",
+      "title": "nike windbreaker",
+      "url": "https://www.vinted.co.uk/items/10857965601-nike-windbreaker",
+      "lastPrice": 11.55,
+      "firstSeenAt": "2026-11-20T02:38:26.730Z",
+      "lastSeenAt": "2026-11-20T02:38:26.730Z"
+    },
+    "10857855963": {
+      "blockedReason": "price",
+      "title": "navy nike windbreaker set reposted",
+      "url": "https://www.vinted.co.uk/items/10857855963-navy-nike-windbreaker-set-reposted",
+      "lastPrice": 92.41,
+      "firstSeenAt": "2026-11-20T02:38:26.730Z",
+      "lastSeenAt": "2026-11-20T02:38:26.730Z"
+    },
+    "10857853802": {
+      "size": "L",
+      "condition": "veryGood",
+      "resale": 36,
+      "netProfit": 13.64,
+      "roi": 63.27,
+      "buyScore": 60,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:38:29.803Z",
+      "discordMessageId": "1573165610932768769",
+      "title": "vintage nike colorblock windbreaker track jacket pink teal white large",
+      "url": "https://www.vinted.co.uk/items/10857853802-vintage-nike-colorblock-windbreaker-track-jacket-pink-teal-white-large",
+      "lastPrice": 21.56,
+      "firstSeenAt": "2026-11-20T02:38:29.803Z",
+      "lastSeenAt": "2026-11-20T02:38:29.803Z"
+    },
+    "10857849994": {
+      "size": "XXL",
+      "condition": "newWithoutTags",
+      "resale": 38,
+      "netProfit": 16.41,
+      "roi": 78.93,
+      "buyScore": 64,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:38:32.827Z",
+      "discordMessageId": "1573165623859748906",
+      "title": "womens nike windbreaker",
+      "url": "https://www.vinted.co.uk/items/10857849994-womens-nike-windbreaker",
+      "lastPrice": 20.79,
+      "firstSeenAt": "2026-11-20T02:38:32.827Z",
+      "lastSeenAt": "2026-11-20T02:38:32.827Z"
+    },
+    "10857828951": {
+      "size": "M",
+      "condition": "newWithoutTags",
+      "resale": 34,
+      "netProfit": 23.19,
+      "roi": 231.67,
+      "buyScore": 93,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:38:35.990Z",
+      "discordMessageId": "1573165637004558499",
+      "title": "nike repel white windbreaker full zip jacket size medium",
+      "url": "https://www.vinted.co.uk/items/10857828951-nike-repel-white-windbreaker-full-zip-jacket-size-medium",
+      "lastPrice": 10.01,
+      "firstSeenAt": "2026-11-20T02:38:35.990Z",
+      "lastSeenAt": "2026-11-20T02:38:35.990Z"
+    },
+    "10857784398": {
+      "size": "M",
+      "condition": "newWithoutTags",
+      "resale": 34,
+      "netProfit": 14.72,
+      "roi": 79.65,
+      "buyScore": 64,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:38:38.626Z",
+      "discordMessageId": "1573165648064811129",
+      "title": "nike zip up wind breaker",
+      "url": "https://www.vinted.co.uk/items/10857784398-nike-zip-up-wind-breaker",
+      "lastPrice": 18.48,
+      "firstSeenAt": "2026-11-20T02:38:38.626Z",
+      "lastSeenAt": "2026-11-20T02:38:38.626Z"
+    },
+    "10857740824": {
+      "size": "S",
+      "condition": "newWithoutTags",
+      "resale": 33,
+      "netProfit": 16.8,
+      "roi": 109.09,
+      "buyScore": 73,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:38:41.828Z",
+      "discordMessageId": "1573165661608349808",
+      "title": "nike windbreaker",
+      "url": "https://www.vinted.co.uk/items/10857740824-nike-windbreaker",
+      "lastPrice": 15.4,
+      "firstSeenAt": "2026-11-20T02:38:41.828Z",
+      "lastSeenAt": "2026-11-20T02:38:41.828Z"
+    },
+    "10857705897": {
+      "blockedReason": "keyword",
+      "title": "vintage mid 2000s nike toddler windbreaker jacket",
+      "url": "https://www.vinted.co.uk/items/10857705897-vintage-mid-2000s-nike-toddler-windbreaker-jacket",
+      "lastPrice": 15.4,
+      "firstSeenAt": "2026-11-20T02:38:41.828Z",
+      "lastSeenAt": "2026-11-20T02:38:41.828Z"
+    },
+    "10857670084": {
+      "size": "L",
+      "condition": "veryGood",
+      "resale": 36,
+      "netProfit": 25.96,
+      "roi": 280.95,
+      "buyScore": 95,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:38:43.763Z",
+      "discordMessageId": "1573165669426397319",
+      "title": "nike zip up wind breaker",
+      "url": "https://www.vinted.co.uk/items/10857670084-nike-zip-up-wind-breaker",
+      "lastPrice": 9.24,
+      "firstSeenAt": "2026-11-20T02:38:43.763Z",
+      "lastSeenAt": "2026-11-20T02:38:43.763Z"
+    },
+    "10857618526": {
+      "size": "XL",
+      "condition": "veryGood",
+      "resale": 38,
+      "netProfit": 17.95,
+      "roi": 93.25,
+      "buyScore": 70,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:38:46.029Z",
+      "discordMessageId": "1573165679337537557",
+      "title": "niki windbreakervintage",
+      "url": "https://www.vinted.co.uk/items/10857618526-niki-windbreakervintage",
+      "lastPrice": 19.25,
+      "firstSeenAt": "2026-11-20T02:38:46.029Z",
+      "lastSeenAt": "2026-11-20T02:38:46.029Z"
+    },
+    "10857616171": {
+      "blockedReason": "keyword",
+      "title": "toddler nike windbreaker 2t",
+      "url": "https://www.vinted.co.uk/items/10857616171-toddler-nike-windbreaker-2t",
+      "lastPrice": 10.01,
+      "firstSeenAt": "2026-11-20T02:38:46.029Z",
+      "lastSeenAt": "2026-11-20T02:38:46.029Z"
+    },
+    "10857551600": {
+      "blockedReason": "price",
+      "title": "nike windbreaker",
+      "url": "https://www.vinted.co.uk/items/10857551600-nike-windbreaker",
+      "lastPrice": 50.06,
+      "firstSeenAt": "2026-11-20T02:38:46.029Z",
+      "lastSeenAt": "2026-11-20T02:38:46.029Z"
+    },
+    "10857428861": {
+      "size": "XL",
+      "condition": "veryGood",
+      "resale": 38,
+      "netProfit": 23.34,
+      "roi": 168.4,
+      "buyScore": 88,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:38:48.147Z",
+      "discordMessageId": "1573165688028401795",
+      "title": "womens vintage y2k nike play up light blue track jacket windbreaker size xl",
+      "url": "https://www.vinted.co.uk/items/10857428861-womens-vintage-y2k-nike-play-up-light-blue-track-jacket-windbreaker-size-xl",
+      "lastPrice": 13.86,
+      "firstSeenAt": "2026-11-20T02:38:48.147Z",
+      "lastSeenAt": "2026-11-20T02:38:48.147Z"
+    },
+    "10857421445": {
+      "blockedReason": "price",
+      "title": "nike running mens red hooded windbreaker full zip jacket large",
+      "url": "https://www.vinted.co.uk/items/10857421445-nike-running-mens-red-hooded-windbreaker-full-zip-jacket-large",
+      "lastPrice": 23.1,
+      "firstSeenAt": "2026-11-20T02:38:48.147Z",
+      "lastSeenAt": "2026-11-20T02:38:48.147Z"
+    },
+    "10857380676": {
+      "blockedReason": "condition",
+      "title": "nike black hooded zip up windbreaker jacket size l",
+      "url": "https://www.vinted.co.uk/items/10857380676-nike-black-hooded-zip-up-windbreaker-jacket-size-l",
+      "lastPrice": 11.55,
+      "firstSeenAt": "2026-11-20T02:38:48.147Z",
+      "lastSeenAt": "2026-11-20T02:38:48.147Z"
+    },
+    "10857267721": {
+      "size": "S",
+      "condition": "veryGood",
+      "resale": 33,
+      "netProfit": 18.34,
+      "roi": 132.32,
+      "buyScore": 78,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:38:50.373Z",
+      "discordMessageId": "1573165697331110032",
+      "title": "nike windbreaker",
+      "url": "https://www.vinted.co.uk/items/10857267721-nike-windbreaker",
+      "lastPrice": 13.86,
+      "firstSeenAt": "2026-11-20T02:38:50.373Z",
+      "lastSeenAt": "2026-11-20T02:38:50.373Z"
+    },
+    "10857238045": {
+      "size": "XL",
+      "condition": "veryGood",
+      "resale": 38,
+      "netProfit": 17.95,
+      "roi": 93.25,
+      "buyScore": 70,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:38:52.234Z",
+      "discordMessageId": "1573165704809807895",
+      "title": "nike black windbreaker jacket",
+      "url": "https://www.vinted.co.uk/items/10857238045-nike-black-windbreaker-jacket",
+      "lastPrice": 19.25,
+      "firstSeenAt": "2026-11-20T02:38:52.234Z",
+      "lastSeenAt": "2026-11-20T02:38:52.234Z"
+    },
+    "10857060035": {
+      "size": "M",
+      "condition": "veryGood",
+      "resale": 34,
+      "netProfit": 17.8,
+      "roi": 115.58,
+      "buyScore": 75,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:38:54.641Z",
+      "discordMessageId": "1573165715454951496",
+      "title": "vintage 2000s nike hooded windbreaker jacket womens m red black colorblock",
+      "url": "https://www.vinted.co.uk/items/10857060035-vintage-2000s-nike-hooded-windbreaker-jacket-womens-m-red-black-colorblock",
+      "lastPrice": 15.4,
+      "firstSeenAt": "2026-11-20T02:38:54.641Z",
+      "lastSeenAt": "2026-11-20T02:38:54.641Z"
+    },
+    "10857004701": {
+      "blockedReason": "price",
+      "title": "vintage 90s nike center swoosh v neck windbreaker navy pullover jacket",
+      "url": "https://www.vinted.co.uk/items/10857004701-vintage-90s-nike-center-swoosh-v-neck-windbreaker-navy-pullover-jacket",
+      "lastPrice": 34.66,
+      "firstSeenAt": "2026-11-20T02:38:54.641Z",
+      "lastSeenAt": "2026-11-20T02:38:54.641Z"
+    },
+    "10856997872": {
+      "size": "L",
+      "condition": "veryGood",
+      "resale": 36,
+      "netProfit": 19.8,
+      "roi": 128.57,
+      "buyScore": 77,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:38:57.002Z",
+      "discordMessageId": "1573165725252854032",
+      "title": "nike windbreaker",
+      "url": "https://www.vinted.co.uk/items/10856997872-nike-windbreaker",
+      "lastPrice": 15.4,
+      "firstSeenAt": "2026-11-20T02:38:57.002Z",
+      "lastSeenAt": "2026-11-20T02:38:57.002Z"
+    },
+    "10856995741": {
+      "size": "XS",
+      "condition": "veryGood",
+      "resale": 30,
+      "netProfit": 16.11,
+      "roi": 123.07,
+      "buyScore": 76,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:38:59.845Z",
+      "discordMessageId": "1573165737177251891",
+      "title": "nike windbreaker",
+      "url": "https://www.vinted.co.uk/items/10856995741-nike-windbreaker",
+      "lastPrice": 13.09,
+      "firstSeenAt": "2026-11-20T02:38:59.845Z",
+      "lastSeenAt": "2026-11-20T02:38:59.845Z"
+    },
+    "10856940070": {
+      "size": "S",
+      "condition": "veryGood",
+      "resale": 33,
+      "netProfit": 21.42,
+      "roi": 198.7,
+      "buyScore": 93,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:39:01.778Z",
+      "discordMessageId": "1573165745389441238",
+      "title": "nike blue lightweight windbreaker",
+      "url": "https://www.vinted.co.uk/items/10856940070-nike-blue-lightweight-windbreaker",
+      "lastPrice": 10.78,
+      "firstSeenAt": "2026-11-20T02:39:01.778Z",
+      "lastSeenAt": "2026-11-20T02:39:01.778Z"
+    },
+    "10849116045": {
+      "size": "M",
+      "condition": "veryGood",
+      "resale": 34,
+      "netProfit": 13.95,
+      "roi": 72.47,
+      "buyScore": 62,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:39:03.752Z",
+      "discordMessageId": "1573165753069473880",
+      "title": "nike sportswear y2k colorblock windbreaker jacket womens medium blue white",
+      "url": "https://www.vinted.co.uk/items/10849116045-nike-sportswear-y2k-colorblock-windbreaker-jacket-womens-medium-blue-white",
+      "lastPrice": 19.25,
+      "firstSeenAt": "2026-11-20T02:39:03.752Z",
+      "lastSeenAt": "2026-11-20T02:39:03.752Z"
+    },
+    "10886903866": {
+      "size": "L",
+      "condition": "veryGood",
+      "resale": 40,
+      "netProfit": 14.2,
+      "roi": 56.8,
+      "buyScore": 58,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:39:12.119Z",
+      "discordMessageId": "1573165788175532085",
+      "title": "mens nike golf sport checkered half zip pullover windbreaker anorak",
+      "url": "https://www.vinted.co.uk/items/10886903866-mens-nike-golf-sport-checkered-half-zip-pullover-windbreaker-anorak",
+      "lastPrice": 25,
+      "firstSeenAt": "2026-11-20T02:39:12.119Z",
+      "lastSeenAt": "2026-11-20T02:39:12.119Z"
+    },
+    "10886819550": {
+      "blockedReason": "condition",
+      "title": "vintage 90s nike acg fit colourblock anorak jacket s",
+      "url": "https://www.vinted.co.uk/items/10886819550-vintage-90s-nike-acg-fit-colourblock-anorak-jacket-s",
+      "lastPrice": 40,
+      "firstSeenAt": "2026-11-20T02:39:12.119Z",
+      "lastSeenAt": "2026-11-20T02:39:12.119Z"
+    },
+    "10885799657": {
+      "size": "M",
+      "condition": "veryGood",
+      "resale": 38,
+      "netProfit": 17.2,
+      "roi": 86,
+      "buyScore": 68,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:39:14.089Z",
+      "discordMessageId": "1573165796975317073",
+      "title": "vintage nike 90s navy cream zip anorak windbreaker jacket mediumlarge",
+      "url": "https://www.vinted.co.uk/items/10885799657-vintage-nike-90s-navy-cream-zip-anorak-windbreaker-jacket-mediumlarge",
+      "lastPrice": 20,
+      "firstSeenAt": "2026-11-20T02:39:14.089Z",
+      "lastSeenAt": "2026-11-20T02:39:14.089Z"
+    },
+    "10885626234": {
+      "blockedReason": "condition",
+      "title": "nike air colourblock half zip anorak windbreaker jacket",
+      "url": "https://www.vinted.co.uk/items/10885626234-nike-air-colourblock-half-zip-anorak-windbreaker-jacket",
+      "lastPrice": 17,
+      "firstSeenAt": "2026-11-20T02:39:14.089Z",
+      "lastSeenAt": "2026-11-20T02:39:14.089Z"
+    },
+    "10883012543": {
+      "blockedReason": "price",
+      "title": "mens nike golf hooded anorak rain jacket m",
+      "url": "https://www.vinted.co.uk/items/10883012543-mens-nike-golf-hooded-anorak-rain-jacket-m",
+      "lastPrice": 50,
+      "firstSeenAt": "2026-11-20T02:39:14.089Z",
+      "lastSeenAt": "2026-11-20T02:39:52.620Z"
+    },
+    "10880344257": {
+      "blockedReason": "keyword",
+      "title": "nike kids hooded windbreaker anorak sz l",
+      "url": "https://www.vinted.co.uk/items/10880344257-nike-kids-hooded-windbreaker-anorak-sz-l",
+      "lastPrice": 8,
+      "firstSeenAt": "2026-11-20T02:39:14.089Z",
+      "lastSeenAt": "2026-11-20T02:39:14.089Z"
+    },
+    "10878626142": {
+      "blockedReason": "price",
+      "title": "nike sportswear colour block hooded anorak jacket size large",
+      "url": "https://www.vinted.co.uk/items/10878626142-nike-sportswear-colour-block-hooded-anorak-jacket-size-large",
+      "lastPrice": 115,
+      "firstSeenAt": "2026-11-20T02:39:14.089Z",
+      "lastSeenAt": "2026-11-20T02:39:14.089Z"
+    },
+    "10875204770": {
+      "blockedReason": "price",
+      "title": "nike anorak",
+      "url": "https://www.vinted.co.uk/items/10875204770-nike-anorak",
+      "lastPrice": 35,
+      "firstSeenAt": "2026-11-20T02:39:14.090Z",
+      "lastSeenAt": "2026-11-20T02:39:14.090Z"
+    },
+    "10874589806": {
+      "size": "L",
+      "condition": "veryGood",
+      "resale": 40,
+      "netProfit": 23.2,
+      "roi": 145,
+      "buyScore": 84,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:39:17.163Z",
+      "discordMessageId": "1573165809293983860",
+      "title": "mens nike air anorak",
+      "url": "https://www.vinted.co.uk/items/10874589806-mens-nike-air-anorak",
+      "lastPrice": 16,
+      "firstSeenAt": "2026-11-20T02:39:17.163Z",
+      "lastSeenAt": "2026-11-20T02:39:17.163Z"
+    },
+    "10873993922": {
+      "blockedReason": "price",
+      "title": "nike fc liverpool hype hike pullover anorak multicolor men streetwear",
+      "url": "https://www.vinted.co.uk/items/10873993922-nike-fc-liverpool-hype-hike-pullover-anorak-multicolor-men-streetwear",
+      "lastPrice": 30,
+      "firstSeenAt": "2026-11-20T02:39:17.163Z",
+      "lastSeenAt": "2026-11-20T02:39:17.163Z"
+    },
+    "10873176998": {
+      "size": "L",
+      "condition": "veryGood",
+      "resale": 40,
+      "netProfit": 24.2,
+      "roi": 161.33,
+      "buyScore": 87,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:39:20.145Z",
+      "discordMessageId": "1573165822363303947",
+      "title": "vintage y2k nike olive green half zip fleece lined anorak jacket size l",
+      "url": "https://www.vinted.co.uk/items/10873176998-vintage-y2k-nike-olive-green-half-zip-fleece-lined-anorak-jacket-size-l",
+      "lastPrice": 15,
+      "firstSeenAt": "2026-11-20T02:39:20.145Z",
+      "lastSeenAt": "2026-11-20T02:39:20.145Z"
+    },
+    "10871515815": {
+      "blockedReason": "price",
+      "title": "vintage nike acg womens ripstop anorak windbreaker jacket blue size s uk 810",
+      "url": "https://www.vinted.co.uk/items/10871515815-vintage-nike-acg-womens-ripstop-anorak-windbreaker-jacket-blue-size-s-uk-810",
+      "lastPrice": 55,
+      "firstSeenAt": "2026-11-20T02:39:20.146Z",
+      "lastSeenAt": "2026-11-20T02:39:20.146Z"
+    },
+    "10869009815": {
+      "size": "M",
+      "condition": "veryGood",
+      "resale": 38,
+      "netProfit": 12.2,
+      "roi": 48.8,
+      "buyScore": 56,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:39:22.467Z",
+      "discordMessageId": "1573165831909810199",
+      "title": "nike mens anorakjacket",
+      "url": "https://www.vinted.co.uk/items/10869009815-nike-mens-anorakjacket",
+      "lastPrice": 25,
+      "firstSeenAt": "2026-11-20T02:39:22.467Z",
+      "lastSeenAt": "2026-11-20T02:39:22.467Z"
+    },
+    "10866183442": {
+      "blockedReason": "price",
+      "title": "nike swoosh black pull over anorak hoodie jacket mens size medium",
+      "url": "https://www.vinted.co.uk/items/10866183442-nike-swoosh-black-pull-over-anorak-hoodie-jacket-mens-size-medium",
+      "lastPrice": 50,
+      "firstSeenAt": "2026-11-20T02:39:22.467Z",
+      "lastSeenAt": "2026-11-20T02:39:22.467Z"
+    },
+    "10855285751": {
+      "blockedReason": "price",
+      "title": "nike sweater mens m green acg polartec fleece half zip anorak pullover outdoors",
+      "url": "https://www.vinted.co.uk/items/10855285751-nike-sweater-mens-m-green-acg-polartec-fleece-half-zip-anorak-pullover-outdoors",
+      "lastPrice": 45.44,
+      "firstSeenAt": "2026-11-20T02:39:22.467Z",
+      "lastSeenAt": "2026-11-20T02:39:22.467Z"
+    },
+    "10848731664": {
+      "size": "XL",
+      "condition": "veryGood",
+      "resale": 42,
+      "netProfit": 19.64,
+      "roi": 91.09,
+      "buyScore": 69,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:39:24.840Z",
+      "discordMessageId": "1573165841632067598",
+      "title": "womens nike sportswear plaid anorak windbreaker jacket",
+      "url": "https://www.vinted.co.uk/items/10848731664-womens-nike-sportswear-plaid-anorak-windbreaker-jacket",
+      "lastPrice": 21.56,
+      "firstSeenAt": "2026-11-20T02:39:24.840Z",
+      "lastSeenAt": "2026-11-20T02:39:24.840Z"
+    },
+    "10848687844": {
+      "blockedReason": "price",
+      "title": "nike air woven anorak jacket",
+      "url": "https://www.vinted.co.uk/items/10848687844-nike-air-woven-anorak-jacket",
+      "lastPrice": 38.51,
+      "firstSeenAt": "2026-11-20T02:39:24.840Z",
+      "lastSeenAt": "2026-11-20T02:40:27.226Z"
+    },
+    "10847693797": {
+      "blockedReason": "price",
+      "title": "vintage y2k nike navy blue orange hooded anorak windbreaker quarter zip xl mens",
+      "url": "https://www.vinted.co.uk/items/10847693797-vintage-y2k-nike-navy-blue-orange-hooded-anorak-windbreaker-quarter-zip-xl-mens",
+      "lastPrice": 26.95,
+      "firstSeenAt": "2026-11-20T02:39:24.840Z",
+      "lastSeenAt": "2026-11-20T02:39:24.840Z"
+    },
+    "10846268476": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike mens club marina loose fit pullover anorak hj1957 739 sz l",
+      "url": "https://www.vinted.co.uk/items/10846268476-nike-mens-club-marina-loose-fit-pullover-anorak-hj1957-739-sz-l",
+      "lastPrice": 32.34,
+      "firstSeenAt": "2026-11-20T02:39:24.840Z",
+      "lastSeenAt": "2026-11-20T02:39:24.840Z"
+    },
+    "10840454852": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "vintage nike anorak windbreaker jacket",
+      "url": "https://www.vinted.co.uk/items/10840454852-vintage-nike-anorak-windbreaker-jacket",
+      "lastPrice": 23.1,
+      "firstSeenAt": "2026-11-20T02:39:24.840Z",
+      "lastSeenAt": "2026-11-20T02:39:24.840Z"
+    },
+    "10835134845": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike sportswear womens small half zip anorak pullover windbreaker marble print pink gray",
+      "url": "https://www.vinted.co.uk/items/10835134845-nike-sportswear-womens-small-half-zip-anorak-pullover-windbreaker-marble-print-pink-gray",
+      "lastPrice": 11.55,
+      "firstSeenAt": "2026-11-20T02:39:24.840Z",
+      "lastSeenAt": "2026-11-20T02:39:24.840Z"
+    },
+    "10888447788": {
+      "blockedReason": "price",
+      "title": "rrp ps80 nike 2pc fleece fluffy thermal and rain jacket coat windrunner",
+      "url": "https://www.vinted.co.uk/items/10888447788-rrp-ps80-nike-2pc-fleece-fluffy-thermal-and-rain-jacket-coat-windrunner",
+      "lastPrice": 80,
+      "firstSeenAt": "2026-11-20T02:39:29.947Z",
+      "lastSeenAt": "2026-11-20T02:39:29.947Z"
+    },
+    "10888340793": {
+      "size": "S",
+      "condition": "veryGood",
+      "resale": 38,
+      "netProfit": 21.53,
+      "roi": 137.4,
+      "buyScore": 85,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:39:32.556Z",
+      "discordMessageId": "1573165874364284949",
+      "title": "nike rain coat",
+      "url": "https://www.vinted.co.uk/items/10888340793-nike-rain-coat",
+      "lastPrice": 15.67,
+      "firstSeenAt": "2026-11-20T02:39:32.556Z",
+      "lastSeenAt": "2026-11-20T02:39:32.556Z"
+    },
+    "10888161946": {
+      "blockedReason": "keyword",
+      "title": "nike unisex kids rain jacket",
+      "url": "https://www.vinted.co.uk/items/10888161946-nike-unisex-kids-rain-jacket",
+      "lastPrice": 9,
+      "firstSeenAt": "2026-11-20T02:39:32.556Z",
+      "lastSeenAt": "2026-11-20T02:39:32.556Z"
+    },
+    "10888001349": {
+      "size": "S",
+      "condition": "veryGood",
+      "resale": 38,
+      "netProfit": 27.2,
+      "roi": 272,
+      "buyScore": 96,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:39:35.715Z",
+      "discordMessageId": "1573165887488262225",
+      "title": "nike rain jacket black",
+      "url": "https://www.vinted.co.uk/items/10888001349-nike-rain-jacket-black",
+      "lastPrice": 10,
+      "firstSeenAt": "2026-11-20T02:39:35.715Z",
+      "lastSeenAt": "2026-11-20T02:39:35.715Z"
+    },
+    "10887538868": {
+      "size": "L",
+      "condition": "newWithoutTags",
+      "resale": 42,
+      "netProfit": 34.2,
+      "roi": 488.57,
+      "buyScore": 100,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:39:37.871Z",
+      "discordMessageId": "1573165896606818475",
+      "title": "mens nike rain coat",
+      "url": "https://www.vinted.co.uk/items/10887538868-mens-nike-rain-coat",
+      "lastPrice": 7,
+      "firstSeenAt": "2026-11-20T02:39:37.871Z",
+      "lastSeenAt": "2026-11-20T02:39:37.871Z"
+    },
+    "10887376284": {
+      "blockedReason": "price",
+      "title": "nike brazil brasil cbf rain jacket storm fit navy xl football windbreaker",
+      "url": "https://www.vinted.co.uk/items/10887376284-nike-brazil-brasil-cbf-rain-jacket-storm-fit-navy-xl-football-windbreaker",
+      "lastPrice": 42,
+      "firstSeenAt": "2026-11-20T02:39:37.871Z",
+      "lastSeenAt": "2026-11-20T02:39:37.871Z"
+    },
+    "10886893658": {
+      "size": "L",
+      "condition": "newWithTags",
+      "resale": 42,
+      "netProfit": 14.21,
+      "roi": 52.65,
+      "buyScore": 59,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:39:39.930Z",
+      "discordMessageId": "1573165905326772355",
+      "title": "nike park 20 repel rain jacket navy obsidian size l",
+      "url": "https://www.vinted.co.uk/items/10886893658-nike-park-20-repel-rain-jacket-navy-obsidian-size-l",
+      "lastPrice": 26.99,
+      "firstSeenAt": "2026-11-20T02:39:39.930Z",
+      "lastSeenAt": "2026-11-20T02:39:39.930Z"
+    },
+    "10885898391": {
+      "blockedReason": "price",
+      "title": "vintage nike air reversible windrunner rain jacket black grey y2k xl",
+      "url": "https://www.vinted.co.uk/items/10885898391-vintage-nike-air-reversible-windrunner-rain-jacket-black-grey-y2k-xl",
+      "lastPrice": 40,
+      "firstSeenAt": "2026-11-20T02:39:39.930Z",
+      "lastSeenAt": "2026-11-20T02:39:39.930Z"
+    },
+    "10885000403": {
+      "size": "XL",
+      "condition": "veryGood",
+      "resale": 44,
+      "netProfit": 27.7,
+      "roi": 178.71,
+      "buyScore": 91,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:39:42.692Z",
+      "discordMessageId": "1573165916605255723",
+      "title": "vintage y2k nike blue sportswear rain coat",
+      "url": "https://www.vinted.co.uk/items/10885000403-vintage-y2k-nike-blue-sportswear-rain-coat",
+      "lastPrice": 15.5,
+      "firstSeenAt": "2026-11-20T02:39:42.692Z",
+      "lastSeenAt": "2026-11-20T02:39:42.692Z"
+    },
+    "10884912532": {
+      "blockedReason": "price",
+      "title": "nike storm fit academy pro mens rain jacket black size s new without tags",
+      "url": "https://www.vinted.co.uk/items/10884912532-nike-storm-fit-academy-pro-mens-rain-jacket-black-size-s-new-without-tags",
+      "lastPrice": 35,
+      "firstSeenAt": "2026-11-20T02:39:42.692Z",
+      "lastSeenAt": "2026-11-20T02:39:42.692Z"
+    },
+    "10883869419": {
+      "size": "S",
+      "condition": "veryGood",
+      "resale": 38,
+      "netProfit": 27.2,
+      "roi": 272,
+      "buyScore": 96,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:39:45.105Z",
+      "discordMessageId": "1573165926990479521",
+      "title": "england football rain jacket",
+      "url": "https://www.vinted.co.uk/items/10883869419-england-football-rain-jacket",
+      "lastPrice": 10,
+      "firstSeenAt": "2026-11-20T02:39:45.105Z",
+      "lastSeenAt": "2026-11-20T02:39:45.105Z"
+    },
+    "10883750260": {
+      "blockedReason": "price",
+      "title": "airmax rain jacket",
+      "url": "https://www.vinted.co.uk/items/10883750260-airmax-rain-jacket",
+      "lastPrice": 30,
+      "firstSeenAt": "2026-11-20T02:39:45.105Z",
+      "lastSeenAt": "2026-11-20T02:39:45.105Z"
+    },
+    "10883430739": {
+      "size": "L",
+      "condition": "veryGood",
+      "resale": 42,
+      "netProfit": 30.2,
+      "roi": 274.55,
+      "buyScore": 100,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:39:49.557Z",
+      "discordMessageId": "1573165945541632033",
+      "title": "junior nike rain jacket",
+      "url": "https://www.vinted.co.uk/items/10883430739-junior-nike-rain-jacket",
+      "lastPrice": 11,
+      "firstSeenAt": "2026-11-20T02:39:49.557Z",
+      "lastSeenAt": "2026-11-20T02:39:49.557Z"
+    },
+    "10883197091": {
+      "size": "M",
+      "condition": "newWithoutTags",
+      "resale": 40,
+      "netProfit": 21.7,
+      "roi": 124,
+      "buyScore": 82,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:39:52.620Z",
+      "discordMessageId": "1573165958506479688",
+      "title": "nike sb rain jacket",
+      "url": "https://www.vinted.co.uk/items/10883197091-nike-sb-rain-jacket",
+      "lastPrice": 17.5,
+      "firstSeenAt": "2026-11-20T02:39:52.620Z",
+      "lastSeenAt": "2026-11-20T02:39:52.620Z"
+    },
+    "10882762468": {
+      "size": "M",
+      "condition": "veryGood",
+      "resale": 40,
+      "netProfit": 32.7,
+      "roi": 503.08,
+      "buyScore": 100,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:39:55.008Z",
+      "discordMessageId": "1573165968451047517",
+      "title": "nike boys black rain jacket medium",
+      "url": "https://www.vinted.co.uk/items/10882762468-nike-boys-black-rain-jacket-medium",
+      "lastPrice": 6.5,
+      "firstSeenAt": "2026-11-20T02:39:55.008Z",
+      "lastSeenAt": "2026-11-20T02:39:55.008Z"
+    },
+    "10882225159": {
+      "size": "M",
+      "condition": "veryGood",
+      "resale": 40,
+      "netProfit": 19.2,
+      "roi": 96,
+      "buyScore": 73,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:39:57.771Z",
+      "discordMessageId": "1573165980098498601",
+      "title": "nike womens medium hooded rain jacket windbreaker light grey",
+      "url": "https://www.vinted.co.uk/items/10882225159-nike-womens-medium-hooded-rain-jacket-windbreaker-light-grey",
+      "lastPrice": 20,
+      "firstSeenAt": "2026-11-20T02:39:57.771Z",
+      "lastSeenAt": "2026-11-20T02:39:57.771Z"
+    },
+    "10881800682": {
+      "size": "XL",
+      "condition": "veryGood",
+      "resale": 44,
+      "netProfit": 33.2,
+      "roi": 332,
+      "buyScore": 100,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:39:59.408Z",
+      "discordMessageId": "1573165986926956695",
+      "title": "boys xl nike rain jacket",
+      "url": "https://www.vinted.co.uk/items/10881800682-boys-xl-nike-rain-jacket",
+      "lastPrice": 10,
+      "firstSeenAt": "2026-11-20T02:39:59.408Z",
+      "lastSeenAt": "2026-11-20T02:39:59.408Z"
+    },
+    "10880267002": {
+      "blockedReason": "price",
+      "title": "brazil cbf nike gore tex player spec rain jacket black xxl",
+      "url": "https://www.vinted.co.uk/items/10880267002-brazil-cbf-nike-gore-tex-player-spec-rain-jacket-black-xxl",
+      "lastPrice": 54.99,
+      "firstSeenAt": "2026-11-20T02:39:59.408Z",
+      "lastSeenAt": "2026-11-20T02:39:59.408Z"
+    },
+    "10879939379": {
+      "blockedReason": "condition",
+      "title": "nike rain coat",
+      "url": "https://www.vinted.co.uk/items/10879939379-nike-rain-coat",
+      "lastPrice": 2,
+      "firstSeenAt": "2026-11-20T02:39:59.408Z",
+      "lastSeenAt": "2026-11-20T02:39:59.408Z"
+    },
+    "10878763951": {
+      "blockedReason": "keyword",
+      "title": "barcelona nike original kids rain jacket size m a47 cm",
+      "url": "https://www.vinted.co.uk/items/10878763951-barcelona-nike-original-kids-rain-jacket-size-m-a47-cm",
+      "lastPrice": 20,
+      "firstSeenAt": "2026-11-20T02:39:59.408Z",
+      "lastSeenAt": "2026-11-20T02:39:59.408Z"
+    },
+    "10858385813": {
+      "blockedReason": "price",
+      "title": "nike acg stormfit morpho rain jacket",
+      "url": "https://www.vinted.co.uk/items/10858385813-nike-acg-stormfit-morpho-rain-jacket",
+      "lastPrice": 102.43,
+      "firstSeenAt": "2026-11-20T02:39:59.408Z",
+      "lastSeenAt": "2026-11-20T02:39:59.408Z"
+    },
+    "10857199283": {
+      "blockedReason": "detail-budget-exhausted",
+      "size": null,
+      "title": "girl nike rain jacket",
+      "url": "https://www.vinted.co.uk/items/10857199283-girl-nike-rain-jacket",
+      "lastPrice": 10.01,
+      "firstSeenAt": "2026-11-20T02:39:59.408Z",
+      "lastSeenAt": "2026-11-20T02:39:59.408Z"
+    },
+    "10853501220": {
+      "size": "XL",
+      "condition": "veryGood",
+      "resale": 44,
+      "netProfit": 34.73,
+      "roi": 410.04,
+      "buyScore": 100,
+      "fakeRisk": {
+        "level": "MEDIUM",
+        "note": "Extremely low price versus expected resale; inspect photos, code and seller history | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:40:01.520Z",
+      "discordMessageId": "1573165995751907369",
+      "title": "womens nike rain jacket",
+      "url": "https://www.vinted.co.uk/items/10853501220-womens-nike-rain-jacket",
+      "lastPrice": 8.47,
+      "firstSeenAt": "2026-11-20T02:40:01.520Z",
+      "lastSeenAt": "2026-11-20T02:40:01.520Z"
+    },
+    "10852610406": {
+      "size": "XS",
+      "condition": "newWithoutTags",
+      "resale": 35,
+      "netProfit": 18.03,
+      "roi": 111.5,
+      "buyScore": 76,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:40:04.553Z",
+      "discordMessageId": "1573166008208851105",
+      "title": "womens nike peplum windbreakerrain coat",
+      "url": "https://www.vinted.co.uk/items/10852610406-womens-nike-peplum-windbreakerrain-coat",
+      "lastPrice": 16.17,
+      "firstSeenAt": "2026-11-20T02:40:04.553Z",
+      "lastSeenAt": "2026-11-20T02:40:04.553Z"
+    },
+    "10849179241": {
+      "size": "M",
+      "condition": "veryGood",
+      "resale": 40,
+      "netProfit": 16.1,
+      "roi": 69.7,
+      "buyScore": 63,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:40:06.807Z",
+      "discordMessageId": "1573166017914609817",
+      "title": "nike new england patriots mens rain jacket size medium",
+      "url": "https://www.vinted.co.uk/items/10849179241-nike-new-england-patriots-mens-rain-jacket-size-medium",
+      "lastPrice": 23.1,
+      "firstSeenAt": "2026-11-20T02:40:06.807Z",
+      "lastSeenAt": "2026-11-20T02:40:06.807Z"
+    },
+    "10849132598": {
+      "size": "XXL",
+      "condition": "veryGood",
+      "resale": 44,
+      "netProfit": 22.41,
+      "roi": 107.79,
+      "buyScore": 79,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:40:09.575Z",
+      "discordMessageId": "1573166029499138132",
+      "title": "nike rain coat",
+      "url": "https://www.vinted.co.uk/items/10849132598-nike-rain-coat",
+      "lastPrice": 20.79,
+      "firstSeenAt": "2026-11-20T02:40:09.575Z",
+      "lastSeenAt": "2026-11-20T02:40:09.575Z"
+    },
+    "10848905071": {
+      "blockedReason": "keyword",
+      "title": "rain jacket for youth boys",
+      "url": "https://www.vinted.co.uk/items/10848905071-rain-jacket-for-youth-boys",
+      "lastPrice": 11.55,
+      "firstSeenAt": "2026-11-20T02:40:09.575Z",
+      "lastSeenAt": "2026-11-20T02:40:09.575Z"
+    },
+    "10848689835": {
+      "blockedReason": "price",
+      "title": "nike rain jacket",
+      "url": "https://www.vinted.co.uk/items/10848689835-nike-rain-jacket",
+      "lastPrice": 30.8,
+      "firstSeenAt": "2026-11-20T02:40:09.575Z",
+      "lastSeenAt": "2026-11-20T02:40:09.575Z"
+    },
+    "10848259825": {
+      "size": "M",
+      "condition": "veryGood",
+      "resale": 40,
+      "netProfit": 23.8,
+      "roi": 154.55,
+      "buyScore": 88,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:40:11.573Z",
+      "discordMessageId": "1573166037648539690",
+      "title": "nike hypeshield womens rain jacket",
+      "url": "https://www.vinted.co.uk/items/10848259825-nike-hypeshield-womens-rain-jacket",
+      "lastPrice": 15.4,
+      "firstSeenAt": "2026-11-20T02:40:11.573Z",
+      "lastSeenAt": "2026-11-20T02:40:11.573Z"
+    },
+    "10848259425": {
+      "blockedReason": "detail-budget-exhausted",
+      "size": null,
+      "title": "nike rain jacket",
+      "url": "https://www.vinted.co.uk/items/10848259425-nike-rain-jacket",
+      "lastPrice": 11.55,
+      "firstSeenAt": "2026-11-20T02:40:11.574Z",
+      "lastSeenAt": "2026-11-20T02:40:11.574Z"
+    },
+    "10846839114": {
+      "blockedReason": "condition",
+      "title": "womens nike rain jacket",
+      "url": "https://www.vinted.co.uk/items/10846839114-womens-nike-rain-jacket",
+      "lastPrice": 9.24,
+      "firstSeenAt": "2026-11-20T02:40:11.574Z",
+      "lastSeenAt": "2026-11-20T02:40:11.574Z"
+    },
+    "10846483658": {
+      "size": "L",
+      "condition": "veryGood",
+      "resale": 42,
+      "netProfit": 25.8,
+      "roi": 167.53,
+      "buyScore": 90,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:40:13.929Z",
+      "discordMessageId": "1573166047878578258",
+      "title": "long stadium style nike windbreakerrain jacket",
+      "url": "https://www.vinted.co.uk/items/10846483658-long-stadium-style-nike-windbreakerrain-jacket",
+      "lastPrice": 15.4,
+      "firstSeenAt": "2026-11-20T02:40:13.929Z",
+      "lastSeenAt": "2026-11-20T02:40:13.929Z"
+    },
+    "10846283042": {
+      "blockedReason": "price",
+      "title": "nike olive green rain jacket with front pocket and drawstring",
+      "url": "https://www.vinted.co.uk/items/10846283042-nike-olive-green-rain-jacket-with-front-pocket-and-drawstring",
+      "lastPrice": 34.66,
+      "firstSeenAt": "2026-11-20T02:40:13.929Z",
+      "lastSeenAt": "2026-11-20T02:40:13.929Z"
+    },
+    "10844675727": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "mens nike rain jacket size xl beige",
+      "url": "https://www.vinted.co.uk/items/10844675727-mens-nike-rain-jacket-size-xl-beige",
+      "lastPrice": 13.86,
+      "firstSeenAt": "2026-11-20T02:40:13.929Z",
+      "lastSeenAt": "2026-11-20T02:40:13.929Z"
+    },
+    "10844554589": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike rain jacket",
+      "url": "https://www.vinted.co.uk/items/10844554589-nike-rain-jacket",
+      "lastPrice": 10.01,
+      "firstSeenAt": "2026-11-20T02:40:13.929Z",
+      "lastSeenAt": "2026-11-20T02:40:13.929Z"
+    },
+    "10844364967": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "womens rain jacket",
+      "url": "https://www.vinted.co.uk/items/10844364967-womens-rain-jacket",
+      "lastPrice": 38.51,
+      "firstSeenAt": "2026-11-20T02:40:13.929Z",
+      "lastSeenAt": "2026-11-20T02:40:13.929Z"
+    },
+    "10844348358": {
+      "blockedReason": "recovery-no-fresh-signal",
+      "title": "nike womens rain coat",
+      "url": "https://www.vinted.co.uk/items/10844348358-nike-womens-rain-coat",
+      "lastPrice": 23.1,
+      "firstSeenAt": "2026-11-20T02:40:13.929Z",
+      "lastSeenAt": "2026-11-20T02:40:13.929Z"
+    },
+    "10887995408": {
+      "blockedReason": "price",
+      "title": "nike sportswear basketball woven jacket black size l",
+      "url": "https://www.vinted.co.uk/items/10887995408-nike-sportswear-basketball-woven-jacket-black-size-l",
+      "lastPrice": 140,
+      "firstSeenAt": "2026-11-20T02:40:20.117Z",
+      "lastSeenAt": "2026-11-20T02:40:20.117Z"
+    },
+    "10887261181": {
+      "blockedReason": "price",
+      "title": "nike airmax woven jacket",
+      "url": "https://www.vinted.co.uk/items/10887261181-nike-airmax-woven-jacket",
+      "lastPrice": 35,
+      "firstSeenAt": "2026-11-20T02:40:20.117Z",
+      "lastSeenAt": "2026-11-20T02:40:20.117Z"
+    },
+    "10886392328": {
+      "blockedReason": "keyword",
+      "title": "nike unlimited woven jacket baby blue",
+      "url": "https://www.vinted.co.uk/items/10886392328-nike-unlimited-woven-jacket-baby-blue",
+      "lastPrice": 35,
+      "firstSeenAt": "2026-11-20T02:40:20.117Z",
+      "lastSeenAt": "2026-11-20T02:40:20.117Z"
+    },
+    "10885895648": {
+      "blockedReason": "price",
+      "title": "nike basketball starting 5 woven track jacket windbreaker black grey neon volt xlxxl",
+      "url": "https://www.vinted.co.uk/items/10885895648-nike-basketball-starting-5-woven-track-jacket-windbreaker-black-grey-neon-volt-xlxxl",
+      "lastPrice": 24,
+      "firstSeenAt": "2026-11-20T02:40:20.117Z",
+      "lastSeenAt": "2026-11-20T02:40:20.117Z"
+    },
+    "10885468615": {
+      "blockedReason": "price",
+      "title": "nike running woven air run zip up lightweight windbreaker jacket in blue navy",
+      "url": "https://www.vinted.co.uk/items/10885468615-nike-running-woven-air-run-zip-up-lightweight-windbreaker-jacket-in-blue-navy",
+      "lastPrice": 30,
+      "firstSeenAt": "2026-11-20T02:40:20.117Z",
+      "lastSeenAt": "2026-11-20T02:40:20.117Z"
+    },
+    "10884442832": {
+      "blockedReason": "price",
+      "title": "nike running flash jacket and pants flash dri fit woven running brand new with tags black xxl 2xl",
+      "url": "https://www.vinted.co.uk/items/10884442832-nike-running-flash-jacket-and-pants-flash-dri-fit-woven-running-brand-new-with-tags-black-xxl-2xl",
+      "lastPrice": 90,
+      "firstSeenAt": "2026-11-20T02:40:20.117Z",
+      "lastSeenAt": "2026-11-20T02:40:20.117Z"
+    },
+    "10884342498": {
+      "blockedReason": "price",
+      "title": "nike windrunner woven jacket size m black hot punch heat map swirl hf4446 674",
+      "url": "https://www.vinted.co.uk/items/10884342498-nike-windrunner-woven-jacket-size-m-black-hot-punch-heat-map-swirl-hf4446-674",
+      "lastPrice": 32,
+      "firstSeenAt": "2026-11-20T02:40:20.117Z",
+      "lastSeenAt": "2026-11-20T02:40:20.117Z"
+    },
+    "10884244526": {
+      "blockedReason": "price",
+      "title": "nike air max woven jacket",
+      "url": "https://www.vinted.co.uk/items/10884244526-nike-air-max-woven-jacket",
+      "lastPrice": 30,
+      "firstSeenAt": "2026-11-20T02:40:20.117Z",
+      "lastSeenAt": "2026-11-20T02:40:20.117Z"
+    },
+    "10880777969": {
+      "blockedReason": "price",
+      "title": "nike air max woven jacket track pants",
+      "url": "https://www.vinted.co.uk/items/10880777969-nike-air-max-woven-jacket-track-pants",
+      "lastPrice": 85,
+      "firstSeenAt": "2026-11-20T02:40:20.117Z",
+      "lastSeenAt": "2026-11-20T02:40:20.117Z"
+    },
+    "10880270024": {
+      "blockedReason": "price",
+      "title": "nike tech dri fit woven windrunner jacket",
+      "url": "https://www.vinted.co.uk/items/10880270024-nike-tech-dri-fit-woven-windrunner-jacket",
+      "lastPrice": 100,
+      "firstSeenAt": "2026-11-20T02:40:20.117Z",
+      "lastSeenAt": "2026-11-20T02:40:20.117Z"
+    },
+    "10879730722": {
+      "size": "M",
+      "condition": "veryGood",
+      "resale": 35,
+      "netProfit": 19.2,
+      "roi": 128,
+      "buyScore": 79,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:40:22.990Z",
+      "discordMessageId": "1573166085937565707",
+      "title": "nike mens black woven full zip track jacket windbreaker swoosh logo size m",
+      "url": "https://www.vinted.co.uk/items/10879730722-nike-mens-black-woven-full-zip-track-jacket-windbreaker-swoosh-logo-size-m",
+      "lastPrice": 15,
+      "firstSeenAt": "2026-11-20T02:40:22.990Z",
+      "lastSeenAt": "2026-11-20T02:40:22.990Z"
+    },
+    "10877821717": {
+      "blockedReason": "price",
+      "title": "nike oversized hooded woven jacket ladies size small 8 10 violet lilac mauve",
+      "url": "https://www.vinted.co.uk/items/10877821717-nike-oversized-hooded-woven-jacket-ladies-size-small-8-10-violet-lilac-mauve",
+      "lastPrice": 25,
+      "firstSeenAt": "2026-11-20T02:40:22.990Z",
+      "lastSeenAt": "2026-11-20T02:40:22.990Z"
+    },
+    "10875526560": {
+      "blockedReason": "price",
+      "title": "nike air max woven jacket anthracitedark greycool grey size s",
+      "url": "https://www.vinted.co.uk/items/10875526560-nike-air-max-woven-jacket-anthracitedark-greycool-grey-size-s",
+      "lastPrice": 25.5,
+      "firstSeenAt": "2026-11-20T02:40:22.990Z",
+      "lastSeenAt": "2026-11-20T02:40:22.990Z"
+    },
+    "10870934230": {
+      "blockedReason": "price",
+      "title": "nike dri fit woven unlimited jacket and trousers tracksuit set black 3430",
+      "url": "https://www.vinted.co.uk/items/10870934230-nike-dri-fit-woven-unlimited-jacket-and-trousers-tracksuit-set-black-3430",
+      "lastPrice": 70,
+      "firstSeenAt": "2026-11-20T02:40:22.990Z",
+      "lastSeenAt": "2026-11-20T02:40:22.990Z"
+    },
+    "10870907453": {
+      "blockedReason": "price",
+      "title": "nike dri fit woven unlimited jacket and shorts set black 3428",
+      "url": "https://www.vinted.co.uk/items/10870907453-nike-dri-fit-woven-unlimited-jacket-and-shorts-set-black-3428",
+      "lastPrice": 62,
+      "firstSeenAt": "2026-11-20T02:40:22.991Z",
+      "lastSeenAt": "2026-11-20T02:40:22.991Z"
+    },
+    "10856607252": {
+      "size": "L",
+      "condition": "veryGood",
+      "resale": 37,
+      "netProfit": 13.1,
+      "roi": 56.71,
+      "buyScore": 60,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:40:24.957Z",
+      "discordMessageId": "1573166093755748376",
+      "title": "nike mens dna woven basketball jacket",
+      "url": "https://www.vinted.co.uk/items/10856607252-nike-mens-dna-woven-basketball-jacket",
+      "lastPrice": 23.1,
+      "firstSeenAt": "2026-11-20T02:40:24.957Z",
+      "lastSeenAt": "2026-11-20T02:40:24.957Z"
+    },
+    "10855834322": {
+      "blockedReason": "price",
+      "title": "mens nike tech pack woven lined bomber jacket",
+      "url": "https://www.vinted.co.uk/items/10855834322-mens-nike-tech-pack-woven-lined-bomber-jacket",
+      "lastPrice": 27.72,
+      "firstSeenAt": "2026-11-20T02:40:24.957Z",
+      "lastSeenAt": "2026-11-20T02:40:24.957Z"
+    },
+    "10853419970": {
+      "blockedReason": "condition",
+      "title": "nike womens dri fit flex woven full zip athletic track jacket mint blue xl",
+      "url": "https://www.vinted.co.uk/items/10853419970-nike-womens-dri-fit-flex-woven-full-zip-athletic-track-jacket-mint-blue-xl",
+      "lastPrice": 19.25,
+      "firstSeenAt": "2026-11-20T02:40:24.957Z",
+      "lastSeenAt": "2026-11-20T02:40:24.957Z"
+    },
+    "10849273127": {
+      "size": "S",
+      "condition": "veryGood",
+      "resale": 34,
+      "netProfit": 16.64,
+      "roi": 100.48,
+      "buyScore": 74,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:40:27.225Z",
+      "discordMessageId": "1573166103272759383",
+      "title": "nike woven jacket",
+      "url": "https://www.vinted.co.uk/items/10849273127-nike-woven-jacket",
+      "lastPrice": 16.56,
+      "firstSeenAt": "2026-11-20T02:40:27.226Z",
+      "lastSeenAt": "2026-11-20T02:40:27.226Z"
+    },
+    "10848505952": {
+      "blockedReason": "price",
+      "title": "nike tech woven stretch windrunner jacket",
+      "url": "https://www.vinted.co.uk/items/10848505952-nike-tech-woven-stretch-windrunner-jacket",
+      "lastPrice": 50.06,
+      "firstSeenAt": "2026-11-20T02:40:27.226Z",
+      "lastSeenAt": "2026-11-20T02:40:27.226Z"
+    },
+    "10848209453": {
+      "size": "S",
+      "condition": "veryGood",
+      "resale": 34,
+      "netProfit": 17.8,
+      "roi": 115.58,
+      "buyScore": 77,
+      "fakeRisk": {
+        "level": "LOW",
+        "note": "No configured major authenticity red flags detected | Seller: Seller screening not required for this bot"
+      },
+      "lastAlertedAt": "2026-11-20T02:40:30.187Z",
+      "discordMessageId": "1573166115943616574",
+      "title": "nike woven casual active sportswear full zip pockets utility jacket womens small",
+      "url": "https://www.vinted.co.uk/items/10848209453-nike-woven-casual-active-sportswear-full-zip-pockets-utility-jacket-womens-small",
+      "lastPrice": 15.4,
+      "firstSeenAt": "2026-11-20T02:40:30.187Z",
+      "lastSeenAt": "2026-11-20T02:40:30.187Z"
     }
   },
   "market": {
@@ -1828095,7 +1831118,7 @@
   "sellers": {},
   "images": {},
   "cursor": 4,
-  "updatedAt": "2026-11-19T21:46:17.737Z",
+  "updatedAt": "2026-11-20T02:36:13.763Z",
   "lastRotation": {
     "bot": "clothing",
     "selected": [
@@ -1828383,8 +1831406,8 @@
         "updatedAt": "2026-11-18T00:03:32.989Z"
       },
       "Nike Any Clothing Bargain::nike": {
-        "maxId": "10887133405",
-        "updatedAt": "2026-11-19T21:46:17.737Z"
+        "maxId": "10888797483",
+        "updatedAt": "2026-11-20T02:36:13.763Z"
       },
       "Nike Accessories Bargain::nike accessories": {
         "maxId": "9761883863",
@@ -1828451,28 +1831474,28 @@
         "updatedAt": "2026-11-19T21:46:17.737Z"
       },
       "Nike Fleece::nike fleece": {
-        "maxId": "10841513984",
-        "updatedAt": "2026-11-16T16:18:11.148Z"
+        "maxId": "10889274121",
+        "updatedAt": "2026-11-20T02:36:13.763Z"
       },
       "Nike Gilet::nike gilet": {
-        "maxId": "10847610961",
-        "updatedAt": "2026-11-17T00:17:53.066Z"
+        "maxId": "10889005824",
+        "updatedAt": "2026-11-20T02:36:13.763Z"
       },
       "Nike Windbreaker::nike windbreaker": {
-        "maxId": "10847695360",
-        "updatedAt": "2026-11-17T00:17:53.066Z"
+        "maxId": "10889321573",
+        "updatedAt": "2026-11-20T02:36:13.763Z"
       },
       "Nike Anorak::nike anorak": {
-        "maxId": "10846436786",
-        "updatedAt": "2026-11-17T00:17:53.066Z"
+        "maxId": "10886903866",
+        "updatedAt": "2026-11-20T02:36:13.763Z"
       },
       "Nike Rain Jacket::nike rain jacket": {
-        "maxId": "10845112437",
-        "updatedAt": "2026-11-17T00:17:53.066Z"
+        "maxId": "10888447788",
+        "updatedAt": "2026-11-20T02:36:13.763Z"
       },
       "Nike Woven Jacket::nike woven jacket": {
-        "maxId": "10846436786",
-        "updatedAt": "2026-11-17T00:17:53.066Z"
+        "maxId": "10887995408",
+        "updatedAt": "2026-11-20T02:36:13.763Z"
       },
       "Nike Bomber Jacket::nike bomber jacket": {
         "maxId": "10847415096",
@@ -1828535,14 +1831558,14 @@
         "updatedAt": "2026-11-19T13:08:39.505Z"
       }
     },
-    "lastScanAt": "2026-11-19T21:46:17.737Z",
-    "lastAttemptAt": "2026-11-19T21:46:17.737Z"
+    "lastScanAt": "2026-11-20T02:36:13.763Z",
+    "lastAttemptAt": "2026-11-20T02:36:13.763Z"
   },
   "diagnostics": {
     "bot": "clothing",
     "radarVersion": 6,
-    "lastRunAt": "2026-11-19T21:46:17.737Z",
-    "recoveryMode": false,
+    "lastRunAt": "2026-11-20T02:36:13.763Z",
+    "recoveryMode": true,
     "filterProfile": {
       "freshnessMinutes": 15,
       "priceMultiplier": 1.4,
@@ -1828557,48 +1831580,49 @@
     "totalSearchGroups": 81,
     "selectedSearches": [
       "Nike Any Clothing Bargain::nike",
-      "Nike Long Sleeve Top::nike long sleeve top",
-      "Nike Polo::nike polo",
-      "Nike Football Shirt::nike football shirt",
-      "Nike Training Top::nike training top",
-      "Nike Dri-FIT Top::nike dri fit top",
-      "Nike Quarter Zip::nike quarter zip"
+      "Nike Fleece::nike fleece",
+      "Nike Gilet::nike gilet",
+      "Nike Windbreaker::nike windbreaker",
+      "Nike Anorak::nike anorak",
+      "Nike Rain Jacket::nike rain jacket",
+      "Nike Woven Jacket::nike woven jacket"
     ],
     "successfulSearches": 7,
     "failedSearches": 0,
     "confirmedEmptySearches": 0,
     "catalogMarkers": 1344,
-    "catalogItems": 1027,
-    "candidateItems": 299,
-    "freshItems": 256,
+    "catalogItems": 1111,
+    "candidateItems": 269,
+    "freshItems": 225,
     "freshByAge": 0,
-    "freshByNewId": 256,
-    "qualifyingAlerts": 113,
-    "deliveredAlerts": 113,
+    "freshByNewId": 225,
+    "qualifyingAlerts": 85,
+    "deliveredAlerts": 85,
     "discordFailures": 0,
     "pendingDeliveries": 0,
     "rejects": {
-      "price": 70,
-      "stale": 32,
-      "condition": 53,
-      "size": 4,
-      "keyword": 9,
-      "detail-budget-exhausted": 7
+      "price": 88,
+      "recovery-no-fresh-signal": 43,
+      "condition": 26,
+      "keyword": 16,
+      "size": 5,
+      "score": 3,
+      "detail-budget-exhausted": 2
     },
     "failures": {},
     "healthyScan": true,
     "detailFetches": 6,
-    "duplicateSuppressed": 11,
     "qualifyingByCondition": {
-      "veryGood": 91,
-      "newWithoutTags": 18,
-      "newWithTags": 4
+      "newWithoutTags": 9,
+      "veryGood": 75,
+      "newWithTags": 1
     },
     "deliveredByCondition": {
-      "veryGood": 91,
-      "newWithoutTags": 18,
-      "newWithTags": 4
+      "newWithoutTags": 9,
+      "veryGood": 75,
+      "newWithTags": 1
     },
+    "duplicateSuppressed": 1,
     "healthReason": "all-selected-searches-completed",
     "discordRoutes": [
       {
@@ -1828634,7 +1831658,7 @@
   },
   "radarVersion": 6,
   "pendingDeliveries": {},
-  "rotationCursor": 7,
+  "rotationCursor": 13,
   "alertedItemIds": {
     "9757757267": "2026-08-23T20:37:33.120Z",
     "9757864455": "2026-08-23T20:37:41.737Z",
@@ -1875492,6 +1878516,91 @@
     "10887388231": "2026-11-19T21:51:48.049Z",
     "10887366458": "2026-11-19T21:51:50.010Z",
     "10867727446": "2026-11-19T21:51:52.809Z",
-    "10854353050": "2026-11-19T21:51:57.157Z"
+    "10854353050": "2026-11-19T21:51:57.157Z",
+    "10888797483": "2026-11-20T02:36:19.366Z",
+    "10889093237": "2026-11-20T02:36:26.086Z",
+    "10858736399": "2026-11-20T02:36:28.866Z",
+    "10858319175": "2026-11-20T02:36:31.833Z",
+    "10858302704": "2026-11-20T02:36:34.602Z",
+    "10858199645": "2026-11-20T02:36:37.268Z",
+    "10858098478": "2026-11-20T02:36:39.944Z",
+    "10857719693": "2026-11-20T02:36:42.762Z",
+    "10857122032": "2026-11-20T02:36:47.371Z",
+    "10857094495": "2026-11-20T02:36:49.709Z",
+    "10856605912": "2026-11-20T02:36:51.809Z",
+    "10856538191": "2026-11-20T02:36:54.387Z",
+    "10888987957": "2026-11-20T02:37:04.187Z",
+    "10888198092": "2026-11-20T02:37:06.211Z",
+    "10886556234": "2026-11-20T02:37:09.184Z",
+    "10886501527": "2026-11-20T02:37:11.703Z",
+    "10886094668": "2026-11-20T02:37:13.626Z",
+    "10885682645": "2026-11-20T02:37:16.727Z",
+    "10885565374": "2026-11-20T02:37:18.735Z",
+    "10885233566": "2026-11-20T02:37:21.148Z",
+    "10885114171": "2026-11-20T02:37:23.463Z",
+    "10885105212": "2026-11-20T02:37:25.561Z",
+    "10884418925": "2026-11-20T02:37:27.590Z",
+    "10884225826": "2026-11-20T02:37:29.840Z",
+    "10884200674": "2026-11-20T02:37:31.675Z",
+    "10883708837": "2026-11-20T02:37:33.845Z",
+    "10882939517": "2026-11-20T02:37:35.753Z",
+    "10882444489": "2026-11-20T02:37:40.726Z",
+    "10881497177": "2026-11-20T02:37:42.840Z",
+    "10874304434": "2026-11-20T02:37:45.520Z",
+    "10871404761": "2026-11-20T02:37:48.660Z",
+    "10889321573": "2026-11-20T02:37:55.178Z",
+    "10889013115": "2026-11-20T02:38:00.637Z",
+    "10888980899": "2026-11-20T02:38:03.545Z",
+    "10876380521": "2026-11-20T02:38:06.528Z",
+    "10875915584": "2026-11-20T02:38:08.411Z",
+    "10867904481": "2026-11-20T02:38:10.305Z",
+    "10858660965": "2026-11-20T02:38:12.570Z",
+    "10858410765": "2026-11-20T02:38:15.478Z",
+    "10858397914": "2026-11-20T02:38:17.730Z",
+    "10858375111": "2026-11-20T02:38:19.987Z",
+    "10858316113": "2026-11-20T02:38:22.064Z",
+    "10857998582": "2026-11-20T02:38:26.730Z",
+    "10857853802": "2026-11-20T02:38:29.803Z",
+    "10857849994": "2026-11-20T02:38:32.827Z",
+    "10857828951": "2026-11-20T02:38:35.990Z",
+    "10857784398": "2026-11-20T02:38:38.626Z",
+    "10857740824": "2026-11-20T02:38:41.828Z",
+    "10857670084": "2026-11-20T02:38:43.763Z",
+    "10857618526": "2026-11-20T02:38:46.029Z",
+    "10857428861": "2026-11-20T02:38:48.147Z",
+    "10857267721": "2026-11-20T02:38:50.373Z",
+    "10857238045": "2026-11-20T02:38:52.234Z",
+    "10857060035": "2026-11-20T02:38:54.641Z",
+    "10856997872": "2026-11-20T02:38:57.002Z",
+    "10856995741": "2026-11-20T02:38:59.845Z",
+    "10856940070": "2026-11-20T02:39:01.778Z",
+    "10849116045": "2026-11-20T02:39:03.752Z",
+    "10886903866": "2026-11-20T02:39:12.119Z",
+    "10885799657": "2026-11-20T02:39:14.089Z",
+    "10874589806": "2026-11-20T02:39:17.163Z",
+    "10873176998": "2026-11-20T02:39:20.145Z",
+    "10869009815": "2026-11-20T02:39:22.467Z",
+    "10848731664": "2026-11-20T02:39:24.839Z",
+    "10888340793": "2026-11-20T02:39:32.556Z",
+    "10888001349": "2026-11-20T02:39:35.715Z",
+    "10887538868": "2026-11-20T02:39:37.871Z",
+    "10886893658": "2026-11-20T02:39:39.930Z",
+    "10885000403": "2026-11-20T02:39:42.692Z",
+    "10883869419": "2026-11-20T02:39:45.105Z",
+    "10883430739": "2026-11-20T02:39:49.557Z",
+    "10883197091": "2026-11-20T02:39:52.620Z",
+    "10882762468": "2026-11-20T02:39:55.008Z",
+    "10882225159": "2026-11-20T02:39:57.771Z",
+    "10881800682": "2026-11-20T02:39:59.408Z",
+    "10853501220": "2026-11-20T02:40:01.520Z",
+    "10852610406": "2026-11-20T02:40:04.553Z",
+    "10849179241": "2026-11-20T02:40:06.807Z",
+    "10849132598": "2026-11-20T02:40:09.575Z",
+    "10848259825": "2026-11-20T02:40:11.573Z",
+    "10846483658": "2026-11-20T02:40:13.929Z",
+    "10879730722": "2026-11-20T02:40:22.990Z",
+    "10856607252": "2026-11-20T02:40:24.957Z",
+    "10849273127": "2026-11-20T02:40:27.225Z",
+    "10848209453": "2026-11-20T02:40:30.187Z"
   }
 }
