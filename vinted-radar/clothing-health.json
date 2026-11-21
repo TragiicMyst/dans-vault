@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-11-21T21:09:39.676Z",
-  "stateUpdatedAt": "2026-11-21T21:09:39.676Z",
-  "lastAttemptAt": "2026-11-21T21:09:39.676Z",
-  "lastScanAt": "2026-11-21T21:09:39.676Z",
+  "generatedAt": "2026-11-21T21:14:24.560Z",
+  "stateUpdatedAt": "2026-11-21T21:14:24.560Z",
+  "lastAttemptAt": "2026-11-21T21:14:24.560Z",
+  "lastScanAt": "2026-11-21T21:14:24.560Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Stride Running Jacket::nike stride running jacket",
-    "Nike T-Shirt::nike t shirt",
-    "Nike Long Sleeve Top::nike long sleeve top",
-    "Nike Polo::nike polo",
-    "Nike Football Shirt::nike football shirt",
-    "Nike Training Top::nike training top"
+    "Nike Dri-FIT Top::nike dri fit top",
+    "Nike Quarter Zip::nike quarter zip",
+    "Nike Fleece::nike fleece",
+    "Nike Gilet::nike gilet",
+    "Nike Windbreaker::nike windbreaker",
+    "Nike Anorak::nike anorak"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 1029,
-  "candidateItems": 324,
-  "freshItems": 200,
-  "qualifyingAlerts": 73,
+  "catalogItems": 1046,
+  "candidateItems": 288,
+  "freshItems": 210,
+  "qualifyingAlerts": 76,
   "qualifyingByCondition": {
-    "veryGood": 66,
-    "newWithoutTags": 4,
+    "newWithoutTags": 11,
+    "veryGood": 62,
     "newWithTags": 3
   },
-  "deliveredAlerts": 73,
+  "deliveredAlerts": 76,
   "deliveredByCondition": {
-    "veryGood": 66,
-    "newWithoutTags": 4,
+    "newWithoutTags": 11,
+    "veryGood": 62,
     "newWithTags": 3
   },
-  "duplicateSuppressed": 22,
+  "duplicateSuppressed": 11,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,12 +69,13 @@
   "pendingDeliveries": 0,
   "detailFetches": 6,
   "rejects": {
-    "price": 56,
-    "condition": 37,
-    "size": 6,
-    "recovery-no-fresh-signal": 102,
-    "keyword": 14,
-    "detail-budget-exhausted": 14
+    "stale": 67,
+    "size": 5,
+    "condition": 35,
+    "price": 67,
+    "keyword": 15,
+    "detail-budget-exhausted": 10,
+    "score": 2
   },
   "failures": {}
 }
