@@ -3,11 +3,6 @@
   "history": {
     "tnf-1996-nuptse:north-face-nuptse-700": [
       {
-        "at": "2026-11-07T02:11:51.096Z",
-        "count": 35,
-        "median": 128
-      },
-      {
         "at": "2026-11-07T15:14:26.177Z",
         "count": 35,
         "median": 129
@@ -166,14 +161,14 @@
         "at": "2026-11-20T17:13:18.353Z",
         "count": 35,
         "median": 115
+      },
+      {
+        "at": "2026-11-21T03:54:39.876Z",
+        "count": 35,
+        "median": 120
       }
     ],
     "tnf-1996-nuptse:north-face-1996-nuptse": [
-      {
-        "at": "2026-11-07T02:11:51.096Z",
-        "count": 35,
-        "median": 145
-      },
       {
         "at": "2026-11-07T15:14:26.177Z",
         "count": 35,
@@ -333,14 +328,14 @@
         "at": "2026-11-20T17:13:18.353Z",
         "count": 35,
         "median": 120
+      },
+      {
+        "at": "2026-11-21T03:54:39.876Z",
+        "count": 35,
+        "median": 133
       }
     ],
     "tnf-himalayan:north-face-himalayan-puffer": [
-      {
-        "at": "2026-11-07T02:11:51.096Z",
-        "count": 35,
-        "median": 150
-      },
       {
         "at": "2026-11-07T15:14:26.177Z",
         "count": 35,
@@ -500,14 +495,14 @@
         "at": "2026-11-20T17:13:18.353Z",
         "count": 35,
         "median": 145
+      },
+      {
+        "at": "2026-11-21T03:54:39.876Z",
+        "count": 35,
+        "median": 145
       }
     ],
     "tnf-himalayan:north-face-hmlyn-parka": [
-      {
-        "at": "2026-11-07T02:11:51.096Z",
-        "count": 10,
-        "median": 179.995
-      },
       {
         "at": "2026-11-07T15:14:26.177Z",
         "count": 10,
@@ -667,14 +662,14 @@
         "at": "2026-11-20T17:13:18.353Z",
         "count": 11,
         "median": 190
+      },
+      {
+        "at": "2026-11-21T03:54:39.876Z",
+        "count": 11,
+        "median": 190
       }
     ],
     "tnf-baltoro:north-face-baltoro-jacket": [
-      {
-        "at": "2026-11-07T02:11:51.096Z",
-        "count": 14,
-        "median": 297.5
-      },
       {
         "at": "2026-11-07T15:14:26.177Z",
         "count": 14,
@@ -834,14 +829,14 @@
         "at": "2026-11-20T17:13:18.353Z",
         "count": 16,
         "median": 295
+      },
+      {
+        "at": "2026-11-21T03:54:39.876Z",
+        "count": 16,
+        "median": 295
       }
     ],
     "tnf-summit-down:north-face-summit-series-down": [
-      {
-        "at": "2026-11-07T02:11:51.096Z",
-        "count": 35,
-        "median": 170
-      },
       {
         "at": "2026-11-07T15:14:26.177Z",
         "count": 35,
@@ -999,6 +994,11 @@
       },
       {
         "at": "2026-11-20T17:13:18.353Z",
+        "count": 35,
+        "median": 150
+      },
+      {
+        "at": "2026-11-21T03:54:39.876Z",
         "count": 35,
         "median": 150
       }
@@ -1168,6 +1168,11 @@
         "at": "2026-11-20T17:16:18.281Z",
         "count": 28,
         "median": 135
+      },
+      {
+        "at": "2026-11-21T03:54:39.876Z",
+        "count": 31,
+        "median": 135
       }
     ],
     "rab-neutrino:rab-neutrino-pro": [
@@ -1335,6 +1340,11 @@
         "at": "2026-11-20T17:16:18.281Z",
         "count": 5,
         "median": 260
+      },
+      {
+        "at": "2026-11-21T03:54:39.876Z",
+        "count": 6,
+        "median": 255
       }
     ],
     "rab-electron:rab-electron-pro": [
@@ -1502,6 +1512,11 @@
         "at": "2026-11-20T17:16:18.281Z",
         "count": 12,
         "median": 104.97
+      },
+      {
+        "at": "2026-11-21T03:57:39.606Z",
+        "count": 13,
+        "median": 109.99
       }
     ],
     "patagonia-down-sweater:patagonia-down-sweater-jacket": [
@@ -1669,6 +1684,11 @@
         "at": "2026-11-20T17:16:18.281Z",
         "count": 35,
         "median": 73.48
+      },
+      {
+        "at": "2026-11-21T03:57:39.606Z",
+        "count": 35,
+        "median": 80
       }
     ],
     "patagonia-down-sweater:patagonia-down-sweater-hoody": [
@@ -1836,6 +1856,11 @@
         "at": "2026-11-20T17:16:18.281Z",
         "count": 17,
         "median": 105
+      },
+      {
+        "at": "2026-11-21T03:57:39.606Z",
+        "count": 16,
+        "median": 107.5
       }
     ],
     "patagonia-fitz-roy:patagonia-fitz-roy-down": [
@@ -2001,6 +2026,11 @@
       },
       {
         "at": "2026-11-20T17:16:18.281Z",
+        "count": 5,
+        "median": 230
+      },
+      {
+        "at": "2026-11-21T03:57:39.606Z",
         "count": 5,
         "median": 230
       }
@@ -2170,6 +2200,11 @@
         "at": "2026-11-20T17:16:18.281Z",
         "count": 26,
         "median": 212.5
+      },
+      {
+        "at": "2026-11-21T03:57:39.606Z",
+        "count": 25,
+        "median": 225
       }
     ],
     "arcteryx-cerium:arc-teryx-cerium": [
@@ -2336,6 +2371,11 @@
       {
         "at": "2026-11-20T17:16:18.281Z",
         "count": 35,
+        "median": 200
+      },
+      {
+        "at": "2026-11-21T03:57:39.606Z",
+        "count": 34,
         "median": 200
       }
     ],
@@ -2504,6 +2544,11 @@
         "at": "2026-11-20T23:04:21.246Z",
         "count": 11,
         "median": 300
+      },
+      {
+        "at": "2026-11-21T03:57:39.606Z",
+        "count": 12,
+        "median": 300
       }
     ],
     "arcteryx-thorium:arc-teryx-thorium": [
@@ -2670,6 +2715,11 @@
       {
         "at": "2026-11-20T23:04:21.246Z",
         "count": 11,
+        "median": 300
+      },
+      {
+        "at": "2026-11-21T03:57:39.606Z",
+        "count": 12,
         "median": 300
       }
     ],
@@ -2838,6 +2888,11 @@
         "at": "2026-11-20T23:04:21.246Z",
         "count": 35,
         "median": 90
+      },
+      {
+        "at": "2026-11-21T04:00:39.463Z",
+        "count": 35,
+        "median": 92.69
       }
     ],
     "ralph-lauren-puffer:polo-ralph-lauren-down-jacket": [
@@ -3005,6 +3060,11 @@
         "at": "2026-11-20T23:04:21.246Z",
         "count": 35,
         "median": 100
+      },
+      {
+        "at": "2026-11-21T04:00:39.463Z",
+        "count": 35,
+        "median": 105
       }
     ],
     "nike-puffer:nike-puffer-jacket-mens": [
@@ -3170,6 +3230,11 @@
       },
       {
         "at": "2026-11-20T23:04:21.246Z",
+        "count": 35,
+        "median": 75
+      },
+      {
+        "at": "2026-11-21T04:00:39.463Z",
         "count": 35,
         "median": 75
       }
@@ -3339,14 +3404,14 @@
         "at": "2026-11-20T23:04:21.246Z",
         "count": 35,
         "median": 61.11
+      },
+      {
+        "at": "2026-11-21T04:00:39.463Z",
+        "count": 35,
+        "median": 61.02
       }
     ],
     "berghaus-down:berghaus-down-jacket": [
-      {
-        "at": "2026-11-07T02:05:51.461Z",
-        "count": 35,
-        "median": 89.99
-      },
       {
         "at": "2026-11-07T08:46:37.336Z",
         "count": 35,
@@ -3511,14 +3576,14 @@
         "at": "2026-11-20T23:04:21.246Z",
         "count": 35,
         "median": 80
+      },
+      {
+        "at": "2026-11-21T04:00:39.463Z",
+        "count": 35,
+        "median": 80
       }
     ],
     "berghaus-down:berghaus-puffer-jacket": [
-      {
-        "at": "2026-11-07T02:05:51.461Z",
-        "count": 35,
-        "median": 80
-      },
       {
         "at": "2026-11-07T08:46:37.336Z",
         "count": 35,
@@ -3683,14 +3748,14 @@
         "at": "2026-11-20T23:04:21.246Z",
         "count": 35,
         "median": 65
+      },
+      {
+        "at": "2026-11-21T04:00:39.463Z",
+        "count": 35,
+        "median": 70
       }
     ],
     "napapijri-skidoo:napapijri-skidoo-jacket": [
-      {
-        "at": "2026-11-07T02:05:51.461Z",
-        "count": 28,
-        "median": 200
-      },
       {
         "at": "2026-11-07T08:49:37.077Z",
         "count": 28,
@@ -3855,14 +3920,14 @@
         "at": "2026-11-20T23:07:21.582Z",
         "count": 29,
         "median": 200
+      },
+      {
+        "at": "2026-11-21T04:00:39.463Z",
+        "count": 29,
+        "median": 200
       }
     ],
     "napapijri-skidoo:napapijri-rainforest-winter": [
-      {
-        "at": "2026-11-07T02:05:51.461Z",
-        "count": 35,
-        "median": 95
-      },
       {
         "at": "2026-11-07T08:49:37.077Z",
         "count": 35,
@@ -4027,14 +4092,14 @@
         "at": "2026-11-20T23:07:21.582Z",
         "count": 35,
         "median": 90
+      },
+      {
+        "at": "2026-11-21T04:00:39.463Z",
+        "count": 35,
+        "median": 90
       }
     ],
     "hunter:north-face-coat": [
-      {
-        "at": "2026-11-07T02:05:51.461Z",
-        "count": 35,
-        "median": 30
-      },
       {
         "at": "2026-11-07T08:49:37.077Z",
         "count": 35,
@@ -4203,11 +4268,6 @@
     ],
     "hunter:north-face-puffer": [
       {
-        "at": "2026-11-07T02:05:51.461Z",
-        "count": 35,
-        "median": 68
-      },
-      {
         "at": "2026-11-07T08:49:37.077Z",
         "count": 35,
         "median": 79
@@ -4374,11 +4434,6 @@
       }
     ],
     "hunter:north-face-700": [
-      {
-        "at": "2026-11-07T02:05:51.461Z",
-        "count": 35,
-        "median": 90
-      },
       {
         "at": "2026-11-07T08:49:37.077Z",
         "count": 35,
@@ -4547,11 +4602,6 @@
     ],
     "hunter:mens-north-face-jacket": [
       {
-        "at": "2026-11-07T02:05:51.461Z",
-        "count": 35,
-        "median": 56.45
-      },
-      {
         "at": "2026-11-07T08:49:37.077Z",
         "count": 35,
         "median": 50.75
@@ -4718,11 +4768,6 @@
       }
     ],
     "hunter:rab-puffer": [
-      {
-        "at": "2026-11-07T02:08:51.483Z",
-        "count": 35,
-        "median": 105
-      },
       {
         "at": "2026-11-07T08:49:37.077Z",
         "count": 35,
@@ -4891,11 +4936,6 @@
     ],
     "hunter:rab-down-jacket": [
       {
-        "at": "2026-11-07T02:08:51.483Z",
-        "count": 35,
-        "median": 120
-      },
-      {
         "at": "2026-11-07T08:49:37.077Z",
         "count": 35,
         "median": 120
@@ -5062,11 +5102,6 @@
       }
     ],
     "hunter:patagonia-puffer": [
-      {
-        "at": "2026-11-07T02:08:51.483Z",
-        "count": 35,
-        "median": 75.26
-      },
       {
         "at": "2026-11-07T15:11:26.840Z",
         "count": 35,
@@ -5235,11 +5270,6 @@
     ],
     "hunter:arcteryx-jacket": [
       {
-        "at": "2026-11-07T02:08:51.483Z",
-        "count": 35,
-        "median": 115
-      },
-      {
         "at": "2026-11-07T15:11:26.840Z",
         "count": 35,
         "median": 125
@@ -5406,11 +5436,6 @@
       }
     ],
     "hunter:arc-teryx-puffer": [
-      {
-        "at": "2026-11-07T02:08:51.483Z",
-        "count": 35,
-        "median": 238
-      },
       {
         "at": "2026-11-07T15:11:26.840Z",
         "count": 35,
@@ -5579,11 +5604,6 @@
     ],
     "hunter:ralph-lauren-puffer": [
       {
-        "at": "2026-11-07T02:08:51.483Z",
-        "count": 35,
-        "median": 135
-      },
-      {
         "at": "2026-11-07T15:11:26.840Z",
         "count": 35,
         "median": 90
@@ -5750,11 +5770,6 @@
       }
     ],
     "hunter:polo-puffer-jacket": [
-      {
-        "at": "2026-11-07T02:08:51.483Z",
-        "count": 35,
-        "median": 70
-      },
       {
         "at": "2026-11-07T15:11:26.840Z",
         "count": 35,
@@ -5923,11 +5938,6 @@
     ],
     "hunter:nike-puffer-jacket": [
       {
-        "at": "2026-11-07T02:08:51.483Z",
-        "count": 35,
-        "median": 40
-      },
-      {
         "at": "2026-11-07T15:11:26.840Z",
         "count": 35,
         "median": 45
@@ -6095,11 +6105,6 @@
     ],
     "hunter:berghaus-puffer": [
       {
-        "at": "2026-11-07T02:11:51.096Z",
-        "count": 35,
-        "median": 80
-      },
-      {
         "at": "2026-11-07T15:11:26.840Z",
         "count": 35,
         "median": 80
@@ -6266,11 +6271,6 @@
       }
     ],
     "hunter:napapijri-jacket": [
-      {
-        "at": "2026-11-07T02:11:51.096Z",
-        "count": 35,
-        "median": 60
-      },
       {
         "at": "2026-11-07T15:11:26.840Z",
         "count": 35,
@@ -6441,5 +6441,5 @@
   "momentumAlerts": {
     "tnf-himalayan:north-face-hmlyn-parka": "2026-10-27T14:46:21.578Z"
   },
-  "lastRunAt": "2026-11-20T23:10:33.095Z"
+  "lastRunAt": "2026-11-21T04:00:48.806Z"
 }
