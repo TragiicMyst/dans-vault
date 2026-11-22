@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-11-22T01:25:52.546Z",
-  "stateUpdatedAt": "2026-11-22T01:25:52.546Z",
-  "lastAttemptAt": "2026-11-22T01:25:52.546Z",
-  "lastScanAt": "2026-11-22T01:25:52.546Z",
+  "generatedAt": "2026-11-22T08:26:28.588Z",
+  "stateUpdatedAt": "2026-11-22T08:26:28.588Z",
+  "lastAttemptAt": "2026-11-22T08:26:28.588Z",
+  "lastScanAt": "2026-11-22T08:26:28.588Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Track Pants::nike track pants",
-    "Nike Woven Trousers::nike woven trousers",
-    "Nike Tracksuit::nike tracksuit",
-    "Nike Vintage Clothing::vintage nike",
-    "Nike SB Clothing::nike sb clothing",
-    "Nike Vest::nike vest"
+    "Nike Air Max Hoodie::nike air max hoodie",
+    "Nike Zip Hoodie::nike zip hoodie",
+    "Nike Hoodie::nike hoodie",
+    "Nike Sweatshirt::nike sweatshirt",
+    "Nike Track Jacket::nike track jacket",
+    "Nike Joggers::nike joggers"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
   "catalogMarkers": 1344,
-  "catalogItems": 1052,
-  "candidateItems": 324,
-  "freshItems": 215,
-  "qualifyingAlerts": 70,
+  "catalogItems": 1022,
+  "candidateItems": 272,
+  "freshItems": 126,
+  "qualifyingAlerts": 54,
   "qualifyingByCondition": {
-    "veryGood": 61,
-    "newWithoutTags": 8,
+    "veryGood": 49,
+    "newWithoutTags": 4,
     "newWithTags": 1
   },
-  "deliveredAlerts": 70,
+  "deliveredAlerts": 54,
   "deliveredByCondition": {
-    "veryGood": 61,
-    "newWithoutTags": 8,
+    "veryGood": 49,
+    "newWithoutTags": 4,
     "newWithTags": 1
   },
-  "duplicateSuppressed": 5,
+  "duplicateSuppressed": 9,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -69,12 +69,13 @@
   "pendingDeliveries": 0,
   "detailFetches": 6,
   "rejects": {
-    "price": 82,
-    "stale": 104,
-    "condition": 41,
+    "recovery-no-fresh-signal": 137,
+    "size": 5,
+    "price": 20,
+    "condition": 30,
     "keyword": 9,
-    "size": 6,
-    "detail-budget-exhausted": 7
+    "detail-budget-exhausted": 7,
+    "weak-margin": 1
   },
   "failures": {}
 }
