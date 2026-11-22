@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-11-21T23:59:50.794Z",
+    "startedAt": "2026-11-22T04:14:17.535Z",
     "searchGroups": [
-      "arcteryx-cerium:arcteryx-cerium-jacket",
-      "arcteryx-cerium:arc-teryx-cerium",
-      "arcteryx-thorium:arcteryx-thorium-jacket",
-      "arcteryx-thorium:arc-teryx-thorium",
-      "ralph-lauren-puffer:ralph-lauren-puffer-jacket",
-      "ralph-lauren-puffer:polo-ralph-lauren-down-jacket",
-      "nike-puffer:nike-puffer-jacket-mens",
-      "nike-puffer:nike-down-jacket"
+      "hunter:berghaus-puffer",
+      "hunter:napapijri-jacket",
+      "tnf-1996-nuptse:north-face-nuptse-700",
+      "tnf-1996-nuptse:north-face-1996-nuptse",
+      "tnf-himalayan:north-face-himalayan-puffer",
+      "tnf-himalayan:north-face-hmlyn-parka",
+      "tnf-baltoro:north-face-baltoro-jacket",
+      "tnf-summit-down:north-face-summit-series-down"
     ],
-    "vintedItems": 216,
-    "freshItems": 11,
+    "vintedItems": 236,
+    "freshItems": 1,
     "freshByAge": 0,
-    "freshByNewId": 11,
+    "freshByNewId": 1,
     "bootstrapBlocked": 0,
-    "staleBlocked": 2,
-    "candidates": 11,
+    "staleBlocked": 0,
+    "candidates": 0,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-11-22T04:11:24.528Z",
+      "platform": "VINTED",
+      "id": "10916074818",
+      "title": "mens polo jacket",
+      "url": "https://www.vinted.co.uk/items/10916074818-mens-polo-jacket",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 40,
+      "estimatedNetProfit": 31.73,
+      "roi": 79.33,
+      "score": 82
+    },
     {
       "at": "2026-11-21T23:53:54.853Z",
       "platform": "VINTED",
@@ -251,18 +263,6 @@
       "buyPrice": 7,
       "estimatedNetProfit": 46.52,
       "roi": 664.57,
-      "score": 87
-    },
-    {
-      "at": "2026-11-19T02:03:30.340Z",
-      "platform": "VINTED",
-      "id": "10871701828",
-      "title": "nike puffer jacket",
-      "url": "https://www.vinted.co.uk/items/10871701828-nike-puffer-jacket",
-      "modelId": "nike-puffer",
-      "buyPrice": 30,
-      "estimatedNetProfit": 26.88,
-      "roi": 89.6,
       "score": 87
     }
   ]
