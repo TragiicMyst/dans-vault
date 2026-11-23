@@ -1,39 +1,37 @@
 {
-  "generatedAt": "2026-11-23T02:54:13.014Z",
-  "stateUpdatedAt": "2026-11-23T02:54:13.014Z",
-  "lastAttemptAt": "2026-11-23T02:54:13.014Z",
-  "lastScanAt": "2026-11-23T02:54:13.014Z",
+  "generatedAt": "2026-11-23T11:17:57.346Z",
+  "stateUpdatedAt": "2026-11-23T11:17:57.346Z",
+  "lastAttemptAt": "2026-11-23T11:17:57.346Z",
+  "lastScanAt": "2026-11-23T11:17:57.346Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike Sportswear Winterised Jacket::nike sportswear winterised jacket",
-    "Nike NOCTA Joggers::nike nocta joggers",
-    "Nike ACG Fleece::nike acg fleece",
-    "Nike Club Fleece Open-Hem Trousers::nike club fleece open hem trousers",
-    "Nike Trail Repel Jacket::nike trail repel jacket",
-    "Jordan Flight Fleece Hoodie::jordan flight fleece hoodie"
+    "Nike ACG Wolf Tree::nike acg wolf tree",
+    "Nike Club Fleece Crew::nike club fleece crew",
+    "Nike Running Division Jacket::nike running division jacket",
+    "Jordan Flight Fleece Joggers::jordan flight fleece joggers",
+    "Nike ACG Tuff Fleece::nike acg tuff fleece",
+    "Nike Solo Swoosh Crew::nike solo swoosh sweatshirt"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 884,
-  "catalogItems": 540,
-  "candidateItems": 225,
-  "freshItems": 34,
-  "qualifyingAlerts": 16,
+  "catalogMarkers": 1356,
+  "catalogItems": 776,
+  "candidateItems": 391,
+  "freshItems": 19,
+  "qualifyingAlerts": 11,
   "qualifyingByCondition": {
-    "veryGood": 11,
-    "newWithoutTags": 3,
-    "newWithTags": 2
+    "newWithoutTags": 1,
+    "veryGood": 10
   },
-  "deliveredAlerts": 16,
+  "deliveredAlerts": 11,
   "deliveredByCondition": {
-    "veryGood": 11,
-    "newWithoutTags": 3,
-    "newWithTags": 2
+    "newWithoutTags": 1,
+    "veryGood": 10
   },
-  "duplicateSuppressed": 71,
+  "duplicateSuppressed": 123,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -67,12 +65,14 @@
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 0,
+  "detailFetches": 2,
   "rejects": {
-    "recovery-no-fresh-signal": 120,
-    "condition": 9,
-    "keyword": 1,
-    "price": 8
+    "keyword": 2,
+    "recovery-no-fresh-signal": 249,
+    "price": 3,
+    "size": 1,
+    "condition": 1,
+    "weak-margin": 1
   },
   "failures": {}
 }
