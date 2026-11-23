@@ -1,37 +1,39 @@
 {
-  "generatedAt": "2026-11-23T11:17:57.346Z",
-  "stateUpdatedAt": "2026-11-23T11:17:57.346Z",
-  "lastAttemptAt": "2026-11-23T11:17:57.346Z",
-  "lastScanAt": "2026-11-23T11:17:57.346Z",
+  "generatedAt": "2026-11-23T12:14:32.635Z",
+  "stateUpdatedAt": "2026-11-23T12:14:32.635Z",
+  "lastAttemptAt": "2026-11-23T12:14:32.635Z",
+  "lastScanAt": "2026-11-23T12:14:32.635Z",
   "cooldownUntil": null,
   "healthyScan": true,
   "healthReason": "all-selected-searches-completed",
   "selectedSearches": [
     "Nike Any Clothing Bargain::nike",
-    "Nike ACG Wolf Tree::nike acg wolf tree",
-    "Nike Club Fleece Crew::nike club fleece crew",
-    "Nike Running Division Jacket::nike running division jacket",
-    "Jordan Flight Fleece Joggers::jordan flight fleece joggers",
-    "Nike ACG Tuff Fleece::nike acg tuff fleece",
-    "Nike Solo Swoosh Crew::nike solo swoosh sweatshirt"
+    "Nike Miler Repel Jacket::nike miler repel jacket",
+    "Nike Solo Swoosh Joggers::nike solo swoosh joggers",
+    "Nike Stride Running Jacket::nike stride running jacket",
+    "Nike T-Shirt::nike t shirt",
+    "Nike Long Sleeve Top::nike long sleeve top",
+    "Nike Polo::nike polo"
   ],
   "successfulSearches": 7,
   "failedSearches": 0,
-  "catalogMarkers": 1356,
-  "catalogItems": 776,
-  "candidateItems": 391,
-  "freshItems": 19,
-  "qualifyingAlerts": 11,
+  "catalogMarkers": 1344,
+  "catalogItems": 900,
+  "candidateItems": 341,
+  "freshItems": 142,
+  "qualifyingAlerts": 69,
   "qualifyingByCondition": {
-    "newWithoutTags": 1,
-    "veryGood": 10
+    "veryGood": 50,
+    "newWithoutTags": 8,
+    "newWithTags": 11
   },
-  "deliveredAlerts": 11,
+  "deliveredAlerts": 69,
   "deliveredByCondition": {
-    "newWithoutTags": 1,
-    "veryGood": 10
+    "veryGood": 50,
+    "newWithoutTags": 8,
+    "newWithTags": 11
   },
-  "duplicateSuppressed": 123,
+  "duplicateSuppressed": 59,
   "discordFailures": 0,
   "discordRoutes": [
     {
@@ -65,14 +67,14 @@
   "discordRouteAutoCorrected": false,
   "discordRouteWarnings": [],
   "pendingDeliveries": 0,
-  "detailFetches": 2,
+  "detailFetches": 6,
   "rejects": {
-    "keyword": 2,
-    "recovery-no-fresh-signal": 249,
-    "price": 3,
-    "size": 1,
-    "condition": 1,
-    "weak-margin": 1
+    "recovery-no-fresh-signal": 140,
+    "price": 33,
+    "condition": 29,
+    "size": 5,
+    "keyword": 4,
+    "detail-budget-exhausted": 2
   },
   "failures": {}
 }
