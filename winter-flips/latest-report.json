@@ -2,29 +2,65 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-11-22T20:01:59.304Z",
+    "startedAt": "2026-11-23T00:47:32.177Z",
     "searchGroups": [
-      "rab-electron:rab-electron-pro",
-      "patagonia-down-sweater:patagonia-down-sweater-jacket",
-      "patagonia-down-sweater:patagonia-down-sweater-hoody",
-      "patagonia-fitz-roy:patagonia-fitz-roy-down",
-      "arcteryx-cerium:arcteryx-cerium-jacket",
-      "arcteryx-cerium:arc-teryx-cerium",
-      "arcteryx-thorium:arcteryx-thorium-jacket",
-      "arcteryx-thorium:arc-teryx-thorium"
+      "hunter:arc-teryx-puffer",
+      "hunter:ralph-lauren-puffer",
+      "hunter:polo-puffer-jacket",
+      "hunter:nike-puffer-jacket",
+      "hunter:berghaus-puffer",
+      "hunter:napapijri-jacket",
+      "tnf-1996-nuptse:north-face-nuptse-700",
+      "tnf-1996-nuptse:north-face-1996-nuptse"
     ],
-    "vintedItems": 150,
-    "freshItems": 1,
+    "vintedItems": 280,
+    "freshItems": 16,
     "freshByAge": 0,
-    "freshByNewId": 1,
+    "freshByNewId": 16,
     "bootstrapBlocked": 0,
-    "staleBlocked": 0,
-    "candidates": 1,
+    "staleBlocked": 9,
+    "candidates": 4,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-11-23T00:41:35.611Z",
+      "platform": "VINTED",
+      "id": "10931937759",
+      "title": "polo ralph lauren kids reversible quilted jacket pink and cream age 4",
+      "url": "https://www.vinted.co.uk/items/10931937759-polo-ralph-lauren-kids-reversible-quilted-jacket-pink-and-cream-age-4",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 29,
+      "estimatedNetProfit": 49.38,
+      "roi": 170.28,
+      "score": 92
+    },
+    {
+      "at": "2026-11-23T00:41:35.015Z",
+      "platform": "VINTED",
+      "id": "10932233604",
+      "title": "girls pink ralph lauren coat",
+      "url": "https://www.vinted.co.uk/items/10932233604-girls-pink-ralph-lauren-coat",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 35,
+      "estimatedNetProfit": 39.78,
+      "roi": 113.66,
+      "score": 86
+    },
+    {
+      "at": "2026-11-23T00:41:34.340Z",
+      "platform": "VINTED",
+      "id": "10932794404",
+      "title": "ralph lauren puffa coat",
+      "url": "https://www.vinted.co.uk/items/10932794404-ralph-lauren-puffa-coat",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 28,
+      "estimatedNetProfit": 47.17,
+      "roi": 168.46,
+      "score": 96
+    },
     {
       "at": "2026-11-22T19:56:07.806Z",
       "platform": "VINTED",
@@ -228,42 +264,6 @@
       "estimatedNetProfit": 35.14,
       "roi": 87.85,
       "score": 88
-    },
-    {
-      "at": "2026-11-20T01:13:50.280Z",
-      "platform": "VINTED",
-      "id": "10886969422",
-      "title": "nike puffer coat",
-      "url": "https://www.vinted.co.uk/items/10886969422-nike-puffer-coat",
-      "modelId": "nike-puffer",
-      "buyPrice": 20,
-      "estimatedNetProfit": 32.81,
-      "roi": 164.05,
-      "score": 91
-    },
-    {
-      "at": "2026-11-20T01:10:58.377Z",
-      "platform": "VINTED",
-      "id": "10887380710",
-      "title": "polo ralph lauren hot pink puffer jacket youth xl 16 womens xs s nwt",
-      "url": "https://www.vinted.co.uk/items/10887380710-polo-ralph-lauren-hot-pink-puffer-jacket-youth-xl-16-womens-xs-s-nwt",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 45,
-      "estimatedNetProfit": 39.04,
-      "roi": 86.76,
-      "score": 87
-    },
-    {
-      "at": "2026-11-19T19:04:25.410Z",
-      "platform": "VINTED",
-      "id": "10885543779",
-      "title": "ralph lauren baby coat",
-      "url": "https://www.vinted.co.uk/items/10885543779-ralph-lauren-baby-coat",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 35,
-      "estimatedNetProfit": 40.18,
-      "roi": 114.8,
-      "score": 86
     }
   ]
 }
