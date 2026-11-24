@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-11-23T20:26:36.709Z",
+    "startedAt": "2026-11-24T04:57:36.551Z",
     "searchGroups": [
-      "tnf-baltoro:north-face-baltoro-jacket",
-      "tnf-summit-down:north-face-summit-series-down",
-      "rab-microlight:rab-microlight-alpine",
-      "rab-neutrino:rab-neutrino-pro",
-      "rab-electron:rab-electron-pro",
-      "patagonia-down-sweater:patagonia-down-sweater-jacket",
-      "patagonia-down-sweater:patagonia-down-sweater-hoody",
-      "patagonia-fitz-roy:patagonia-fitz-roy-down"
+      "hunter:rab-puffer",
+      "hunter:rab-down-jacket",
+      "hunter:patagonia-puffer",
+      "hunter:arcteryx-jacket",
+      "hunter:arc-teryx-puffer",
+      "hunter:ralph-lauren-puffer",
+      "hunter:polo-puffer-jacket",
+      "hunter:nike-puffer-jacket"
     ],
-    "vintedItems": 153,
-    "freshItems": 0,
+    "vintedItems": 280,
+    "freshItems": 20,
     "freshByAge": 0,
-    "freshByNewId": 0,
+    "freshByNewId": 20,
     "bootstrapBlocked": 0,
-    "staleBlocked": 0,
-    "candidates": 0,
+    "staleBlocked": 16,
+    "candidates": 3,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-11-24T04:51:41.848Z",
+      "platform": "VINTED",
+      "id": "10946973631",
+      "title": "polo coat for sale kids",
+      "url": "https://www.vinted.co.uk/items/10946973631-polo-coat-for-sale-kids",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 30,
+      "estimatedNetProfit": 46.7,
+      "roi": 155.67,
+      "score": 89
+    },
     {
       "at": "2026-11-23T20:23:39.880Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 33.35,
       "roi": 95.29,
       "score": 84
-    },
-    {
-      "at": "2026-11-20T17:10:29.802Z",
-      "platform": "VINTED",
-      "id": "10892999722",
-      "title": "ralph lauren puffer gilet with faux fur trim detachable hood size xl",
-      "url": "https://www.vinted.co.uk/items/10892999722-ralph-lauren-puffer-gilet-with-faux-fur-trim-detachable-hood-size-xl",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 34,
-      "estimatedNetProfit": 40.12,
-      "roi": 118,
-      "score": 92
     }
   ]
 }
