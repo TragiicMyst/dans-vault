@@ -2,29 +2,53 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-11-25T08:02:48.638Z",
+    "startedAt": "2026-11-25T18:39:46.768Z",
     "searchGroups": [
-      "hunter:north-face-coat",
-      "hunter:north-face-puffer",
-      "hunter:north-face-700",
-      "hunter:mens-north-face-jacket",
-      "hunter:rab-puffer",
-      "hunter:rab-down-jacket",
-      "hunter:patagonia-puffer",
-      "hunter:arcteryx-jacket"
+      "patagonia-down-sweater:patagonia-down-sweater-hoody",
+      "patagonia-fitz-roy:patagonia-fitz-roy-down",
+      "arcteryx-cerium:arcteryx-cerium-jacket",
+      "arcteryx-cerium:arc-teryx-cerium",
+      "arcteryx-thorium:arcteryx-thorium-jacket",
+      "arcteryx-thorium:arc-teryx-thorium",
+      "ralph-lauren-puffer:ralph-lauren-puffer-jacket",
+      "ralph-lauren-puffer:polo-ralph-lauren-down-jacket"
     ],
-    "vintedItems": 280,
-    "freshItems": 9,
+    "vintedItems": 174,
+    "freshItems": 3,
     "freshByAge": 0,
-    "freshByNewId": 9,
+    "freshByNewId": 3,
     "bootstrapBlocked": 0,
-    "staleBlocked": 82,
-    "candidates": 0,
+    "staleBlocked": 0,
+    "candidates": 3,
     "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-11-25T18:33:52.184Z",
+      "platform": "VINTED",
+      "id": "10965589129",
+      "title": "polo jacket",
+      "url": "https://www.vinted.co.uk/items/10965589129-polo-jacket",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 30,
+      "estimatedNetProfit": 44.08,
+      "roi": 146.93,
+      "score": 93
+    },
+    {
+      "at": "2026-11-25T18:33:51.497Z",
+      "platform": "VINTED",
+      "id": "10967891408",
+      "title": "ralph lauren puffer coat uk 10",
+      "url": "https://www.vinted.co.uk/items/10967891408-ralph-lauren-puffer-coat-uk-10",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 25,
+      "estimatedNetProfit": 38.44,
+      "roi": 153.76,
+      "score": 95
+    },
     {
       "at": "2026-11-25T07:59:51.920Z",
       "platform": "VINTED",
@@ -240,30 +264,6 @@
       "estimatedNetProfit": 42.54,
       "roi": 121.54,
       "score": 87
-    },
-    {
-      "at": "2026-11-22T19:56:04.323Z",
-      "platform": "VINTED",
-      "id": "10929548673",
-      "title": "polo ralph lauren forest green merino wool beanie new with tags",
-      "url": "https://www.vinted.co.uk/items/10929548673-polo-ralph-lauren-forest-green-merino-wool-beanie-new-with-tags",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 36,
-      "estimatedNetProfit": 44.86,
-      "roi": 124.61,
-      "score": 87
-    },
-    {
-      "at": "2026-11-22T04:11:24.528Z",
-      "platform": "VINTED",
-      "id": "10916074818",
-      "title": "mens polo jacket",
-      "url": "https://www.vinted.co.uk/items/10916074818-mens-polo-jacket",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 40,
-      "estimatedNetProfit": 31.73,
-      "roi": 79.33,
-      "score": 82
     }
   ]
 }
