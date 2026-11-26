@@ -2,29 +2,41 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-11-26T02:01:57.943Z",
+    "startedAt": "2026-11-26T10:46:30.811Z",
     "searchGroups": [
-      "hunter:polo-puffer-jacket",
-      "hunter:nike-puffer-jacket",
-      "hunter:berghaus-puffer",
-      "hunter:napapijri-jacket",
-      "tnf-1996-nuptse:north-face-nuptse-700",
-      "tnf-1996-nuptse:north-face-1996-nuptse",
-      "tnf-himalayan:north-face-himalayan-puffer",
-      "tnf-himalayan:north-face-hmlyn-parka"
+      "berghaus-down:berghaus-down-jacket",
+      "berghaus-down:berghaus-puffer-jacket",
+      "napapijri-skidoo:napapijri-skidoo-jacket",
+      "napapijri-skidoo:napapijri-rainforest-winter",
+      "hunter:north-face-coat",
+      "hunter:north-face-puffer",
+      "hunter:north-face-700",
+      "hunter:mens-north-face-jacket"
     ],
-    "vintedItems": 255,
-    "freshItems": 39,
+    "vintedItems": 274,
+    "freshItems": 33,
     "freshByAge": 0,
-    "freshByNewId": 39,
+    "freshByNewId": 33,
     "bootstrapBlocked": 0,
-    "staleBlocked": 5,
-    "candidates": 11,
-    "alerts": 2,
+    "staleBlocked": 50,
+    "candidates": 3,
+    "alerts": 0,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-11-26T10:43:37.700Z",
+      "platform": "VINTED",
+      "id": "10976419152",
+      "title": "ralph lauren padded coat uk 10",
+      "url": "https://www.vinted.co.uk/items/10976419152-ralph-lauren-padded-coat-uk-10",
+      "modelId": "ralph-lauren-puffer",
+      "buyPrice": 35,
+      "estimatedNetProfit": 28.64,
+      "roi": 81.83,
+      "score": 85
+    },
     {
       "at": "2026-11-26T02:02:01.125Z",
       "platform": "VINTED",
@@ -252,18 +264,6 @@
       "estimatedNetProfit": 38.08,
       "roi": 253.87,
       "score": 91
-    },
-    {
-      "at": "2026-11-23T20:23:37.754Z",
-      "platform": "VINTED",
-      "id": "10938953782",
-      "title": "polo ralph lauren coat jacket boys l",
-      "url": "https://www.vinted.co.uk/items/10938953782-polo-ralph-lauren-coat-jacket-boys-l",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 45,
-      "estimatedNetProfit": 31.78,
-      "roi": 70.62,
-      "score": 80
     }
   ]
 }
