@@ -2,29 +2,65 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-11-27T02:33:35.185Z",
+    "startedAt": "2026-11-27T11:23:05.537Z",
     "searchGroups": [
-      "hunter:patagonia-puffer",
-      "hunter:arcteryx-jacket",
-      "hunter:arc-teryx-puffer",
-      "hunter:ralph-lauren-puffer",
-      "hunter:polo-puffer-jacket",
-      "hunter:nike-puffer-jacket",
-      "hunter:berghaus-puffer",
-      "hunter:napapijri-jacket"
+      "ralph-lauren-puffer:ralph-lauren-puffer-jacket",
+      "ralph-lauren-puffer:polo-ralph-lauren-down-jacket",
+      "nike-puffer:nike-puffer-jacket-mens",
+      "nike-puffer:nike-down-jacket",
+      "berghaus-down:berghaus-down-jacket",
+      "berghaus-down:berghaus-puffer-jacket",
+      "napapijri-skidoo:napapijri-skidoo-jacket",
+      "napapijri-skidoo:napapijri-rainforest-winter"
     ],
-    "vintedItems": 280,
-    "freshItems": 19,
+    "vintedItems": 274,
+    "freshItems": 17,
     "freshByAge": 0,
-    "freshByNewId": 19,
+    "freshByNewId": 17,
     "bootstrapBlocked": 0,
-    "staleBlocked": 15,
-    "candidates": 4,
+    "staleBlocked": 23,
+    "candidates": 9,
     "alerts": 1,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-11-27T11:23:11.939Z",
+      "platform": "VINTED",
+      "id": "10987421810",
+      "title": "berghaus puffer jacket",
+      "url": "https://www.vinted.co.uk/items/10987421810-berghaus-puffer-jacket",
+      "modelId": "berghaus-down",
+      "buyPrice": 2,
+      "estimatedNetProfit": 51.8,
+      "roi": 2590,
+      "score": 90
+    },
+    {
+      "at": "2026-11-27T11:20:07.432Z",
+      "platform": "VINTED",
+      "id": "10987711320",
+      "title": "rab womens electron pro down gilet vest uk 10",
+      "url": "https://www.vinted.co.uk/items/10987711320-rab-womens-electron-pro-down-gilet-vest-uk-10",
+      "modelId": "rab-electron",
+      "buyPrice": 1,
+      "estimatedNetProfit": 86,
+      "roi": 8600,
+      "score": 91
+    },
+    {
+      "at": "2026-11-27T11:17:14.650Z",
+      "platform": "VINTED",
+      "id": "10985599341",
+      "title": "rab microlight alpine body warmer mens xxl 700 down",
+      "url": "https://www.vinted.co.uk/items/10985599341-rab-microlight-alpine-body-warmer-mens-xxl-700-down",
+      "modelId": "rab-microlight",
+      "buyPrice": 1,
+      "estimatedNetProfit": 67.21,
+      "roi": 6721,
+      "score": 93
+    },
     {
       "at": "2026-11-27T02:33:42.460Z",
       "platform": "VINTED",
@@ -228,42 +264,6 @@
       "estimatedNetProfit": 38.44,
       "roi": 153.76,
       "score": 95
-    },
-    {
-      "at": "2026-11-25T07:59:51.920Z",
-      "platform": "VINTED",
-      "id": "10959225335",
-      "title": "mens blue ralph lauren jacket",
-      "url": "https://www.vinted.co.uk/items/10959225335-mens-blue-ralph-lauren-jacket",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 30,
-      "estimatedNetProfit": 43.75,
-      "roi": 145.83,
-      "score": 94
-    },
-    {
-      "at": "2026-11-25T00:01:04.180Z",
-      "platform": "VINTED",
-      "id": "10957247361",
-      "title": "polo ralph lauren reversible puffer vest gilet red navy new with tags",
-      "url": "https://www.vinted.co.uk/items/10957247361-polo-ralph-lauren-reversible-puffer-vest-gilet-red-navy-new-with-tags",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 36,
-      "estimatedNetProfit": 44.15,
-      "roi": 122.64,
-      "score": 92
-    },
-    {
-      "at": "2026-11-24T23:58:05.177Z",
-      "platform": "VINTED",
-      "id": "10955085723",
-      "title": "the north face 700 down jacket",
-      "url": "https://www.vinted.co.uk/items/10955085723-the-north-face-700-down-jacket",
-      "modelId": "tnf-1996-nuptse",
-      "buyPrice": 45,
-      "estimatedNetProfit": 42.27,
-      "roi": 93.93,
-      "score": 82
     }
   ]
 }
