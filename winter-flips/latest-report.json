@@ -2,29 +2,65 @@
   "diagnostics": {
     "version": 2,
     "source": "VINTED",
-    "startedAt": "2026-11-27T20:09:10.504Z",
+    "startedAt": "2026-11-28T02:42:22.748Z",
     "searchGroups": [
-      "tnf-himalayan:north-face-himalayan-puffer",
-      "tnf-himalayan:north-face-hmlyn-parka",
-      "tnf-baltoro:north-face-baltoro-jacket",
-      "tnf-summit-down:north-face-summit-series-down",
-      "rab-microlight:rab-microlight-alpine",
-      "rab-neutrino:rab-neutrino-pro",
-      "rab-electron:rab-electron-pro",
-      "patagonia-down-sweater:patagonia-down-sweater-jacket"
+      "hunter:north-face-700",
+      "hunter:mens-north-face-jacket",
+      "hunter:rab-puffer",
+      "hunter:rab-down-jacket",
+      "hunter:patagonia-puffer",
+      "hunter:arcteryx-jacket",
+      "hunter:arc-teryx-puffer",
+      "hunter:ralph-lauren-puffer"
     ],
-    "vintedItems": 181,
-    "freshItems": 2,
+    "vintedItems": 280,
+    "freshItems": 17,
     "freshByAge": 0,
-    "freshByNewId": 2,
+    "freshByNewId": 17,
     "bootstrapBlocked": 0,
-    "staleBlocked": 1,
-    "candidates": 2,
+    "staleBlocked": 16,
+    "candidates": 4,
     "alerts": 1,
     "supplyVacuumAlerts": 0,
     "failures": []
   },
   "topRecent": [
+    {
+      "at": "2026-11-28T02:42:26.798Z",
+      "platform": "VINTED",
+      "id": "10995156470",
+      "title": "rab microlight windstopper uk m",
+      "url": "https://www.vinted.co.uk/items/10995156470-rab-microlight-windstopper-uk-m",
+      "modelId": "rab-microlight",
+      "buyPrice": 11,
+      "estimatedNetProfit": 59.07,
+      "roi": 537,
+      "score": 93
+    },
+    {
+      "at": "2026-11-28T02:39:32.233Z",
+      "platform": "VINTED",
+      "id": "10995927132",
+      "title": "the north face high pile sherpa cropped nuptse jacket size m",
+      "url": "https://www.vinted.co.uk/items/10995927132-the-north-face-high-pile-sherpa-cropped-nuptse-jacket-size-m",
+      "modelId": "tnf-1996-nuptse",
+      "buyPrice": 44,
+      "estimatedNetProfit": 36.3,
+      "roi": 82.5,
+      "score": 80
+    },
+    {
+      "at": "2026-11-28T02:36:25.258Z",
+      "platform": "VINTED",
+      "id": "10970744208",
+      "title": "patagonia babies fitz roy patchwork reversible padded recycled down jacket size 3 6 months",
+      "url": "https://www.vinted.co.uk/items/10970744208-patagonia-babies-fitz-roy-patchwork-reversible-padded-recycled-down-jacket-size-3-6-months",
+      "modelId": "patagonia-fitz-roy",
+      "buyPrice": 1,
+      "estimatedNetProfit": 126.8,
+      "roi": 12680,
+      "score": 86
+    },
     {
       "at": "2026-11-27T20:09:16.035Z",
       "platform": "VINTED",
@@ -228,42 +264,6 @@
       "estimatedNetProfit": 47.58,
       "roi": 793,
       "score": 87
-    },
-    {
-      "at": "2026-11-26T19:50:12.773Z",
-      "platform": "VINTED",
-      "id": "10981535010",
-      "title": "nike puffer jacket coats",
-      "url": "https://www.vinted.co.uk/items/10981535010-nike-puffer-jacket-coats",
-      "modelId": "nike-puffer",
-      "buyPrice": 2,
-      "estimatedNetProfit": 52.66,
-      "roi": 2633,
-      "score": 92
-    },
-    {
-      "at": "2026-11-26T19:50:11.883Z",
-      "platform": "VINTED",
-      "id": "10981820679",
-      "title": "nike puffer",
-      "url": "https://www.vinted.co.uk/items/10981820679-nike-puffer",
-      "modelId": "nike-puffer",
-      "buyPrice": 2,
-      "estimatedNetProfit": 54.11,
-      "roi": 2705.5,
-      "score": 87
-    },
-    {
-      "at": "2026-11-26T10:43:37.700Z",
-      "platform": "VINTED",
-      "id": "10976419152",
-      "title": "ralph lauren padded coat uk 10",
-      "url": "https://www.vinted.co.uk/items/10976419152-ralph-lauren-padded-coat-uk-10",
-      "modelId": "ralph-lauren-puffer",
-      "buyPrice": 35,
-      "estimatedNetProfit": 28.64,
-      "roi": 81.83,
-      "score": 85
     }
   ]
 }
